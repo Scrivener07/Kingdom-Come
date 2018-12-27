@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>KingdomCome.Library</RootNamespace>
+  </PropertyGroup>
+
+  <Import Project="..\..\..\Scribe\CSharp\Source\Sharp\Sharp.projitems" Label="Shared" />
+
+</Project>
