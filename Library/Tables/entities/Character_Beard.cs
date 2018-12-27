@@ -45,26 +45,19 @@ namespace KingdomCome.Library.Tables
 		}
 
 
-		public Character_Beard(Table table, BinaryReader reader) : base(table)
+		public Character_Beard(Table table, BinaryReader reader) : base(table, reader)
 		{
-			if (reader.BaseStream.Position == 28)
-			{
-				ComputerName = reader.ReadTableInteger();
-				Timestamp = reader.ReadTableInteger();
-				CharacterBeard_ID = reader.ReadTableGuid();
-				CharacterBeard_Name = reader.ReadTableInteger();
-				Model = reader.ReadTableInteger();
-				Material = reader.ReadTableInteger();
-				SocialClass_ID = reader.ReadTableInteger();
-				WealthLevel = reader.ReadTableInteger();
-				Gender_ID = reader.ReadTableInteger();
-				Race_ID = reader.ReadTableInteger();
-				CharacterBeard_Archetype_ID = reader.ReadTableInteger();
-			}
-			else
-			{
-				throw new ArgumentException("The reader postion must be 28 but is equal to " + reader.BaseStream.Position + ".");
-			}
+			ComputerName = reader.ReadTableInteger();
+			Timestamp = reader.ReadTableInteger();
+			CharacterBeard_ID = reader.ReadTableGuid();
+			CharacterBeard_Name = reader.ReadTableInteger();
+			Model = reader.ReadTableInteger();
+			Material = reader.ReadTableInteger();
+			SocialClass_ID = reader.ReadTableInteger();
+			WealthLevel = reader.ReadTableInteger();
+			Gender_ID = reader.ReadTableInteger();
+			Race_ID = reader.ReadTableInteger();
+			CharacterBeard_Archetype_ID = reader.ReadTableInteger();
 		}
 
 

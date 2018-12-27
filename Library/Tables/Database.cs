@@ -41,8 +41,8 @@ namespace KingdomCome.Library.Tables
 
 		public void Import()
 		{
-			// TODO: Using a top level only search for testing purposes.
 			ImportDirectory(Folder);
+			//ImportFile(Path.Combine(Folder, "game_mode.tbl"));
 		}
 
 

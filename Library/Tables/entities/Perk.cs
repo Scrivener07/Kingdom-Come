@@ -47,7 +47,7 @@ namespace KingdomCome.Library.Tables
 		}
 
 
-		public Perk(Table table, BinaryReader reader) : base(table)
+		public Perk(Table table, BinaryReader reader) : base(table, reader)
 		{
 			perk_id = reader.ReadTableGuid();
 			parent_id = reader.ReadTableGuid();

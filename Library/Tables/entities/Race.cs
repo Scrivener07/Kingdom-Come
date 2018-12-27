@@ -3,6 +3,8 @@ using System.IO;
 
 namespace KingdomCome.Library.Tables
 {
+	//poi_type_id(uuid; 16 bytes)
+	//perk_id(uuid; 16 bytes)
 	public class Race : Entity
 	{
 
@@ -12,7 +14,7 @@ namespace KingdomCome.Library.Tables
 		}
 
 
-		public Race(Table table, BinaryReader reader) : base(table)
+		public Race(Table table, BinaryReader reader) : base(table, reader)
 		{
 			throw new NotImplementedException();
 		}

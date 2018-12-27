@@ -18,13 +18,14 @@ namespace KingdomCome.Library.Tables
 		public const uint DLC = 0xdb96e796;
 		public const uint Editor_Object = 0x8ae3114e;
 		public const uint Editor_Object_Binding = 0xf5f64b06;
+		public const uint Faction = 0xd1b6bf5f;
+		public const uint Game_Mode = 0xB24CF8DF;
 		public const uint Perk = 0x391674DE;
 		public const uint Race = 0xc063cd1a;
 		public const uint Random_Event = 0xc80f132c;
 		public const uint Random_Event_Option = 0xae0f3ae6;
 		public const uint Random_Event_Option_Set = 0xa44f3f0;
 		public const uint Random_Event_Source_Type = 0x5f259326;
-		public const uint Faction = 0xd1b6bf5f;
 		#endregion
 
 
@@ -39,21 +40,23 @@ namespace KingdomCome.Library.Tables
 		/// </summary>
 		public static void Initialize()
 		{
-			Register(Achievement_Rule, typeof(Achievement_Rule));
 			Register(Achievement, typeof(Achievement));
+			Register(Achievement_Rule, typeof(Achievement_Rule));
 			Register(Character_Beard, typeof(Character_Beard));
-			Register(Character_Body, null);
-			Register(Character_Hair, null);
-			Register(Character_Head, null);
-			Register(DLC, null);
-			Register(Editor_Object_Binding, null);
-			Register(Editor_Object, null);
+			Register(Character_Body, typeof(Character_Body));
+			Register(Character_Hair, typeof(Character_Hair));
+			Register(Character_Head, typeof(Character_Head));
+			Register(DLC, typeof(DLC));
+			Register(Editor_Object, typeof(Editor_Object));
+			Register(Editor_Object_Binding, typeof(Editor_Object_Binding));
+			Register(Faction, typeof(Faction));
+			Register(Game_Mode, typeof(Game_Mode));
 			Register(Perk, typeof(Perk));
 			Register(Race, typeof(Race));
-			Register(Random_Event_Option_Set, null);
-			Register(Random_Event_Option, null);
-			Register(Random_Event_Source_Type, null);
-			Register(Random_Event, null);
+			Register(Random_Event, typeof(Random_Event));
+			Register(Random_Event_Option, typeof(Random_Event_Option));
+			Register(Random_Event_Option_Set, typeof(Random_Event_Option_Set));
+			Register(Random_Event_Source_Type, typeof(Random_Event_Source_Type));
 			Console.WriteLine("Initialized with " + Count + " definitions.");
 		}
 

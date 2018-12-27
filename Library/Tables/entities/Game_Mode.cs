@@ -3,6 +3,7 @@ using System.IO;
 
 namespace KingdomCome.Library.Tables
 {
+	// Note: This definition is not documented on the wiki.
 	public class Game_Mode : Entity
 	{
 		public int Game_Mode_ID { get; set; }
@@ -18,7 +19,7 @@ namespace KingdomCome.Library.Tables
 		}
 
 
-		public Game_Mode(Table table, BinaryReader reader) : base(table)
+		public Game_Mode(Table table, BinaryReader reader) : base(table, reader)
 		{
 			Game_Mode_ID = reader.ReadTableInteger();
 			Game_Mode_Name = reader.ReadTableText();
