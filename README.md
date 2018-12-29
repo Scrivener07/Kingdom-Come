@@ -53,8 +53,8 @@ This will change once I break off the pieces I need.
 |--------------------------|--------|---------|
 | poi_type_id              | Guid   | 128 bit |
 | mark_type                | Int    | 32 bit  |
-| label                    | String | &nbsp;  |
-| discovery_msg            | String | &nbsp;  |
+| label                    | String | *       |
+| discovery_msg            | String | *       |
 | discovery_dist           | Float  | 32 bit  |
 | compass_mark_type_id     | Int    | 32 bit  |
 | associated_codex_perk_id | Guid   | 128 bit |
