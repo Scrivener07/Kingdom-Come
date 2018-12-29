@@ -74,6 +74,11 @@
     <Compile Include="Tables\Format\TableStringData.cs" />
     <Compile Include="Tables\Table.cs" />
   </ItemGroup>
-  <Import Project="..\..\..\..\Scribe\CSharp\Source\Sharp\Sharp.projitems" Label="Shared" />
+  <ItemGroup>
+    <ProjectReference Include="..\Sharp\Sharp.csproj">
+      <Project>{ed96bc0d-7897-4716-a714-ea07ac85725a}</Project>
+      <Name>Sharp</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -6,13 +6,11 @@ namespace KCD.Library.Tables.Format
 {
 	public class TableRowData : DataBlock
 	{
-		public int Data { get; private set; }
-		public Entity CLR { get; private set; }
-
+		public object Data { get; private set; }
 
 		public TableRowData(Table table) : base(table)
 		{
-			Data = 0;
+			Data = new object();
 		}
 
 
@@ -20,99 +18,127 @@ namespace KCD.Library.Tables.Format
 
 		public override long GetSize()
 		{
-			return Self.Header.LineSize;
+			return Self.Header.LineSize * Self.Header.LineCount;
 		}
+
+
+
 
 
 		public override bool Read(BinaryReader reader)
 		{
+			byte[] bytes = new byte[0]; // TODO: array size
+			int index = 0;
+			while (index < Self.Header.LineCount)
+			{
+				ReadRow(reader);
+				index += 1;
+			}
+
+			return true;
+		}
+
+
+		private bool ReadRow(BinaryReader reader)
+		{
 			bool success = true;
+			Entity entity;
 			try
 			{
 				if (Self.Key == Definition.Achievement)
 				{
-					CLR = new Achievement(Self, reader);
-					Self.Owner.Entities.Add(CLR);
+					entity = new Achievement(Self, reader);
+					Self.Owner.Entities.Add(entity);
 				}
 				else if (Self.Key == Definition.Achievement_Rule)
 				{
-					CLR = new Achievement_Rule(Self, reader);
-					Self.Owner.Entities.Add(CLR);
+					entity = new Achievement_Rule(Self, reader);
+					Self.Owner.Entities.Add(entity);
 				}
 				else if (Self.Key == Definition.Character_Beard)
 				{
-					CLR = new Character_Beard(Self, reader);
-					Self.Owner.Entities.Add(CLR);
+					entity = new Character_Beard(Self, reader);
+					Self.Owner.Entities.Add(entity);
 				}
 				else if (Self.Key == Definition.Character_Body)
 				{
-					CLR = new Character_Body(Self, reader);
-					Self.Owner.Entities.Add(CLR);
+					entity = new Character_Body(Self, reader);
+					Self.Owner.Entities.Add(entity);
 				}
 				else if (Self.Key == Definition.Character_Hair)
 				{
-					CLR = new Character_Hair(Self, reader);
-					Self.Owner.Entities.Add(CLR);
+					entity = new Character_Hair(Self, reader);
+					Self.Owner.Entities.Add(entity);
 				}
 				else if (Self.Key == Definition.Character_Head)
 				{
-					CLR = new Character_Head(Self, reader);
-					Self.Owner.Entities.Add(CLR);
+					entity = new Character_Head(Self, reader);
+					Self.Owner.Entities.Add(entity);
 				}
 				else if (Self.Key == Definition.DLC)
 				{
-					CLR = new DLC(Self, reader);
-					Self.Owner.Entities.Add(CLR);
+					entity = new DLC(Self, reader);
+					Self.Owner.Entities.Add(entity);
 				}
 				else if (Self.Key == Definition.Editor_Object)
 				{
-					CLR = new Editor_Object(Self, reader);
-					Self.Owner.Entities.Add(CLR);
+					entity = new Editor_Object(Self, reader);
+					Self.Owner.Entities.Add(entity);
 				}
 				else if (Self.Key == Definition.Editor_Object_Binding)
 				{
-					CLR = new Editor_Object_Binding(Self, reader);
-					Self.Owner.Entities.Add(CLR);
+					entity = new Editor_Object_Binding(Self, reader);
+					Self.Owner.Entities.Add(entity);
 				}
 				else if (Self.Key == Definition.Faction)
 				{
-					CLR = new Faction(Self, reader);
-					Self.Owner.Entities.Add(CLR);
+					entity = new Faction(Self, reader);
+					Self.Owner.Entities.Add(entity);
 				}
 				else if (Self.Key == Definition.Game_Mode)
 				{
-					CLR = new Game_Mode(Self, reader);
-					Self.Owner.Entities.Add(CLR);
+					entity = new Game_Mode(Self, reader);
+					Self.Owner.Entities.Add(entity);
 				}
 				else if (Self.Key == Definition.Perk)
 				{
-					CLR = new Perk(Self, reader);
-					Self.Owner.Entities.Add(CLR);
+					entity = new Perk(Self, reader);
+					Self.Owner.Entities.Add(entity);
+				}
+				else if (Self.Key == Definition.POI_Type)
+				{
+					entity = new POI_Type(Self, reader);
+					Self.Owner.Entities.Add(entity);
+				}
+				else if (Self.Key == Definition.POI_Type2Perk)
+				{
+					entity = new POI_Type2Perk(Self, reader);
+					Self.Owner.Entities.Add(entity);
 				}
 				else if (Self.Key == Definition.Race)
 				{
-					CLR = new Race(Self, reader);
-					Self.Owner.Entities.Add(CLR);
+					entity = new Race(Self, reader);
+					Self.Owner.Entities.Add(entity);
 				}
 				else if (Self.Key == Definition.Random_Event)
 				{
-					CLR = new Random_Event(Self, reader);
-					Self.Owner.Entities.Add(CLR);
+					entity = new Random_Event(Self, reader);
+					Self.Owner.Entities.Add(entity);
 				}
 				else if (Self.Key == Definition.Random_Event_Option)
 				{
-					CLR = new Random_Event_Option(Self, reader);
-					Self.Owner.Entities.Add(CLR);
+					entity = new Random_Event_Option(Self, reader);
+					Self.Owner.Entities.Add(entity);
 				}
 				else if (Self.Key == Definition.Random_Event_Option_Set)
 				{
-					CLR = new Random_Event_Option_Set(Self, reader);
-					Self.Owner.Entities.Add(CLR);
+					entity = new Random_Event_Option_Set(Self, reader);
+					Self.Owner.Entities.Add(entity);
 				}
 				else if (Self.Key == Definition.Random_Event_Source_Type)
 				{
-					CLR = new Random_Event_Source_Type(Self, reader);
-					Self.Owner.Entities.Add(CLR);
+					entity = new Random_Event_Source_Type(Self, reader);
+					Self.Owner.Entities.Add(entity);
 				}
 				else
 				{
