@@ -4,7 +4,7 @@ using System.IO;
 using Sharp;
 using Sharp.Reporting;
 
-namespace KingdomCome.Library.Tables
+namespace KCD.Library.Tables
 {
 	public class Database
 	{
@@ -41,8 +41,8 @@ namespace KingdomCome.Library.Tables
 
 		public void Import()
 		{
-			ImportDirectory(Folder);
-			//ImportFile(Path.Combine(Folder, "game_mode.tbl"));
+			//ImportDirectory(Folder);
+			ImportFile(Path.Combine(Folder, "rpg", "poi_type.tbl"));
 		}
 
 

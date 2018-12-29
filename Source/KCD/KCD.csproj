@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3913D49E-DA83-4697-A48D-8F28B037B8D0}</ProjectGuid>
+    <ProjectGuid>{B17C8FD1-D965-4A70-B496-42CBC38B2096}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>KingdomCome</RootNamespace>
-    <AssemblyName>KingdomCome</AssemblyName>
+    <RootNamespace>KCD</RootNamespace>
+    <AssemblyName>KCD</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Library\Library.csproj">
-      <Project>{3f147027-217f-451d-9e82-ed05f67e57d4}</Project>
-      <Name>Library</Name>
+    <ProjectReference Include="..\KCD.Library\KCD.Library.csproj">
+      <Project>{68156410-c079-430e-b13c-217818cf7f9d}</Project>
+      <Name>KCD.Library</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
