@@ -1,0 +1,26 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "KCD:Analyze Table",
+			"type": "shell",
+			"command": "python tblfile.py",
+			"args": [
+				".\\KCD\\Data\\Libs\\Tables\\rpg\\poi_type.tbl",
+				".\\KCD\\Data\\Libs\\Tables\\rpg\\poi_type2perk.tbl"
+			],
+			"problemMatcher": []
+		},
+		{
+			"label": "KCD:Tree Directory",
+			"type": "shell",
+			"command": "tree /F /A",
+			"args": [
+				".\\KCD\\Data\\Libs\\Tables"
+			],
+			"problemMatcher": []
+		}
+	]
+}
