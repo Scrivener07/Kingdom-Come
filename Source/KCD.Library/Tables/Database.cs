@@ -42,7 +42,7 @@ namespace KCD.Library.Tables
 		public void Import()
 		{
 			//ImportDirectory(Folder);
-			ImportFile(Path.Combine(Folder, "rpg", "poi_type.tbl"));
+			ImportFile(Path.Combine(Folder, "rpg", "poi_type2Perk.tbl"));
 		}
 
 
