@@ -10,7 +10,7 @@ namespace KCD.Library.Tables
 	//superfaction_id(integer; 4 bytes)
 	//location_id(uuid; 16 bytes)
 	//visible(boolean; 1 bytes)
-	public class Faction : Entity
+	public class Faction : Row
 	{
 
 		public Faction(Table table) : base(table)
@@ -20,6 +20,12 @@ namespace KCD.Library.Tables
 
 
 		public Faction(Table table, BinaryReader reader) : base(table, reader)
+		{
+			throw new NotImplementedException();
+		}
+
+
+		protected override Guid GetID()
 		{
 			throw new NotImplementedException();
 		}

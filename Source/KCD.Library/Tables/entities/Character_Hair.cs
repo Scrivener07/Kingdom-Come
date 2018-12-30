@@ -14,7 +14,7 @@ namespace KCD.Library.Tables
 	//gender_id(integer; 4 bytes)
 	//race_id(integer; 4 bytes)
 	//character_hair_archetype_id(integer; 4 bytes)
-	public class Character_Hair : Entity
+	public class Character_Hair : Row
 	{
 
 		public Character_Hair(Table table) : base(table)
@@ -27,6 +27,13 @@ namespace KCD.Library.Tables
 		{
 			throw new NotImplementedException();
 		}
+
+
+		protected override Guid GetID()
+		{
+			throw new NotImplementedException();
+		}
+
 
 	}
 }

@@ -22,7 +22,7 @@ namespace KCD.Library.Tables
 		/// <summary>
 		/// A collection of table entities which exist as CLR objects.
 		/// </summary>
-		public BindingList<Entity> Entities { get; private set; }
+		public BindingList<Row> Rows { get; private set; }
 
 
 		public Database(string folder)
@@ -34,7 +34,7 @@ namespace KCD.Library.Tables
 			Folder = folder;
 			Definition.Initialize();
 			Tables = new BindingList<Table>();
-			Entities = new BindingList<Entity>();
+			Rows = new BindingList<Row>();
 			Console.WriteLine("Created the database.\n\n");
 		}
 

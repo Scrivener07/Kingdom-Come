@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 
 namespace KCD.Library.Tables
 {
@@ -8,7 +9,7 @@ namespace KCD.Library.Tables
 	//xboxlive_id(text; 4 bytes)
 	//unlock_on_steam(boolean; 1 bytes)
 	//platform_unlockable(boolean; 1 bytes)
-	public class Achievement : Entity
+	public class Achievement : Row
 	{
 		public int achievement_id { get; set; }
 		public int achievement_name { get; set; }
@@ -36,6 +37,12 @@ namespace KCD.Library.Tables
 			xboxlive_id = reader.ReadTableText();
 			unlock_on_steam = reader.ReadTableBoolean();
 			platform_unlockable = reader.ReadTableBoolean();
+		}
+
+
+		protected override Guid GetID()
+		{
+			throw new NotImplementedException();
 		}
 
 

@@ -5,7 +5,7 @@ namespace KCD.Library.Tables
 {
 	//poi_type_id(uuid; 16 bytes)
 	//perk_id(uuid; 16 bytes)
-	public class POI_Type2Perk : Entity
+	public class POI_Type2Perk : Row
 	{
 		public Guid POI_Type_ID { get; set; }
 		public Guid Perk_ID { get; set; }
@@ -22,6 +22,12 @@ namespace KCD.Library.Tables
 		{
 			POI_Type_ID = reader.ReadTableGuid();
 			Perk_ID = reader.ReadTableGuid();
+		}
+
+
+		protected override Guid GetID()
+		{
+			throw new NotImplementedException();
 		}
 
 

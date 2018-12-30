@@ -67,11 +67,11 @@
     <Compile Include="Tables\entities\Random_Event_Option.cs" />
     <Compile Include="Tables\entities\Random_Event_Option_Set.cs" />
     <Compile Include="Tables\entities\Random_Event_Source_Type.cs" />
-    <Compile Include="Tables\Entity.cs" />
-    <Compile Include="Tables\Format\DataBlock.cs" />
-    <Compile Include="Tables\Format\TableHeader.cs" />
-    <Compile Include="Tables\Format\TableRowData.cs" />
-    <Compile Include="Tables\Format\TableStringData.cs" />
+    <Compile Include="Tables\Row.cs" />
+    <Compile Include="Tables\Format\Block.cs" />
+    <Compile Include="Tables\Format\HeaderBlock.cs" />
+    <Compile Include="Tables\Format\RowBlock.cs" />
+    <Compile Include="Tables\Format\TextBlock.cs" />
     <Compile Include="Tables\Table.cs" />
   </ItemGroup>
   <ItemGroup>

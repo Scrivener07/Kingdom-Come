@@ -8,7 +8,7 @@ namespace KCD.Library.Tables
 	//achievement_rule_name(text; 4 bytes)
 	//threshold(real; 4 bytes)
 	//achievement_rule_action_id(integer; 4 bytes)
-	public class Achievement_Rule : Entity
+	public class Achievement_Rule : Row
 	{
 
 		public Achievement_Rule(Table table) : base(table)
@@ -21,6 +21,13 @@ namespace KCD.Library.Tables
 		{
 			throw new NotImplementedException();
 		}
+
+
+		protected override Guid GetID()
+		{
+			throw new NotImplementedException();
+		}
+
 
 	}
 }

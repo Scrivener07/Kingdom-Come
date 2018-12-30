@@ -13,7 +13,7 @@ namespace KCD.Library.Tables
 	//discovery_msg_mode(integer; 4 bytes)
 	//discoverable_by_location(boolean; 1 bytes)
 	//ui_order(integer; 4 bytes)
-	public class POI_Type : Entity
+	public class POI_Type : Row
 	{
 		public Guid POI_Type_ID { get; set; }
 		public int Mark_Type { get; set; }
@@ -25,6 +25,7 @@ namespace KCD.Library.Tables
 		public int Discovery_MSG_Mode { get; set; }
 		public bool Discoverable_By_Location { get; set; }
 		public int UI_Order { get; set; }
+
 
 		public POI_Type(Table table) : base(table)
 		{
@@ -53,6 +54,12 @@ namespace KCD.Library.Tables
 			Discovery_MSG_Mode = reader.ReadTableInteger();
 			Discoverable_By_Location = reader.ReadTableBoolean();
 			UI_Order = reader.ReadTableInteger();
+		}
+
+
+		protected override Guid GetID()
+		{
+			return POI_Type_ID;
 		}
 
 

@@ -15,7 +15,7 @@ namespace KCD.Library.Tables
 	/// visibility(integer; 4 bytes)
 	/// metaperk_id(uuid; 16 bytes)
 	/// ui_priority(integer; 4 bytes)
-	public class Perk : Entity
+	public class Perk : Row
 	{
 		public Guid perk_id { get; set; }
 		public Guid parent_id { get; set; }
@@ -61,6 +61,12 @@ namespace KCD.Library.Tables
 			visibility = reader.ReadTableInteger();
 			metaperk_id = reader.ReadTableGuid();
 			ui_priority = reader.ReadTableInteger();
+		}
+
+
+		protected override Guid GetID()
+		{
+			throw new NotImplementedException();
 		}
 
 

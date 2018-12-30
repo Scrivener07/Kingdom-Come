@@ -9,7 +9,7 @@ namespace KCD.Library.Tables
 	//id(uuid; 16 bytes)
 	//name(text; 4 bytes)
 	//type(text; 4 bytes)
-	public class Editor_Object : Entity
+	public class Editor_Object : Row
 	{
 
 
@@ -20,6 +20,12 @@ namespace KCD.Library.Tables
 
 
 		public Editor_Object(Table table, BinaryReader reader) : base(table, reader)
+		{
+			throw new NotImplementedException();
+		}
+
+
+		protected override Guid GetID()
 		{
 			throw new NotImplementedException();
 		}

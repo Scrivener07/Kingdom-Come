@@ -41,17 +41,17 @@ namespace KCD.Library.Tables
 		/// <summary>
 		/// The header data for a table file.
 		/// </summary>
-		public TableHeader Header;
+		public HeaderBlock Header;
 
 		/// <summary>
 		/// The row data for a table file.
 		/// </summary>
-		public TableRowData Rows;
+		public RowBlock Row;
 
 		/// <summary>
 		/// The string data for a table file.
 		/// </summary>
-		public TableStringData Strings;
+		public TextBlock Text;
 
 		#endregion
 
@@ -70,9 +70,9 @@ namespace KCD.Library.Tables
 			{
 				Owner = database;
 				FileName = filename;
-				Header = new TableHeader(this);
-				Rows = new TableRowData(this);
-				Strings = new TableStringData(this);
+				Header = new HeaderBlock(this);
+				Row = new RowBlock(this);
+				Text = new TextBlock(this);
 			}
 		}
 
@@ -92,14 +92,14 @@ namespace KCD.Library.Tables
 				FileSize = reader.BaseStream.Length;
 				try
 				{
-					Header = new TableHeader(this);
+					Header = new HeaderBlock(this);
 					Header.Read(reader);
 
-					Rows = new TableRowData(this);
-					Rows.Read(reader);
+					Row = new RowBlock(this);
+					Row.Read(reader);
 
-					Strings = new TableStringData(this);
-					Strings.Read(reader);
+					Text = new TextBlock(this);
+					Text.Read(reader);
 				}
 				catch (Exception exception)
 				{
@@ -119,19 +119,19 @@ namespace KCD.Library.Tables
 		/// </summary>
 		public void Print()
 		{
-			Console.WriteLine("Table File:" + FileName);
-			Console.WriteLine("Header");
-			Console.WriteLine("---- FileFormatVersion:" + Header.FileFormatVersion);
-			Console.WriteLine("---- DescriptorsHash:" + Header.DescriptorsHash);
-			Console.WriteLine("---- LayoutHash:" + Header.LayoutHash);
-			Console.WriteLine("---- TableVersion:" + Header.TableVersion);
-			Console.WriteLine("---- LineCount:" + Header.LineCount);
-			Console.WriteLine("---- StringDataSize:" + Header.StringDataSize);
-			Console.WriteLine("---- UniqueStringCount:" + Header.UniqueStringCount);
-			Console.WriteLine("Rows");
-			Console.WriteLine("---- Data:" + Rows.Data);
-			Console.WriteLine("Strings");
-			Console.WriteLine("---- Data:" + Strings.Data);
+			Console.WriteLine("Table File: " + FileName);
+			Console.WriteLine("Header:" + Header.ToString());
+			Console.WriteLine("---- FormatVersion: " + Header.FormatVersion);
+			Console.WriteLine("---- DescriptorsHash: " + Header.DescriptorsHash);
+			Console.WriteLine("---- LayoutHash: " + Header.LayoutHash);
+			Console.WriteLine("---- TableVersion: " + Header.TableVersion);
+			Console.WriteLine("---- RowCount: " + Header.RowCount);
+			Console.WriteLine("---- StringDataSize: " + Header.StringDataSize);
+			Console.WriteLine("---- StringUniqueCount: " + Header.StringUniqueCount);
+			Console.WriteLine("Row: " + Row.ToString());
+			Console.WriteLine("---- Count: ");
+			Console.WriteLine("Text: " + Text.ToString());
+			Console.WriteLine("---- Data: ");
 			Console.WriteLine("\n");
 		}
 
@@ -139,7 +139,7 @@ namespace KCD.Library.Tables
 		/// <summary>
 		/// The string representation of this object.
 		/// </summary>
-		/// <returns></returns>
+		/// <returns>Returns a string which represents this object.</returns>
 		public override string ToString()
 		{
 			return FileName;

@@ -14,7 +14,7 @@ namespace KCD.Library.Tables
 	//gender_id(integer; 4 bytes)
 	//race_id(integer; 4 bytes)
 	//character_beard_archetype_id(integer; 4 bytes)
-	public class Character_Beard : Entity
+	public class Character_Beard : Row
 	{
 		public int ComputerName { get; set; }
 		public int Timestamp { get; set; }
@@ -58,6 +58,12 @@ namespace KCD.Library.Tables
 			Gender_ID = reader.ReadTableInteger();
 			Race_ID = reader.ReadTableInteger();
 			CharacterBeard_Archetype_ID = reader.ReadTableInteger();
+		}
+
+
+		protected override Guid GetID()
+		{
+			throw new NotImplementedException();
 		}
 
 

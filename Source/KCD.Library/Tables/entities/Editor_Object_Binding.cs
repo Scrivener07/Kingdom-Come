@@ -11,7 +11,7 @@ namespace KCD.Library.Tables
 	//position(text; 4 bytes)
 	//rotate(text; 4 bytes)
 	//scale(text; 4 bytes)
-	public class Editor_Object_Binding : Entity
+	public class Editor_Object_Binding : Row
 	{
 
 		public Editor_Object_Binding(Table table) : base(table)
@@ -21,6 +21,12 @@ namespace KCD.Library.Tables
 
 
 		public Editor_Object_Binding(Table table, BinaryReader reader) : base(table, reader)
+		{
+			throw new NotImplementedException();
+		}
+
+
+		protected override Guid GetID()
 		{
 			throw new NotImplementedException();
 		}

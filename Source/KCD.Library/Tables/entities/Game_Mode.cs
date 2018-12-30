@@ -4,7 +4,7 @@ using System.IO;
 namespace KCD.Library.Tables
 {
 	// Note: This definition is not documented on the wiki.
-	public class Game_Mode : Entity
+	public class Game_Mode : Row
 	{
 		public int Game_Mode_ID { get; set; }
 		public int Game_Mode_Name { get; set; }
@@ -24,6 +24,12 @@ namespace KCD.Library.Tables
 			Game_Mode_ID = reader.ReadTableInteger();
 			Game_Mode_Name = reader.ReadTableText();
 			Player_Perk_ID = reader.ReadTableGuid();
+		}
+
+
+		protected override Guid GetID()
+		{
+			throw new NotImplementedException();
 		}
 
 

@@ -4,17 +4,27 @@ using Sharp.Reporting;
 
 namespace KCD.Library.Tables.Format
 {
+	interface IHeaderBlock
+	{
+		int FormatVersion { get; }
+		uint DescriptorsHash { get; }
+		uint LayoutHash { get; }
+		int TableVersion { get; }
+		int RowCount { get; }
+		int StringDataSize { get; }
+		int StringUniqueCount { get; }
+	}
 	/// <summary>
 	/// Generating new hashes is unnecessary because new XML files cannot be added without modifying the game binaries.
 	/// </summary>
-	public class TableHeader : DataBlock
+	public class HeaderBlock : Block, IHeaderBlock
 	{
-		#region Table
+		#region IHeaderBlock
 
 		/// <summary>
-		/// The table format version used.
+		/// The file format version for this table.
 		/// </summary>
-		public int FileFormatVersion { get; private set; }
+		public int FormatVersion { get; private set; }
 
 		/// <summary>
 		/// The table descriptors hash.
@@ -34,9 +44,9 @@ namespace KCD.Library.Tables.Format
 		public int TableVersion { get; private set; }
 
 		/// <summary>
-		/// The number of rows in this table.
+		/// The number of row lines in this table.
 		/// </summary>
-		public int LineCount { get; private set; }
+		public int RowCount { get; private set; }
 
 		/// <summary>
 		///The total string data block size.
@@ -44,51 +54,56 @@ namespace KCD.Library.Tables.Format
 		public int StringDataSize { get; private set; }
 
 		/// <summary>
-		/// The number of unique strings.
+		/// The number of unique strings in this table.
 		/// </summary>
-		public int UniqueStringCount { get; private set; }
+		public int StringUniqueCount { get; private set; }
 
 		#endregion
 
+
 		/// <summary>
-		/// The size of the row data block.
+		/// Creates a new header block for this table.
 		/// </summary>
-		public long LineSize { get; private set; }
-
-
-		public TableHeader(Table table) : base(table)
+		/// <param name="table">The table which owns this block.</param>
+		public HeaderBlock(Table table) : base(table)
 		{
-			FileFormatVersion = 0;
+			FormatVersion = 0;
 			DescriptorsHash = 0;
 			LayoutHash = 0;
 			TableVersion = 0;
-			LineCount = 0;
+			RowCount = 0;
 			StringDataSize = 0;
-			UniqueStringCount = 0;
-			LineSize = 0;
+			StringUniqueCount = 0;
 		}
 
 
-		#region DataBlock
-
-		public override long GetSize()
+		/// <summary>
+		/// The header size is 7 bytes or 28 bits.
+		/// </summary>
+		/// <returns>The header size in bits. This will always be 28 bits.</returns>
+		protected override long GetSize()
 		{
-			return 28;
+			return sizeof(int) * 7;
 		}
 
 
+		/// <summary>
+		/// Reads from the table file.
+		/// </summary>
+		/// <param name="reader">The binary reader to use.</param>
+		/// <returns>Returns true on success.</returns>
 		public override bool Read(BinaryReader reader)
 		{
 			bool success = true;
 			try
 			{
-				FileFormatVersion = reader.ReadInt32();
+				FormatVersion = reader.ReadInt32();
 				DescriptorsHash = reader.ReadUInt32();
 				LayoutHash = reader.ReadUInt32();
 				TableVersion = reader.ReadInt32();
-				LineCount = reader.ReadInt32();
+				RowCount = reader.ReadInt32();
 				StringDataSize = reader.ReadInt32();
-				UniqueStringCount = reader.ReadInt32();
+				StringUniqueCount = reader.ReadInt32();
 			}
 			catch (Exception exception)
 			{
@@ -96,35 +111,18 @@ namespace KCD.Library.Tables.Format
 				Console.WriteLine(exception.GetReport());
 			}
 
-			if (success)
-			{
-				LineSize = GetLineSize();
-			}
-
 			return success;
 		}
 
 
+		/// <summary>
+		/// Writes to the table file.
+		/// </summary>
+		/// <param name="writer">The binary writer to use.</param>
+		/// <returns>Returns true on success.</returns>
 		public override bool Write(BinaryWriter writer)
 		{
 			throw new NotImplementedException();
-		}
-
-		#endregion
-
-
-		private long GetLineSize()
-		{
-			if (LineCount != 0) return (Self.FileSize - GetSize() - StringDataSize) / LineCount;
-			else return 0;
-		}
-
-
-		[Obsolete("This is not working correctly, or doesnt measure what I expected it to.")]
-		private long GetStringDataSize()
-		{
-			// TODO: Calculates `588` for the `character_beard.tbl` table?
-			return GetSize() + LineSize * LineCount;
 		}
 
 

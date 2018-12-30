@@ -14,7 +14,7 @@ namespace KCD.Library.Tables
 	//gender_id(integer; 4 bytes)
 	//race_id(integer; 4 bytes)
 	//character_head_archetype_id(integer; 4 bytes)
-	public class Character_Head : Entity
+	public class Character_Head : Row
 	{
 
 
@@ -25,6 +25,12 @@ namespace KCD.Library.Tables
 
 
 		public Character_Head(Table table, BinaryReader reader) : base(table, reader)
+		{
+			throw new NotImplementedException();
+		}
+
+
+		protected override Guid GetID()
 		{
 			throw new NotImplementedException();
 		}

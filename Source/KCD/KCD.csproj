@@ -54,6 +54,10 @@
       <Project>{68156410-c079-430e-b13c-217818cf7f9d}</Project>
       <Name>KCD.Library</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Sharp\Sharp.csproj">
+      <Project>{ed96bc0d-7897-4716-a714-ea07ac85725a}</Project>
+      <Name>Sharp</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
