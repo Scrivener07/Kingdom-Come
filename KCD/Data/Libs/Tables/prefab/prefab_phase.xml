@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="prefab_phase" version="1">
+    <header>
+      <column name="order" type="integer" />
+      <column name="prefab_phase_category_id" type="integer" />
+      <column name="prefabfullname" type="character varying" />
+    </header>
+    <rows>
+      <row order="1" prefab_phase_category_id="12" prefabfullname="Home_Content.fireplace_particle.fireparticle_burning" />
+      <row order="2" prefab_phase_category_id="12" prefabfullname="Home_Content.fireplace_particle.fireparticle_extinguished" />
+      <row order="1" prefab_phase_category_id="13" prefabfullname="Events.Cart.CartEmpty" />
+      <row order="2" prefab_phase_category_id="13" prefabfullname="Events.Cart.CartCloth" />
+      <row order="3" prefab_phase_category_id="13" prefabfullname="Events.Cart.CartCoal" />
+      <row order="4" prefab_phase_category_id="13" prefabfullname="Events.Cart.CartPersonal" />
+      <row order="1" prefab_phase_category_id="16" prefabfullname="Events.Chest.Big" />
+      <row order="2" prefab_phase_category_id="16" prefabfullname="Events.Chest.Small" />
+      <row order="1" prefab_phase_category_id="17" prefabfullname="Fires.Fireplaces.Medium" />
+      <row order="2" prefab_phase_category_id="17" prefabfullname="Fires.Extinguished.Extinguished" />
+      <row order="1" prefab_phase_category_id="18" prefabfullname="Fires.Fireplaces.Small" />
+      <row order="2" prefab_phase_category_id="18" prefabfullname="Fires.Extinguished.Extinguished" />
+      <row order="1" prefab_phase_category_id="19" prefabfullname="Fires.Fireplaces.Torch" />
+      <row order="2" prefab_phase_category_id="19" prefabfullname="Fires.Extinguished.Extinguished" />
+      <row order="1" prefab_phase_category_id="20" prefabfullname="Fires.Fireplaces.Candle" />
+      <row order="2" prefab_phase_category_id="20" prefabfullname="Fires.Extinguished.Extinguished" />
+      <row order="1" prefab_phase_category_id="21" prefabfullname="Home_Content.fireplace_particle.fireparticle_chimney" />
+      <row order="2" prefab_phase_category_id="21" prefabfullname="Home_Content.fireplace_particle.fireparticle_extinguished" />
+      <row order="1" prefab_phase_category_id="22" prefabfullname="Collier.phases.collier_kiln_01_wood" />
+      <row order="2" prefab_phase_category_id="22" prefabfullname="Collier.phases.collier_kiln_02_more_wood" />
+      <row order="3" prefab_phase_category_id="22" prefabfullname="Collier.phases.collier_kiln_03_1st_mud_twigs" />
+      <row order="4" prefab_phase_category_id="22" prefabfullname="Collier.phases.collier_kiln_04_2nd_mud_smoke" />
+      <row order="5" prefab_phase_category_id="22" prefabfullname="Collier.phases.collier_kiln_05_final" />
+      <row order="1" prefab_phase_category_id="23" prefabfullname="Fires.Fireplaces.Corner_house_fireplace" />
+      <row order="2" prefab_phase_category_id="23" prefabfullname="Fires.Extinguished.Extinguished" />
+      <row order="1" prefab_phase_category_id="24" prefabfullname="Fires.Fireplaces.Inset_house_fireplace" />
+      <row order="2" prefab_phase_category_id="24" prefabfullname="Fires.Extinguished.Extinguished" />
+      <row order="1" prefab_phase_category_id="29" prefabfullname="Fires.Fireplaces.Forge" />
+      <row order="2" prefab_phase_category_id="29" prefabfullname="Fires.Extinguished.Extinguished" />
+      <row order="1" prefab_phase_category_id="30" prefabfullname="Fires.Fireplaces.Torch_by_the_wall" />
+      <row order="2" prefab_phase_category_id="30" prefabfullname="Fires.Extinguished.Extinguished" />
+      <row order="1" prefab_phase_category_id="31" prefabfullname="SmartObjects.Spa_Content.waterTube" />
+      <row order="2" prefab_phase_category_id="31" prefabfullname="SmartObjects.Spa_Content.waterTube_bloody" />
+    </rows>
+  </table>
+</database>

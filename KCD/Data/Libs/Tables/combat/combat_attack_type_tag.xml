@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="combat_attack_type_tag" version="1">
+    <header>
+      <column name="combat_attack_type_id" type="integer" />
+      <column name="combat_tag_id" type="integer" />
+    </header>
+    <rows>
+      <row combat_attack_type_id="0" combat_tag_id="6" />
+      <row combat_attack_type_id="0" combat_tag_id="7" />
+      <row combat_attack_type_id="1" combat_tag_id="6" />
+      <row combat_attack_type_id="2" combat_tag_id="6" />
+      <row combat_attack_type_id="3" combat_tag_id="6" />
+      <row combat_attack_type_id="4" combat_tag_id="6" />
+      <row combat_attack_type_id="5" combat_tag_id="6" />
+    </rows>
+  </table>
+</database>

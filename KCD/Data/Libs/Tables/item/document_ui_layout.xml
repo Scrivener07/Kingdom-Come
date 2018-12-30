@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="document_ui_layout" version="1">
+    <header>
+      <column name="document_ui_layout_id" type="integer" />
+      <column name="document_ui_layout_name" type="character varying" />
+    </header>
+    <rows>
+      <row document_ui_layout_id="0" document_ui_layout_name="with_margins_and_page_numbers" />
+      <row document_ui_layout_id="1" document_ui_layout_name="no_margins" />
+    </rows>
+  </table>
+</database>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="sph_group" version="1">
+    <header>
+      <column name="sph_group_id" type="integer" />
+      <column name="sph_group_ui_name" type="character varying" />
+    </header>
+    <rows>
+      <row sph_group_id="1" sph_group_ui_name="ui_sph_achievements" />
+      <row sph_group_id="2" sph_group_ui_name="ui_sph_kills" />
+      <row sph_group_id="3" sph_group_ui_name="ui_sph_deaths" />
+    </rows>
+  </table>
+</database>

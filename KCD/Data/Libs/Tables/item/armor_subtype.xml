@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="armor_subtype" version="1">
+    <header>
+      <column name="armor_subtype_id" type="integer" />
+      <column name="armor_subtype_name" type="character varying" />
+    </header>
+    <rows>
+      <row armor_subtype_id="0" armor_subtype_name="(placeholder; remove at will)" />
+      <row armor_subtype_id="1" armor_subtype_name="Cuman full helmet" />
+      <row armor_subtype_id="2" armor_subtype_name="Cuman chest armor" />
+      <row armor_subtype_id="3" armor_subtype_name="Fancy dress for Tereza" />
+    </rows>
+  </table>
+</database>

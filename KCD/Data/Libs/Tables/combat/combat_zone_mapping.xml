@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="combat_zone_mapping" version="1">
+    <header>
+      <column name="combat_action_type_id" type="integer" />
+      <column name="combat_attack_type_id" type="integer" />
+      <column name="combat_input_class_id" type="integer" />
+      <column name="dst_zone_id" type="integer" />
+      <column name="src_zone_id" type="integer" />
+      <column name="weapon_class_id" type="integer" />
+    </header>
+    <rows>
+      <row combat_action_type_id="26" combat_attack_type_id="-1" combat_input_class_id="-1" dst_zone_id="-1" src_zone_id="-1" weapon_class_id="-1" />
+      <row combat_action_type_id="38" combat_attack_type_id="0" combat_input_class_id="-1" dst_zone_id="-1" src_zone_id="-1" weapon_class_id="-1" />
+      <row combat_action_type_id="37" combat_attack_type_id="0" combat_input_class_id="-1" dst_zone_id="-1" src_zone_id="-1" weapon_class_id="4" />
+      <row combat_action_type_id="38" combat_attack_type_id="1" combat_input_class_id="-1" dst_zone_id="-1" src_zone_id="-1" weapon_class_id="-1" />
+      <row combat_action_type_id="-1" combat_attack_type_id="0" combat_input_class_id="-1" dst_zone_id="5" src_zone_id="-1" weapon_class_id="-1" />
+      <row combat_action_type_id="-1" combat_attack_type_id="-1" combat_input_class_id="-1" dst_zone_id="0" src_zone_id="0" weapon_class_id="-1" />
+      <row combat_action_type_id="-1" combat_attack_type_id="-1" combat_input_class_id="-1" dst_zone_id="0" src_zone_id="0" weapon_class_id="0" />
+      <row combat_action_type_id="-1" combat_attack_type_id="-1" combat_input_class_id="0" dst_zone_id="0" src_zone_id="0" weapon_class_id="12" />
+      <row combat_action_type_id="-1" combat_attack_type_id="-1" combat_input_class_id="1" dst_zone_id="0" src_zone_id="0" weapon_class_id="12" />
+      <row combat_action_type_id="-1" combat_attack_type_id="0" combat_input_class_id="-1" dst_zone_id="0" src_zone_id="0" weapon_class_id="1" />
+      <row combat_action_type_id="-1" combat_attack_type_id="0" combat_input_class_id="-1" dst_zone_id="0" src_zone_id="0" weapon_class_id="2" />
+      <row combat_action_type_id="-1" combat_attack_type_id="0" combat_input_class_id="-1" dst_zone_id="0" src_zone_id="0" weapon_class_id="3" />
+      <row combat_action_type_id="-1" combat_attack_type_id="0" combat_input_class_id="-1" dst_zone_id="0" src_zone_id="0" weapon_class_id="4" />
+      <row combat_action_type_id="-1" combat_attack_type_id="0" combat_input_class_id="-1" dst_zone_id="0" src_zone_id="0" weapon_class_id="5" />
+      <row combat_action_type_id="-1" combat_attack_type_id="1" combat_input_class_id="-1" dst_zone_id="0" src_zone_id="0" weapon_class_id="4" />
+      <row combat_action_type_id="-1" combat_attack_type_id="-1" combat_input_class_id="2" dst_zone_id="5" src_zone_id="0" weapon_class_id="12" />
+      <row combat_action_type_id="-1" combat_attack_type_id="0" combat_input_class_id="-1" dst_zone_id="5" src_zone_id="0" weapon_class_id="-1" />
+      <row combat_action_type_id="-1" combat_attack_type_id="4" combat_input_class_id="-1" dst_zone_id="5" src_zone_id="0" weapon_class_id="-1" />
+      <row combat_action_type_id="-1" combat_attack_type_id="-1" combat_input_class_id="0" dst_zone_id="0" src_zone_id="1" weapon_class_id="12" />
+      <row combat_action_type_id="-1" combat_attack_type_id="-1" combat_input_class_id="1" dst_zone_id="0" src_zone_id="1" weapon_class_id="12" />
+      <row combat_action_type_id="-1" combat_attack_type_id="-1" combat_input_class_id="-1" dst_zone_id="1" src_zone_id="1" weapon_class_id="-1" />
+      <row combat_action_type_id="-1" combat_attack_type_id="1" combat_input_class_id="-1" dst_zone_id="1" src_zone_id="1" weapon_class_id="4" />
+      <row combat_action_type_id="-1" combat_attack_type_id="-1" combat_input_class_id="2" dst_zone_id="5" src_zone_id="1" weapon_class_id="12" />
+      <row combat_action_type_id="-1" combat_attack_type_id="0" combat_input_class_id="-1" dst_zone_id="5" src_zone_id="1" weapon_class_id="-1" />
+      <row combat_action_type_id="-1" combat_attack_type_id="0" combat_input_class_id="-1" dst_zone_id="5" src_zone_id="1" weapon_class_id="4" />
+      <row combat_action_type_id="-1" combat_attack_type_id="-1" combat_input_class_id="0" dst_zone_id="0" src_zone_id="2" weapon_class_id="12" />
+      <row combat_action_type_id="-1" combat_attack_type_id="-1" combat_input_class_id="1" dst_zone_id="0" src_zone_id="2" weapon_class_id="12" />
+      <row combat_action_type_id="-1" combat_attack_type_id="-1" combat_input_class_id="-1" dst_zone_id="2" src_zone_id="2" weapon_class_id="-1" />
+      <row combat_action_type_id="-1" combat_attack_type_id="1" combat_input_class_id="-1" dst_zone_id="2" src_zone_id="2" weapon_class_id="4" />
+      <row combat_action_type_id="-1" combat_attack_type_id="-1" combat_input_class_id="2" dst_zone_id="5" src_zone_id="2" weapon_class_id="12" />
+      <row combat_action_type_id="-1" combat_attack_type_id="0" combat_input_class_id="-1" dst_zone_id="5" src_zone_id="2" weapon_class_id="-1" />
+      <row combat_action_type_id="-1" combat_attack_type_id="0" combat_input_class_id="-1" dst_zone_id="5" src_zone_id="2" weapon_class_id="4" />
+      <row combat_action_type_id="-1" combat_attack_type_id="-1" combat_input_class_id="0" dst_zone_id="0" src_zone_id="3" weapon_class_id="12" />
+      <row combat_action_type_id="-1" combat_attack_type_id="-1" combat_input_class_id="1" dst_zone_id="0" src_zone_id="3" weapon_class_id="12" />
+      <row combat_action_type_id="-1" combat_attack_type_id="-1" combat_input_class_id="-1" dst_zone_id="3" src_zone_id="3" weapon_class_id="-1" />
+      <row combat_action_type_id="-1" combat_attack_type_id="1" combat_input_class_id="-1" dst_zone_id="3" src_zone_id="3" weapon_class_id="4" />
+      <row combat_action_type_id="-1" combat_attack_type_id="-1" combat_input_class_id="2" dst_zone_id="5" src_zone_id="3" weapon_class_id="12" />
+      <row combat_action_type_id="-1" combat_attack_type_id="0" combat_input_class_id="-1" dst_zone_id="5" src_zone_id="3" weapon_class_id="-1" />
+      <row combat_action_type_id="-1" combat_attack_type_id="0" combat_input_class_id="-1" dst_zone_id="5" src_zone_id="3" weapon_class_id="4" />
+      <row combat_action_type_id="-1" combat_attack_type_id="-1" combat_input_class_id="0" dst_zone_id="0" src_zone_id="4" weapon_class_id="12" />
+      <row combat_action_type_id="-1" combat_attack_type_id="-1" combat_input_class_id="1" dst_zone_id="0" src_zone_id="4" weapon_class_id="12" />
+      <row combat_action_type_id="-1" combat_attack_type_id="-1" combat_input_class_id="-1" dst_zone_id="4" src_zone_id="4" weapon_class_id="-1" />
+      <row combat_action_type_id="-1" combat_attack_type_id="1" combat_input_class_id="-1" dst_zone_id="4" src_zone_id="4" weapon_class_id="4" />
+      <row combat_action_type_id="-1" combat_attack_type_id="-1" combat_input_class_id="2" dst_zone_id="5" src_zone_id="4" weapon_class_id="12" />
+      <row combat_action_type_id="-1" combat_attack_type_id="0" combat_input_class_id="-1" dst_zone_id="5" src_zone_id="4" weapon_class_id="-1" />
+      <row combat_action_type_id="-1" combat_attack_type_id="0" combat_input_class_id="-1" dst_zone_id="5" src_zone_id="4" weapon_class_id="4" />
+      <row combat_action_type_id="-1" combat_attack_type_id="-1" combat_input_class_id="0" dst_zone_id="0" src_zone_id="5" weapon_class_id="12" />
+      <row combat_action_type_id="-1" combat_attack_type_id="-1" combat_input_class_id="1" dst_zone_id="0" src_zone_id="5" weapon_class_id="12" />
+      <row combat_action_type_id="-1" combat_attack_type_id="1" combat_input_class_id="-1" dst_zone_id="1" src_zone_id="5" weapon_class_id="1" />
+      <row combat_action_type_id="-1" combat_attack_type_id="1" combat_input_class_id="-1" dst_zone_id="1" src_zone_id="5" weapon_class_id="3" />
+      <row combat_action_type_id="-1" combat_attack_type_id="1" combat_input_class_id="-1" dst_zone_id="1" src_zone_id="5" weapon_class_id="4" />
+      <row combat_action_type_id="-1" combat_attack_type_id="1" combat_input_class_id="-1" dst_zone_id="1" src_zone_id="5" weapon_class_id="5" />
+      <row combat_action_type_id="-1" combat_attack_type_id="-1" combat_input_class_id="-1" dst_zone_id="5" src_zone_id="5" weapon_class_id="-1" />
+      <row combat_action_type_id="-1" combat_attack_type_id="-1" combat_input_class_id="2" dst_zone_id="5" src_zone_id="5" weapon_class_id="12" />
+      <row combat_action_type_id="-1" combat_attack_type_id="0" combat_input_class_id="-1" dst_zone_id="5" src_zone_id="5" weapon_class_id="-1" />
+      <row combat_action_type_id="-1" combat_attack_type_id="0" combat_input_class_id="-1" dst_zone_id="5" src_zone_id="5" weapon_class_id="4" />
+    </rows>
+  </table>
+</database>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="subbrain_situation" version="1">
+    <header>
+      <column name="subbrain_id" type="uuid" />
+    </header>
+    <rows>
+      <row subbrain_id="45c368f8-2545-479e-0bfa-8336a5e71795" />
+      <row subbrain_id="9869d611-3adb-4b9b-87a1-ea8259a77389" />
+      <row subbrain_id="b766d229-07d9-46d8-be4f-4250077e5534" />
+      <row subbrain_id="d06d260b-f764-45e7-83b6-3133c7f37bf2" />
+    </rows>
+  </table>
+</database>

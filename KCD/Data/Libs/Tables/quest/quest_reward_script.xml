@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="quest_reward_script" version="1">
+    <header>
+      <column name="is_immediate" type="boolean" />
+      <column name="objective_id" type="integer" />
+      <column name="pos" type="character varying" />
+      <column name="quest_id" type="integer" />
+      <column name="script" type="character varying" />
+    </header>
+    <rows>
+      <row is_immediate="False" objective_id="11" pos="130,310,0" quest_id="19058048" script="GameCodeCoverage.SCCPOINT(&quot;objective4_SCRIPT&quot;);" />
+      <row is_immediate="True" objective_id="39" pos="90,1260,0" quest_id="19058048" script="GameCodeCoverage.SCCPOINT(&quot;objective5_SCRIPT&quot;);" />
+    </rows>
+  </table>
+</database>

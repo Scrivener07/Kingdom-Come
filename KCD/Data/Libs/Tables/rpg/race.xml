@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="race" version="1">
+    <header>
+      <column name="race_id" type="integer" />
+      <column name="race_name" type="character varying" />
+    </header>
+    <rows>
+      <row race_id="0" race_name="human" />
+      <row race_id="1" race_name="horse" />
+      <row race_id="2" race_name="sheep" />
+      <row race_id="3" race_name="hare" />
+      <row race_id="4" race_name="pig" />
+      <row race_id="5" race_name="hen" />
+      <row race_id="6" race_name="dog" />
+      <row race_id="7" race_name="cow" />
+      <row race_id="8" race_name="red_deer" />
+      <row race_id="9" race_name="roe_deer" />
+    </rows>
+  </table>
+</database>

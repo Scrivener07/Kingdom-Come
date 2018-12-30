@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="sph_highlight" version="1">
+    <header>
+      <column name="achievement_id" type="integer" />
+      <column name="default_interest" type="boolean" />
+      <column name="end_delta" type="integer" />
+      <column name="significance" type="integer" />
+      <column name="sph_group_id" type="integer" />
+      <column name="sph_highlight_id" type="integer" />
+      <column name="start_delta" type="integer" />
+      <column name="type" type="integer" />
+    </header>
+    <rows>
+      <row achievement_id="1" default_interest="True" end_delta="10000" significance="1" sph_group_id="1" sph_highlight_id="1" start_delta="-10000" type="2" />
+      <row achievement_id="2" default_interest="True" end_delta="10000" significance="1" sph_group_id="1" sph_highlight_id="2" start_delta="-10000" type="2" />
+      <row achievement_id="3" default_interest="True" end_delta="10000" significance="1" sph_group_id="1" sph_highlight_id="3" start_delta="-10000" type="2" />
+      <row achievement_id="4" default_interest="True" end_delta="10000" significance="1" sph_group_id="1" sph_highlight_id="4" start_delta="-10000" type="2" />
+      <row achievement_id="5" default_interest="True" end_delta="10000" significance="2" sph_group_id="1" sph_highlight_id="5" start_delta="-10000" type="2" />
+      <row achievement_id="6" default_interest="True" end_delta="10000" significance="1" sph_group_id="1" sph_highlight_id="6" start_delta="-40000" type="2" />
+      <row achievement_id="7" default_interest="True" end_delta="10000" significance="4" sph_group_id="1" sph_highlight_id="7" start_delta="-30000" type="2" />
+      <row achievement_id="8" default_interest="True" end_delta="10000" significance="4" sph_group_id="1" sph_highlight_id="8" start_delta="-60000" type="2" />
+      <row achievement_id="9" default_interest="True" end_delta="30000" significance="512" sph_group_id="1" sph_highlight_id="9" start_delta="-60000" type="2" />
+      <row achievement_id="10" default_interest="True" end_delta="10000" significance="512" sph_group_id="1" sph_highlight_id="10" start_delta="-30000" type="2" />
+      <row achievement_id="11" default_interest="True" end_delta="10000" significance="512" sph_group_id="1" sph_highlight_id="11" start_delta="-30000" type="3" />
+      <row achievement_id="12" default_interest="True" end_delta="10000" significance="1024" sph_group_id="1" sph_highlight_id="12" start_delta="-40000" type="2" />
+      <row achievement_id="13" default_interest="True" end_delta="10000" significance="256" sph_group_id="1" sph_highlight_id="13" start_delta="-60000" type="2" />
+      <row achievement_id="14" default_interest="True" end_delta="10000" significance="256" sph_group_id="1" sph_highlight_id="14" start_delta="-10000" type="2" />
+      <row achievement_id="15" default_interest="True" end_delta="15000" significance="16" sph_group_id="1" sph_highlight_id="15" start_delta="-60000" type="3" />
+      <row achievement_id="16" default_interest="True" end_delta="10000" significance="16" sph_group_id="1" sph_highlight_id="16" start_delta="-10000" type="2" />
+      <row achievement_id="17" default_interest="True" end_delta="10000" significance="1024" sph_group_id="1" sph_highlight_id="17" start_delta="-10000" type="2" />
+      <row achievement_id="18" default_interest="True" end_delta="10000" significance="256" sph_group_id="1" sph_highlight_id="18" start_delta="-30000" type="2" />
+      <row achievement_id="19" default_interest="True" end_delta="10000" significance="512" sph_group_id="1" sph_highlight_id="19" start_delta="-30000" type="2" />
+      <row achievement_id="20" default_interest="True" end_delta="10000" significance="256" sph_group_id="1" sph_highlight_id="20" start_delta="-90000" type="2" />
+      <row achievement_id="21" default_interest="True" end_delta="10000" significance="256" sph_group_id="1" sph_highlight_id="21" start_delta="-90000" type="2" />
+      <row achievement_id="22" default_interest="True" end_delta="10000" significance="16" sph_group_id="1" sph_highlight_id="22" start_delta="-30000" type="2" />
+      <row achievement_id="23" default_interest="True" end_delta="10000" significance="16" sph_group_id="1" sph_highlight_id="23" start_delta="-30000" type="2" />
+      <row achievement_id="24" default_interest="True" end_delta="10000" significance="16" sph_group_id="1" sph_highlight_id="24" start_delta="-20000" type="2" />
+      <row achievement_id="25" default_interest="True" end_delta="10000" significance="256" sph_group_id="1" sph_highlight_id="25" start_delta="-10000" type="2" />
+      <row achievement_id="26" default_interest="True" end_delta="10000" significance="256" sph_group_id="1" sph_highlight_id="26" start_delta="-180000" type="2" />
+      <row achievement_id="27" default_interest="True" end_delta="10000" significance="4" sph_group_id="1" sph_highlight_id="27" start_delta="-180000" type="1" />
+      <row achievement_id="28" default_interest="True" end_delta="10000" significance="256" sph_group_id="1" sph_highlight_id="28" start_delta="-30000" type="2" />
+      <row achievement_id="29" default_interest="True" end_delta="10000" significance="4" sph_group_id="1" sph_highlight_id="29" start_delta="-40000" type="1" />
+      <row achievement_id="30" default_interest="True" end_delta="10000" significance="4" sph_group_id="1" sph_highlight_id="30" start_delta="-30000" type="1" />
+      <row achievement_id="31" default_interest="True" end_delta="10000" significance="4" sph_group_id="1" sph_highlight_id="31" start_delta="-30000" type="1" />
+      <row achievement_id="32" default_interest="True" end_delta="10000" significance="4" sph_group_id="1" sph_highlight_id="32" start_delta="-120000" type="1" />
+      <row achievement_id="33" default_interest="True" end_delta="10000" significance="4" sph_group_id="1" sph_highlight_id="33" start_delta="-120000" type="1" />
+      <row achievement_id="34" default_interest="True" end_delta="10000" significance="4" sph_group_id="1" sph_highlight_id="34" start_delta="-120000" type="1" />
+      <row achievement_id="35" default_interest="True" end_delta="10000" significance="4" sph_group_id="1" sph_highlight_id="35" start_delta="-60000" type="1" />
+      <row achievement_id="36" default_interest="True" end_delta="10000" significance="16" sph_group_id="1" sph_highlight_id="36" start_delta="-30000" type="2" />
+      <row achievement_id="37" default_interest="True" end_delta="10000" significance="256" sph_group_id="1" sph_highlight_id="37" start_delta="-30000" type="3" />
+      <row achievement_id="38" default_interest="True" end_delta="10000" significance="4" sph_group_id="1" sph_highlight_id="38" start_delta="-60000" type="2" />
+      <row achievement_id="39" default_interest="True" end_delta="10000" significance="4" sph_group_id="1" sph_highlight_id="39" start_delta="-300000" type="3" />
+      <row achievement_id="40" default_interest="True" end_delta="10000" significance="256" sph_group_id="1" sph_highlight_id="40" start_delta="-120000" type="2" />
+      <row achievement_id="41" default_interest="True" end_delta="10000" significance="256" sph_group_id="1" sph_highlight_id="41" start_delta="-120000" type="3" />
+      <row achievement_id="42" default_interest="True" end_delta="10000" significance="16" sph_group_id="1" sph_highlight_id="42" start_delta="-120000" type="3" />
+      <row achievement_id="43" default_interest="True" end_delta="10000" significance="512" sph_group_id="1" sph_highlight_id="43" start_delta="-40000" type="3" />
+      <row achievement_id="44" default_interest="True" end_delta="10000" significance="16" sph_group_id="1" sph_highlight_id="44" start_delta="-30000" type="3" />
+      <row achievement_id="45" default_interest="True" end_delta="10000" significance="256" sph_group_id="1" sph_highlight_id="45" start_delta="-30000" type="3" />
+      <row achievement_id="46" default_interest="True" end_delta="10000" significance="256" sph_group_id="1" sph_highlight_id="46" start_delta="-30000" type="3" />
+      <row achievement_id="47" default_interest="True" end_delta="10000" significance="256" sph_group_id="1" sph_highlight_id="47" start_delta="-120000" type="3" />
+      <row achievement_id="48" default_interest="True" end_delta="10000" significance="256" sph_group_id="1" sph_highlight_id="48" start_delta="-30000" type="3" />
+      <row achievement_id="49" default_interest="True" end_delta="10000" significance="512" sph_group_id="1" sph_highlight_id="49" start_delta="-30000" type="2" />
+      <row achievement_id="" default_interest="True" end_delta="10000" significance="1" sph_group_id="1" sph_highlight_id="50" start_delta="-30000" type="2" />
+      <row achievement_id="" default_interest="True" end_delta="10000" significance="1" sph_group_id="1" sph_highlight_id="51" start_delta="-30000" type="3" />
+      <row achievement_id="" default_interest="True" end_delta="10000" significance="1" sph_group_id="1" sph_highlight_id="52" start_delta="-30000" type="2" />
+      <row achievement_id="" default_interest="True" end_delta="10000" significance="1" sph_group_id="1" sph_highlight_id="53" start_delta="-30000" type="2" />
+      <row achievement_id="" default_interest="True" end_delta="10000" significance="1" sph_group_id="2" sph_highlight_id="54" start_delta="-30000" type="0" />
+    </rows>
+  </table>
+</database>

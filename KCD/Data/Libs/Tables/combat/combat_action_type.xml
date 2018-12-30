@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="combat_action_type" version="1">
+    <header>
+      <column name="combat_action_type_id" type="integer" />
+      <column name="combat_action_type_name" type="character varying" />
+    </header>
+    <rows>
+      <row combat_action_type_id="-1" combat_action_type_name="invalid" />
+      <row combat_action_type_id="0" combat_action_type_name="hitMovement" />
+      <row combat_action_type_id="1" combat_action_type_name="blockMoveBack" />
+      <row combat_action_type_id="2" combat_action_type_name="blockStepBack" />
+      <row combat_action_type_id="3" combat_action_type_name="attack" />
+      <row combat_action_type_id="4" combat_action_type_name="leap" />
+      <row combat_action_type_id="5" combat_action_type_name="movement" />
+      <row combat_action_type_id="6" combat_action_type_name="block" />
+      <row combat_action_type_id="7" combat_action_type_name="hitTorso" />
+      <row combat_action_type_id="8" combat_action_type_name="hitBlockBroken" />
+      <row combat_action_type_id="9" combat_action_type_name="hitBlockWeapon" />
+      <row combat_action_type_id="10" combat_action_type_name="guardIdleUpperBody" />
+      <row combat_action_type_id="11" combat_action_type_name="guardPreBlock" />
+      <row combat_action_type_id="12" combat_action_type_name="guardAttackStart" />
+      <row combat_action_type_id="14" combat_action_type_name="perfectBlock" />
+      <row combat_action_type_id="15" combat_action_type_name="failedAttackOnPB" />
+      <row combat_action_type_id="16" combat_action_type_name="syncAttack" />
+      <row combat_action_type_id="17" combat_action_type_name="syncHit" />
+      <row combat_action_type_id="18" combat_action_type_name="comboAttack" />
+      <row combat_action_type_id="19" combat_action_type_name="comboHit" />
+      <row combat_action_type_id="20" combat_action_type_name="guardSyncMovementMaster" />
+      <row combat_action_type_id="21" combat_action_type_name="guardSyncMovementSlave" />
+      <row combat_action_type_id="23" combat_action_type_name="syncPerfectBlock" />
+      <row combat_action_type_id="24" combat_action_type_name="syncPerfectBlockHit" />
+      <row combat_action_type_id="25" combat_action_type_name="perfectBlockDodge" />
+      <row combat_action_type_id="26" combat_action_type_name="freeAttack" />
+      <row combat_action_type_id="27" combat_action_type_name="failedAttackOnBlock" />
+      <row combat_action_type_id="28" combat_action_type_name="stealthAttackSuccess" />
+      <row combat_action_type_id="29" combat_action_type_name="stealthAttackFail" />
+      <row combat_action_type_id="30" combat_action_type_name="stealthHitSuccess" />
+      <row combat_action_type_id="31" combat_action_type_name="stealthHitFail" />
+      <row combat_action_type_id="32" combat_action_type_name="ripostePerfectBlock" />
+      <row combat_action_type_id="33" combat_action_type_name="syncTransitionMaster" />
+      <row combat_action_type_id="34" combat_action_type_name="syncTransitionSlave" />
+      <row combat_action_type_id="35" combat_action_type_name="guardStartSyncMovementMaster" />
+      <row combat_action_type_id="36" combat_action_type_name="guardStartSyncMovementSlave" />
+      <row combat_action_type_id="37" combat_action_type_name="freeRiderAttackStatic" />
+      <row combat_action_type_id="38" combat_action_type_name="freeRiderAttack" />
+      <row combat_action_type_id="39" combat_action_type_name="riderGuardIdle" />
+      <row combat_action_type_id="40" combat_action_type_name="riderGuardMovement" />
+      <row combat_action_type_id="41" combat_action_type_name="riderGuardJumpStart" />
+      <row combat_action_type_id="42" combat_action_type_name="riderGuardJump" />
+      <row combat_action_type_id="43" combat_action_type_name="riderGuardJumpEnd" />
+      <row combat_action_type_id="44" combat_action_type_name="riderGuardMove2Idle" />
+      <row combat_action_type_id="45" combat_action_type_name="riderGuardIdle2Move" />
+      <row combat_action_type_id="46" combat_action_type_name="riderGuardRear" />
+      <row combat_action_type_id="47" combat_action_type_name="riderGuardFastStop" />
+      <row combat_action_type_id="48" combat_action_type_name="horsePullDownAttackSuccess" />
+      <row combat_action_type_id="49" combat_action_type_name="horsePullDownHitSuccess" />
+      <row combat_action_type_id="50" combat_action_type_name="mercyAttack" />
+      <row combat_action_type_id="51" combat_action_type_name="huntAttackMaster" />
+      <row combat_action_type_id="52" combat_action_type_name="huntAttackSlave" />
+      <row combat_action_type_id="1000" combat_action_type_name="groupFreeAttack" />
+      <row combat_action_type_id="1001" combat_action_type_name="groupRiderAttack" />
+      <row combat_action_type_id="1002" combat_action_type_name="groupPerfectBlock" />
+      <row combat_action_type_id="1003" combat_action_type_name="groupStaticAttack" />
+      <row combat_action_type_id="1004" combat_action_type_name="groupMeleeAttack" />
+      <row combat_action_type_id="1005" combat_action_type_name="groupRiderMovement" />
+      <row combat_action_type_id="1006" combat_action_type_name="groupAttack" />
+      <row combat_action_type_id="1007" combat_action_type_name="groupBlock" />
+      <row combat_action_type_id="1008" combat_action_type_name="groupHit" />
+    </rows>
+  </table>
+</database>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="actor_action_transition_to_combat" version="1">
+    <header>
+      <column name="actor_action_type_id" type="integer" />
+      <column name="actor_action_type_id_request" type="integer" />
+      <column name="actor_activity_id" type="integer" />
+      <column name="actor_class_hash" type="integer" />
+      <column name="actor_pose_id" type="integer" />
+      <column name="animation_duration" type="real" />
+      <column name="l_equip_man_id" type="integer" />
+      <column name="l_man_id" type="integer" />
+      <column name="mn_fragment_id" type="character varying" />
+      <column name="mn_option_index" type="integer" />
+      <column name="mn_tags" type="character varying" />
+      <column name="mounted" type="boolean" />
+      <column name="r_equip_man_id" type="integer" />
+      <column name="r_man_id" type="integer" />
+      <column name="timestamp" type="bigint" />
+    </header>
+    <rows>
+      <row actor_action_type_id="5" actor_action_type_id_request="6" actor_activity_id="2" actor_class_hash="1578932418" actor_pose_id="4" animation_duration="1.7" l_equip_man_id="30" l_man_id="-1" mn_fragment_id="BeggarToCombat" mn_option_index="0" mn_tags="beggarKneel+l_pick_dagger" mounted="False" r_equip_man_id="-1" r_man_id="-1" timestamp="4698499423933042384" />
+      <row actor_action_type_id="5" actor_action_type_id_request="6" actor_activity_id="2" actor_class_hash="1578932418" actor_pose_id="4" animation_duration="1.7" l_equip_man_id="30" l_man_id="-1" mn_fragment_id="BeggarToCombat" mn_option_index="1" mn_tags="beggarKneel+l_pick_dagger" mounted="False" r_equip_man_id="-1" r_man_id="-1" timestamp="4698499423933042384" />
+      <row actor_action_type_id="5" actor_action_type_id_request="6" actor_activity_id="2" actor_class_hash="1578932418" actor_pose_id="3" animation_duration="2.133333" l_equip_man_id="30" l_man_id="-1" mn_fragment_id="BeggarToCombat" mn_option_index="0" mn_tags="beggar+l_pick_dagger" mounted="False" r_equip_man_id="-1" r_man_id="-1" timestamp="4698499423933042384" />
+      <row actor_action_type_id="5" actor_action_type_id_request="6" actor_activity_id="2" actor_class_hash="1578932418" actor_pose_id="3" animation_duration="1.766667" l_equip_man_id="30" l_man_id="-1" mn_fragment_id="BeggarToCombat" mn_option_index="1" mn_tags="beggar+l_pick_dagger" mounted="False" r_equip_man_id="-1" r_man_id="-1" timestamp="4698499423933042384" />
+      <row actor_action_type_id="5" actor_action_type_id_request="6" actor_activity_id="2" actor_class_hash="1578932418" actor_pose_id="4" animation_duration="1.6" l_equip_man_id="-1" l_man_id="-1" mn_fragment_id="BeggarToCombat" mn_option_index="0" mn_tags="beggarKneel" mounted="False" r_equip_man_id="-1" r_man_id="-1" timestamp="4698499423933042384" />
+      <row actor_action_type_id="5" actor_action_type_id_request="6" actor_activity_id="2" actor_class_hash="1578932418" actor_pose_id="4" animation_duration="1.6" l_equip_man_id="-1" l_man_id="-1" mn_fragment_id="BeggarToCombat" mn_option_index="1" mn_tags="beggarKneel" mounted="False" r_equip_man_id="-1" r_man_id="-1" timestamp="4698499423933042384" />
+      <row actor_action_type_id="5" actor_action_type_id_request="6" actor_activity_id="2" actor_class_hash="1578932418" actor_pose_id="3" animation_duration="1.866667" l_equip_man_id="-1" l_man_id="-1" mn_fragment_id="BeggarToCombat" mn_option_index="0" mn_tags="beggar" mounted="False" r_equip_man_id="-1" r_man_id="-1" timestamp="4698499423933042384" />
+      <row actor_action_type_id="5" actor_action_type_id_request="6" actor_activity_id="2" actor_class_hash="1578932418" actor_pose_id="3" animation_duration="1.466667" l_equip_man_id="-1" l_man_id="-1" mn_fragment_id="BeggarToCombat" mn_option_index="1" mn_tags="beggar" mounted="False" r_equip_man_id="-1" r_man_id="-1" timestamp="4698499423933042384" />
+    </rows>
+  </table>
+</database>

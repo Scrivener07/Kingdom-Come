@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="character_body" version="1">
+    <header>
+      <column name="character_body_archetype_id" type="integer" />
+      <column name="character_body_id" type="uuid" />
+      <column name="character_body_name" type="character varying" />
+      <column name="computer_name" type="character varying" />
+      <column name="gender_id" type="integer" />
+      <column name="material" type="character varying" />
+      <column name="model" type="character varying" />
+      <column name="race_id" type="integer" />
+      <column name="social_class_id" type="integer" />
+      <column name="timestamp" type="character varying" />
+      <column name="wealth_level" type="integer" />
+    </header>
+    <rows>
+      <row character_body_archetype_id="" character_body_id="0c728551-5863-4109-a339-b0f42fb0cf85" character_body_name="female_body" computer_name="JBARTONEK-DT" gender_id="1" material="s2_body_normal" model="s2_body" race_id="0" social_class_id="0" timestamp="11/07/2016 12:47" wealth_level="0" />
+      <row character_body_archetype_id="" character_body_id="404fbc81-09e9-8c89-4d1b-abfe071fd08d" character_body_name="tereza_body" computer_name="MPODPROCKY-DT" gender_id="1" material="s2_body_tereza" model="s2_body_tereza" race_id="0" social_class_id="0" timestamp="27/02/2017 10:21" wealth_level="0" />
+      <row character_body_archetype_id="" character_body_id="425451b6-ba9b-91d2-f3b5-9dc977ed0fb4" character_body_name="horse_body_5" computer_name="JBARTONEK-DT" gender_id="3" material="horse_body_normal4" model="horse_body" race_id="1" social_class_id="0" timestamp="25/06/2015 17:01" wealth_level="0" />
+      <row character_body_archetype_id="" character_body_id="42855b88-f189-7ee4-5d39-9bd0feea8d86" character_body_name="horse_body" computer_name="RSEVCIK-DT" gender_id="3" material="horse_body_normal" model="horse_body" race_id="1" social_class_id="0" timestamp="14/05/2015 13:44" wealth_level="0" />
+      <row character_body_archetype_id="" character_body_id="42c12230-129c-37fd-e776-b34eb6d7e1ab" character_body_name="horse_body_9" computer_name="PFERSTOVA-DT" gender_id="3" material="horse_body_normal8" model="horse_body" race_id="1" social_class_id="0" timestamp="14/05/2018 13:33" wealth_level="0" />
+      <row character_body_archetype_id="" character_body_id="445d16d9-5798-b136-1d02-9859932ce5a4" character_body_name="horse_body_3" computer_name="JBARTONEK-DT" gender_id="3" material="horse_body_normal2" model="horse_body" race_id="1" social_class_id="0" timestamp="25/06/2015 16:33" wealth_level="0" />
+      <row character_body_archetype_id="" character_body_id="456a10cd-70c4-880b-35df-6d808d526798" character_body_name="_DeleteMe_TerezaChlap_Body" computer_name="MHOZ-DT" gender_id="0" material="s2_body_tereza" model="tereza_chlap_torso_short" race_id="0" social_class_id="0" timestamp="18/07/2018 17:43" wealth_level="0" />
+      <row character_body_archetype_id="" character_body_id="45a92d32-2ce0-8ca0-db64-34b1aa6581af" character_body_name="male_body_henry" computer_name="JBARTONEK-DT" gender_id="0" material="s1_body_v3_normal" model="s1_body" race_id="0" social_class_id="0" timestamp="11/07/2016 12:52" wealth_level="0" />
+      <row character_body_archetype_id="" character_body_id="48b413d2-e5dc-a196-72b7-238795104c8a" character_body_name="devil_body" computer_name="JBARTONEK-DT" gender_id="0" material="s1_body_devil" model="s1_body_devil" race_id="0" social_class_id="0" timestamp="01/02/2017 09:05" wealth_level="0" />
+      <row character_body_archetype_id="" character_body_id="48ec07ac-17de-add9-49d8-975da7209bba" character_body_name="horse_body_2" computer_name="JBARTONEK-DT" gender_id="3" material="horse_body_normal1" model="horse_body" race_id="1" social_class_id="0" timestamp="25/06/2015 16:14" wealth_level="0" />
+      <row character_body_archetype_id="" character_body_id="4b58d97c-a4b0-f52f-7506-4b74504db390" character_body_name="horse_body_4" computer_name="JBARTONEK-DT" gender_id="3" material="horse_body_normal3" model="horse_body" race_id="1" social_class_id="0" timestamp="25/06/2015 16:53" wealth_level="0" />
+      <row character_body_archetype_id="" character_body_id="4dfff942-502b-2089-2f77-e2fac3466483" character_body_name="horse_body_6" computer_name="JBARTONEK-DT" gender_id="3" material="horse_body_normal5" model="horse_body" race_id="1" social_class_id="0" timestamp="25/06/2015 17:08" wealth_level="0" />
+      <row character_body_archetype_id="" character_body_id="4f14fe8f-5380-84b2-aeb3-6e51163f2a84" character_body_name="horse_body_8" computer_name="JBARTONEK-DT" gender_id="3" material="horse_body_normal7" model="horse_body" race_id="1" social_class_id="0" timestamp="15/06/2017 08:04" wealth_level="0" />
+      <row character_body_archetype_id="" character_body_id="4f341228-4cbe-cec5-f994-addd4ccaa3a7" character_body_name="horse_body_7" computer_name="JBARTONEK-DT" gender_id="3" material="horse_body_normal6" model="horse_body" race_id="1" social_class_id="0" timestamp="15/06/2017 07:56" wealth_level="0" />
+      <row character_body_archetype_id="" character_body_id="9fe6dae0-e195-42e0-a3fb-66cfc6382407" character_body_name="male_body_npc" computer_name="JBARTONEK-DT" gender_id="0" material="s1_body_normal" model="s1_body_npc" race_id="0" social_class_id="0" timestamp="21/09/2016 13:55" wealth_level="0" />
+      <row character_body_archetype_id="" character_body_id="ae281705-0a63-48dd-8e56-b06d69a090c4" character_body_name="dog_alaunt" computer_name="TBARAK-DT" gender_id="3" material="alaunt" model="alaunt" race_id="6" social_class_id="0" timestamp="listopad 2015 AD" wealth_level="0" />
+    </rows>
+  </table>
+</database>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="ai_fragment_exclude" version="1">
+    <header>
+      <column name="ai_fragment_exclude_id" type="integer" />
+      <column name="ai_fragment_exclude_prefix" type="character varying" />
+    </header>
+    <rows>
+      <row ai_fragment_exclude_id="0" ai_fragment_exclude_prefix="Combat" />
+    </rows>
+  </table>
+</database>

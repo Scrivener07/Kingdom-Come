@@ -1,0 +1,583 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<database name="hammerheart">
+  <table name="v_sph_texts" version="1">
+    <header>
+      <column name="achievement_id" type="integer" />
+      <column name="ietf_language_tag" type="character varying" />
+      <column name="text" type="text" />
+      <column name="text_type" type="integer" />
+    </header>
+    <rows>
+      <row achievement_id="1" ietf_language_tag="cs-CZ" text="Alkoholik" text_type="0" />
+      <row achievement_id="1" ietf_language_tag="de-DE" text="Alkoholiker" text_type="0" />
+      <row achievement_id="1" ietf_language_tag="en-US" text="Alcoholic" text_type="0" />
+      <row achievement_id="1" ietf_language_tag="es-ES" text="Alcohólico" text_type="0" />
+      <row achievement_id="1" ietf_language_tag="fr-FR" text="Ivroin" text_type="0" />
+      <row achievement_id="1" ietf_language_tag="it-IT" text="Alcolizzato" text_type="0" />
+      <row achievement_id="1" ietf_language_tag="pl-PL" text="Alkoholik" text_type="0" />
+      <row achievement_id="1" ietf_language_tag="ru-RU" text="Алкоголик" text_type="0" />
+      <row achievement_id="1" ietf_language_tag="tr-TR" text="Alkolik" text_type="0" />
+      <row achievement_id="1" ietf_language_tag="zh-CH" text="酗酒成性" text_type="0" />
+      <row achievement_id="2" ietf_language_tag="cs-CZ" text="Nespavec" text_type="0" />
+      <row achievement_id="2" ietf_language_tag="de-DE" text="Insomniker" text_type="0" />
+      <row achievement_id="2" ietf_language_tag="en-US" text="Insomniac" text_type="0" />
+      <row achievement_id="2" ietf_language_tag="es-ES" text="Insomne" text_type="0" />
+      <row achievement_id="2" ietf_language_tag="fr-FR" text="Insompnité" text_type="0" />
+      <row achievement_id="2" ietf_language_tag="it-IT" text="Insonne" text_type="0" />
+      <row achievement_id="2" ietf_language_tag="pl-PL" text="Bezsenny" text_type="0" />
+      <row achievement_id="2" ietf_language_tag="ru-RU" text="Страдающий бессонницей" text_type="0" />
+      <row achievement_id="2" ietf_language_tag="tr-TR" text="Uykusuz" text_type="0" />
+      <row achievement_id="2" ietf_language_tag="zh-CH" text="熬夜狂魔" text_type="0" />
+      <row achievement_id="3" ietf_language_tag="cs-CZ" text="Tlustoprd" text_type="0" />
+      <row achievement_id="3" ietf_language_tag="de-DE" text="Fettsack" text_type="0" />
+      <row achievement_id="3" ietf_language_tag="en-US" text="Fatso" text_type="0" />
+      <row achievement_id="3" ietf_language_tag="es-ES" text="Gordinflón" text_type="0" />
+      <row achievement_id="3" ietf_language_tag="fr-FR" text="Vide-escuelle" text_type="0" />
+      <row achievement_id="3" ietf_language_tag="it-IT" text="Sovrappeso" text_type="0" />
+      <row achievement_id="3" ietf_language_tag="pl-PL" text="Spaślak" text_type="0" />
+      <row achievement_id="3" ietf_language_tag="ru-RU" text="Толстопуз" text_type="0" />
+      <row achievement_id="3" ietf_language_tag="tr-TR" text="Şişko" text_type="0" />
+      <row achievement_id="3" ietf_language_tag="zh-CH" text="大快朵颐" text_type="0" />
+      <row achievement_id="4" ietf_language_tag="cs-CZ" text="Anorektik" text_type="0" />
+      <row achievement_id="4" ietf_language_tag="de-DE" text="Hungerhaken" text_type="0" />
+      <row achievement_id="4" ietf_language_tag="en-US" text="Anorectic" text_type="0" />
+      <row achievement_id="4" ietf_language_tag="es-ES" text="Anoréxico" text_type="0" />
+      <row achievement_id="4" ietf_language_tag="fr-FR" text="Famelart" text_type="0" />
+      <row achievement_id="4" ietf_language_tag="it-IT" text="Denutrito" text_type="0" />
+      <row achievement_id="4" ietf_language_tag="pl-PL" text="Anorektyk" text_type="0" />
+      <row achievement_id="4" ietf_language_tag="ru-RU" text="Анорексик" text_type="0" />
+      <row achievement_id="4" ietf_language_tag="tr-TR" text="Anorektik" text_type="0" />
+      <row achievement_id="4" ietf_language_tag="zh-CH" text="饥肠辘辘" text_type="0" />
+      <row achievement_id="5" ietf_language_tag="cs-CZ" text="Knihomol" text_type="0" />
+      <row achievement_id="5" ietf_language_tag="de-DE" text="Bücherwurm" text_type="0" />
+      <row achievement_id="5" ietf_language_tag="en-US" text="Bookworm" text_type="0" />
+      <row achievement_id="5" ietf_language_tag="es-ES" text="Ratón de biblioteca" text_type="0" />
+      <row achievement_id="5" ietf_language_tag="fr-FR" text="Liseor" text_type="0" />
+      <row achievement_id="5" ietf_language_tag="it-IT" text="Topo di biblioteca" text_type="0" />
+      <row achievement_id="5" ietf_language_tag="pl-PL" text="Mol Książkowy" text_type="0" />
+      <row achievement_id="5" ietf_language_tag="ru-RU" text="Книжный червь" text_type="0" />
+      <row achievement_id="5" ietf_language_tag="tr-TR" text="Kitap Kurdu" text_type="0" />
+      <row achievement_id="5" ietf_language_tag="zh-CH" text="博览群书" text_type="0" />
+      <row achievement_id="6" ietf_language_tag="cs-CZ" text="Magistr Kelly" text_type="0" />
+      <row achievement_id="6" ietf_language_tag="de-DE" text="Nicolas Flamel" text_type="0" />
+      <row achievement_id="6" ietf_language_tag="en-US" text="Edward Kelly" text_type="0" />
+      <row achievement_id="6" ietf_language_tag="es-ES" text="Edward Kelly" text_type="0" />
+      <row achievement_id="6" ietf_language_tag="fr-FR" text="Nicolas Flamel" text_type="0" />
+      <row achievement_id="6" ietf_language_tag="it-IT" text="Edward Kelly" text_type="0" />
+      <row achievement_id="6" ietf_language_tag="pl-PL" text="Edward Kelly" text_type="0" />
+      <row achievement_id="6" ietf_language_tag="ru-RU" text="Эдвард Келли" text_type="0" />
+      <row achievement_id="6" ietf_language_tag="tr-TR" text="Edward Kelly" text_type="0" />
+      <row achievement_id="6" ietf_language_tag="zh-CH" text="扁鹊转世" text_type="0" />
+      <row achievement_id="7" ietf_language_tag="cs-CZ" text="Tichý zabiják" text_type="0" />
+      <row achievement_id="7" ietf_language_tag="de-DE" text="Schleichender Tod" text_type="0" />
+      <row achievement_id="7" ietf_language_tag="en-US" text="Stealth Killer" text_type="0" />
+      <row achievement_id="7" ietf_language_tag="es-ES" text="Asesino sigiloso" text_type="0" />
+      <row achievement_id="7" ietf_language_tag="fr-FR" text="Tapinois" text_type="0" />
+      <row achievement_id="7" ietf_language_tag="it-IT" text="Assassino furtivo" text_type="0" />
+      <row achievement_id="7" ietf_language_tag="pl-PL" text="Skrytobójca" text_type="0" />
+      <row achievement_id="7" ietf_language_tag="ru-RU" text="Незаметный убийца" text_type="0" />
+      <row achievement_id="7" ietf_language_tag="tr-TR" text="Gizli Katil" text_type="0" />
+      <row achievement_id="7" ietf_language_tag="zh-CH" text="刺客之魂" text_type="0" />
+      <row achievement_id="8" ietf_language_tag="cs-CZ" text="Lovec" text_type="0" />
+      <row achievement_id="8" ietf_language_tag="de-DE" text="Jäger" text_type="0" />
+      <row achievement_id="8" ietf_language_tag="en-US" text="Hunter" text_type="0" />
+      <row achievement_id="8" ietf_language_tag="es-ES" text="Cazador" text_type="0" />
+      <row achievement_id="8" ietf_language_tag="fr-FR" text="Venateur" text_type="0" />
+      <row achievement_id="8" ietf_language_tag="it-IT" text="Cacciatore" text_type="0" />
+      <row achievement_id="8" ietf_language_tag="pl-PL" text="Łowca" text_type="0" />
+      <row achievement_id="8" ietf_language_tag="ru-RU" text="Охотник" text_type="0" />
+      <row achievement_id="8" ietf_language_tag="tr-TR" text="Avcı" text_type="0" />
+      <row achievement_id="8" ietf_language_tag="zh-CH" text="丛林猎人" text_type="0" />
+      <row achievement_id="9" ietf_language_tag="cs-CZ" text="Bard" text_type="0" />
+      <row achievement_id="9" ietf_language_tag="de-DE" text="Barde" text_type="0" />
+      <row achievement_id="9" ietf_language_tag="en-US" text="Bard" text_type="0" />
+      <row achievement_id="9" ietf_language_tag="es-ES" text="Bardo" text_type="0" />
+      <row achievement_id="9" ietf_language_tag="fr-FR" text="Enlangagié" text_type="0" />
+      <row achievement_id="9" ietf_language_tag="it-IT" text="Bardo" text_type="0" />
+      <row achievement_id="9" ietf_language_tag="pl-PL" text="Bard" text_type="0" />
+      <row achievement_id="9" ietf_language_tag="ru-RU" text="Бард" text_type="0" />
+      <row achievement_id="9" ietf_language_tag="tr-TR" text="Ozan" text_type="0" />
+      <row achievement_id="9" ietf_language_tag="zh-CH" text="妙语连珠" text_type="0" />
+      <row achievement_id="10" ietf_language_tag="cs-CZ" text="Karel Gott" text_type="0" />
+      <row achievement_id="10" ietf_language_tag="de-DE" text="Geschätzter Mitmensch" text_type="0" />
+      <row achievement_id="10" ietf_language_tag="en-US" text="King Charming" text_type="0" />
+      <row achievement_id="10" ietf_language_tag="es-ES" text="Rey Encantador" text_type="0" />
+      <row achievement_id="10" ietf_language_tag="fr-FR" text="Roi Pamphile" text_type="0" />
+      <row achievement_id="10" ietf_language_tag="it-IT" text="Ser Simpatia" text_type="0" />
+      <row achievement_id="10" ietf_language_tag="pl-PL" text="Mistrz Wdzięku" text_type="0" />
+      <row achievement_id="10" ietf_language_tag="ru-RU" text="Король очарования" text_type="0" />
+      <row achievement_id="10" ietf_language_tag="tr-TR" text="Yakışıklı Prens" text_type="0" />
+      <row achievement_id="10" ietf_language_tag="zh-CH" text="名满天下" text_type="0" />
+      <row achievement_id="11" ietf_language_tag="cs-CZ" text="Úderník" text_type="0" />
+      <row achievement_id="11" ietf_language_tag="de-DE" text="Vollender" text_type="0" />
+      <row achievement_id="11" ietf_language_tag="en-US" text="Completionist" text_type="0" />
+      <row achievement_id="11" ietf_language_tag="es-ES" text="Finalizador" text_type="0" />
+      <row achievement_id="11" ietf_language_tag="fr-FR" text="Sedulier" text_type="0" />
+      <row achievement_id="11" ietf_language_tag="it-IT" text="Completista" text_type="0" />
+      <row achievement_id="11" ietf_language_tag="pl-PL" text="Mistrz" text_type="0" />
+      <row achievement_id="11" ietf_language_tag="ru-RU" text="Вершитель" text_type="0" />
+      <row achievement_id="11" ietf_language_tag="tr-TR" text="Tamamlamacı" text_type="0" />
+      <row achievement_id="11" ietf_language_tag="zh-CH" text="完美主义" text_type="0" />
+      <row achievement_id="12" ietf_language_tag="cs-CZ" text="Milosrdný" text_type="0" />
+      <row achievement_id="12" ietf_language_tag="de-DE" text="Barmherzig" text_type="0" />
+      <row achievement_id="12" ietf_language_tag="en-US" text="Merciful" text_type="0" />
+      <row achievement_id="12" ietf_language_tag="es-ES" text="Misericordioso" text_type="0" />
+      <row achievement_id="12" ietf_language_tag="fr-FR" text="Misericordiable" text_type="0" />
+      <row achievement_id="12" ietf_language_tag="it-IT" text="Misericordioso" text_type="0" />
+      <row achievement_id="12" ietf_language_tag="pl-PL" text="Pełen Łaski" text_type="0" />
+      <row achievement_id="12" ietf_language_tag="ru-RU" text="Милосердный" text_type="0" />
+      <row achievement_id="12" ietf_language_tag="tr-TR" text="Merhametli" text_type="0" />
+      <row achievement_id="12" ietf_language_tag="zh-CH" text="慈悲为怀" text_type="0" />
+      <row achievement_id="13" ietf_language_tag="cs-CZ" text="Masový vrah" text_type="0" />
+      <row achievement_id="13" ietf_language_tag="de-DE" text="Schlächter" text_type="0" />
+      <row achievement_id="13" ietf_language_tag="en-US" text="Serial Killer" text_type="0" />
+      <row achievement_id="13" ietf_language_tag="es-ES" text="Asesino en serie" text_type="0" />
+      <row achievement_id="13" ietf_language_tag="fr-FR" text="Mordreor" text_type="0" />
+      <row achievement_id="13" ietf_language_tag="it-IT" text="Assassino seriale" text_type="0" />
+      <row achievement_id="13" ietf_language_tag="pl-PL" text="Seryjny Morderca" text_type="0" />
+      <row achievement_id="13" ietf_language_tag="ru-RU" text="Серийный убийца" text_type="0" />
+      <row achievement_id="13" ietf_language_tag="tr-TR" text="Seri Katil" text_type="0" />
+      <row achievement_id="13" ietf_language_tag="zh-CH" text="嗜血之徒" text_type="0" />
+      <row achievement_id="14" ietf_language_tag="cs-CZ" text="Cestovatel" text_type="0" />
+      <row achievement_id="14" ietf_language_tag="de-DE" text="Reisender" text_type="0" />
+      <row achievement_id="14" ietf_language_tag="en-US" text="Traveller" text_type="0" />
+      <row achievement_id="14" ietf_language_tag="es-ES" text="Viajero" text_type="0" />
+      <row achievement_id="14" ietf_language_tag="fr-FR" text="Errier" text_type="0" />
+      <row achievement_id="14" ietf_language_tag="it-IT" text="Esploratore" text_type="0" />
+      <row achievement_id="14" ietf_language_tag="pl-PL" text="Odkrywca" text_type="0" />
+      <row achievement_id="14" ietf_language_tag="ru-RU" text="Путешественник" text_type="0" />
+      <row achievement_id="14" ietf_language_tag="tr-TR" text="Gezgin" text_type="0" />
+      <row achievement_id="14" ietf_language_tag="zh-CH" text="大好河山" text_type="0" />
+      <row achievement_id="15" ietf_language_tag="cs-CZ" text="Závodník" text_type="0" />
+      <row achievement_id="15" ietf_language_tag="de-DE" text="Blitzreiter" text_type="0" />
+      <row achievement_id="15" ietf_language_tag="en-US" text="Knightrider" text_type="0" />
+      <row achievement_id="15" ietf_language_tag="es-ES" text="Caballero" text_type="0" />
+      <row achievement_id="15" ietf_language_tag="fr-FR" text="Abesté" text_type="0" />
+      <row achievement_id="15" ietf_language_tag="it-IT" text="Cavallerizzo" text_type="0" />
+      <row achievement_id="15" ietf_language_tag="pl-PL" text="Nocny Jeździec" text_type="0" />
+      <row achievement_id="15" ietf_language_tag="ru-RU" text="Наездник" text_type="0" />
+      <row achievement_id="15" ietf_language_tag="tr-TR" text="Kara Şimşek" text_type="0" />
+      <row achievement_id="15" ietf_language_tag="zh-CH" text="风驰电掣" text_type="0" />
+      <row achievement_id="16" ietf_language_tag="cs-CZ" text="Chodec" text_type="0" />
+      <row achievement_id="16" ietf_language_tag="de-DE" text="Wanderer" text_type="0" />
+      <row achievement_id="16" ietf_language_tag="en-US" text="Ranger" text_type="0" />
+      <row achievement_id="16" ietf_language_tag="es-ES" text="Explorador" text_type="0" />
+      <row achievement_id="16" ietf_language_tag="fr-FR" text="Aleor" text_type="0" />
+      <row achievement_id="16" ietf_language_tag="it-IT" text="Ranger" text_type="0" />
+      <row achievement_id="16" ietf_language_tag="pl-PL" text="Wędrownik" text_type="0" />
+      <row achievement_id="16" ietf_language_tag="ru-RU" text="Следопыт" text_type="0" />
+      <row achievement_id="16" ietf_language_tag="tr-TR" text="Korucu" text_type="0" />
+      <row achievement_id="16" ietf_language_tag="zh-CH" text="水宿山行" text_type="0" />
+      <row achievement_id="17" ietf_language_tag="cs-CZ" text="Kajícník" text_type="0" />
+      <row achievement_id="17" ietf_language_tag="de-DE" text="Pilger" text_type="0" />
+      <row achievement_id="17" ietf_language_tag="en-US" text="Pilgrim" text_type="0" />
+      <row achievement_id="17" ietf_language_tag="es-ES" text="Peregrino" text_type="0" />
+      <row achievement_id="17" ietf_language_tag="fr-FR" text="Peregrin" text_type="0" />
+      <row achievement_id="17" ietf_language_tag="it-IT" text="Pellegrino" text_type="0" />
+      <row achievement_id="17" ietf_language_tag="pl-PL" text="Pielgrzym" text_type="0" />
+      <row achievement_id="17" ietf_language_tag="ru-RU" text="Паломник" text_type="0" />
+      <row achievement_id="17" ietf_language_tag="tr-TR" text="Hacı" text_type="0" />
+      <row achievement_id="17" ietf_language_tag="zh-CH" text="心虔志诚" text_type="0" />
+      <row achievement_id="18" ietf_language_tag="cs-CZ" text="Zloděj" text_type="0" />
+      <row achievement_id="18" ietf_language_tag="de-DE" text="Dieb" text_type="0" />
+      <row achievement_id="18" ietf_language_tag="en-US" text="Thief" text_type="0" />
+      <row achievement_id="18" ietf_language_tag="es-ES" text="Ladrón" text_type="0" />
+      <row achievement_id="18" ietf_language_tag="fr-FR" text="Bote-en-coroie" text_type="0" />
+      <row achievement_id="18" ietf_language_tag="it-IT" text="Ladro" text_type="0" />
+      <row achievement_id="18" ietf_language_tag="pl-PL" text="Złodziej" text_type="0" />
+      <row achievement_id="18" ietf_language_tag="ru-RU" text="Вор" text_type="0" />
+      <row achievement_id="18" ietf_language_tag="tr-TR" text="Hırsız" text_type="0" />
+      <row achievement_id="18" ietf_language_tag="zh-CH" text="江洋大盗" text_type="0" />
+      <row achievement_id="19" ietf_language_tag="cs-CZ" text="Maximální úroveň" text_type="0" />
+      <row achievement_id="19" ietf_language_tag="de-DE" text="Maximale Stufe" text_type="0" />
+      <row achievement_id="19" ietf_language_tag="en-US" text="Level Cap" text_type="0" />
+      <row achievement_id="19" ietf_language_tag="es-ES" text="Tope de nivel" text_type="0" />
+      <row achievement_id="19" ietf_language_tag="fr-FR" text="A tous espleus" text_type="0" />
+      <row achievement_id="19" ietf_language_tag="it-IT" text="Livello massimo" text_type="0" />
+      <row achievement_id="19" ietf_language_tag="pl-PL" text="Apogeum" text_type="0" />
+      <row achievement_id="19" ietf_language_tag="ru-RU" text="Предел уровня" text_type="0" />
+      <row achievement_id="19" ietf_language_tag="tr-TR" text="Maksimum Seviye" text_type="0" />
+      <row achievement_id="19" ietf_language_tag="zh-CH" text="我满级了" text_type="0" />
+      <row achievement_id="20" ietf_language_tag="cs-CZ" text="Bojovník" text_type="0" />
+      <row achievement_id="20" ietf_language_tag="de-DE" text="Gewiefter Kämpfer" text_type="0" />
+      <row achievement_id="20" ietf_language_tag="en-US" text="Fighter" text_type="0" />
+      <row achievement_id="20" ietf_language_tag="es-ES" text="Luchador" text_type="0" />
+      <row achievement_id="20" ietf_language_tag="fr-FR" text="Batailleret" text_type="0" />
+      <row achievement_id="20" ietf_language_tag="it-IT" text="Guerriero" text_type="0" />
+      <row achievement_id="20" ietf_language_tag="pl-PL" text="Pięściarz" text_type="0" />
+      <row achievement_id="20" ietf_language_tag="ru-RU" text="Боец" text_type="0" />
+      <row achievement_id="20" ietf_language_tag="tr-TR" text="Dövüşçü" text_type="0" />
+      <row achievement_id="20" ietf_language_tag="zh-CH" text="当世剑圣" text_type="0" />
+      <row achievement_id="21" ietf_language_tag="cs-CZ" text="Ostřelovač" text_type="0" />
+      <row achievement_id="21" ietf_language_tag="de-DE" text="Scharfschütze" text_type="0" />
+      <row achievement_id="21" ietf_language_tag="en-US" text="Sniper" text_type="0" />
+      <row achievement_id="21" ietf_language_tag="es-ES" text="Francotirador" text_type="0" />
+      <row achievement_id="21" ietf_language_tag="fr-FR" text="Fin traieor" text_type="0" />
+      <row achievement_id="21" ietf_language_tag="it-IT" text="Cecchino" text_type="0" />
+      <row achievement_id="21" ietf_language_tag="pl-PL" text="Snajper" text_type="0" />
+      <row achievement_id="21" ietf_language_tag="ru-RU" text="Снайпер" text_type="0" />
+      <row achievement_id="21" ietf_language_tag="tr-TR" text="Keskin Nişancı" text_type="0" />
+      <row achievement_id="21" ietf_language_tag="zh-CH" text="百步穿杨" text_type="0" />
+      <row achievement_id="22" ietf_language_tag="cs-CZ" text="Držgrešle" text_type="0" />
+      <row achievement_id="22" ietf_language_tag="de-DE" text="Feilscher" text_type="0" />
+      <row achievement_id="22" ietf_language_tag="en-US" text="Haggler" text_type="0" />
+      <row achievement_id="22" ietf_language_tag="es-ES" text="Regateador" text_type="0" />
+      <row achievement_id="22" ietf_language_tag="fr-FR" text="Barguigneur" text_type="0" />
+      <row achievement_id="22" ietf_language_tag="it-IT" text="Mago del commercio" text_type="0" />
+      <row achievement_id="22" ietf_language_tag="pl-PL" text="Naciągacz" text_type="0" />
+      <row achievement_id="22" ietf_language_tag="ru-RU" text="Мастер торговли" text_type="0" />
+      <row achievement_id="22" ietf_language_tag="tr-TR" text="Pazarlıkçı" text_type="0" />
+      <row achievement_id="22" ietf_language_tag="zh-CH" text="不烂之舌" text_type="0" />
+      <row achievement_id="23" ietf_language_tag="cs-CZ" text="Lakomec" text_type="0" />
+      <row achievement_id="23" ietf_language_tag="de-DE" text="Geizhals" text_type="0" />
+      <row achievement_id="23" ietf_language_tag="en-US" text="Scrooge" text_type="0" />
+      <row achievement_id="23" ietf_language_tag="es-ES" text="Avaro" text_type="0" />
+      <row achievement_id="23" ietf_language_tag="fr-FR" text="Main clanche" text_type="0" />
+      <row achievement_id="23" ietf_language_tag="it-IT" text="Spilorcio" text_type="0" />
+      <row achievement_id="23" ietf_language_tag="pl-PL" text="Kutwa" text_type="0" />
+      <row achievement_id="23" ietf_language_tag="ru-RU" text="Скупой рыцарь" text_type="0" />
+      <row achievement_id="23" ietf_language_tag="tr-TR" text="Eli Sıkı" text_type="0" />
+      <row achievement_id="23" ietf_language_tag="zh-CH" text="善财难舍" text_type="0" />
+      <row achievement_id="24" ietf_language_tag="cs-CZ" text="Zločinec" text_type="0" />
+      <row achievement_id="24" ietf_language_tag="de-DE" text="Sträfling" text_type="0" />
+      <row achievement_id="24" ietf_language_tag="en-US" text="Convict" text_type="0" />
+      <row achievement_id="24" ietf_language_tag="es-ES" text="Convicto" text_type="0" />
+      <row achievement_id="24" ietf_language_tag="fr-FR" text="Chaitif" text_type="0" />
+      <row achievement_id="24" ietf_language_tag="it-IT" text="Detenuto" text_type="0" />
+      <row achievement_id="24" ietf_language_tag="pl-PL" text="Skazaniec" text_type="0" />
+      <row achievement_id="24" ietf_language_tag="ru-RU" text="Заключенный" text_type="0" />
+      <row achievement_id="24" ietf_language_tag="tr-TR" text="Hükümlü" text_type="0" />
+      <row achievement_id="24" ietf_language_tag="zh-CH" text="锒铛入狱" text_type="0" />
+      <row achievement_id="25" ietf_language_tag="cs-CZ" text="David Horák" text_type="0" />
+      <row achievement_id="25" ietf_language_tag="de-DE" text="David Horak" text_type="0" />
+      <row achievement_id="25" ietf_language_tag="en-US" text="David Horak" text_type="0" />
+      <row achievement_id="25" ietf_language_tag="es-ES" text="David Horak" text_type="0" />
+      <row achievement_id="25" ietf_language_tag="fr-FR" text="David Horak" text_type="0" />
+      <row achievement_id="25" ietf_language_tag="it-IT" text="David Horak" text_type="0" />
+      <row achievement_id="25" ietf_language_tag="pl-PL" text="David Horák" text_type="0" />
+      <row achievement_id="25" ietf_language_tag="ru-RU" text="David Horák" text_type="0" />
+      <row achievement_id="25" ietf_language_tag="tr-TR" text="David Horak" text_type="0" />
+      <row achievement_id="25" ietf_language_tag="zh-CH" text="本草纲目" text_type="0" />
+      <row achievement_id="26" ietf_language_tag="cs-CZ" text="Gambler" text_type="0" />
+      <row achievement_id="26" ietf_language_tag="de-DE" text="Zocker" text_type="0" />
+      <row achievement_id="26" ietf_language_tag="en-US" text="Gambler" text_type="0" />
+      <row achievement_id="26" ietf_language_tag="es-ES" text="Apostador" text_type="0" />
+      <row achievement_id="26" ietf_language_tag="fr-FR" text="Hasart" text_type="0" />
+      <row achievement_id="26" ietf_language_tag="it-IT" text="Giocatore d'azzardo" text_type="0" />
+      <row achievement_id="26" ietf_language_tag="pl-PL" text="Hazardzista" text_type="0" />
+      <row achievement_id="26" ietf_language_tag="ru-RU" text="Игрок" text_type="0" />
+      <row achievement_id="26" ietf_language_tag="tr-TR" text="Kumarbaz" text_type="0" />
+      <row achievement_id="26" ietf_language_tag="zh-CH" text="究极赌徒" text_type="0" />
+      <row achievement_id="27" ietf_language_tag="cs-CZ" text="Kovářův syn" text_type="0" />
+      <row achievement_id="27" ietf_language_tag="de-DE" text="Sohn des Schmieds" text_type="0" />
+      <row achievement_id="27" ietf_language_tag="en-US" text="Blacksmith's Son" text_type="0" />
+      <row achievement_id="27" ietf_language_tag="es-ES" text="Hijo de herrero" text_type="0" />
+      <row achievement_id="27" ietf_language_tag="fr-FR" text="Fiz de fabre" text_type="0" />
+      <row achievement_id="27" ietf_language_tag="it-IT" text="Figlio di fabbro" text_type="0" />
+      <row achievement_id="27" ietf_language_tag="pl-PL" text="Syn Kowala" text_type="0" />
+      <row achievement_id="27" ietf_language_tag="ru-RU" text="Сын кузнеца" text_type="0" />
+      <row achievement_id="27" ietf_language_tag="tr-TR" text="Demircinin Oğlu" text_type="0" />
+      <row achievement_id="27" ietf_language_tag="zh-CH" text="铁匠之子" text_type="0" />
+      <row achievement_id="28" ietf_language_tag="cs-CZ" text="Kavalír" text_type="0" />
+      <row achievement_id="28" ietf_language_tag="de-DE" text="Kavalier" text_type="0" />
+      <row achievement_id="28" ietf_language_tag="en-US" text="Cavalier" text_type="0" />
+      <row achievement_id="28" ietf_language_tag="es-ES" text="Galán" text_type="0" />
+      <row achievement_id="28" ietf_language_tag="fr-FR" text="Galois" text_type="0" />
+      <row achievement_id="28" ietf_language_tag="it-IT" text="Cavaliere" text_type="0" />
+      <row achievement_id="28" ietf_language_tag="pl-PL" text="Biały Rycerz" text_type="0" />
+      <row achievement_id="28" ietf_language_tag="ru-RU" text="Кавалер" text_type="0" />
+      <row achievement_id="28" ietf_language_tag="tr-TR" text="Şövalye" text_type="0" />
+      <row achievement_id="28" ietf_language_tag="zh-CH" text="白马王子" text_type="0" />
+      <row achievement_id="29" ietf_language_tag="cs-CZ" text="Probuzení" text_type="0" />
+      <row achievement_id="29" ietf_language_tag="de-DE" text="Erwachen" text_type="0" />
+      <row achievement_id="29" ietf_language_tag="en-US" text="Awakening" text_type="0" />
+      <row achievement_id="29" ietf_language_tag="es-ES" text="Despertar" text_type="0" />
+      <row achievement_id="29" ietf_language_tag="fr-FR" text="Esveillement" text_type="0" />
+      <row achievement_id="29" ietf_language_tag="it-IT" text="Risveglio" text_type="0" />
+      <row achievement_id="29" ietf_language_tag="pl-PL" text="Przebudzenie" text_type="0" />
+      <row achievement_id="29" ietf_language_tag="ru-RU" text="Пробуждение" text_type="0" />
+      <row achievement_id="29" ietf_language_tag="tr-TR" text="Uyanış" text_type="0" />
+      <row achievement_id="29" ietf_language_tag="zh-CH" text="大觉醒" text_type="0" />
+      <row achievement_id="30" ietf_language_tag="cs-CZ" text="Nový přítel" text_type="0" />
+      <row achievement_id="30" ietf_language_tag="de-DE" text="Neuer Kumpel" text_type="0" />
+      <row achievement_id="30" ietf_language_tag="en-US" text="Buddy" text_type="0" />
+      <row achievement_id="30" ietf_language_tag="es-ES" text="Nuevo amigo" text_type="0" />
+      <row achievement_id="30" ietf_language_tag="fr-FR" text="Acoint" text_type="0" />
+      <row achievement_id="30" ietf_language_tag="it-IT" text="Un nuovo amico" text_type="0" />
+      <row achievement_id="30" ietf_language_tag="pl-PL" text="Nowy Przyjaciel" text_type="0" />
+      <row achievement_id="30" ietf_language_tag="ru-RU" text="Новый друг" text_type="0" />
+      <row achievement_id="30" ietf_language_tag="tr-TR" text="Ahbap" text_type="0" />
+      <row achievement_id="30" ietf_language_tag="zh-CH" text="生死之交" text_type="0" />
+      <row achievement_id="31" ietf_language_tag="cs-CZ" text="Zrzek" text_type="0" />
+      <row achievement_id="31" ietf_language_tag="de-DE" text="Rotschopf" text_type="0" />
+      <row achievement_id="31" ietf_language_tag="en-US" text="Ginger" text_type="0" />
+      <row achievement_id="31" ietf_language_tag="es-ES" text="Panocha" text_type="0" />
+      <row achievement_id="31" ietf_language_tag="fr-FR" text="Rousselet" text_type="0" />
+      <row achievement_id="31" ietf_language_tag="it-IT" text="Pericolo rosso" text_type="0" />
+      <row achievement_id="31" ietf_language_tag="pl-PL" text="Rudzielec" text_type="0" />
+      <row achievement_id="31" ietf_language_tag="ru-RU" text="Рыжий" text_type="0" />
+      <row achievement_id="31" ietf_language_tag="tr-TR" text="Kızıl" text_type="0" />
+      <row achievement_id="31" ietf_language_tag="zh-CH" text="黄毛小子" text_type="0" />
+      <row achievement_id="32" ietf_language_tag="cs-CZ" text="Prcek" text_type="0" />
+      <row achievement_id="32" ietf_language_tag="de-DE" text="Wicht" text_type="0" />
+      <row achievement_id="32" ietf_language_tag="en-US" text="Runt" text_type="0" />
+      <row achievement_id="32" ietf_language_tag="es-ES" text="Tapón" text_type="0" />
+      <row achievement_id="32" ietf_language_tag="fr-FR" text="Le Haingre" text_type="0" />
+      <row achievement_id="32" ietf_language_tag="it-IT" text="Runt" text_type="0" />
+      <row achievement_id="32" ietf_language_tag="pl-PL" text="Śmierdziel" text_type="0" />
+      <row achievement_id="32" ietf_language_tag="ru-RU" text="Достать Коротышку" text_type="0" />
+      <row achievement_id="32" ietf_language_tag="tr-TR" text="Bücür" text_type="0" />
+      <row achievement_id="32" ietf_language_tag="zh-CH" text="罪有应得" text_type="0" />
+      <row achievement_id="33" ietf_language_tag="cs-CZ" text="Mnich" text_type="0" />
+      <row achievement_id="33" ietf_language_tag="de-DE" text="Mönch" text_type="0" />
+      <row achievement_id="33" ietf_language_tag="en-US" text="Monk" text_type="0" />
+      <row achievement_id="33" ietf_language_tag="es-ES" text="Monje" text_type="0" />
+      <row achievement_id="33" ietf_language_tag="fr-FR" text="Ecclesiastre" text_type="0" />
+      <row achievement_id="33" ietf_language_tag="it-IT" text="Vita monastica" text_type="0" />
+      <row achievement_id="33" ietf_language_tag="pl-PL" text="Mnich" text_type="0" />
+      <row achievement_id="33" ietf_language_tag="ru-RU" text="Монах" text_type="0" />
+      <row achievement_id="33" ietf_language_tag="tr-TR" text="Keşiş" text_type="0" />
+      <row achievement_id="33" ietf_language_tag="zh-CH" text="吾心向主" text_type="0" />
+      <row achievement_id="34" ietf_language_tag="cs-CZ" text="Bastard" text_type="0" />
+      <row achievement_id="34" ietf_language_tag="de-DE" text="Bastard" text_type="0" />
+      <row achievement_id="34" ietf_language_tag="en-US" text="Bastard" text_type="0" />
+      <row achievement_id="34" ietf_language_tag="es-ES" text="Bastardo" text_type="0" />
+      <row achievement_id="34" ietf_language_tag="fr-FR" text="Fils de porchas" text_type="0" />
+      <row achievement_id="34" ietf_language_tag="it-IT" text="Figlio illegittimo" text_type="0" />
+      <row achievement_id="34" ietf_language_tag="pl-PL" text="Bękart" text_type="0" />
+      <row achievement_id="34" ietf_language_tag="ru-RU" text="Бастард" text_type="0" />
+      <row achievement_id="34" ietf_language_tag="tr-TR" text="Piç" text_type="0" />
+      <row achievement_id="34" ietf_language_tag="zh-CH" text="私生子" text_type="0" />
+      <row achievement_id="35" ietf_language_tag="cs-CZ" text="Poražený vítěz" text_type="0" />
+      <row achievement_id="35" ietf_language_tag="de-DE" text="Eroberer" text_type="0" />
+      <row achievement_id="35" ietf_language_tag="en-US" text="Conqueror" text_type="0" />
+      <row achievement_id="35" ietf_language_tag="es-ES" text="Conquistador" text_type="0" />
+      <row achievement_id="35" ietf_language_tag="fr-FR" text="Conquesteur" text_type="0" />
+      <row achievement_id="35" ietf_language_tag="it-IT" text="Conquistatore" text_type="0" />
+      <row achievement_id="35" ietf_language_tag="pl-PL" text="Zdobywca" text_type="0" />
+      <row achievement_id="35" ietf_language_tag="ru-RU" text="Завоеватель" text_type="0" />
+      <row achievement_id="35" ietf_language_tag="tr-TR" text="Fatih" text_type="0" />
+      <row achievement_id="35" ietf_language_tag="zh-CH" text="征服者" text_type="0" />
+      <row achievement_id="36" ietf_language_tag="cs-CZ" text="Talmberk příprava" text_type="0" />
+      <row achievement_id="36" ietf_language_tag="de-DE" text="Zum Wohle Talmbergs" text_type="0" />
+      <row achievement_id="36" ietf_language_tag="en-US" text="Talmberger" text_type="0" />
+      <row achievement_id="36" ietf_language_tag="es-ES" text="Talmberko" text_type="0" />
+      <row achievement_id="36" ietf_language_tag="fr-FR" text="Talmbergeois" text_type="0" />
+      <row achievement_id="36" ietf_language_tag="it-IT" text="Cittadino di Talmberg" text_type="0" />
+      <row achievement_id="36" ietf_language_tag="pl-PL" text="Talmberski" text_type="0" />
+      <row achievement_id="36" ietf_language_tag="ru-RU" text="Тальмберг" text_type="0" />
+      <row achievement_id="36" ietf_language_tag="tr-TR" text="Talmbergçi" text_type="0" />
+      <row achievement_id="36" ietf_language_tag="zh-CH" text="塔尔木人" text_type="0" />
+      <row achievement_id="37" ietf_language_tag="cs-CZ" text="Konec" text_type="0" />
+      <row achievement_id="37" ietf_language_tag="de-DE" text="Das Ende" text_type="0" />
+      <row achievement_id="37" ietf_language_tag="en-US" text="The End" text_type="0" />
+      <row achievement_id="37" ietf_language_tag="es-ES" text="El fin" text_type="0" />
+      <row achievement_id="37" ietf_language_tag="fr-FR" text="Defin" text_type="0" />
+      <row achievement_id="37" ietf_language_tag="it-IT" text="Titoli di coda" text_type="0" />
+      <row achievement_id="37" ietf_language_tag="pl-PL" text="Koniec" text_type="0" />
+      <row achievement_id="37" ietf_language_tag="ru-RU" text="Конец" text_type="0" />
+      <row achievement_id="37" ietf_language_tag="tr-TR" text="Son" text_type="0" />
+      <row achievement_id="37" ietf_language_tag="zh-CH" text="最终一幕" text_type="0" />
+      <row achievement_id="38" ietf_language_tag="cs-CZ" text="Uhlík" text_type="0" />
+      <row achievement_id="38" ietf_language_tag="de-DE" text="Feuertaufe" text_type="0" />
+      <row achievement_id="38" ietf_language_tag="en-US" text="Firestarter" text_type="0" />
+      <row achievement_id="38" ietf_language_tag="es-ES" text="Instigador" text_type="0" />
+      <row achievement_id="38" ietf_language_tag="fr-FR" text="Ardeor" text_type="0" />
+      <row achievement_id="38" ietf_language_tag="it-IT" text="Combinaguai" text_type="0" />
+      <row achievement_id="38" ietf_language_tag="pl-PL" text="Podpalacz" text_type="0" />
+      <row achievement_id="38" ietf_language_tag="ru-RU" text="Поджигатель" text_type="0" />
+      <row achievement_id="38" ietf_language_tag="tr-TR" text="Kundakçı" text_type="0" />
+      <row achievement_id="38" ietf_language_tag="zh-CH" text="纵火之人" text_type="0" />
+      <row achievement_id="39" ietf_language_tag="cs-CZ" text="Hříšník" text_type="0" />
+      <row achievement_id="39" ietf_language_tag="de-DE" text="Sünder" text_type="0" />
+      <row achievement_id="39" ietf_language_tag="en-US" text="Sinner" text_type="0" />
+      <row achievement_id="39" ietf_language_tag="es-ES" text="Pecador" text_type="0" />
+      <row achievement_id="39" ietf_language_tag="fr-FR" text="Peccator" text_type="0" />
+      <row achievement_id="39" ietf_language_tag="it-IT" text="Peccatore" text_type="0" />
+      <row achievement_id="39" ietf_language_tag="pl-PL" text="Grzesznik" text_type="0" />
+      <row achievement_id="39" ietf_language_tag="ru-RU" text="Грешник" text_type="0" />
+      <row achievement_id="39" ietf_language_tag="tr-TR" text="Günahkâr" text_type="0" />
+      <row achievement_id="39" ietf_language_tag="zh-CH" text="有罪之人" text_type="0" />
+      <row achievement_id="40" ietf_language_tag="cs-CZ" text="MUDr. Mor" text_type="0" />
+      <row achievement_id="40" ietf_language_tag="de-DE" text="Pestarzt" text_type="0" />
+      <row achievement_id="40" ietf_language_tag="en-US" text="Plague Doctor" text_type="0" />
+      <row achievement_id="40" ietf_language_tag="es-ES" text="Médico de la peste" text_type="0" />
+      <row achievement_id="40" ietf_language_tag="fr-FR" text="Fisicien" text_type="0" />
+      <row achievement_id="40" ietf_language_tag="it-IT" text="Dottore della peste" text_type="0" />
+      <row achievement_id="40" ietf_language_tag="pl-PL" text="Doktor Zaraza" text_type="0" />
+      <row achievement_id="40" ietf_language_tag="ru-RU" text="Чумной доктор" text_type="0" />
+      <row achievement_id="40" ietf_language_tag="tr-TR" text="Veba Doktoru" text_type="0" />
+      <row achievement_id="40" ietf_language_tag="zh-CH" text="华佗转世" text_type="0" />
+      <row achievement_id="41" ietf_language_tag="cs-CZ" text="Seladon" text_type="0" />
+      <row achievement_id="41" ietf_language_tag="de-DE" text="Turteltäubchen" text_type="0" />
+      <row achievement_id="41" ietf_language_tag="en-US" text="McLovin" text_type="0" />
+      <row achievement_id="41" ietf_language_tag="es-ES" text="Seductor" text_type="0" />
+      <row achievement_id="41" ietf_language_tag="fr-FR" text="Garçonier" text_type="0" />
+      <row achievement_id="41" ietf_language_tag="it-IT" text="Rubacuori" text_type="0" />
+      <row achievement_id="41" ietf_language_tag="pl-PL" text="McKochaś" text_type="0" />
+      <row achievement_id="41" ietf_language_tag="ru-RU" text="Маклюбер" text_type="0" />
+      <row achievement_id="41" ietf_language_tag="tr-TR" text="McLovin" text_type="0" />
+      <row achievement_id="41" ietf_language_tag="zh-CH" text="一见钟情" text_type="0" />
+      <row achievement_id="42" ietf_language_tag="cs-CZ" text="Casanova" text_type="0" />
+      <row achievement_id="42" ietf_language_tag="de-DE" text="Casanova" text_type="0" />
+      <row achievement_id="42" ietf_language_tag="en-US" text="Casanova" text_type="0" />
+      <row achievement_id="42" ietf_language_tag="es-ES" text="Casanova" text_type="0" />
+      <row achievement_id="42" ietf_language_tag="fr-FR" text="Escoupeur" text_type="0" />
+      <row achievement_id="42" ietf_language_tag="it-IT" text="Casanova" text_type="0" />
+      <row achievement_id="42" ietf_language_tag="pl-PL" text="Casanova" text_type="0" />
+      <row achievement_id="42" ietf_language_tag="ru-RU" text="Казанова" text_type="0" />
+      <row achievement_id="42" ietf_language_tag="tr-TR" text="Çapkın" text_type="0" />
+      <row achievement_id="42" ietf_language_tag="zh-CH" text="风流浪子" text_type="0" />
+      <row achievement_id="43" ietf_language_tag="cs-CZ" text="Jidáš" text_type="0" />
+      <row achievement_id="43" ietf_language_tag="de-DE" text="Judas" text_type="0" />
+      <row achievement_id="43" ietf_language_tag="en-US" text="Judas" text_type="0" />
+      <row achievement_id="43" ietf_language_tag="es-ES" text="Judas" text_type="0" />
+      <row achievement_id="43" ietf_language_tag="fr-FR" text="Traïtel" text_type="0" />
+      <row achievement_id="43" ietf_language_tag="it-IT" text="Giuda" text_type="0" />
+      <row achievement_id="43" ietf_language_tag="pl-PL" text="Judasz" text_type="0" />
+      <row achievement_id="43" ietf_language_tag="ru-RU" text="Иуда" text_type="0" />
+      <row achievement_id="43" ietf_language_tag="tr-TR" text="Judas" text_type="0" />
+      <row achievement_id="43" ietf_language_tag="zh-CH" text="卑鄙小人" text_type="0" />
+      <row achievement_id="44" ietf_language_tag="cs-CZ" text="Psychoterapeut" text_type="0" />
+      <row achievement_id="44" ietf_language_tag="de-DE" text="Freud" text_type="0" />
+      <row achievement_id="44" ietf_language_tag="en-US" text="Freud" text_type="0" />
+      <row achievement_id="44" ietf_language_tag="es-ES" text="Freud" text_type="0" />
+      <row achievement_id="44" ietf_language_tag="fr-FR" text="Enquereor" text_type="0" />
+      <row achievement_id="44" ietf_language_tag="it-IT" text="Freud" text_type="0" />
+      <row achievement_id="44" ietf_language_tag="pl-PL" text="Freud" text_type="0" />
+      <row achievement_id="44" ietf_language_tag="ru-RU" text="Фрейд" text_type="0" />
+      <row achievement_id="44" ietf_language_tag="tr-TR" text="Freud" text_type="0" />
+      <row achievement_id="44" ietf_language_tag="zh-CH" text="分析帝" text_type="0" />
+      <row achievement_id="45" ietf_language_tag="cs-CZ" text="Mistr lovčí" text_type="0" />
+      <row achievement_id="45" ietf_language_tag="de-DE" text="Jägermeister" text_type="0" />
+      <row achievement_id="45" ietf_language_tag="en-US" text="Master Huntsman" text_type="0" />
+      <row achievement_id="45" ietf_language_tag="es-ES" text="Maestro cazador" text_type="0" />
+      <row achievement_id="45" ietf_language_tag="fr-FR" text="Mestre veneur" text_type="0" />
+      <row achievement_id="45" ietf_language_tag="it-IT" text="Mastro cacciatore" text_type="0" />
+      <row achievement_id="45" ietf_language_tag="pl-PL" text="Mistrz Łowczy" text_type="0" />
+      <row achievement_id="45" ietf_language_tag="ru-RU" text="Мастер-ловчий" text_type="0" />
+      <row achievement_id="45" ietf_language_tag="tr-TR" text="Usta Avcı" text_type="0" />
+      <row achievement_id="45" ietf_language_tag="zh-CH" text="狩猎大师" text_type="0" />
+      <row achievement_id="46" ietf_language_tag="cs-CZ" text="Raubritter" text_type="0" />
+      <row achievement_id="46" ietf_language_tag="de-DE" text="Räuberbaron" text_type="0" />
+      <row achievement_id="46" ietf_language_tag="en-US" text="Robber Baron" text_type="0" />
+      <row achievement_id="46" ietf_language_tag="es-ES" text="Barón ladrón" text_type="0" />
+      <row achievement_id="46" ietf_language_tag="fr-FR" text="Nobile marpaut" text_type="0" />
+      <row achievement_id="46" ietf_language_tag="it-IT" text="Nobile brigante" text_type="0" />
+      <row achievement_id="46" ietf_language_tag="pl-PL" text="Rycerz Rozbójnik" text_type="0" />
+      <row achievement_id="46" ietf_language_tag="ru-RU" text="Барон-грабитель" text_type="0" />
+      <row achievement_id="46" ietf_language_tag="tr-TR" text="Hırsız Baron" text_type="0" />
+      <row achievement_id="46" ietf_language_tag="zh-CH" text="贵族强盗" text_type="0" />
+      <row achievement_id="47" ietf_language_tag="cs-CZ" text="Když se všechno povede" text_type="0" />
+      <row achievement_id="47" ietf_language_tag="de-DE" text="Wenn alle Stricke reißen" text_type="0" />
+      <row achievement_id="47" ietf_language_tag="en-US" text="Spoilsport" text_type="0" />
+      <row achievement_id="47" ietf_language_tag="es-ES" text="Aguafiestas" text_type="0" />
+      <row achievement_id="47" ietf_language_tag="fr-FR" text="Rescorreor" text_type="0" />
+      <row achievement_id="47" ietf_language_tag="it-IT" text="Guastafeste" text_type="0" />
+      <row achievement_id="47" ietf_language_tag="pl-PL" text="Psuja" text_type="0" />
+      <row achievement_id="47" ietf_language_tag="ru-RU" text="Никакого праздника" text_type="0" />
+      <row achievement_id="47" ietf_language_tag="tr-TR" text="Oyunbozan" text_type="0" />
+      <row achievement_id="47" ietf_language_tag="zh-CH" text="侠肝义胆" text_type="0" />
+      <row achievement_id="48" ietf_language_tag="cs-CZ" text="Špatnej trip" text_type="0" />
+      <row achievement_id="48" ietf_language_tag="de-DE" text="Teuflische Nacht" text_type="0" />
+      <row achievement_id="48" ietf_language_tag="en-US" text="Bad Trip" text_type="0" />
+      <row achievement_id="48" ietf_language_tag="es-ES" text="Mal viaje" text_type="0" />
+      <row achievement_id="48" ietf_language_tag="fr-FR" text="Diablier" text_type="0" />
+      <row achievement_id="48" ietf_language_tag="it-IT" text="Cattive compagnie" text_type="0" />
+      <row achievement_id="48" ietf_language_tag="pl-PL" text="Zły Trip" text_type="0" />
+      <row achievement_id="48" ietf_language_tag="ru-RU" text="Плохой приход" text_type="0" />
+      <row achievement_id="48" ietf_language_tag="tr-TR" text="Ölüm Tribi" text_type="0" />
+      <row achievement_id="48" ietf_language_tag="zh-CH" text="与魔共舞" text_type="0" />
+      <row achievement_id="49" ietf_language_tag="cs-CZ" text="Panic" text_type="0" />
+      <row achievement_id="49" ietf_language_tag="de-DE" text="Jungfrau" text_type="0" />
+      <row achievement_id="49" ietf_language_tag="en-US" text="Virgin" text_type="0" />
+      <row achievement_id="49" ietf_language_tag="es-ES" text="Virgen" text_type="0" />
+      <row achievement_id="49" ietf_language_tag="fr-FR" text="Pucelet" text_type="0" />
+      <row achievement_id="49" ietf_language_tag="it-IT" text="Illibato" text_type="0" />
+      <row achievement_id="49" ietf_language_tag="pl-PL" text="Prawiczek" text_type="0" />
+      <row achievement_id="49" ietf_language_tag="ru-RU" text="Девственник" text_type="0" />
+      <row achievement_id="49" ietf_language_tag="tr-TR" text="Bakir" text_type="0" />
+      <row achievement_id="49" ietf_language_tag="zh-CH" text="处男之身" text_type="0" />
+      <row achievement_id="50" ietf_language_tag="cs-CZ" text="Zabití" text_type="0" />
+      <row achievement_id="50" ietf_language_tag="de-DE" text="Getötet" text_type="0" />
+      <row achievement_id="50" ietf_language_tag="en-US" text="Kill" text_type="0" />
+      <row achievement_id="50" ietf_language_tag="es-ES" text="Muerte" text_type="0" />
+      <row achievement_id="50" ietf_language_tag="fr-FR" text="Meurtre" text_type="0" />
+      <row achievement_id="50" ietf_language_tag="it-IT" text="Uccisione" text_type="0" />
+      <row achievement_id="50" ietf_language_tag="pl-PL" text="Zabójstwo" text_type="0" />
+      <row achievement_id="50" ietf_language_tag="ru-RU" text="Убийство" text_type="0" />
+      <row achievement_id="50" ietf_language_tag="tr-TR" text="Öldürme" text_type="0" />
+      <row achievement_id="50" ietf_language_tag="zh-CH" text="击杀" text_type="0" />
+      <row achievement_id="51" ietf_language_tag="cs-CZ" text="Smrt" text_type="0" />
+      <row achievement_id="51" ietf_language_tag="de-DE" text="Gestorben" text_type="0" />
+      <row achievement_id="51" ietf_language_tag="en-US" text="Death" text_type="0" />
+      <row achievement_id="51" ietf_language_tag="es-ES" text="Baja" text_type="0" />
+      <row achievement_id="51" ietf_language_tag="fr-FR" text="Mort" text_type="0" />
+      <row achievement_id="51" ietf_language_tag="it-IT" text="Morte" text_type="0" />
+      <row achievement_id="51" ietf_language_tag="pl-PL" text="Śmierć" text_type="0" />
+      <row achievement_id="51" ietf_language_tag="ru-RU" text="Смерть" text_type="0" />
+      <row achievement_id="51" ietf_language_tag="tr-TR" text="Ölüm" text_type="0" />
+      <row achievement_id="51" ietf_language_tag="zh-CH" text="死亡" text_type="0" />
+      <row achievement_id="52" ietf_language_tag="cs-CZ" text="Trefa!" text_type="0" />
+      <row achievement_id="52" ietf_language_tag="de-DE" text="Kopfschuss" text_type="0" />
+      <row achievement_id="52" ietf_language_tag="en-US" text="Headshot" text_type="0" />
+      <row achievement_id="52" ietf_language_tag="es-ES" text="Disparo a la cabeza" text_type="0" />
+      <row achievement_id="52" ietf_language_tag="fr-FR" text="Tir à la tête" text_type="0" />
+      <row achievement_id="52" ietf_language_tag="it-IT" text="Colpo alla testa" text_type="0" />
+      <row achievement_id="52" ietf_language_tag="pl-PL" text="Trafienie w głowę" text_type="0" />
+      <row achievement_id="52" ietf_language_tag="ru-RU" text="Попадание в голову" text_type="0" />
+      <row achievement_id="52" ietf_language_tag="tr-TR" text="Kafadan Vuruşlar" text_type="0" />
+      <row achievement_id="52" ietf_language_tag="zh-CH" text="包头" text_type="0" />
+      <row achievement_id="53" ietf_language_tag="cs-CZ" text="Zabití zajíce" text_type="0" />
+      <row achievement_id="53" ietf_language_tag="de-DE" text="Hase erlegt" text_type="0" />
+      <row achievement_id="53" ietf_language_tag="en-US" text="Hare kill" text_type="0" />
+      <row achievement_id="53" ietf_language_tag="es-ES" text="Muerte de liebre" text_type="0" />
+      <row achievement_id="53" ietf_language_tag="fr-FR" text="Lièvre tué" text_type="0" />
+      <row achievement_id="53" ietf_language_tag="it-IT" text="Uccisione di lepre" text_type="0" />
+      <row achievement_id="53" ietf_language_tag="pl-PL" text="Upolowany zając" text_type="0" />
+      <row achievement_id="53" ietf_language_tag="ru-RU" text="Убийство Зайца" text_type="0" />
+      <row achievement_id="53" ietf_language_tag="tr-TR" text="Tavşan öldürme" text_type="0" />
+      <row achievement_id="53" ietf_language_tag="zh-CH" text="野兔击杀" text_type="0" />
+      <row achievement_id="54" ietf_language_tag="cs-CZ" text="Omráčení" text_type="0" />
+      <row achievement_id="54" ietf_language_tag="de-DE" text="Bewusstlos geschlagen" text_type="0" />
+      <row achievement_id="54" ietf_language_tag="en-US" text="Knockout" text_type="0" />
+      <row achievement_id="54" ietf_language_tag="es-ES" text="Derribo" text_type="0" />
+      <row achievement_id="54" ietf_language_tag="fr-FR" text="Neutralisation" text_type="0" />
+      <row achievement_id="54" ietf_language_tag="it-IT" text="Fuori combattimento" text_type="0" />
+      <row achievement_id="54" ietf_language_tag="pl-PL" text="Nokaut" text_type="0" />
+      <row achievement_id="54" ietf_language_tag="ru-RU" text="Удушение" text_type="0" />
+      <row achievement_id="54" ietf_language_tag="tr-TR" text="Bayıltma" text_type="0" />
+      <row achievement_id="54" ietf_language_tag="zh-CH" text="击晕" text_type="0" />
+      <row achievement_id="1" ietf_language_tag="cs-CZ" text="Trofeje" text_type="1" />
+      <row achievement_id="1" ietf_language_tag="de-DE" text="Errungenschaften" text_type="1" />
+      <row achievement_id="1" ietf_language_tag="en-US" text="Achievements" text_type="1" />
+      <row achievement_id="1" ietf_language_tag="es-ES" text="Logros" text_type="1" />
+      <row achievement_id="1" ietf_language_tag="fr-FR" text="Succès" text_type="1" />
+      <row achievement_id="1" ietf_language_tag="it-IT" text="Obiettivi" text_type="1" />
+      <row achievement_id="1" ietf_language_tag="pl-PL" text="Osiągnięcia" text_type="1" />
+      <row achievement_id="1" ietf_language_tag="ru-RU" text="Достижения" text_type="1" />
+      <row achievement_id="1" ietf_language_tag="tr-TR" text="Başarımlar" text_type="1" />
+      <row achievement_id="1" ietf_language_tag="zh-CH" text="成就" text_type="1" />
+      <row achievement_id="2" ietf_language_tag="cs-CZ" text="Zabití" text_type="1" />
+      <row achievement_id="2" ietf_language_tag="de-DE" text="Getötete Menschen" text_type="1" />
+      <row achievement_id="2" ietf_language_tag="en-US" text="Kills" text_type="1" />
+      <row achievement_id="2" ietf_language_tag="es-ES" text="Muertes" text_type="1" />
+      <row achievement_id="2" ietf_language_tag="fr-FR" text="Victimes" text_type="1" />
+      <row achievement_id="2" ietf_language_tag="it-IT" text="Uccisioni" text_type="1" />
+      <row achievement_id="2" ietf_language_tag="pl-PL" text="Zabójstwa" text_type="1" />
+      <row achievement_id="2" ietf_language_tag="ru-RU" text="Убийства" text_type="1" />
+      <row achievement_id="2" ietf_language_tag="tr-TR" text="Öldürmeler" text_type="1" />
+      <row achievement_id="2" ietf_language_tag="zh-CH" text="击杀" text_type="1" />
+      <row achievement_id="3" ietf_language_tag="cs-CZ" text="Smrti" text_type="1" />
+      <row achievement_id="3" ietf_language_tag="de-DE" text="Tode" text_type="1" />
+      <row achievement_id="3" ietf_language_tag="en-US" text="Deaths" text_type="1" />
+      <row achievement_id="3" ietf_language_tag="es-ES" text="Bajas" text_type="1" />
+      <row achievement_id="3" ietf_language_tag="fr-FR" text="Morts" text_type="1" />
+      <row achievement_id="3" ietf_language_tag="it-IT" text="Morti" text_type="1" />
+      <row achievement_id="3" ietf_language_tag="pl-PL" text="Śmierci" text_type="1" />
+      <row achievement_id="3" ietf_language_tag="ru-RU" text="Смерти" text_type="1" />
+      <row achievement_id="3" ietf_language_tag="tr-TR" text="Ölmeler" text_type="1" />
+      <row achievement_id="3" ietf_language_tag="zh-CH" text="死亡" text_type="1" />
+    </rows>
+  </table>
+</database>

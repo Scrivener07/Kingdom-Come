@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="equipment_part" version="1">
+    <header>
+      <column name="clothing_adapt_group_id" type="integer" />
+      <column name="equipment_part_id" type="integer" />
+      <column name="equipment_part_name" type="character varying" />
+    </header>
+    <rows>
+      <row clothing_adapt_group_id="0" equipment_part_id="1" equipment_part_name="head" />
+      <row clothing_adapt_group_id="0" equipment_part_id="2" equipment_part_name="torso" />
+      <row clothing_adapt_group_id="0" equipment_part_id="3" equipment_part_name="arms" />
+      <row clothing_adapt_group_id="0" equipment_part_id="4" equipment_part_name="hands" />
+      <row clothing_adapt_group_id="1" equipment_part_id="5" equipment_part_name="legs" />
+      <row clothing_adapt_group_id="1" equipment_part_id="6" equipment_part_name="feet" />
+      <row clothing_adapt_group_id="0" equipment_part_id="7" equipment_part_name="horse_head" />
+      <row clothing_adapt_group_id="0" equipment_part_id="8" equipment_part_name="horse_torso" />
+      <row clothing_adapt_group_id="0" equipment_part_id="9" equipment_part_name="horse_legs" />
+    </rows>
+  </table>
+</database>

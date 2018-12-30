@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="document_requirement" version="1">
+    <header>
+      <column name="item_id" type="uuid" />
+      <column name="script" type="text" />
+    </header>
+    <rows>
+      <row item_id="0defd37d-cfec-446f-b307-e9ef65fea3f3" script="if(playerSoul.soul:GetStatLevel('vit')&lt;5)&#xA;then&#xA;return &quot;@ui_playerCantStudy_lowSkill&quot;;&#xA;end" />
+      <row item_id="196ffe33-bec0-410d-abb5-138f69ececd7" script="if(playerSoul.soul:GetStatLevel('vit')&lt;10)&#xA;then&#xA;return &quot;@ui_playerCantStudy_lowSkill&quot;;&#xA;end" />
+      <row item_id="20856f2c-1f0c-42dd-805a-87eb7902ddeb" script="if(playerSoul.soul:GetStatLevel('str')&lt;5)&#xA;then&#xA;return &quot;@ui_playerCantStudy_lowSkill&quot;;&#xA;end" />
+      <row item_id="26cf61b2-5d9f-49b1-94b7-c82e0924abf2" script="if(playerSoul.soul:GetStatLevel('spc')&lt;10)&#xA;then&#xA;return &quot;@ui_playerCantStudy_lowSkill&quot;;&#xA;end" />
+      <row item_id="2aca6ba2-e72f-4b29-a550-2f8af50d49ff" script="if(playerSoul.soul:GetStatLevel('vit')&lt;15)&#xA;then&#xA;return &quot;@ui_playerCantStudy_lowSkill&quot;;&#xA;end" />
+      <row item_id="2c180a20-ac66-4093-b0d6-15046ea5fa34" script="if(playerSoul.soul:GetStatLevel('spc')&lt;5)&#xA;then&#xA;return &quot;@ui_playerCantStudy_lowSkill&quot;;&#xA;end" />
+      <row item_id="55057cac-7e39-47f8-921c-68de4f3e04cb" script="if(playerSoul.soul:GetStatLevel('spc')&lt;15)&#xA;then&#xA;return &quot;@ui_playerCantStudy_lowSkill&quot;;&#xA;end" />
+      <row item_id="585319b6-f72f-4662-99dd-817a1c40758d" script="if(playerSoul.soul:GetStatLevel('str')&lt;15)&#xA;then&#xA;return &quot;@ui_playerCantStudy_lowSkill&quot;;&#xA;end" />
+      <row item_id="8c23bd24-ea62-43b3-ac49-357ff34d3ed2" script="if(playerSoul.soul:GetStatLevel('agi')&lt;5)&#xA;then&#xA;return &quot;@ui_playerCantStudy_lowSkill&quot;;&#xA;end" />
+      <row item_id="b95f10cb-5225-4308-ada7-8405a8238b29" script="if(playerSoul.soul:GetStatLevel('agi')&lt;15)&#xA;then&#xA;return &quot;@ui_playerCantStudy_lowSkill&quot;;&#xA;end" />
+      <row item_id="cbe084af-0d9c-4a97-8d83-b9bb8fa02e02" script="if(playerSoul.soul:GetStatLevel('str')&lt;10)&#xA;then&#xA;return &quot;@ui_playerCantStudy_lowSkill&quot;;&#xA;end" />
+      <row item_id="d9f62ac5-7e3b-4d2b-93d9-2effa81a8610" script="if(playerSoul.soul:GetStatLevel('agi')&lt;10)&#xA;then&#xA;return &quot;@ui_playerCantStudy_lowSkill&quot;;&#xA;end" />
+    </rows>
+  </table>
+</database>

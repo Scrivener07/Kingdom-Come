@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="skiptime" version="1">
+    <header>
+      <column name="code_only" type="boolean" />
+      <column name="skiptime_id" type="integer" />
+      <column name="skiptime_name" type="character varying" />
+      <column name="skiptime_type_id" type="integer" />
+      <column name="ui_message" type="character varying" />
+    </header>
+    <rows>
+      <row code_only="False" skiptime_id="0" skiptime_name="Undefined" skiptime_type_id="9" ui_message="" />
+      <row code_only="True" skiptime_id="1" skiptime_name="Wait" skiptime_type_id="7" ui_message="ui_dlg_SkipTime" />
+      <row code_only="True" skiptime_id="2" skiptime_name="Sleep" skiptime_type_id="8" ui_message="ui_dlg_SleepTime" />
+      <row code_only="True" skiptime_id="3" skiptime_name="Faint" skiptime_type_id="9" ui_message="ui_dlg_FaintTime" />
+      <row code_only="True" skiptime_id="4" skiptime_name="Read" skiptime_type_id="10" ui_message="ui_dlg_ReadTime" />
+      <row code_only="True" skiptime_id="5" skiptime_name="Jail" skiptime_type_id="11" ui_message="ui_dlg_JailTime" />
+      <row code_only="True" skiptime_id="6" skiptime_name="Unconscious" skiptime_type_id="12" ui_message="ui_dlg_UnlimitedTime" />
+      <row code_only="False" skiptime_id="7" skiptime_name="Bath" skiptime_type_id="11" ui_message="ui_dlg_BathTime" />
+      <row code_only="False" skiptime_id="8" skiptime_name="Infinity" skiptime_type_id="13" ui_message="" />
+      <row code_only="False" skiptime_id="9" skiptime_name="WaitingForSoldiers" skiptime_type_id="13" ui_message="ui_dlg_waitingForSoldiers" />
+    </rows>
+  </table>
+</database>

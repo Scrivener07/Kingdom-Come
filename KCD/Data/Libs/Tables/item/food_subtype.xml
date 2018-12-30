@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="food_subtype" version="1">
+    <header>
+      <column name="food_subtype_id" type="integer" />
+      <column name="food_subtype_name" type="character varying" />
+    </header>
+    <rows>
+      <row food_subtype_id="0" food_subtype_name="apple" />
+      <row food_subtype_id="2" food_subtype_name="bacon" />
+      <row food_subtype_id="3" food_subtype_name="wine" />
+      <row food_subtype_id="4" food_subtype_name="health_potion" />
+      <row food_subtype_id="5" food_subtype_name="poison" />
+      <row food_subtype_id="6" food_subtype_name="raw" />
+      <row food_subtype_id="7" food_subtype_name="beer" />
+      <row food_subtype_id="8" food_subtype_name="liquor" />
+      <row food_subtype_id="9" food_subtype_name="preserver" />
+      <row food_subtype_id="10" food_subtype_name="agility_potion" />
+      <row food_subtype_id="11" food_subtype_name="water" />
+      <row food_subtype_id="12" food_subtype_name="plague_cure" />
+      <row food_subtype_id="13" food_subtype_name="pear" />
+      <row food_subtype_id="14" food_subtype_name="vegetable" />
+      <row food_subtype_id="15" food_subtype_name="dryable" />
+    </rows>
+  </table>
+</database>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="hobby" version="1">
+    <header>
+      <column name="hobby_id" type="integer" />
+      <column name="hobby_name" type="character varying" />
+      <column name="hobby_pretty_name" type="character varying" />
+    </header>
+    <rows>
+      <row hobby_id="6" hobby_name="PubVisitor" hobby_pretty_name="pub" />
+      <row hobby_id="14" hobby_name="Fisher" hobby_pretty_name="fish" />
+      <row hobby_id="15" hobby_name="walk" hobby_pretty_name="walk" />
+      <row hobby_id="16" hobby_name="Shooting" hobby_pretty_name="shoot" />
+      <row hobby_id="17" hobby_name="repairFence_atHome" hobby_pretty_name="repairFence" />
+      <row hobby_id="18" hobby_name="BathhouseCustomer" hobby_pretty_name="baths" />
+      <row hobby_id="20" hobby_name="trainingWithSword" hobby_pretty_name="trainingWithSword" />
+      <row hobby_id="21" hobby_name="pray" hobby_pretty_name="pray" />
+      <row hobby_id="22" hobby_name="rest_atHome" hobby_pretty_name="rest" />
+      <row hobby_id="23" hobby_name="restOutside" hobby_pretty_name="restOutside" />
+      <row hobby_id="24" hobby_name="cityWalk" hobby_pretty_name="cityWalk" />
+      <row hobby_id="25" hobby_name="embroider" hobby_pretty_name="embroider" />
+      <row hobby_id="26" hobby_name="hangingOut" hobby_pretty_name="hangingOut" />
+      <row hobby_id="27" hobby_name="trainingWithSword_dummy" hobby_pretty_name="trainingWithSword_dummy" />
+    </rows>
+  </table>
+</database>

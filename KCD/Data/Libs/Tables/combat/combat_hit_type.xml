@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="combat_hit_type" version="1">
+    <header>
+      <column name="combat_hit_type_id" type="integer" />
+      <column name="combat_hit_type_name" type="character varying" />
+      <column name="mn_tag" type="character varying" />
+    </header>
+    <rows>
+      <row combat_hit_type_id="1" combat_hit_type_name="minor" mn_tag="hitTypeLow" />
+      <row combat_hit_type_id="2" combat_hit_type_name="major" mn_tag="hitTypeNormal" />
+    </rows>
+  </table>
+</database>

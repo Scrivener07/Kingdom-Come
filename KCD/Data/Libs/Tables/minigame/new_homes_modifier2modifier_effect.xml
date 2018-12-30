@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="new_homes_modifier2modifier_effect" version="1">
+    <header>
+      <column name="modifier_effect_id" type="integer" />
+      <column name="modifier_id" type="integer" />
+    </header>
+    <rows>
+      <row modifier_effect_id="16" modifier_id="2" />
+      <row modifier_effect_id="15" modifier_id="3" />
+      <row modifier_effect_id="18" modifier_id="5" />
+      <row modifier_effect_id="19" modifier_id="6" />
+      <row modifier_effect_id="20" modifier_id="7" />
+      <row modifier_effect_id="21" modifier_id="8" />
+      <row modifier_effect_id="22" modifier_id="9" />
+      <row modifier_effect_id="23" modifier_id="10" />
+      <row modifier_effect_id="24" modifier_id="11" />
+      <row modifier_effect_id="25" modifier_id="12" />
+      <row modifier_effect_id="26" modifier_id="13" />
+      <row modifier_effect_id="17" modifier_id="15" />
+      <row modifier_effect_id="1" modifier_id="17" />
+      <row modifier_effect_id="6" modifier_id="17" />
+      <row modifier_effect_id="3" modifier_id="18" />
+      <row modifier_effect_id="7" modifier_id="18" />
+      <row modifier_effect_id="3" modifier_id="19" />
+      <row modifier_effect_id="8" modifier_id="19" />
+      <row modifier_effect_id="3" modifier_id="20" />
+      <row modifier_effect_id="9" modifier_id="20" />
+      <row modifier_effect_id="4" modifier_id="21" />
+      <row modifier_effect_id="10" modifier_id="21" />
+      <row modifier_effect_id="4" modifier_id="22" />
+      <row modifier_effect_id="11" modifier_id="22" />
+      <row modifier_effect_id="5" modifier_id="23" />
+      <row modifier_effect_id="12" modifier_id="23" />
+      <row modifier_effect_id="5" modifier_id="24" />
+      <row modifier_effect_id="13" modifier_id="24" />
+      <row modifier_effect_id="5" modifier_id="25" />
+      <row modifier_effect_id="14" modifier_id="25" />
+      <row modifier_effect_id="31" modifier_id="26" />
+      <row modifier_effect_id="32" modifier_id="27" />
+      <row modifier_effect_id="33" modifier_id="28" />
+      <row modifier_effect_id="34" modifier_id="32" />
+      <row modifier_effect_id="106" modifier_id="33" />
+      <row modifier_effect_id="107" modifier_id="34" />
+      <row modifier_effect_id="49" modifier_id="35" />
+      <row modifier_effect_id="50" modifier_id="36" />
+      <row modifier_effect_id="51" modifier_id="37" />
+      <row modifier_effect_id="52" modifier_id="38" />
+      <row modifier_effect_id="53" modifier_id="39" />
+      <row modifier_effect_id="54" modifier_id="40" />
+      <row modifier_effect_id="55" modifier_id="41" />
+      <row modifier_effect_id="56" modifier_id="42" />
+      <row modifier_effect_id="57" modifier_id="43" />
+      <row modifier_effect_id="60" modifier_id="46" />
+      <row modifier_effect_id="61" modifier_id="47" />
+      <row modifier_effect_id="62" modifier_id="48" />
+      <row modifier_effect_id="63" modifier_id="49" />
+      <row modifier_effect_id="64" modifier_id="50" />
+      <row modifier_effect_id="65" modifier_id="51" />
+      <row modifier_effect_id="66" modifier_id="51" />
+      <row modifier_effect_id="67" modifier_id="52" />
+      <row modifier_effect_id="98" modifier_id="52" />
+      <row modifier_effect_id="68" modifier_id="53" />
+      <row modifier_effect_id="69" modifier_id="54" />
+      <row modifier_effect_id="70" modifier_id="55" />
+      <row modifier_effect_id="74" modifier_id="59" />
+      <row modifier_effect_id="75" modifier_id="60" />
+      <row modifier_effect_id="78" modifier_id="63" />
+      <row modifier_effect_id="80" modifier_id="65" />
+      <row modifier_effect_id="81" modifier_id="66" />
+      <row modifier_effect_id="82" modifier_id="67" />
+      <row modifier_effect_id="83" modifier_id="68" />
+      <row modifier_effect_id="84" modifier_id="69" />
+      <row modifier_effect_id="85" modifier_id="78" />
+      <row modifier_effect_id="86" modifier_id="79" />
+      <row modifier_effect_id="87" modifier_id="80" />
+      <row modifier_effect_id="88" modifier_id="81" />
+      <row modifier_effect_id="89" modifier_id="82" />
+      <row modifier_effect_id="90" modifier_id="83" />
+      <row modifier_effect_id="91" modifier_id="84" />
+      <row modifier_effect_id="92" modifier_id="85" />
+      <row modifier_effect_id="93" modifier_id="86" />
+      <row modifier_effect_id="99" modifier_id="90" />
+      <row modifier_effect_id="100" modifier_id="91" />
+      <row modifier_effect_id="101" modifier_id="92" />
+      <row modifier_effect_id="102" modifier_id="93" />
+      <row modifier_effect_id="103" modifier_id="94" />
+      <row modifier_effect_id="108" modifier_id="95" />
+      <row modifier_effect_id="113" modifier_id="96" />
+    </rows>
+  </table>
+</database>

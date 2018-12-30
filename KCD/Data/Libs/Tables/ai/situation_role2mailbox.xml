@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="situation_role2mailbox" version="1">
+    <header>
+      <column name="mailbox_id" type="uuid" />
+      <column name="priority" type="integer" />
+      <column name="situation_role_id" type="uuid" />
+    </header>
+    <rows>
+      <row mailbox_id="43c921d4-5a99-ad04-54b5-ffad93f032b5" priority="0" situation_role_id="40494ca4-ca2f-dba7-324b-c4d8116aacba" />
+    </rows>
+  </table>
+</database>

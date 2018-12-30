@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="weapon_sub_class" version="1">
+    <header>
+      <column name="weapon_sub_class_id" type="integer" />
+      <column name="weapon_sub_class_name" type="character varying" />
+    </header>
+    <rows>
+      <row weapon_sub_class_id="-1" weapon_sub_class_name="undefined" />
+      <row weapon_sub_class_id="0" weapon_sub_class_name="axe for stabbing" />
+      <row weapon_sub_class_id="1" weapon_sub_class_name="mace stab blunt" />
+      <row weapon_sub_class_id="2" weapon_sub_class_name="mace for stabbing" />
+      <row weapon_sub_class_id="4" weapon_sub_class_name="pocketed" />
+    </rows>
+  </table>
+</database>

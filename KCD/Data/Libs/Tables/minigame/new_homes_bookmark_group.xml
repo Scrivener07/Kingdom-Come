@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="new_homes_bookmark_group" version="1">
+    <header>
+      <column name="bookmark_group_id" type="integer" />
+      <column name="bookmark_group_name" type="character varying" />
+    </header>
+    <rows>
+      <row bookmark_group_id="1" bookmark_group_name="inner" />
+      <row bookmark_group_id="2" bookmark_group_name="outer" />
+    </rows>
+  </table>
+</database>

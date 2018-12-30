@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="combat_zone" version="1">
+    <header>
+      <column name="angle_from" type="real" />
+      <column name="angle_to" type="real" />
+      <column name="attack_mn_tag" type="character varying" />
+      <column name="combat_zone_id" type="integer" />
+      <column name="combat_zone_name" type="character varying" />
+      <column name="cursor_idx" type="integer" />
+      <column name="default_zone" type="boolean" />
+      <column name="defense_mn_tag" type="character varying" />
+      <column name="end_mn_tag" type="character varying" />
+      <column name="radius_from" type="real" />
+      <column name="radius_to" type="real" />
+      <column name="riposte_mn_tag" type="character varying" />
+      <column name="start_mn_tag" type="character varying" />
+    </header>
+    <rows>
+      <row angle_from="0" angle_to="0" attack_mn_tag="" combat_zone_id="-1" combat_zone_name="undefined" cursor_idx="1" default_zone="False" defense_mn_tag="" end_mn_tag="" radius_from="0.3" radius_to="1" riposte_mn_tag="" start_mn_tag="" />
+      <row angle_from="45" angle_to="135" attack_mn_tag="aZ0" combat_zone_id="0" combat_zone_name="head" cursor_idx="2" default_zone="False" defense_mn_tag="dZ0" end_mn_tag="eZ0" radius_from="0.3" radius_to="1" riposte_mn_tag="rZ0" start_mn_tag="sZ0" />
+      <row angle_from="135" angle_to="205" attack_mn_tag="aZ1" combat_zone_id="1" combat_zone_name="upper_left" cursor_idx="6" default_zone="False" defense_mn_tag="dZ1" end_mn_tag="eZ1" radius_from="0.3" radius_to="1" riposte_mn_tag="rZ1" start_mn_tag="sZ1" />
+      <row angle_from="325" angle_to="45" attack_mn_tag="aZ2" combat_zone_id="2" combat_zone_name="upper_right" cursor_idx="3" default_zone="True" defense_mn_tag="dZ2" end_mn_tag="eZ2" radius_from="0.3" radius_to="1" riposte_mn_tag="rZ2" start_mn_tag="sZ2" />
+      <row angle_from="205" angle_to="270" attack_mn_tag="aZ3" combat_zone_id="3" combat_zone_name="lower_left" cursor_idx="5" default_zone="False" defense_mn_tag="dZ3" end_mn_tag="eZ3" radius_from="0.3" radius_to="1" riposte_mn_tag="rZ3" start_mn_tag="sZ3" />
+      <row angle_from="270" angle_to="325" attack_mn_tag="aZ4" combat_zone_id="4" combat_zone_name="lower_right" cursor_idx="4" default_zone="False" defense_mn_tag="dZ4" end_mn_tag="eZ4" radius_from="0.3" radius_to="1" riposte_mn_tag="rZ4" start_mn_tag="sZ4" />
+      <row angle_from="0" angle_to="0" attack_mn_tag="aZ5" combat_zone_id="5" combat_zone_name="center" cursor_idx="1" default_zone="False" defense_mn_tag="dZ5" end_mn_tag="eZ5" radius_from="0" radius_to="0" riposte_mn_tag="rZ5" start_mn_tag="sZ5" />
+    </rows>
+  </table>
+</database>

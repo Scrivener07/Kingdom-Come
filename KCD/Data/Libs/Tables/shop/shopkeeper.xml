@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="shopkeeper" version="1">
+    <header>
+      <column name="computer_name" type="character varying" />
+      <column name="keeper_id" type="uuid" />
+      <column name="level_name" type="character varying" />
+      <column name="shop_id" type="integer" />
+      <column name="timestamp" type="character varying" />
+    </header>
+    <rows>
+      <row computer_name="MASTRNAD-DT" keeper_id="402fb4e0-32b5-dffa-5682-05680672fe8f" level_name="hokus_pokus_placka" shop_id="113" timestamp="16/10/2017 00:01" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4037b6af-b392-2d84-9db6-57d971d664aa" level_name="hokus_pokus_placka" shop_id="148" timestamp="29/03/2018 17:19" />
+      <row computer_name="" keeper_id="404efd7b-2194-18ad-274e-778c745b97a2" level_name="programmers_test" shop_id="4" timestamp="" />
+      <row computer_name="DMIKES-DT" keeper_id="409eb07e-b3ca-e0a8-a227-4e9424cec98f" level_name="escape_to_talmberk" shop_id="28" timestamp="13/07/2016 20:26" />
+      <row computer_name="MASTRNAD-DT" keeper_id="40a32be2-aca9-19c8-b8fc-17a13f035caa" level_name="hokus_pokus_placka" shop_id="107" timestamp="04/07/2017 12:06" />
+      <row computer_name="MASTRNAD-DT" keeper_id="40a95fd2-2055-9bd7-b5b9-06ef87aba2aa" level_name="hokus_pokus_placka" shop_id="102" timestamp="27/06/2017 17:21" />
+      <row computer_name="MASTRNAD-DT" keeper_id="40e64bec-055d-f2e9-eed6-ccca6714aeab" level_name="hokus_pokus_placka" shop_id="104" timestamp="30/06/2017 13:15" />
+      <row computer_name="MASTRNAD-DT" keeper_id="41123c1c-a49e-dacb-824f-927efa6a2095" level_name="hokus_pokus_placka" shop_id="72" timestamp="15/10/2017 21:43" />
+      <row computer_name="MASTRNAD-DT" keeper_id="413aba78-1fe6-908c-ab3d-341bcc2927a3" level_name="hokus_pokus_placka" shop_id="103" timestamp="02/01/2018 12:55" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4147074f-adf4-c1e5-3a55-31fd86bfffbd" level_name="hokus_pokus_placka" shop_id="80" timestamp="15/10/2017 21:44" />
+      <row computer_name="JVANZURA-DT" keeper_id="41539c3d-929f-1e05-89d1-3c244e9e5bac" level_name="rataje" shop_id="33" timestamp="27/01/2017 10:28" />
+      <row computer_name="AZAVODINA-DT" keeper_id="416a0d4a-764a-1d1a-084d-af81ecd3bbab" level_name="test_shopinnkeeper_alisa" shop_id="70" timestamp="18/04/2017 15:59" />
+      <row computer_name="AZAVODINA-DT" keeper_id="4193dcc8-7830-3b4a-31af-3c40d9ba9796" level_name="test_shopinnkeeper_alisa" shop_id="69" timestamp="18/04/2017 15:57" />
+      <row computer_name="AZAVODINA-DT" keeper_id="419998eb-0418-c2da-add6-8207ee96c29f" level_name="test_shopinnkeeper_alisa" shop_id="61" timestamp="27/04/2017 13:31" />
+      <row computer_name="MASTRNAD-DT" keeper_id="41a8227c-74b7-eafb-07eb-5d53079abea4" level_name="hokus_pokus_placka" shop_id="111" timestamp="31/10/2017 18:26" />
+      <row computer_name="DMIKES-DT" keeper_id="41c0c0b5-3f98-0d89-1668-3d46ae680aa7" level_name="test_dan_node" shop_id="78" timestamp="25/05/2017 20:05" />
+      <row computer_name="AZAVODINA-DT" keeper_id="41c47778-204c-df80-74aa-c869dc8b41a5" level_name="test_shopinnkeeper_alisa" shop_id="76" timestamp="11/05/2017 13:31" />
+      <row computer_name="JVANZURA-DT" keeper_id="41d39d4d-90dd-5e60-c16d-fb4d248980b3" level_name="rataje" shop_id="31" timestamp="25/04/2017 19:10" />
+      <row computer_name="MASTRNAD-DT" keeper_id="41f41749-5150-2df1-f83d-9fb62a6c5997" level_name="hokus_pokus_placka" shop_id="138" timestamp="20/10/2017 16:34" />
+      <row computer_name="PNOVAK-DT" keeper_id="4201bcdc-c5a6-8a9d-f2c0-7c535a154abc" level_name="peter_novak_test_placka" shop_id="159" timestamp="13/06/2018 16:30" />
+      <row computer_name="MASTRNAD-DT" keeper_id="42054180-d6e1-c0e5-5314-8f6c8a3343a4" level_name="hokus_pokus_placka" shop_id="45" timestamp="15/10/2017 22:31" />
+      <row computer_name="MASTRNAD-DT" keeper_id="42522ef9-7af1-64f7-90f2-626737cc2ea9" level_name="hokus_pokus_placka" shop_id="21" timestamp="15/10/2017 23:58" />
+      <row computer_name="MASTRNAD-DT" keeper_id="42547c98-1354-88dc-c180-853959818ab5" level_name="hokus_pokus_placka" shop_id="145" timestamp="02/03/2018 16:34" />
+      <row computer_name="PNOVAK-DT" keeper_id="425e5108-9ef6-9d0a-e752-86e96762f89d" level_name="peter_novak_test_placka" shop_id="161" timestamp="11/07/2018 12:25" />
+      <row computer_name="JVANZURA-DT" keeper_id="42c68f0f-4569-e914-a467-5f71fd0c1784" level_name="rataje" shop_id="32" timestamp="25/04/2017 19:10" />
+      <row computer_name="AZAVODINA-DT" keeper_id="42e43b1d-aef6-ebcd-73b8-36f1957f4793" level_name="test_shopinnkeeper_alisa" shop_id="72" timestamp="18/04/2017 16:01" />
+      <row computer_name="MASTRNAD-DT" keeper_id="42fe50a8-ba5b-d65f-8c0a-41fbb8be72b9" level_name="hokus_pokus_placka" shop_id="117" timestamp="07/07/2017 22:13" />
+      <row computer_name="PNOVAK-DT" keeper_id="4319f0f4-d519-67cb-ff6f-8deba5383791" level_name="peter_novak_test_placka" shop_id="161" timestamp="11/07/2018 12:25" />
+      <row computer_name="PMALAC-DT" keeper_id="4331f88c-3759-1009-ea4e-c5f636afc0be" level_name="ui_test" shop_id="13" timestamp="10/06/2016 15:53" />
+      <row computer_name="" keeper_id="435e7fe0-f347-001c-4daa-b6324fbc9cb0" level_name="programmers_test" shop_id="4" timestamp="" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4364a0f6-d7cc-918a-004c-d03a4a0bfe95" level_name="hokus_pokus_placka" shop_id="118" timestamp="09/11/2017 13:18" />
+      <row computer_name="JVANZURA-DT" keeper_id="438ba5b6-049c-bb51-30e6-a5ab73dfabae" level_name="rataje" shop_id="49" timestamp="25/04/2017 17:42" />
+      <row computer_name="MASTRNAD-DT" keeper_id="439318af-12b2-eaa1-e869-74b826c0dbbf" level_name="hokus_pokus_placka" shop_id="90" timestamp="15/10/2017 18:35" />
+      <row computer_name="DMIKES-DT" keeper_id="43c96b9a-a5b5-da38-0287-475cd21267b4" level_name="escape_to_talmberk" shop_id="29" timestamp="14/07/2016 10:21" />
+      <row computer_name="MASTRNAD-DT" keeper_id="43cf9a56-9f37-6c53-4cff-75cbf65b8c96" level_name="hokus_pokus_placka" shop_id="45" timestamp="15/10/2017 22:31" />
+      <row computer_name="DMIKES-DT" keeper_id="4410cf88-03a8-ad40-37f2-a6854f1d6bb3" level_name="rataje" shop_id="49" timestamp="06/06/2018 21:30" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4422f5dc-5c65-2598-eaf3-227339b6c581" level_name="hokus_pokus_placka" shop_id="143" timestamp="20/12/2017 17:01" />
+      <row computer_name="PMALAC-DT" keeper_id="4431e312-fac2-98bd-6d2f-c0c1c98df6b6" level_name="rataje" shop_id="23" timestamp="29/02/2016 13:32" />
+      <row computer_name="MLABUT-DT" keeper_id="4445628d-55bd-2545-7409-520cc4c1b4b9" level_name="event_wanderer" shop_id="65" timestamp="18/04/2017 10:10" />
+      <row computer_name="MASTRNAD-DT" keeper_id="445cb243-b29d-e2b4-237a-874070237092" level_name="hokus_pokus_placka" shop_id="54" timestamp="15/10/2017 18:31" />
+      <row computer_name="" keeper_id="445e2a0d-9d3e-d882-fec9-9e3020735d94" level_name="nevlastni_bratri" shop_id="11" timestamp="12/01/2015 16:52" />
+      <row computer_name="TSEMECKA-DT" keeper_id="4476e0e2-394c-5c26-e4c5-992bd4e600a8" level_name="licentious_monks" shop_id="35" timestamp="16/09/2016 17:20" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4478b640-9835-59b3-f5ba-96caec88bdb5" level_name="hokus_pokus_placka" shop_id="112" timestamp="07/07/2017 18:48" />
+      <row computer_name="MASTRNAD-DT" keeper_id="44aecf87-2594-7cb9-1bf5-a865f5c61585" level_name="hokus_pokus_placka" shop_id="94" timestamp="15/10/2017 18:36" />
+      <row computer_name="MASTRNAD-DT" keeper_id="44b053d1-2d91-93cc-fed4-ce0bc63bdf96" level_name="hokus_pokus_placka" shop_id="100" timestamp="22/06/2017 15:29" />
+      <row computer_name="AZAVODINA-DT" keeper_id="44ce6638-8538-c820-c652-46bb9bc6a99b" level_name="test_shopinnkeeper_alisa" shop_id="74" timestamp="25/04/2017 13:51" />
+      <row computer_name="MLABUT-DT" keeper_id="44ed3ec2-cd82-d6e4-9f27-9e944d9e73a0" level_name="event_wanderer" shop_id="63" timestamp="06/04/2017 16:59" />
+      <row computer_name="" keeper_id="453a37b8-1eea-f875-d3ee-2bab5cbc0f9d" level_name="" shop_id="13" timestamp="" />
+      <row computer_name="MASTRNAD-DT" keeper_id="455416ab-45da-7b96-50d7-55feeabfa587" level_name="hokus_pokus_placka" shop_id="68" timestamp="28/06/2017 16:24" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4574351c-953c-849a-d48c-a017c0422890" level_name="hokus_pokus_placka" shop_id="115" timestamp="07/07/2017 21:08" />
+      <row computer_name="JVANZURA-DT" keeper_id="45e01fd4-e623-815e-d800-c62fb2b71591" level_name="rataje" shop_id="52" timestamp="21/02/2017 18:39" />
+      <row computer_name="MASTRNAD-DT" keeper_id="45eef4a0-3272-f4d6-c3e5-3414f71fbeac" level_name="hokus_pokus_placka" shop_id="61" timestamp="16/10/2017 00:02" />
+      <row computer_name="" keeper_id="45fe52bf-6425-86ff-0992-18210a184f99" level_name="shop" shop_id="5" timestamp="" />
+      <row computer_name="" keeper_id="4614f9fb-1c07-5a54-4539-6392c7e69a86" level_name="shop" shop_id="4" timestamp="" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4618f1c3-240c-52fb-eb00-97d3179c56af" level_name="hokus_pokus_placka" shop_id="68" timestamp="15/10/2017 21:42" />
+      <row computer_name="DMIKES-DT" keeper_id="461da42d-5352-2ac6-74da-c454a31e869c" level_name="rataje" shop_id="50" timestamp="06/06/2018 21:30" />
+      <row computer_name="" keeper_id="46735771-24b3-25a9-5ff7-1f57259494a0" level_name="smartobj" shop_id="1" timestamp="" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4675bd44-94b8-f814-e123-490d6ed09d9c" level_name="hokus_pokus_placka" shop_id="120" timestamp="11/07/2017 16:48" />
+      <row computer_name="MASTRNAD-DT" keeper_id="467f6cfd-a869-9ce1-2e07-24880e24b7b2" level_name="hokus_pokus_placka" shop_id="116" timestamp="16/10/2017 00:01" />
+      <row computer_name="MASTRNAD-DT" keeper_id="46804406-cd9b-000c-3ba2-7ea0d4bfe091" level_name="hokus_pokus_placka" shop_id="99" timestamp="07/09/2017 10:28" />
+      <row computer_name="TSEMECKA-DT" keeper_id="468044a8-052d-88dc-65e0-42589f3cd39b" level_name="urbans_bone" shop_id="25" timestamp="04/05/2016 15:20" />
+      <row computer_name="MASTRNAD-DT" keeper_id="469a778e-29f9-96ae-2132-5156c40d4281" level_name="hokus_pokus_placka" shop_id="136" timestamp="16/10/2017 00:00" />
+      <row computer_name="" keeper_id="46a96d54-2ab9-4dce-30a7-5298a3e39fa6" level_name="npcplayground3" shop_id="7" timestamp="" />
+      <row computer_name="" keeper_id="46b4eff4-49ab-b204-c5ad-671779e3e69c" level_name="shop" shop_id="3" timestamp="" />
+      <row computer_name="PNOVAK-DT" keeper_id="46b6c8e0-e8c6-db7a-c272-8180dac606b4" level_name="peter_novak_test_placka" shop_id="163" timestamp="11/07/2018 12:25" />
+      <row computer_name="MASTRNAD-DT" keeper_id="46c13689-b275-53d1-0c7b-dd834be6da96" level_name="hokus_pokus_placka" shop_id="113" timestamp="07/07/2017 20:33" />
+      <row computer_name="MASTRNAD-DT" keeper_id="46cf30e2-ea8e-8538-fe5f-56f23453f5b7" level_name="hokus_pokus_placka" shop_id="111" timestamp="07/07/2017 16:17" />
+      <row computer_name="MZIEGLER-DT" keeper_id="46d81f9a-c4f4-b1b9-f361-7ca71c846a97" level_name="test_merchant" shop_id="19" timestamp="14/06/2016 12:40" />
+      <row computer_name="MASTRNAD-DT" keeper_id="46d8278c-1d65-99d4-b30f-4c63e8f2b38c" level_name="rataje" shop_id="105" timestamp="03/07/2017 18:41" />
+      <row computer_name="MASTRNAD-DT" keeper_id="46dc3e44-4191-7640-c87c-b9031feadbbd" level_name="hokus_pokus_placka" shop_id="77" timestamp="15/10/2017 22:30" />
+      <row computer_name="JVANZURA-DT" keeper_id="46e127ba-a478-45c1-b163-9fc943ea4f98" level_name="rataje" shop_id="51" timestamp="21/02/2017 19:06" />
+      <row computer_name="MASTRNAD-DT" keeper_id="46ecc5de-de4c-bfde-97a4-8889b209428b" level_name="hokus_pokus_placka" shop_id="74" timestamp="15/10/2017 21:45" />
+      <row computer_name="MASTRNAD-DT" keeper_id="46f871e8-75a6-5fb0-9951-47f1cd8b3cbe" level_name="hokus_pokus_placka" shop_id="129" timestamp="26/09/2017 16:12" />
+      <row computer_name="" keeper_id="4717435c-c97b-7ed5-0ea0-cac62de324b5" level_name="shop_4stashes" shop_id="3" timestamp="13/12/2012 15:17" />
+      <row computer_name="" keeper_id="471fb76a-758d-ce48-e60c-cdf64f688bba" level_name="shop" shop_id="6" timestamp="" />
+      <row computer_name="MASTRNAD-DT" keeper_id="472f7a49-7993-ce33-51d8-11cdbccfcbb8" level_name="hokus_pokus_placka" shop_id="94" timestamp="15/10/2017 18:36" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4731351f-c37f-666d-9cf5-5d1d0582d0bc" level_name="hokus_pokus_placka" shop_id="144" timestamp="05/03/2018 14:11" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4747cc58-91e6-36da-4767-aca906b41294" level_name="hokus_pokus_placka" shop_id="62" timestamp="10/01/2018 16:44" />
+      <row computer_name="MASTRNAD-DT" keeper_id="475696ef-c969-37b8-78cf-fed6986767a1" level_name="hokus_pokus_placka" shop_id="108" timestamp="04/07/2017 13:38" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4763e5ed-8847-5e21-62de-85c6d79212a4" level_name="hokus_pokus_placka" shop_id="143" timestamp="20/12/2017 17:01" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4787e934-773b-c1ea-77ac-2df736e80299" level_name="hokus_pokus_placka" shop_id="122" timestamp="25/07/2017 15:10" />
+      <row computer_name="MASTRNAD-DT" keeper_id="478c7034-b337-b619-bfba-8fc878b4dcb2" level_name="hokus_pokus_placka" shop_id="47" timestamp="15/10/2017 22:30" />
+      <row computer_name="PNOVAK-DT" keeper_id="479527e1-0ae9-2981-c2d7-e66269b7b095" level_name="peter_novak_test_placka" shop_id="157" timestamp="13/06/2018 12:13" />
+      <row computer_name="MASTRNAD-DT" keeper_id="47acfb52-b8b3-6c7a-64d2-c9e0f9e1d99b" level_name="hokus_pokus_placka" shop_id="105" timestamp="03/07/2017 18:36" />
+      <row computer_name="MASTRNAD-DT" keeper_id="47e12b88-802d-019f-613e-8d8f5f2fe995" level_name="hokus_pokus_placka" shop_id="140" timestamp="30/10/2017 16:58" />
+      <row computer_name="MASTRNAD-DT" keeper_id="47e9d3d4-a83b-8f3e-79b5-d61aa74782a3" level_name="hokus_pokus_placka" shop_id="119" timestamp="10/07/2017 18:19" />
+      <row computer_name="JVANZURA-DT" keeper_id="47ecc7dc-f8aa-f615-7599-b079bcec6ea1" level_name="rataje" shop_id="54" timestamp="21/02/2017 18:33" />
+      <row computer_name="AZAVODINA-DT" keeper_id="47fbd9de-c8e4-38ff-830b-693f5fb99794" level_name="test_shopinnkeeper_alisa" shop_id="66" timestamp="18/04/2017 14:33" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4800f053-2b25-3f57-4b8a-e7d07d0e5dac" level_name="hokus_pokus_placka" shop_id="135" timestamp="15/10/2017 20:42" />
+      <row computer_name="SKRUCININ-DT" keeper_id="48031378-63a1-973e-c8a3-a44c9f6a63a1" level_name="balance_01" shop_id="85" timestamp="19/06/2017 17:50" />
+      <row computer_name="SKRUCININ-DT" keeper_id="48279f85-abc1-02d8-6a99-3eb5e5062a86" level_name="balance_01" shop_id="84" timestamp="19/06/2017 17:50" />
+      <row computer_name="MASTRNAD-DT" keeper_id="48450656-ab6d-9902-4547-2fa44680719f" level_name="hokus_pokus_placka" shop_id="93" timestamp="21/06/2017 17:56" />
+      <row computer_name="MASTRNAD-DT" keeper_id="48802e30-7c5d-1127-f7c9-4b2108884ab5" level_name="hokus_pokus_placka" shop_id="116" timestamp="07/07/2017 21:41" />
+      <row computer_name="MASTRNAD-DT" keeper_id="488255f8-bf49-7858-22d1-396e08daa182" level_name="hokus_pokus_placka" shop_id="70" timestamp="15/10/2017 21:42" />
+      <row computer_name="MASTRNAD-DT" keeper_id="488d4c41-7079-67df-8740-421807d15faf" level_name="hokus_pokus_placka" shop_id="121" timestamp="14/07/2017 16:55" />
+      <row computer_name="AZAVODINA-DT" keeper_id="48930738-7d92-5239-c614-a9472792e292" level_name="test_shopinnkeeper_alisa" shop_id="48" timestamp="11/05/2017 13:58" />
+      <row computer_name="JVANZURA-DT" keeper_id="48a15b71-befb-7e59-940b-43bfeaa937a5" level_name="rataje" shop_id="42" timestamp="25/04/2017 19:01" />
+      <row computer_name="MASTRNAD-DT" keeper_id="48c0a0cf-4b76-1ec4-e3c5-24a0cb687494" level_name="hokus_pokus_placka" shop_id="139" timestamp="30/10/2017 16:57" />
+      <row computer_name="" keeper_id="48e665dd-38d4-7402-7edb-8ea1ee1757a6" level_name="lost_keys" shop_id="12" timestamp="06/03/2015 13:19" />
+      <row computer_name="MASTRNAD-DT" keeper_id="48f17b19-2dd7-8c13-c4df-b6585ac81ab7" level_name="hokus_pokus_placka" shop_id="66" timestamp="15/10/2017 21:44" />
+      <row computer_name="PONDRACEK-DT" keeper_id="4909a335-ec27-3213-29b0-9e87cbb93f85" level_name="skalitz" shop_id="17" timestamp="28/09/2015 17:44" />
+      <row computer_name="PNOVAK-DT" keeper_id="491694e9-900c-8671-3fdd-0464a2335388" level_name="peter_novak_test_placka" shop_id="162" timestamp="11/07/2018 12:24" />
+      <row computer_name="MASTRNAD-DT" keeper_id="498080ad-2007-d33d-7a84-7b56b8a8e396" level_name="hokus_pokus_placka" shop_id="97" timestamp="22/06/2017 13:20" />
+      <row computer_name="AZAVODINA-DT" keeper_id="49888955-02e1-f952-ff3f-efb9fbd3d7be" level_name="test_shopinnkeeper_alisa" shop_id="67" timestamp="18/04/2017 15:26" />
+      <row computer_name="MASTRNAD-DT" keeper_id="498acd21-637a-2164-fd87-3c3798a52ab0" level_name="hokus_pokus_placka" shop_id="136" timestamp="16/10/2017 00:00" />
+      <row computer_name="VBOCAN-DT" keeper_id="49ade253-d390-adf8-99bc-dc04b65afc9f" level_name="rataje" shop_id="21" timestamp="20/02/2016 17:10" />
+      <row computer_name="MASTRNAD-DT" keeper_id="49bcf1f4-97cd-0c56-7ea3-006ed65175a7" level_name="hokus_pokus_placka" shop_id="48" timestamp="15/10/2017 22:30" />
+      <row computer_name="PNOVAK-DT" keeper_id="49ee9f4c-6ce4-4fca-ce7f-3da6820c96b2" level_name="peter_novak_test_placka" shop_id="158" timestamp="04/06/2018 17:16" />
+      <row computer_name="JVANZURA-DT" keeper_id="4a091414-f0b6-e23d-9bbf-01cb602ec8be" level_name="rataje" shop_id="50" timestamp="21/02/2017 18:39" />
+      <row computer_name="" keeper_id="4a67f524-1eaf-3b0c-2309-dfaff6ca0882" level_name="multiselection" shop_id="1" timestamp="07/02/2014 13:17" />
+      <row computer_name="PNOVAK-DT" keeper_id="4a797cc3-4e8e-47d6-483d-5a924484d6bd" level_name="test_placka" shop_id="47" timestamp="15/03/2018 17:14" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4a7ff41b-cd54-63f9-2df3-12016dc2fca1" level_name="hokus_pokus_placka" shop_id="107" timestamp="22/01/2018 12:48" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4aa16f0e-ecbe-6f6c-2f54-dfaa66ee3eae" level_name="hokus_pokus_placka" shop_id="64" timestamp="15/10/2017 21:43" />
+      <row computer_name="PONDRACEK-DT" keeper_id="4aa5bd31-2f53-f2bb-3d46-1a0b0cc937a1" level_name="rataje" shop_id="10" timestamp="05/05/2016 12:35" />
+      <row computer_name="" keeper_id="4aacd804-0ca5-5cf6-12e0-e9bd3a7904b4" level_name="game/Levels/shop" shop_id="3" timestamp="17/09/2013 17:16" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4ab79da2-dd95-a2e2-2672-554b62118681" level_name="hokus_pokus_placka" shop_id="130" timestamp="26/09/2017 16:30" />
+      <row computer_name="" keeper_id="4adacac3-98c1-af35-5df3-0c2d3aefccbd" level_name="cumans_by_merhojed" shop_id="15" timestamp="29/05/2015 12:53" />
+      <row computer_name="AZAVODINA-DT" keeper_id="4adc2bb9-c8b8-9011-cd0d-78c7030fad98" level_name="test_shopinnkeeper_alisa" shop_id="75" timestamp="11/05/2017 13:45" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4aef15de-dccd-7cef-a263-f871e001759b" level_name="hokus_pokus_placka" shop_id="21" timestamp="15/10/2017 23:59" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4b0ce772-e9e0-75da-af27-0b8a7b6fe7bd" level_name="hokus_pokus_placka" shop_id="141" timestamp="30/10/2017 16:59" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4b1b8659-bad2-2cfe-cb28-a6081be94f8e" level_name="hokus_pokus_placka" shop_id="56" timestamp="06/10/2017 17:40" />
+      <row computer_name="SKRUCININ-DT" keeper_id="4b3d4a5b-305b-703e-6e5c-7cbe475f7f9a" level_name="balance_01" shop_id="83" timestamp="19/06/2017 17:49" />
+      <row computer_name="AZAVODINA-DT" keeper_id="4b57ecc4-881d-54bc-3b2d-36aab54a0d86" level_name="test_shopinnkeeper_alisa" shop_id="77" timestamp="11/05/2017 13:37" />
+      <row computer_name="SKRUCININ-DT" keeper_id="4b5d2e86-bb9b-2c88-de5c-c049c9c23d90" level_name="balance_01" shop_id="82" timestamp="19/06/2017 16:45" />
+      <row computer_name="PNOVAK-DT" keeper_id="4b735e56-5e98-79c3-38ad-1a4d1a56daa2" level_name="peter_novak_test_placka" shop_id="154" timestamp="04/06/2018 18:02" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4b8153cf-99bd-641d-6459-f82f8a589fa3" level_name="hokus_pokus_placka" shop_id="128" timestamp="26/09/2017 13:40" />
+      <row computer_name="" keeper_id="4b9a0c1a-868e-2915-7057-1a3608de6ab1" level_name="multiselection" shop_id="1" timestamp="07/02/2014 13:18" />
+      <row computer_name="JVANZURA-DT" keeper_id="4bbac5e2-8127-a64d-3b12-b012f072849c" level_name="rataje" shop_id="56" timestamp="11/04/2017 17:14" />
+      <row computer_name="MZIEGLER-DT" keeper_id="4c0ce500-a046-7ba9-1814-dfc16771499f" level_name="test_merchant" shop_id="26" timestamp="14/06/2016 12:31" />
+      <row computer_name="DMIKES-DT" keeper_id="4c1485ae-3796-cc10-0b8d-b5f84927cba2" level_name="rataje" shop_id="50" timestamp="06/06/2018 21:30" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4c206b09-e363-d67c-f1ce-80510ae4de9a" level_name="hokus_pokus_placka" shop_id="69" timestamp="16/10/2017 00:19" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4c8b9025-da05-b04a-6ccf-0545672374be" level_name="hokus_pokus_placka" shop_id="93" timestamp="25/01/2018 15:42" />
+      <row computer_name="PMALAC-DT" keeper_id="4caa841a-0350-63e8-24fd-389fcf581cb1" level_name="rataje" shop_id="22" timestamp="29/02/2016 15:51" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4cab301d-76f6-4f28-e22a-bd523fd2c782" level_name="hokus_pokus_placka" shop_id="86" timestamp="25/07/2017 10:12" />
+      <row computer_name="AZAVODINA-DT" keeper_id="4cee0a74-80cd-a680-02e3-3f7193eada98" level_name="rataje" shop_id="64" timestamp="07/04/2017 14:35" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4d11fd34-e5e9-0d47-1594-c4b4bd5610be" level_name="hokus_pokus_placka" shop_id="43" timestamp="19/09/2017 17:29" />
+      <row computer_name="" keeper_id="4d17b365-4c16-005f-a794-6435a3870fa4" level_name="rataje" shop_id="14" timestamp="09/06/2015 14:34" />
+      <row computer_name="PNOVAK-DT" keeper_id="4d309608-d9e5-a8c5-c8e0-58c21411a39a" level_name="peter_novak_test_placka" shop_id="162" timestamp="11/07/2018 12:24" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4d430af6-c785-a046-30e6-0780df300ca6" level_name="hokus_pokus_placka" shop_id="96" timestamp="21/06/2017 19:06" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4d81a057-762d-051e-0223-e909de12698f" level_name="hokus_pokus_placka" shop_id="106" timestamp="03/07/2017 19:30" />
+      <row computer_name="PNOVAK-DT" keeper_id="4db2b299-e847-7713-2ed8-11f1c52558ac" level_name="peter_novak_test_placka" shop_id="154" timestamp="04/06/2018 17:14" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4dfcb44d-7524-1cad-df4f-b0a3e9ef1e89" level_name="hokus_pokus_placka" shop_id="59" timestamp="15/10/2017 18:31" />
+      <row computer_name="" keeper_id="4e1a294e-4a3b-a7e9-c215-543706e166ad" level_name="programmers_test" shop_id="6" timestamp="" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4e205a3f-319c-45c6-20bb-34e9266c4fa0" level_name="hokus_pokus_placka" shop_id="142" timestamp="16/11/2017 19:45" />
+      <row computer_name="" keeper_id="4e3d3172-ff37-71b8-78e9-04f24c4bb688" level_name="multiselection" shop_id="2" timestamp="07/02/2014 13:18" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4ea02a1e-f28d-25ff-59e3-880dd5d17eaf" level_name="hokus_pokus_placka" shop_id="146" timestamp="02/03/2018 16:34" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4ec32e5c-86c6-c8d8-8202-d41774882b80" level_name="hokus_pokus_placka" shop_id="94" timestamp="21/06/2017 18:26" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4f05384c-21c3-fb3c-4c50-d41f6df7d7a1" level_name="hokus_pokus_placka" shop_id="51" timestamp="20/06/2017 18:15" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4f1c3fbb-3e8e-89df-6ab0-db86e8f350bb" level_name="hokus_pokus_placka" shop_id="89" timestamp="21/06/2017 12:00" />
+      <row computer_name="JVANZURA-DT" keeper_id="4f3696e0-963e-5150-270c-ccf3168b43ab" level_name="rataje" shop_id="53" timestamp="14/03/2017 15:03" />
+      <row computer_name="MZIEGLER-DT" keeper_id="4f7c4b9f-d2b7-21ac-95d5-5f418d724492" level_name="test_merchant" shop_id="19" timestamp="17/12/2015 12:33" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4f8be7aa-fa55-48dd-db3a-904157a40a81" level_name="hokus_pokus_placka" shop_id="90" timestamp="21/06/2017 17:09" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4fbab7bf-fdde-b3ac-b21c-c60c321afcb4" level_name="hokus_pokus_placka" shop_id="123" timestamp="25/07/2017 16:14" />
+      <row computer_name="AZAVODINA-DT" keeper_id="4fc239c0-0ae4-c6d8-ff31-e05d5d2e338a" level_name="test_shopinnkeeper_alisa" shop_id="71" timestamp="18/04/2017 16:00" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4fd06e2c-10bf-3b79-586e-299673c13e94" level_name="hokus_pokus_placka" shop_id="98" timestamp="22/06/2017 12:57" />
+      <row computer_name="JVANZURA-DT" keeper_id="4fdf6145-5417-b44d-3d0b-890b931b38a6" level_name="rataje" shop_id="36" timestamp="25/04/2017 19:11" />
+      <row computer_name="MASTRNAD-DT" keeper_id="4feafb94-e425-9fb3-7cc5-1034734c039e" level_name="hokus_pokus_placka" shop_id="80" timestamp="29/09/2017 18:22" />
+      <row computer_name="MASTRNAD-DT" keeper_id="6ebd1d24-e479-47f0-b9ac-5bd1abb4ffc1" level_name="hokus_pokus_placka" shop_id="137" timestamp="17/10/2017 16:14" />
+    </rows>
+  </table>
+</database>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="npc_tool" version="1">
+    <header>
+      <column name="item_id" type="uuid" />
+      <column name="manipulation_type" type="integer" />
+      <column name="npc_tool_subtype_id" type="integer" />
+      <column name="npc_tool_type_id" type="integer" />
+    </header>
+    <rows>
+      <row item_id="0185caf5-061e-4205-9863-bc10d7c12936" manipulation_type="32" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="01b1f552-9023-4a1f-842a-736cd53b71ac" manipulation_type="25" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="05590d8f-8299-460d-bb39-51059b6474c7" manipulation_type="1" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="070173f1-1437-49a4-82c3-559665b76174" manipulation_type="33" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="0bce49e7-5dc1-4cea-a1ec-e26098f95ee9" manipulation_type="25" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="122abce4-50e2-4891-a74d-aafc2d6892d4" manipulation_type="24" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="17090aac-a7f4-44c1-bb3b-ba179e29dd8c" manipulation_type="0" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="2069b83f-4f5d-4e7b-a96c-db87ca0aee84" manipulation_type="25" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="227b822e-750e-4cd1-a6ed-0823a5ed2ab3" manipulation_type="5" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="23f73bbf-1d3c-432f-8cff-ec88cdf2af7b" manipulation_type="24" npc_tool_subtype_id="1" npc_tool_type_id="0" />
+      <row item_id="2490e8ec-f4b3-4860-a049-37875d354d89" manipulation_type="24" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="2551ce9f-9369-4679-8cba-4d6df2361546" manipulation_type="15" npc_tool_subtype_id="" npc_tool_type_id="2" />
+      <row item_id="2a95e7f8-d175-4bea-a1ef-d2e40744dd57" manipulation_type="1" npc_tool_subtype_id="" npc_tool_type_id="1" />
+      <row item_id="2b4ca587-d32b-4648-af09-dec3dab18261" manipulation_type="24" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="30b2916b-37be-4d62-ad7f-2389b137fd59" manipulation_type="24" npc_tool_subtype_id="1" npc_tool_type_id="0" />
+      <row item_id="36235c05-a733-484b-872d-eecdc245a7de" manipulation_type="1" npc_tool_subtype_id="1" npc_tool_type_id="1" />
+      <row item_id="3e533ef1-f62a-4751-b1d3-f1c9b4e05b87" manipulation_type="30" npc_tool_subtype_id="" npc_tool_type_id="21" />
+      <row item_id="415b1a6a-6df5-4908-8284-7bbae333f708" manipulation_type="24" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="4343eb87-1966-4594-a205-299da2a0fef1" manipulation_type="24" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="43fd458b-8e49-4ad1-8e9a-1d7e44f2ab41" manipulation_type="1" npc_tool_subtype_id="1" npc_tool_type_id="0" />
+      <row item_id="47c3bd7b-1411-4da7-83e7-669385331d90" manipulation_type="24" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="49200aeb-5676-45eb-9fb2-402df0d09aa9" manipulation_type="24" npc_tool_subtype_id="" npc_tool_type_id="3" />
+      <row item_id="4ce95b2e-d0ed-439a-a705-ab051c499927" manipulation_type="0" npc_tool_subtype_id="" npc_tool_type_id="17" />
+      <row item_id="4d444b36-afde-42c9-8107-88ec448d4158" manipulation_type="25" npc_tool_subtype_id="" npc_tool_type_id="19" />
+      <row item_id="4d45f922-7974-4852-8465-79fa2f67e0c2" manipulation_type="25" npc_tool_subtype_id="" npc_tool_type_id="15" />
+      <row item_id="4df9b037-ca0f-42db-a897-c9e73139efb2" manipulation_type="26" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="4eabf7d8-3a3f-47db-8401-c2df38820706" manipulation_type="21" npc_tool_subtype_id="" npc_tool_type_id="7" />
+      <row item_id="577cff5d-1479-420a-88a3-f538b5da454d" manipulation_type="32" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="578a6bb7-4eae-4d06-9272-bdf692b249c6" manipulation_type="26" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="5863190f-0439-44a7-830a-2dc09279bd4e" manipulation_type="1" npc_tool_subtype_id="1" npc_tool_type_id="0" />
+      <row item_id="5b51dca1-4307-4612-98d6-1cbd5458ebc7" manipulation_type="24" npc_tool_subtype_id="" npc_tool_type_id="3" />
+      <row item_id="68b5653e-7a01-47a2-81ba-2f1e2143faae" manipulation_type="24" npc_tool_subtype_id="1" npc_tool_type_id="14" />
+      <row item_id="6cf01d7b-f6d4-4a9d-aa27-4667ea77da94" manipulation_type="24" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="83a854f3-95f9-4ba5-b907-76434cf61c32" manipulation_type="1" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="8519a72d-b2da-4938-8aed-2df96e8e1b34" manipulation_type="11" npc_tool_subtype_id="" npc_tool_type_id="6" />
+      <row item_id="8695b1fc-fedd-4962-8f10-03a0bd55b1e8" manipulation_type="17" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="87cdb842-3ed3-4e34-a589-95775ecbc9d0" manipulation_type="1" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="87e51196-554d-409e-a5ec-f1fe5b4a07bc" manipulation_type="25" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="8804ce02-0648-4efd-9637-334db5ed5e25" manipulation_type="24" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="8867336e-80c8-4e2f-9ee5-3b1cd610a2d8" manipulation_type="24" npc_tool_subtype_id="1" npc_tool_type_id="7" />
+      <row item_id="8a046c31-9b1f-4451-9511-7dca13c11181" manipulation_type="0" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="8a814c90-a32e-4d5d-98d2-b808064ae603" manipulation_type="24" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="8d6d4efb-f776-44da-8ac6-d7da39678cb8" manipulation_type="6" npc_tool_subtype_id="" npc_tool_type_id="26" />
+      <row item_id="8e820272-e878-44e9-bac1-0566654d7982" manipulation_type="24" npc_tool_subtype_id="" npc_tool_type_id="7" />
+      <row item_id="8fb83fd8-1996-45fb-9b71-a9d689544275" manipulation_type="21" npc_tool_subtype_id="" npc_tool_type_id="7" />
+      <row item_id="90f01aca-5dcb-410c-ab1e-97094f137d8c" manipulation_type="1" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="91ed1623-40e7-4b64-9de2-92d9d5873990" manipulation_type="24" npc_tool_subtype_id="1" npc_tool_type_id="0" />
+      <row item_id="9359acc9-884e-4aac-bde0-b9b0a45932e7" manipulation_type="22" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="948f44e3-6a37-4826-bcd7-eec3ba7f10cb" manipulation_type="1" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="979b2602-f161-4b9d-8774-738119196ba1" manipulation_type="13" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="97eaa9b1-0fa0-4de2-a547-4a8ed570fa9e" manipulation_type="1" npc_tool_subtype_id="1" npc_tool_type_id="1" />
+      <row item_id="99c04991-47fc-49cb-894c-78c93bc7da65" manipulation_type="38" npc_tool_subtype_id="" npc_tool_type_id="24" />
+      <row item_id="9c6ff7f2-eff7-4f8b-b48f-f7234493d17b" manipulation_type="24" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="a0a2e39a-ea6b-4cc8-90a4-27047696fbb1" manipulation_type="30" npc_tool_subtype_id="" npc_tool_type_id="21" />
+      <row item_id="a16839b1-5005-4d63-a37f-cca2d1e62641" manipulation_type="1" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="a4cb5d0c-a982-4634-80e2-3a8d7355491e" manipulation_type="14" npc_tool_subtype_id="1" npc_tool_type_id="10" />
+      <row item_id="a5566ffb-8a3f-4d85-b3c5-088038aa95a1" manipulation_type="30" npc_tool_subtype_id="" npc_tool_type_id="23" />
+      <row item_id="aa07926f-2968-43e8-b0eb-085893d576f2" manipulation_type="38" npc_tool_subtype_id="" npc_tool_type_id="24" />
+      <row item_id="aa417ffe-4609-42d8-b52e-58c1ef5a3678" manipulation_type="32" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="aac4b102-f039-4e6c-afa5-67b59df2cc11" manipulation_type="24" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="ab46991f-069b-4e7f-9a4c-2c27a87ea522" manipulation_type="22" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="ad363284-24fb-4a66-b088-fc51d222b65b" manipulation_type="23" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="af459a00-7a61-4444-936c-5eb27403107a" manipulation_type="25" npc_tool_subtype_id="" npc_tool_type_id="3" />
+      <row item_id="b09688cb-4fe4-4381-b8a8-527cc07aad97" manipulation_type="24" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="b53cd35f-8008-48a1-8ce4-ccc3efe3a3f4" manipulation_type="24" npc_tool_subtype_id="1" npc_tool_type_id="0" />
+      <row item_id="b7a9fe04-a6de-4d76-9488-eef80f5c8501" manipulation_type="1" npc_tool_subtype_id="1" npc_tool_type_id="0" />
+      <row item_id="ba455df4-e1d1-46eb-b791-210eb0908227" manipulation_type="1" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="bd19f94d-804f-4cac-bf1d-38ba1b8495ce" manipulation_type="24" npc_tool_subtype_id="" npc_tool_type_id="16" />
+      <row item_id="bdf14d9c-7264-434c-96af-748ff2779c1b" manipulation_type="27" npc_tool_subtype_id="2" npc_tool_type_id="26" />
+      <row item_id="c8e694d8-8df2-4c76-9f52-96d968d9b37a" manipulation_type="1" npc_tool_subtype_id="1" npc_tool_type_id="0" />
+      <row item_id="c9764451-a4a4-4428-b1ee-79a41d801e19" manipulation_type="1" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="c9d724d8-24db-4c2d-b293-35affdf29c83" manipulation_type="18" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="cd2382b8-4e87-4460-bb2d-526f770a7222" manipulation_type="24" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="d009026e-5fac-4414-8183-592f0b133c2b" manipulation_type="26" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="d18fc183-0af6-4a17-a274-5b06fd71bad4" manipulation_type="24" npc_tool_subtype_id="1" npc_tool_type_id="0" />
+      <row item_id="d39cde7b-bb73-4216-a528-921dbc8e0182" manipulation_type="1" npc_tool_subtype_id="1" npc_tool_type_id="0" />
+      <row item_id="d480283d-bb27-42f2-a529-31708ea598d9" manipulation_type="0" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="d6c313d8-a464-4a4c-aa03-5fd1aba7fb4d" manipulation_type="25" npc_tool_subtype_id="" npc_tool_type_id="12" />
+      <row item_id="d8d1c3b6-a25c-4a29-b038-cebc947c86b9" manipulation_type="8" npc_tool_subtype_id="" npc_tool_type_id="13" />
+      <row item_id="da7e3d8f-a480-4734-b7f4-5057cc5f15f8" manipulation_type="1" npc_tool_subtype_id="1" npc_tool_type_id="0" />
+      <row item_id="dac299a2-8651-4839-8244-9e9eb8ef0701" manipulation_type="35" npc_tool_subtype_id="" npc_tool_type_id="1" />
+      <row item_id="db813508-eb30-4241-a019-99ad6a83ff00" manipulation_type="31" npc_tool_subtype_id="" npc_tool_type_id="24" />
+      <row item_id="ded5173a-82e0-4caf-a3ff-6b6529a7fd05" manipulation_type="20" npc_tool_subtype_id="" npc_tool_type_id="25" />
+      <row item_id="e09ca305-4de5-46fa-abc5-df39fc2e769d" manipulation_type="38" npc_tool_subtype_id="" npc_tool_type_id="24" />
+      <row item_id="e1097afe-649e-4494-8a05-84ab079e8db3" manipulation_type="1" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="e319c3a6-e202-48ef-8c2d-3d1922544554" manipulation_type="1" npc_tool_subtype_id="1" npc_tool_type_id="0" />
+      <row item_id="e86d0798-f855-45a4-acbc-db82a1133ccd" manipulation_type="24" npc_tool_subtype_id="1" npc_tool_type_id="0" />
+      <row item_id="e95bb3ae-38ce-41fd-948a-e471673b47e5" manipulation_type="6" npc_tool_subtype_id="" npc_tool_type_id="26" />
+      <row item_id="ec1e9587-44c5-4c67-97cf-e35115ae2809" manipulation_type="8" npc_tool_subtype_id="" npc_tool_type_id="13" />
+      <row item_id="ec9399a5-3995-455f-81a5-9e9afec59e53" manipulation_type="30" npc_tool_subtype_id="" npc_tool_type_id="22" />
+      <row item_id="ee1fbced-67a4-49ac-85bf-e855358908ca" manipulation_type="1" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="f438e542-8ef1-424b-9bbb-58f6a62b3993" manipulation_type="24" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="f541aba7-7cf2-4fcf-a276-ea3881fcecd0" manipulation_type="15" npc_tool_subtype_id="" npc_tool_type_id="2" />
+      <row item_id="f864a24a-152c-462e-a8f3-6760f7ce7329" manipulation_type="15" npc_tool_subtype_id="" npc_tool_type_id="2" />
+      <row item_id="fa316dc5-9168-4e0f-b330-1d8b3bcb6ff0" manipulation_type="19" npc_tool_subtype_id="" npc_tool_type_id="0" />
+      <row item_id="ff0f08c5-886b-4100-9f08-283f082fe12d" manipulation_type="25" npc_tool_subtype_id="" npc_tool_type_id="0" />
+    </rows>
+  </table>
+</database>

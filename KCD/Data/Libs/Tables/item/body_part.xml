@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="body_part" version="1">
+    <header>
+      <column name="body_damage_coeff" type="real" />
+      <column name="body_part_id" type="integer" />
+      <column name="body_part_name" type="character varying" />
+      <column name="injury_buff_id" type="uuid" />
+      <column name="mn_tag" type="character varying" />
+      <column name="race_id" type="integer" />
+      <column name="ui_name" type="character varying" />
+    </header>
+    <rows>
+      <row body_damage_coeff="1.5" body_part_id="1" body_part_name="head" injury_buff_id="c48e48e2-ae85-4429-9dd6-4fb94c388001" mn_tag="head" race_id="0" ui_name="ui_bodypart_head" />
+      <row body_damage_coeff="1" body_part_id="2" body_part_name="torso" injury_buff_id="37d59205-3782-446d-b32e-89a9f786725d" mn_tag="torso" race_id="0" ui_name="ui_bodypart_torso" />
+      <row body_damage_coeff="0.7" body_part_id="3" body_part_name="arm_left" injury_buff_id="34f0885b-7287-4881-907f-f19751a5e831" mn_tag="" race_id="0" ui_name="ui_bodypart_arm_left" />
+      <row body_damage_coeff="0.7" body_part_id="4" body_part_name="arm_right" injury_buff_id="ce3737db-b0a3-459d-8d47-d58695d58be3" mn_tag="" race_id="0" ui_name="ui_bodypart_arm_right" />
+      <row body_damage_coeff="0.7" body_part_id="5" body_part_name="leg_left" injury_buff_id="10fc25ca-c095-44c6-b88b-d54ad58ab0a6" mn_tag="" race_id="0" ui_name="ui_bodypart_leg_left" />
+      <row body_damage_coeff="0.7" body_part_id="6" body_part_name="leg_right" injury_buff_id="738f8a07-c5fd-4687-9408-34ffb0bcd17e" mn_tag="" race_id="0" ui_name="ui_bodypart_leg_right" />
+      <row body_damage_coeff="1.5" body_part_id="8" body_part_name="horse_head" injury_buff_id="c48e48e2-ae85-4429-9dd6-4fb94c388001" mn_tag="" race_id="1" ui_name="" />
+      <row body_damage_coeff="1" body_part_id="9" body_part_name="horse_torso" injury_buff_id="37d59205-3782-446d-b32e-89a9f786725d" mn_tag="" race_id="1" ui_name="" />
+      <row body_damage_coeff="0.7" body_part_id="10" body_part_name="horse_legs" injury_buff_id="10fc25ca-c095-44c6-b88b-d54ad58ab0a6" mn_tag="" race_id="1" ui_name="" />
+    </rows>
+  </table>
+</database>

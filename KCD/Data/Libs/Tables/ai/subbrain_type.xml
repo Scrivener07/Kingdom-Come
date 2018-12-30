@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="subbrain_type" version="1">
+    <header>
+      <column name="subbrain_type_id" type="integer" />
+      <column name="subbrain_type_name" type="character varying" />
+    </header>
+    <rows>
+      <row subbrain_type_id="1" subbrain_type_name="BehaviorTree" />
+      <row subbrain_type_id="2" subbrain_type_name="Combat" />
+      <row subbrain_type_id="3" subbrain_type_name="SmartArea" />
+      <row subbrain_type_id="4" subbrain_type_name="SmartObject" />
+      <row subbrain_type_id="5" subbrain_type_name="Situation" />
+      <row subbrain_type_id="6" subbrain_type_name="Switching" />
+      <row subbrain_type_id="7" subbrain_type_name="Dialog" />
+      <row subbrain_type_id="8" subbrain_type_name="DogCompanion" />
+    </rows>
+  </table>
+</database>

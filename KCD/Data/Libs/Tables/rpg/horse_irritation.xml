@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="horse_irritation" version="1">
+    <header>
+      <column name="horse_irritation_id" type="integer" />
+      <column name="morale_change_id" type="integer" />
+    </header>
+    <rows>
+      <row horse_irritation_id="0" morale_change_id="5" />
+      <row horse_irritation_id="1" morale_change_id="6" />
+      <row horse_irritation_id="2" morale_change_id="7" />
+    </rows>
+  </table>
+</database>

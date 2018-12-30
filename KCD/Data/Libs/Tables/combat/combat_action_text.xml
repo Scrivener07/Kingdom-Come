@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="combat_action_text" version="1">
+    <header>
+      <column name="combat_action_type_id" type="integer" />
+      <column name="combat_guard_type_id" type="integer" />
+      <column name="combat_input_class_id" type="integer" />
+      <column name="string_name" type="character varying" />
+    </header>
+    <rows>
+      <row combat_action_type_id="33" combat_guard_type_id="12" combat_input_class_id="0" string_name="ui_hud_drop_body" />
+      <row combat_action_type_id="33" combat_guard_type_id="12" combat_input_class_id="1" string_name="ui_hud_pick_up_body" />
+    </rows>
+  </table>
+</database>

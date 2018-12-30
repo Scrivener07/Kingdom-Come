@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="recipe_ingredient" version="1">
+    <header>
+      <column name="item_id" type="uuid" />
+      <column name="quantity" type="integer" />
+      <column name="recipe_id" type="integer" />
+    </header>
+    <rows>
+      <row item_id="4d9e61aa-3f90-4e5d-b836-f9e158196438" quantity="2" recipe_id="2" />
+      <row item_id="b9de1d84-a0c1-4b81-9f60-8d7fbb3cb9d4" quantity="1" recipe_id="2" />
+      <row item_id="5e9b4fa1-aafa-4352-b5d6-58df2c263caa" quantity="1" recipe_id="3" />
+      <row item_id="a364b800-c1ca-4bd1-92cb-ae1689bfa7ea" quantity="2" recipe_id="3" />
+      <row item_id="f879ac63-2ce2-4114-83a2-89643c1ed102" quantity="1" recipe_id="3" />
+      <row item_id="0290b689-c01c-480f-b121-bed71ad1f5e0" quantity="2" recipe_id="4" />
+      <row item_id="9b771c16-c0b1-438c-aeda-8c4d3ce28465" quantity="1" recipe_id="4" />
+      <row item_id="4d9e61aa-3f90-4e5d-b836-f9e158196438" quantity="1" recipe_id="5" />
+      <row item_id="a314b580-bc97-4802-ae1f-8f4803e34503" quantity="2" recipe_id="5" />
+      <row item_id="abb6cc5a-3592-406f-82ab-edfb73e219be" quantity="1" recipe_id="5" />
+      <row item_id="5e9b4fa1-aafa-4352-b5d6-58df2c263caa" quantity="1" recipe_id="6" />
+      <row item_id="9b771c16-c0b1-438c-aeda-8c4d3ce28465" quantity="1" recipe_id="6" />
+      <row item_id="a314b580-bc97-4802-ae1f-8f4803e34503" quantity="1" recipe_id="6" />
+      <row item_id="f879ac63-2ce2-4114-83a2-89643c1ed102" quantity="1" recipe_id="6" />
+      <row item_id="4d9e61aa-3f90-4e5d-b836-f9e158196438" quantity="1" recipe_id="7" />
+      <row item_id="a40e513f-045e-421c-99c9-c10dae3d9fe1" quantity="1" recipe_id="7" />
+      <row item_id="b9de1d84-a0c1-4b81-9f60-8d7fbb3cb9d4" quantity="2" recipe_id="7" />
+      <row item_id="a364b800-c1ca-4bd1-92cb-ae1689bfa7ea" quantity="2" recipe_id="8" />
+      <row item_id="b9de1d84-a0c1-4b81-9f60-8d7fbb3cb9d4" quantity="1" recipe_id="8" />
+      <row item_id="7259b9bc-dfae-487e-a8bb-c1f500894e0c" quantity="2" recipe_id="10" />
+      <row item_id="7da04bba-0564-42da-bcf1-9a2fc5faf025" quantity="1" recipe_id="10" />
+      <row item_id="7da04bba-0564-42da-bcf1-9a2fc5faf025" quantity="1" recipe_id="11" />
+      <row item_id="9b771c16-c0b1-438c-aeda-8c4d3ce28465" quantity="1" recipe_id="11" />
+      <row item_id="b9de1d84-a0c1-4b81-9f60-8d7fbb3cb9d4" quantity="1" recipe_id="11" />
+      <row item_id="27b8a61f-36e4-4101-9be5-1b814d43bd8f" quantity="1" recipe_id="12" />
+      <row item_id="7da04bba-0564-42da-bcf1-9a2fc5faf025" quantity="2" recipe_id="12" />
+      <row item_id="5e9b4fa1-aafa-4352-b5d6-58df2c263caa" quantity="1" recipe_id="13" />
+      <row item_id="a314b580-bc97-4802-ae1f-8f4803e34503" quantity="2" recipe_id="13" />
+      <row item_id="5e9b4fa1-aafa-4352-b5d6-58df2c263caa" quantity="1" recipe_id="14" />
+      <row item_id="bf7b7c2a-017b-4c7b-b9aa-0c4e29ce5913" quantity="2" recipe_id="14" />
+      <row item_id="27b8a61f-36e4-4101-9be5-1b814d43bd8f" quantity="1" recipe_id="15" />
+      <row item_id="de134f81-cfbe-422d-9105-df3e0b3b59b5" quantity="2" recipe_id="15" />
+      <row item_id="7da04bba-0564-42da-bcf1-9a2fc5faf025" quantity="1" recipe_id="16" />
+      <row item_id="9b771c16-c0b1-438c-aeda-8c4d3ce28465" quantity="1" recipe_id="16" />
+      <row item_id="b9de1d84-a0c1-4b81-9f60-8d7fbb3cb9d4" quantity="1" recipe_id="16" />
+      <row item_id="4d9e61aa-3f90-4e5d-b836-f9e158196438" quantity="1" recipe_id="17" />
+      <row item_id="a314b580-bc97-4802-ae1f-8f4803e34503" quantity="1" recipe_id="17" />
+      <row item_id="a4f0f4c8-dc3f-4cb2-be89-f0f56fbb09fa" quantity="1" recipe_id="17" />
+      <row item_id="de134f81-cfbe-422d-9105-df3e0b3b59b5" quantity="1" recipe_id="17" />
+      <row item_id="0290b689-c01c-480f-b121-bed71ad1f5e0" quantity="1" recipe_id="18" />
+      <row item_id="05bef17b-ddeb-426d-aa53-52ff6d4f521e" quantity="1" recipe_id="18" />
+      <row item_id="27b8a61f-36e4-4101-9be5-1b814d43bd8f" quantity="1" recipe_id="18" />
+      <row item_id="a4f0f4c8-dc3f-4cb2-be89-f0f56fbb09fa" quantity="1" recipe_id="18" />
+      <row item_id="3db25e6e-dfe2-4b06-a079-80e6064073c4" quantity="1" recipe_id="19" />
+      <row item_id="4d9e61aa-3f90-4e5d-b836-f9e158196438" quantity="1" recipe_id="19" />
+      <row item_id="7259b9bc-dfae-487e-a8bb-c1f500894e0c" quantity="1" recipe_id="19" />
+      <row item_id="bf7b7c2a-017b-4c7b-b9aa-0c4e29ce5913" quantity="1" recipe_id="19" />
+      <row item_id="0290b689-c01c-480f-b121-bed71ad1f5e0" quantity="2" recipe_id="21" />
+      <row item_id="a314b580-bc97-4802-ae1f-8f4803e34503" quantity="1" recipe_id="21" />
+      <row item_id="a40e513f-045e-421c-99c9-c10dae3d9fe1" quantity="1" recipe_id="21" />
+      <row item_id="27b8a61f-36e4-4101-9be5-1b814d43bd8f" quantity="1" recipe_id="22" />
+      <row item_id="2ddf6256-0662-44c4-99fe-f713b6d900ea" quantity="2" recipe_id="22" />
+      <row item_id="2ddf6256-0662-44c4-99fe-f713b6d900ea" quantity="2" recipe_id="23" />
+      <row item_id="a364b800-c1ca-4bd1-92cb-ae1689bfa7ea" quantity="1" recipe_id="23" />
+      <row item_id="5e9b4fa1-aafa-4352-b5d6-58df2c263caa" quantity="1" recipe_id="24" />
+      <row item_id="7da04bba-0564-42da-bcf1-9a2fc5faf025" quantity="1" recipe_id="24" />
+      <row item_id="9b771c16-c0b1-438c-aeda-8c4d3ce28465" quantity="1" recipe_id="24" />
+      <row item_id="05bef17b-ddeb-426d-aa53-52ff6d4f521e" quantity="1" recipe_id="25" />
+      <row item_id="2ddf6256-0662-44c4-99fe-f713b6d900ea" quantity="1" recipe_id="25" />
+      <row item_id="a364b800-c1ca-4bd1-92cb-ae1689bfa7ea" quantity="1" recipe_id="25" />
+      <row item_id="0290b689-c01c-480f-b121-bed71ad1f5e0" quantity="1" recipe_id="26" />
+      <row item_id="27b8a61f-36e4-4101-9be5-1b814d43bd8f" quantity="1" recipe_id="26" />
+      <row item_id="33392df2-2b85-4875-998b-c313de495f57" quantity="1" recipe_id="26" />
+      <row item_id="7259b9bc-dfae-487e-a8bb-c1f500894e0c" quantity="1" recipe_id="26" />
+      <row item_id="9b771c16-c0b1-438c-aeda-8c4d3ce28465" quantity="1" recipe_id="27" />
+      <row item_id="a11cc7f6-b499-4003-aef1-938e87b30a2e" quantity="1" recipe_id="27" />
+      <row item_id="de134f81-cfbe-422d-9105-df3e0b3b59b5" quantity="1" recipe_id="27" />
+      <row item_id="7da04bba-0564-42da-bcf1-9a2fc5faf025" quantity="1" recipe_id="28" />
+      <row item_id="a11cc7f6-b499-4003-aef1-938e87b30a2e" quantity="2" recipe_id="28" />
+      <row item_id="b6de890f-068b-4a58-b927-0860becae508" quantity="1" recipe_id="28" />
+      <row item_id="05bef17b-ddeb-426d-aa53-52ff6d4f521e" quantity="2" recipe_id="29" />
+      <row item_id="7259b9bc-dfae-487e-a8bb-c1f500894e0c" quantity="1" recipe_id="29" />
+      <row item_id="a11cc7f6-b499-4003-aef1-938e87b30a2e" quantity="2" recipe_id="30" />
+      <row item_id="bf7b7c2a-017b-4c7b-b9aa-0c4e29ce5913" quantity="1" recipe_id="30" />
+      <row item_id="2ddf6256-0662-44c4-99fe-f713b6d900ea" quantity="1" recipe_id="31" />
+      <row item_id="a314b580-bc97-4802-ae1f-8f4803e34503" quantity="1" recipe_id="31" />
+      <row item_id="bf7b7c2a-017b-4c7b-b9aa-0c4e29ce5913" quantity="1" recipe_id="31" />
+      <row item_id="27b8a61f-36e4-4101-9be5-1b814d43bd8f" quantity="1" recipe_id="41" />
+      <row item_id="a364b800-c1ca-4bd1-92cb-ae1689bfa7ea" quantity="2" recipe_id="41" />
+      <row item_id="f879ac63-2ce2-4114-83a2-89643c1ed102" quantity="1" recipe_id="41" />
+      <row item_id="27b8a61f-36e4-4101-9be5-1b814d43bd8f" quantity="2" recipe_id="42" />
+      <row item_id="4d9e61aa-3f90-4e5d-b836-f9e158196438" quantity="1" recipe_id="42" />
+      <row item_id="4d9e61aa-3f90-4e5d-b836-f9e158196438" quantity="2" recipe_id="43" />
+      <row item_id="a314b580-bc97-4802-ae1f-8f4803e34503" quantity="1" recipe_id="43" />
+      <row item_id="abb6cc5a-3592-406f-82ab-edfb73e219be" quantity="1" recipe_id="43" />
+      <row item_id="05bef17b-ddeb-426d-aa53-52ff6d4f521e" quantity="1" recipe_id="45" />
+      <row item_id="9b771c16-c0b1-438c-aeda-8c4d3ce28465" quantity="1" recipe_id="45" />
+      <row item_id="a364b800-c1ca-4bd1-92cb-ae1689bfa7ea" quantity="1" recipe_id="45" />
+      <row item_id="a40e513f-045e-421c-99c9-c10dae3d9fe1" quantity="1" recipe_id="47" />
+      <row item_id="b9de1d84-a0c1-4b81-9f60-8d7fbb3cb9d4" quantity="1" recipe_id="47" />
+      <row item_id="bf7b7c2a-017b-4c7b-b9aa-0c4e29ce5913" quantity="1" recipe_id="47" />
+      <row item_id="de134f81-cfbe-422d-9105-df3e0b3b59b5" quantity="1" recipe_id="47" />
+    </rows>
+  </table>
+</database>

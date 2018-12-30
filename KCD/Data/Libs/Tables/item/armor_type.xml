@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="armor_type" version="1">
+    <header>
+      <column name="armor_type_id" type="integer" />
+      <column name="armor_type_name" type="character varying" />
+      <column name="equip_buff_id" type="uuid" />
+    </header>
+    <rows>
+      <row armor_type_id="1" armor_type_name="default cloth" equip_buff_id="" />
+      <row armor_type_id="2" armor_type_name="light leather" equip_buff_id="" />
+      <row armor_type_id="3" armor_type_name="heavy leather" equip_buff_id="" />
+      <row armor_type_id="4" armor_type_name="chain" equip_buff_id="" />
+      <row armor_type_id="5" armor_type_name="plate" equip_buff_id="" />
+      <row armor_type_id="6" armor_type_name="decorated" equip_buff_id="" />
+      <row armor_type_id="7" armor_type_name="cloth" equip_buff_id="" />
+      <row armor_type_id="8" armor_type_name="spur" equip_buff_id="62ae725e-56d9-46fa-a09a-794480b757a5" />
+      <row armor_type_id="9" armor_type_name="shoe" equip_buff_id="" />
+      <row armor_type_id="10" armor_type_name="horse_saddle" equip_buff_id="e2f2e0c7-b1d0-4ec5-8f1f-9f412f547f2d" />
+      <row armor_type_id="11" armor_type_name="horse_shoe" equip_buff_id="41e625ec-7783-46fd-8409-e2f05d93d023" />
+      <row armor_type_id="12" armor_type_name="horse_bridle" equip_buff_id="061d9f55-6652-461f-bb64-471a631f2d21" />
+    </rows>
+  </table>
+</database>

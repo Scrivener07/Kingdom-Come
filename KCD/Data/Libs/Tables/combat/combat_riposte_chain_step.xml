@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="combat_riposte_chain_step" version="1">
+    <header>
+      <column name="actor_index" type="integer" />
+      <column name="atk_combat_zone_id" type="integer" />
+      <column name="attack_type_id" type="integer" />
+      <column name="combat_riposte_chain_id" type="integer" />
+      <column name="defense_combat_zone_id" type="integer" />
+      <column name="input_class_id" type="integer" />
+      <column name="step" type="integer" />
+    </header>
+    <rows>
+      <row actor_index="0" atk_combat_zone_id="" attack_type_id="" combat_riposte_chain_id="1" defense_combat_zone_id="" input_class_id="7" step="0" />
+      <row actor_index="1" atk_combat_zone_id="" attack_type_id="" combat_riposte_chain_id="1" defense_combat_zone_id="" input_class_id="7" step="1" />
+      <row actor_index="0" atk_combat_zone_id="" attack_type_id="" combat_riposte_chain_id="1" defense_combat_zone_id="" input_class_id="7" step="2" />
+      <row actor_index="1" atk_combat_zone_id="" attack_type_id="" combat_riposte_chain_id="2" defense_combat_zone_id="1" input_class_id="7" step="0" />
+      <row actor_index="0" atk_combat_zone_id="" attack_type_id="" combat_riposte_chain_id="2" defense_combat_zone_id="" input_class_id="7" step="1" />
+    </rows>
+  </table>
+</database>

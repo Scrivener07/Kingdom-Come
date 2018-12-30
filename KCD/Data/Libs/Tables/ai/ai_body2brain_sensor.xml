@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="ai_body2brain_sensor" version="1">
+    <header>
+      <column name="ai_body_id" type="uuid" />
+      <column name="brain_sensor_id" type="uuid" />
+    </header>
+    <rows>
+      <row ai_body_id="00000000-0000-0000-0000-000000035001" brain_sensor_id="00000000-0000-0000-0000-000000053101" />
+      <row ai_body_id="00000000-0000-0000-0000-000000035001" brain_sensor_id="00000000-0000-0000-0000-000000053102" />
+    </rows>
+  </table>
+</database>

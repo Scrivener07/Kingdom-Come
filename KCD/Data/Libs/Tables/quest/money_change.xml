@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="money_change" version="1">
+    <header>
+      <column name="change" type="real" />
+      <column name="money_change_id" type="integer" />
+      <column name="name" type="character varying" />
+    </header>
+    <rows>
+      <row change="0" money_change_id="0" name="_none" />
+      <row change="0.1" money_change_id="1" name="obsolete_1" />
+      <row change="1" money_change_id="2" name="obsolete_2" />
+      <row change="2" money_change_id="3" name="obsolete_3" />
+      <row change="3" money_change_id="4" name="obsolete_4" />
+      <row change="5" money_change_id="5" name="obsolete_5" />
+      <row change="8" money_change_id="6" name="obsolete_6" />
+      <row change="10" money_change_id="7" name="obsolete_7" />
+      <row change="12" money_change_id="8" name="obsolete_8" />
+      <row change="20" money_change_id="9" name="obsolete_9" />
+      <row change="25" money_change_id="10" name="obsolete_10" />
+      <row change="50" money_change_id="11" name="obsolete_11" />
+      <row change="300" money_change_id="12" name="obsolete_12" />
+      <row change="40" money_change_id="13" name="q_urbansBone_fake" />
+      <row change="15" money_change_id="14" name="q_urbansBone_bowl" />
+      <row change="120" money_change_id="15" name="q_church_construction_schaefer" />
+      <row change="20" money_change_id="16" name="q_disguise_init_reward" />
+      <row change="8" money_change_id="17" name="q_disguise_init_reward_bonus" />
+      <row change="30" money_change_id="18" name="1-micro" />
+      <row change="40" money_change_id="19" name="2-minor" />
+      <row change="50" money_change_id="20" name="3-small" />
+      <row change="60" money_change_id="21" name="4-normal" />
+      <row change="70" money_change_id="22" name="5-notable" />
+      <row change="80" money_change_id="23" name="6-extraordinary" />
+      <row change="90" money_change_id="24" name="7-max" />
+    </rows>
+  </table>
+</database>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="food_type" version="1">
+    <header>
+      <column name="food_type_id" type="integer" />
+      <column name="food_type_name" type="character varying" />
+    </header>
+    <rows>
+      <row food_type_id="0" food_type_name="fruit" />
+      <row food_type_id="2" food_type_name="meat" />
+      <row food_type_id="3" food_type_name="drink" />
+      <row food_type_id="5" food_type_name="bowel" />
+      <row food_type_id="6" food_type_name="vegetable" />
+      <row food_type_id="7" food_type_name="mushroom" />
+      <row food_type_id="8" food_type_name="pastry" />
+      <row food_type_id="9" food_type_name="dairy" />
+    </rows>
+  </table>
+</database>

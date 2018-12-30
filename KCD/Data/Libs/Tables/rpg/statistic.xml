@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="statistic" version="1">
+    <header>
+      <column name="is_global" type="boolean" />
+      <column name="psn_id" type="integer" />
+      <column name="statistic_group_id" type="integer" />
+      <column name="statistic_id" type="integer" />
+      <column name="statistic_name" type="character varying" />
+      <column name="statistic_unit_id" type="integer" />
+      <column name="type" type="character varying" />
+      <column name="ui_desc" type="character varying" />
+      <column name="ui_max_value" type="real" />
+      <column name="ui_name" type="character varying" />
+      <column name="ui_order" type="integer" />
+    </header>
+    <rows>
+      <row is_global="True" psn_id="1" statistic_group_id="1" statistic_id="1" statistic_name="TotalTimePlayed" statistic_unit_id="1" type="PlayTime" ui_desc="" ui_max_value="" ui_name="stat_total_time_played" ui_order="1" />
+      <row is_global="False" psn_id="" statistic_group_id="2" statistic_id="2" statistic_name="SoulsKilled" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_souls_killed" ui_order="42" />
+      <row is_global="False" psn_id="" statistic_group_id="2" statistic_id="3" statistic_name="DamageTaken" statistic_unit_id="" type="DecimalSum" ui_desc="" ui_max_value="" ui_name="stat_damage_taken" ui_order="41" />
+      <row is_global="False" psn_id="" statistic_group_id="2" statistic_id="4" statistic_name="DamageDealt" statistic_unit_id="" type="DecimalSum" ui_desc="" ui_max_value="" ui_name="stat_damage_dealt" ui_order="40" />
+      <row is_global="False" psn_id="" statistic_group_id="2" statistic_id="5" statistic_name="ArrowsFired" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_arrows_fired" ui_order="56" />
+      <row is_global="False" psn_id="" statistic_group_id="2" statistic_id="6" statistic_name="ArrowsHitLiving" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_arrows_hit_living" ui_order="58" />
+      <row is_global="False" psn_id="" statistic_group_id="1" statistic_id="7" statistic_name="FoodConsumed" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_food_consumed" ui_order="10" />
+      <row is_global="False" psn_id="" statistic_group_id="1" statistic_id="8" statistic_name="ApplesConsumed" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_apples_consumed" ui_order="13" />
+      <row is_global="False" psn_id="" statistic_group_id="5" statistic_id="9" statistic_name="HerbsCollected" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_herbs_collected" ui_order="98" />
+      <row is_global="False" psn_id="" statistic_group_id="3" statistic_id="10" statistic_name="LocksPicked" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_locks_picked" ui_order="75" />
+      <row is_global="False" psn_id="" statistic_group_id="2" statistic_id="11" statistic_name="ArrowsHitCorpse" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_arrows_hit_corpse" ui_order="59" />
+      <row is_global="False" psn_id="" statistic_group_id="1" statistic_id="12" statistic_name="DistanceWalked" statistic_unit_id="2" type="DecimalProxy" ui_desc="" ui_max_value="" ui_name="stat_distance_walked" ui_order="23" />
+      <row is_global="False" psn_id="" statistic_group_id="1" statistic_id="13" statistic_name="DistanceRan" statistic_unit_id="2" type="DecimalProxy" ui_desc="" ui_max_value="" ui_name="stat_distance_ran" ui_order="21" />
+      <row is_global="False" psn_id="" statistic_group_id="1" statistic_id="14" statistic_name="DistanceSprinted" statistic_unit_id="2" type="DecimalProxy" ui_desc="" ui_max_value="" ui_name="stat_distance_sprinted" ui_order="22" />
+      <row is_global="False" psn_id="" statistic_group_id="1" statistic_id="15" statistic_name="DistanceRidden" statistic_unit_id="2" type="DecimalProxy" ui_desc="" ui_max_value="" ui_name="stat_distance_ridden" ui_order="19" />
+      <row is_global="False" psn_id="" statistic_group_id="1" statistic_id="16" statistic_name="DistanceOnFoot" statistic_unit_id="2" type="DecimalProxy" ui_desc="" ui_max_value="" ui_name="stat_distance_on_foot" ui_order="20" />
+      <row is_global="False" psn_id="" statistic_group_id="1" statistic_id="17" statistic_name="DistanceTraveled" statistic_unit_id="2" type="DecimalProxy" ui_desc="" ui_max_value="" ui_name="stat_distance_traveled" ui_order="18" />
+      <row is_global="False" psn_id="" statistic_group_id="2" statistic_id="18" statistic_name="CumansKilled" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_cumans_killed" ui_order="46" />
+      <row is_global="False" psn_id="" statistic_group_id="2" statistic_id="19" statistic_name="SheepKilled" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_sheep_killed" ui_order="48" />
+      <row is_global="False" psn_id="" statistic_group_id="1" statistic_id="20" statistic_name="DrinksConsumed" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_drinks_consumed" ui_order="15" />
+      <row is_global="False" psn_id="" statistic_group_id="1" statistic_id="21" statistic_name="WinesConsumed" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_wines_consumed" ui_order="17" />
+      <row is_global="False" psn_id="" statistic_group_id="1" statistic_id="22" statistic_name="MeatsConsumed" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_meats_consumed" ui_order="11" />
+      <row is_global="False" psn_id="" statistic_group_id="3" statistic_id="23" statistic_name="LockpicksBroken" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_lockpicks_broken" ui_order="76" />
+      <row is_global="False" psn_id="" statistic_group_id="2" statistic_id="24" statistic_name="HitByArrows" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_hit_by_arrows" ui_order="57" />
+      <row is_global="False" psn_id="" statistic_group_id="1" statistic_id="25" statistic_name="FencesJumped" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_fences_jumped" ui_order="9" />
+      <row is_global="False" psn_id="" statistic_group_id="5" statistic_id="26" statistic_name="PotionsBrewed" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_potions_brewed" ui_order="96" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="27" statistic_name="DocsRead" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="2" statistic_id="28" statistic_name="SoulsKilledWithStealth" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_souls_kw_stealth" ui_order="50" />
+      <row is_global="False" psn_id="" statistic_group_id="2" statistic_id="29" statistic_name="SoulsKnockedOut" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_souls_knocked_out" ui_order="43" />
+      <row is_global="False" psn_id="" statistic_group_id="2" statistic_id="30" statistic_name="EnemiesKilled" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_enemies_killed" ui_order="44" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="31" statistic_name="SpeechLevel" statistic_unit_id="" type="SoulLevel" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="1" statistic_id="32" statistic_name="PotionsConsumed" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_potions_consumed" ui_order="16" />
+      <row is_global="False" psn_id="" statistic_group_id="4" statistic_id="33" statistic_name="HaggleSucceeded" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_haggle_succeeded" ui_order="83" />
+      <row is_global="False" psn_id="" statistic_group_id="4" statistic_id="34" statistic_name="MoneySparedOnHaggle" statistic_unit_id="3" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_money_on_haggle" ui_order="84" />
+      <row is_global="False" psn_id="" statistic_group_id="3" statistic_id="35" statistic_name="CorpsesLooted" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_corpses_looted" ui_order="72" />
+      <row is_global="False" psn_id="" statistic_group_id="2" statistic_id="36" statistic_name="HitsBlocked" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_hits_blocked" ui_order="60" />
+      <row is_global="False" psn_id="" statistic_group_id="1" statistic_id="37" statistic_name="TimeIngame" statistic_unit_id="1" type="WorldTime" ui_desc="" ui_max_value="" ui_name="stat_time_ingame" ui_order="3" />
+      <row is_global="False" psn_id="" statistic_group_id="6" statistic_id="38" statistic_name="LocationsDiscovered" statistic_unit_id="" type="IntegerProxy" ui_desc="" ui_max_value="" ui_name="stat_locations_discovered" ui_order="123" />
+      <row is_global="False" psn_id="" statistic_group_id="6" statistic_id="39" statistic_name="QuestsCompleted" statistic_unit_id="" type="IntegerProxy" ui_desc="" ui_max_value="" ui_name="stat_quests_completed" ui_order="120" />
+      <row is_global="False" psn_id="" statistic_group_id="6" statistic_id="40" statistic_name="QuestsFailed" statistic_unit_id="" type="IntegerProxy" ui_desc="" ui_max_value="" ui_name="stat_quests_failed" ui_order="121" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="41" statistic_name="DocsStudied" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="5" statistic_id="42" statistic_name="UniqueDocsStudied" statistic_unit_id="" type="DistinctGuid" ui_desc="" ui_max_value="" ui_name="stat_u_docs_studied" ui_order="91" />
+      <row is_global="False" psn_id="" statistic_group_id="5" statistic_id="43" statistic_name="UniqueDocsFullyStudied" statistic_unit_id="" type="DistinctGuid" ui_desc="" ui_max_value="" ui_name="stat_u_docs_fully_studied" ui_order="92" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="44" statistic_name="UniqueRecipesPrepared" statistic_unit_id="" type="DistinctUint" ui_desc="" ui_max_value="" ui_name="stat_u_recipes_prepared" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="5" statistic_id="45" statistic_name="UniquePotionsBrewed" statistic_unit_id="" type="DistinctGuid" ui_desc="" ui_max_value="" ui_name="stat_u_potions_brewed" ui_order="97" />
+      <row is_global="False" psn_id="" statistic_group_id="1" statistic_id="46" statistic_name="TimeSkipped" statistic_unit_id="1" type="DecimalSum" ui_desc="" ui_max_value="" ui_name="stat_time_skipped" ui_order="25" />
+      <row is_global="False" psn_id="" statistic_group_id="1" statistic_id="47" statistic_name="TimeBled" statistic_unit_id="1" type="WorldTimeSampling" ui_desc="" ui_max_value="" ui_name="stat_time_bled" ui_order="26" />
+      <row is_global="False" psn_id="" statistic_group_id="1" statistic_id="48" statistic_name="TimeStarved" statistic_unit_id="1" type="WorldTimeSampling" ui_desc="" ui_max_value="" ui_name="stat_time_starved" ui_order="27" />
+      <row is_global="False" psn_id="" statistic_group_id="1" statistic_id="49" statistic_name="TimeExhausted" statistic_unit_id="1" type="WorldTimeSampling" ui_desc="" ui_max_value="" ui_name="stat_time_exhausted" ui_order="29" />
+      <row is_global="False" psn_id="" statistic_group_id="1" statistic_id="50" statistic_name="TimeSlept" statistic_unit_id="1" type="WorldTimeSampling" ui_desc="" ui_max_value="" ui_name="stat_time_slept" ui_order="24" />
+      <row is_global="False" psn_id="" statistic_group_id="1" statistic_id="51" statistic_name="TimePoisoned" statistic_unit_id="1" type="WorldTimeSampling" ui_desc="" ui_max_value="" ui_name="stat_time_poisoned" ui_order="30" />
+      <row is_global="False" psn_id="" statistic_group_id="1" statistic_id="52" statistic_name="TimeDrunk" statistic_unit_id="1" type="WorldTimeSampling" ui_desc="" ui_max_value="" ui_name="stat_time_drunk" ui_order="31" />
+      <row is_global="False" psn_id="" statistic_group_id="4" statistic_id="53" statistic_name="PersuationsSucceded" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_persuations_succeded" ui_order="80" />
+      <row is_global="False" psn_id="" statistic_group_id="4" statistic_id="54" statistic_name="ImpressesSucceded" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_impresses_succeded" ui_order="81" />
+      <row is_global="False" psn_id="" statistic_group_id="4" statistic_id="55" statistic_name="ThreatsSucceded" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_threats_succeeded" ui_order="82" />
+      <row is_global="False" psn_id="" statistic_group_id="2" statistic_id="56" statistic_name="AnimalsKilled" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_animals_killed" ui_order="47" />
+      <row is_global="False" psn_id="" statistic_group_id="2" statistic_id="57" statistic_name="EnemiesKilledWithBow" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_enemies_kw_bow" ui_order="53" />
+      <row is_global="False" psn_id="" statistic_group_id="1" statistic_id="58" statistic_name="MaxMoneyOwned" statistic_unit_id="3" type="IntegerMaxProxy" ui_desc="" ui_max_value="" ui_name="stat_m_money_owned" ui_order="6" />
+      <row is_global="False" psn_id="" statistic_group_id="2" statistic_id="59" statistic_name="CombosPerformed" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_combos_performed" ui_order="63" />
+      <row is_global="False" psn_id="" statistic_group_id="5" statistic_id="60" statistic_name="UniqueDocsRead" statistic_unit_id="" type="DistinctGuid" ui_desc="" ui_max_value="" ui_name="stat_u_docs_read" ui_order="90" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="61" statistic_name="CurrentStarvingTime" statistic_unit_id="1" type="WorldTimeResetSampling" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="62" statistic_name="CurrentOvereatTime" statistic_unit_id="1" type="WorldTimeResetSampling" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="63" statistic_name="CurrentExhaustedTime" statistic_unit_id="1" type="WorldTimeResetSampling" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="3" statistic_id="64" statistic_name="ItemsStolen" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_items_stolen" ui_order="71" />
+      <row is_global="False" psn_id="" statistic_group_id="3" statistic_id="65" statistic_name="ValueStolen" statistic_unit_id="3" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_value_stolen" ui_order="70" />
+      <row is_global="True" psn_id="" statistic_group_id="0" statistic_id="66" statistic_name="MainLevel" statistic_unit_id="" type="SoulLevel" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="1" statistic_id="67" statistic_name="TimeAlcoholic" statistic_unit_id="1" type="WorldTimeSampling" ui_desc="" ui_max_value="" ui_name="stat_time_alcoholic" ui_order="32" />
+      <row is_global="False" psn_id="" statistic_group_id="1" statistic_id="68" statistic_name="MoneyCollected" statistic_unit_id="3" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_money_collected" ui_order="5" />
+      <row is_global="False" psn_id="" statistic_group_id="1" statistic_id="69" statistic_name="BandagesUsed" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_bandages_used" ui_order="8" />
+      <row is_global="False" psn_id="" statistic_group_id="5" statistic_id="70" statistic_name="WeaponsSharpened" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_weapons_sharpened" ui_order="95" />
+      <row is_global="False" psn_id="" statistic_group_id="5" statistic_id="71" statistic_name="GrindstoneUsed" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_grindstones_used" ui_order="94" />
+      <row is_global="False" psn_id="" statistic_group_id="7" statistic_id="72" statistic_name="DiceGamesWon" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_dices_won" ui_order="110" />
+      <row is_global="False" psn_id="" statistic_group_id="2" statistic_id="73" statistic_name="HumansKilledWithHeadshot" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_souls_kw_headshot" ui_order="55" />
+      <row is_global="False" psn_id="" statistic_group_id="1" statistic_id="74" statistic_name="TimeOvereaten" statistic_unit_id="1" type="WorldTimeSampling" ui_desc="" ui_max_value="" ui_name="stat_time_overeaten" ui_order="28" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="75" statistic_name="ReputationEarned" statistic_unit_id="6" type="DecimalProxy" ui_desc="" ui_max_value="" ui_name="stat_reputation_earned" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="2" statistic_id="76" statistic_name="RipostesPerformed" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_ripostes_performed" ui_order="62" />
+      <row is_global="False" psn_id="" statistic_group_id="2" statistic_id="77" statistic_name="PerfectBlocksPerformed" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_pblocks_performed" ui_order="61" />
+      <row is_global="False" psn_id="" statistic_group_id="2" statistic_id="78" statistic_name="SoulsKnockedOutWithStealth" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_souls_ko_stealth" ui_order="52" />
+      <row is_global="False" psn_id="" statistic_group_id="5" statistic_id="79" statistic_name="HerbsCollectedWeight" statistic_unit_id="5" type="DecimalSum" ui_desc="" ui_max_value="" ui_name="stat_herbs_weight" ui_order="100" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="80" statistic_name="BloodAmountBled" statistic_unit_id="4" type="DecimalSum" ui_desc="" ui_max_value="" ui_name="stat_blood_amount_bled" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="1" statistic_id="81" statistic_name="TimePlayed" statistic_unit_id="1" type="PlayTime" ui_desc="" ui_max_value="" ui_name="stat_time_played" ui_order="2" />
+      <row is_global="False" psn_id="" statistic_group_id="5" statistic_id="82" statistic_name="ItemsRepaired" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_items_repaired" ui_order="93" />
+      <row is_global="False" psn_id="" statistic_group_id="3" statistic_id="83" statistic_name="ItemsPickpocketed" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_items_pickpocketed" ui_order="73" />
+      <row is_global="False" psn_id="" statistic_group_id="3" statistic_id="84" statistic_name="ValuePickpocketed" statistic_unit_id="3" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_value_pickpocketed" ui_order="74" />
+      <row is_global="False" psn_id="" statistic_group_id="7" statistic_id="85" statistic_name="ScriptMoneyWonOnDices" statistic_unit_id="3" type="Script" ui_desc="" ui_max_value="" ui_name="stat_money_on_dices" ui_order="113" />
+      <row is_global="False" psn_id="" statistic_group_id="2" statistic_id="86" statistic_name="HumansKilled" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_humans_killed" ui_order="45" />
+      <row is_global="False" psn_id="" statistic_group_id="7" statistic_id="87" statistic_name="DiceGamesLost" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_dices_lost" ui_order="111" />
+      <row is_global="False" psn_id="" statistic_group_id="7" statistic_id="88" statistic_name="UniqueSoulsDefeatedInDice" statistic_unit_id="" type="DistinctGuid" ui_desc="" ui_max_value="" ui_name="stat_u_defeated_in_dice" ui_order="112" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="89" statistic_name="CurrentProperDietTime" statistic_unit_id="" type="WorldTimeResetSampling" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="3" statistic_id="90" statistic_name="CiviliansKilled" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_civilians_killed" ui_order="77" />
+      <row is_global="False" psn_id="" statistic_group_id="6" statistic_id="91" statistic_name="UniqueCaptionObjectsActivated" statistic_unit_id="" type="DistinctGuid" ui_desc="" ui_max_value="" ui_name="stat_unique_captions_used" ui_order="124" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="92" statistic_name="CaptionObjectsActivated" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="3" statistic_id="93" statistic_name="Imprisoned" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_imprisoned" ui_order="78" />
+      <row is_global="False" psn_id="" statistic_group_id="3" statistic_id="94" statistic_name="TimeImprisoned" statistic_unit_id="1" type="DecimalSum" ui_desc="" ui_max_value="" ui_name="stat_time_imprisoned" ui_order="79" />
+      <row is_global="False" psn_id="" statistic_group_id="5" statistic_id="95" statistic_name="PoisonousHerbsCollected" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_poisonous_herbs_collected" ui_order="99" />
+      <row is_global="True" psn_id="" statistic_group_id="0" statistic_id="96" statistic_name="CurrentMainQuest" statistic_unit_id="" type="String" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="True" psn_id="" statistic_group_id="0" statistic_id="97" statistic_name="LastStatLevelUp" statistic_unit_id="" type="String" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="True" psn_id="" statistic_group_id="0" statistic_id="98" statistic_name="LastSkillLevelUp" statistic_unit_id="" type="String" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="True" psn_id="" statistic_group_id="0" statistic_id="99" statistic_name="TotalMoneyCollected" statistic_unit_id="" type="DecimalSum" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="True" psn_id="" statistic_group_id="0" statistic_id="100" statistic_name="TotalEnemiesKilled" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="101" statistic_name="ScriptStoryZavod" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="102" statistic_name="ScriptStoryVranikBastardSon" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="103" statistic_name="ScriptStoryPrepadeniTalmberkaKonecVranika" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="104" statistic_name="ScriptStoryTalmberkPripravaUdelalVsechno" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="105" statistic_name="ScriptStoryKonecHry" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="106" statistic_name="ScriptStoryUhoreniVeSkalici" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="107" statistic_name="ScriptStoryChlastackaSFararem" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="108" statistic_name="ScriptStoryBojovnikSMorem" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="109" statistic_name="ScriptStorySexSTerezou" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="110" statistic_name="ScriptStorySexSeStepankou" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="111" statistic_name="ScriptStoryPodrazFricekAMatus" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="112" statistic_name="ScriptStoryErikovoDetstvi" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="113" statistic_name="ScriptStoryLovci" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="114" statistic_name="ScriptStoryRaubritter" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="115" statistic_name="ScriptStoryKatPopravaKdyzSeVsechnoPovede" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="116" statistic_name="ScriptStoryBadTripZaHratkySCertem" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="117" statistic_name="ScriptStoryPanic" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="118" statistic_name="ScriptStoryPribyslavicePoBitve" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="119" statistic_name="ScriptStoryVstupDoKlauzury" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="120" statistic_name="ScriptStorySplnenaSkalice" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="121" statistic_name="ScriptStoryZachranaTerezy" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="122" statistic_name="ScriptStoryProbuzeniVRatajich" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="123" statistic_name="ScriptStoryZachranaPtacka" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="124" statistic_name="ScriptStoryNeuhoffZrzek" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="2" statistic_id="125" statistic_name="EnemiesKilledWithStealth" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_enemies_kw_stealth" ui_order="51" />
+      <row is_global="False" psn_id="" statistic_group_id="2" statistic_id="126" statistic_name="EnemiesKilledWithHeadshot" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_enemies_kw_headshot" ui_order="54" />
+      <row is_global="False" psn_id="" statistic_group_id="2" statistic_id="127" statistic_name="HaresKilled" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_hares_killed" ui_order="49" />
+      <row is_global="False" psn_id="" statistic_group_id="1" statistic_id="128" statistic_name="FruitsConsumed" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_fruits_consumed" ui_order="12" />
+      <row is_global="False" psn_id="" statistic_group_id="1" statistic_id="129" statistic_name="VegetablesConsumed" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="stat_vegetables_consumed" ui_order="14" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="130" statistic_name="AlcoholismDerivStat" statistic_unit_id="" type="SoulDerivStat" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="131" statistic_name="LocationsLoveYou" statistic_unit_id="" type="IntegerProxy" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="132" statistic_name="LocationsHateYou" statistic_unit_id="" type="IntegerProxy" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="133" statistic_name="ScriptStorySexPoPartySBohutou" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="134" statistic_name="WenchesInBathsHired" statistic_unit_id="" type="Script" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="135" statistic_name="GameModePerkCount" statistic_unit_id="" type="IntegerProxy" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="136" statistic_name="IsHardcoreMode" statistic_unit_id="" type="IntegerProxy" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="137" statistic_name="DiedInHardcoreMode" statistic_unit_id="" type="IntegerSum" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="138" statistic_name="ReadingLevel" statistic_unit_id="" type="SoulLevel" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="139" statistic_name="ScriptNewHomesFinished" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="140" statistic_name="ScriptNewHomesFricekAMatus" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="141" statistic_name="NewHomesIncomeLimitExceeded" statistic_unit_id="" type="Script" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="142" statistic_name="ScriptStoryGambleriVyhraVTurnaji" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="143" statistic_name="ScriptStoryGambleriUkradenySperk" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="144" statistic_name="ScriptMasterOfArena" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="145" statistic_name="ScriptStorySuperstitionMaxReward" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="146" statistic_name="ScriptStorySuperstitionRattayBurial" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="147" statistic_name="ScriptStorySuperstitionLedechkoBurial" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="148" statistic_name="ScriptStoryLoveLetterTrueFriend" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+      <row is_global="False" psn_id="" statistic_group_id="0" statistic_id="149" statistic_name="ScriptStoryLoveLetterWingman" statistic_unit_id="" type="Quest" ui_desc="" ui_max_value="" ui_name="" ui_order="" />
+    </rows>
+  </table>
+</database>

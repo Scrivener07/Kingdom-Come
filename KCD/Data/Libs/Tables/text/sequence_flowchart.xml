@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="sequence_flowchart" version="1">
+    <header>
+      <column name="flowchart_name" type="character varying" />
+      <column name="param1" type="character varying" />
+      <column name="param2" type="character varying" />
+      <column name="param3" type="character varying" />
+      <column name="sequence_line_id" type="integer" />
+    </header>
+    <rows>
+      <row flowchart_name="testdialog" param1="" param2="" param3="" sequence_line_id="604" />
+      <row flowchart_name="fgTeleport" param1="" param2="" param3="" sequence_line_id="47786" />
+    </rows>
+  </table>
+</database>

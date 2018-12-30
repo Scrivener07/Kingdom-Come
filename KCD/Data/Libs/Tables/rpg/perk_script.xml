@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="perk_script" version="1">
+    <header>
+      <column name="perk_editor_name" type="character varying" />
+      <column name="perk_id" type="uuid" />
+    </header>
+    <rows>
+      <row perk_editor_name="OrdinaryMug" perk_id="007a744c-5dc8-4ed4-b8bd-791d219f880d" />
+      <row perk_editor_name="HiddenPockets" perk_id="1a9bdccd-4cfa-4262-a6b5-6dce77987cc8" />
+      <row perk_editor_name="FirstAid" perk_id="280c4479-84cc-4936-b03b-a094bafc1ca0" />
+      <row perk_editor_name="Nightmares" perk_id="37433f7b-9c2e-48e2-bce7-af8d34b403c8" />
+      <row perk_editor_name="CrowdControl" perk_id="3bbca63b-754a-4582-a371-79d943cb2ba9" />
+      <row perk_editor_name="DogPerson" perk_id="6ef70c3e-aac3-4368-8b75-d37d9910cf6e" />
+      <row perk_editor_name="FirstAid III" perk_id="9a5957c7-6ca2-4818-8546-5eea15a19cbd" />
+      <row perk_editor_name="SixthSense" perk_id="9d027fc1-95f5-4d4b-b1ef-cbbdfc51b53a" />
+      <row perk_editor_name="Troubadour" perk_id="9fd92344-5cfd-4169-8e0b-000e575b4913" />
+      <row perk_editor_name="FirstAid II" perk_id="c3f906f0-5dbb-4b33-84b8-04fd7fe3b5dc" />
+      <row perk_editor_name="Sleepwalker" perk_id="d2105041-120b-4c06-8e61-1948a5fdf65d" />
+      <row perk_editor_name="YourFriendlyNeighbour" perk_id="f6500d0d-25eb-4b3e-8de1-d295a8f73693" />
+      <row perk_editor_name="SafePassage" perk_id="fe59bbf6-86df-4d34-b80f-21e52da5f92b" />
+    </rows>
+  </table>
+</database>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="herb" version="1">
+    <header>
+      <column name="element1_id" type="integer" />
+      <column name="element2_id" type="integer" />
+      <column name="item_id" type="uuid" />
+      <column name="latin_name" type="character varying" />
+      <column name="poisonous" type="boolean" />
+      <column name="ui_desc" type="character varying" />
+      <column name="ui_effect" type="character varying" />
+      <column name="ui_occur" type="character varying" />
+    </header>
+    <rows>
+      <row element1_id="1" element2_id="0" item_id="0290b689-c01c-480f-b121-bed71ad1f5e0" latin_name="Euphrasia" poisonous="False" ui_desc="herb_eyewort_desc" ui_effect="herb_eyewort_effect" ui_occur="herb_eyewort_occur" />
+      <row element1_id="3" element2_id="4" item_id="05bef17b-ddeb-426d-aa53-52ff6d4f521e" latin_name="Papaver" poisonous="False" ui_desc="herb_poppy_desc" ui_effect="herb_poppy_effect" ui_occur="herb_poppy_occur" />
+      <row element1_id="2" element2_id="1" item_id="27b8a61f-36e4-4101-9be5-1b814d43bd8f" latin_name="Valeriana" poisonous="False" ui_desc="herb_valerian_desc" ui_effect="herb_valerian_effect" ui_occur="herb_valerian_occur" />
+      <row element1_id="4" element2_id="0" item_id="2ddf6256-0662-44c4-99fe-f713b6d900ea" latin_name="Paris" poisonous="True" ui_desc="herb_paris_desc" ui_effect="herb_paris_effect" ui_occur="herb_paris_occur" />
+      <row element1_id="3" element2_id="0" item_id="4d9e61aa-3f90-4e5d-b836-f9e158196438" latin_name="Artemisia" poisonous="False" ui_desc="herb_wormwood_desc" ui_effect="herb_wormwood_effect" ui_occur="herb_wormwood_occur" />
+      <row element1_id="4" element2_id="3" item_id="5e9b4fa1-aafa-4352-b5d6-58df2c263caa" latin_name="Urtica" poisonous="True" ui_desc="herb_urticaria_desc" ui_effect="herb_urticaria_effect" ui_occur="herb_urticaria_occur" />
+      <row element1_id="1" element2_id="4" item_id="7259b9bc-dfae-487e-a8bb-c1f500894e0c" latin_name="Matricaria" poisonous="False" ui_desc="herb_chamomile_desc" ui_effect="herb_chamomile_effect" ui_occur="herb_chamomile_occur" />
+      <row element1_id="1" element2_id="2" item_id="7da04bba-0564-42da-bcf1-9a2fc5faf025" latin_name="Mentha" poisonous="False" ui_desc="herb_mint_desc" ui_effect="herb_mint_effect" ui_occur="herb_mint_occur" />
+      <row element1_id="4" element2_id="1" item_id="9b771c16-c0b1-438c-aeda-8c4d3ce28465" latin_name="Hypericum" poisonous="False" ui_desc="herb_hypericum_desc" ui_effect="herb_hypericum_effect" ui_occur="herb_hypericum_occur" />
+      <row element1_id="1" element2_id="2" item_id="a11cc7f6-b499-4003-aef1-938e87b30a2e" latin_name="Taraxacum" poisonous="False" ui_desc="herb_dandelion_desc" ui_effect="herb_dandelion_effect" ui_occur="herb_dandelion_occur" />
+      <row element1_id="4" element2_id="3" item_id="a314b580-bc97-4802-ae1f-8f4803e34503" latin_name="Atropa" poisonous="True" ui_desc="herb_belladona_desc" ui_effect="herb_belladona_effect" ui_occur="herb_belladona_occur" />
+      <row element1_id="3" element2_id="4" item_id="a364b800-c1ca-4bd1-92cb-ae1689bfa7ea" latin_name="Benedictus" poisonous="False" ui_desc="herb_thistle_desc" ui_effect="herb_thistle_effect" ui_occur="herb_thistle_occur" />
+      <row element1_id="1" element2_id="4" item_id="b5587dd4-f7d8-4378-9903-7626a227ca0f" latin_name="Hyoscyamus" poisonous="True" ui_desc="herb_nightshade_desc" ui_effect="herb_nightshade_effect" ui_occur="herb_nightshade_occur" />
+      <row element1_id="3" element2_id="0" item_id="b9de1d84-a0c1-4b81-9f60-8d7fbb3cb9d4" latin_name="Salvia" poisonous="False" ui_desc="herb_salvia_desc" ui_effect="herb_salvia_effect" ui_occur="herb_salvia_occur" />
+      <row element1_id="3" element2_id="2" item_id="bf7b7c2a-017b-4c7b-b9aa-0c4e29ce5913" latin_name="Calendula" poisonous="False" ui_desc="herb_marigold_desc" ui_effect="herb_marigold_effect" ui_occur="herb_marigold_occur" />
+      <row element1_id="2" element2_id="1" item_id="de134f81-cfbe-422d-9105-df3e0b3b59b5" latin_name="Symphitum" poisonous="False" ui_desc="herb_comfrey_desc" ui_effect="herb_comfrey_effect" ui_occur="herb_comfrey_occur" />
+    </rows>
+  </table>
+</database>

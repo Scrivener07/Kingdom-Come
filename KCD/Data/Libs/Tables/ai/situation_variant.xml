@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="situation_variant" version="1">
+    <header>
+      <column name="name" type="character varying" />
+      <column name="order_by" type="integer" />
+      <column name="situation_id" type="uuid" />
+      <column name="situation_variant_id" type="uuid" />
+    </header>
+    <rows>
+      <row name="var1" order_by="0" situation_id="4631a217-9054-3790-6f63-08ef864f81b6" situation_variant_id="40259ad8-827c-bef1-b4f2-2e64401d4aaf" />
+      <row name="default" order_by="0" situation_id="4d5f1e07-f947-2069-0a41-034adee6198b" situation_variant_id="40852057-2245-0538-eb34-8f4e4fe685bd" />
+      <row name="var1" order_by="0" situation_id="45848952-a456-d5fb-b513-6f5eaae2d1b3" situation_variant_id="40be5da4-b4fd-c034-f312-d6783fded2a1" />
+      <row name="default" order_by="0" situation_id="4f40eba7-afbe-32a0-3b28-eef3da0f4b99" situation_variant_id="42b50971-fc9a-3681-cca2-d0f8a2a23184" />
+      <row name="varianta1" order_by="0" situation_id="4018ee51-e4d4-ec57-b007-808661402998" situation_variant_id="43e6d49f-06f4-e80f-7d29-49e92bba0193" />
+      <row name="a" order_by="0" situation_id="497d49ab-d473-d0d0-8e92-8919b07bc5a7" situation_variant_id="44096b0a-6219-7c97-70c9-be613e8e84b5" />
+      <row name="var1" order_by="0" situation_id="47e4986b-2be9-404b-2771-e0bc282b81a5" situation_variant_id="44180572-8f7a-7f3f-d82e-d032bd030da1" />
+      <row name="var1" order_by="0" situation_id="4675f70e-5482-0b49-ba63-44675a2ce89a" situation_variant_id="44e15a50-a354-c9ea-33ab-901dcd31858f" />
+      <row name="default" order_by="0" situation_id="4b9a1a92-b405-0f27-244e-8d2e663b3fb5" situation_variant_id="44e50dca-37d9-b02b-295d-81184556dcb3" />
+      <row name="variant1" order_by="0" situation_id="45698c1e-705c-6afd-00fb-b59414245e91" situation_variant_id="45bc4bae-2680-415d-186e-042a6f5d5781" />
+      <row name="variant0" order_by="0" situation_id="43c8c1b6-1956-dc49-8fe5-077d6246b79e" situation_variant_id="45cec83a-8ba9-e1db-8dcb-5e4984516da1" />
+      <row name="default" order_by="0" situation_id="48f8449d-6b78-ddaf-46e1-0bd955910381" situation_variant_id="490f4ca7-9279-e85b-29a9-a6dabe6197ad" />
+      <row name="default" order_by="0" situation_id="429d600f-bafb-0b9a-6dc3-9065648dc6aa" situation_variant_id="4d5a626e-6c3d-94a1-c2c8-e75041b90b8d" />
+      <row name="default" order_by="0" situation_id="4d82c1dc-6851-43c0-27a0-34bd4fa6d7bc" situation_variant_id="4e2cec11-7bc0-1f4a-dbb1-607703fd13be" />
+      <row name="default" order_by="0" situation_id="4f1d72c5-f158-48e8-5e33-1c4e69213d83" situation_variant_id="4ef987dc-7126-ea5b-5401-58a6d8be57b2" />
+    </rows>
+  </table>
+</database>

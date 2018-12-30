@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="location_category" version="1">
+    <header>
+      <column name="location_category_id" type="integer" />
+      <column name="location_category_name" type="character varying" />
+    </header>
+    <rows>
+      <row location_category_id="1" location_category_name="Village" />
+      <row location_category_id="2" location_category_name="Town" />
+      <row location_category_id="3" location_category_name="Forest" />
+    </rows>
+  </table>
+</database>

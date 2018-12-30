@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="alchemy_base" version="1">
+    <header>
+      <column name="item_id" type="uuid" />
+      <column name="ui_name" type="character varying" />
+    </header>
+    <rows>
+      <row item_id="310e921d-da62-48e4-88ef-de9f295e0045" ui_name="ui_nm_alchemySpiritus" />
+      <row item_id="34bd1d0b-1203-42a0-b9b4-d3585a4d9b48" ui_name="ui_nm_alchemyOil" />
+      <row item_id="d5efb270-948b-4a38-b391-38b2edd31c8d" ui_name="ui_nm_alchemyWine" />
+      <row item_id="e96d768e-04e5-4480-9197-1c256d642ddc" ui_name="ui_nm_alchemyWater" />
+    </rows>
+  </table>
+</database>

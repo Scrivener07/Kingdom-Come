@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="dialogue_command_hearing" version="1">
+    <header>
+      <column name="dialogue_hearing_id" type="integer" />
+      <column name="sequence_line_id" type="integer" />
+    </header>
+    <rows>
+      <row dialogue_hearing_id="7" sequence_line_id="141027" />
+      <row dialogue_hearing_id="5" sequence_line_id="141338" />
+      <row dialogue_hearing_id="5" sequence_line_id="141339" />
+      <row dialogue_hearing_id="5" sequence_line_id="141340" />
+      <row dialogue_hearing_id="5" sequence_line_id="141341" />
+      <row dialogue_hearing_id="5" sequence_line_id="141342" />
+      <row dialogue_hearing_id="5" sequence_line_id="141343" />
+      <row dialogue_hearing_id="5" sequence_line_id="141344" />
+      <row dialogue_hearing_id="5" sequence_line_id="141345" />
+      <row dialogue_hearing_id="5" sequence_line_id="141346" />
+      <row dialogue_hearing_id="5" sequence_line_id="141347" />
+      <row dialogue_hearing_id="5" sequence_line_id="141348" />
+      <row dialogue_hearing_id="5" sequence_line_id="141349" />
+      <row dialogue_hearing_id="4" sequence_line_id="141351" />
+      <row dialogue_hearing_id="4" sequence_line_id="141352" />
+      <row dialogue_hearing_id="4" sequence_line_id="141353" />
+      <row dialogue_hearing_id="4" sequence_line_id="141354" />
+      <row dialogue_hearing_id="4" sequence_line_id="141355" />
+      <row dialogue_hearing_id="4" sequence_line_id="141356" />
+      <row dialogue_hearing_id="4" sequence_line_id="141357" />
+      <row dialogue_hearing_id="4" sequence_line_id="141358" />
+      <row dialogue_hearing_id="6" sequence_line_id="141591" />
+    </rows>
+  </table>
+</database>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="ointment_item_type" version="1">
+    <header>
+      <column name="ointment_item_type_id" type="integer" />
+      <column name="ointment_item_type_name" type="character varying" />
+    </header>
+    <rows>
+      <row ointment_item_type_id="0" ointment_item_type_name="bandage" />
+      <row ointment_item_type_id="1" ointment_item_type_name="repairkit" />
+    </rows>
+  </table>
+</database>

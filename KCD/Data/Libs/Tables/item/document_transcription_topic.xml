@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="document_transcription_topic" version="1">
+    <header>
+      <column name="page_spread_number" type="integer" />
+      <column name="text_id" type="integer" />
+      <column name="topic_id" type="integer" />
+    </header>
+    <rows>
+      <row page_spread_number="0" text_id="9" topic_id="23354" />
+      <row page_spread_number="0" text_id="14" topic_id="23354" />
+      <row page_spread_number="0" text_id="15" topic_id="23345" />
+      <row page_spread_number="0" text_id="16" topic_id="26816" />
+      <row page_spread_number="0" text_id="70" topic_id="26818" />
+      <row page_spread_number="0" text_id="71" topic_id="26817" />
+    </rows>
+  </table>
+</database>

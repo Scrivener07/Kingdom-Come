@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="buff_lifetime" version="1">
+    <header>
+      <column name="buff_lifetime_id" type="integer" />
+      <column name="buff_lifetime_name" type="character varying" />
+    </header>
+    <rows>
+      <row buff_lifetime_id="0" buff_lifetime_name="ShortTerm" />
+      <row buff_lifetime_id="1" buff_lifetime_name="LongTerm" />
+    </rows>
+  </table>
+</database>

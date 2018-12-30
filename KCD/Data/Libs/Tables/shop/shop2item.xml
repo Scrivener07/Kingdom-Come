@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="shop2item" version="1">
+    <header>
+      <column name="amount_multiplier" type="real" />
+      <column name="item_id" type="uuid" />
+      <column name="shop_id" type="integer" />
+      <column name="shop_type_id" type="integer" />
+    </header>
+    <rows>
+      <row amount_multiplier="0" item_id="ddb0fc96-be22-42d8-ba8c-ff00b68c0481" shop_id="5" shop_type_id="5" />
+    </rows>
+  </table>
+</database>

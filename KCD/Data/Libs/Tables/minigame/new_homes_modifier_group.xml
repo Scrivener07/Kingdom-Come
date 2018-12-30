@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="new_homes_modifier_group" version="1">
+    <header>
+      <column name="modifier_group_id" type="integer" />
+      <column name="modifier_group_name" type="character varying" />
+    </header>
+    <rows>
+      <row modifier_group_id="1" modifier_group_name="blacksmiths" />
+      <row modifier_group_id="3" modifier_group_name="grooms" />
+      <row modifier_group_id="4" modifier_group_name="supply_stone" />
+      <row modifier_group_id="5" modifier_group_name="supply_grain" />
+      <row modifier_group_id="6" modifier_group_name="supply_coal" />
+      <row modifier_group_id="7" modifier_group_name="supply_meat" />
+      <row modifier_group_id="8" modifier_group_name="butchers" />
+    </rows>
+  </table>
+</database>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="sa_behaviour_tag_parent" version="1">
+    <header>
+      <column name="child_tag_id" type="uuid" />
+      <column name="parent_tag_id" type="uuid" />
+      <column name="sa_smart_area_id" type="uuid" />
+    </header>
+    <rows>
+      <row child_tag_id="45e7e7aa-8c5a-d15a-64db-06e8696e9aac" parent_tag_id="4df52841-1aab-f291-c407-cc218907e189" sa_smart_area_id="457abd0c-dec1-4b77-ac9c-a6f007c7b815" />
+      <row child_tag_id="467552f4-8e71-b64d-a503-0974121f2bb8" parent_tag_id="41f700ae-8226-5534-0d72-67433ae366a3" sa_smart_area_id="47274f7b-d7eb-1c21-734a-5351c98d2fb9" />
+      <row child_tag_id="4eb84ebb-71c7-fb9b-69c9-bd13d37767b6" parent_tag_id="41f700ae-8226-5534-0d72-67433ae366a3" sa_smart_area_id="47274f7b-d7eb-1c21-734a-5351c98d2fb9" />
+      <row child_tag_id="41f700ae-8226-5534-0d72-67433ae366a3" parent_tag_id="4330f7f7-87ea-792b-8c82-b4da00a875a1" sa_smart_area_id="47274f7b-d7eb-1c21-734a-5351c98d2fb9" />
+      <row child_tag_id="476d4c82-e8d7-a015-1bd6-ee970e6a96b4" parent_tag_id="4330f7f7-87ea-792b-8c82-b4da00a875a1" sa_smart_area_id="47274f7b-d7eb-1c21-734a-5351c98d2fb9" />
+      <row child_tag_id="46b95e8f-bd9f-3e3a-4016-9de83dc48cbb" parent_tag_id="436cdb3b-745f-884e-7c5c-2e90dc696c84" sa_smart_area_id="47274f7b-d7eb-1c21-734a-5351c98d2fb9" />
+      <row child_tag_id="48391860-996b-8d3f-c9f2-7b3b200354b1" parent_tag_id="436cdb3b-745f-884e-7c5c-2e90dc696c84" sa_smart_area_id="47274f7b-d7eb-1c21-734a-5351c98d2fb9" />
+      <row child_tag_id="4bd8bcad-12d4-04f2-1d9b-7b3ebebee4b0" parent_tag_id="436cdb3b-745f-884e-7c5c-2e90dc696c84" sa_smart_area_id="47274f7b-d7eb-1c21-734a-5351c98d2fb9" />
+      <row child_tag_id="48166c36-5d17-04da-8fb3-f344cbb0899e" parent_tag_id="48391860-996b-8d3f-c9f2-7b3b200354b1" sa_smart_area_id="47274f7b-d7eb-1c21-734a-5351c98d2fb9" />
+      <row child_tag_id="4c66b346-31c2-6d22-e511-7fa955e458b3" parent_tag_id="48391860-996b-8d3f-c9f2-7b3b200354b1" sa_smart_area_id="47274f7b-d7eb-1c21-734a-5351c98d2fb9" />
+      <row child_tag_id="4e08d83e-a199-17d0-018c-af8ca20952aa" parent_tag_id="48391860-996b-8d3f-c9f2-7b3b200354b1" sa_smart_area_id="47274f7b-d7eb-1c21-734a-5351c98d2fb9" />
+      <row child_tag_id="44a621ee-604c-9cf3-d742-891982d1d0b9" parent_tag_id="43788dd9-981a-a303-c66e-528f2d0e6382" sa_smart_area_id="4898fc3d-e63f-a74b-5126-c8b1467aa594" />
+      <row child_tag_id="4b299725-84b8-ec94-b813-67dde68c5c9b" parent_tag_id="41a06149-5159-6ae4-a792-638fc3219db1" sa_smart_area_id="48eaae8e-8603-09bc-8076-92ee773ab58e" />
+      <row child_tag_id="41bdea84-5bf6-db2b-c0cd-b21245fb4d91" parent_tag_id="455ecd7e-8487-eff9-582c-afa815799db0" sa_smart_area_id="4e748ee4-590d-9c91-e878-4f5d2064c3aa" />
+      <row child_tag_id="49f44216-f875-8550-fd62-639b0bd6df8c" parent_tag_id="431c4d63-a616-1c96-409e-23faab3d13a2" sa_smart_area_id="4f7e5181-8b3c-32df-192c-d456b5ba3a8c" />
+      <row child_tag_id="4ddcb310-6011-f8c4-7f1b-b47ee588879c" parent_tag_id="431c4d63-a616-1c96-409e-23faab3d13a2" sa_smart_area_id="4f7e5181-8b3c-32df-192c-d456b5ba3a8c" />
+      <row child_tag_id="4c6d31a9-8a54-e326-7be2-c4d33db293b3" parent_tag_id="4ba2e57d-7462-1560-4cb9-d0b81404d5bf" sa_smart_area_id="58fb15ed-1c39-4df6-a698-cc5a00d95861" />
+      <row child_tag_id="41bdea84-5bf6-db2b-c0cd-b21245fb4d91" parent_tag_id="455ecd7e-8487-eff9-582c-afa815799db0" sa_smart_area_id="5daae9ba-2984-4f18-8455-326569509845" />
+      <row child_tag_id="43b43598-5b77-b3fa-26f7-656ff333b4a0" parent_tag_id="4154149e-35d4-8c9d-eee5-a00cd452e18b" sa_smart_area_id="c89f0fdf-9bde-4c07-9767-e93bf2779799" />
+      <row child_tag_id="4431a5da-182a-9a7b-a4d4-55f9c6ad4b86" parent_tag_id="4154149e-35d4-8c9d-eee5-a00cd452e18b" sa_smart_area_id="c89f0fdf-9bde-4c07-9767-e93bf2779799" />
+      <row child_tag_id="45533e22-d1d0-2c50-a4cb-40e74ca4588f" parent_tag_id="4154149e-35d4-8c9d-eee5-a00cd452e18b" sa_smart_area_id="c89f0fdf-9bde-4c07-9767-e93bf2779799" />
+      <row child_tag_id="4758e7d1-9b30-e1d2-26bd-507e466bb5b8" parent_tag_id="4154149e-35d4-8c9d-eee5-a00cd452e18b" sa_smart_area_id="c89f0fdf-9bde-4c07-9767-e93bf2779799" />
+      <row child_tag_id="48073323-c3b6-1d58-fc1e-5213de6f6181" parent_tag_id="4154149e-35d4-8c9d-eee5-a00cd452e18b" sa_smart_area_id="c89f0fdf-9bde-4c07-9767-e93bf2779799" />
+      <row child_tag_id="488d0096-77e0-cf79-ca5e-01ac47953884" parent_tag_id="4154149e-35d4-8c9d-eee5-a00cd452e18b" sa_smart_area_id="c89f0fdf-9bde-4c07-9767-e93bf2779799" />
+      <row child_tag_id="4a9b354e-f8b2-3498-921a-9dd43909188e" parent_tag_id="4154149e-35d4-8c9d-eee5-a00cd452e18b" sa_smart_area_id="c89f0fdf-9bde-4c07-9767-e93bf2779799" />
+      <row child_tag_id="4dec328f-93d3-cacd-2e99-fcaf011bbaa9" parent_tag_id="4154149e-35d4-8c9d-eee5-a00cd452e18b" sa_smart_area_id="c89f0fdf-9bde-4c07-9767-e93bf2779799" />
+      <row child_tag_id="4e5df039-9581-687c-bccd-0269453736a9" parent_tag_id="4e7612c0-3920-068e-8a6e-a031ca3ac1b9" sa_smart_area_id="c89f0fdf-9bde-4c07-9767-e93bf2779799" />
+    </rows>
+  </table>
+</database>

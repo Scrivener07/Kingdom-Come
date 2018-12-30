@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="combat_attack_hit_statistics" version="1">
+    <header>
+      <column name="body_subpart_id" type="integer" />
+      <column name="combat_attack_type_id" type="integer" />
+      <column name="combat_zone_id" type="integer" />
+      <column name="hit_count" type="integer" />
+    </header>
+    <rows>
+      <row body_subpart_id="1" combat_attack_type_id="0" combat_zone_id="0" hit_count="379" />
+      <row body_subpart_id="3" combat_attack_type_id="0" combat_zone_id="0" hit_count="495" />
+      <row body_subpart_id="24" combat_attack_type_id="0" combat_zone_id="0" hit_count="1315" />
+      <row body_subpart_id="26" combat_attack_type_id="0" combat_zone_id="0" hit_count="543" />
+      <row body_subpart_id="27" combat_attack_type_id="0" combat_zone_id="0" hit_count="611" />
+      <row body_subpart_id="41" combat_attack_type_id="0" combat_zone_id="0" hit_count="290" />
+      <row body_subpart_id="1" combat_attack_type_id="0" combat_zone_id="5" hit_count="156" />
+      <row body_subpart_id="3" combat_attack_type_id="0" combat_zone_id="5" hit_count="136" />
+      <row body_subpart_id="24" combat_attack_type_id="0" combat_zone_id="5" hit_count="68" />
+      <row body_subpart_id="26" combat_attack_type_id="0" combat_zone_id="5" hit_count="88" />
+      <row body_subpart_id="27" combat_attack_type_id="0" combat_zone_id="5" hit_count="1454" />
+      <row body_subpart_id="37" combat_attack_type_id="0" combat_zone_id="5" hit_count="68" />
+      <row body_subpart_id="39" combat_attack_type_id="0" combat_zone_id="5" hit_count="81" />
+      <row body_subpart_id="40" combat_attack_type_id="0" combat_zone_id="5" hit_count="61" />
+      <row body_subpart_id="41" combat_attack_type_id="0" combat_zone_id="5" hit_count="1106" />
+      <row body_subpart_id="43" combat_attack_type_id="0" combat_zone_id="5" hit_count="131" />
+      <row body_subpart_id="45" combat_attack_type_id="0" combat_zone_id="5" hit_count="75" />
+      <row body_subpart_id="46" combat_attack_type_id="0" combat_zone_id="5" hit_count="82" />
+      <row body_subpart_id="47" combat_attack_type_id="0" combat_zone_id="5" hit_count="59" />
+      <row body_subpart_id="49" combat_attack_type_id="0" combat_zone_id="5" hit_count="90" />
+      <row body_subpart_id="50" combat_attack_type_id="0" combat_zone_id="5" hit_count="83" />
+      <row body_subpart_id="55" combat_attack_type_id="0" combat_zone_id="5" hit_count="86" />
+      <row body_subpart_id="56" combat_attack_type_id="0" combat_zone_id="5" hit_count="67" />
+      <row body_subpart_id="62" combat_attack_type_id="0" combat_zone_id="5" hit_count="129" />
+      <row body_subpart_id="24" combat_attack_type_id="1" combat_zone_id="0" hit_count="4249" />
+      <row body_subpart_id="26" combat_attack_type_id="1" combat_zone_id="0" hit_count="766" />
+      <row body_subpart_id="41" combat_attack_type_id="1" combat_zone_id="0" hit_count="439" />
+      <row body_subpart_id="1" combat_attack_type_id="1" combat_zone_id="1" hit_count="497" />
+      <row body_subpart_id="3" combat_attack_type_id="1" combat_zone_id="1" hit_count="936" />
+      <row body_subpart_id="24" combat_attack_type_id="1" combat_zone_id="1" hit_count="454" />
+      <row body_subpart_id="26" combat_attack_type_id="1" combat_zone_id="1" hit_count="565" />
+      <row body_subpart_id="27" combat_attack_type_id="1" combat_zone_id="1" hit_count="320" />
+      <row body_subpart_id="37" combat_attack_type_id="1" combat_zone_id="1" hit_count="410" />
+      <row body_subpart_id="39" combat_attack_type_id="1" combat_zone_id="1" hit_count="429" />
+      <row body_subpart_id="41" combat_attack_type_id="1" combat_zone_id="1" hit_count="1516" />
+      <row body_subpart_id="46" combat_attack_type_id="1" combat_zone_id="1" hit_count="560" />
+      <row body_subpart_id="47" combat_attack_type_id="1" combat_zone_id="1" hit_count="435" />
+      <row body_subpart_id="62" combat_attack_type_id="1" combat_zone_id="1" hit_count="224" />
+      <row body_subpart_id="3" combat_attack_type_id="1" combat_zone_id="2" hit_count="925" />
+      <row body_subpart_id="24" combat_attack_type_id="1" combat_zone_id="2" hit_count="386" />
+      <row body_subpart_id="26" combat_attack_type_id="1" combat_zone_id="2" hit_count="504" />
+      <row body_subpart_id="41" combat_attack_type_id="1" combat_zone_id="2" hit_count="530" />
+      <row body_subpart_id="43" combat_attack_type_id="1" combat_zone_id="2" hit_count="711" />
+      <row body_subpart_id="45" combat_attack_type_id="1" combat_zone_id="2" hit_count="464" />
+      <row body_subpart_id="47" combat_attack_type_id="1" combat_zone_id="2" hit_count="987" />
+      <row body_subpart_id="1" combat_attack_type_id="1" combat_zone_id="3" hit_count="576" />
+      <row body_subpart_id="3" combat_attack_type_id="1" combat_zone_id="3" hit_count="2378" />
+      <row body_subpart_id="41" combat_attack_type_id="1" combat_zone_id="3" hit_count="388" />
+      <row body_subpart_id="49" combat_attack_type_id="1" combat_zone_id="3" hit_count="573" />
+      <row body_subpart_id="50" combat_attack_type_id="1" combat_zone_id="3" hit_count="369" />
+      <row body_subpart_id="62" combat_attack_type_id="1" combat_zone_id="3" hit_count="982" />
+      <row body_subpart_id="1" combat_attack_type_id="1" combat_zone_id="4" hit_count="929" />
+      <row body_subpart_id="3" combat_attack_type_id="1" combat_zone_id="4" hit_count="2250" />
+      <row body_subpart_id="41" combat_attack_type_id="1" combat_zone_id="4" hit_count="465" />
+      <row body_subpart_id="55" combat_attack_type_id="1" combat_zone_id="4" hit_count="493" />
+      <row body_subpart_id="62" combat_attack_type_id="1" combat_zone_id="4" hit_count="788" />
+    </rows>
+  </table>
+</database>

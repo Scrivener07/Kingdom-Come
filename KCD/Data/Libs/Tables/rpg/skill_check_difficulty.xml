@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="skill_check_difficulty" version="1">
+    <header>
+      <column name="badassness_difference" type="real" />
+      <column name="charisma_difference" type="integer" />
+      <column name="skill_check_difficulty_id" type="integer" />
+      <column name="skill_check_difficulty_name" type="character varying" />
+      <column name="speech_difference" type="integer" />
+    </header>
+    <rows>
+      <row badassness_difference="-1000" charisma_difference="-1000" skill_check_difficulty_id="0" skill_check_difficulty_name="AutoSuccess" speech_difference="-1000" />
+      <row badassness_difference="-0.5" charisma_difference="-5" skill_check_difficulty_id="1" skill_check_difficulty_name="VeryEasy" speech_difference="-5" />
+      <row badassness_difference="-0.3" charisma_difference="-3" skill_check_difficulty_id="2" skill_check_difficulty_name="Easy" speech_difference="-3" />
+      <row badassness_difference="0" charisma_difference="0" skill_check_difficulty_id="3" skill_check_difficulty_name="Medium" speech_difference="0" />
+      <row badassness_difference="0.3" charisma_difference="3" skill_check_difficulty_id="4" skill_check_difficulty_name="Hard" speech_difference="3" />
+      <row badassness_difference="0.5" charisma_difference="5" skill_check_difficulty_id="5" skill_check_difficulty_name="VeryHard" speech_difference="5" />
+      <row badassness_difference="1000" charisma_difference="1000" skill_check_difficulty_id="6" skill_check_difficulty_name="AutoFail" speech_difference="1000" />
+    </rows>
+  </table>
+</database>

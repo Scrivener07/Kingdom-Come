@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="key_subtype" version="1">
+    <header>
+      <column name="key_subtype_id" type="integer" />
+      <column name="key_subtype_name" type="character varying" />
+    </header>
+    <rows>
+      <row key_subtype_id="1" key_subtype_name="none" />
+    </rows>
+  </table>
+</database>

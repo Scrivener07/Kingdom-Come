@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="combat_native_guard_zone" version="1">
+    <header>
+      <column name="combat_guard_stance_id" type="integer" />
+      <column name="combat_zone_id" type="integer" />
+      <column name="l_combat_weapon_group_id" type="integer" />
+      <column name="l_weapon_class_id" type="integer" />
+      <column name="r_combat_weapon_group_id" type="integer" />
+      <column name="r_weapon_class_id" type="integer" />
+    </header>
+    <rows>
+      <row combat_guard_stance_id="0" combat_zone_id="0" l_combat_weapon_group_id="" l_weapon_class_id="-1" r_combat_weapon_group_id="" r_weapon_class_id="-1" />
+      <row combat_guard_stance_id="0" combat_zone_id="0" l_combat_weapon_group_id="" l_weapon_class_id="12" r_combat_weapon_group_id="" r_weapon_class_id="12" />
+      <row combat_guard_stance_id="1" combat_zone_id="1" l_combat_weapon_group_id="" l_weapon_class_id="-1" r_combat_weapon_group_id="" r_weapon_class_id="-1" />
+      <row combat_guard_stance_id="1" combat_zone_id="1" l_combat_weapon_group_id="" l_weapon_class_id="7" r_combat_weapon_group_id="" r_weapon_class_id="7" />
+      <row combat_guard_stance_id="0" combat_zone_id="2" l_combat_weapon_group_id="" l_weapon_class_id="-1" r_combat_weapon_group_id="" r_weapon_class_id="-1" />
+      <row combat_guard_stance_id="0" combat_zone_id="2" l_combat_weapon_group_id="" l_weapon_class_id="7" r_combat_weapon_group_id="" r_weapon_class_id="7" />
+      <row combat_guard_stance_id="1" combat_zone_id="3" l_combat_weapon_group_id="" l_weapon_class_id="-1" r_combat_weapon_group_id="" r_weapon_class_id="-1" />
+      <row combat_guard_stance_id="1" combat_zone_id="3" l_combat_weapon_group_id="" l_weapon_class_id="7" r_combat_weapon_group_id="" r_weapon_class_id="7" />
+      <row combat_guard_stance_id="0" combat_zone_id="4" l_combat_weapon_group_id="" l_weapon_class_id="-1" r_combat_weapon_group_id="" r_weapon_class_id="-1" />
+      <row combat_guard_stance_id="0" combat_zone_id="4" l_combat_weapon_group_id="" l_weapon_class_id="7" r_combat_weapon_group_id="" r_weapon_class_id="7" />
+      <row combat_guard_stance_id="0" combat_zone_id="5" l_combat_weapon_group_id="" l_weapon_class_id="-1" r_combat_weapon_group_id="" r_weapon_class_id="-1" />
+    </rows>
+  </table>
+</database>

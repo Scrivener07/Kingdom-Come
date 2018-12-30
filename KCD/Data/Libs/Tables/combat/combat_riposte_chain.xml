@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="combat_riposte_chain" version="1">
+    <header>
+      <column name="atk_l_weapon_class_id" type="integer" />
+      <column name="atk_r_weapon_class_id" type="integer" />
+      <column name="blk_l_weapon_class_id" type="integer" />
+      <column name="blk_r_weapon_class_id" type="integer" />
+      <column name="combat_riposte_chain_id" type="integer" />
+      <column name="combat_riposte_chain_name" type="character varying" />
+      <column name="combat_riposte_chain_strid" type="character varying" />
+    </header>
+    <rows>
+      <row atk_l_weapon_class_id="" atk_r_weapon_class_id="4" blk_l_weapon_class_id="" blk_r_weapon_class_id="" combat_riposte_chain_id="1" combat_riposte_chain_name="Test chain 1" combat_riposte_chain_strid="ripch_01" />
+      <row atk_l_weapon_class_id="" atk_r_weapon_class_id="4" blk_l_weapon_class_id="" blk_r_weapon_class_id="" combat_riposte_chain_id="2" combat_riposte_chain_name="Test chain 2" combat_riposte_chain_strid="ripch_02" />
+    </rows>
+  </table>
+</database>

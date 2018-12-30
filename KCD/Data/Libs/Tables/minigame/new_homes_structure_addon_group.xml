@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="new_homes_structure_addon_group" version="1">
+    <header>
+      <column name="structure_addon_group_id" type="integer" />
+      <column name="structure_addon_group_name" type="character varying" />
+    </header>
+    <rows>
+      <row structure_addon_group_id="1" structure_addon_group_name="blacksmith_addons" />
+    </rows>
+  </table>
+</database>

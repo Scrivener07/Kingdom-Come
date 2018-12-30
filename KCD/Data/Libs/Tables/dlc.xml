@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="dlc" version="1">
+    <header>
+      <column name="affects_savegame" type="boolean" />
+      <column name="dlc_id" type="integer" />
+      <column name="need_mount" type="boolean" />
+    </header>
+    <rows>
+      <row affects_savegame="True" dlc_id="1" need_mount="False" />
+      <row affects_savegame="False" dlc_id="2" need_mount="False" />
+      <row affects_savegame="False" dlc_id="3" need_mount="False" />
+      <row affects_savegame="True" dlc_id="4" need_mount="False" />
+      <row affects_savegame="False" dlc_id="5" need_mount="False" />
+      <row affects_savegame="False" dlc_id="6" need_mount="False" />
+      <row affects_savegame="False" dlc_id="7" need_mount="False" />
+      <row affects_savegame="True" dlc_id="8" need_mount="True" />
+      <row affects_savegame="True" dlc_id="9" need_mount="False" />
+      <row affects_savegame="True" dlc_id="10" need_mount="False" />
+    </rows>
+  </table>
+</database>

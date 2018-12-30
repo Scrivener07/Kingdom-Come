@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="keyring_type" version="1">
+    <header>
+      <column name="keyring_type_id" type="integer" />
+      <column name="keyring_type_name" type="character varying" />
+    </header>
+    <rows>
+      <row keyring_type_id="1" keyring_type_name="door" />
+      <row keyring_type_id="2" keyring_type_name="stash" />
+    </rows>
+  </table>
+</database>

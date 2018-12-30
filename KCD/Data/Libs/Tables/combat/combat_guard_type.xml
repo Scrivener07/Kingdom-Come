@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="combat_guard_type" version="1">
+    <header>
+      <column name="combat_guard_type_id" type="integer" />
+      <column name="combat_guard_type_name" type="character varying" />
+      <column name="end_mn_tag" type="character varying" />
+      <column name="mn_tag" type="character varying" />
+      <column name="move_restriction" type="boolean" />
+    </header>
+    <rows>
+      <row combat_guard_type_id="-1" combat_guard_type_name="none" end_mn_tag="" mn_tag="" move_restriction="False" />
+      <row combat_guard_type_id="0" combat_guard_type_name="main" end_mn_tag="" mn_tag="" move_restriction="False" />
+      <row combat_guard_type_id="1" combat_guard_type_name="preBlock" end_mn_tag="" mn_tag="" move_restriction="False" />
+      <row combat_guard_type_id="2" combat_guard_type_name="attackReady" end_mn_tag="" mn_tag="" move_restriction="False" />
+      <row combat_guard_type_id="4" combat_guard_type_name="clinch" end_mn_tag="endClinch" mn_tag="clinch" move_restriction="True" />
+      <row combat_guard_type_id="5" combat_guard_type_name="stealthStand" end_mn_tag="endStealthStand" mn_tag="stealthStand" move_restriction="True" />
+      <row combat_guard_type_id="6" combat_guard_type_name="stealthSitting" end_mn_tag="endStealthSitting" mn_tag="stealthSitting" move_restriction="True" />
+      <row combat_guard_type_id="7" combat_guard_type_name="stealthSittingGround" end_mn_tag="endStealthSittingGround" mn_tag="stealthSittingGround" move_restriction="True" />
+      <row combat_guard_type_id="8" combat_guard_type_name="stealthLyingBenchLeft" end_mn_tag="endStealthLyingBenchLeft" mn_tag="stealthLyingBenchLeft" move_restriction="True" />
+      <row combat_guard_type_id="9" combat_guard_type_name="stealthLyingBenchRight" end_mn_tag="endStealthLyingBenchRight" mn_tag="stealthLyingBenchRight" move_restriction="True" />
+      <row combat_guard_type_id="10" combat_guard_type_name="stealthLyingGroundLeft" end_mn_tag="endStealthLyingGroundLeft" mn_tag="stealthLyingGroundLeft" move_restriction="True" />
+      <row combat_guard_type_id="11" combat_guard_type_name="stealthLyingGroundRight" end_mn_tag="endStealthLyingGroundRight" mn_tag="stealthLyingGroundRight" move_restriction="True" />
+      <row combat_guard_type_id="12" combat_guard_type_name="stealthGrab" end_mn_tag="endStealthGrab" mn_tag="stealthGrab" move_restriction="True" />
+      <row combat_guard_type_id="13" combat_guard_type_name="carryCorpse" end_mn_tag="endCarryCorpse" mn_tag="carryCorpse" move_restriction="True" />
+      <row combat_guard_type_id="14" combat_guard_type_name="knockedOut" end_mn_tag="endKnockedOut" mn_tag="knockedOut" move_restriction="True" />
+      <row combat_guard_type_id="15" combat_guard_type_name="endCombatMode" end_mn_tag="endCombatMode" mn_tag="" move_restriction="True" />
+      <row combat_guard_type_id="16" combat_guard_type_name="freeBlock" end_mn_tag="endFreeBlock" mn_tag="freeBlock" move_restriction="False" />
+      <row combat_guard_type_id="17" combat_guard_type_name="death" end_mn_tag="endDeath" mn_tag="death" move_restriction="True" />
+      <row combat_guard_type_id="18" combat_guard_type_name="endCombatModeCanContinue" end_mn_tag="endCombatModeCanContinue" mn_tag="" move_restriction="True" />
+      <row combat_guard_type_id="19" combat_guard_type_name="freeBlockShieldUp" end_mn_tag="endShieldUp" mn_tag="shieldUp" move_restriction="False" />
+      <row combat_guard_type_id="20" combat_guard_type_name="stealthLyingBedLeft" end_mn_tag="endStealthLyingBedLeft" mn_tag="stealthLyingBedLeft" move_restriction="True" />
+      <row combat_guard_type_id="21" combat_guard_type_name="stealthLyingBedRight" end_mn_tag="endStealthLyingBedRight" mn_tag="stealthLyingBedRight" move_restriction="True" />
+    </rows>
+  </table>
+</database>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="new_homes_structure2modifier" version="1">
+    <header>
+      <column name="modifier_id" type="integer" />
+      <column name="structure_id" type="integer" />
+    </header>
+    <rows>
+      <row modifier_id="51" structure_id="4" />
+      <row modifier_id="90" structure_id="10" />
+      <row modifier_id="91" structure_id="11" />
+      <row modifier_id="50" structure_id="12" />
+      <row modifier_id="49" structure_id="13" />
+      <row modifier_id="52" structure_id="14" />
+    </rows>
+  </table>
+</database>

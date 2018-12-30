@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="morale_change" version="1">
+    <header>
+      <column name="change" type="real" />
+      <column name="morale_change_id" type="integer" />
+      <column name="name" type="character varying" />
+    </header>
+    <rows>
+      <row change="0" morale_change_id="0" name="none" />
+      <row change="0.5" morale_change_id="1" name="mirth" />
+      <row change="-0.5" morale_change_id="2" name="sorrow" />
+      <row change="0.2" morale_change_id="3" name="joy" />
+      <row change="-0.2" morale_change_id="4" name="misery" />
+      <row change="-0.3" morale_change_id="5" name="horse_fast_slowdown" />
+      <row change="-0.1" morale_change_id="6" name="horse_wall_sprint" />
+      <row change="-0.1" morale_change_id="7" name="horse_no_stamina_sprint" />
+      <row change="0.05" morale_change_id="8" name="combat_outnumbered_small_positive" />
+      <row change="0.1" morale_change_id="9" name="combat_outnumbered_medium_positive" />
+      <row change="0.2" morale_change_id="10" name="combat_outnumbered_large_positive" />
+      <row change="-0.05" morale_change_id="11" name="combat_outnumbered_small_negative" />
+      <row change="-0.1" morale_change_id="12" name="combat_outnumbered_medium_negative" />
+      <row change="-0.2" morale_change_id="13" name="combat_outnumbered_large_negative" />
+      <row change="-1" morale_change_id="14" name="minus_1" />
+      <row change="-0.5" morale_change_id="15" name="minus_one_half" />
+      <row change="-0.1" morale_change_id="16" name="combat_ally_dies" />
+      <row change="-0.05" morale_change_id="17" name="combat_ally_flees" />
+      <row change="0.02" morale_change_id="18" name="combat_hit_attacker" />
+      <row change="-0.02" morale_change_id="19" name="combat_hit_victim" />
+      <row change="-0.1" morale_change_id="20" name="combat_perfect_block_attacker" />
+      <row change="0.1" morale_change_id="21" name="combat_perfect_block_victim" />
+      <row change="-0.05" morale_change_id="22" name="combat_dodge_attacker" />
+      <row change="0.05" morale_change_id="23" name="combat_dodge_victim" />
+      <row change="-0.3" morale_change_id="24" name="combat_close_threat_ranged_weapon" />
+    </rows>
+  </table>
+</database>

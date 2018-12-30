@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="quest_function" version="1">
+    <header>
+      <column name="call_script" type="boolean" />
+      <column name="context_soul_id" type="uuid" />
+      <column name="function" type="text" />
+      <column name="objective_function_id" type="integer" />
+      <column name="objective_function_type_id" type="integer" />
+      <column name="objective_id" type="integer" />
+      <column name="quest_id" type="integer" />
+    </header>
+    <rows>
+      <row call_script="True" context_soul_id="" function="TestFunction()" objective_function_id="1" objective_function_type_id="2" objective_id="15" quest_id="653794" />
+      <row call_script="True" context_soul_id="" function="TA01Picked()" objective_function_id="4" objective_function_type_id="2" objective_id="7" quest_id="3239649" />
+    </rows>
+  </table>
+</database>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="ai_variable_sync" version="1">
+    <header>
+      <column name="ai_variable_sync_id" type="integer" />
+      <column name="ai_variable_sync_name" type="character varying" />
+    </header>
+    <rows>
+      <row ai_variable_sync_id="0" ai_variable_sync_name="no_sync" />
+      <row ai_variable_sync_id="1" ai_variable_sync_name="to_lua" />
+      <row ai_variable_sync_id="2" ai_variable_sync_name="from_lua" />
+      <row ai_variable_sync_id="3" ai_variable_sync_name="auto" />
+    </rows>
+  </table>
+</database>

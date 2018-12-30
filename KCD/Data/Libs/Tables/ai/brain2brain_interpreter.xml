@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="brain2brain_interpreter" version="1">
+    <header>
+      <column name="brain_id" type="uuid" />
+      <column name="brain_interpreter_id" type="uuid" />
+      <column name="priority" type="integer" />
+    </header>
+    <rows>
+      <row brain_id="00000000-0000-0000-0000-000000045002" brain_interpreter_id="00000000-0000-0000-0000-000000042501" priority="0" />
+    </rows>
+  </table>
+</database>

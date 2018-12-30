@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="combat_action_type_mapping" version="1">
+    <header>
+      <column name="dst_action_type_id" type="integer" />
+      <column name="src_action_type_id" type="integer" />
+    </header>
+    <rows>
+      <row dst_action_type_id="17" src_action_type_id="16" />
+      <row dst_action_type_id="19" src_action_type_id="18" />
+      <row dst_action_type_id="21" src_action_type_id="20" />
+      <row dst_action_type_id="30" src_action_type_id="28" />
+      <row dst_action_type_id="31" src_action_type_id="29" />
+      <row dst_action_type_id="36" src_action_type_id="35" />
+      <row dst_action_type_id="49" src_action_type_id="48" />
+      <row dst_action_type_id="52" src_action_type_id="51" />
+    </rows>
+  </table>
+</database>

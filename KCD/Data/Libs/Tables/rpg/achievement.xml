@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="achievement" version="1">
+    <header>
+      <column name="achievement_id" type="integer" />
+      <column name="achievement_name" type="character varying" />
+      <column name="trophy_id" type="integer" />
+      <column name="unlock_on_steam" type="boolean" />
+      <column name="xboxlive_id" type="character varying" />
+    </header>
+    <rows>
+      <row achievement_id="1" achievement_name="Alcoholic" trophy_id="1" unlock_on_steam="True" xboxlive_id="51" />
+      <row achievement_id="2" achievement_name="Insomniac" trophy_id="2" unlock_on_steam="True" xboxlive_id="52" />
+      <row achievement_id="3" achievement_name="Fatso" trophy_id="3" unlock_on_steam="True" xboxlive_id="53" />
+      <row achievement_id="4" achievement_name="Anorectic" trophy_id="4" unlock_on_steam="True" xboxlive_id="54" />
+      <row achievement_id="5" achievement_name="Bookworm" trophy_id="5" unlock_on_steam="True" xboxlive_id="55" />
+      <row achievement_id="6" achievement_name="EdwardKelly" trophy_id="6" unlock_on_steam="True" xboxlive_id="56" />
+      <row achievement_id="7" achievement_name="StealthKiller" trophy_id="7" unlock_on_steam="True" xboxlive_id="57" />
+      <row achievement_id="8" achievement_name="Hunter" trophy_id="8" unlock_on_steam="True" xboxlive_id="58" />
+      <row achievement_id="9" achievement_name="Bard" trophy_id="9" unlock_on_steam="True" xboxlive_id="59" />
+      <row achievement_id="10" achievement_name="KarelGott" trophy_id="10" unlock_on_steam="True" xboxlive_id="60" />
+      <row achievement_id="11" achievement_name="Completionist" trophy_id="11" unlock_on_steam="True" xboxlive_id="61" />
+      <row achievement_id="12" achievement_name="Merciful" trophy_id="12" unlock_on_steam="True" xboxlive_id="62" />
+      <row achievement_id="13" achievement_name="SerialKiller" trophy_id="13" unlock_on_steam="True" xboxlive_id="63" />
+      <row achievement_id="14" achievement_name="Traveller" trophy_id="14" unlock_on_steam="True" xboxlive_id="64" />
+      <row achievement_id="15" achievement_name="Knightrider" trophy_id="15" unlock_on_steam="True" xboxlive_id="65" />
+      <row achievement_id="16" achievement_name="Ranger" trophy_id="16" unlock_on_steam="True" xboxlive_id="66" />
+      <row achievement_id="17" achievement_name="Pilgrim" trophy_id="17" unlock_on_steam="True" xboxlive_id="67" />
+      <row achievement_id="18" achievement_name="Thief" trophy_id="18" unlock_on_steam="True" xboxlive_id="68" />
+      <row achievement_id="19" achievement_name="LevelCap" trophy_id="19" unlock_on_steam="True" xboxlive_id="69" />
+      <row achievement_id="20" achievement_name="Fighter" trophy_id="20" unlock_on_steam="True" xboxlive_id="70" />
+      <row achievement_id="21" achievement_name="Sniper" trophy_id="21" unlock_on_steam="True" xboxlive_id="71" />
+      <row achievement_id="22" achievement_name="Haggler" trophy_id="22" unlock_on_steam="True" xboxlive_id="72" />
+      <row achievement_id="23" achievement_name="Scrooge" trophy_id="23" unlock_on_steam="True" xboxlive_id="73" />
+      <row achievement_id="24" achievement_name="Convict" trophy_id="24" unlock_on_steam="True" xboxlive_id="74" />
+      <row achievement_id="25" achievement_name="DavidHorak" trophy_id="25" unlock_on_steam="True" xboxlive_id="75" />
+      <row achievement_id="26" achievement_name="Gambler" trophy_id="26" unlock_on_steam="True" xboxlive_id="76" />
+      <row achievement_id="27" achievement_name="BlacksmithsSon" trophy_id="27" unlock_on_steam="True" xboxlive_id="77" />
+      <row achievement_id="28" achievement_name="Cavalier" trophy_id="28" unlock_on_steam="True" xboxlive_id="78" />
+      <row achievement_id="29" achievement_name="Awakening" trophy_id="29" unlock_on_steam="True" xboxlive_id="79" />
+      <row achievement_id="30" achievement_name="Buddy" trophy_id="30" unlock_on_steam="True" xboxlive_id="80" />
+      <row achievement_id="31" achievement_name="Ginger" trophy_id="31" unlock_on_steam="True" xboxlive_id="81" />
+      <row achievement_id="32" achievement_name="Runt" trophy_id="32" unlock_on_steam="True" xboxlive_id="82" />
+      <row achievement_id="33" achievement_name="Monk" trophy_id="33" unlock_on_steam="True" xboxlive_id="83" />
+      <row achievement_id="34" achievement_name="Bastard" trophy_id="34" unlock_on_steam="True" xboxlive_id="84" />
+      <row achievement_id="35" achievement_name="Conqueror" trophy_id="35" unlock_on_steam="True" xboxlive_id="85" />
+      <row achievement_id="36" achievement_name="TalmbergPreparation" trophy_id="36" unlock_on_steam="True" xboxlive_id="86" />
+      <row achievement_id="37" achievement_name="TheEnd" trophy_id="37" unlock_on_steam="True" xboxlive_id="87" />
+      <row achievement_id="38" achievement_name="Firestarter" trophy_id="38" unlock_on_steam="True" xboxlive_id="88" />
+      <row achievement_id="39" achievement_name="Sinner" trophy_id="39" unlock_on_steam="True" xboxlive_id="89" />
+      <row achievement_id="40" achievement_name="PlagueDoctor" trophy_id="40" unlock_on_steam="True" xboxlive_id="90" />
+      <row achievement_id="41" achievement_name="McLovin" trophy_id="41" unlock_on_steam="True" xboxlive_id="91" />
+      <row achievement_id="42" achievement_name="Casanova" trophy_id="42" unlock_on_steam="True" xboxlive_id="92" />
+      <row achievement_id="43" achievement_name="Judas" trophy_id="43" unlock_on_steam="True" xboxlive_id="93" />
+      <row achievement_id="44" achievement_name="Freud" trophy_id="44" unlock_on_steam="True" xboxlive_id="94" />
+      <row achievement_id="45" achievement_name="MasterHuntsman" trophy_id="45" unlock_on_steam="True" xboxlive_id="95" />
+      <row achievement_id="46" achievement_name="RobberBaron" trophy_id="46" unlock_on_steam="True" xboxlive_id="96" />
+      <row achievement_id="47" achievement_name="EnoughRope" trophy_id="47" unlock_on_steam="True" xboxlive_id="97" />
+      <row achievement_id="48" achievement_name="BadTrip" trophy_id="48" unlock_on_steam="True" xboxlive_id="98" />
+      <row achievement_id="49" achievement_name="Virgin" trophy_id="49" unlock_on_steam="True" xboxlive_id="99" />
+      <row achievement_id="50" achievement_name="HardcoreHenry" trophy_id="50" unlock_on_steam="True" xboxlive_id="100" />
+      <row achievement_id="51" achievement_name="TisButAScratch" trophy_id="51" unlock_on_steam="True" xboxlive_id="101" />
+      <row achievement_id="52" achievement_name="KingdomDidNotCome" trophy_id="52" unlock_on_steam="True" xboxlive_id="102" />
+      <row achievement_id="53" achievement_name="Bailiff" trophy_id="53" unlock_on_steam="True" xboxlive_id="103" />
+      <row achievement_id="54" achievement_name="TrialAndError" trophy_id="54" unlock_on_steam="True" xboxlive_id="104" />
+      <row achievement_id="55" achievement_name="Perfectionist" trophy_id="55" unlock_on_steam="True" xboxlive_id="105" />
+      <row achievement_id="56" achievement_name="FriendsWithoutBenefits" trophy_id="56" unlock_on_steam="True" xboxlive_id="106" />
+      <row achievement_id="57" achievement_name="MasterOfArena" trophy_id="57" unlock_on_steam="True" xboxlive_id="107" />
+      <row achievement_id="58" achievement_name="TrueFriend" trophy_id="58" unlock_on_steam="True" xboxlive_id="108" />
+      <row achievement_id="59" achievement_name="Wingman" trophy_id="59" unlock_on_steam="True" xboxlive_id="109" />
+      <row achievement_id="60" achievement_name="ICanStop" trophy_id="60" unlock_on_steam="True" xboxlive_id="110" />
+      <row achievement_id="61" achievement_name="GhostOfCapon" trophy_id="61" unlock_on_steam="True" xboxlive_id="111" />
+      <row achievement_id="62" achievement_name="RevenantOfLedechko" trophy_id="62" unlock_on_steam="True" xboxlive_id="112" />
+      <row achievement_id="63" achievement_name="ChristianBurial" trophy_id="63" unlock_on_steam="True" xboxlive_id="113" />
+      <row achievement_id="64" achievement_name="NotSoChristianBurial" trophy_id="64" unlock_on_steam="True" xboxlive_id="114" />
+    </rows>
+  </table>
+</database>

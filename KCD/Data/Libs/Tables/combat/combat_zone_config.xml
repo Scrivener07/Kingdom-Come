@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="combat_zone_config" version="1">
+    <header>
+      <column name="combat_zone_config_id" type="integer" />
+      <column name="combat_zone_id" type="integer" />
+      <column name="guard_stance_id" type="integer" />
+      <column name="guard_weight" type="real" />
+      <column name="l_combat_weapon_group_id" type="integer" />
+      <column name="l_weapon_class_id" type="integer" />
+      <column name="r_combat_weapon_group_id" type="integer" />
+      <column name="r_weapon_class_id" type="integer" />
+    </header>
+    <rows>
+      <row combat_zone_config_id="-1" combat_zone_id="-1" guard_stance_id="0" guard_weight="0" l_combat_weapon_group_id="" l_weapon_class_id="-1" r_combat_weapon_group_id="" r_weapon_class_id="-1" />
+      <row combat_zone_config_id="0" combat_zone_id="0" guard_stance_id="0" guard_weight="0.5" l_combat_weapon_group_id="" l_weapon_class_id="4" r_combat_weapon_group_id="" r_weapon_class_id="4" />
+      <row combat_zone_config_id="1" combat_zone_id="1" guard_stance_id="0" guard_weight="0.9" l_combat_weapon_group_id="" l_weapon_class_id="4" r_combat_weapon_group_id="" r_weapon_class_id="4" />
+      <row combat_zone_config_id="2" combat_zone_id="2" guard_stance_id="0" guard_weight="0.9" l_combat_weapon_group_id="" l_weapon_class_id="4" r_combat_weapon_group_id="" r_weapon_class_id="4" />
+      <row combat_zone_config_id="3" combat_zone_id="3" guard_stance_id="0" guard_weight="0" l_combat_weapon_group_id="" l_weapon_class_id="4" r_combat_weapon_group_id="" r_weapon_class_id="4" />
+      <row combat_zone_config_id="4" combat_zone_id="4" guard_stance_id="0" guard_weight="0.2" l_combat_weapon_group_id="" l_weapon_class_id="4" r_combat_weapon_group_id="" r_weapon_class_id="4" />
+      <row combat_zone_config_id="5" combat_zone_id="5" guard_stance_id="0" guard_weight="0.6" l_combat_weapon_group_id="" l_weapon_class_id="4" r_combat_weapon_group_id="" r_weapon_class_id="4" />
+      <row combat_zone_config_id="6" combat_zone_id="0" guard_stance_id="0" guard_weight="0" l_combat_weapon_group_id="2" l_weapon_class_id="-1" r_combat_weapon_group_id="1" r_weapon_class_id="-1" />
+      <row combat_zone_config_id="7" combat_zone_id="1" guard_stance_id="0" guard_weight="0.75" l_combat_weapon_group_id="2" l_weapon_class_id="-1" r_combat_weapon_group_id="1" r_weapon_class_id="-1" />
+      <row combat_zone_config_id="8" combat_zone_id="2" guard_stance_id="0" guard_weight="1" l_combat_weapon_group_id="2" l_weapon_class_id="-1" r_combat_weapon_group_id="1" r_weapon_class_id="-1" />
+      <row combat_zone_config_id="9" combat_zone_id="3" guard_stance_id="0" guard_weight="0.7" l_combat_weapon_group_id="2" l_weapon_class_id="-1" r_combat_weapon_group_id="1" r_weapon_class_id="-1" />
+      <row combat_zone_config_id="10" combat_zone_id="4" guard_stance_id="0" guard_weight="0.7" l_combat_weapon_group_id="2" l_weapon_class_id="-1" r_combat_weapon_group_id="1" r_weapon_class_id="-1" />
+      <row combat_zone_config_id="11" combat_zone_id="5" guard_stance_id="0" guard_weight="0.2" l_combat_weapon_group_id="2" l_weapon_class_id="-1" r_combat_weapon_group_id="" r_weapon_class_id="1" />
+      <row combat_zone_config_id="12" combat_zone_id="0" guard_stance_id="0" guard_weight="0.5" l_combat_weapon_group_id="" l_weapon_class_id="7" r_combat_weapon_group_id="" r_weapon_class_id="7" />
+      <row combat_zone_config_id="13" combat_zone_id="1" guard_stance_id="0" guard_weight="0" l_combat_weapon_group_id="" l_weapon_class_id="7" r_combat_weapon_group_id="" r_weapon_class_id="7" />
+      <row combat_zone_config_id="14" combat_zone_id="2" guard_stance_id="0" guard_weight="1" l_combat_weapon_group_id="" l_weapon_class_id="7" r_combat_weapon_group_id="" r_weapon_class_id="7" />
+      <row combat_zone_config_id="15" combat_zone_id="3" guard_stance_id="0" guard_weight="0" l_combat_weapon_group_id="" l_weapon_class_id="7" r_combat_weapon_group_id="" r_weapon_class_id="7" />
+      <row combat_zone_config_id="16" combat_zone_id="4" guard_stance_id="0" guard_weight="1" l_combat_weapon_group_id="" l_weapon_class_id="7" r_combat_weapon_group_id="" r_weapon_class_id="7" />
+      <row combat_zone_config_id="17" combat_zone_id="5" guard_stance_id="0" guard_weight="0" l_combat_weapon_group_id="" l_weapon_class_id="7" r_combat_weapon_group_id="" r_weapon_class_id="7" />
+      <row combat_zone_config_id="18" combat_zone_id="0" guard_stance_id="0" guard_weight="1" l_combat_weapon_group_id="" l_weapon_class_id="-1" r_combat_weapon_group_id="" r_weapon_class_id="12" />
+      <row combat_zone_config_id="19" combat_zone_id="0" guard_stance_id="1" guard_weight="0.5" l_combat_weapon_group_id="" l_weapon_class_id="4" r_combat_weapon_group_id="" r_weapon_class_id="4" />
+      <row combat_zone_config_id="20" combat_zone_id="1" guard_stance_id="1" guard_weight="0.9" l_combat_weapon_group_id="" l_weapon_class_id="4" r_combat_weapon_group_id="" r_weapon_class_id="4" />
+      <row combat_zone_config_id="21" combat_zone_id="2" guard_stance_id="1" guard_weight="0.9" l_combat_weapon_group_id="" l_weapon_class_id="4" r_combat_weapon_group_id="" r_weapon_class_id="4" />
+      <row combat_zone_config_id="22" combat_zone_id="3" guard_stance_id="1" guard_weight="0" l_combat_weapon_group_id="" l_weapon_class_id="4" r_combat_weapon_group_id="" r_weapon_class_id="4" />
+      <row combat_zone_config_id="23" combat_zone_id="4" guard_stance_id="1" guard_weight="0.2" l_combat_weapon_group_id="" l_weapon_class_id="4" r_combat_weapon_group_id="" r_weapon_class_id="4" />
+      <row combat_zone_config_id="24" combat_zone_id="5" guard_stance_id="1" guard_weight="0.6" l_combat_weapon_group_id="" l_weapon_class_id="4" r_combat_weapon_group_id="" r_weapon_class_id="4" />
+      <row combat_zone_config_id="25" combat_zone_id="0" guard_stance_id="1" guard_weight="0.3" l_combat_weapon_group_id="2" l_weapon_class_id="-1" r_combat_weapon_group_id="1" r_weapon_class_id="-1" />
+      <row combat_zone_config_id="26" combat_zone_id="1" guard_stance_id="1" guard_weight="0.8" l_combat_weapon_group_id="2" l_weapon_class_id="-1" r_combat_weapon_group_id="1" r_weapon_class_id="-1" />
+      <row combat_zone_config_id="27" combat_zone_id="2" guard_stance_id="1" guard_weight="0.7" l_combat_weapon_group_id="2" l_weapon_class_id="-1" r_combat_weapon_group_id="1" r_weapon_class_id="-1" />
+      <row combat_zone_config_id="28" combat_zone_id="3" guard_stance_id="1" guard_weight="0.7" l_combat_weapon_group_id="2" l_weapon_class_id="-1" r_combat_weapon_group_id="1" r_weapon_class_id="-1" />
+      <row combat_zone_config_id="29" combat_zone_id="4" guard_stance_id="1" guard_weight="0.8" l_combat_weapon_group_id="2" l_weapon_class_id="-1" r_combat_weapon_group_id="1" r_weapon_class_id="-1" />
+      <row combat_zone_config_id="30" combat_zone_id="5" guard_stance_id="1" guard_weight="0.3" l_combat_weapon_group_id="2" l_weapon_class_id="-1" r_combat_weapon_group_id="" r_weapon_class_id="1" />
+      <row combat_zone_config_id="31" combat_zone_id="0" guard_stance_id="1" guard_weight="0.5" l_combat_weapon_group_id="" l_weapon_class_id="7" r_combat_weapon_group_id="" r_weapon_class_id="7" />
+      <row combat_zone_config_id="32" combat_zone_id="1" guard_stance_id="1" guard_weight="1" l_combat_weapon_group_id="" l_weapon_class_id="7" r_combat_weapon_group_id="" r_weapon_class_id="7" />
+      <row combat_zone_config_id="33" combat_zone_id="2" guard_stance_id="1" guard_weight="0" l_combat_weapon_group_id="" l_weapon_class_id="7" r_combat_weapon_group_id="" r_weapon_class_id="7" />
+      <row combat_zone_config_id="34" combat_zone_id="3" guard_stance_id="1" guard_weight="1" l_combat_weapon_group_id="" l_weapon_class_id="7" r_combat_weapon_group_id="" r_weapon_class_id="7" />
+      <row combat_zone_config_id="35" combat_zone_id="4" guard_stance_id="1" guard_weight="0" l_combat_weapon_group_id="" l_weapon_class_id="7" r_combat_weapon_group_id="" r_weapon_class_id="7" />
+      <row combat_zone_config_id="36" combat_zone_id="5" guard_stance_id="1" guard_weight="0" l_combat_weapon_group_id="" l_weapon_class_id="7" r_combat_weapon_group_id="" r_weapon_class_id="7" />
+      <row combat_zone_config_id="38" combat_zone_id="0" guard_stance_id="0" guard_weight="0" l_combat_weapon_group_id="" l_weapon_class_id="8" r_combat_weapon_group_id="1" r_weapon_class_id="-1" />
+      <row combat_zone_config_id="39" combat_zone_id="1" guard_stance_id="0" guard_weight="0" l_combat_weapon_group_id="" l_weapon_class_id="8" r_combat_weapon_group_id="1" r_weapon_class_id="-1" />
+      <row combat_zone_config_id="40" combat_zone_id="2" guard_stance_id="0" guard_weight="0.95" l_combat_weapon_group_id="" l_weapon_class_id="8" r_combat_weapon_group_id="1" r_weapon_class_id="-1" />
+      <row combat_zone_config_id="41" combat_zone_id="3" guard_stance_id="0" guard_weight="0" l_combat_weapon_group_id="" l_weapon_class_id="8" r_combat_weapon_group_id="1" r_weapon_class_id="-1" />
+      <row combat_zone_config_id="42" combat_zone_id="4" guard_stance_id="0" guard_weight="0.75" l_combat_weapon_group_id="" l_weapon_class_id="8" r_combat_weapon_group_id="1" r_weapon_class_id="-1" />
+      <row combat_zone_config_id="43" combat_zone_id="5" guard_stance_id="0" guard_weight="0.6" l_combat_weapon_group_id="" l_weapon_class_id="8" r_combat_weapon_group_id="1" r_weapon_class_id="-1" />
+      <row combat_zone_config_id="44" combat_zone_id="0" guard_stance_id="1" guard_weight="0.4" l_combat_weapon_group_id="" l_weapon_class_id="8" r_combat_weapon_group_id="1" r_weapon_class_id="-1" />
+      <row combat_zone_config_id="45" combat_zone_id="1" guard_stance_id="1" guard_weight="0.7" l_combat_weapon_group_id="" l_weapon_class_id="8" r_combat_weapon_group_id="1" r_weapon_class_id="-1" />
+      <row combat_zone_config_id="46" combat_zone_id="2" guard_stance_id="1" guard_weight="0.9" l_combat_weapon_group_id="" l_weapon_class_id="8" r_combat_weapon_group_id="1" r_weapon_class_id="-1" />
+      <row combat_zone_config_id="47" combat_zone_id="3" guard_stance_id="1" guard_weight="0.8" l_combat_weapon_group_id="" l_weapon_class_id="8" r_combat_weapon_group_id="1" r_weapon_class_id="-1" />
+      <row combat_zone_config_id="48" combat_zone_id="4" guard_stance_id="1" guard_weight="0.7" l_combat_weapon_group_id="" l_weapon_class_id="8" r_combat_weapon_group_id="1" r_weapon_class_id="-1" />
+      <row combat_zone_config_id="49" combat_zone_id="5" guard_stance_id="1" guard_weight="0.2" l_combat_weapon_group_id="" l_weapon_class_id="8" r_combat_weapon_group_id="1" r_weapon_class_id="1" />
+      <row combat_zone_config_id="50" combat_zone_id="5" guard_stance_id="0" guard_weight="0" l_combat_weapon_group_id="2" l_weapon_class_id="-1" r_combat_weapon_group_id="" r_weapon_class_id="5" />
+      <row combat_zone_config_id="51" combat_zone_id="5" guard_stance_id="1" guard_weight="0" l_combat_weapon_group_id="2" l_weapon_class_id="-1" r_combat_weapon_group_id="" r_weapon_class_id="5" />
+      <row combat_zone_config_id="52" combat_zone_id="5" guard_stance_id="0" guard_weight="0" l_combat_weapon_group_id="2" l_weapon_class_id="-1" r_combat_weapon_group_id="" r_weapon_class_id="3" />
+      <row combat_zone_config_id="53" combat_zone_id="5" guard_stance_id="1" guard_weight="0" l_combat_weapon_group_id="2" l_weapon_class_id="-1" r_combat_weapon_group_id="" r_weapon_class_id="3" />
+      <row combat_zone_config_id="54" combat_zone_id="5" guard_stance_id="1" guard_weight="0" l_combat_weapon_group_id="" l_weapon_class_id="8" r_combat_weapon_group_id="1" r_weapon_class_id="5" />
+      <row combat_zone_config_id="55" combat_zone_id="5" guard_stance_id="1" guard_weight="0" l_combat_weapon_group_id="" l_weapon_class_id="8" r_combat_weapon_group_id="1" r_weapon_class_id="3" />
+    </rows>
+  </table>
+</database>

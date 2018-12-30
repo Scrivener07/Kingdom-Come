@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="inventory_preset" version="1">
+    <header>
+      <column name="inventory_preset_id" type="uuid" />
+      <column name="inventory_preset_name" type="character varying" />
+      <column name="max_items" type="integer" />
+      <column name="read_only" type="boolean" />
+      <column name="restock_interval" type="real" />
+    </header>
+    <rows>
+      <row inventory_preset_id="01f46e02-3d0d-4fe2-b133-caac0064d689" inventory_preset_name="monk books" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="034e7b3a-d2ff-4555-8b3f-e5c37f6690a6" inventory_preset_name="Wolflin Bandits treasure" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="06dbff37-fd8e-4464-a440-411adf07f3a5" inventory_preset_name="blacksmith tools" max_items="" read_only="False" restock_interval="1" />
+      <row inventory_preset_id="0ab3a4cf-0a6b-415a-af16-8232f09ceaad" inventory_preset_name="POI nest" max_items="1" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="0b3c86c3-2974-4226-aa63-5b5e0c223feb" inventory_preset_name="all wine" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="0b4a0ce5-c7a8-4f8e-b159-f94ed6253815" inventory_preset_name="dead_body_cuman_skalitz" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="0d0e3f75-9f56-409c-8070-5c558252453c" inventory_preset_name="skalice miners clothes" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="0ec325fe-db89-44d6-a3c9-16a92ea73b81" inventory_preset_name="butcher food pockets" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="0f343263-2eba-40b0-9d13-98b885de0ea9" inventory_preset_name="maces expensive" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="113259a4-2f47-4e89-bd36-722ab3c1a036" inventory_preset_name="woodcutter tools" max_items="" read_only="False" restock_interval="1" />
+      <row inventory_preset_id="12ef8dca-9499-4a2e-9709-1ac2e11b025a" inventory_preset_name="sheep" max_items="5" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="13566e24-01b8-4b52-a94f-84d03948b915" inventory_preset_name="village food" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="13c3dfb1-4a72-47fd-8264-7fa595996d55" inventory_preset_name="e3_ska_armors" max_items="3" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="14aa99a5-cfd8-4be9-92bd-5af98f7df36b" inventory_preset_name="books lore" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="14d94281-9a03-4b33-9216-e9a9b2af0cdd" inventory_preset_name="pig_wild_default" max_items="5" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="16b56573-4e7b-4c37-8b1d-2fccb6408418" inventory_preset_name="other valuables than money" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="18928665-81db-41e8-b7cf-0e8465f30ad5" inventory_preset_name="swords short expensive" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="18bf69f8-7cad-4bc2-a939-c4f186a98f59" inventory_preset_name="arrows medium" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="19919e65-be9b-4619-8ded-d7b9fa289e9a" inventory_preset_name="deer" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="1b23684b-a16a-4f50-b45a-b010d5daed13" inventory_preset_name="villager_poor" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="1c4e76a0-3b7f-42e2-90be-1a94109a08b8" inventory_preset_name="fisherman tools" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="1dd1150f-7e51-4400-b39b-7e0dd670dd8c" inventory_preset_name="village drinks" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="203e2426-c6f9-4328-a714-c5768981ea51" inventory_preset_name="all intestants" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="2662448a-ec04-4343-ac27-561f594b50b1" inventory_preset_name="monk clothes" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="28d28adf-c08c-412e-8814-ef8545ec9c84" inventory_preset_name="night_lights_random" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="29aa2a52-4c11-48ca-8ac0-851e7b86dae9" inventory_preset_name="mining materials" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="29c0df05-57e3-4a4e-ae13-179d7456bb1a" inventory_preset_name="poacher clothes" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="3457a803-1694-4184-ae97-e96e862dcd1b" inventory_preset_name="poacher pocket food" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="35bf7d73-398a-4f72-b599-c24608948d22" inventory_preset_name="sazava villager clothes" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="3776dc4d-c091-4cdb-aadf-8764cb78de68" inventory_preset_name="butcher tools pocket" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="38721b98-9078-48ed-995a-d092c720ff55" inventory_preset_name="all alcohol" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="39c97287-0bfc-4b4b-a634-555e734d6982" inventory_preset_name="cumansEar" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="3a0513a7-d7e7-4f03-be44-52384a99a30b" inventory_preset_name="shields talmberk" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="3a9e2f63-26fc-4edf-b749-178bd99faf20" inventory_preset_name="all herbs" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="3b0a50a1-3c9a-4b9a-8988-5d418415aa51" inventory_preset_name="Wolflin Bandits clothes" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="3c17653c-8e2e-4167-8585-75f0f2044741" inventory_preset_name="all trinkets" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="3c5d1915-2463-4721-b218-4f3cbd73d54d" inventory_preset_name="rataje townsman clothes" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="3cb86288-9d28-4199-8cc2-d5f34ca014e0" inventory_preset_name="clothes refugees from skalice to rataje" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="4034033c-ce58-4d5b-b94f-006f72b9ab22" inventory_preset_name="pig_domestic_default" max_items="5" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="426dffd8-4876-4914-88f3-cce71c1a6cbc" inventory_preset_name="rataje townsfolk clothes" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="463d913e-623b-4aa2-bcd7-89921c5d15ea" inventory_preset_name="hare" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="49305e78-6de8-4911-8e20-53a235bdc3ff" inventory_preset_name="blacksmith materials" max_items="" read_only="False" restock_interval="2" />
+      <row inventory_preset_id="49eaaebb-4595-4000-939f-c2c442e996a2" inventory_preset_name="maid aid pockets" max_items="4" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="4af0c390-c227-4f8c-b5f2-215f06b61ddc" inventory_preset_name="borek clothes" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="4b364fac-549b-44b8-8858-44b977ab5207" inventory_preset_name="samopse villager clothes" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="4d1d69f1-b8f3-4fc0-b1b3-6573f7b0dc41" inventory_preset_name="townsfolk valuables" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="4f0b9e9b-b8f3-4e01-88e9-dd2d197b700f" inventory_preset_name="vranik soldier clothes" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="500a570e-e8f2-4dea-a538-dce8f4e88260" inventory_preset_name="soldier items pockets" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="5210e66f-f7d1-4aad-9dba-74ac66992302" inventory_preset_name="bows good" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="5282401e-ad52-4049-b946-60da5b7686ff" inventory_preset_name="poacher pocket tools" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="52a556a0-20c8-4328-8218-6e9aa0f8f6da" inventory_preset_name="rataje villagers clothes" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="52dd20a3-d5a5-4bc9-a500-daab6da1f029" inventory_preset_name="Wolflin Bandit weapons" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="542da27b-32ec-46ac-a635-610202611ed3" inventory_preset_name="horse" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="5465643e-4de1-4f70-aea2-bf0945ba49bd" inventory_preset_name="general bandit loot" max_items="6" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="5646994e-41c8-4509-bd57-5edd6a6635c9" inventory_preset_name="swords short cheap" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="58a14351-08fa-4790-a727-c21225a6b060" inventory_preset_name="swords short medium" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="59a290ad-e49e-4247-92f7-3533ed9810d2" inventory_preset_name="merchant food pockets" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="5c923de7-e0c3-4362-96e8-58929f925c6d" inventory_preset_name="rataje shields" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="617b5341-5a29-44d3-b41f-76f108677ac7" inventory_preset_name="merchant items pockets" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="6255ce90-a875-4d3b-a299-768b5fa67685" inventory_preset_name="bows medium" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="6443b586-996f-4e59-b8a4-0cf80e9a6029" inventory_preset_name="e3_ska_small_weapons" max_items="1" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="64fd40eb-a6ba-4cfd-98aa-8e91cfcca9c6" inventory_preset_name="merhojed villagers clothes" max_items="" read_only="False" restock_interval="1" />
+      <row inventory_preset_id="68bfa6d6-6df0-49e2-abb7-2118eedcab1e" inventory_preset_name="bows cheap" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="6c9bad2d-a176-4c2a-b359-4d6acec7b269" inventory_preset_name="maces medium" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="6ce2bae3-8cf0-469a-91e5-bb910d3a1420" inventory_preset_name="soldier valuables" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="6eabfafa-03a7-40b2-b075-9b74f2da37a0" inventory_preset_name="hunter food" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="6ebe71d8-55fb-4771-9c81-56abd3a149c8" inventory_preset_name="all negative effect potions" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="702ca817-aabb-4a4e-a4b7-e8d381f40767" inventory_preset_name="ledecko_villager_clothes" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="76930cd0-327f-4174-b4c1-c530d4a9c662" inventory_preset_name="pig_domestic" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="7857e7fd-0e34-4b66-8ea0-cec343e71069" inventory_preset_name="small mining equipment" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="7c6d0066-54f9-44b4-8b0a-25408ff5d2ca" inventory_preset_name="e3_ska_villager_weapons" max_items="2" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="7f1f1e24-5da2-4e01-a29a-f12333203f49" inventory_preset_name="camp in the woods chest" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="7f34b0a1-9f10-4b72-8afd-204012915683" inventory_preset_name="skalice miner pockets" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="8121527d-9b76-47c7-a730-8cbc7bdb73bf" inventory_preset_name="lowlife pockets" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="82067b92-6daa-4262-ad03-5506c7e3b56e" inventory_preset_name="bandit valuables" max_items="2" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="82d326b2-7707-487f-a3a0-a6d0b3d2ff1a" inventory_preset_name="e3_ska_army_weapons" max_items="3" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="834dd778-d29f-48c6-8651-78a9e51f267a" inventory_preset_name="village talmberk clothes" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="835e339a-4733-49f0-97f9-4088754f456b" inventory_preset_name="castle hall servant tools" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="84c1975d-97f5-40e3-b630-ec95b86aa074" inventory_preset_name="pribyslav_cuman_chest" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="860c804d-ee60-4af7-a3fd-f6c3d75eb925" inventory_preset_name="doe" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="861cad59-dc71-4bcc-b822-9d8dc21f2dd7" inventory_preset_name="sazava townsfolk clothes" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="86edf000-25f0-4d4d-b910-87323ae234c2" inventory_preset_name="swords long expensive" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="8814b49a-b5fa-4bff-b920-5757d51f53eb" inventory_preset_name="construction site tools" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="8924163a-a06f-404b-97d1-d612008ce20c" inventory_preset_name="swords long medium" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="8acfc816-6153-4254-82cf-690cf77fe3fc" inventory_preset_name="roe" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="8b508cff-d0f3-4891-9e19-67d5432954a8" inventory_preset_name="general guard pocket loot" max_items="6" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="8c672258-82f8-4ea1-9662-33db630c9936" inventory_preset_name="hunter clothes" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="8cfacc64-0ea0-458f-8f9d-b8db9a5f1b38" inventory_preset_name="hangman stash" max_items="2" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="9061530f-7564-4e9a-a645-dce8cc2f1d3f" inventory_preset_name="books church" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="931bd1e2-a292-4acb-951f-989af0cfdc9d" inventory_preset_name="dead_body_local_villager_skalitz" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="937b6471-5500-445d-9594-eafb0fbb07e2" inventory_preset_name="castle servant kitchen tools" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="940b66a1-fe62-4fd4-91db-6db4e0082654" inventory_preset_name="soldier talmberk clothes" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="95f9170d-afa2-4f3e-8d3b-b1be9949d151" inventory_preset_name="test preset" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="981ceb75-569d-4b2c-95f5-375cf96bce6b" inventory_preset_name="poacher tools" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="99008f41-0858-4dda-9bba-ee3181f9f417" inventory_preset_name="banditsEar" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="9c1f067f-3486-4b83-b18f-324daf4768f0" inventory_preset_name="fisherman pockets" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="9c206802-c121-4d80-972d-116330784f55" inventory_preset_name="tanner tools" max_items="" read_only="False" restock_interval="1" />
+      <row inventory_preset_id="9f0b9170-4bb3-4ce6-966d-0832906d24a1" inventory_preset_name="test preset3" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="9f797ea4-53ae-4180-8a7e-d7b56ae683c8" inventory_preset_name="pub food supply" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="a3561f22-7eaf-4313-9275-16648d912d92" inventory_preset_name="forest_thief" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="a3cc3936-2bac-448e-b6b0-39e88b9fcc8a" inventory_preset_name="hunter tools" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="a4350891-b998-4be6-938d-9d810a9f2ac7" inventory_preset_name="sazava monk clothes" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="a7b5d7cb-923b-432d-9b51-c24b8aaaa93f" inventory_preset_name="cow" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="a9fd789a-8759-4ea1-9211-3343ead8ba4b" inventory_preset_name="sazava monk workers chest" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="ab8a5f53-6081-4c3e-bbbd-d0ffd716965b" inventory_preset_name="noble clothes" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="ad684e4f-ac85-4c12-90a2-9f8635358120" inventory_preset_name="soldier" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="add5c51c-53cf-49c7-a16c-e668c9f33700" inventory_preset_name="vranik soldier weapons" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="ae29fee7-22e2-4345-8842-2eac0f2472fd" inventory_preset_name="all positive effect useful potions" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="ae5263c9-12ec-4178-b21d-ceb9cc15f1fc" inventory_preset_name="villager tools pockets" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="afd027c7-c260-4305-a6a6-e5caeefa5920" inventory_preset_name="chicken_coop_preset" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="b22cb0f0-42f8-4ead-a7ce-fee608d1f56a" inventory_preset_name="talmberg hunter clothes" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="b330b1f0-2df6-4fc0-8014-86ab02d53c73" inventory_preset_name="all special dice" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="b3387ca4-fe03-4a29-bc1b-bf3d74e0601c" inventory_preset_name="quarry tools" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="b404130a-01b6-49cb-9e2f-8374340da615" inventory_preset_name="village resources" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="b51249df-b4b3-40ae-a07e-df04283fe5cc" inventory_preset_name="chalices" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="b82d41d9-8ded-44f6-a5ee-f4f007ee6cf8" inventory_preset_name="alchemy ingredients" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="bad45b3a-8b5f-44d1-883e-badef16976a7" inventory_preset_name="arrows cheap" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="bcd1656a-c464-424c-bbf5-fa554f5d0321" inventory_preset_name="mining equipment" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="bd0dc933-000b-4537-b9a5-2a7925c45d2a" inventory_preset_name="POI cooling spot" max_items="3" read_only="False" restock_interval="72" />
+      <row inventory_preset_id="bd28aef6-71d3-4c25-a54b-0cc59729b0f5" inventory_preset_name="test preset2" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="bdf406ab-599f-4430-ac68-692acb71815e" inventory_preset_name="villager food pockets" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="bef5b5ad-c1c4-4ca0-ab5d-e9981cf8032b" inventory_preset_name="soldier food pockets" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="c2abc31c-7753-487a-8f23-0f107dbca78f" inventory_preset_name="monk alchemy materials" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="c333a6e7-e299-4164-90a8-80151102a9f2" inventory_preset_name="pribyslav bandit chest" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="c6858af1-3a74-41c9-8efa-47587db21532" inventory_preset_name="noble valuables" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="cdc645ed-b847-4fc9-a31d-ca75beef52c9" inventory_preset_name="village skalice clothes" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="cdef2aa3-2456-4f54-8260-ad8a860a29d7" inventory_preset_name="q_SikBas_jerry_wife" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="d68b4a30-d68a-46a3-a7ec-45dd8243892d" inventory_preset_name="poacher swords" max_items="1" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="d70f0dae-3fd8-41b3-8bb5-a53e905e6605" inventory_preset_name="kat_KutnaHora_chest" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="dbd52c3f-7e78-4ec7-a4ff-cc5a70fdb51e" inventory_preset_name="villager_medium" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="de289a4b-326c-4c1e-818d-80eb62b32c34" inventory_preset_name="clothes rataje soldiers" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="e021fff7-aee8-43e0-af99-e69f8691969d" inventory_preset_name="talmberk chamber maid clothes" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="e059966f-5def-4312-b538-d458f0d53b8e" inventory_preset_name="maces cheap" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="e1cbb301-cad5-49b4-997d-ebff0d37d18c" inventory_preset_name="merchant valuables pockets" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="e3825559-0e8b-4ee0-bcf9-b1b54dddc83f" inventory_preset_name="village weapons" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="e436833a-bdf8-4ed4-9caf-a04f51cd2f94" inventory_preset_name="neuhof villager clothes" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="e5280a88-4ae5-40cd-9ea1-833cd4ef09d3" inventory_preset_name="village valuables" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="e6593e4f-a5ea-44a5-b0de-309627b2886e" inventory_preset_name="talmberk quarry mason clothes" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="e682b4b3-46b3-41c7-8d3d-02e26c32cd7e" inventory_preset_name="pig" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="e8e332f6-9f68-4c35-876b-0b62db776cf0" inventory_preset_name="badit valuables" max_items="2" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="e93d90d1-333b-43c9-9003-ebdfba54dd87" inventory_preset_name="church items" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="ea4c6211-63c9-44e6-952b-9736215c1654" inventory_preset_name="dog" max_items="5" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="ee720897-ca4b-4f26-84ec-e72746922b93" inventory_preset_name="all cut cloths" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="ee7c44e6-d80b-4dfb-8128-32d339244473" inventory_preset_name="village tools" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="f2257b20-ceda-4e97-89c8-ac716f8653d1" inventory_preset_name="swords long cheap" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="f2cad7e5-db12-489c-b973-bc39d4f132bb" inventory_preset_name="monk workers chest" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="f3813ca4-3b04-45d9-bc23-205fc5143ccf" inventory_preset_name="baker pastry pockets" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="f69d4c35-4534-4370-8457-e7b0c68600d2" inventory_preset_name="wine" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="f972b397-6198-4e91-b6b0-657dca9bac0f" inventory_preset_name="arrows expensive" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="f9a20a88-a3e2-42e2-8502-8d4c2fb08018" inventory_preset_name="uzice villager clothes" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="fa6301f2-b3b5-491a-8122-6fc9c5ffd62a" inventory_preset_name="sazava monastery guards clothes" max_items="" read_only="False" restock_interval="0" />
+      <row inventory_preset_id="ff0c31b8-fbad-497f-8743-d3426291af93" inventory_preset_name="grave bag stash" max_items="" read_only="False" restock_interval="0" />
+    </rows>
+  </table>
+</database>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="perk_recipe" version="1">
+    <header>
+      <column name="perk_id" type="uuid" />
+      <column name="recipe_id" type="integer" />
+    </header>
+    <rows>
+      <row perk_id="519db599-76d4-4703-8c31-486fae00e473" recipe_id="4" />
+    </rows>
+  </table>
+</database>

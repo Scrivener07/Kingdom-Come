@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="perk_rpg_param_override" version="1">
+    <header>
+      <column name="perk_id" type="uuid" />
+      <column name="rpg_param_key" type="character varying" />
+      <column name="rpg_param_value" type="real" />
+    </header>
+    <rows>
+      <row perk_id="01c3b32a-5751-4c98-b6ab-258d02370382" rpg_param_key="ArmorStatusToDefenseCoef" rpg_param_value="0.47" />
+      <row perk_id="01c3b32a-5751-4c98-b6ab-258d02370382" rpg_param_key="ArmorStatusToCharismaCoef" rpg_param_value="0.6" />
+      <row perk_id="01c3b32a-5751-4c98-b6ab-258d02370382" rpg_param_key="BarterPriceSellRepBuying" rpg_param_value="1.68" />
+      <row perk_id="01c3b32a-5751-4c98-b6ab-258d02370382" rpg_param_key="BarterPriceSellRepCoef" rpg_param_value="1.65" />
+      <row perk_id="01c3b32a-5751-4c98-b6ab-258d02370382" rpg_param_key="BarterPriceSellRepMultip" rpg_param_value="-0.35" />
+      <row perk_id="01c3b32a-5751-4c98-b6ab-258d02370382" rpg_param_key="CombatAutoAttackDelayIncreasePerAttacker" rpg_param_value="0.55" />
+      <row perk_id="01c3b32a-5751-4c98-b6ab-258d02370382" rpg_param_key="CombatAutoMaxAttackDelay" rpg_param_value="4.5" />
+      <row perk_id="01c3b32a-5751-4c98-b6ab-258d02370382" rpg_param_key="FoodHealSpeed" rpg_param_value="1.5" />
+      <row perk_id="01c3b32a-5751-4c98-b6ab-258d02370382" rpg_param_key="FullClothDirtyingOnFullSpeed" rpg_param_value="5000" />
+      <row perk_id="01c3b32a-5751-4c98-b6ab-258d02370382" rpg_param_key="HorseRidingXPPerDistance" rpg_param_value="9" />
+      <row perk_id="01c3b32a-5751-4c98-b6ab-258d02370382" rpg_param_key="InjuryRegenInterval" rpg_param_value="15" />
+      <row perk_id="01c3b32a-5751-4c98-b6ab-258d02370382" rpg_param_key="ItemHealthPriceStatusWeight" rpg_param_value="0.85" />
+      <row perk_id="01c3b32a-5751-4c98-b6ab-258d02370382" rpg_param_key="MaxDamage" rpg_param_value="100" />
+      <row perk_id="01c3b32a-5751-4c98-b6ab-258d02370382" rpg_param_key="MaxPerfectBlockSlotModifier" rpg_param_value="0.8" />
+      <row perk_id="01c3b32a-5751-4c98-b6ab-258d02370382" rpg_param_key="MaxSpecialPerfectBlockSlotModifier" rpg_param_value="0.55" />
+      <row perk_id="01c3b32a-5751-4c98-b6ab-258d02370382" rpg_param_key="QuestMoneyRewardScaleConstant" rpg_param_value="1.137" />
+      <row perk_id="01c3b32a-5751-4c98-b6ab-258d02370382" rpg_param_key="RangedWpnSelfHarmCoef" rpg_param_value="20.5" />
+      <row perk_id="01c3b32a-5751-4c98-b6ab-258d02370382" rpg_param_key="RepairKitCapacity" rpg_param_value="450" />
+      <row perk_id="01c3b32a-5751-4c98-b6ab-258d02370382" rpg_param_key="RepairKitItemHealthBestLimit" rpg_param_value="0.5" />
+      <row perk_id="01c3b32a-5751-4c98-b6ab-258d02370382" rpg_param_key="RepairKitItemHealthDefaultLimit" rpg_param_value="0.7" />
+      <row perk_id="01c3b32a-5751-4c98-b6ab-258d02370382" rpg_param_key="RepairPriceModif" rpg_param_value="0.9" />
+      <row perk_id="01c3b32a-5751-4c98-b6ab-258d02370382" rpg_param_key="SkillXPPerfectBlock" rpg_param_value="6" />
+      <row perk_id="01c3b32a-5751-4c98-b6ab-258d02370382" rpg_param_key="SkillXPRiposte" rpg_param_value="6" />
+      <row perk_id="01c3b32a-5751-4c98-b6ab-258d02370382" rpg_param_key="SkillXPUseRepairKit" rpg_param_value="3.5" />
+      <row perk_id="01c3b32a-5751-4c98-b6ab-258d02370382" rpg_param_key="WeaponStatusToAttackCoef" rpg_param_value="0.5" />
+    </rows>
+  </table>
+</database>

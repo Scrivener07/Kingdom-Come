@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="combat_ui_rules" version="1">
+    <header>
+      <column name="combat_end_guard_type_id" type="integer" />
+      <column name="combat_ui_rule" type="integer" />
+      <column name="combat_ui_rules_id" type="integer" />
+    </header>
+    <rows>
+      <row combat_end_guard_type_id="15" combat_ui_rule="1" combat_ui_rules_id="1" />
+      <row combat_end_guard_type_id="12" combat_ui_rule="1" combat_ui_rules_id="2" />
+      <row combat_end_guard_type_id="13" combat_ui_rule="1" combat_ui_rules_id="3" />
+      <row combat_end_guard_type_id="14" combat_ui_rule="1" combat_ui_rules_id="4" />
+    </rows>
+  </table>
+</database>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="situation_role_tree" version="1">
+    <header>
+      <column name="situation_role_id" type="uuid" />
+      <column name="situation_variant_id" type="uuid" />
+      <column name="tree_file" type="character varying" />
+      <column name="tree_name" type="character varying" />
+    </header>
+    <rows>
+      <row situation_role_id="40494ca4-ca2f-dba7-324b-c4d8116aacba" situation_variant_id="44e15a50-a354-c9ea-33ab-901dcd31858f" tree_file="final/Situations/globalSituations.xml" tree_name="talking" />
+      <row situation_role_id="40728eeb-91bf-273d-c3db-b18dcdee67bc" situation_variant_id="45cec83a-8ba9-e1db-8dcb-5e4984516da1" tree_file="final/Situations/q_plagueInMerhojed_sit.xml" tree_name="dialogAboutPlague" />
+      <row situation_role_id="40c55421-5cba-a154-b25d-7d57a439ac84" situation_variant_id="40be5da4-b4fd-c034-f312-d6783fded2a1" tree_file="final\Situations\triangleTestSituation.xml" tree_name="triangleTest" />
+      <row situation_role_id="419d6918-b0eb-9a97-a7ee-c87159cdfa92" situation_variant_id="490f4ca7-9279-e85b-29a9-a6dabe6197ad" tree_file="final/Situations/globalSituations.xml" tree_name="giver" />
+      <row situation_role_id="41a95a3e-0dac-fc24-3bcf-6bb3b7360999" situation_variant_id="4ef987dc-7126-ea5b-5401-58a6d8be57b2" tree_file="final/Situations/eventSituations.xml" tree_name="fortuneTellerClientPositiv" />
+      <row situation_role_id="41f47699-c8d8-5bb3-519c-70052c46c682" situation_variant_id="40be5da4-b4fd-c034-f312-d6783fded2a1" tree_file="final\Situations\triangleTestSituation.xml" tree_name="triangleTest" />
+      <row situation_role_id="420768c5-0d23-fab9-0ac5-4a2ab7e32d9d" situation_variant_id="40be5da4-b4fd-c034-f312-d6783fded2a1" tree_file="final\Situations\triangleTestSituation.xml" tree_name="triangleTest" />
+      <row situation_role_id="420925b6-9291-2710-b725-e04910b01b81" situation_variant_id="44096b0a-6219-7c97-70c9-be613e8e84b5" tree_file="final/Situations/globalSituations.xml" tree_name="talking" />
+      <row situation_role_id="434a58a5-84b1-e32f-8cdb-415d7cb3a898" situation_variant_id="42b50971-fc9a-3681-cca2-d0f8a2a23184" tree_file="final/Situations/eventSituations.xml" tree_name="fortuneTellerSituation" />
+      <row situation_role_id="4362ad3f-af44-17a9-829a-3fd2292c1e93" situation_variant_id="4e2cec11-7bc0-1f4a-dbb1-607703fd13be" tree_file="quests/q_escapeToTalmberk.xml" tree_name="situation_dialogAboutSkalitz_listener" />
+      <row situation_role_id="439671df-813c-80c5-3c98-5d30ba2c5ca7" situation_variant_id="4d5a626e-6c3d-94a1-c2c8-e75041b90b8d" tree_file="final/Situations/eventSituations.xml" tree_name="preachCrowd" />
+      <row situation_role_id="43a6bab2-e135-027c-d1fb-7d7e5a2f3997" situation_variant_id="45bc4bae-2680-415d-186e-042a6f5d5781" tree_file="final/Situations/globalSituations.xml" tree_name="talkingOnbench" />
+      <row situation_role_id="44524d57-a8c7-4fe0-d61f-91746e998b9f" situation_variant_id="4e2cec11-7bc0-1f4a-dbb1-607703fd13be" tree_file="quests/q_escapeToTalmberk.xml" tree_name="situation_dialogAboutSkalitz_initiator" />
+      <row situation_role_id="45e3d1a9-72f5-6b8c-02ff-0ee069dc35a3" situation_variant_id="44096b0a-6219-7c97-70c9-be613e8e84b5" tree_file="final/Situations/globalSituations.xml" tree_name="talking" />
+      <row situation_role_id="46284a05-f979-9450-b90e-6c9b32bf8480" situation_variant_id="43e6d49f-06f4-e80f-7d29-49e92bba0193" tree_file="final/situations.xml" tree_name="dialogWithPasserby" />
+      <row situation_role_id="485a49bc-fe89-7065-a5d2-1b3b058a7a8e" situation_variant_id="40852057-2245-0538-eb34-8f4e4fe685bd" tree_file="final/Situations/eventSituations.xml" tree_name="shoutPillory" />
+      <row situation_role_id="49979004-c7ee-2dde-6e57-718502f5bdb6" situation_variant_id="44180572-8f7a-7f3f-d82e-d032bd030da1" tree_file="final/Situations/globalSituations.xml" tree_name="talkingOnbench" />
+      <row situation_role_id="49ca87c8-e866-9b2f-37fe-5897603d23b5" situation_variant_id="44e15a50-a354-c9ea-33ab-901dcd31858f" tree_file="final/Situations/globalSituations.xml" tree_name="talking" />
+      <row situation_role_id="4b28c54d-f575-1cdc-dc32-e760978b49a6" situation_variant_id="43e6d49f-06f4-e80f-7d29-49e92bba0193" tree_file="final/situations.xml" tree_name="dialogWithPasserby" />
+      <row situation_role_id="4b4332af-5321-fdbf-4ea7-fb23c607598d" situation_variant_id="44180572-8f7a-7f3f-d82e-d032bd030da1" tree_file="final/Situations/globalSituations.xml" tree_name="talkingOnbench" />
+      <row situation_role_id="4bcadbb3-dadf-fa55-9d8e-b6b8a3bacca7" situation_variant_id="40259ad8-827c-bef1-b4f2-2e64401d4aaf" tree_file="final/Situations/tournamentSituations.xml" tree_name="tournamentCivilTalk" />
+      <row situation_role_id="4c41224e-bc47-9f38-0116-365cc1263f80" situation_variant_id="45cec83a-8ba9-e1db-8dcb-5e4984516da1" tree_file="final/Situations/q_plagueInMerhojed_sit.xml" tree_name="dialogAboutPlague" />
+      <row situation_role_id="4d5a243e-c8d3-00ae-7504-bce5bb304399" situation_variant_id="490f4ca7-9279-e85b-29a9-a6dabe6197ad" tree_file="final/Situations/globalSituations.xml" tree_name="beggar" />
+      <row situation_role_id="4e248d16-5b40-cba4-4c70-63c30933dbb2" situation_variant_id="4ef987dc-7126-ea5b-5401-58a6d8be57b2" tree_file="final/Situations/eventSituations.xml" tree_name="fortuneTellerSituationPositiv" />
+      <row situation_role_id="4e2eea28-b66f-e791-1857-6cc312107781" situation_variant_id="42b50971-fc9a-3681-cca2-d0f8a2a23184" tree_file="final/Situations/eventSituations.xml" tree_name="fortuneTellerClient" />
+      <row situation_role_id="4e3e1cbb-55f2-0cf4-1f45-e652f97a29bb" situation_variant_id="44e50dca-37d9-b02b-295d-81184556dcb3" tree_file="final/Situations/eventSituations.xml" tree_name="reactionToPillory" />
+      <row situation_role_id="4eebf237-d5dc-fd47-bf43-6663edf333ad" situation_variant_id="40259ad8-827c-bef1-b4f2-2e64401d4aaf" tree_file="final/Situations/tournamentSituations.xml" tree_name="tournamentCivilTalk" />
+    </rows>
+  </table>
+</database>

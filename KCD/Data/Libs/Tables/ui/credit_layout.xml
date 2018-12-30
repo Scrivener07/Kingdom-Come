@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="credit_layout" version="1">
+    <header>
+      <column name="credit_layout_id" type="integer" />
+      <column name="credit_layout_name" type="character varying" />
+    </header>
+    <rows>
+      <row credit_layout_id="1" credit_layout_name="single person" />
+      <row credit_layout_id="2" credit_layout_name="team one column" />
+      <row credit_layout_id="3" credit_layout_name="team two columns" />
+      <row credit_layout_id="4" credit_layout_name="subtitle" />
+      <row credit_layout_id="5" credit_layout_name="block of text" />
+      <row credit_layout_id="6" credit_layout_name="block of names" />
+      <row credit_layout_id="7" credit_layout_name="role: actors" />
+      <row credit_layout_id="8" credit_layout_name="special column" />
+      <row credit_layout_id="10" credit_layout_name="empty row" />
+      <row credit_layout_id="11" credit_layout_name="image" />
+      <row credit_layout_id="12" credit_layout_name="role subtitle" />
+      <row credit_layout_id="13" credit_layout_name="mega subtitle" />
+    </rows>
+  </table>
+</database>

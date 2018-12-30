@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="subbrain_combat" version="1">
+    <header>
+      <column name="file_name" type="character varying" />
+      <column name="subbrain_id" type="uuid" />
+      <column name="tree_name" type="character varying" />
+    </header>
+    <rows>
+      <row file_name="_athert/combat_bugs.xml" subbrain_id="27f1f7ec-9886-47be-b087-925015fa32bf" tree_name="combatBugs" />
+      <row file_name="_martin_cerny/combat_simulator.xml" subbrain_id="419caa3f-f784-6a1e-3d6e-d5c93a78a1bb" tree_name="npc_test" />
+      <row file_name="_martin_cerny/combat_simulator.xml" subbrain_id="42fc241b-4ec3-f73b-616e-56104aa21392" tree_name="humanExperimentOpponent" />
+      <row file_name="autotest/codetest_combat.xml" subbrain_id="43faf319-cf12-5b84-b3b3-964dd2ff5e99" tree_name="onUpdate" />
+      <row file_name="Player.xml" subbrain_id="45927b96-554e-110b-3e99-4ec37bc989be" tree_name="Player_combat" />
+      <row file_name="final/npc_combat_slave.xml" subbrain_id="459a5d25-bdc7-5202-be9f-cfdb616f6285" tree_name="onUpdate" />
+      <row file_name="_j/formation_combat.xml" subbrain_id="4776aa00-c43c-5b0c-7f43-1b01d68c0fa7" tree_name="formation_combat" />
+      <row file_name="final\fake_pursuit.xml" subbrain_id="48c2e4f2-1a57-098f-bfcf-af1b8c16eeba" tree_name="walk" />
+      <row file_name="_martin_cerny/combat_data_gathering.xml" subbrain_id="49bfa7e4-10e5-3b57-ee76-cec92fc41189" tree_name="combat" />
+      <row file_name="_mz/npc_test_combatLock.xml" subbrain_id="49e8f0b5-c593-440c-5925-5c5abd5549ab" tree_name="combat_onUpdate" />
+      <row file_name="final/npc_defence.xml" subbrain_id="4a19b89e-68ff-767b-c877-7871c2a001b9" tree_name="onUpdate" />
+      <row file_name="final/sb_combat_playerHorse.xml" subbrain_id="4a638ebf-404b-1463-b28f-d988ad222784" tree_name="onUpdate" />
+      <row file_name="final/npc_pursuit_flee.xml" subbrain_id="4a9e6f27-fc3d-acd1-4f21-9be2d8dbedb4" tree_name="onUpdate" />
+      <row file_name="_j/npc_friendlyfire.xml" subbrain_id="4b24dd48-039f-7b34-145d-f336ba0a5fba" tree_name="onUpdate" />
+      <row file_name="_j/test_combat.xml" subbrain_id="4b2e4f4a-cade-f6e4-ccf4-3bb0d190de83" tree_name="onUpdate" />
+      <row file_name="_martin_cerny/combat_simulator.xml" subbrain_id="4ba5f75c-9024-8638-b545-3c8b8d753f8c" tree_name="combatSimAgainstPlayer" />
+      <row file_name="final/npc_battle_solo.xml" subbrain_id="4bcec3db-e97e-0a92-f9ba-ab2f85691c84" tree_name="combat" />
+      <row file_name="final\fake_pursuit.xml" subbrain_id="4c6703f6-2dda-c72d-06d7-29cd9b0534a3" tree_name="pursuit_combat" />
+      <row file_name="final/sb_combat_horse.xml" subbrain_id="4d7145e2-7528-7dca-2a40-847840e87a93" tree_name="onUpdate" />
+      <row file_name="final/npc_battle.xml" subbrain_id="4d744933-135b-ef04-3028-865eabe906ae" tree_name="npc_battle_combat" />
+      <row file_name="final\fake_pursuit.xml" subbrain_id="4e0ed28f-9036-8a45-ab1b-3b8d3f4988b0" tree_name="walkingAway" />
+      <row file_name="_mz/npc_combatDummyE3.xml" subbrain_id="4f365b11-3bcb-357c-fda9-33fb2f59dc88" tree_name="combat" />
+      <row file_name="_martin_cerny/combat_simulator.xml" subbrain_id="4f4b46b7-c3ba-d7a4-ece5-f14d7167668a" tree_name="update" />
+      <row file_name="final/sb_combat.xml" subbrain_id="80425cfb-ceb0-48bb-987b-6de4328f3a95" tree_name="root" />
+    </rows>
+  </table>
+</database>

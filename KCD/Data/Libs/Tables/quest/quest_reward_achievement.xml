@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="quest_reward_achievement" version="1">
+    <header>
+      <column name="is_immediate" type="boolean" />
+      <column name="objective_id" type="integer" />
+      <column name="pos" type="character varying" />
+      <column name="quest_id" type="integer" />
+      <column name="statistic_id" type="integer" />
+    </header>
+    <rows>
+      <row is_immediate="True" objective_id="66" pos="-220,-1400,0" quest_id="11544573" statistic_id="116" />
+      <row is_immediate="True" objective_id="299" pos="5520,140,0" quest_id="19412827" statistic_id="115" />
+      <row is_immediate="False" objective_id="4" pos="7720,430,0" quest_id="27875920" statistic_id="123" />
+      <row is_immediate="False" objective_id="4" pos="6280,-660,0" quest_id="31662772" statistic_id="120" />
+      <row is_immediate="True" objective_id="182" pos="5910,-970,0" quest_id="31662772" statistic_id="121" />
+      <row is_immediate="True" objective_id="1326" pos="630,2270,0" quest_id="31662772" statistic_id="106" />
+      <row is_immediate="True" objective_id="76" pos="2190,-1360,0" quest_id="37808566" statistic_id="101" />
+      <row is_immediate="True" objective_id="164" pos="490,-470,0" quest_id="39438237" statistic_id="147" />
+      <row is_immediate="True" objective_id="2346" pos="510,-710,0" quest_id="39438237" statistic_id="146" />
+      <row is_immediate="True" objective_id="3368" pos="8070,1910,0" quest_id="39438237" statistic_id="145" />
+      <row is_immediate="False" objective_id="5" pos="3420,1210,0" quest_id="44792891" statistic_id="118" />
+      <row is_immediate="True" objective_id="3308" pos="5970,4110,0" quest_id="45407921" statistic_id="124" />
+      <row is_immediate="False" objective_id="150" pos="1510,700,0" quest_id="46019608" statistic_id="122" />
+      <row is_immediate="True" objective_id="820" pos="4040,300,0" quest_id="47902748" statistic_id="109" />
+      <row is_immediate="False" objective_id="61" pos="4190,-290,0" quest_id="48004272" statistic_id="116" />
+      <row is_immediate="False" objective_id="1717" pos="5270,-250,0" quest_id="48522461" statistic_id="148" />
+      <row is_immediate="True" objective_id="1718" pos="5530,-150,0" quest_id="48522461" statistic_id="149" />
+      <row is_immediate="True" objective_id="248" pos="3760,540,0" quest_id="50330758" statistic_id="107" />
+      <row is_immediate="True" objective_id="960" pos="5280,810,0" quest_id="50330758" statistic_id="133" />
+      <row is_immediate="True" objective_id="1780" pos="1060,430,0" quest_id="51186042" statistic_id="110" />
+      <row is_immediate="True" objective_id="15" pos="2830,310,0" quest_id="51547682" statistic_id="102" />
+      <row is_immediate="False" objective_id="436" pos="3590,1290,0" quest_id="52074508" statistic_id="108" />
+      <row is_immediate="True" objective_id="651" pos="7230,-1330,0" quest_id="52739772" statistic_id="104" />
+      <row is_immediate="True" objective_id="924" pos="3230,-470,0" quest_id="52745351" statistic_id="119" />
+      <row is_immediate="True" objective_id="4" pos="480,90,0" quest_id="53358398" statistic_id="100" />
+      <row is_immediate="True" objective_id="314" pos="1550,-1280,0" quest_id="53962142" statistic_id="112" />
+      <row is_immediate="False" objective_id="11" pos="390,520,0" quest_id="54479418" statistic_id="103" />
+      <row is_immediate="False" objective_id="92" pos="2310,-830,0" quest_id="56276264" statistic_id="114" />
+      <row is_immediate="False" objective_id="5" pos="2070,40,0" quest_id="67432904" statistic_id="105" />
+      <row is_immediate="True" objective_id="763" pos="1810,-10,0" quest_id="71400551" statistic_id="113" />
+      <row is_immediate="True" objective_id="315" pos="2850,380,0" quest_id="72023007" statistic_id="111" />
+      <row is_immediate="False" objective_id="48" pos="660,-70,0" quest_id="114592969" statistic_id="139" />
+      <row is_immediate="True" objective_id="54" pos="190,-630,0" quest_id="115824745" statistic_id="140" />
+      <row is_immediate="True" objective_id="2067" pos="3160,150,0" quest_id="120057002" statistic_id="142" />
+      <row is_immediate="True" objective_id="2970" pos="-1270,300,0" quest_id="120057002" statistic_id="143" />
+      <row is_immediate="True" objective_id="76" pos="1240,-780,0" quest_id="123694193" statistic_id="144" />
+    </rows>
+  </table>
+</database>

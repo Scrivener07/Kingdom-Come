@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="combat_action_type_group" version="1">
+    <header>
+      <column name="combat_action_type_group_id" type="integer" />
+      <column name="combat_action_type_id" type="integer" />
+    </header>
+    <rows>
+      <row combat_action_type_group_id="1000" combat_action_type_id="26" />
+      <row combat_action_type_group_id="1000" combat_action_type_id="38" />
+      <row combat_action_type_group_id="1001" combat_action_type_id="37" />
+      <row combat_action_type_group_id="1001" combat_action_type_id="38" />
+      <row combat_action_type_group_id="1002" combat_action_type_id="14" />
+      <row combat_action_type_group_id="1002" combat_action_type_id="25" />
+      <row combat_action_type_group_id="1003" combat_action_type_id="37" />
+      <row combat_action_type_group_id="1004" combat_action_type_id="3" />
+      <row combat_action_type_group_id="1004" combat_action_type_id="16" />
+      <row combat_action_type_group_id="1004" combat_action_type_id="18" />
+      <row combat_action_type_group_id="1005" combat_action_type_id="39" />
+      <row combat_action_type_group_id="1005" combat_action_type_id="40" />
+      <row combat_action_type_group_id="1005" combat_action_type_id="41" />
+      <row combat_action_type_group_id="1005" combat_action_type_id="42" />
+      <row combat_action_type_group_id="1005" combat_action_type_id="43" />
+      <row combat_action_type_group_id="1005" combat_action_type_id="44" />
+      <row combat_action_type_group_id="1005" combat_action_type_id="45" />
+      <row combat_action_type_group_id="1005" combat_action_type_id="46" />
+      <row combat_action_type_group_id="1005" combat_action_type_id="47" />
+      <row combat_action_type_group_id="1006" combat_action_type_id="1000" />
+      <row combat_action_type_group_id="1006" combat_action_type_id="1004" />
+      <row combat_action_type_group_id="1007" combat_action_type_id="6" />
+      <row combat_action_type_group_id="1007" combat_action_type_id="1002" />
+      <row combat_action_type_group_id="1008" combat_action_type_id="7" />
+      <row combat_action_type_group_id="1008" combat_action_type_id="8" />
+      <row combat_action_type_group_id="1008" combat_action_type_id="17" />
+      <row combat_action_type_group_id="1008" combat_action_type_id="19" />
+      <row combat_action_type_group_id="1008" combat_action_type_id="24" />
+    </rows>
+  </table>
+</database>

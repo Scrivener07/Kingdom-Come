@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="document_class" version="1">
+    <header>
+      <column name="document_class_id" type="integer" />
+      <column name="document_class_name" type="character varying" />
+    </header>
+    <rows>
+      <row document_class_id="1" document_class_name="book" />
+      <row document_class_id="2" document_class_name="recipe" />
+    </rows>
+  </table>
+</database>

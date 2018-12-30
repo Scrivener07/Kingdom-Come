@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="poi_type2perk" version="1">
+    <header>
+      <column name="perk_id" type="uuid" />
+      <column name="poi_type_id" type="uuid" />
+    </header>
+    <rows>
+      <row perk_id="dce595c7-5d2b-4344-bae0-8a4a4e965b2a" poi_type_id="071a2767-ee0e-47cd-9cf7-0c1fe5c9ec37" />
+      <row perk_id="118def30-4fc4-4fbe-96ac-01f7d1626204" poi_type_id="0ec444f9-1da3-42e3-8044-98fe5e48f566" />
+      <row perk_id="855594e8-f71c-4e0e-8e17-7c922c380755" poi_type_id="0ec444f9-1da3-42e3-8044-98fe5e48f566" />
+      <row perk_id="e1b86b90-ecda-4825-9b41-ccef658ea9ff" poi_type_id="20256f2b-ae99-41a5-8394-61efdf0b37b1" />
+      <row perk_id="ae1553b7-9433-43a4-97be-1b20f19b97d5" poi_type_id="22e442fe-61d5-4b0d-bafd-069b23797b42" />
+      <row perk_id="0c358b88-0305-497e-89ea-8637c67b6209" poi_type_id="249bc291-7732-4819-909f-a78356effa03" />
+      <row perk_id="3d375b13-001f-449c-b186-f49ed22c5fb7" poi_type_id="249bc291-7732-4819-909f-a78356effa03" />
+      <row perk_id="3e45a6d5-f5e3-464e-858c-c63f3eb2a10c" poi_type_id="249bc291-7732-4819-909f-a78356effa03" />
+      <row perk_id="e2907d0b-7d1f-4244-b5fb-3770e1bd8798" poi_type_id="249bc291-7732-4819-909f-a78356effa03" />
+      <row perk_id="3e22265b-5db8-4ab2-878d-940fab2e97fa" poi_type_id="2dedeede-85a0-4e25-8dab-d5ad2bd276eb" />
+      <row perk_id="cba68de3-7546-4d45-8d5b-454cad40d83b" poi_type_id="3b1c883b-387e-4b9c-a5df-d9fc7dc8195c" />
+      <row perk_id="e74b092b-8f95-468e-aaa0-8178a6342d5f" poi_type_id="3b1c883b-387e-4b9c-a5df-d9fc7dc8195c" />
+      <row perk_id="cb42ba49-d375-4ddb-bf70-2717b4dbd2e3" poi_type_id="40027699-85ee-4735-bd10-b3a1ccb154a2" />
+      <row perk_id="9e52592e-769d-4146-8e9d-84d23f6dabf9" poi_type_id="5e319547-1532-4d9b-8b43-909d7faacaa3" />
+      <row perk_id="5cd456bd-fa64-401d-8d2e-9a69e56f2b7d" poi_type_id="5ebec865-8490-4f72-b06e-74e324f04865" />
+      <row perk_id="eb95fa4d-6e36-40d5-8268-e6edd7bc39a2" poi_type_id="5ebec865-8490-4f72-b06e-74e324f04865" />
+      <row perk_id="70b2ef94-1a6b-4690-8acc-967573feca40" poi_type_id="60946219-5c70-4c36-8e10-3aff5d9dd1fb" />
+      <row perk_id="0133008f-09cf-4b68-a434-ea7f7b0283b3" poi_type_id="6caad61f-ae41-4771-95f7-d720c079d16a" />
+      <row perk_id="8b861dc2-5fd0-4a15-aa78-3351bd862060" poi_type_id="6caad61f-ae41-4771-95f7-d720c079d16a" />
+      <row perk_id="f6585ed6-2826-42c7-b3b5-8c50082f1a3f" poi_type_id="6caad61f-ae41-4771-95f7-d720c079d16a" />
+      <row perk_id="1672a664-8b97-42b5-b390-84378bdefbf3" poi_type_id="7ba63c1c-6bea-4f83-8824-c0a5c6fb2c2e" />
+      <row perk_id="1acdcbbd-c47d-45a1-a839-4a292cb9e646" poi_type_id="7ba63c1c-6bea-4f83-8824-c0a5c6fb2c2e" />
+      <row perk_id="4ed2a735-fe93-4111-af89-1e8932598be8" poi_type_id="7ba63c1c-6bea-4f83-8824-c0a5c6fb2c2e" />
+      <row perk_id="80b829ea-b5a3-4ac3-ac0e-e611716eb674" poi_type_id="917e1332-8a57-4e24-8607-6a3cfc2d704a" />
+      <row perk_id="4eeded19-e917-4ae9-af73-d716e053378a" poi_type_id="9600cb0c-2f81-4fe9-9f3e-2b444801039e" />
+      <row perk_id="684f8059-377f-42ec-a607-3927e3e3f58c" poi_type_id="9600cb0c-2f81-4fe9-9f3e-2b444801039e" />
+      <row perk_id="ad2d4107-9b6a-46db-b1cc-5e1258b1e423" poi_type_id="9600cb0c-2f81-4fe9-9f3e-2b444801039e" />
+      <row perk_id="c8420025-210f-4d20-bedb-7c4acea0dd84" poi_type_id="9600cb0c-2f81-4fe9-9f3e-2b444801039e" />
+      <row perk_id="c9520013-df96-4b8c-8fa8-3b5a81847667" poi_type_id="9600cb0c-2f81-4fe9-9f3e-2b444801039e" />
+      <row perk_id="d1d2b402-8b12-40de-b9a2-e53c664426aa" poi_type_id="9600cb0c-2f81-4fe9-9f3e-2b444801039e" />
+      <row perk_id="df811a2e-2425-4e3a-b9e0-379327ed15c0" poi_type_id="9600cb0c-2f81-4fe9-9f3e-2b444801039e" />
+      <row perk_id="f94de479-0aec-45e3-9743-a120f5076f93" poi_type_id="9600cb0c-2f81-4fe9-9f3e-2b444801039e" />
+      <row perk_id="7d11de17-847c-46b3-b4f1-79b6aa7cf68b" poi_type_id="a0f3c565-e17d-4c96-bb8c-43d29d0b58ba" />
+      <row perk_id="b3890081-841f-492f-8bdf-b3ae40f07694" poi_type_id="a0f3c565-e17d-4c96-bb8c-43d29d0b58ba" />
+      <row perk_id="18460049-f8c3-488c-a2df-6cac92762bb1" poi_type_id="a39bc1f4-d240-4f0e-abf1-972742a84246" />
+      <row perk_id="48136e07-2fe8-47ae-af70-e00102a8b0b9" poi_type_id="c38dc8e3-9c69-4db7-aa8b-a33d09dabb25" />
+      <row perk_id="c1854a5e-daa5-48c5-ae70-712abcb5c46a" poi_type_id="c738d996-faf9-4a6c-a913-bbd6a092cb53" />
+      <row perk_id="d092fbec-b011-479e-80db-7433bc55dacb" poi_type_id="c738d996-faf9-4a6c-a913-bbd6a092cb53" />
+      <row perk_id="0d3322fe-5b3f-47c5-8a21-1fa5e5cffe36" poi_type_id="d86e482f-a370-4d19-912d-cf91b518961e" />
+      <row perk_id="245b6b57-655a-4b04-a5af-8679dd7cb3ed" poi_type_id="e326deba-f37e-4d05-8318-65f17f4b7a42" />
+      <row perk_id="2946fd76-7278-47e0-8078-92de62e0b94f" poi_type_id="e326deba-f37e-4d05-8318-65f17f4b7a42" />
+      <row perk_id="3c063202-799a-4c5e-b46a-be706f99805f" poi_type_id="e326deba-f37e-4d05-8318-65f17f4b7a42" />
+      <row perk_id="aa714222-45de-4763-8fdb-e2bce5ad462d" poi_type_id="e5bc051e-525c-4d6b-b34d-3dd71a5ab66e" />
+      <row perk_id="118def30-4fc4-4fbe-96ac-01f7d1626204" poi_type_id="e9bf2a6e-938c-4711-9b8f-293c7d4dd8fd" />
+      <row perk_id="63568d40-c0c4-4dcc-b43e-18fd620449ce" poi_type_id="f4ca97c7-2218-4f70-863b-df4174b1bfcc" />
+      <row perk_id="1a306045-415a-438d-b612-6f354b8717e2" poi_type_id="fc08fa3b-e0dd-4712-bb55-35fbcc4b4081" />
+    </rows>
+  </table>
+</database>

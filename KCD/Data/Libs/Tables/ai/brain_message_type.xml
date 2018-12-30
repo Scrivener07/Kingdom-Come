@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="brain_message_type" version="1">
+    <header>
+      <column name="brain_message_type_id" type="integer" />
+      <column name="brain_message_type_name" type="character varying" />
+    </header>
+    <rows>
+      <row brain_message_type_id="1" brain_message_type_name="_string" />
+      <row brain_message_type_id="2" brain_message_type_name="_int" />
+    </rows>
+  </table>
+</database>

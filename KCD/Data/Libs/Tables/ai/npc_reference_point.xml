@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="npc_reference_point" version="1">
+    <header>
+      <column name="bone_name" type="character varying" />
+      <column name="coord_x" type="real" />
+      <column name="coord_y" type="real" />
+      <column name="coord_z" type="real" />
+      <column name="npc_reference_point_id" type="uuid" />
+      <column name="npc_reference_point_name" type="character varying" />
+      <column name="priority" type="integer" />
+    </header>
+    <rows>
+      <row bone_name="" coord_x="0" coord_y="0" coord_z="1.7" npc_reference_point_id="00000000-0000-0000-0000-000000048301" npc_reference_point_name="Head" priority="10" />
+      <row bone_name="" coord_x="0" coord_y="0" coord_z="1" npc_reference_point_id="00000000-0000-0000-0000-000000048302" npc_reference_point_name="Torso" priority="5" />
+      <row bone_name="" coord_x="0" coord_y="0" coord_z="0.4" npc_reference_point_id="00000000-0000-0000-0000-000000048303" npc_reference_point_name="Legs" priority="3" />
+    </rows>
+  </table>
+</database>

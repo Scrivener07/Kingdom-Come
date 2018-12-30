@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="combat_action_fragment_id_mapping" version="1">
+    <header>
+      <column name="action_type_id" type="integer" />
+      <column name="combat_action_fragment_id_mapping_id" type="integer" />
+      <column name="fragment_id" type="character varying" />
+      <column name="preprocess_enabled" type="boolean" />
+      <column name="sync_hit" type="boolean" />
+    </header>
+    <rows>
+      <row action_type_id="0" combat_action_fragment_id_mapping_id="0" fragment_id="CombatHitMovement" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="1" combat_action_fragment_id_mapping_id="1" fragment_id="CombatBlockMoveBack" preprocess_enabled="False" sync_hit="False" />
+      <row action_type_id="2" combat_action_fragment_id_mapping_id="2" fragment_id="CombatBlockStepBack" preprocess_enabled="False" sync_hit="False" />
+      <row action_type_id="3" combat_action_fragment_id_mapping_id="3" fragment_id="CombatAttack" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="4" combat_action_fragment_id_mapping_id="4" fragment_id="CombatLeap" preprocess_enabled="False" sync_hit="False" />
+      <row action_type_id="5" combat_action_fragment_id_mapping_id="5" fragment_id="CombatMovement" preprocess_enabled="False" sync_hit="False" />
+      <row action_type_id="6" combat_action_fragment_id_mapping_id="6" fragment_id="CombatBlockUpperBody" preprocess_enabled="False" sync_hit="False" />
+      <row action_type_id="7" combat_action_fragment_id_mapping_id="7" fragment_id="CombatHit" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="8" combat_action_fragment_id_mapping_id="8" fragment_id="CombatBlockBroken" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="9" combat_action_fragment_id_mapping_id="9" fragment_id="CombatBlockImpact" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="6" combat_action_fragment_id_mapping_id="10" fragment_id="CombatBlockStab" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="5" combat_action_fragment_id_mapping_id="11" fragment_id="CombatIdle" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="14" combat_action_fragment_id_mapping_id="12" fragment_id="CombatBlockPerfect" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="15" combat_action_fragment_id_mapping_id="13" fragment_id="CombatAttackFailedPB" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="18" combat_action_fragment_id_mapping_id="14" fragment_id="CombatAttackCombo" preprocess_enabled="True" sync_hit="True" />
+      <row action_type_id="19" combat_action_fragment_id_mapping_id="15" fragment_id="CombatHitCombo" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="12" combat_action_fragment_id_mapping_id="16" fragment_id="CombatAttackStart" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="11" combat_action_fragment_id_mapping_id="17" fragment_id="CombatPreBlock" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="35" combat_action_fragment_id_mapping_id="18" fragment_id="CombatClinchGuardMaster" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="36" combat_action_fragment_id_mapping_id="19" fragment_id="CombatClinchGuardSlave" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="16" combat_action_fragment_id_mapping_id="20" fragment_id="CombatAttackSync" preprocess_enabled="True" sync_hit="True" />
+      <row action_type_id="17" combat_action_fragment_id_mapping_id="21" fragment_id="CombatHitSync" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="6" combat_action_fragment_id_mapping_id="23" fragment_id="CombatBlockSlash" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="23" combat_action_fragment_id_mapping_id="30" fragment_id="CombatBlockPerfectSpecial" preprocess_enabled="True" sync_hit="True" />
+      <row action_type_id="24" combat_action_fragment_id_mapping_id="31" fragment_id="CombatBlockPerfectSpecialHit" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="25" combat_action_fragment_id_mapping_id="32" fragment_id="CombatDodge" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="26" combat_action_fragment_id_mapping_id="33" fragment_id="FreeAttack" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="27" combat_action_fragment_id_mapping_id="34" fragment_id="CombatAttackFailed" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="28" combat_action_fragment_id_mapping_id="35" fragment_id="CombatStealthAttackSuccess" preprocess_enabled="True" sync_hit="True" />
+      <row action_type_id="29" combat_action_fragment_id_mapping_id="36" fragment_id="CombatStealthAttackFail" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="30" combat_action_fragment_id_mapping_id="37" fragment_id="CombatStealthHitSuccess" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="31" combat_action_fragment_id_mapping_id="38" fragment_id="CombatStealthHitFail" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="20" combat_action_fragment_id_mapping_id="39" fragment_id="CombatStealthClinchMaster" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="21" combat_action_fragment_id_mapping_id="40" fragment_id="CombatStealthClinchSlave" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="33" combat_action_fragment_id_mapping_id="41" fragment_id="CombatStealthGrabMaster" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="34" combat_action_fragment_id_mapping_id="42" fragment_id="CombatStealthGrabSlave" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="33" combat_action_fragment_id_mapping_id="43" fragment_id="CombatStealthPutDownMaster" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="34" combat_action_fragment_id_mapping_id="44" fragment_id="CombatStealthPutDownSlave" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="7" combat_action_fragment_id_mapping_id="47" fragment_id="CombatDeath" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="6" combat_action_fragment_id_mapping_id="48" fragment_id="CombatBlockNW" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="39" combat_action_fragment_id_mapping_id="49" fragment_id="HorseCombatIdle" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="38" combat_action_fragment_id_mapping_id="50" fragment_id="HorseCombatAttack" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="40" combat_action_fragment_id_mapping_id="51" fragment_id="HorseCombatMovement" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="41" combat_action_fragment_id_mapping_id="52" fragment_id="HorseCombatJumpStart" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="42" combat_action_fragment_id_mapping_id="53" fragment_id="HorseCombatJump" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="43" combat_action_fragment_id_mapping_id="54" fragment_id="HorseCombatLand" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="44" combat_action_fragment_id_mapping_id="55" fragment_id="HorseCombatMove2Idle" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="45" combat_action_fragment_id_mapping_id="56" fragment_id="HorseCombatIdle2Move" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="46" combat_action_fragment_id_mapping_id="57" fragment_id="HorseCombatRear" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="47" combat_action_fragment_id_mapping_id="58" fragment_id="HorseCombatFastStop" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="48" combat_action_fragment_id_mapping_id="59" fragment_id="HorseCombatAttackSync" preprocess_enabled="True" sync_hit="True" />
+      <row action_type_id="49" combat_action_fragment_id_mapping_id="60" fragment_id="HorseCombatHitSync" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="7" combat_action_fragment_id_mapping_id="61" fragment_id="CombatHitTorso" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="50" combat_action_fragment_id_mapping_id="62" fragment_id="CombatAttackMercy" preprocess_enabled="True" sync_hit="True" />
+      <row action_type_id="51" combat_action_fragment_id_mapping_id="63" fragment_id="CombatStopMaster" preprocess_enabled="True" sync_hit="True" />
+      <row action_type_id="52" combat_action_fragment_id_mapping_id="64" fragment_id="CombatStopSlave" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="6" combat_action_fragment_id_mapping_id="65" fragment_id="CombatBlockPunch" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="20" combat_action_fragment_id_mapping_id="66" fragment_id="CombatSyncGuardMaster" preprocess_enabled="True" sync_hit="False" />
+      <row action_type_id="21" combat_action_fragment_id_mapping_id="67" fragment_id="CombatSyncGuardSlave" preprocess_enabled="True" sync_hit="False" />
+    </rows>
+  </table>
+</database>

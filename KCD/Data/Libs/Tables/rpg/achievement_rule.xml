@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="achievement_rule" version="1">
+    <header>
+      <column name="achievement_id" type="integer" />
+      <column name="achievement_rule_action_id" type="integer" />
+      <column name="achievement_rule_name" type="character varying" />
+      <column name="statistic_id" type="integer" />
+      <column name="threshold" type="real" />
+    </header>
+    <rows>
+      <row achievement_id="1" achievement_rule_action_id="0" achievement_rule_name="rule_Alcoholic" statistic_id="130" threshold="1" />
+      <row achievement_id="2" achievement_rule_action_id="0" achievement_rule_name="rule_Insomniac" statistic_id="49" threshold="48" />
+      <row achievement_id="3" achievement_rule_action_id="0" achievement_rule_name="rule_Fatso" statistic_id="74" threshold="48" />
+      <row achievement_id="4" achievement_rule_action_id="0" achievement_rule_name="rule_Anorectic" statistic_id="48" threshold="72" />
+      <row achievement_id="5" achievement_rule_action_id="0" achievement_rule_name="rule_Bookworm" statistic_id="60" threshold="20" />
+      <row achievement_id="6" achievement_rule_action_id="0" achievement_rule_name="rule_EdwardKelly" statistic_id="45" threshold="15" />
+      <row achievement_id="7" achievement_rule_action_id="0" achievement_rule_name="rule_StealthKiller" statistic_id="125" threshold="20" />
+      <row achievement_id="8" achievement_rule_action_id="0" achievement_rule_name="rule_Hunter" statistic_id="56" threshold="50" />
+      <row achievement_id="9" achievement_rule_action_id="0" achievement_rule_name="rule_Bard" statistic_id="31" threshold="20" />
+      <row achievement_id="10" achievement_rule_action_id="0" achievement_rule_name="rule_KarelGott" statistic_id="131" threshold="10" />
+      <row achievement_id="11" achievement_rule_action_id="0" achievement_rule_name="rule_Completionist" statistic_id="39" threshold="80" />
+      <row achievement_id="12" achievement_rule_action_id="1" achievement_rule_name="rule_Merciful1" statistic_id="86" threshold="1" />
+      <row achievement_id="12" achievement_rule_action_id="0" achievement_rule_name="rule_Merciful2" statistic_id="105" threshold="1" />
+      <row achievement_id="13" achievement_rule_action_id="0" achievement_rule_name="rule_SerialKiller" statistic_id="86" threshold="200" />
+      <row achievement_id="14" achievement_rule_action_id="0" achievement_rule_name="rule_Traveller" statistic_id="38" threshold="16" />
+      <row achievement_id="15" achievement_rule_action_id="0" achievement_rule_name="rule_Knightrider" statistic_id="101" threshold="1" />
+      <row achievement_id="16" achievement_rule_action_id="0" achievement_rule_name="rule_Ranger" statistic_id="16" threshold="50000" />
+      <row achievement_id="17" achievement_rule_action_id="0" achievement_rule_name="rule_Pilgrim" statistic_id="91" threshold="90" />
+      <row achievement_id="18" achievement_rule_action_id="0" achievement_rule_name="rule_Thief" statistic_id="65" threshold="300000" />
+      <row achievement_id="19" achievement_rule_action_id="0" achievement_rule_name="rule_LevelCap" statistic_id="66" threshold="20" />
+      <row achievement_id="20" achievement_rule_action_id="0" achievement_rule_name="rule_Fighter" statistic_id="59" threshold="100" />
+      <row achievement_id="21" achievement_rule_action_id="0" achievement_rule_name="rule_Sniper" statistic_id="126" threshold="50" />
+      <row achievement_id="22" achievement_rule_action_id="0" achievement_rule_name="rule_Haggler" statistic_id="34" threshold="20000" />
+      <row achievement_id="23" achievement_rule_action_id="0" achievement_rule_name="rule_Scrooge" statistic_id="58" threshold="50000" />
+      <row achievement_id="24" achievement_rule_action_id="0" achievement_rule_name="rule_Convict" statistic_id="94" threshold="72" />
+      <row achievement_id="25" achievement_rule_action_id="0" achievement_rule_name="rule_DavidHorak" statistic_id="9" threshold="10000" />
+      <row achievement_id="26" achievement_rule_action_id="0" achievement_rule_name="rule_Gambler" statistic_id="85" threshold="10000" />
+      <row achievement_id="27" achievement_rule_action_id="0" achievement_rule_name="rule_BlacksmithsSon" statistic_id="120" threshold="1" />
+      <row achievement_id="28" achievement_rule_action_id="0" achievement_rule_name="rule_Cavalier" statistic_id="121" threshold="1" />
+      <row achievement_id="29" achievement_rule_action_id="0" achievement_rule_name="rule_Awakening" statistic_id="122" threshold="1" />
+      <row achievement_id="30" achievement_rule_action_id="0" achievement_rule_name="rule_Buddy" statistic_id="123" threshold="1" />
+      <row achievement_id="31" achievement_rule_action_id="0" achievement_rule_name="rule_Ginger" statistic_id="124" threshold="1" />
+      <row achievement_id="32" achievement_rule_action_id="0" achievement_rule_name="rule_Runt" statistic_id="118" threshold="1" />
+      <row achievement_id="33" achievement_rule_action_id="0" achievement_rule_name="rule_Monk" statistic_id="119" threshold="1" />
+      <row achievement_id="34" achievement_rule_action_id="0" achievement_rule_name="rule_Bastard" statistic_id="102" threshold="1" />
+      <row achievement_id="35" achievement_rule_action_id="0" achievement_rule_name="rule_Conqueror" statistic_id="103" threshold="1" />
+      <row achievement_id="36" achievement_rule_action_id="0" achievement_rule_name="rule_TalmbergPreparation" statistic_id="104" threshold="1" />
+      <row achievement_id="37" achievement_rule_action_id="0" achievement_rule_name="rule_TheEnd" statistic_id="105" threshold="1" />
+      <row achievement_id="38" achievement_rule_action_id="0" achievement_rule_name="rule_Firestarter" statistic_id="106" threshold="1" />
+      <row achievement_id="39" achievement_rule_action_id="0" achievement_rule_name="rule_Sinner" statistic_id="107" threshold="1" />
+      <row achievement_id="40" achievement_rule_action_id="0" achievement_rule_name="rule_PlagueDoctor" statistic_id="108" threshold="1" />
+      <row achievement_id="41" achievement_rule_action_id="0" achievement_rule_name="rule_McLovin" statistic_id="109" threshold="1" />
+      <row achievement_id="42" achievement_rule_action_id="0" achievement_rule_name="rule_Casanova" statistic_id="110" threshold="1" />
+      <row achievement_id="43" achievement_rule_action_id="0" achievement_rule_name="rule_Judas" statistic_id="111" threshold="1" />
+      <row achievement_id="44" achievement_rule_action_id="0" achievement_rule_name="rule_Freud" statistic_id="112" threshold="1" />
+      <row achievement_id="45" achievement_rule_action_id="0" achievement_rule_name="rule_MasterHuntsman" statistic_id="113" threshold="1" />
+      <row achievement_id="46" achievement_rule_action_id="0" achievement_rule_name="rule_RobberBaron" statistic_id="114" threshold="1" />
+      <row achievement_id="47" achievement_rule_action_id="0" achievement_rule_name="rule_EnoughRope" statistic_id="115" threshold="1" />
+      <row achievement_id="48" achievement_rule_action_id="0" achievement_rule_name="rule_BadTrip" statistic_id="116" threshold="1" />
+      <row achievement_id="49" achievement_rule_action_id="0" achievement_rule_name="rule_Virgin_end" statistic_id="105" threshold="1" />
+      <row achievement_id="49" achievement_rule_action_id="1" achievement_rule_name="rule_Virgin_tereza" statistic_id="109" threshold="0" />
+      <row achievement_id="49" achievement_rule_action_id="1" achievement_rule_name="rule_Virgin_stepanka" statistic_id="110" threshold="0" />
+      <row achievement_id="49" achievement_rule_action_id="1" achievement_rule_name="rule_Virgin_bohuta" statistic_id="133" threshold="0" />
+      <row achievement_id="49" achievement_rule_action_id="1" achievement_rule_name="rule_Virgin_wenches" statistic_id="134" threshold="0" />
+      <row achievement_id="50" achievement_rule_action_id="0" achievement_rule_name="rule_HardcoreHenry_end" statistic_id="105" threshold="1" />
+      <row achievement_id="50" achievement_rule_action_id="0" achievement_rule_name="rule_HardcoreHenry_mode" statistic_id="136" threshold="1" />
+      <row achievement_id="51" achievement_rule_action_id="0" achievement_rule_name="rule_TisButAScratch_end" statistic_id="105" threshold="1" />
+      <row achievement_id="51" achievement_rule_action_id="0" achievement_rule_name="rule_TisButAScratch_perks" statistic_id="135" threshold="9" />
+      <row achievement_id="51" achievement_rule_action_id="0" achievement_rule_name="rule_TisButAScratch_mode" statistic_id="136" threshold="1" />
+      <row achievement_id="52" achievement_rule_action_id="0" achievement_rule_name="rule_KingdomDidNotCome" statistic_id="137" threshold="1" />
+      <row achievement_id="53" achievement_rule_action_id="0" achievement_rule_name="rule_Bailiff" statistic_id="139" threshold="1" />
+      <row achievement_id="54" achievement_rule_action_id="1" achievement_rule_name="rule_TrialAndError_reading" statistic_id="138" threshold="0" />
+      <row achievement_id="54" achievement_rule_action_id="0" achievement_rule_name="rule_TrialAndError_finished" statistic_id="139" threshold="1" />
+      <row achievement_id="55" achievement_rule_action_id="0" achievement_rule_name="rule_Perfectionist" statistic_id="141" threshold="1" />
+      <row achievement_id="56" achievement_rule_action_id="0" achievement_rule_name="rule_FriendsWithoutBenefits" statistic_id="140" threshold="1" />
+      <row achievement_id="57" achievement_rule_action_id="0" achievement_rule_name="rule_MasterOfArena" statistic_id="144" threshold="1" />
+      <row achievement_id="58" achievement_rule_action_id="0" achievement_rule_name="rule_TrueFriend" statistic_id="148" threshold="1" />
+      <row achievement_id="59" achievement_rule_action_id="0" achievement_rule_name="rule_Wingman" statistic_id="149" threshold="1" />
+      <row achievement_id="60" achievement_rule_action_id="0" achievement_rule_name="rule_ICanStop" statistic_id="142" threshold="1" />
+      <row achievement_id="61" achievement_rule_action_id="0" achievement_rule_name="rule_GhostOfCapon" statistic_id="143" threshold="1" />
+      <row achievement_id="62" achievement_rule_action_id="0" achievement_rule_name="rule_RevenantOfLedechko" statistic_id="145" threshold="1" />
+      <row achievement_id="63" achievement_rule_action_id="0" achievement_rule_name="rule_ChristianBurial" statistic_id="146" threshold="1" />
+      <row achievement_id="64" achievement_rule_action_id="0" achievement_rule_name="rule_NotSoChristianBurial" statistic_id="147" threshold="1" />
+    </rows>
+  </table>
+</database>

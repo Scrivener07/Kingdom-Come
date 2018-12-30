@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="misc_type" version="1">
+    <header>
+      <column name="misc_type_id" type="integer" />
+      <column name="misc_type_name" type="character varying" />
+    </header>
+    <rows>
+      <row misc_type_id="1" misc_type_name="skin" />
+      <row misc_type_id="2" misc_type_name="ear" />
+    </rows>
+  </table>
+</database>

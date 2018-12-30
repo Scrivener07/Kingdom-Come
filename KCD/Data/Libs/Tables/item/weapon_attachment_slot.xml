@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="weapon_attachment_slot" version="1">
+    <header>
+      <column name="weapon_attachment_slot_id" type="integer" />
+      <column name="weapon_attachment_slot_name" type="character varying" />
+    </header>
+    <rows>
+      <row weapon_attachment_slot_id="0" weapon_attachment_slot_name="nothing" />
+      <row weapon_attachment_slot_id="1" weapon_attachment_slot_name="weapon_holster_left" />
+      <row weapon_attachment_slot_id="2" weapon_attachment_slot_name="weapon_holster_right" />
+      <row weapon_attachment_slot_id="3" weapon_attachment_slot_name="weapon_quiver" />
+      <row weapon_attachment_slot_id="4" weapon_attachment_slot_name="weapon_bow" />
+      <row weapon_attachment_slot_id="5" weapon_attachment_slot_name="weapon_crossbow" />
+      <row weapon_attachment_slot_id="6" weapon_attachment_slot_name="weapon_shield" />
+      <row weapon_attachment_slot_id="7" weapon_attachment_slot_name="weapon_quiver_ammo" />
+      <row weapon_attachment_slot_id="8" weapon_attachment_slot_name="scabbard_left" />
+      <row weapon_attachment_slot_id="9" weapon_attachment_slot_name="weapon_dagger" />
+    </rows>
+  </table>
+</database>

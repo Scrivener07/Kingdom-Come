@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="perk_special_riposte" version="1">
+    <header>
+      <column name="perk_id" type="uuid" />
+      <column name="special_riposte_id" type="integer" />
+    </header>
+    <rows>
+      <row perk_id="099599c2-6118-4a60-b944-74efb72facd2" special_riposte_id="117" />
+      <row perk_id="099599c2-6118-4a60-b944-74efb72facd2" special_riposte_id="118" />
+      <row perk_id="099599c2-6118-4a60-b944-74efb72facd2" special_riposte_id="119" />
+      <row perk_id="099599c2-6118-4a60-b944-74efb72facd2" special_riposte_id="120" />
+      <row perk_id="099599c2-6118-4a60-b944-74efb72facd2" special_riposte_id="121" />
+      <row perk_id="099599c2-6118-4a60-b944-74efb72facd2" special_riposte_id="122" />
+      <row perk_id="099599c2-6118-4a60-b944-74efb72facd2" special_riposte_id="123" />
+      <row perk_id="099599c2-6118-4a60-b944-74efb72facd2" special_riposte_id="124" />
+      <row perk_id="099599c2-6118-4a60-b944-74efb72facd2" special_riposte_id="125" />
+      <row perk_id="099599c2-6118-4a60-b944-74efb72facd2" special_riposte_id="126" />
+      <row perk_id="099599c2-6118-4a60-b944-74efb72facd2" special_riposte_id="127" />
+      <row perk_id="099599c2-6118-4a60-b944-74efb72facd2" special_riposte_id="128" />
+      <row perk_id="099599c2-6118-4a60-b944-74efb72facd2" special_riposte_id="129" />
+      <row perk_id="4ce9d281-afa1-4183-a0e8-1266e996a79d" special_riposte_id="106" />
+      <row perk_id="4ce9d281-afa1-4183-a0e8-1266e996a79d" special_riposte_id="107" />
+      <row perk_id="4ce9d281-afa1-4183-a0e8-1266e996a79d" special_riposte_id="108" />
+      <row perk_id="4ce9d281-afa1-4183-a0e8-1266e996a79d" special_riposte_id="109" />
+      <row perk_id="4ce9d281-afa1-4183-a0e8-1266e996a79d" special_riposte_id="110" />
+      <row perk_id="4ce9d281-afa1-4183-a0e8-1266e996a79d" special_riposte_id="111" />
+      <row perk_id="4ce9d281-afa1-4183-a0e8-1266e996a79d" special_riposte_id="112" />
+      <row perk_id="4ce9d281-afa1-4183-a0e8-1266e996a79d" special_riposte_id="113" />
+      <row perk_id="4ce9d281-afa1-4183-a0e8-1266e996a79d" special_riposte_id="114" />
+      <row perk_id="4ce9d281-afa1-4183-a0e8-1266e996a79d" special_riposte_id="115" />
+      <row perk_id="4ce9d281-afa1-4183-a0e8-1266e996a79d" special_riposte_id="116" />
+      <row perk_id="61e98757-9b32-493b-ad09-0087afdb81be" special_riposte_id="22" />
+      <row perk_id="61e98757-9b32-493b-ad09-0087afdb81be" special_riposte_id="23" />
+      <row perk_id="61e98757-9b32-493b-ad09-0087afdb81be" special_riposte_id="24" />
+      <row perk_id="61e98757-9b32-493b-ad09-0087afdb81be" special_riposte_id="25" />
+      <row perk_id="61e98757-9b32-493b-ad09-0087afdb81be" special_riposte_id="26" />
+      <row perk_id="61e98757-9b32-493b-ad09-0087afdb81be" special_riposte_id="27" />
+      <row perk_id="61e98757-9b32-493b-ad09-0087afdb81be" special_riposte_id="28" />
+      <row perk_id="61e98757-9b32-493b-ad09-0087afdb81be" special_riposte_id="29" />
+      <row perk_id="61e98757-9b32-493b-ad09-0087afdb81be" special_riposte_id="30" />
+      <row perk_id="61e98757-9b32-493b-ad09-0087afdb81be" special_riposte_id="31" />
+      <row perk_id="61e98757-9b32-493b-ad09-0087afdb81be" special_riposte_id="32" />
+      <row perk_id="61e98757-9b32-493b-ad09-0087afdb81be" special_riposte_id="33" />
+      <row perk_id="61e98757-9b32-493b-ad09-0087afdb81be" special_riposte_id="34" />
+      <row perk_id="61e98757-9b32-493b-ad09-0087afdb81be" special_riposte_id="35" />
+    </rows>
+  </table>
+</database>

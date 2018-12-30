@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="ai_body2npc_reference_point" version="1">
+    <header>
+      <column name="ai_body_id" type="uuid" />
+      <column name="npc_reference_point_id" type="uuid" />
+    </header>
+    <rows>
+      <row ai_body_id="00000000-0000-0000-0000-000000035001" npc_reference_point_id="00000000-0000-0000-0000-000000048301" />
+      <row ai_body_id="00000000-0000-0000-0000-000000035001" npc_reference_point_id="00000000-0000-0000-0000-000000048303" />
+      <row ai_body_id="00000000-0000-0000-0000-000000035002" npc_reference_point_id="00000000-0000-0000-0000-000000048301" />
+      <row ai_body_id="00000000-0000-0000-0000-000000035002" npc_reference_point_id="00000000-0000-0000-0000-000000048302" />
+      <row ai_body_id="00000000-0000-0000-0000-000000035002" npc_reference_point_id="00000000-0000-0000-0000-000000048303" />
+    </rows>
+  </table>
+</database>

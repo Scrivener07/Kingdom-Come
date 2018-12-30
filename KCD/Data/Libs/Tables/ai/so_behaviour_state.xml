@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="so_behaviour_state" version="1">
+    <header>
+      <column name="so_behaviour_state_id" type="integer" />
+      <column name="so_behaviour_state_name" type="character varying" />
+    </header>
+    <rows>
+      <row so_behaviour_state_id="0" so_behaviour_state_name="enabled" />
+      <row so_behaviour_state_id="1" so_behaviour_state_name="disabled" />
+      <row so_behaviour_state_id="2" so_behaviour_state_name="noRequests" />
+    </rows>
+  </table>
+</database>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="location2perk" version="1">
+    <header>
+      <column name="location_id" type="uuid" />
+      <column name="perk_id" type="uuid" />
+    </header>
+    <rows>
+      <row location_id="0874c462-fa23-40e3-a437-c6fea290af48" perk_id="0f783667-e997-4211-83fe-bfbaa29c9a49" />
+      <row location_id="0874c462-fa23-40e3-a437-c6fea290af48" perk_id="2cfb52ff-05f8-4277-bcb8-c10e821b2a78" />
+      <row location_id="0874c462-fa23-40e3-a437-c6fea290af48" perk_id="42a1dca4-3506-41f2-a67f-dd658cf214c0" />
+      <row location_id="0874c462-fa23-40e3-a437-c6fea290af48" perk_id="44cc5f4b-3341-4e64-9ae9-1de47a60d07d" />
+      <row location_id="0874c462-fa23-40e3-a437-c6fea290af48" perk_id="c533c01d-a2bb-47e6-9aa2-928fdd0bfd2b" />
+      <row location_id="0874c462-fa23-40e3-a437-c6fea290af48" perk_id="d027fe57-a3b1-439c-8504-81d97b61c6e4" />
+      <row location_id="0b82bf92-69b2-4d0c-8313-20f63197cf7a" perk_id="2fd7b50e-d07c-4446-9e4a-347de7df5bf6" />
+      <row location_id="0d7e5531-54ce-449f-8f4f-57f539b928b9" perk_id="75dd1878-5c21-45d4-aa96-a23a5cb98732" />
+      <row location_id="1eae7fc9-7292-4151-b706-1b0d99043004" perk_id="22a891c3-0e02-4035-a363-ae3d41397ef2" />
+      <row location_id="3622822e-f0ad-44a5-b20f-995f5f4e934a" perk_id="6909a968-3478-48b4-8edc-5cd2efbc50b1" />
+      <row location_id="54d02e5a-d80f-4a78-b4d4-bc7387641edf" perk_id="2d3236c2-08c8-41f1-999a-10d73a5e2b96" />
+      <row location_id="652f2cd0-9e47-4ea3-985a-355eaa2b13d4" perk_id="200a9a17-be64-437d-9354-d993f97b8182" />
+      <row location_id="652f2cd0-9e47-4ea3-985a-355eaa2b13d4" perk_id="734c075b-5354-4a72-b35c-21efa9c938cb" />
+      <row location_id="652f2cd0-9e47-4ea3-985a-355eaa2b13d4" perk_id="dc744495-333c-458b-88b8-a4fbd5efcc67" />
+      <row location_id="76e80b5c-06ba-4bce-aa89-899b50cee39d" perk_id="9b63c14e-68b8-41fc-826f-32686bcfe853" />
+      <row location_id="76e80b5c-06ba-4bce-aa89-899b50cee39d" perk_id="e47198f9-6710-4513-b7ac-43e01288e3dd" />
+      <row location_id="825da4d2-dfa4-4552-8373-3f07c1def1af" perk_id="24e01c3b-eba8-47fa-a74b-1132fcbda216" />
+      <row location_id="825da4d2-dfa4-4552-8373-3f07c1def1af" perk_id="7a5f8665-78b2-49f4-91d9-70dacb9db978" />
+      <row location_id="828eb313-f068-4dd1-ac65-a26ad7a91c69" perk_id="18cf4b97-5406-45ce-81e7-706ed3934e68" />
+      <row location_id="828eb313-f068-4dd1-ac65-a26ad7a91c69" perk_id="ad7c1670-7d83-4d5d-a98e-9a1d9cc445cc" />
+      <row location_id="83bb13a5-96b6-4909-9834-0228d8c6c124" perk_id="89fd6382-56ad-4e63-ae98-03e4f68876d0" />
+      <row location_id="850e6645-f899-472d-aeac-1c0888e85bf9" perk_id="28d68c88-6765-4c5e-9d67-31ccf8309f89" />
+      <row location_id="ba5f645d-de88-4c51-b0ba-fb1067b5ec6a" perk_id="f52c2b84-9434-41d7-ad81-bd8cc5869ca2" />
+      <row location_id="bd18a448-84f3-49c4-920d-6457f5fa7261" perk_id="1944cf3a-3048-4ab0-ad70-063961007e02" />
+      <row location_id="bd18a448-84f3-49c4-920d-6457f5fa7261" perk_id="1bb2892a-43a1-40c0-88cb-0f8753ea92dc" />
+      <row location_id="bd18a448-84f3-49c4-920d-6457f5fa7261" perk_id="1f8a2070-c21e-4d11-b3e0-f379c5394291" />
+      <row location_id="bd18a448-84f3-49c4-920d-6457f5fa7261" perk_id="2797b213-33bc-430d-8609-3eb2057c1095" />
+      <row location_id="bd18a448-84f3-49c4-920d-6457f5fa7261" perk_id="2eb5a46b-3d1e-460a-b4b8-f8373bad96c6" />
+      <row location_id="de719dc5-4edb-4e0e-9117-e3e450c15c40" perk_id="63a9291e-ed5e-4ab3-87f2-12d0494f10b8" />
+      <row location_id="ef9c79c7-582c-4e2b-82b1-2ef5c8540408" perk_id="33e5222c-1d6a-4a29-944a-793827c4cb8d" />
+      <row location_id="f1bedd2b-0848-41a3-99c9-61f4055cff23" perk_id="d6d35924-fd67-4ca9-a80f-80488530f2f6" />
+      <row location_id="f1bedd2b-0848-41a3-99c9-61f4055cff23" perk_id="e23cee67-1fd9-487c-9012-7a11d961e938" />
+    </rows>
+  </table>
+</database>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="armor_archetype" version="1">
+    <header>
+      <column name="armor_archetype_id" type="integer" />
+      <column name="armor_archetype_name" type="character varying" />
+    </header>
+    <rows>
+      <row armor_archetype_id="0" armor_archetype_name="BodyPlateCuirassDoubleLong" />
+      <row armor_archetype_id="1" armor_archetype_name="BodyPlateCuirassFrontShort" />
+      <row armor_archetype_id="2" armor_archetype_name="BodyPlateCuirassFrontLong" />
+      <row armor_archetype_id="3" armor_archetype_name="BodyPlateCuirassDoubleShort" />
+      <row armor_archetype_id="10" armor_archetype_name="BodyPlateCuirassFullShort" />
+      <row armor_archetype_id="11" armor_archetype_name="BodyPlateCuirassFullLong" />
+      <row armor_archetype_id="12" armor_archetype_name="BodyPlateCuirassFullLong_longSleeves" />
+      <row armor_archetype_id="13" armor_archetype_name="BodyPlateCuirassFullLong_shortSleeves" />
+      <row armor_archetype_id="14" armor_archetype_name="BodyChainVestShort" />
+      <row armor_archetype_id="15" armor_archetype_name="BodyChainShirt_shortSleeves" />
+      <row armor_archetype_id="16" armor_archetype_name="BodyChainShirt_longSleeves" />
+      <row armor_archetype_id="17" armor_archetype_name="BodyChainVestLong" />
+      <row armor_archetype_id="18" armor_archetype_name="BodyChainShirtLong_shortSleeves" />
+      <row armor_archetype_id="19" armor_archetype_name="BodyChainShirtLong_longSleeves" />
+      <row armor_archetype_id="20" armor_archetype_name="BodyChainOverall_noSleeves" />
+      <row armor_archetype_id="21" armor_archetype_name="BodyChainOverall_longSleeves" />
+      <row armor_archetype_id="22" armor_archetype_name="BodyClothShirt_noSleeves" />
+      <row armor_archetype_id="23" armor_archetype_name="BodyClothShirt_shortSleeves" />
+      <row armor_archetype_id="24" armor_archetype_name="BodyClothShirt_longSleeves" />
+      <row armor_archetype_id="25" armor_archetype_name="BodyClothShirtLong_noSleeves" />
+      <row armor_archetype_id="26" armor_archetype_name="BodyClothShirtLong_shortSleeves" />
+      <row armor_archetype_id="27" armor_archetype_name="BodyClothShirtLong_longSleeves" />
+      <row armor_archetype_id="28" armor_archetype_name="ArmsPlateShoulderGuards" />
+      <row armor_archetype_id="29" armor_archetype_name="ArmsPlateBackGuardsShort" />
+      <row armor_archetype_id="30" armor_archetype_name="ArmsPlateFullGuardsShort" />
+      <row armor_archetype_id="31" armor_archetype_name="ArmsPlateFullGuardsLong" />
+      <row armor_archetype_id="32" armor_archetype_name="ArmsPlateCombinedLong" />
+      <row armor_archetype_id="33" armor_archetype_name="ArmsPlateBackGuardsLong" />
+      <row armor_archetype_id="34" armor_archetype_name="ArmsPlateForearmBack" />
+      <row armor_archetype_id="35" armor_archetype_name="ArmsPlateForearmFull" />
+      <row armor_archetype_id="36" armor_archetype_name="HeadClothCap" />
+      <row armor_archetype_id="37" armor_archetype_name="HeadClothFullMask" />
+      <row armor_archetype_id="38" armor_archetype_name="HeadChainCap" />
+      <row armor_archetype_id="39" armor_archetype_name="HeadPlateHatSmall" />
+      <row armor_archetype_id="40" armor_archetype_name="HeadPlateHatBig" />
+      <row armor_archetype_id="41" armor_archetype_name="HeadPlateHelmOpen" />
+      <row armor_archetype_id="42" armor_archetype_name="HeadPlateHelmOpen_collar" />
+      <row armor_archetype_id="43" armor_archetype_name="HeadPlateHelmFull" />
+      <row armor_archetype_id="44" armor_archetype_name="HeadPlateHelmFull_collar" />
+      <row armor_archetype_id="45" armor_archetype_name="HandsGloves" />
+      <row armor_archetype_id="46" armor_archetype_name="HandsGlovesPlate_toBeDeleted" />
+      <row armor_archetype_id="47" armor_archetype_name="LegsClothTrousersLong" />
+      <row armor_archetype_id="48" armor_archetype_name="LegsClothTrousersShort" />
+      <row armor_archetype_id="49" armor_archetype_name="LegsChainTrousersLong" />
+      <row armor_archetype_id="50" armor_archetype_name="LegsChainTrousersLong_withFeet" />
+      <row armor_archetype_id="51" armor_archetype_name="LegsPlateProtsUpperFront" />
+      <row armor_archetype_id="52" armor_archetype_name="LegsPlateProtsUpperFull" />
+      <row armor_archetype_id="53" armor_archetype_name="LegsPlateProtsLowerFront" />
+      <row armor_archetype_id="54" armor_archetype_name="LegsPlateProtsLowerFull" />
+      <row armor_archetype_id="55" armor_archetype_name="LegsPlateProtsLongFront" />
+      <row armor_archetype_id="56" armor_archetype_name="LegsPlateProtsLongFull" />
+      <row armor_archetype_id="57" armor_archetype_name="LegsPlateProtsLongFront_withFeet" />
+      <row armor_archetype_id="58" armor_archetype_name="LegsPlateProtsLongFull_withFeet" />
+      <row armor_archetype_id="59" armor_archetype_name="FeetBoots" />
+      <row armor_archetype_id="60" armor_archetype_name="_FOOT" />
+      <row armor_archetype_id="61" armor_archetype_name="_LOWER_BODY" />
+      <row armor_archetype_id="62" armor_archetype_name="_LOWER_BODY_2" />
+      <row armor_archetype_id="63" armor_archetype_name="_LOWER_BODY_3" />
+      <row armor_archetype_id="64" armor_archetype_name="_UPPER_BODY" />
+      <row armor_archetype_id="65" armor_archetype_name="_UPPER_BODY_2" />
+      <row armor_archetype_id="66" armor_archetype_name="_UPPER_BODY_3" />
+      <row armor_archetype_id="67" armor_archetype_name="_UPPER_BODY_4" />
+      <row armor_archetype_id="68" armor_archetype_name="_HAND" />
+      <row armor_archetype_id="69" armor_archetype_name="_ARM" />
+      <row armor_archetype_id="70" armor_archetype_name="_HEAD" />
+      <row armor_archetype_id="71" armor_archetype_name="_HEAD_2" />
+      <row armor_archetype_id="72" armor_archetype_name="_HEAD_3" />
+      <row armor_archetype_id="73" armor_archetype_name="HeadPlateHelmOpen_chainCollar" />
+      <row armor_archetype_id="74" armor_archetype_name="HorseTrappingsFull" />
+      <row armor_archetype_id="75" armor_archetype_name="HorseSaddle" />
+      <row armor_archetype_id="76" armor_archetype_name="HorseArmorHeadNeck" />
+      <row armor_archetype_id="77" armor_archetype_name="HorseBridle" />
+      <row armor_archetype_id="78" armor_archetype_name="Tmp_HoodOn" />
+      <row armor_archetype_id="79" armor_archetype_name="Tmp_HoodDown" />
+      <row armor_archetype_id="80" armor_archetype_name="Ring" />
+      <row armor_archetype_id="81" armor_archetype_name="Spur" />
+      <row armor_archetype_id="82" armor_archetype_name="Necklace" />
+      <row armor_archetype_id="83" armor_archetype_name="Robe" />
+      <row armor_archetype_id="84" armor_archetype_name="ArmsPlateFullBack_withShoulders" />
+      <row armor_archetype_id="85" armor_archetype_name="ArmsPlateFullComplete_withShoulders" />
+      <row armor_archetype_id="86" armor_archetype_name="BodyDecorShirtLong_shortSleeves" />
+      <row armor_archetype_id="87" armor_archetype_name="HorseShoe" />
+      <row armor_archetype_id="88" armor_archetype_name="HeadChainCap_collarOnly" />
+      <row armor_archetype_id="89" armor_archetype_name="HeadChainCap_withCollar" />
+      <row armor_archetype_id="90" armor_archetype_name="HeadClothCap_withCollar" />
+      <row armor_archetype_id="91" armor_archetype_name="BodyDecorLong_noSleeves" />
+      <row armor_archetype_id="92" armor_archetype_name="BodyDecorUltraLong_noSleeves" />
+      <row armor_archetype_id="93" armor_archetype_name="Robe_cape" />
+    </rows>
+  </table>
+</database>

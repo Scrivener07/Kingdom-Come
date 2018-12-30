@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="misc_subtype" version="1">
+    <header>
+      <column name="misc_subtype_id" type="integer" />
+      <column name="misc_subtype_name" type="character varying" />
+    </header>
+    <rows />
+  </table>
+</database>

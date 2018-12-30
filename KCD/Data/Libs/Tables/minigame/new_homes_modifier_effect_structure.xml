@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="new_homes_modifier_effect_structure" version="1">
+    <header>
+      <column name="income" type="integer" />
+      <column name="modifier_effect_id" type="integer" />
+      <column name="people" type="integer" />
+      <column name="structure_id" type="integer" />
+      <column name="ui_receiving_effect_desc" type="character varying" />
+    </header>
+    <rows>
+      <row income="0" modifier_effect_id="6" people="0" structure_id="8" ui_receiving_effect_desc="ui_nh_eff_rec_stone_talmberk" />
+      <row income="-160" modifier_effect_id="7" people="0" structure_id="8" ui_receiving_effect_desc="ui_nh_eff_rec_grain_auschitz" />
+      <row income="-120" modifier_effect_id="8" people="0" structure_id="8" ui_receiving_effect_desc="ui_nh_eff_rec_grain_sasau" />
+      <row income="-80" modifier_effect_id="9" people="0" structure_id="8" ui_receiving_effect_desc="ui_nh_eff_rec_grain_samopesh" />
+      <row income="-220" modifier_effect_id="10" people="0" structure_id="8" ui_receiving_effect_desc="ui_nh_eff_rec_coal" />
+      <row income="-180" modifier_effect_id="11" people="0" structure_id="8" ui_receiving_effect_desc="ui_nh_eff_rec_coal_ginger" />
+      <row income="-30" modifier_effect_id="12" people="0" structure_id="8" ui_receiving_effect_desc="ui_nh_eff_rec_meat_ledecko" />
+      <row income="-70" modifier_effect_id="13" people="0" structure_id="8" ui_receiving_effect_desc="ui_nh_eff_rec_meat_rataje" />
+      <row income="-50" modifier_effect_id="14" people="0" structure_id="8" ui_receiving_effect_desc="ui_nh_eff_rec_meat_sazava" />
+      <row income="70" modifier_effect_id="15" people="0" structure_id="4" ui_receiving_effect_desc="ui_nh_eff_rec_zach" />
+      <row income="10" modifier_effect_id="16" people="0" structure_id="4" ui_receiving_effect_desc="ui_nh_eff_rec_ota" />
+      <row income="60" modifier_effect_id="17" people="0" structure_id="4" ui_receiving_effect_desc="ui_nh_eff_rec_zvest" />
+      <row income="30" modifier_effect_id="18" people="0" structure_id="9" ui_receiving_effect_desc="ui_nh_eff_rec_adam" />
+      <row income="50" modifier_effect_id="19" people="0" structure_id="9" ui_receiving_effect_desc="ui_nh_eff_rec_mirka" />
+      <row income="-15" modifier_effect_id="20" people="0" structure_id="9" ui_receiving_effect_desc="ui_nh_eff_rec_fricek" />
+      <row income="-15" modifier_effect_id="21" people="0" structure_id="9" ui_receiving_effect_desc="ui_nh_eff_rec_matus" />
+      <row income="75" modifier_effect_id="22" people="0" structure_id="8" ui_receiving_effect_desc="ui_nh_eff_rec_krojchanzl" />
+      <row income="35" modifier_effect_id="23" people="0" structure_id="2" ui_receiving_effect_desc="ui_nh_eff_rec_kunes" />
+      <row income="40" modifier_effect_id="24" people="0" structure_id="2" ui_receiving_effect_desc="ui_nh_eff_rec_malina" />
+      <row income="55" modifier_effect_id="25" people="0" structure_id="10" ui_receiving_effect_desc="ui_nh_eff_rec_marek" />
+      <row income="45" modifier_effect_id="26" people="0" structure_id="10" ui_receiving_effect_desc="ui_nh_eff_rec_vasek" />
+      <row income="50" modifier_effect_id="31" people="0" structure_id="13" ui_receiving_effect_desc="ui_nh_eff_rec_krkovicka" />
+      <row income="45" modifier_effect_id="32" people="0" structure_id="13" ui_receiving_effect_desc="ui_nh_eff_rec_spejlik" />
+      <row income="75" modifier_effect_id="33" people="0" structure_id="12" ui_receiving_effect_desc="ui_nh_eff_rec_petr" />
+      <row income="180" modifier_effect_id="34" people="0" structure_id="2" ui_receiving_effect_desc="ui_nh_eff_rec_export_wood" />
+      <row income="250" modifier_effect_id="49" people="0" structure_id="4" ui_receiving_effect_desc="ui_nh_eff_rec_weaponsmith" />
+      <row income="250" modifier_effect_id="50" people="0" structure_id="4" ui_receiving_effect_desc="ui_nh_eff_rec_armorsmith" />
+      <row income="-5" modifier_effect_id="51" people="0" structure_id="7" ui_receiving_effect_desc="ui_nh_eff_rec_alchemy" />
+      <row income="-5" modifier_effect_id="52" people="0" structure_id="7" ui_receiving_effect_desc="ui_nh_eff_rec_garden" />
+      <row income="300" modifier_effect_id="53" people="0" structure_id="9" ui_receiving_effect_desc="ui_nh_eff_rec_brewery" />
+      <row income="200" modifier_effect_id="54" people="0" structure_id="9" ui_receiving_effect_desc="ui_nh_eff_rec_gamblers" />
+      <row income="0" modifier_effect_id="55" people="2" structure_id="17" ui_receiving_effect_desc="ui_nh_eff_rec_altar" />
+      <row income="0" modifier_effect_id="56" people="2" structure_id="17" ui_receiving_effect_desc="ui_nh_eff_rec_painting" />
+      <row income="70" modifier_effect_id="57" people="0" structure_id="10" ui_receiving_effect_desc="ui_nh_eff_rec_saddles" />
+      <row income="50" modifier_effect_id="60" people="0" structure_id="11" ui_receiving_effect_desc="ui_nh_eff_rec_archeryRange" />
+      <row income="85" modifier_effect_id="61" people="0" structure_id="12" ui_receiving_effect_desc="ui_nh_eff_rec_dryfood" />
+      <row income="100" modifier_effect_id="62" people="0" structure_id="13" ui_receiving_effect_desc="ui_nh_eff_rec_smokehouse" />
+      <row income="70" modifier_effect_id="63" people="0" structure_id="9" ui_receiving_effect_desc="ui_nh_eff_rec_butcher_pub" />
+      <row income="50" modifier_effect_id="64" people="0" structure_id="9" ui_receiving_effect_desc="ui_nh_eff_rec_baker_pub" />
+      <row income="35" modifier_effect_id="65" people="0" structure_id="10" ui_receiving_effect_desc="ui_nh_eff_rec_blacksmith_stables" />
+      <row income="35" modifier_effect_id="66" people="0" structure_id="11" ui_receiving_effect_desc="ui_nh_eff_rec_blacksmith_garrison" />
+      <row income="80" modifier_effect_id="67" people="0" structure_id="12" ui_receiving_effect_desc="ui_nh_eff_rec_apiary_baker" />
+      <row income="30" modifier_effect_id="68" people="0" structure_id="7" ui_receiving_effect_desc="ui_nh_eff_rec_poachers_keep" />
+      <row income="-10" modifier_effect_id="69" people="1" structure_id="7" ui_receiving_effect_desc="ui_nh_eff_rec_poachers_confiscate" />
+      <row income="40" modifier_effect_id="70" people="-1" structure_id="7" ui_receiving_effect_desc="ui_nh_eff_rec_poachers_denounce" />
+      <row income="5" modifier_effect_id="74" people="0" structure_id="4" ui_receiving_effect_desc="ui_nh_eff_rec_prachos_punishHusband" />
+      <row income="-10" modifier_effect_id="75" people="-1" structure_id="4" ui_receiving_effect_desc="ui_nh_eff_rec_prachos_banishWife" />
+      <row income="0" modifier_effect_id="78" people="-2" structure_id="7" ui_receiving_effect_desc="ui_nh_eff_rec_grain_confiscate" />
+      <row income="45" modifier_effect_id="80" people="1" structure_id="7" ui_receiving_effect_desc="ui_nh_eff_rec_witch_banish" />
+      <row income="30" modifier_effect_id="81" people="2" structure_id="7" ui_receiving_effect_desc="ui_nh_eff_rec_witch_protect" />
+      <row income="-40" modifier_effect_id="82" people="3" structure_id="12" ui_receiving_effect_desc="ui_nh_eff_rec_baker_bigBread" />
+      <row income="30" modifier_effect_id="83" people="0" structure_id="12" ui_receiving_effect_desc="ui_nh_eff_rec_baker_blackBread" />
+      <row income="20" modifier_effect_id="84" people="2" structure_id="7" ui_receiving_effect_desc="ui_nh_eff_rec_baker_scale" />
+      <row income="150" modifier_effect_id="85" people="-10" structure_id="2" ui_receiving_effect_desc="ui_nh_eff_rec_wood_banish" />
+      <row income="5" modifier_effect_id="86" people="0" structure_id="2" ui_receiving_effect_desc="ui_nh_eff_rec_malina_banish" />
+      <row income="0" modifier_effect_id="87" people="0" structure_id="7" ui_receiving_effect_desc="ui_nh_eff_rec_malina_payoff" />
+      <row income="-5" modifier_effect_id="88" people="1" structure_id="7" ui_receiving_effect_desc="ui_nh_eff_rec_excrement_far" />
+      <row income="5" modifier_effect_id="89" people="0" structure_id="7" ui_receiving_effect_desc="ui_nh_eff_rec_excrement_compromise" />
+      <row income="0" modifier_effect_id="90" people="-2" structure_id="7" ui_receiving_effect_desc="ui_nh_eff_rec_excrement_anywhere" />
+      <row income="50" modifier_effect_id="91" people="-2" structure_id="7" ui_receiving_effect_desc="ui_nh_eff_rec_bread_hungry" />
+      <row income="10" modifier_effect_id="92" people="0" structure_id="7" ui_receiving_effect_desc="ui_nh_eff_rec_friends_fricekProductive" />
+      <row income="10" modifier_effect_id="93" people="0" structure_id="7" ui_receiving_effect_desc="ui_nh_eff_rec_friends_matusProductive" />
+      <row income="100" modifier_effect_id="98" people="0" structure_id="9" ui_receiving_effect_desc="ui_nh_eff_rec_apiary_pub" />
+      <row income="120" modifier_effect_id="99" people="0" structure_id="8" ui_receiving_effect_desc="ui_nh_eff_rec_stables_merchant" />
+      <row income="150" modifier_effect_id="100" people="0" structure_id="9" ui_receiving_effect_desc="ui_nh_eff_rec_garrison_pub" />
+      <row income="-55" modifier_effect_id="101" people="0" structure_id="7" ui_receiving_effect_desc="ui_nh_eff_rec_salary_low" />
+      <row income="-80" modifier_effect_id="102" people="0" structure_id="7" ui_receiving_effect_desc="ui_nh_eff_rec_salary_medium" />
+      <row income="-120" modifier_effect_id="103" people="0" structure_id="7" ui_receiving_effect_desc="ui_nh_eff_rec_salary_high" />
+      <row income="-10" modifier_effect_id="106" people="0" structure_id="19" ui_receiving_effect_desc="ui_nh_eff_rec_reinf_varlets" />
+      <row income="-10" modifier_effect_id="107" people="0" structure_id="2" ui_receiving_effect_desc="ui_nh_eff_rec_reinf_lumberjacks" />
+      <row income="60" modifier_effect_id="108" people="0" structure_id="2" ui_receiving_effect_desc="ui_nh_eff_rec_oxen" />
+      <row income="0" modifier_effect_id="113" people="-2" structure_id="7" ui_receiving_effect_desc="ui_nh_eff_rec_reinf_none" />
+    </rows>
+  </table>
+</database>

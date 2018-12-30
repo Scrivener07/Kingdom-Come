@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="character_beard" version="1">
+    <header>
+      <column name="character_beard_archetype_id" type="integer" />
+      <column name="character_beard_id" type="uuid" />
+      <column name="character_beard_name" type="character varying" />
+      <column name="computer_name" type="character varying" />
+      <column name="gender_id" type="integer" />
+      <column name="material" type="character varying" />
+      <column name="model" type="character varying" />
+      <column name="race_id" type="integer" />
+      <column name="social_class_id" type="integer" />
+      <column name="timestamp" type="character varying" />
+      <column name="wealth_level" type="integer" />
+    </header>
+    <rows>
+      <row character_beard_archetype_id="" character_beard_id="00000000-0000-0000-0000-000000000001" character_beard_name="character_beard1" computer_name="" gender_id="0" material="placeholder5_beard" model="placeholder5_beard" race_id="0" social_class_id="1" timestamp="" wealth_level="0" />
+      <row character_beard_archetype_id="" character_beard_id="00000000-0000-0000-0000-000000000002" character_beard_name="character_beard0" computer_name="" gender_id="0" material="placeholder588_beard" model="placeholder2_beard" race_id="0" social_class_id="1" timestamp="" wealth_level="0" />
+      <row character_beard_archetype_id="" character_beard_id="41bc62ec-7c44-df5f-ba5d-ed1c947ad5bb" character_beard_name="beard_004" computer_name="" gender_id="0" material="s1_beard_004" model="s1_beard_004" race_id="0" social_class_id="1" timestamp="" wealth_level="0" />
+      <row character_beard_archetype_id="" character_beard_id="44f3268b-19c5-f927-68f6-3db19b76039a" character_beard_name="beard_006" computer_name="JIRIBARTONEK-DT" gender_id="0" material="s1_beard_004" model="s1_beard_006" race_id="0" social_class_id="1" timestamp="22/02/2013 10:50" wealth_level="0" />
+      <row character_beard_archetype_id="" character_beard_id="475aa754-1934-cc14-f6c5-c8d5eceeb9b3" character_beard_name="beard_005" computer_name="" gender_id="0" material="s1_beard_005" model="s1_beard_005" race_id="0" social_class_id="1" timestamp="" wealth_level="0" />
+      <row character_beard_archetype_id="" character_beard_id="4ac1f48b-1e54-b61c-9e25-cbee1db5a587" character_beard_name="beard_006b" computer_name="MPODPROCKY-DT" gender_id="0" material="s1_beard_004" model="s1_beard_006" race_id="0" social_class_id="1" timestamp="02/09/2014 13:13" wealth_level="0" />
+      <row character_beard_archetype_id="" character_beard_id="4da434ba-ddab-3280-b60a-9817420638a4" character_beard_name="beard_003" computer_name="" gender_id="0" material="s1_beard_003" model="s1_beard_003" race_id="0" social_class_id="1" timestamp="" wealth_level="0" />
+    </rows>
+  </table>
+</database>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="combat_zone_distance" version="1">
+    <header>
+      <column name="combat_distance" type="real" />
+      <column name="defense_guard_distance" type="real" />
+      <column name="dst_combat_zone_id" type="integer" />
+      <column name="rpg_distance" type="real" />
+      <column name="src_combat_zone_id" type="integer" />
+      <column name="visual_guard_distance" type="real" />
+    </header>
+    <rows>
+      <row combat_distance="0" defense_guard_distance="1" dst_combat_zone_id="-1" rpg_distance="0" src_combat_zone_id="-1" visual_guard_distance="1" />
+      <row combat_distance="0" defense_guard_distance="2" dst_combat_zone_id="0" rpg_distance="0" src_combat_zone_id="0" visual_guard_distance="0.2" />
+      <row combat_distance="1" defense_guard_distance="2" dst_combat_zone_id="1" rpg_distance="1" src_combat_zone_id="0" visual_guard_distance="1" />
+      <row combat_distance="1" defense_guard_distance="2" dst_combat_zone_id="2" rpg_distance="1" src_combat_zone_id="0" visual_guard_distance="1" />
+      <row combat_distance="3" defense_guard_distance="2" dst_combat_zone_id="3" rpg_distance="2" src_combat_zone_id="0" visual_guard_distance="0.8" />
+      <row combat_distance="3" defense_guard_distance="2" dst_combat_zone_id="4" rpg_distance="2" src_combat_zone_id="0" visual_guard_distance="0.8" />
+      <row combat_distance="2" defense_guard_distance="2" dst_combat_zone_id="5" rpg_distance="1" src_combat_zone_id="0" visual_guard_distance="1" />
+      <row combat_distance="1" defense_guard_distance="1" dst_combat_zone_id="0" rpg_distance="1" src_combat_zone_id="1" visual_guard_distance="1" />
+      <row combat_distance="0" defense_guard_distance="0" dst_combat_zone_id="1" rpg_distance="0" src_combat_zone_id="1" visual_guard_distance="0.2" />
+      <row combat_distance="2" defense_guard_distance="2" dst_combat_zone_id="2" rpg_distance="2" src_combat_zone_id="1" visual_guard_distance="0.8" />
+      <row combat_distance="1" defense_guard_distance="1" dst_combat_zone_id="3" rpg_distance="1" src_combat_zone_id="1" visual_guard_distance="0.6" />
+      <row combat_distance="3" defense_guard_distance="2" dst_combat_zone_id="4" rpg_distance="2" src_combat_zone_id="1" visual_guard_distance="1" />
+      <row combat_distance="2" defense_guard_distance="1" dst_combat_zone_id="5" rpg_distance="1" src_combat_zone_id="1" visual_guard_distance="1" />
+      <row combat_distance="1" defense_guard_distance="1" dst_combat_zone_id="0" rpg_distance="1" src_combat_zone_id="2" visual_guard_distance="1" />
+      <row combat_distance="2" defense_guard_distance="2" dst_combat_zone_id="1" rpg_distance="2" src_combat_zone_id="2" visual_guard_distance="0.8" />
+      <row combat_distance="0" defense_guard_distance="0" dst_combat_zone_id="2" rpg_distance="0" src_combat_zone_id="2" visual_guard_distance="0.2" />
+      <row combat_distance="3" defense_guard_distance="2" dst_combat_zone_id="3" rpg_distance="2" src_combat_zone_id="2" visual_guard_distance="1" />
+      <row combat_distance="1" defense_guard_distance="1" dst_combat_zone_id="4" rpg_distance="1" src_combat_zone_id="2" visual_guard_distance="0.6" />
+      <row combat_distance="2" defense_guard_distance="1" dst_combat_zone_id="5" rpg_distance="1" src_combat_zone_id="2" visual_guard_distance="1" />
+      <row combat_distance="3" defense_guard_distance="2" dst_combat_zone_id="0" rpg_distance="2" src_combat_zone_id="3" visual_guard_distance="0.7" />
+      <row combat_distance="1" defense_guard_distance="1" dst_combat_zone_id="1" rpg_distance="1" src_combat_zone_id="3" visual_guard_distance="0.6" />
+      <row combat_distance="3" defense_guard_distance="2" dst_combat_zone_id="2" rpg_distance="2" src_combat_zone_id="3" visual_guard_distance="1" />
+      <row combat_distance="0" defense_guard_distance="0" dst_combat_zone_id="3" rpg_distance="0" src_combat_zone_id="3" visual_guard_distance="0.2" />
+      <row combat_distance="2" defense_guard_distance="2" dst_combat_zone_id="4" rpg_distance="2" src_combat_zone_id="3" visual_guard_distance="0.8" />
+      <row combat_distance="2" defense_guard_distance="2" dst_combat_zone_id="5" rpg_distance="1" src_combat_zone_id="3" visual_guard_distance="0.6" />
+      <row combat_distance="3" defense_guard_distance="2" dst_combat_zone_id="0" rpg_distance="2" src_combat_zone_id="4" visual_guard_distance="0.7" />
+      <row combat_distance="3" defense_guard_distance="2" dst_combat_zone_id="1" rpg_distance="2" src_combat_zone_id="4" visual_guard_distance="1" />
+      <row combat_distance="1" defense_guard_distance="1" dst_combat_zone_id="2" rpg_distance="1" src_combat_zone_id="4" visual_guard_distance="0.6" />
+      <row combat_distance="2" defense_guard_distance="2" dst_combat_zone_id="3" rpg_distance="2" src_combat_zone_id="4" visual_guard_distance="0.8" />
+      <row combat_distance="0" defense_guard_distance="0" dst_combat_zone_id="4" rpg_distance="0" src_combat_zone_id="4" visual_guard_distance="0.2" />
+      <row combat_distance="2" defense_guard_distance="2" dst_combat_zone_id="5" rpg_distance="1" src_combat_zone_id="4" visual_guard_distance="0.6" />
+      <row combat_distance="2" defense_guard_distance="2" dst_combat_zone_id="0" rpg_distance="1" src_combat_zone_id="5" visual_guard_distance="1" />
+      <row combat_distance="2" defense_guard_distance="2" dst_combat_zone_id="1" rpg_distance="1" src_combat_zone_id="5" visual_guard_distance="1" />
+      <row combat_distance="1" defense_guard_distance="2" dst_combat_zone_id="2" rpg_distance="1" src_combat_zone_id="5" visual_guard_distance="1" />
+      <row combat_distance="2" defense_guard_distance="2" dst_combat_zone_id="3" rpg_distance="1" src_combat_zone_id="5" visual_guard_distance="0.6" />
+      <row combat_distance="2" defense_guard_distance="2" dst_combat_zone_id="4" rpg_distance="1" src_combat_zone_id="5" visual_guard_distance="0.6" />
+      <row combat_distance="0" defense_guard_distance="2" dst_combat_zone_id="5" rpg_distance="0" src_combat_zone_id="5" visual_guard_distance="0.5" />
+    </rows>
+  </table>
+</database>

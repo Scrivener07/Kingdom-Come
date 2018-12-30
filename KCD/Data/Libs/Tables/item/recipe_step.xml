@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="recipe_step" version="1">
+    <header>
+      <column name="condition" type="character varying" />
+      <column name="recipe_id" type="integer" />
+      <column name="recipe_step_id" type="integer" />
+      <column name="ui_text" type="character varying" />
+    </header>
+    <rows>
+      <row condition="IngredientCount('310e921d-da62-48e4-88ef-de9f295e0045')==1 AND IngredientCount ('4d9e61aa-3f90-4e5d-b836-f9e158196438')==2 AND IngredientCount ('b9de1d84-a0c1-4b81-9f60-8d7fbb3cb9d4')==1" recipe_id="2" recipe_step_id="1" ui_text="alch_absintium_step_1" />
+      <row condition="BoilingTime('b9de1d84-a0c1-4b81-9f60-8d7fbb3cb9d4', 1)" recipe_id="2" recipe_step_id="2" ui_text="alch_absintium_step_2" />
+      <row condition="IsMilled('4d9e61aa-3f90-4e5d-b836-f9e158196438')" recipe_id="2" recipe_step_id="3" ui_text="alch_absintium_step_3" />
+      <row condition="BoilingTime('4d9e61aa-3f90-4e5d-b836-f9e158196438', 2)" recipe_id="2" recipe_step_id="4" ui_text="alch_absintium_step_4" />
+      <row condition="IsDistilled('310e921d-da62-48e4-88ef-de9f295e0045')" recipe_id="2" recipe_step_id="5" ui_text="alch_absintium_step_5" />
+      <row condition="!IsMilled('b9de1d84-a0c1-4b81-9f60-8d7fbb3cb9d4')" recipe_id="2" recipe_step_id="6" ui_text="" />
+      <row condition="IngredientCount('e96d768e-04e5-4480-9197-1c256d642ddc')==1 AND IngredientCount ('a364b800-c1ca-4bd1-92cb-ae1689bfa7ea')==2 AND IngredientCount ('5e9b4fa1-aafa-4352-b5d6-58df2c263caa')==1 AND IngredientCount ('f879ac63-2ce2-4114-83a2-89643c1ed102')==1" recipe_id="3" recipe_step_id="1" ui_text="alch_antidote_step_1" />
+      <row condition="BoilingTime('a364b800-c1ca-4bd1-92cb-ae1689bfa7ea', 3)" recipe_id="3" recipe_step_id="2" ui_text="alch_antidote_step_2" />
+      <row condition="BoilingTime('5e9b4fa1-aafa-4352-b5d6-58df2c263caa', 1)" recipe_id="3" recipe_step_id="3" ui_text="alch_antidote_step_3" />
+      <row condition="" recipe_id="3" recipe_step_id="4" ui_text="alch_antidote_step_4" />
+      <row condition="IngredientPos('f879ac63-2ce2-4114-83a2-89643c1ed102')&gt;=4 AND BoilingTime('f879ac63-2ce2-4114-83a2-89643c1ed102', 0)" recipe_id="3" recipe_step_id="5" ui_text="alch_antidote_step_5" />
+      <row condition="!IsDistilled('e96d768e-04e5-4480-9197-1c256d642ddc')" recipe_id="3" recipe_step_id="6" ui_text="" />
+      <row condition="IngredientCount('310e921d-da62-48e4-88ef-de9f295e0045')==1 AND IngredientCount ('0290b689-c01c-480f-b121-bed71ad1f5e0')==2 AND IngredientCount ('9b771c16-c0b1-438c-aeda-8c4d3ce28465')==1" recipe_id="4" recipe_step_id="1" ui_text="alch_archer_step_1" />
+      <row condition="BoilingTime('0290b689-c01c-480f-b121-bed71ad1f5e0', 3)" recipe_id="4" recipe_step_id="2" ui_text="alch_archer_step_2" />
+      <row condition="" recipe_id="4" recipe_step_id="3" ui_text="alch_archer_step_3" />
+      <row condition="IsMilled('9b771c16-c0b1-438c-aeda-8c4d3ce28465')" recipe_id="4" recipe_step_id="4" ui_text="alch_archer_step_4" />
+      <row condition="BoilingTime('9b771c16-c0b1-438c-aeda-8c4d3ce28465', 0)" recipe_id="4" recipe_step_id="5" ui_text="alch_archer_step_5" />
+      <row condition="!IsMilled('0290b689-c01c-480f-b121-bed71ad1f5e0')" recipe_id="4" recipe_step_id="6" ui_text="" />
+      <row condition="IngredientCount('d5efb270-948b-4a38-b391-38b2edd31c8d')==1 AND IngredientCount ('a314b580-bc97-4802-ae1f-8f4803e34503')==2 AND IngredientCount ('4d9e61aa-3f90-4e5d-b836-f9e158196438')==1 AND IngredientCount ('abb6cc5a-3592-406f-82ab-edfb73e219be')==1" recipe_id="5" recipe_step_id="1" ui_text="alch_bane_step_1" />
+      <row condition="BoilingTime('4d9e61aa-3f90-4e5d-b836-f9e158196438', 2)" recipe_id="5" recipe_step_id="2" ui_text="alch_bane_step_2" />
+      <row condition="" recipe_id="5" recipe_step_id="3" ui_text="alch_bane_step_3" />
+      <row condition="IsMilled('a314b580-bc97-4802-ae1f-8f4803e34503')" recipe_id="5" recipe_step_id="4" ui_text="alch_bane_step_4" />
+      <row condition="BoilingTime('a314b580-bc97-4802-ae1f-8f4803e34503 ', 0)" recipe_id="5" recipe_step_id="5" ui_text="alch_bane_step_5" />
+      <row condition="IngredientPos('abb6cc5a-3592-406f-82ab-edfb73e219be')&gt;=4" recipe_id="5" recipe_step_id="6" ui_text="alch_bane_step_6" />
+      <row condition="IsDistilled('d5efb270-948b-4a38-b391-38b2edd31c8d')" recipe_id="5" recipe_step_id="7" ui_text="alch_bane_step_7" />
+      <row condition="IngredientCount('a314b580-bc97-4802-ae1f-8f4803e34503')==1 AND IngredientCount ('34bd1d0b-1203-42a0-b9b4-d3585a4d9b48')==1 AND IngredientCount ('9b771c16-c0b1-438c-aeda-8c4d3ce28465')==1 AND  IngredientCount('5e9b4fa1-aafa-4352-b5d6-58df2c263caa')==1 AND IngredientCount ('f879ac63-2ce2-4114-83a2-89643c1ed102')==1" recipe_id="6" recipe_step_id="1" ui_text="alch_bard_step_1" />
+      <row condition="IsMilled('9b771c16-c0b1-438c-aeda-8c4d3ce28465')" recipe_id="6" recipe_step_id="2" ui_text="alch_bard_step_2" />
+      <row condition="IsMilled('5e9b4fa1-aafa-4352-b5d6-58df2c263caa')" recipe_id="6" recipe_step_id="3" ui_text="alch_bard_step_3" />
+      <row condition="" recipe_id="6" recipe_step_id="4" ui_text="alch_bard_step_4" />
+      <row condition="BoilingTime('9b771c16-c0b1-438c-aeda-8c4d3ce28465', 2) AND BoilingTime('5e9b4fa1-aafa-4352-b5d6-58df2c263caa', 2) AND BoilingTime('a314b580-bc97-4802-ae1f-8f4803e34503', 2)" recipe_id="6" recipe_step_id="5" ui_text="alch_bard_step_5" />
+      <row condition="IngredientPos('f879ac63-2ce2-4114-83a2-89643c1ed102')&gt;4" recipe_id="6" recipe_step_id="6" ui_text="alch_bard_step_6" />
+      <row condition="!IsDistilled('34bd1d0b-1203-42a0-b9b4-d3585a4d9b48')" recipe_id="6" recipe_step_id="7" ui_text="" />
+      <row condition="IngredientCount('d5efb270-948b-4a38-b391-38b2edd31c8d')==1 AND IngredientCount ('b9de1d84-a0c1-4b81-9f60-8d7fbb3cb9d4')==2 AND IngredientCount ('4d9e61aa-3f90-4e5d-b836-f9e158196438')==1 AND IngredientCount ('a40e513f-045e-421c-99c9-c10dae3d9fe1')==1" recipe_id="7" recipe_step_id="1" ui_text="alch_berserk_step_1" />
+      <row condition="IsMilled('4d9e61aa-3f90-4e5d-b836-f9e158196438')" recipe_id="7" recipe_step_id="2" ui_text="alch_berserk_step_2" />
+      <row condition="BoilingTime('b9de1d84-a0c1-4b81-9f60-8d7fbb3cb9d4', 3)" recipe_id="7" recipe_step_id="3" ui_text="alch_berserk_step_3" />
+      <row condition="BoilingTime('4d9e61aa-3f90-4e5d-b836-f9e158196438', 0)" recipe_id="7" recipe_step_id="4" ui_text="alch_berserk_step_4" />
+      <row condition="IngredientPos('a40e513f-045e-421c-99c9-c10dae3d9fe1')&gt;3" recipe_id="7" recipe_step_id="5" ui_text="alch_berserk_step_5" />
+      <row condition="IsDistilled('d5efb270-948b-4a38-b391-38b2edd31c8d')" recipe_id="7" recipe_step_id="6" ui_text="alch_berserk_step_6" />
+      <row condition="IngredientCount('d5efb270-948b-4a38-b391-38b2edd31c8d')==1 AND IngredientCount ('b9de1d84-a0c1-4b81-9f60-8d7fbb3cb9d4')==1 AND IngredientCount ('a364b800-c1ca-4bd1-92cb-ae1689bfa7ea')==2" recipe_id="8" recipe_step_id="1" ui_text="alch_dementia_step_1" />
+      <row condition="IsMilled('b9de1d84-a0c1-4b81-9f60-8d7fbb3cb9d4')" recipe_id="8" recipe_step_id="2" ui_text="alch_dementia_step_2" />
+      <row condition="BoilingTime('a364b800-c1ca-4bd1-92cb-ae1689bfa7ea', 2)" recipe_id="8" recipe_step_id="3" ui_text="alch_dementia_step_3" />
+      <row condition="BoilingTime('b9de1d84-a0c1-4b81-9f60-8d7fbb3cb9d4', 1)" recipe_id="8" recipe_step_id="4" ui_text="alch_dementia_step_4" />
+      <row condition="IsDistilled('b9de1d84-a0c1-4b81-9f60-8d7fbb3cb9d4')" recipe_id="8" recipe_step_id="5" ui_text="alch_dementia_step_5" />
+      <row condition="!IsDistilled('d5efb270-948b-4a38-b391-38b2edd31c8d')" recipe_id="8" recipe_step_id="6" ui_text="" />
+      <row condition="!IsMilled('a364b800-c1ca-4bd1-92cb-ae1689bfa7ea')" recipe_id="8" recipe_step_id="7" ui_text="" />
+      <row condition="IngredientCount('310e921d-da62-48e4-88ef-de9f295e0045')==1 AND IngredientCount ('7da04bba-0564-42da-bcf1-9a2fc5faf025')==1 AND IngredientCount ('7259b9bc-dfae-487e-a8bb-c1f500894e0c')==2" recipe_id="10" recipe_step_id="1" ui_text="alch_digestion_step_1" />
+      <row condition="IsMilled('7259b9bc-dfae-487e-a8bb-c1f500894e0c')" recipe_id="10" recipe_step_id="2" ui_text="alch_digestion_step_2" />
+      <row condition="BoilingTime('7da04bba-0564-42da-bcf1-9a2fc5faf025', 1) AND BoilingTime ('7259b9bc-dfae-487e-a8bb-c1f500894e0c', 1)" recipe_id="10" recipe_step_id="3" ui_text="alch_digestion_step_3" />
+      <row condition="!IsDistilled('7259b9bc-dfae-487e-a8bb-c1f500894e0c')" recipe_id="10" recipe_step_id="4" ui_text="" />
+      <row condition="!IsMilled('7da04bba-0564-42da-bcf1-9a2fc5faf025')" recipe_id="10" recipe_step_id="5" ui_text="" />
+      <row condition="IngredientCount('e96d768e-04e5-4480-9197-1c256d642ddc')==1 AND IngredientCount ('7da04bba-0564-42da-bcf1-9a2fc5faf025')==1 AND IngredientCount ('9b771c16-c0b1-438c-aeda-8c4d3ce28465')==1 AND IngredientCount ('b9de1d84-a0c1-4b81-9f60-8d7fbb3cb9d4')==1" recipe_id="11" recipe_step_id="1" ui_text="alch_drinker_step_1" />
+      <row condition="BoilingTime('9b771c16-c0b1-438c-aeda-8c4d3ce28465', 3) AND BoilingTime('b9de1d84-a0c1-4b81-9f60-8d7fbb3cb9d4', 3)" recipe_id="11" recipe_step_id="2" ui_text="alch_drinker_step_2" />
+      <row condition="" recipe_id="11" recipe_step_id="3" ui_text="alch_drinker_step_3" />
+      <row condition="IsMilled('7da04bba-0564-42da-bcf1-9a2fc5faf025')" recipe_id="11" recipe_step_id="4" ui_text="alch_drinker_step_4" />
+      <row condition="BoilingTime('7da04bba-0564-42da-bcf1-9a2fc5faf025', 0)" recipe_id="11" recipe_step_id="5" ui_text="alch_drinker_step_5" />
+      <row condition="!IsMilled('9b771c16-c0b1-438c-aeda-8c4d3ce28465')" recipe_id="11" recipe_step_id="6" ui_text="" />
+      <row condition="!IsMilled('b9de1d84-a0c1-4b81-9f60-8d7fbb3cb9d4')" recipe_id="11" recipe_step_id="7" ui_text="" />
+      <row condition="!IsDistilled('e96d768e-04e5-4480-9197-1c256d642ddc')" recipe_id="11" recipe_step_id="8" ui_text="" />
+      <row condition="IngredientCount('310e921d-da62-48e4-88ef-de9f295e0045')==1 AND IngredientCount ('7da04bba-0564-42da-bcf1-9a2fc5faf025')==2 AND IngredientCount ('27b8a61f-36e4-4101-9be5-1b814d43bd8f')==1" recipe_id="12" recipe_step_id="1" ui_text="alch_energy_step_1" />
+      <row condition="IsMilled('7da04bba-0564-42da-bcf1-9a2fc5faf025')" recipe_id="12" recipe_step_id="2" ui_text="alch_energy_step_2" />
+      <row condition="BoilingTime('9b771c16-c0b1-438c-aeda-8c4d3ce28465', 2)" recipe_id="12" recipe_step_id="3" ui_text="alch_energy_step_3" />
+      <row condition="BoilingTime('27b8a61f-36e4-4101-9be5-1b814d43bd8f', 2)" recipe_id="12" recipe_step_id="4" ui_text="alch_energy_step_4" />
+      <row condition="IsDistilled('310e921d-da62-48e4-88ef-de9f295e0045')" recipe_id="12" recipe_step_id="5" ui_text="alch_energy_step_5" />
+      <row condition="!IsMilled('27b8a61f-36e4-4101-9be5-1b814d43bd8f')" recipe_id="12" recipe_step_id="6" ui_text="" />
+      <row condition="IngredientCount('d5efb270-948b-4a38-b391-38b2edd31c8d')==1 AND IngredientCount ('a314b580-bc97-4802-ae1f-8f4803e34503')==2 AND IngredientCount ('5e9b4fa1-aafa-4352-b5d6-58df2c263caa')==1" recipe_id="13" recipe_step_id="1" ui_text="alch_fever_step_1" />
+      <row condition="BoilingTime('5e9b4fa1-aafa-4352-b5d6-58df2c263caa', 3)" recipe_id="13" recipe_step_id="2" ui_text="alch_fever_step_2" />
+      <row condition="IsMilled('a314b580-bc97-4802-ae1f-8f4803e34503')" recipe_id="13" recipe_step_id="3" ui_text="alch_fever_step_3" />
+      <row condition="IngredientPos('a314b580-bc97-4802-ae1f-8f4803e34503')&gt;=3 AND BoilingTime('a314b580-bc97-4802-ae1f-8f4803e34503', 1)" recipe_id="13" recipe_step_id="4" ui_text="alch_fever_step_4" />
+      <row condition="!IsMilled('5e9b4fa1-aafa-4352-b5d6-58df2c263caa')" recipe_id="13" recipe_step_id="5" ui_text="" />
+      <row condition="!IsDistilled('d5efb270-948b-4a38-b391-38b2edd31c8d')" recipe_id="13" recipe_step_id="6" ui_text="" />
+      <row condition="IngredientCount('e96d768e-04e5-4480-9197-1c256d642ddc')==1 AND IngredientCount ('5e9b4fa1-aafa-4352-b5d6-58df2c263caa')==1 AND IngredientCount ('bf7b7c2a-017b-4c7b-b9aa-0c4e29ce5913')==2" recipe_id="14" recipe_step_id="1" ui_text="alch_health_basic_step_1" />
+      <row condition="" recipe_id="14" recipe_step_id="2" ui_text="alch_health_basic_step_2" />
+      <row condition="BoilingTime('5e9b4fa1-aafa-4352-b5d6-58df2c263caa', 2)" recipe_id="14" recipe_step_id="3" ui_text="alch_health_basic_step_3" />
+      <row condition="BoilingTime('bf7b7c2a-017b-4c7b-b9aa-0c4e29ce5913', 0)" recipe_id="14" recipe_step_id="4" ui_text="alch_health_basic_step_4" />
+      <row condition="!IsMilled('5e9b4fa1-aafa-4352-b5d6-58df2c263caa')" recipe_id="14" recipe_step_id="5" ui_text="" />
+      <row condition="!IsMilled('bf7b7c2a-017b-4c7b-b9aa-0c4e29ce5913')" recipe_id="14" recipe_step_id="6" ui_text="" />
+      <row condition="!IsDistilled('e96d768e-04e5-4480-9197-1c256d642ddc')" recipe_id="14" recipe_step_id="7" ui_text="" />
+      <row condition="IngredientCount('e96d768e-04e5-4480-9197-1c256d642ddc')==1 AND IngredientCount ('de134f81-cfbe-422d-9105-df3e0b3b59b5')==2 AND IngredientCount ('27b8a61f-36e4-4101-9be5-1b814d43bd8f')==1" recipe_id="15" recipe_step_id="1" ui_text="alch_health_strong_step_1" />
+      <row condition="BoilingTime('27b8a61f-36e4-4101-9be5-1b814d43bd8f', 2)" recipe_id="15" recipe_step_id="2" ui_text="alch_health_strong_step_2" />
+      <row condition="IsMilled('de134f81-cfbe-422d-9105-df3e0b3b59b5')" recipe_id="15" recipe_step_id="3" ui_text="alch_health_strong_step_3" />
+      <row condition="IngredientPos('de134f81-cfbe-422d-9105-df3e0b3b59b5')&gt;=3 AND BoilingTime('de134f81-cfbe-422d-9105-df3e0b3b59b5', 1)" recipe_id="15" recipe_step_id="4" ui_text="alch_health_strong_step_4" />
+      <row condition="IsDistilled('27b8a61f-36e4-4101-9be5-1b814d43bd8f') AND IsDistilled('de134f81-cfbe-422d-9105-df3e0b3b59b5')" recipe_id="15" recipe_step_id="5" ui_text="alch_health_strong_step_5" />
+      <row condition="!IsMilled('27b8a61f-36e4-4101-9be5-1b814d43bd8f')" recipe_id="15" recipe_step_id="6" ui_text="" />
+      <row condition="IngredientCount('310e921d-da62-48e4-88ef-de9f295e0045')==1 AND IngredientCount ('9b771c16-c0b1-438c-aeda-8c4d3ce28465')==1 AND IngredientCount ('b9de1d84-a0c1-4b81-9f60-8d7fbb3cb9d4')==1 AND IngredientCount ('7da04bba-0564-42da-bcf1-9a2fc5faf025')==1" recipe_id="16" recipe_step_id="1" ui_text="alch_hooch_step_1" />
+      <row condition="BoilingTime('9b771c16-c0b1-438c-aeda-8c4d3ce28465', 1)" recipe_id="16" recipe_step_id="2" ui_text="alch_hooch_step_2" />
+      <row condition="IsMilled('b9de1d84-a0c1-4b81-9f60-8d7fbb3cb9d4')" recipe_id="16" recipe_step_id="3" ui_text="alch_hooch_step_3" />
+      <row condition="IsMilled('7da04bba-0564-42da-bcf1-9a2fc5faf025')" recipe_id="16" recipe_step_id="4" ui_text="alch_hooch_step_4" />
+      <row condition="BoilingTime('5e9b4fa1-aafa-4352-b5d6-58df2c263caa', 1) AND BoilingTime('7da04bba-0564-42da-bcf1-9a2fc5faf025', 1)" recipe_id="16" recipe_step_id="5" ui_text="alch_hooch_step_5" />
+      <row condition="IsDistilled('310e921d-da62-48e4-88ef-de9f295e0045')" recipe_id="16" recipe_step_id="6" ui_text="alch_hooch_step_6" />
+      <row condition="!IsMilled('9b771c16-c0b1-438c-aeda-8c4d3ce28465')" recipe_id="16" recipe_step_id="7" ui_text="" />
+      <row condition="IngredientCount('310e921d-da62-48e4-88ef-de9f295e0045')==1 AND IngredientCount ('4d9e61aa-3f90-4e5d-b836-f9e158196438')==1 AND IngredientCount ('a314b580-bc97-4802-ae1f-8f4803e34503')==1 AND IngredientCount ('de134f81-cfbe-422d-9105-df3e0b3b59b5')==1 AND IngredientCount ('a4f0f4c8-dc3f-4cb2-be89-f0f56fbb09fa')==1" recipe_id="17" recipe_step_id="1" ui_text="alch_horseman_step_1" />
+      <row condition="IngredientPos('a4f0f4c8-dc3f-4cb2-be89-f0f56fbb09fa')&lt;=3" recipe_id="17" recipe_step_id="2" ui_text="alch_horseman_step_2" />
+      <row condition="BoilingTime('a4f0f4c8-dc3f-4cb2-be89-f0f56fbb09fa', 2) AND BoilingTime('4d9e61aa-3f90-4e5d-b836-f9e158196438', 2)" recipe_id="17" recipe_step_id="3" ui_text="alch_horseman_step_3" />
+      <row condition="" recipe_id="17" recipe_step_id="4" ui_text="alch_horseman_step_4" />
+      <row condition="IsMilled('de134f81-cfbe-422d-9105-df3e0b3b59b5')" recipe_id="17" recipe_step_id="5" ui_text="alch_horseman_step_5" />
+      <row condition="BoilingTime('de134f81-cfbe-422d-9105-df3e0b3b59b5', 0) AND BoilingTime('a314b580-bc97-4802-ae1f-8f4803e34503', 0)" recipe_id="17" recipe_step_id="6" ui_text="alch_horseman_step_6" />
+      <row condition="IsDistilled('310e921d-da62-48e4-88ef-de9f295e0045')" recipe_id="17" recipe_step_id="7" ui_text="alch_horseman_step_7" />
+      <row condition="IngredientCount('34bd1d0b-1203-42a0-b9b4-d3585a4d9b48')==1 AND IngredientCount ('0290b689-c01c-480f-b121-bed71ad1f5e0')==1 AND IngredientCount ('05bef17b-ddeb-426d-aa53-52ff6d4f521e')==1 AND IngredientCount ('27b8a61f-36e4-4101-9be5-1b814d43bd8f')==1 AND IngredientCount('a4f0f4c8-dc3f-4cb2-be89-f0f56fbb09fa')==1" recipe_id="18" recipe_step_id="1" ui_text="alch_hunter_step_1" />
+      <row condition="BoilingTime('27b8a61f-36e4-4101-9be5-1b814d43bd8f', 3) AND BoilingTime('05bef17b-ddeb-426d-aa53-52ff6d4f521e', 3)" recipe_id="18" recipe_step_id="2" ui_text="alch_hunter_step_2" />
+      <row condition="IsMilled('0290b689-c01c-480f-b121-bed71ad1f5e0')" recipe_id="18" recipe_step_id="3" ui_text="alch_hunter_step_3" />
+      <row condition="BoilingTime('0290b689-c01c-480f-b121-bed71ad1f5e0', 0)" recipe_id="18" recipe_step_id="4" ui_text="alch_hunter_step_4" />
+      <row condition="IngredientPos('a4f0f4c8-dc3f-4cb2-be89-f0f56fbb09fa')==5" recipe_id="18" recipe_step_id="5" ui_text="alch_hunter_step_5" />
+      <row condition="!IsMilled('05bef17b-ddeb-426d-aa53-52ff6d4f521e')" recipe_id="18" recipe_step_id="6" ui_text="" />
+      <row condition="!IsMilled('27b8a61f-36e4-4101-9be5-1b814d43bd8f')" recipe_id="18" recipe_step_id="7" ui_text="" />
+      <row condition="IsDistilled('34bd1d0b-1203-42a0-b9b4-d3585a4d9b48')" recipe_id="18" recipe_step_id="8" ui_text="" />
+      <row condition="IngredientCount('d5efb270-948b-4a38-b391-38b2edd31c8d')==1 AND IngredientCount ('bf7b7c2a-017b-4c7b-b9aa-0c4e29ce5913')==1 AND IngredientCount ('4d9e61aa-3f90-4e5d-b836-f9e158196438')==1 AND IngredientCount ('7259b9bc-dfae-487e-a8bb-c1f500894e0c')==1" recipe_id="19" recipe_step_id="1" ui_text="alch_lover_step_1" />
+      <row condition="IngredientPos('3db25e6e-dfe2-4b06-a079-80e6064073c4')==2" recipe_id="19" recipe_step_id="2" ui_text="alch_lover_step_2" />
+      <row condition="BoilingTime('3db25e6e-dfe2-4b06-a079-80e6064073c4', 3)" recipe_id="19" recipe_step_id="3" ui_text="alch_lover_step_3" />
+      <row condition="BoilingTime('bf7b7c2a-017b-4c7b-b9aa-0c4e29ce5913', 2) AND BoilingTime('7259b9bc-dfae-487e-a8bb-c1f500894e0c', 2)" recipe_id="19" recipe_step_id="4" ui_text="alch_lover_step_4" />
+      <row condition="IsMilled('4d9e61aa-3f90-4e5d-b836-f9e158196438')" recipe_id="19" recipe_step_id="5" ui_text="alch_lover_step_5" />
+      <row condition="IsDistilled('d5efb270-948b-4a38-b391-38b2edd31c8d')" recipe_id="19" recipe_step_id="7" ui_text="" />
+      <row condition="IngredientCount('e96d768e-04e5-4480-9197-1c256d642ddc')==1 AND IngredientCount ('0290b689-c01c-480f-b121-bed71ad1f5e0')==2 AND IngredientCount ('a314b580-bc97-4802-ae1f-8f4803e34503')==1 AND IngredientCount ('a40e513f-045e-421c-99c9-c10dae3d9fe1')==1" recipe_id="21" recipe_step_id="1" ui_text="alch_owl_step_1" />
+      <row condition="IsMilled('0290b689-c01c-480f-b121-bed71ad1f5e0')" recipe_id="21" recipe_step_id="2" ui_text="alch_owl_step_2" />
+      <row condition="" recipe_id="21" recipe_step_id="3" ui_text="alch_owl_step_3" />
+      <row condition="BoilingTime('0290b689-c01c-480f-b121-bed71ad1f5e0', 3) AND BoilingTime('a314b580-bc97-4802-ae1f-8f4803e34503', 3)" recipe_id="21" recipe_step_id="4" ui_text="alch_owl_step_4" />
+      <row condition="" recipe_id="21" recipe_step_id="5" ui_text="alch_owl_step_5" />
+      <row condition="IsDistilled('e96d768e-04e5-4480-9197-1c256d642ddc')" recipe_id="21" recipe_step_id="7" ui_text="alch_owl_step_7" />
+      <row condition="!IsMilled('a314b580-bc97-4802-ae1f-8f4803e34503')" recipe_id="21" recipe_step_id="8" ui_text="" />
+      <row condition="IngredientCount('310e921d-da62-48e4-88ef-de9f295e0045')==1 AND IngredientCount ('2ddf6256-0662-44c4-99fe-f713b6d900ea')==2 AND IngredientCount ('27b8a61f-36e4-4101-9be5-1b814d43bd8f')==1" recipe_id="22" recipe_step_id="1" ui_text="alch_paralysis_step_1" />
+      <row condition="BoilingTime('2ddf6256-0662-44c4-99fe-f713b6d900ea', 3)" recipe_id="22" recipe_step_id="2" ui_text="alch_paralysis_step_2" />
+      <row condition="IsMilled('27b8a61f-36e4-4101-9be5-1b814d43bd8f')" recipe_id="22" recipe_step_id="3" ui_text="alch_paralysis_step_3" />
+      <row condition="" recipe_id="22" recipe_step_id="4" ui_text="alch_paralysis_step_4" />
+      <row condition="IngredientPos('27b8a61f-36e4-4101-9be5-1b814d43bd8f')==4" recipe_id="22" recipe_step_id="5" ui_text="alch_paralysis_step_5" />
+      <row condition="IsDistilled('310e921d-da62-48e4-88ef-de9f295e0045')" recipe_id="22" recipe_step_id="6" ui_text="alch_paralysis_step_6" />
+      <row condition="!IsMilled('2ddf6256-0662-44c4-99fe-f713b6d900ea')" recipe_id="22" recipe_step_id="7" ui_text="" />
+      <row condition="BoilingTime('27b8a61f-36e4-4101-9be5-1b814d43bd8f', 0)" recipe_id="22" recipe_step_id="8" ui_text="" />
+      <row condition="IngredientCount('34bd1d0b-1203-42a0-b9b4-d3585a4d9b48')==1 AND IngredientCount ('2ddf6256-0662-44c4-99fe-f713b6d900ea')==2 AND IngredientCount ('a364b800-c1ca-4bd1-92cb-ae1689bfa7ea')==1" recipe_id="23" recipe_step_id="1" ui_text="alch_poison_step_1" />
+      <row condition="BoilingTime('a364b800-c1ca-4bd1-92cb-ae1689bfa7ea', 1)" recipe_id="23" recipe_step_id="2" ui_text="alch_poison_step_2" />
+      <row condition="" recipe_id="23" recipe_step_id="3" ui_text="alch_poison_step_3" />
+      <row condition="BoilingTime('2ddf6256-0662-44c4-99fe-f713b6d900ea', 0)" recipe_id="23" recipe_step_id="4" ui_text="alch_poison_step_4" />
+      <row condition="!IsMilled('a364b800-c1ca-4bd1-92cb-ae1689bfa7ea')" recipe_id="23" recipe_step_id="5" ui_text="" />
+      <row condition="!IsMilled('2ddf6256-0662-44c4-99fe-f713b6d900ea')" recipe_id="23" recipe_step_id="6" ui_text="" />
+      <row condition="!IsDistilled('34bd1d0b-1203-42a0-b9b4-d3585a4d9b48')" recipe_id="23" recipe_step_id="7" ui_text="" />
+      <row condition="IngredientCount('34bd1d0b-1203-42a0-b9b4-d3585a4d9b48')==1 AND IngredientCount ('5e9b4fa1-aafa-4352-b5d6-58df2c263caa')==1 AND IngredientCount ('7da04bba-0564-42da-bcf1-9a2fc5faf025')==1 AND IngredientCount ('9b771c16-c0b1-438c-aeda-8c4d3ce28465')" recipe_id="24" recipe_step_id="1" ui_text="alch_preserver_step_1" />
+      <row condition="IsMilled('7da04bba-0564-42da-bcf1-9a2fc5faf025')" recipe_id="24" recipe_step_id="2" ui_text="alch_preserver_step_2" />
+      <row condition="IsMilled('5e9b4fa1-aafa-4352-b5d6-58df2c263caa')" recipe_id="24" recipe_step_id="3" ui_text="alch_preserver_step_3" />
+      <row condition="" recipe_id="24" recipe_step_id="4" ui_text="alch_preserver_step_4" />
+      <row condition="BoilingTime('7da04bba-0564-42da-bcf1-9a2fc5faf025', 2) AND BoilingTime('5e9b4fa1-aafa-4352-b5d6-58df2c263caa', 2)" recipe_id="24" recipe_step_id="5" ui_text="alch_preserver_step_5" />
+      <row condition="BoilingTime('9b771c16-c0b1-438c-aeda-8c4d3ce28465', 0)" recipe_id="24" recipe_step_id="6" ui_text="alch_preserver_step_6" />
+      <row condition="!IsDistilled('34bd1d0b-1203-42a0-b9b4-d3585a4d9b48')" recipe_id="24" recipe_step_id="8" ui_text="alch_preserver_step_8" />
+      <row condition="IngredientCount('34bd1d0b-1203-42a0-b9b4-d3585a4d9b48')==1 AND IngredientCount ('05bef17b-ddeb-426d-aa53-52ff6d4f521e')==1 AND IngredientCount ('a364b800-c1ca-4bd1-92cb-ae1689bfa7ea')==1 AND IngredientCount ('2ddf6256-0662-44c4-99fe-f713b6d900ea')==1" recipe_id="25" recipe_step_id="1" ui_text="alch_sleep_step_1" />
+      <row condition="BoilingTime('05bef17b-ddeb-426d-aa53-52ff6d4f521e', 2)" recipe_id="25" recipe_step_id="2" ui_text="alch_sleep_step_2" />
+      <row condition="BoilingTime('a364b800-c1ca-4bd1-92cb-ae1689bfa7ea', 1)" recipe_id="25" recipe_step_id="3" ui_text="alch_sleep_step_3" />
+      <row condition="IngredientPos('2ddf6256-0662-44c4-99fe-f713b6d900ea')==4" recipe_id="25" recipe_step_id="4" ui_text="alch_sleep_step_4" />
+      <row condition="" recipe_id="25" recipe_step_id="5" ui_text="" />
+      <row condition="!IsMilled('05bef17b-ddeb-426d-aa53-52ff6d4f521e')" recipe_id="25" recipe_step_id="6" ui_text="" />
+      <row condition="!IsMilled('a364b800-c1ca-4bd1-92cb-ae1689bfa7ea')" recipe_id="25" recipe_step_id="7" ui_text="" />
+      <row condition="!IsDistilled('34bd1d0b-1203-42a0-b9b4-d3585a4d9b48')" recipe_id="25" recipe_step_id="8" ui_text="" />
+      <row condition="IngredientCount('e96d768e-04e5-4480-9197-1c256d642ddc')==1 AND IngredientCount ('27b8a61f-36e4-4101-9be5-1b814d43bd8f')==1 AND IngredientCount ('0290b689-c01c-480f-b121-bed71ad1f5e0')==1 AND IngredientCount ('7259b9bc-dfae-487e-a8bb-c1f500894e0c')==1 AND IngredientCount ('33392df2-2b85-4875-998b-c313de495f57')==1" recipe_id="26" recipe_step_id="1" ui_text="alch_sneak_step_1" />
+      <row condition="" recipe_id="26" recipe_step_id="2" ui_text="alch_sneak_step_2" />
+      <row condition="BoilingTime('33392df2-2b85-4875-998b-c313de495f57', 3) AND BoilingTime('0290b689-c01c-480f-b121-bed71ad1f5e0', 3)" recipe_id="26" recipe_step_id="3" ui_text="alch_sneak_step_3" />
+      <row condition="IsMilled('27b8a61f-36e4-4101-9be5-1b814d43bd8f')" recipe_id="26" recipe_step_id="4" ui_text="alch_sneak_step_4" />
+      <row condition="BoilingTime('27b8a61f-36e4-4101-9be5-1b814d43bd8f', 1)" recipe_id="26" recipe_step_id="5" ui_text="alch_sneak_step_5" />
+      <row condition="" recipe_id="26" recipe_step_id="6" ui_text="alch_sneak_step_6" />
+      <row condition="IsMilled('7259b9bc-dfae-487e-a8bb-c1f500894e0c')" recipe_id="26" recipe_step_id="7" ui_text="alch_sneak_step_7" />
+      <row condition="HeatingTime('7259b9bc-dfae-487e-a8bb-c1f500894e0c', 0)" recipe_id="26" recipe_step_id="8" ui_text="alch_sneak_step_8" />
+      <row condition="IsDistilled('e96d768e-04e5-4480-9197-1c256d642ddc')" recipe_id="26" recipe_step_id="9" ui_text="" />
+      <row condition="IngredientCount('34bd1d0b-1203-42a0-b9b4-d3585a4d9b48')==1 AND IngredientCount ('9b771c16-c0b1-438c-aeda-8c4d3ce28465')==1 AND IngredientCount ('de134f81-cfbe-422d-9105-df3e0b3b59b5')==1 AND IngredientCount ('a11cc7f6-b499-4003-aef1-938e87b30a2e')==1" recipe_id="27" recipe_step_id="1" ui_text="alch_stamina_step_1" />
+      <row condition="IsMilled('9b771c16-c0b1-438c-aeda-8c4d3ce28465')" recipe_id="27" recipe_step_id="2" ui_text="alch_stamina_step_2" />
+      <row condition="BoilingTime('9b771c16-c0b1-438c-aeda-8c4d3ce28465', 1) AND BoilingTime('de134f81-cfbe-422d-9105-df3e0b3b59b5', 1)" recipe_id="27" recipe_step_id="3" ui_text="alch_stamina_step_3" />
+      <row condition="" recipe_id="27" recipe_step_id="4" ui_text="alch_stamina_step_4" />
+      <row condition="BoilingTime('a11cc7f6-b499-4003-aef1-938e87b30a2e', 0)" recipe_id="27" recipe_step_id="5" ui_text="alch_stamina_step_5" />
+      <row condition="!IsDistilled('34bd1d0b-1203-42a0-b9b4-d3585a4d9b48')" recipe_id="27" recipe_step_id="6" ui_text="" />
+      <row condition="!IsMilled('de134f81-cfbe-422d-9105-df3e0b3b59b5')" recipe_id="27" recipe_step_id="7" ui_text="" />
+      <row condition="!IsMilled('a11cc7f6-b499-4003-aef1-938e87b30a2e')" recipe_id="27" recipe_step_id="8" ui_text="" />
+      <row condition="IngredientCount('e96d768e-04e5-4480-9197-1c256d642ddc')==1 AND IngredientCount ('a11cc7f6-b499-4003-aef1-938e87b30a2e')==2 AND IngredientCount ('7da04bba-0564-42da-bcf1-9a2fc5faf025')==1 AND IngredientCount ('b6de890f-068b-4a58-b927-0860becae508')==1" recipe_id="28" recipe_step_id="1" ui_text="alch_syrup_step_1" />
+      <row condition="IsMilled('7da04bba-0564-42da-bcf1-9a2fc5faf025')" recipe_id="28" recipe_step_id="2" ui_text="alch_syrup_step_2" />
+      <row condition="BoilingTime('a11cc7f6-b499-4003-aef1-938e87b30a2e', 12)" recipe_id="28" recipe_step_id="3" ui_text="alch_syrup_step_3" />
+      <row condition="BoilingTime('7da04bba-0564-42da-bcf1-9a2fc5faf025', 1)" recipe_id="28" recipe_step_id="4" ui_text="alch_syrup_step_4" />
+      <row condition="IngredientPos('b6de890f-068b-4a58-b927-0860becae508')==5" recipe_id="28" recipe_step_id="5" ui_text="alch_syrup_step_5" />
+      <row condition="!IsMilled('a11cc7f6-b499-4003-aef1-938e87b30a2e')" recipe_id="28" recipe_step_id="6" ui_text="" />
+      <row condition="!IsDistilled('e96d768e-04e5-4480-9197-1c256d642ddc')" recipe_id="28" recipe_step_id="7" ui_text="" />
+      <row condition="IngredientCount('34bd1d0b-1203-42a0-b9b4-d3585a4d9b48')==1 AND IngredientCount ('7259b9bc-dfae-487e-a8bb-c1f500894e0c')==1 AND IngredientCount ('05bef17b-ddeb-426d-aa53-52ff6d4f521e')==2" recipe_id="29" recipe_step_id="1" ui_text="alch_tideness_step_1" />
+      <row condition="BoilingTime('05bef17b-ddeb-426d-aa53-52ff6d4f521e', 2)" recipe_id="29" recipe_step_id="2" ui_text="alch_tideness_step_2" />
+      <row condition="IsMilled('7259b9bc-dfae-487e-a8bb-c1f500894e0c')" recipe_id="29" recipe_step_id="3" ui_text="alch_tideness_step_3" />
+      <row condition="BoilingTime('7259b9bc-dfae-487e-a8bb-c1f500894e0c', 1)" recipe_id="29" recipe_step_id="4" ui_text="alch_tideness_step_4" />
+      <row condition="!IsMilled('05bef17b-ddeb-426d-aa53-52ff6d4f521e')" recipe_id="29" recipe_step_id="5" ui_text="" />
+      <row condition="IsDistilled('34bd1d0b-1203-42a0-b9b4-d3585a4d9b48')" recipe_id="29" recipe_step_id="6" ui_text="" />
+      <row condition="IngredientCount('e96d768e-04e5-4480-9197-1c256d642ddc')==1 AND IngredientCount ('bf7b7c2a-017b-4c7b-b9aa-0c4e29ce5913')==1 AND IngredientCount ('a11cc7f6-b499-4003-aef1-938e87b30a2e')==2" recipe_id="30" recipe_step_id="1" ui_text="alch_vitality_step_1" />
+      <row condition="IsMilled('bf7b7c2a-017b-4c7b-b9aa-0c4e29ce5913')" recipe_id="30" recipe_step_id="2" ui_text="alch_vitality_step_2" />
+      <row condition="BoilingTime('a11cc7f6-b499-4003-aef1-938e87b30a2e', 2)" recipe_id="30" recipe_step_id="3" ui_text="alch_vitality_step_3" />
+      <row condition="BoilingTime('bf7b7c2a-017b-4c7b-b9aa-0c4e29ce5913', 1)" recipe_id="30" recipe_step_id="4" ui_text="alch_vitality_step_4" />
+      <row condition="IsDistilled('e96d768e-04e5-4480-9197-1c256d642ddc')" recipe_id="30" recipe_step_id="5" ui_text="alch_vitality_step_5" />
+      <row condition="!IsMilled('a11cc7f6-b499-4003-aef1-938e87b30a2e')" recipe_id="30" recipe_step_id="6" ui_text="" />
+      <row condition="IngredientCount('34bd1d0b-1203-42a0-b9b4-d3585a4d9b48')==1 AND IngredientCount ('bf7b7c2a-017b-4c7b-b9aa-0c4e29ce5913')==1 AND IngredientCount ('a314b580-bc97-4802-ae1f-8f4803e34503')==1 AND IngredientCount ('2ddf6256-0662-44c4-99fe-f713b6d900ea')==1" recipe_id="31" recipe_step_id="1" ui_text="alch_witch_step_1" />
+      <row condition="BoilingTime('2ddf6256-0662-44c4-99fe-f713b6d900ea', 3)" recipe_id="31" recipe_step_id="2" ui_text="alch_witch_step_2" />
+      <row condition="IsMilled('bf7b7c2a-017b-4c7b-b9aa-0c4e29ce5913')" recipe_id="31" recipe_step_id="3" ui_text="alch_witch_step_3" />
+      <row condition="BoilingTime('bf7b7c2a-017b-4c7b-b9aa-0c4e29ce591', 2)" recipe_id="31" recipe_step_id="4" ui_text="alch_witch_step_4" />
+      <row condition="IsMilled('a314b580-bc97-4802-ae1f-8f4803e34503')" recipe_id="31" recipe_step_id="5" ui_text="alch_witch_step_5" />
+      <row condition="BoilingTime('a314b580-bc97-4802-ae1f-8f4803e34503', 0)" recipe_id="31" recipe_step_id="6" ui_text="alch_witch_step_6" />
+      <row condition="!IsDistilled('34bd1d0b-1203-42a0-b9b4-d3585a4d9b48')" recipe_id="31" recipe_step_id="7" ui_text="" />
+      <row condition="!IsMilled('2ddf6256-0662-44c4-99fe-f713b6d900ea')" recipe_id="31" recipe_step_id="8" ui_text="" />
+      <row condition="IngredientCount('e96d768e-04e5-4480-9197-1c256d642ddc')==1 AND IngredientCount ('a364b800-c1ca-4bd1-92cb-ae1689bfa7ea')==2 AND IngredientCount ('27b8a61f-36e4-4101-9be5-1b814d43bd8f')==1 AND IngredientCount ('f879ac63-2ce2-4114-83a2-89643c1ed102')==1" recipe_id="41" recipe_step_id="1" ui_text="alch_mrchcure_step_1" />
+      <row condition="BoilingTime('a364b800-c1ca-4bd1-92cb-ae1689bfa7ea', 3)" recipe_id="41" recipe_step_id="2" ui_text="alch_mrchcure_step_2" />
+      <row condition="BoilingTime('27b8a61f-36e4-4101-9be5-1b814d43bd8f', 1)" recipe_id="41" recipe_step_id="3" ui_text="alch_mrchcure_step_3" />
+      <row condition="" recipe_id="41" recipe_step_id="4" ui_text="alch_mrchcure_step_4" />
+      <row condition="IngredientPos('f879ac63-2ce2-4114-83a2-89643c1ed102')&gt;=4 AND BoilingTime('f879ac63-2ce2-4114-83a2-89643c1ed102', 0)" recipe_id="41" recipe_step_id="5" ui_text="alch_mrchcure_step_5" />
+      <row condition="!IsDistilled('e96d768e-04e5-4480-9197-1c256d642ddc')" recipe_id="41" recipe_step_id="6" ui_text="" />
+      <row condition="IngredientCount('310e921d-da62-48e4-88ef-de9f295e0045')==1 AND IngredientCount ('27b8a61f-36e4-4101-9be5-1b814d43bd8f')==2 AND IngredientCount ('4d9e61aa-3f90-4e5d-b836-f9e158196438')==1" recipe_id="42" recipe_step_id="1" ui_text="alch_mrchpot_step_1" />
+      <row condition="BoilingTime('27b8a61f-36e4-4101-9be5-1b814d43bd8f', 3)" recipe_id="42" recipe_step_id="2" ui_text="alch_mrchpot_step_2" />
+      <row condition="" recipe_id="42" recipe_step_id="3" ui_text="alch_mrchpot_step_3" />
+      <row condition="IsMilled('4d9e61aa-3f90-4e5d-b836-f9e158196438')" recipe_id="42" recipe_step_id="4" ui_text="alch_mrchpot_step_4" />
+      <row condition="BoilingTime('4d9e61aa-3f90-4e5d-b836-f9e158196438', 0)" recipe_id="42" recipe_step_id="5" ui_text="alch_mrchpot_step_5" />
+      <row condition="!IsMilled('27b8a61f-36e4-4101-9be5-1b814d43bd8f')" recipe_id="42" recipe_step_id="6" ui_text="" />
+      <row condition="IngredientCount('310e921d-da62-48e4-88ef-de9f295e0045')==1 AND IngredientCount('4d9e61aa-3f90-4e5d-b836-f9e158196438')==2 AND IngredientCount('a314b580-bc97-4802-ae1f-8f4803e34503')==1 AND IngredientCount('abb6cc5a-3592-406f-82ab-edfb73e219be&#xA;')==1" recipe_id="43" recipe_step_id="1" ui_text="alch_respec_step_1" />
+      <row condition="IsMilled('4d9e61aa-3f90-4e5d-b836-f9e158196438')" recipe_id="43" recipe_step_id="2" ui_text="alch_respec_step_2" />
+      <row condition="" recipe_id="43" recipe_step_id="3" ui_text="alch_respec_step_3" />
+      <row condition="BoilingTime('4d9e61aa-3f90-4e5d-b836-f9e158196438', 3) AND BoilingTime('a314b580-bc97-4802-ae1f-8f4803e34503', 3)" recipe_id="43" recipe_step_id="4" ui_text="alch_respec_step_4" />
+      <row condition="" recipe_id="43" recipe_step_id="5" ui_text="alch_respec_step_5" />
+      <row condition="IsDistilled('310e921d-da62-48e4-88ef-de9f295e0045')" recipe_id="43" recipe_step_id="6" ui_text="alch_respec_step_6" />
+      <row condition="!IsMilled('a314b580-bc97-4802-ae1f-8f4803e34503')" recipe_id="43" recipe_step_id="7" ui_text="" />
+      <row condition="IngredientCount('d5efb270-948b-4a38-b391-38b2edd31c8d')==1 AND IngredientCount('05bef17b-ddeb-426d-aa53-52ff6d4f521e')==1 AND IngredientCount('a364b800-c1ca-4bd1-92cb-ae1689bfa7ea')==1 AND IngredientCount('9b771c16-c0b1-438c-aeda-8c4d3ce28465')==1" recipe_id="45" recipe_step_id="1" ui_text="alch_fake_blood_step_1" />
+      <row condition="IsMilled('05bef17b-ddeb-426d-aa53-52ff6d4f521e')" recipe_id="45" recipe_step_id="2" ui_text="alch_fake_blood_step_2" />
+      <row condition="IsMilled('a364b800-c1ca-4bd1-92cb-ae1689bfa7ea')" recipe_id="45" recipe_step_id="3" ui_text="alch_fake_blood_step_3" />
+      <row condition="IsMilled('9b771c16-c0b1-438c-aeda-8c4d3ce28465')" recipe_id="45" recipe_step_id="4" ui_text="alch_fake_blood_step_4" />
+      <row condition="BoilingTime('05bef17b-ddeb-426d-aa53-52ff6d4f521e', 1) AND BoilingTime('a364b800-c1ca-4bd1-92cb-ae1689bfa7ea', 1) AND BoilingTime('9b771c16-c0b1-438c-aeda-8c4d3ce28465', 1)" recipe_id="45" recipe_step_id="5" ui_text="alch_fake_blood_step_5" />
+      <row condition="IngredientCount('e96d768e-04e5-4480-9197-1c256d642ddc')==1 AND IngredientCount('b9de1d84-a0c1-4b81-9f60-8d7fbb3cb9d4')==1 AND IngredientCount('bf7b7c2a-017b-4c7b-b9aa-0c4e29ce5913')==1 AND IngredientCount('de134f81-cfbe-422d-9105-df3e0b3b59b5')==1 AND IngredientCount('a40e513f-045e-421c-99c9-c10dae3d9fe1')==1" recipe_id="47" recipe_step_id="1" ui_text="alch_irresistibility_step_1" />
+      <row condition="IsMilled('b9de1d84-a0c1-4b81-9f60-8d7fbb3cb9d4')" recipe_id="47" recipe_step_id="2" ui_text="alch_irresistibility_step_2" />
+      <row condition="BoilingTime('b9de1d84-a0c1-4b81-9f60-8d7fbb3cb9d4', 3)" recipe_id="47" recipe_step_id="3" ui_text="alch_irresistibility_step_3" />
+      <row condition="!IsMilled('bf7b7c2a-017b-4c7b-b9aa-0c4e29ce5913')" recipe_id="47" recipe_step_id="4" ui_text="alch_irresistibility_step_4" />
+      <row condition="!IsMilled('de134f81-cfbe-422d-9105-df3e0b3b59b5')" recipe_id="47" recipe_step_id="5" ui_text="alch_irresistibility_step_5" />
+      <row condition="BoilingTime('bf7b7c2a-017b-4c7b-b9aa-0c4e29ce5913',1) AND BoilingTime('de134f81-cfbe-422d-9105-df3e0b3b59b5',1)" recipe_id="47" recipe_step_id="6" ui_text="" />
+      <row condition="BoilingTime('a40e513f-045e-421c-99c9-c10dae3d9fe1', 0)" recipe_id="47" recipe_step_id="7" ui_text="" />
+    </rows>
+  </table>
+</database>

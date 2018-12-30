@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="armor_class2engine_surface" version="1">
+    <header>
+      <column name="armor_class_id" type="integer" />
+      <column name="engine_surface_name" type="character varying" />
+      <column name="engine_surface_priority_multiplier" type="real" />
+    </header>
+    <rows>
+      <row armor_class_id="1" engine_surface_name="mat_fabric" engine_surface_priority_multiplier="1" />
+      <row armor_class_id="2" engine_surface_name="mat_leather" engine_surface_priority_multiplier="0.75" />
+      <row armor_class_id="3" engine_surface_name="mat_leather" engine_surface_priority_multiplier="1" />
+      <row armor_class_id="4" engine_surface_name="mat_chainmail" engine_surface_priority_multiplier="1.5" />
+      <row armor_class_id="5" engine_surface_name="mat_plate" engine_surface_priority_multiplier="2" />
+      <row armor_class_id="6" engine_surface_name="mat_fabric" engine_surface_priority_multiplier="0.75" />
+      <row armor_class_id="7" engine_surface_name="mat_fabric" engine_surface_priority_multiplier="1" />
+    </rows>
+  </table>
+</database>

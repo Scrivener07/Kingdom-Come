@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="helmet" version="1">
+    <header>
+      <column name="item_id" type="uuid" />
+      <column name="visor_type_id" type="integer" />
+    </header>
+    <rows>
+      <row item_id="00000000-0000-0000-0000-000000000025" visor_type_id="0" />
+      <row item_id="0082de35-b635-4b85-a9ec-95024713f3ab" visor_type_id="0" />
+      <row item_id="33069aba-2dcf-42c4-97ea-f9c8a6f7e06e" visor_type_id="0" />
+      <row item_id="40bafc6f-ea0f-d9d2-57f7-0da666d60083" visor_type_id="0" />
+      <row item_id="40d19389-b8e6-8f54-cf74-f3715b0cea8c" visor_type_id="0" />
+      <row item_id="4135abae-bcce-b9f7-7fff-9139b57aebbe" visor_type_id="4" />
+      <row item_id="413a23a3-3d34-de11-abeb-2dfc9af846a9" visor_type_id="1" />
+      <row item_id="415cb852-5910-50cf-9802-4375257dd3b5" visor_type_id="0" />
+      <row item_id="416efa2d-68db-6dfb-3d5d-98489f638bad" visor_type_id="4" />
+      <row item_id="41c9dee4-7f56-917c-cf8d-3482bbb3ad9a" visor_type_id="0" />
+      <row item_id="41e70a43-df7c-9acc-afe6-42dc972ee891" visor_type_id="0" />
+      <row item_id="421f173c-99b2-f030-cedd-0ba2a25270ac" visor_type_id="3" />
+      <row item_id="42566810-49be-e92f-5181-705bdd2eb1ae" visor_type_id="0" />
+      <row item_id="42663739-349d-8b14-a737-8cd056f7559e" visor_type_id="0" />
+      <row item_id="436b6b1d-1471-da5f-ad03-f64bafbd8bb6" visor_type_id="7" />
+      <row item_id="43c6062f-7a46-aa6a-ce45-9f8b90adb7a9" visor_type_id="7" />
+      <row item_id="43dc25b5-3962-a772-7eeb-dd7820574395" visor_type_id="0" />
+      <row item_id="43dd7f89-93d5-801a-7dc6-824c367284b4" visor_type_id="0" />
+      <row item_id="441979f2-838e-9f91-36ef-64fd17735492" visor_type_id="0" />
+      <row item_id="44501763-1d31-6b8b-fb85-a57b3fce9596" visor_type_id="0" />
+      <row item_id="447acc02-8ee6-ff70-1cb3-ccafd3ba01b3" visor_type_id="0" />
+      <row item_id="4498482d-a404-5646-16d0-f49eaac6d58e" visor_type_id="0" />
+      <row item_id="44dc0755-74c4-582d-c92c-4a54990da4b9" visor_type_id="8" />
+      <row item_id="44e4e7ba-05b1-fd0f-5aac-2e6f8d8cf682" visor_type_id="6" />
+      <row item_id="450ee588-bc3d-d0ed-69a8-eea895d9998c" visor_type_id="0" />
+      <row item_id="4527de55-2a1f-6089-a182-2aa2e031fe99" visor_type_id="0" />
+      <row item_id="452c1f85-3219-c7fc-8d0c-de1d0b4d9885" visor_type_id="0" />
+      <row item_id="457922f9-5c5b-8caa-5df0-7449097cff90" visor_type_id="1" />
+      <row item_id="4582224b-55b8-82f8-4230-371ca1093db3" visor_type_id="0" />
+      <row item_id="45cacc1b-dc58-a1c0-9873-d954e7cf3ebc" visor_type_id="7" />
+      <row item_id="48146c21-3bc0-fc8c-24b3-cd0f0427dc8c" visor_type_id="5" />
+      <row item_id="481b929a-0e8e-05da-54c5-2939bd72e594" visor_type_id="4" />
+      <row item_id="481cfd5b-b646-1c6b-ff58-af749941cf9e" visor_type_id="3" />
+      <row item_id="48641946-e22a-7925-8120-9f8825df12ac" visor_type_id="0" />
+      <row item_id="48c1161d-7bdf-52ff-75a5-3c210060ae8a" visor_type_id="0" />
+      <row item_id="48f4d62f-f2d7-c064-be4b-450aeea1f39a" visor_type_id="0" />
+      <row item_id="49160240-18dd-dc84-66fe-2ed005eba1b9" visor_type_id="0" />
+      <row item_id="491a1973-e6d2-e04d-f718-8f24db2ec4bb" visor_type_id="0" />
+      <row item_id="498ca985-c074-886b-af88-aec5b12dc7ad" visor_type_id="4" />
+      <row item_id="4a0b54a0-f893-122d-5171-74ac68e933ad" visor_type_id="4" />
+      <row item_id="4a16b1e8-f30f-eea1-4329-aa3030891bbb" visor_type_id="0" />
+      <row item_id="4a2e6701-7c43-b97a-0823-6e22ea1d8fb3" visor_type_id="0" />
+      <row item_id="4a4d56b4-8c9c-7840-6398-dbfe8132d78b" visor_type_id="0" />
+      <row item_id="4a5ec182-a249-b5d8-9975-b8fa57d5ae9f" visor_type_id="0" />
+      <row item_id="4aa23d07-ef96-e285-2cec-c7eb93ec4999" visor_type_id="8" />
+      <row item_id="4ad02fe1-d15c-db1f-1981-59ac21854e9c" visor_type_id="0" />
+      <row item_id="4af19514-66e8-1a2b-67d5-6528225681b4" visor_type_id="0" />
+      <row item_id="4bf98be0-1893-bb82-3ddb-5dd35b0f84b1" visor_type_id="0" />
+      <row item_id="4c812542-2acf-0481-ec8a-adb77c057495" visor_type_id="0" />
+      <row item_id="4cd854dd-7c7c-3050-27e4-8b67b1d1338c" visor_type_id="2" />
+      <row item_id="4d60338a-8a13-40f8-9002-fcbc79fc36b1" visor_type_id="0" />
+      <row item_id="4da8f74d-dd58-6895-e0b0-bf94a31a5b92" visor_type_id="8" />
+      <row item_id="4daf7e11-bd8a-5e7a-181d-37c790ba1c95" visor_type_id="0" />
+      <row item_id="4e760438-c3b5-7acd-6329-55e19c4e8896" visor_type_id="0" />
+      <row item_id="4e8bfdae-a38a-fae5-1177-b513733f1c90" visor_type_id="8" />
+      <row item_id="4ef61ee8-aaff-7b19-9b2f-3310e7ee72be" visor_type_id="0" />
+      <row item_id="4fb18a35-7abd-d93d-ac7e-c5a1d6bf809f" visor_type_id="0" />
+      <row item_id="51d21693-820d-423a-bac5-fae8d370dcbe" visor_type_id="8" />
+      <row item_id="c80e67a7-8dbd-4662-ae63-26a92b6ae28b" visor_type_id="0" />
+    </rows>
+  </table>
+</database>

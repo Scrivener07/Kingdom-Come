@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="ui_local_maps" version="1">
+    <header>
+      <column name="enabled_by_default" type="boolean" />
+      <column name="focus1_x" type="real" />
+      <column name="focus1_y" type="real" />
+      <column name="focus2_x" type="real" />
+      <column name="focus2_y" type="real" />
+      <column name="height" type="real" />
+      <column name="location_id" type="uuid" />
+      <column name="major_axis" type="real" />
+      <column name="position_x" type="real" />
+      <column name="position_y" type="real" />
+      <column name="ui_local_map_id" type="uuid" />
+      <column name="ui_local_map_name" type="character varying" />
+      <column name="width" type="real" />
+    </header>
+    <rows>
+      <row enabled_by_default="True" focus1_x="3155.6" focus1_y="3146" focus2_x="3155.6" focus2_y="3336.47" height="3357.3" location_id="1eae7fc9-7292-4151-b706-1b0d99043004" major_axis="536" position_x="2670" position_y="3646.5" ui_local_map_id="0c5d3261-f035-49c7-8609-87f88e503efe" ui_local_map_name="uzhitz" width="870.75" />
+      <row enabled_by_default="False" focus1_x="1070.268" focus1_y="932.26" focus2_x="919.15" focus2_y="932.26" height="3926.25" location_id="f1bedd2b-0848-41a3-99c9-61f4055cff23" major_axis="206" position_x="866.56" position_y="1053.6" ui_local_map_id="20616bbe-f482-43d7-91a6-0ce00314d890" ui_local_map_name="vranik" width="169.75" />
+      <row enabled_by_default="True" focus1_x="928.17" focus1_y="3445.87" focus2_x="589.97" focus2_y="3445.87" height="3443.2" location_id="b4dac612-e764-4fc9-b899-94612d2882c6" major_axis="496.5" position_x="361" position_y="3781" ui_local_map_id="336ca2d8-86b1-4c25-a6a0-988fcebc0a7f" ui_local_map_name="skalitz" width="670.6" />
+      <row enabled_by_default="True" focus1_x="1320.347" focus1_y="2283.51" focus2_x="941.677" focus2_y="2283.51" height="3718.254" location_id="3622822e-f0ad-44a5-b20f-995f5f4e934a" major_axis="443.0864" position_x="862.894" position_y="2527.909" ui_local_map_id="4549c813-c6ad-4c35-832d-79d3f01ace57" ui_local_map_name="samopesh" width="473.099" />
+      <row enabled_by_default="True" focus1_x="3723" focus1_y="1511.7" focus2_x="3423" focus2_y="1511.7" height="3625.5" location_id="850e6645-f899-472d-aeac-1c0888e85bf9" major_axis="459" position_x="3241" position_y="1793" ui_local_map_id="58e421ff-80a6-49bb-b014-e0f1d33cfdf6" ui_local_map_name="neuhof" width="580" />
+      <row enabled_by_default="True" focus1_x="1809.81" focus1_y="2622.292" focus2_x="1521.33" focus2_y="2622.29" height="3788.459" location_id="0b82bf92-69b2-4d0c-8313-20f63197cf7a" major_axis="359.4094" position_x="1440.253" position_y="2851.691" ui_local_map_id="5c1b6ed1-aa98-44c8-b17a-c4492f717220" ui_local_map_name="merhojed" width="417.563" />
+      <row enabled_by_default="True" focus1_x="2235.23" focus1_y="1261.26" focus2_x="1959.567" focus2_y="1261.26" height="3653.25" location_id="0d7e5531-54ce-449f-8f4f-57f539b928b9" major_axis="410" position_x="1753.56" position_y="1551.32" ui_local_map_id="63d1eba7-f4a0-40fe-a332-9dfb001b9ba2" ui_local_map_name="ledetchko" width="527.587" />
+      <row enabled_by_default="False" focus1_x="1583.467" focus1_y="3647.801" focus2_x="1583.467" focus2_y="3745.525" height="3798.938" location_id="49ccf85d-72d4-4405-819e-12bf2c07f5eb" major_axis="203.5" position_x="1399.388" position_y="3882.765" ui_local_map_id="6c8d5ee5-6f2f-45cf-acc8-860ecc829d93" ui_local_map_name="clean_pribyslavitz" width="237.3354" />
+      <row enabled_by_default="True" focus1_x="2437.799" focus1_y="2736.5" focus2_x="2287.2" focus2_y="2736.5" height="3784.5" location_id="83bb13a5-96b6-4909-9834-0228d8c6c124" major_axis="291" position_x="2107" position_y="2960" ui_local_map_id="766ace21-8e2e-474e-8fea-04156aed0f52" ui_local_map_name="talmberk" width="413.5" />
+      <row enabled_by_default="False" focus1_x="1601.15" focus1_y="3707.72" focus2_x="1601.15" focus2_y="3707.72" height="3829.3" location_id="85fb8451-d296-4858-afcf-9423e76104aa" major_axis="173" position_x="1451.78" position_y="3880.67" ui_local_map_id="8287cc2d-55d3-4e45-af78-901ea3dc6e9c" ui_local_map_name="pribyslavitz" width="192.8" />
+      <row enabled_by_default="True" focus1_x="962.11" focus1_y="1577.82" focus2_x="962.11" focus2_y="1761.2" height="3683.68" location_id="bd18a448-84f3-49c4-920d-6457f5fa7261" major_axis="341" position_x="775.4" position_y="1891.35" ui_local_map_id="9e0b7585-718a-45fc-b3fd-22c9c9813556" ui_local_map_name="sasau" width="334.784" />
+      <row enabled_by_default="True" focus1_x="2877.5" focus1_y="575.15" focus2_x="2452.4" focus2_y="575.15" height="3552.7" location_id="0874c462-fa23-40e3-a437-c6fea290af48" major_axis="655.5" position_x="2187.9" position_y="915.8" ui_local_map_id="a32cd3ac-ef3a-43a4-b9b0-04b2281e9c7e" ui_local_map_name="ratay" width="796.9" />
+      <row enabled_by_default="True" focus1_x="925.7" focus1_y="1280" focus2_x="745.5" focus2_y="1280" height="3532.8" location_id="828eb313-f068-4dd1-ac65-a26ad7a91c69" major_axis="441" position_x="519" position_y="1634" ui_local_map_id="c6d57fdd-ab57-438d-b452-64e275a2d9f1" ui_local_map_name="sasau_city" width="570" />
+      <row enabled_by_default="True" focus1_x="1230" focus1_y="3077.6" focus2_x="1230" focus2_y="3166.8" height="3925.2" location_id="76e80b5c-06ba-4bce-aa89-899b50cee39d" major_axis="171.5" position_x="1088" position_y="3265" ui_local_map_id="e727a7a8-7b44-4085-913e-f1a09af91b49" ui_local_map_name="rovna" width="206" />
+    </rows>
+  </table>
+</database>

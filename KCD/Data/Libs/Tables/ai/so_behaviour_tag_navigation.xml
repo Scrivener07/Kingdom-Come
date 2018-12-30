@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="so_behaviour_tag_navigation" version="1">
+    <header>
+      <column name="end_helper" type="character varying" />
+      <column name="navigation_agent_type" type="integer" />
+      <column name="so_behaviour_tag_id" type="uuid" />
+      <column name="start_helper" type="character varying" />
+    </header>
+    <rows>
+      <row end_helper="outBack" navigation_agent_type="1" so_behaviour_tag_id="4001880d-46b5-d61e-f88b-91a3a179c4a5" start_helper="outFront" />
+      <row end_helper="Back" navigation_agent_type="1" so_behaviour_tag_id="4539c4e7-2b4b-abfd-1540-892309250e89" start_helper="Front" />
+      <row end_helper="outside" navigation_agent_type="1" so_behaviour_tag_id="462f6372-6fee-0859-abe9-cf4c35dae48b" start_helper="inside" />
+      <row end_helper="Back" navigation_agent_type="1" so_behaviour_tag_id="49d26231-c448-9119-defb-7dacb906bbac" start_helper="Front" />
+      <row end_helper="Back" navigation_agent_type="1" so_behaviour_tag_id="49ee86f6-b8e2-38c7-dacc-58af8bec02b5" start_helper="Front" />
+      <row end_helper="inside" navigation_agent_type="1" so_behaviour_tag_id="4a4d8c76-016a-4fdf-c984-096b55eb0793" start_helper="outside" />
+      <row end_helper="up" navigation_agent_type="1" so_behaviour_tag_id="4d1d3850-b4a9-dea1-019d-bbaf034a0da0" start_helper="down" />
+    </rows>
+  </table>
+</database>

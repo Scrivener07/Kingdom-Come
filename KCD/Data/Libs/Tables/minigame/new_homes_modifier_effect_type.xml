@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="new_homes_modifier_effect_type" version="1">
+    <header>
+      <column name="modifier_effect_type_id" type="integer" />
+      <column name="modifier_effect_type_name" type="character varying" />
+    </header>
+    <rows>
+      <row modifier_effect_type_id="1" modifier_effect_type_name="resource" />
+      <row modifier_effect_type_id="2" modifier_effect_type_name="structure" />
+    </rows>
+  </table>
+</database>

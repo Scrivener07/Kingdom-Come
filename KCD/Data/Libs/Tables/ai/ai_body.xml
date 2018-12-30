@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="ai_body" version="1">
+    <header>
+      <column name="ai_body_id" type="uuid" />
+      <column name="ai_body_name" type="character varying" />
+    </header>
+    <rows>
+      <row ai_body_id="00000000-0000-0000-0000-000000035000" ai_body_name="default" />
+      <row ai_body_id="00000000-0000-0000-0000-000000035001" ai_body_name="TestBody" />
+      <row ai_body_id="00000000-0000-0000-0000-000000035002" ai_body_name="Player" />
+      <row ai_body_id="00000000-0000-0000-0000-000000035003" ai_body_name="DefaultSmartObject" />
+    </rows>
+  </table>
+</database>

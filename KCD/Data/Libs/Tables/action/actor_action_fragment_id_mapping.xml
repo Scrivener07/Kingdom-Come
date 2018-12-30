@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="actor_action_fragment_id_mapping" version="1">
+    <header>
+      <column name="actor_action_fragment_id_mapping_id" type="integer" />
+      <column name="actor_action_type_id" type="integer" />
+      <column name="fragment_id" type="character varying" />
+      <column name="preprocess_enabled" type="boolean" />
+    </header>
+    <rows>
+      <row actor_action_fragment_id_mapping_id="1" actor_action_type_id="3" fragment_id="BlendRagdoll" preprocess_enabled="True" />
+      <row actor_action_fragment_id_mapping_id="2" actor_action_type_id="5" fragment_id="CombatTransition" preprocess_enabled="True" />
+      <row actor_action_fragment_id_mapping_id="3" actor_action_type_id="3" fragment_id="CombatBlendRagdoll" preprocess_enabled="True" />
+      <row actor_action_fragment_id_mapping_id="4" actor_action_type_id="8" fragment_id="JumpDown" preprocess_enabled="False" />
+      <row actor_action_fragment_id_mapping_id="5" actor_action_type_id="8" fragment_id="JumpDownLand" preprocess_enabled="False" />
+      <row actor_action_fragment_id_mapping_id="6" actor_action_type_id="8" fragment_id="JumpOver" preprocess_enabled="False" />
+      <row actor_action_fragment_id_mapping_id="7" actor_action_type_id="8" fragment_id="MotionJump" preprocess_enabled="False" />
+      <row actor_action_fragment_id_mapping_id="8" actor_action_type_id="8" fragment_id="MotionJumpStart" preprocess_enabled="False" />
+      <row actor_action_fragment_id_mapping_id="9" actor_action_type_id="8" fragment_id="MotionLand" preprocess_enabled="False" />
+      <row actor_action_fragment_id_mapping_id="10" actor_action_type_id="9" fragment_id="Beggar" preprocess_enabled="False" />
+      <row actor_action_fragment_id_mapping_id="11" actor_action_type_id="9" fragment_id="BeggarVAR" preprocess_enabled="False" />
+      <row actor_action_fragment_id_mapping_id="12" actor_action_type_id="10" fragment_id="Fall" preprocess_enabled="False" />
+      <row actor_action_fragment_id_mapping_id="13" actor_action_type_id="11" fragment_id="Land" preprocess_enabled="True" />
+      <row actor_action_fragment_id_mapping_id="14" actor_action_type_id="5" fragment_id="BeggarToCombat" preprocess_enabled="True" />
+      <row actor_action_fragment_id_mapping_id="15" actor_action_type_id="14" fragment_id="Mark" preprocess_enabled="True" />
+      <row actor_action_fragment_id_mapping_id="16" actor_action_type_id="15" fragment_id="TailWaving" preprocess_enabled="True" />
+    </rows>
+  </table>
+</database>

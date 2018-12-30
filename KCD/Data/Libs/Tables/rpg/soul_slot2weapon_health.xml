@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="soul_slot2weapon_health" version="1">
+    <header>
+      <column name="blood" type="real" />
+      <column name="health" type="real" />
+      <column name="rust" type="real" />
+      <column name="soul_id" type="uuid" />
+      <column name="weapon_equip_slot_id" type="integer" />
+    </header>
+    <rows>
+      <row blood="0" health="0.5" rust="0" soul_id="43144483-f3bb-fab8-9ceb-f77e3020598a" weapon_equip_slot_id="0" />
+      <row blood="0" health="0.52" rust="0" soul_id="4c9fbb9b-b671-4906-c841-9e8a38f11faf" weapon_equip_slot_id="0" />
+    </rows>
+  </table>
+</database>

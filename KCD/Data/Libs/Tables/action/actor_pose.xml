@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="actor_pose" version="1">
+    <header>
+      <column name="actor_pose_id" type="integer" />
+      <column name="actor_pose_mn_tag" type="character varying" />
+      <column name="actor_pose_name" type="character varying" />
+    </header>
+    <rows>
+      <row actor_pose_id="1" actor_pose_mn_tag="-" actor_pose_name="stand" />
+      <row actor_pose_id="2" actor_pose_mn_tag="-" actor_pose_name="sit" />
+      <row actor_pose_id="3" actor_pose_mn_tag="-" actor_pose_name="lie" />
+      <row actor_pose_id="4" actor_pose_mn_tag="-" actor_pose_name="kneel" />
+    </rows>
+  </table>
+</database>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="potion" version="1">
+    <header>
+      <column name="item_id" type="uuid" />
+      <column name="weapon_buff_id" type="uuid" />
+    </header>
+    <rows>
+      <row item_id="006ec8d6-1ce1-4e90-8267-7c349812ddcd" weapon_buff_id="" />
+      <row item_id="0340b85d-71b0-4314-a6c9-8856d884bc92" weapon_buff_id="" />
+      <row item_id="1322a0ca-1be1-449a-b1fa-cd7079a9ba90" weapon_buff_id="" />
+      <row item_id="1ae018d8-f41b-482c-a679-d529f33ca335" weapon_buff_id="" />
+      <row item_id="20361656-5917-40e9-be7f-a5e6cc07981d" weapon_buff_id="" />
+      <row item_id="2509115d-59c9-44f8-9802-f600eba63fa9" weapon_buff_id="e2d6dd73-d48b-4909-8203-0f46d1d66832" />
+      <row item_id="2529e246-6f1b-4529-8d6b-64245207bae8" weapon_buff_id="" />
+      <row item_id="2668d311-8667-4f27-b94b-7f6175678f17" weapon_buff_id="8f65895d-cbfe-4448-b605-4bb7c36da513" />
+      <row item_id="27144e47-00aa-468e-a81b-49cb3b248b07" weapon_buff_id="" />
+      <row item_id="2b24a290-ec3c-454c-901e-fea76aa76d74" weapon_buff_id="3b7a3c66-9c2e-4f32-a967-dfe889159826" />
+      <row item_id="2e4cd0e9-13ba-4c36-aea6-b0e2b49ea6d8" weapon_buff_id="a391974b-b503-49d7-87df-506c314bbaa1" />
+      <row item_id="31148cbb-8592-4b26-a1ae-8a9e07e309e6" weapon_buff_id="f13d37c1-5524-4822-9515-48e1ccb0dde4" />
+      <row item_id="3157d51d-7461-4fdc-9601-93bd5ed42156" weapon_buff_id="1443eba6-1ca3-4c61-8011-83e4d95f5513" />
+      <row item_id="34d9f446-e5a7-4af4-858a-e96473de814f" weapon_buff_id="b21b2bc7-bff5-4571-a746-46266e9a7296" />
+      <row item_id="36d4b46d-75cb-4e58-a430-b1a0aa283088" weapon_buff_id="" />
+      <row item_id="3d3f5935-c2e3-4e52-8a16-a6a04ee4a79f" weapon_buff_id="84561de3-32db-4fd2-a5be-db79e40ecf09" />
+      <row item_id="42e54d97-6e63-4e50-a09d-325ef4dd2286" weapon_buff_id="b56d79e6-156c-4803-8d91-73a82f01926e" />
+      <row item_id="55667a03-ea84-4578-ada8-6400626d86d7" weapon_buff_id="" />
+      <row item_id="567fc1b1-1424-4784-9da8-5104e2e7354d" weapon_buff_id="d8e791a2-7397-4f4e-a657-80c8491919ca" />
+      <row item_id="5c17d1d9-70ec-49d9-9b05-ae23247c045f" weapon_buff_id="25bdbc39-c19a-4a11-8c0f-6e16c432846f" />
+      <row item_id="5f6cdfad-2e87-45e4-bd5a-e3b604adc766" weapon_buff_id="" />
+      <row item_id="601f9ff2-0413-40c9-b443-9695aafa71a5" weapon_buff_id="" />
+      <row item_id="60825599-3c28-4a5b-ad6a-fda128f8b723" weapon_buff_id="" />
+      <row item_id="6568088a-98b6-4353-81d1-31bd2662a545" weapon_buff_id="" />
+      <row item_id="6b955a9b-d8de-492c-a53e-a052fab4ff0a" weapon_buff_id="d7d61e22-4855-4bcd-98e8-f40f28ff7a74" />
+      <row item_id="6d08f32a-997e-44f1-b6b6-9caf2ade9cf3" weapon_buff_id="56f66d97-43c6-45d1-a463-05ec76fac01c" />
+      <row item_id="73b69372-3ccb-4bf4-bd21-94863da2654e" weapon_buff_id="" />
+      <row item_id="73ff1fde-ec8b-41e9-95e3-b5938c715bf1" weapon_buff_id="59575fae-482b-44fe-af16-65379e12fb48" />
+      <row item_id="850d28d9-9d0a-4b2e-9feb-e6c48c5f1aad" weapon_buff_id="df38ebde-91e5-4a88-8a5b-40cf49995034" />
+      <row item_id="8b713d0c-9a04-4354-a53f-ffd384057fa6" weapon_buff_id="ee40f202-c7a2-4b34-bf98-1c9df81b432c" />
+      <row item_id="928463d9-e21a-4f7c-b5d3-8378ed375cd1" weapon_buff_id="" />
+      <row item_id="92c829ca-41f6-40a7-b8d9-aac5159c7a89" weapon_buff_id="456da697-438c-4b57-8169-d26aa04fa986" />
+      <row item_id="9e782670-3291-4382-a6d3-a843d13e67d9" weapon_buff_id="" />
+      <row item_id="ab25a50a-7836-47a9-acb2-5fd93684b8c5" weapon_buff_id="c5e9fc52-85ca-4c5e-9e4a-fe0a0b26a09d" />
+      <row item_id="b0763820-556a-4d4c-a858-009aa897fb61" weapon_buff_id="" />
+      <row item_id="b38c34b7-6016-4f64-9ba2-65e1ce31d4a1" weapon_buff_id="f6720007-689b-4f7c-9c7a-f9abbebcf28c" />
+      <row item_id="c40dc516-9886-4245-8a8b-2cbb16da918d" weapon_buff_id="" />
+      <row item_id="c9bfcc38-7ed1-4ed7-a86d-7ef0f7292762" weapon_buff_id="" />
+      <row item_id="d837e829-d706-4db8-8e3d-e70a16882c96" weapon_buff_id="43705617-32d7-4759-8276-4af71c614ac6" />
+      <row item_id="e1adda6e-aba9-4de2-a50f-062432fd73df" weapon_buff_id="" />
+      <row item_id="eca88106-4bab-4419-8772-4450739c193c" weapon_buff_id="e38dffd5-65c8-460c-a40b-14dfdef9f07f" />
+      <row item_id="ee4d5b06-0a7e-4073-969b-b11131e97fef" weapon_buff_id="" />
+      <row item_id="eec58bfb-063e-4838-b78d-3c2b354f1346" weapon_buff_id="" />
+      <row item_id="f1309a89-045f-44ae-a4d9-c997b892a162" weapon_buff_id="8b634ea8-31ca-4da1-b4e0-a31890a14405" />
+      <row item_id="fd6cceee-06d0-4a0b-a0f6-c52d0afd5481" weapon_buff_id="56f66d97-43c6-45d1-a463-05ec76fac01c" />
+    </rows>
+  </table>
+</database>

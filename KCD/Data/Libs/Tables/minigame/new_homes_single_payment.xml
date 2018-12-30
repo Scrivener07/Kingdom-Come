@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="new_homes_single_payment" version="1">
+    <header>
+      <column name="amount" type="integer" />
+      <column name="single_payment_id" type="integer" />
+      <column name="single_payment_name" type="character varying" />
+    </header>
+    <rows>
+      <row amount="500" single_payment_id="1" single_payment_name="judgement_grain_pay" />
+      <row amount="1000" single_payment_id="2" single_payment_name="judgement_malina_payoffWife" />
+      <row amount="4000" single_payment_id="3" single_payment_name="supply_stone_full" />
+      <row amount="3000" single_payment_id="4" single_payment_name="supply_stone_discounted" />
+    </rows>
+  </table>
+</database>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="brain_interpreter_type" version="1">
+    <header>
+      <column name="brain_interpreter_type_id" type="integer" />
+      <column name="brain_interpreter_type_name" type="character varying" />
+    </header>
+    <rows>
+      <row brain_interpreter_type_id="1" brain_interpreter_type_name="C" />
+    </rows>
+  </table>
+</database>

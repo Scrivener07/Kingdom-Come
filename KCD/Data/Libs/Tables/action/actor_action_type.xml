@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="actor_action_type" version="1">
+    <header>
+      <column name="actor_action_type_id" type="integer" />
+      <column name="actor_action_type_name" type="character varying" />
+    </header>
+    <rows>
+      <row actor_action_type_id="1" actor_action_type_name="generic" />
+      <row actor_action_type_id="2" actor_action_type_name="ragdoll" />
+      <row actor_action_type_id="3" actor_action_type_name="standup" />
+      <row actor_action_type_id="5" actor_action_type_name="transitionToCombat" />
+      <row actor_action_type_id="6" actor_action_type_name="combat" />
+      <row actor_action_type_id="7" actor_action_type_name="idle" />
+      <row actor_action_type_id="8" actor_action_type_name="jump" />
+      <row actor_action_type_id="9" actor_action_type_name="job" />
+      <row actor_action_type_id="10" actor_action_type_name="fall" />
+      <row actor_action_type_id="11" actor_action_type_name="land" />
+      <row actor_action_type_id="12" actor_action_type_name="dead" />
+      <row actor_action_type_id="13" actor_action_type_name="rider" />
+      <row actor_action_type_id="14" actor_action_type_name="mark" />
+      <row actor_action_type_id="15" actor_action_type_name="wiggle" />
+      <row actor_action_type_id="1000" actor_action_type_name="standupGroup" />
+      <row actor_action_type_id="1001" actor_action_type_name="fallGroup" />
+      <row actor_action_type_id="1002" actor_action_type_name="dogGroup" />
+    </rows>
+  </table>
+</database>

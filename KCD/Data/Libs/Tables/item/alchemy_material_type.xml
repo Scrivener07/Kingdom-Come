@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="alchemy_material_type" version="1">
+    <header>
+      <column name="alchemy_material_type_id" type="integer" />
+      <column name="alchemy_material_type_name" type="character varying" />
+    </header>
+    <rows>
+      <row alchemy_material_type_id="1" alchemy_material_type_name="herb" />
+      <row alchemy_material_type_id="2" alchemy_material_type_name="special" />
+      <row alchemy_material_type_id="3" alchemy_material_type_name="skin" />
+    </rows>
+  </table>
+</database>

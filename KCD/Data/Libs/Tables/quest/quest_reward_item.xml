@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="quest_reward_item" version="1">
+    <header>
+      <column name="count" type="integer" />
+      <column name="is_exclusive" type="boolean" />
+      <column name="is_immediate" type="boolean" />
+      <column name="item_id" type="uuid" />
+      <column name="objective_id" type="integer" />
+      <column name="pos" type="character varying" />
+      <column name="quest_id" type="integer" />
+    </header>
+    <rows>
+      <row count="2" is_exclusive="False" is_immediate="False" item_id="4cea28a0-0814-405a-bf24-4fd711f7eb63" objective_id="4" pos="-70,-630,0" quest_id="4043623" />
+      <row count="1" is_exclusive="False" is_immediate="False" item_id="6096a15f-3d8a-496d-a24c-4776c10189d7" objective_id="4" pos="-70,-320,0" quest_id="4043623" />
+      <row count="20" is_exclusive="False" is_immediate="False" item_id="ad6f0f01-aec4-44d1-982c-1210eb01b74a" objective_id="4" pos="-70,-420,0" quest_id="4043623" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="4ef8618b-a87c-f25f-dd1d-94558fceab8d" objective_id="631" pos="2910,400,0" quest_id="13691296" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="4da8f74d-dd58-6895-e0b0-bf94a31a5b92" objective_id="634" pos="2910,180,0" quest_id="13691296" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="f12b7150-9e2c-4442-9070-2cde6a32b1a1" objective_id="746" pos="3640,400,0" quest_id="13691296" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="51d21693-820d-423a-bac5-fae8d370dcbe" objective_id="747" pos="3640,180,0" quest_id="13691296" />
+      <row count="10" is_exclusive="True" is_immediate="True" item_id="00000000-0000-0000-0000-000000000005" objective_id="5" pos="-420,-110,0" quest_id="15169607" />
+      <row count="1" is_exclusive="False" is_immediate="False" item_id="d5f73455-62f0-455e-a691-a625545620b9" objective_id="9" pos="150,70,0" quest_id="19058048" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="d5f73455-62f0-455e-a691-a625545620b9" objective_id="38" pos="110,1020,0" quest_id="19058048" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="1324d620-c5ad-4000-8dc5-3253e2d49a1d" objective_id="299" pos="5650,460,0" quest_id="19412827" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="6074da31-4882-4ab4-81ee-ff7e570e29b2" objective_id="299" pos="5700,220,0" quest_id="19412827" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="a955dc3d-1327-40d2-a9ea-bb2d06f576ec" objective_id="299" pos="5690,340,0" quest_id="19412827" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="4af19514-66e8-1a2b-67d5-6528225681b4" objective_id="36" pos="1910,-900,0" quest_id="20770649" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="4ab8c97d-6977-4b6c-4d66-86b471549483" objective_id="37" pos="1910,-1140,0" quest_id="20770649" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="4b808fa2-b621-57b3-e973-b695ce96e9b2" objective_id="37" pos="1910,-1250,0" quest_id="20770649" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="00000000-0000-0000-0000-000000000005" objective_id="38" pos="1890,-1610,0" quest_id="20770649" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="94131fb9-3956-4704-baf9-4415f8d229b5" objective_id="177" pos="770,550,0" quest_id="26061588" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="4377c0a6-98d4-ebdb-eb0a-f35220fb1398" objective_id="5" pos="-80,-450,0" quest_id="26815832" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="4af19514-66e8-1a2b-67d5-6528225681b4" objective_id="5" pos="-80,-340,0" quest_id="26815832" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="4f0f5d0b-cccb-6888-8eab-46cb73688caf" objective_id="5" pos="-80,-230,0" quest_id="26815832" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="f7359b93-8312-4f13-8c51-ddb671a9edff" objective_id="5" pos="-80,-570,0" quest_id="26815832" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="4cea28a0-0814-405a-bf24-4fd711f7eb63" objective_id="10" pos="750,-50,0" quest_id="26815832" />
+      <row count="1" is_exclusive="False" is_immediate="False" item_id="41f6e46c-bca6-16da-169a-f0c8f1a6e2ab" objective_id="76" pos="2180,-980,0" quest_id="37808566" />
+      <row count="1" is_exclusive="False" is_immediate="False" item_id="41c05047-74e5-f23d-1fe8-b0a8db360087" objective_id="197" pos="1360,-580,0" quest_id="37887295" />
+      <row count="40" is_exclusive="False" is_immediate="False" item_id="4fd563e5-a44a-4a6e-958d-95bcb196814a" objective_id="4" pos="1220,-550,0" quest_id="38316489" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="e1cb27bb-6e6f-4f93-b974-f5b605c0b583" objective_id="158" pos="8200,860,0" quest_id="39438237" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="60825599-3c28-4a5b-ad6a-fda128f8b723" objective_id="3364" pos="8200,1100,0" quest_id="39438237" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="9a2e6d4d-92ca-4011-940d-4ae85408054e" objective_id="4" pos="120,110,0" quest_id="41184054" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="9fb601d5-486c-4082-93cc-6356b0771b05" objective_id="261" pos="4620,-1530,0" quest_id="41184054" />
+      <row count="5" is_exclusive="False" is_immediate="True" item_id="9fa3000e-3807-48a8-bed8-81427f0bda55" objective_id="16" pos="1130,-260,0" quest_id="42381581" />
+      <row count="3" is_exclusive="False" is_immediate="True" item_id="3157d51d-7461-4fdc-9601-93bd5ed42156" objective_id="17" pos="1170,860,0" quest_id="42381581" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="4ede7cfe-e698-4917-a092-a01d8ac3646f" objective_id="18" pos="1130,2550,0" quest_id="42381581" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="e1cb27bb-6e6f-4f93-b974-f5b605c0b583" objective_id="529" pos="-3800,790,0" quest_id="42662062" />
+      <row count="10" is_exclusive="False" is_immediate="False" item_id="9fa3000e-3807-48a8-bed8-81427f0bda55" objective_id="37" pos="1350,390,0" quest_id="45676159" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="3000b8ed-2229-478b-8b30-6d10f120d367" objective_id="28" pos="3670,330,0" quest_id="49026310" />
+      <row count="1" is_exclusive="False" is_immediate="False" item_id="4306e2d9-f09b-444a-b05d-79c55449ef46" objective_id="311" pos="-1110,-1150,0" quest_id="49026310" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="ca92311e-6413-4c6b-b47a-963211f174e1" objective_id="371" pos="13330,70,0" quest_id="49193821" />
+      <row count="100" is_exclusive="False" is_immediate="True" item_id="5ef63059-322e-4e1b-abe8-926e100c770e" objective_id="691" pos="12209,726,0" quest_id="49193821" />
+      <row count="3" is_exclusive="False" is_immediate="True" item_id="5e9b4fa1-aafa-4352-b5d6-58df2c263caa" objective_id="722" pos="13330,-70,0" quest_id="49193821" />
+      <row count="6" is_exclusive="False" is_immediate="True" item_id="7259b9bc-dfae-487e-a8bb-c1f500894e0c" objective_id="722" pos="13330,-350,0" quest_id="49193821" />
+      <row count="4" is_exclusive="False" is_immediate="True" item_id="9b771c16-c0b1-438c-aeda-8c4d3ce28465" objective_id="722" pos="13330,-200,0" quest_id="49193821" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="b38c34b7-6016-4f64-9ba2-65e1ce31d4a1" objective_id="722" pos="13330,-490,0" quest_id="49193821" />
+      <row count="200" is_exclusive="False" is_immediate="True" item_id="5ef63059-322e-4e1b-abe8-926e100c770e" objective_id="797" pos="13560,450,0" quest_id="49193821" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="ff5ab403-62fa-41d2-9afd-7d6857f999c4" objective_id="1780" pos="1130,210,0" quest_id="51186042" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="4e5b242e-5fcc-4b60-9bbd-fd95a0407dd8" objective_id="2003" pos="-730,1560,0" quest_id="51186042" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="94131fb9-3956-4704-baf9-4415f8d229b5" objective_id="2280" pos="4910,-210,0" quest_id="51638816" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="4fedd7a1-ac86-40b1-ba0b-847e602df774" objective_id="16" pos="2070,-20,0" quest_id="52241706" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="f86783e8-b406-44c9-b659-858f94ce2189" objective_id="17" pos="2040,760,0" quest_id="52241706" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="4fedd7a1-ac86-40b1-ba0b-847e602df774" objective_id="27" pos="2060,-730,0" quest_id="52241706" />
+      <row count="5" is_exclusive="False" is_immediate="True" item_id="8d76f58e-a521-4205-a7e8-9ac077eee5f0" objective_id="9" pos="330,350,0" quest_id="52337054" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="b3ee8c6a-9f16-45aa-88cb-6d0a4698d96b" objective_id="1072" pos="3300,1760,0" quest_id="52739772" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="9cfb899c-3bdd-44b3-9960-54c630ac1780" objective_id="15" pos="3420,290,0" quest_id="53858429" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="5ec2db9d-d5ed-47e7-bdd3-2e9fda718076" objective_id="654" pos="8630,320,0" quest_id="53858429" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="47b8a5a6-0912-c070-49b9-d126e8c55bbd" objective_id="424" pos="1760,2340,0" quest_id="56276264" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="e69bf96e-47ff-4eb2-a9b3-06dc896d43b8" objective_id="263" pos="1310,-20,0" quest_id="81415024" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="4f4b2cdc-1690-4e32-bba8-00eff2f14f0c" objective_id="25" pos="2070,270,0" quest_id="88181353" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="c2d79308-ce89-41e4-b07c-8c00f4496370" objective_id="255" pos="2730,120,0" quest_id="112285556" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="9036ea9d-c80a-4e0b-b0a1-09eb15efc449" objective_id="267" pos="2420,-510,0" quest_id="112285556" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="42663739-349d-8b14-a737-8cd056f7559e" objective_id="24" pos="940,-550,0" quest_id="120057002" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="9180b7d1-0402-4586-b94d-0bbfb6f6e2be" objective_id="2612" pos="4570,-520,0" quest_id="120057002" />
+      <row count="1" is_exclusive="False" is_immediate="True" item_id="af6f2946-ce54-4e38-9b2b-5ab95d5c4777" objective_id="69" pos="1360,1630,0" quest_id="123751264" />
+    </rows>
+  </table>
+</database>

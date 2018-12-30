@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="document_required_skill" version="1">
+    <header>
+      <column name="item_id" type="uuid" />
+      <column name="skill_id" type="integer" />
+      <column name="skill_level_required" type="integer" />
+      <column name="skill_xp_gained" type="integer" />
+    </header>
+    <rows>
+      <row item_id="0a9b5b2a-2614-4f11-a987-aab64133bea0" skill_id="8" skill_level_required="5" skill_xp_gained="200" />
+      <row item_id="15a92bc2-d1f3-438f-a104-c1fc7bd71996" skill_id="5" skill_level_required="5" skill_xp_gained="200" />
+      <row item_id="17fee956-5ec2-4c95-abb4-e9f3a0aca530" skill_id="13" skill_level_required="0" skill_xp_gained="70" />
+      <row item_id="1dc7d3ef-08b0-4d4f-aca1-78ddf60a5c10" skill_id="25" skill_level_required="0" skill_xp_gained="70" />
+      <row item_id="218418c0-f211-40b3-afa9-f1bff300d0b5" skill_id="6" skill_level_required="5" skill_xp_gained="200" />
+      <row item_id="2abf0600-2cae-4c1b-a789-2f633aca4f73" skill_id="14" skill_level_required="0" skill_xp_gained="70" />
+      <row item_id="4461ae67-bd5e-4f5d-b543-d7718e09e610" skill_id="14" skill_level_required="10" skill_xp_gained="350" />
+      <row item_id="453be04d-7edb-4e77-94d1-3a31aa5481eb" skill_id="13" skill_level_required="10" skill_xp_gained="350" />
+      <row item_id="4935b34d-fb9f-4a80-91de-0c79eb437d52" skill_id="25" skill_level_required="15" skill_xp_gained="500" />
+      <row item_id="4eba4ef8-7022-4842-a49f-511478b91469" skill_id="4" skill_level_required="0" skill_xp_gained="70" />
+      <row item_id="4ed69166-1d45-4582-aa56-27e4fe368449" skill_id="4" skill_level_required="15" skill_xp_gained="500" />
+      <row item_id="4f960851-461f-4a52-859a-42fed994099b" skill_id="26" skill_level_required="0" skill_xp_gained="70" />
+      <row item_id="576f5c23-d5f0-4372-971c-b8cb068eca3f" skill_id="0" skill_level_required="5" skill_xp_gained="200" />
+      <row item_id="5d1c2c66-55b9-4c36-85a5-0a11da319f0a" skill_id="1" skill_level_required="0" skill_xp_gained="70" />
+      <row item_id="6074da31-4882-4ab4-81ee-ff7e570e29b2" skill_id="14" skill_level_required="15" skill_xp_gained="500" />
+      <row item_id="6615363c-e609-499c-90bb-921e6ab07c71" skill_id="26" skill_level_required="10" skill_xp_gained="350" />
+      <row item_id="682f330c-40e8-454b-86d4-9fcb4e9ec742" skill_id="0" skill_level_required="0" skill_xp_gained="70" />
+      <row item_id="6992abe6-b51e-4024-a654-13e7cd49028d" skill_id="25" skill_level_required="5" skill_xp_gained="200" />
+      <row item_id="6caca7be-2792-484c-9128-3ade0489934d" skill_id="1" skill_level_required="15" skill_xp_gained="500" />
+      <row item_id="6e3c3cfd-0315-436b-9b52-9087a127e644" skill_id="5" skill_level_required="15" skill_xp_gained="500" />
+      <row item_id="6eb6ee59-af87-4f75-ada5-b0c655f5f1ab" skill_id="6" skill_level_required="10" skill_xp_gained="350" />
+      <row item_id="7b80535e-9945-4340-b086-733cc0813f89" skill_id="8" skill_level_required="0" skill_xp_gained="70" />
+      <row item_id="8d8f5757-beb1-4e09-8899-c5dc17c15891" skill_id="1" skill_level_required="10" skill_xp_gained="350" />
+      <row item_id="a49c0356-66c4-4cbf-99f6-9581f15bb39d" skill_id="13" skill_level_required="15" skill_xp_gained="500" />
+      <row item_id="ad347b6b-40c8-48be-b757-1d40aaf2d6a8" skill_id="6" skill_level_required="15" skill_xp_gained="500" />
+      <row item_id="afcb6aea-750e-4ea8-a157-ff233a1d5e15" skill_id="25" skill_level_required="10" skill_xp_gained="350" />
+      <row item_id="b04d6c1a-c045-49ac-9f52-1e0d87eab091" skill_id="26" skill_level_required="15" skill_xp_gained="500" />
+      <row item_id="b2e94e5a-4261-47e2-a57f-3b1c1b37aa68" skill_id="0" skill_level_required="15" skill_xp_gained="500" />
+      <row item_id="b501b610-9c79-4a78-94e6-aeefb034a507" skill_id="4" skill_level_required="10" skill_xp_gained="350" />
+      <row item_id="c16e5a45-b0de-4ccb-b6c2-69f49061014c" skill_id="8" skill_level_required="15" skill_xp_gained="500" />
+      <row item_id="c4087dfd-6d59-4ff1-bd0e-eb94bec5f5f0" skill_id="14" skill_level_required="5" skill_xp_gained="200" />
+      <row item_id="c449a063-f58b-4ab5-8df1-d24d71384630" skill_id="4" skill_level_required="5" skill_xp_gained="200" />
+      <row item_id="d0a195d2-8b17-4314-aa93-0a6934996abb" skill_id="13" skill_level_required="5" skill_xp_gained="200" />
+      <row item_id="d45d8a3f-1292-4310-9b39-8f811f0ea5f5" skill_id="6" skill_level_required="0" skill_xp_gained="70" />
+      <row item_id="d833ab2a-0e9f-4b34-a514-562e8f61289c" skill_id="26" skill_level_required="5" skill_xp_gained="200" />
+      <row item_id="ede33ca4-a8f8-4bdb-881b-4eeb88c1c826" skill_id="8" skill_level_required="10" skill_xp_gained="350" />
+      <row item_id="f08ed73b-89a1-43e7-901c-df49885140be" skill_id="5" skill_level_required="0" skill_xp_gained="70" />
+      <row item_id="f4842503-3fc7-43aa-ad42-30a8c97bd6df" skill_id="0" skill_level_required="10" skill_xp_gained="350" />
+      <row item_id="f7d8c372-ab36-4868-b720-2e887fd1c7d5" skill_id="5" skill_level_required="10" skill_xp_gained="350" />
+      <row item_id="fb7a83b1-420f-4012-9be0-396f4279ab3c" skill_id="1" skill_level_required="5" skill_xp_gained="200" />
+    </rows>
+  </table>
+</database>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="blood_zone" version="1">
+    <header>
+      <column name="blood_zone_id" type="integer" />
+      <column name="blood_zone_name" type="character varying" />
+    </header>
+    <rows>
+      <row blood_zone_id="0" blood_zone_name="head_up" />
+      <row blood_zone_id="1" blood_zone_name="head_back" />
+      <row blood_zone_id="2" blood_zone_name="head_front" />
+      <row blood_zone_id="3" blood_zone_name="head_right" />
+      <row blood_zone_id="4" blood_zone_name="head_left" />
+      <row blood_zone_id="5" blood_zone_name="head_neck" />
+      <row blood_zone_id="6" blood_zone_name="body_front_up" />
+      <row blood_zone_id="7" blood_zone_name="body_back_up" />
+      <row blood_zone_id="8" blood_zone_name="body_front_down" />
+      <row blood_zone_id="9" blood_zone_name="body_back_down" />
+      <row blood_zone_id="10" blood_zone_name="body_right" />
+      <row blood_zone_id="11" blood_zone_name="body_left" />
+      <row blood_zone_id="12" blood_zone_name="arm_right_shoulder_front" />
+      <row blood_zone_id="13" blood_zone_name="arm_right_shoulder_back" />
+      <row blood_zone_id="14" blood_zone_name="arm_right_upper_front" />
+      <row blood_zone_id="15" blood_zone_name="arm_right_upper_back" />
+      <row blood_zone_id="16" blood_zone_name="arm_right_forearm_front" />
+      <row blood_zone_id="17" blood_zone_name="arm_right_forearm_back" />
+      <row blood_zone_id="18" blood_zone_name="arm_right_hand" />
+      <row blood_zone_id="19" blood_zone_name="arm_left_shoulder_front" />
+      <row blood_zone_id="20" blood_zone_name="arm_left_shoulder_back" />
+      <row blood_zone_id="21" blood_zone_name="arm_left_upper_front" />
+      <row blood_zone_id="22" blood_zone_name="arm_left_upper_back" />
+      <row blood_zone_id="23" blood_zone_name="arm_left_forearm_front" />
+      <row blood_zone_id="24" blood_zone_name="arm_left_forearm_back" />
+      <row blood_zone_id="25" blood_zone_name="arm_left_hand" />
+      <row blood_zone_id="26" blood_zone_name="leg_right_upper_front" />
+      <row blood_zone_id="27" blood_zone_name="leg_right_upper_back" />
+      <row blood_zone_id="28" blood_zone_name="leg_right_lower_front" />
+      <row blood_zone_id="29" blood_zone_name="leg_right_lower_back" />
+      <row blood_zone_id="30" blood_zone_name="foot_right" />
+      <row blood_zone_id="31" blood_zone_name="leg_left_upper_front" />
+      <row blood_zone_id="32" blood_zone_name="leg_left_upper_back" />
+      <row blood_zone_id="33" blood_zone_name="leg_left_lower_front" />
+      <row blood_zone_id="34" blood_zone_name="leg_left_lower_back" />
+      <row blood_zone_id="35" blood_zone_name="foot_left" />
+    </rows>
+  </table>
+</database>

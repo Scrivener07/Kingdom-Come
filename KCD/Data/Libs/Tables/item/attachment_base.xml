@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="attachment_base" version="1">
+    <header>
+      <column name="attachment_base_id" type="uuid" />
+      <column name="attachment_base_name" type="character varying" />
+      <column name="attachment_slot_id" type="integer" />
+      <column name="computer_name" type="character varying" />
+      <column name="gender_id" type="integer" />
+      <column name="lod_persistence" type="real" />
+      <column name="material" type="character varying" />
+      <column name="model" type="character varying" />
+      <column name="race_id" type="integer" />
+      <column name="timestamp" type="character varying" />
+    </header>
+    <rows>
+      <row attachment_base_id="40f49c3a-7c11-fdd0-be90-330f92825ca3" attachment_base_name="patt_bag_v03" attachment_slot_id="1" computer_name="DJANKES-DT" gender_id="0" lod_persistence="1" material="patt_bag_v06" model="patt_bag_v06" race_id="0" timestamp="20/05/2015 14:50" />
+      <row attachment_base_id="43567310-f085-df47-fad5-2d29b2a0e28a" attachment_base_name="patt_bag_v07" attachment_slot_id="1" computer_name="DJANKES-DT" gender_id="0" lod_persistence="1" material="patt_bag_v07" model="patt_bag_v07" race_id="0" timestamp="17/06/2015 15:43" />
+      <row attachment_base_id="490081e3-d6b1-456b-1227-c48f0e0096a2" attachment_base_name="s2_patt_bag_v001" attachment_slot_id="1" computer_name="ICEREVKO-DT" gender_id="1" lod_persistence="1" material="s2_patt_bag_01" model="s2_patt_bag_01" race_id="0" timestamp="20/07/2015 13:40" />
+      <row attachment_base_id="4a4c4ec5-cf20-6a0b-a8f8-973c25aac2b5" attachment_base_name="patt_bag_v002" attachment_slot_id="1" computer_name="JIRIBARTONEK-DT" gender_id="0" lod_persistence="1" material="patt_bag_002" model="patt_bag_v02" race_id="0" timestamp="06/09/2013 12:37" />
+      <row attachment_base_id="4cc51d5a-7fd2-86b0-c690-6ad649266983" attachment_base_name="patt_bag_v08" attachment_slot_id="1" computer_name="DJANKES-DT" gender_id="0" lod_persistence="1" material="patt_bag_v08" model="patt_bag_v08" race_id="0" timestamp="20/10/2015 14:38" />
+      <row attachment_base_id="4e41c4a2-ca32-f1d2-77ed-55f67f3f40b4" attachment_base_name="patt_bag_v001" attachment_slot_id="1" computer_name="JIRIBARTONEK-DT" gender_id="0" lod_persistence="1" material="patt_bag_001" model="patt_bag_v01" race_id="0" timestamp="06/09/2013 12:37" />
+      <row attachment_base_id="4f221d8d-9f94-b162-12b7-385197e852a7" attachment_base_name="patt_bag_v09" attachment_slot_id="1" computer_name="ICEREVKO-DT" gender_id="0" lod_persistence="1" material="patt_bag_v09" model="patt_bag_v09" race_id="0" timestamp="29/10/2015 19:58" />
+    </rows>
+  </table>
+</database>

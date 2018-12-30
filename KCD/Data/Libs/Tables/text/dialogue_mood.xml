@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="dialogue_mood" version="1">
+    <header>
+      <column name="dialogue_mood_id" type="integer" />
+      <column name="dialogue_mood_name" type="character varying" />
+      <column name="tag_name" type="character varying" />
+    </header>
+    <rows>
+      <row dialogue_mood_id="1" dialogue_mood_name="neutral" tag_name="Neutral" />
+      <row dialogue_mood_id="8" dialogue_mood_name="happy1" tag_name="Neutral" />
+      <row dialogue_mood_id="9" dialogue_mood_name="happy2" tag_name="Happy" />
+      <row dialogue_mood_id="10" dialogue_mood_name="happy3" tag_name="Happy" />
+      <row dialogue_mood_id="11" dialogue_mood_name="angry1" tag_name="Neutral" />
+      <row dialogue_mood_id="12" dialogue_mood_name="angry2" tag_name="Angry" />
+      <row dialogue_mood_id="13" dialogue_mood_name="angry3" tag_name="Angry" />
+      <row dialogue_mood_id="14" dialogue_mood_name="sad1" tag_name="Neutral" />
+      <row dialogue_mood_id="15" dialogue_mood_name="sad2" tag_name="Sad" />
+      <row dialogue_mood_id="16" dialogue_mood_name="sad3" tag_name="Sad" />
+      <row dialogue_mood_id="17" dialogue_mood_name="nervous1" tag_name="Neutral" />
+      <row dialogue_mood_id="18" dialogue_mood_name="nervous2" tag_name="Nervous" />
+      <row dialogue_mood_id="19" dialogue_mood_name="nervous3" tag_name="Nervous" />
+      <row dialogue_mood_id="20" dialogue_mood_name="thinking1" tag_name="Neutral" />
+      <row dialogue_mood_id="21" dialogue_mood_name="thinking2" tag_name="Pensive" />
+      <row dialogue_mood_id="22" dialogue_mood_name="thinking3" tag_name="Pensive" />
+      <row dialogue_mood_id="33" dialogue_mood_name="pursy" tag_name="Pursy" />
+      <row dialogue_mood_id="34" dialogue_mood_name="reading_letter" tag_name="readingLetter" />
+      <row dialogue_mood_id="39" dialogue_mood_name="arrogant1" tag_name="Neutral" />
+      <row dialogue_mood_id="40" dialogue_mood_name="arrogant2" tag_name="Arogant" />
+      <row dialogue_mood_id="41" dialogue_mood_name="arrogant3" tag_name="Arogant" />
+      <row dialogue_mood_id="42" dialogue_mood_name="t19103_s35682_1_henry_0_zK23" tag_name="S01_Courtship_zK23" />
+      <row dialogue_mood_id="43" dialogue_mood_name="t19103_s35689_2_henry_0_BGpE" tag_name="S01_Courtship_BGpE" />
+      <row dialogue_mood_id="44" dialogue_mood_name="t19104_s35672_0_henry_0_VeXF" tag_name="S01_Courtship_VeXF" />
+      <row dialogue_mood_id="45" dialogue_mood_name="t19104_s35678_1_p_henry_he_2Rj5" tag_name="S01_Courtship_2Rj5" />
+      <row dialogue_mood_id="46" dialogue_mood_name="t19104_s35678_1_p_henry_he_zub7" tag_name="S01_Courtship_zub7" />
+      <row dialogue_mood_id="47" dialogue_mood_name="t19104_s35681_2_henry_0_XSAb" tag_name="S01_Courtship_XSAb" />
+      <row dialogue_mood_id="48" dialogue_mood_name="t19106_s35674_0_henry_0_8XUm" tag_name="S01_Courtship_8XUm" />
+      <row dialogue_mood_id="49" dialogue_mood_name="t19107_s35675_0_henry_0_ua23" tag_name="S01_Courtship_ua23" />
+      <row dialogue_mood_id="50" dialogue_mood_name="t19107_s35676_1_henry_0_7m0A" tag_name="S01_Courtship_7m0A" />
+      <row dialogue_mood_id="51" dialogue_mood_name="t19107_s35676_1_henry_3_q5wi" tag_name="S01_Courtship_q5wi" />
+      <row dialogue_mood_id="52" dialogue_mood_name="t19108_s35679_0_henry_2_ejsK" tag_name="S01_Courtship_ejsK" />
+      <row dialogue_mood_id="53" dialogue_mood_name="t19109_s35683_0_p_henry_he_9b3S" tag_name="S01_Courtship_9b3S" />
+      <row dialogue_mood_id="54" dialogue_mood_name="t19109_s35686_1_henry_0_Hp44" tag_name="S01_Courtship_Hp44" />
+      <row dialogue_mood_id="55" dialogue_mood_name="t19110_s35684_0_henry_2_4YjK" tag_name="S01_Courtship_4YjK" />
+      <row dialogue_mood_id="56" dialogue_mood_name="t19110_s35684_0_p_henry_he_g0Na" tag_name="S01_Courtship_g0Na" />
+      <row dialogue_mood_id="57" dialogue_mood_name="t19112_s35690_0_henry_0_PwnQ" tag_name="S01_Courtship_PwnQ" />
+      <row dialogue_mood_id="58" dialogue_mood_name="t19112_s35693_1_henry_0_pThs" tag_name="S01_Courtship_pThs" />
+      <row dialogue_mood_id="59" dialogue_mood_name="t19112_s35700_2_p_henry_he_WwE4" tag_name="S01_Courtship_WwE4" />
+      <row dialogue_mood_id="60" dialogue_mood_name="t19113_s35692_1_henry_1_7Bbu" tag_name="S01_Courtship_7Bbu" />
+      <row dialogue_mood_id="61" dialogue_mood_name="t19114_s35694_0_henry_0_BDSW" tag_name="S01_Courtship_BDSW" />
+      <row dialogue_mood_id="62" dialogue_mood_name="t19114_s35697_1_henry_0_Dnnk" tag_name="S01_Courtship_Dnnk" />
+      <row dialogue_mood_id="63" dialogue_mood_name="t19103_s35671_0_tereza_0_3mdq" tag_name="S01_Courtship_3mdq" />
+      <row dialogue_mood_id="64" dialogue_mood_name="t19103_s35671_0_tereza_1_CQgj" tag_name="S01_Courtship_CQgj" />
+      <row dialogue_mood_id="65" dialogue_mood_name="t19103_s35682_1_p_tereza_t_3e3l" tag_name="S01_Courtship_3e3l" />
+      <row dialogue_mood_id="66" dialogue_mood_name="t19103_s35689_2_p_tereza_t_zxzW" tag_name="S01_Courtship_zxzW" />
+      <row dialogue_mood_id="67" dialogue_mood_name="t19103_s38122_1_tereza_0_om1S" tag_name="S01_Courtship_om1S" />
+      <row dialogue_mood_id="68" dialogue_mood_name="t19103_s38123_3_tereza_0_f4wV" tag_name="S01_Courtship_f4wV" />
+      <row dialogue_mood_id="69" dialogue_mood_name="t19104_s35681_2_tereza_1_zXFy" tag_name="S01_Courtship_zXFy" />
+      <row dialogue_mood_id="70" dialogue_mood_name="t19105_s35673_0_p_tereza_t_hd5O" tag_name="S01_Courtship_hd5O" />
+      <row dialogue_mood_id="71" dialogue_mood_name="t19105_s35677_1_p_tereza_t_0tvL" tag_name="S01_Courtship_0tvL" />
+      <row dialogue_mood_id="72" dialogue_mood_name="t19106_s35674_0_p_tereza_t_5u3c" tag_name="S01_Courtship_5u3c" />
+      <row dialogue_mood_id="73" dialogue_mood_name="t19106_s35674_0_p_tereza_t_SEe7" tag_name="S01_Courtship_SEe7" />
+      <row dialogue_mood_id="74" dialogue_mood_name="t19107_s35676_1_p_tereza_t_Ah6x" tag_name="S01_Courtship_Ah6x" />
+      <row dialogue_mood_id="75" dialogue_mood_name="t19107_s35676_1_p_tereza_t_gbZA" tag_name="S01_Courtship_gbZA" />
+      <row dialogue_mood_id="76" dialogue_mood_name="t19108_s35679_0_p_tereza_t_qwFy" tag_name="S01_Courtship_qwFy" />
+      <row dialogue_mood_id="77" dialogue_mood_name="t19108_s35679_0_tereza_3_Dc6s" tag_name="S01_Courtship_Dc6s" />
+      <row dialogue_mood_id="78" dialogue_mood_name="t19108_s35680_1_p_tereza_t_DEeK" tag_name="S01_Courtship_DEeK" />
+      <row dialogue_mood_id="79" dialogue_mood_name="t19110_s35684_0_p_tereza_t_nlEt" tag_name="S01_Courtship_nlEt" />
+      <row dialogue_mood_id="80" dialogue_mood_name="t19110_s35684_0_p_tereza_t_prAu" tag_name="S01_Courtship_prAu" />
+      <row dialogue_mood_id="81" dialogue_mood_name="t19110_s35684_0_tereza_for_H9vM" tag_name="S01_Courtship_H9vM" />
+      <row dialogue_mood_id="82" dialogue_mood_name="t19110_s35685_1_p_tereza_t_4oco" tag_name="S01_Courtship_4oco" />
+      <row dialogue_mood_id="83" dialogue_mood_name="t19111_s35687_0_p_tereza_t_ZMGF" tag_name="S01_Courtship_ZMGF" />
+      <row dialogue_mood_id="84" dialogue_mood_name="t19111_s35688_1_tereza_0_UnfW" tag_name="S01_Courtship_UnfW" />
+      <row dialogue_mood_id="85" dialogue_mood_name="t19112_s35693_1_p_tereza_t_tpED" tag_name="S01_Courtship_tpED" />
+      <row dialogue_mood_id="86" dialogue_mood_name="t19113_s35691_0_tereza_0_EEfr" tag_name="S01_Courtship_EEfr" />
+      <row dialogue_mood_id="87" dialogue_mood_name="t19113_s35692_1_p_tereza_t_ESmb" tag_name="S01_Courtship_ESmb" />
+      <row dialogue_mood_id="88" dialogue_mood_name="t19113_s35692_1_tereza_0_QwRU" tag_name="S01_Courtship_QwRU" />
+      <row dialogue_mood_id="89" dialogue_mood_name="t19115_s35696_1_p_tereza_t_8ggs" tag_name="S01_Courtship_8ggs" />
+      <row dialogue_mood_id="90" dialogue_mood_name="t19116_s35698_0_p_tereza_t_fZAW" tag_name="S01_Courtship_fZAW" />
+      <row dialogue_mood_id="91" dialogue_mood_name="t19116_s35698_0_tereza_for_llBs" tag_name="S01_Courtship_llBs" />
+      <row dialogue_mood_id="92" dialogue_mood_name="t19116_s35699_1_p_tereza_t_xKao" tag_name="S01_Courtship_xKao" />
+      <row dialogue_mood_id="93" dialogue_mood_name="t19117_s35701_0_p_tereza_t_9djn" tag_name="S01_Courtship_9djn" />
+      <row dialogue_mood_id="94" dialogue_mood_name="t19117_s35701_0_tereza_for_mw19" tag_name="S01_Courtship_mw19" />
+      <row dialogue_mood_id="95" dialogue_mood_name="t19117_s35702_1_p_tereza_t_tCt4" tag_name="S01_Courtship_tCt4" />
+      <row dialogue_mood_id="96" dialogue_mood_name="t19103_s35671_0_henry_0_P3N1" tag_name="S01_Courtship_BDSW" />
+      <row dialogue_mood_id="97" dialogue_mood_name="S01 Courtship" tag_name="S01_Courtship" />
+      <row dialogue_mood_id="98" dialogue_mood_name="barber" tag_name="Barber" />
+      <row dialogue_mood_id="99" dialogue_mood_name="balcony_Henry" tag_name="balcony_Henry" />
+      <row dialogue_mood_id="100" dialogue_mood_name="balcony_Capon" tag_name="balcony_Capon" />
+      <row dialogue_mood_id="111" dialogue_mood_name="balcony_Karolina" tag_name="balcony_Karolina" />
+    </rows>
+  </table>
+</database>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="missile_weapon_type" version="1">
+    <header>
+      <column name="missile_weapon_type_id" type="integer" />
+      <column name="missile_weapon_type_name" type="character varying" />
+    </header>
+    <rows>
+      <row missile_weapon_type_id="9" missile_weapon_type_name="bow" />
+    </rows>
+  </table>
+</database>

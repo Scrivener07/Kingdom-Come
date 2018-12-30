@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="weapon_equip_slot" version="1">
+    <header>
+      <column name="weapon_equip_slot_id" type="integer" />
+      <column name="weapon_equip_slot_name" type="character varying" />
+    </header>
+    <rows>
+      <row weapon_equip_slot_id="0" weapon_equip_slot_name="primary_main_hand" />
+      <row weapon_equip_slot_id="1" weapon_equip_slot_name="primary_off_hand" />
+      <row weapon_equip_slot_id="2" weapon_equip_slot_name="secondary_main_hand" />
+      <row weapon_equip_slot_id="3" weapon_equip_slot_name="secondary_off_hand" />
+      <row weapon_equip_slot_id="4" weapon_equip_slot_name="oversized" />
+      <row weapon_equip_slot_id="5" weapon_equip_slot_name="oversized_off" />
+    </rows>
+  </table>
+</database>

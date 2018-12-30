@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="body_layer" version="1">
+    <header>
+      <column name="body_layer_id" type="integer" />
+      <column name="body_layer_name" type="character varying" />
+      <column name="body_layer_type_id" type="integer" />
+      <column name="layer_order" type="integer" />
+    </header>
+    <rows>
+      <row body_layer_id="1" body_layer_name="cloth_inner" body_layer_type_id="1" layer_order="1" />
+      <row body_layer_id="2" body_layer_name="chainmail_inner" body_layer_type_id="2" layer_order="2" />
+      <row body_layer_id="3" body_layer_name="plate_inner" body_layer_type_id="3" layer_order="3" />
+      <row body_layer_id="4" body_layer_name="decoration_inner" body_layer_type_id="4" layer_order="7" />
+      <row body_layer_id="5" body_layer_name="cloth_outer" body_layer_type_id="1" layer_order="4" />
+      <row body_layer_id="6" body_layer_name="chainmail_outer" body_layer_type_id="2" layer_order="5" />
+      <row body_layer_id="7" body_layer_name="plate_outer" body_layer_type_id="3" layer_order="6" />
+      <row body_layer_id="8" body_layer_name="outer_collar" body_layer_type_id="2" layer_order="8" />
+      <row body_layer_id="9" body_layer_name="spur" body_layer_type_id="4" layer_order="9" />
+    </rows>
+  </table>
+</database>

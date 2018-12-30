@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="combat_action_trigger" version="1">
+    <header>
+      <column name="combat_action_trigger_id" type="integer" />
+      <column name="combat_action_type_id" type="integer" />
+      <column name="combat_guard_type_id" type="integer" />
+      <column name="combat_input_class_id" type="integer" />
+      <column name="timeout" type="real" />
+    </header>
+    <rows>
+      <row combat_action_trigger_id="0" combat_action_type_id="20" combat_guard_type_id="12" combat_input_class_id="0" timeout="4" />
+    </rows>
+  </table>
+</database>

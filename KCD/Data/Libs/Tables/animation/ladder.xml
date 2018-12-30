@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="ladder" version="4">
+    <header>
+      <column name="actor_class_hash" type="integer" />
+      <column name="align" type="real" />
+      <column name="height" type="real" />
+      <column name="mn_fragment_id" type="character varying" />
+      <column name="mn_option_index" type="integer" />
+      <column name="mn_tags" type="character varying" />
+      <column name="offset" type="real" />
+      <column name="timestamp" type="bigint" />
+    </header>
+    <rows>
+      <row actor_class_hash="1578932418" align="0.499999" height="-0" mn_fragment_id="LadderGetOn" mn_option_index="0" mn_tags="up" offset="-0.000049" timestamp="4698499423933042384" />
+      <row actor_class_hash="1578932418" align="0.5" height="-1.749981" mn_fragment_id="LadderGetOn" mn_option_index="0" mn_tags="down" offset="0.821458" timestamp="4698499423933042384" />
+      <row actor_class_hash="-116224680" align="0.5" height="-1.749984" mn_fragment_id="LadderGetOn" mn_option_index="0" mn_tags="down" offset="0.821452" timestamp="4698499424490920664" />
+      <row actor_class_hash="-116224680" align="0.5" height="-0" mn_fragment_id="LadderGetOn" mn_option_index="0" mn_tags="up" offset="-0.000049" timestamp="4698499424490920664" />
+      <row actor_class_hash="1578932418" align="-0.996386" height="-1.209606" mn_fragment_id="LadderGetOff" mn_option_index="0" mn_tags="up+palisade" offset="1.587604" timestamp="4698499423933042384" />
+      <row actor_class_hash="1578932418" align="-0.14716" height="1.738322" mn_fragment_id="LadderGetOff" mn_option_index="0" mn_tags="up" offset="0.647161" timestamp="4698499423933042384" />
+      <row actor_class_hash="1578932418" align="0.499951" height="0" mn_fragment_id="LadderGetOff" mn_option_index="0" mn_tags="down" offset="0.000049" timestamp="4698499423933042384" />
+      <row actor_class_hash="-116224680" align="0.499951" height="0" mn_fragment_id="LadderGetOff" mn_option_index="0" mn_tags="down" offset="0.000049" timestamp="4698499424490920664" />
+      <row actor_class_hash="-116224680" align="-0.14716" height="1.75" mn_fragment_id="LadderGetOff" mn_option_index="0" mn_tags="up" offset="0.647161" timestamp="4698499424490920664" />
+      <row actor_class_hash="1578932418" align="0" height="0" mn_fragment_id="LadderClimb" mn_option_index="0" mn_tags="loop+steepStairs" offset="0" timestamp="4698499423933042384" />
+      <row actor_class_hash="1578932418" align="0.5" height="0" mn_fragment_id="LadderClimb" mn_option_index="0" mn_tags="loop" offset="0" timestamp="4698499423933042384" />
+      <row actor_class_hash="-116224680" align="0.5" height="0" mn_fragment_id="LadderClimb" mn_option_index="0" mn_tags="loop" offset="0" timestamp="4698499424490920664" />
+    </rows>
+  </table>
+</database>

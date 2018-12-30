@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="anim_fragment_do_not_interrupt" version="13">
+    <header>
+      <column name="actor_class_hash" type="integer" />
+      <column name="end_time" type="real" />
+      <column name="mn_fragment_id" type="character varying" />
+      <column name="mn_option_index" type="integer" />
+      <column name="mn_tags" type="character varying" />
+      <column name="start_time" type="real" />
+      <column name="timestamp" type="bigint" />
+    </header>
+    <rows>
+      <row actor_class_hash="-1703660083" end_time="3.866667" mn_fragment_id="EatingVar" mn_option_index="0" mn_tags="" start_time="0" timestamp="4698499423799790040" />
+    </rows>
+  </table>
+</database>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="actor_activity" version="1">
+    <header>
+      <column name="actor_activity_id" type="integer" />
+      <column name="actor_activity_mn_tag" type="character varying" />
+      <column name="actor_activity_name" type="character varying" />
+    </header>
+    <rows>
+      <row actor_activity_id="1" actor_activity_mn_tag="-" actor_activity_name="idle" />
+      <row actor_activity_id="2" actor_activity_mn_tag="-" actor_activity_name="beggar" />
+      <row actor_activity_id="3" actor_activity_mn_tag="-" actor_activity_name="combat" />
+      <row actor_activity_id="4" actor_activity_mn_tag="-" actor_activity_name="transition" />
+      <row actor_activity_id="5" actor_activity_mn_tag="-" actor_activity_name="mark" />
+    </rows>
+  </table>
+</database>

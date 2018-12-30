@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="angriness_enum" version="1">
+    <header>
+      <column name="angriness_enum_id" type="integer" />
+      <column name="name" type="character varying" />
+      <column name="value" type="real" />
+    </header>
+    <rows>
+      <row angriness_enum_id="0" name="min_angriness" value="0" />
+      <row angriness_enum_id="1" name="max_angriness" value="1" />
+      <row angriness_enum_id="2" name="death" value="0.55" />
+      <row angriness_enum_id="4" name="theft_small" value="0.01" />
+      <row angriness_enum_id="5" name="unatributedStealthKill" value="0.15" />
+      <row angriness_enum_id="6" name="event_roadsideCorpse_unsolvedMurder" value="0.2" />
+      <row angriness_enum_id="7" name="theft_medium" value="0.025" />
+      <row angriness_enum_id="8" name="theft_large" value="0.125" />
+      <row angriness_enum_id="9" name="shooterNotFound" value="0.1" />
+    </rows>
+  </table>
+</database>

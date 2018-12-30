@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="mailbox_filter_action" version="1">
+    <header>
+      <column name="mailbox_filter_action_id" type="integer" />
+      <column name="mailbox_filter_action_name" type="character varying" />
+    </header>
+    <rows>
+      <row mailbox_filter_action_id="0" mailbox_filter_action_name="accept" />
+      <row mailbox_filter_action_id="1" mailbox_filter_action_name="reject" />
+    </rows>
+  </table>
+</database>

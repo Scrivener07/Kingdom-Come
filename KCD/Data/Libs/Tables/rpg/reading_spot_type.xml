@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="reading_spot_type" version="1">
+    <header>
+      <column name="reading_bonus" type="real" />
+      <column name="reading_spot_type_id" type="integer" />
+      <column name="reading_spot_type_name" type="character varying" />
+    </header>
+    <rows>
+      <row reading_bonus="0" reading_spot_type_id="0" reading_spot_type_name="none" />
+      <row reading_bonus="0.6" reading_spot_type_id="1" reading_spot_type_name="bed_ground" />
+      <row reading_bonus="1" reading_spot_type_id="2" reading_spot_type_name="SupremelyAttentivePerk" />
+      <row reading_bonus="1" reading_spot_type_id="3" reading_spot_type_name="bed" />
+      <row reading_bonus="1.2" reading_spot_type_id="4" reading_spot_type_name="bed_exceptional" />
+      <row reading_bonus="1" reading_spot_type_id="5" reading_spot_type_name="bench_table" />
+      <row reading_bonus="0.8" reading_spot_type_id="6" reading_spot_type_name="bench_notable" />
+    </rows>
+  </table>
+</database>

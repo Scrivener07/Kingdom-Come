@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="item_category" version="1">
+    <header>
+      <column name="item_category_id" type="integer" />
+      <column name="item_category_name" type="character varying" />
+    </header>
+    <rows>
+      <row item_category_id="0" item_category_name="misc" />
+      <row item_category_id="1" item_category_name="melee_weapon" />
+      <row item_category_id="2" item_category_name="missile_weapon" />
+      <row item_category_id="3" item_category_name="ammo" />
+      <row item_category_id="4" item_category_name="armor" />
+      <row item_category_id="5" item_category_name="food" />
+      <row item_category_id="6" item_category_name="money" />
+      <row item_category_id="8" item_category_name="document" />
+      <row item_category_id="9" item_category_name="alchemy_material" />
+      <row item_category_id="10" item_category_name="herb" />
+      <row item_category_id="11" item_category_name="alchemy_base" />
+      <row item_category_id="12" item_category_name="npc_tool" />
+      <row item_category_id="13" item_category_name="ointment_item" />
+      <row item_category_id="14" item_category_name="potion" />
+      <row item_category_id="15" item_category_name="die" />
+      <row item_category_id="16" item_category_name="helmet" />
+      <row item_category_id="17" item_category_name="key" />
+      <row item_category_id="18" item_category_name="keyring" />
+      <row item_category_id="25" item_category_name="player_item" />
+      <row item_category_id="26" item_category_name="equippable_item" />
+      <row item_category_id="27" item_category_name="weapon" />
+      <row item_category_id="28" item_category_name="consumable_item" />
+    </rows>
+  </table>
+</database>

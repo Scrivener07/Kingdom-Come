@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="situation_frequency" version="1">
+    <header>
+      <column name="b_global_variation_per_npc" type="boolean" />
+      <column name="global_interval_variation" type="integer" />
+      <column name="global_minimal_interval" type="integer" />
+      <column name="local_interval_variation" type="integer" />
+      <column name="local_minimal_interval" type="integer" />
+      <column name="name" type="character varying" />
+      <column name="situation_frequency_id" type="uuid" />
+      <column name="time_type" type="integer" />
+    </header>
+    <rows>
+      <row b_global_variation_per_npc="False" global_interval_variation="15000" global_minimal_interval="5000" local_interval_variation="40000" local_minimal_interval="40000" name="f_talkingOnBench" situation_frequency_id="49077c48-0c13-feb8-204c-4d3106a377a7" time_type="1" />
+      <row b_global_variation_per_npc="False" global_interval_variation="5000" global_minimal_interval="10000" local_interval_variation="100000" local_minimal_interval="100000" name="evetCrowd" situation_frequency_id="49d2bf06-95f0-7f4c-c20d-3b1abd36e0a2" time_type="1" />
+      <row b_global_variation_per_npc="False" global_interval_variation="0" global_minimal_interval="1" local_interval_variation="0" local_minimal_interval="1" name="testFast" situation_frequency_id="4ac63aee-54e4-83bb-4b49-0ab2b152a680" time_type="0" />
+      <row b_global_variation_per_npc="False" global_interval_variation="5000" global_minimal_interval="1000" local_interval_variation="20000" local_minimal_interval="20000" name="Greetings" situation_frequency_id="4b8cc0fb-a7eb-2cdd-1a5e-c81efa96aa8e" time_type="0" />
+      <row b_global_variation_per_npc="False" global_interval_variation="15000" global_minimal_interval="35000" local_interval_variation="120000" local_minimal_interval="120000" name="beggar" situation_frequency_id="4c5125ec-5d01-4b6c-4889-11e064c263b0" time_type="1" />
+      <row b_global_variation_per_npc="False" global_interval_variation="20000" global_minimal_interval="20000" local_interval_variation="40000" local_minimal_interval="40000" name="talking" situation_frequency_id="4c86e376-96d3-00f7-39cf-5bbb9b43f9a5" time_type="1" />
+      <row b_global_variation_per_npc="False" global_interval_variation="10000" global_minimal_interval="10000" local_interval_variation="25000" local_minimal_interval="25000" name="eventFortuneTeller" situation_frequency_id="4e4334a8-0834-26a9-90fe-7d965a38d2b5" time_type="1" />
+      <row b_global_variation_per_npc="False" global_interval_variation="2000" global_minimal_interval="6000" local_interval_variation="300000" local_minimal_interval="300000" name="eventPillory" situation_frequency_id="4f2e01a8-d0c4-5316-5a7d-39af316603bb" time_type="0" />
+      <row b_global_variation_per_npc="True" global_interval_variation="8000" global_minimal_interval="4000" local_interval_variation="10000" local_minimal_interval="20000" name="tournamentCivilTalk" situation_frequency_id="655db01e-a65b-4e55-a1d0-179eac0d33e9" time_type="1" />
+      <row b_global_variation_per_npc="False" global_interval_variation="8000" global_minimal_interval="5000" local_interval_variation="1000" local_minimal_interval="20000" name="Frequent-Global" situation_frequency_id="79333910-8e6b-11e3-baa8-0800200c9a66" time_type="1" />
+      <row b_global_variation_per_npc="True" global_interval_variation="100000" global_minimal_interval="10000" local_interval_variation="1000" local_minimal_interval="20000" name="Frequent-PerNPC" situation_frequency_id="79333911-8e6b-11e3-baa8-0800200c9a66" time_type="1" />
+      <row b_global_variation_per_npc="True" global_interval_variation="10000" global_minimal_interval="4000" local_interval_variation="1000" local_minimal_interval="18000" name="Prodejce_prodej" situation_frequency_id="a9c86258-02ac-42de-92cd-f6553b67e65a" time_type="1" />
+    </rows>
+  </table>
+</database>

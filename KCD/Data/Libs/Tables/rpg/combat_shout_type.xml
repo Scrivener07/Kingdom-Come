@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="combat_shout_type" version="1">
+    <header>
+      <column name="combat_shout_type_id" type="integer" />
+      <column name="combat_shout_type_name" type="character varying" />
+      <column name="metarole_id" type="integer" />
+      <column name="period" type="real" />
+      <column name="period_rnd_spread" type="real" />
+    </header>
+    <rows>
+      <row combat_shout_type_id="0" combat_shout_type_name="idle" metarole_id="289" period="1" period_rnd_spread="1" />
+      <row combat_shout_type_id="1" combat_shout_type_name="actorShoutAfterAttack" metarole_id="290" period="0" period_rnd_spread="0" />
+      <row combat_shout_type_id="2" combat_shout_type_name="actorShoutAfterGivenHit" metarole_id="291" period="0" period_rnd_spread="0" />
+      <row combat_shout_type_id="3" combat_shout_type_name="victimShoutAfterReceivedHit" metarole_id="292" period="0" period_rnd_spread="0" />
+      <row combat_shout_type_id="4" combat_shout_type_name="actorShoutAfterMissedAttack" metarole_id="293" period="0" period_rnd_spread="0" />
+      <row combat_shout_type_id="5" combat_shout_type_name="victimShoutAfterMissedAttack" metarole_id="294" period="0" period_rnd_spread="0" />
+      <row combat_shout_type_id="6" combat_shout_type_name="actorShoutClinch" metarole_id="295" period="0" period_rnd_spread="0" />
+      <row combat_shout_type_id="7" combat_shout_type_name="actorScreamAttack" metarole_id="296" period="0" period_rnd_spread="0" />
+      <row combat_shout_type_id="8" combat_shout_type_name="victimScreamReceivedHit" metarole_id="297" period="0" period_rnd_spread="0" />
+      <row combat_shout_type_id="9" combat_shout_type_name="victimScreamMissedAttack" metarole_id="298" period="0" period_rnd_spread="0" />
+      <row combat_shout_type_id="10" combat_shout_type_name="actorScreamClinch" metarole_id="299" period="0" period_rnd_spread="0" />
+      <row combat_shout_type_id="11" combat_shout_type_name="actorScreamNoStaminaAttack" metarole_id="296" period="0" period_rnd_spread="0" />
+      <row combat_shout_type_id="12" combat_shout_type_name="actorScreamNoSpaceAttack" metarole_id="296" period="0" period_rnd_spread="0" />
+    </rows>
+  </table>
+</database>

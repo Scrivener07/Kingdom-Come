@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="stash" version="1">
+    <header>
+      <column name="Difficulty" type="real" />
+      <column name="InventoryDBId" type="integer" />
+      <column name="Locked" type="boolean" />
+      <column name="MinimalShopItemPrice" type="integer" />
+      <column name="computer_name" type="character varying" />
+      <column name="level_name" type="character varying" />
+      <column name="stash_id" type="uuid" />
+      <column name="stash_name" type="character varying" />
+      <column name="stash_original_name" type="character varying" />
+      <column name="timestamp" type="character varying" />
+    </header>
+    <rows>
+      <row Difficulty="0" InventoryDBId="0" Locked="False" MinimalShopItemPrice="0" computer_name="RSEVCIK-DT" level_name="dbentity" stash_id="00000000-0000-0000-0000-000000001234" stash_name="DBEntity1" stash_original_name="" timestamp="" />
+      <row Difficulty="1" InventoryDBId="0" Locked="True" MinimalShopItemPrice="20" computer_name="RSEVCIK-DT" level_name="shop_4stashes" stash_id="4026e2e6-c07c-60f9-2cb2-da75a7db8a82" stash_name="Stash20B" stash_original_name="" timestamp="" />
+      <row Difficulty="1" InventoryDBId="0" Locked="True" MinimalShopItemPrice="0" computer_name="RSEVCIK-DT" level_name="shop_4stashes" stash_id="4246fcd3-84c9-cd2a-2be1-8b5cfa5097b5" stash_name="Stash0" stash_original_name="" timestamp="" />
+      <row Difficulty="1" InventoryDBId="0" Locked="True" MinimalShopItemPrice="20" computer_name="RSEVCIK-DT" level_name="shop_4stashes" stash_id="42f7fb59-fbb1-869c-dda0-ffbed9e05e9d" stash_name="Stash20" stash_original_name="" timestamp="" />
+      <row Difficulty="0.9" InventoryDBId="1" Locked="True" MinimalShopItemPrice="0" computer_name="RSEVCIK-DT" level_name="stash" stash_id="43527eaa-6078-2ef7-5c68-9bc13c4c5089" stash_name="Stash2" stash_original_name="" timestamp="18/10/2012 14:45" />
+      <row Difficulty="1" InventoryDBId="0" Locked="True" MinimalShopItemPrice="50" computer_name="RSEVCIK-DT" level_name="shop_4stashes" stash_id="45a2d296-6f0c-c256-b112-3534f45d3f9a" stash_name="Stash50" stash_original_name="" timestamp="" />
+      <row Difficulty="55.1" InventoryDBId="0" Locked="True" MinimalShopItemPrice="7" computer_name="RSEVCIK-DT" level_name="shop" stash_id="4677d290-3432-eb43-3722-0eda197c1aaf" stash_name="Stash2" stash_original_name="" timestamp="" />
+      <row Difficulty="1" InventoryDBId="0" Locked="True" MinimalShopItemPrice="0" computer_name="PHANUS-DT" level_name="rataje" stash_id="47b3476a-861c-4533-2509-775b88f1879f" stash_name="ratShopMix_StashMain" stash_original_name="ratShopMix_StashMain" timestamp="17/12/2012 15:54" />
+      <row Difficulty="1" InventoryDBId="0" Locked="True" MinimalShopItemPrice="0" computer_name="RSEVCIK-DT" level_name="npc_prochazka" stash_id="482f3cae-e3b0-35d0-bce7-58950ede2f9d" stash_name="Stash1" stash_original_name="Stash1" timestamp="14/12/2012 11:16" />
+      <row Difficulty="0.9" InventoryDBId="1" Locked="True" MinimalShopItemPrice="0" computer_name="RSEVCIK-DT" level_name="stash" stash_id="4ae97070-c0c2-bad0-e6f6-28898da578a3" stash_name="Stash2_renamed" stash_original_name="Stash2" timestamp="18/10/2012 14:53" />
+      <row Difficulty="1" InventoryDBId="1" Locked="True" MinimalShopItemPrice="0" computer_name="ABOROVICKA-NB" level_name="stash" stash_id="4cac0680-2e87-acd0-f78f-d4e267640789" stash_name="Stash2" stash_original_name="" timestamp="" />
+      <row Difficulty="55" InventoryDBId="0" Locked="True" MinimalShopItemPrice="7" computer_name="RSEVCIK-DT" level_name="shop" stash_id="4cb00408-525f-f37e-3a6a-89f011dc0696" stash_name="Stash2" stash_original_name="" timestamp="" />
+      <row Difficulty="55.1" InventoryDBId="0" Locked="True" MinimalShopItemPrice="7" computer_name="ABOROVICKA-NB" level_name="stash" stash_id="4dbba0e6-b100-f356-f711-3f60c5d1d3b3" stash_name="Stash2" stash_original_name="" timestamp="" />
+      <row Difficulty="55" InventoryDBId="0" Locked="True" MinimalShopItemPrice="7" computer_name="RSEVCIK-DT" level_name="shop" stash_id="ca23ed22-2f82-4d3a-b47f-fc284efe75b9" stash_name="Stash2" stash_original_name="" timestamp="" />
+    </rows>
+  </table>
+</database>

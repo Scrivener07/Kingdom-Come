@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="statistic_group" version="1">
+    <header>
+      <column name="icon_id" type="integer" />
+      <column name="statistic_group_id" type="integer" />
+      <column name="statistic_group_name" type="character varying" />
+      <column name="ui_name" type="character varying" />
+      <column name="ui_order" type="integer" />
+    </header>
+    <rows>
+      <row icon_id="" statistic_group_id="0" statistic_group_name="Hidden" ui_name="" ui_order="" />
+      <row icon_id="1" statistic_group_id="1" statistic_group_name="General" ui_name="stat_group_general" ui_order="1" />
+      <row icon_id="2" statistic_group_id="2" statistic_group_name="Combat" ui_name="stat_group_combat" ui_order="2" />
+      <row icon_id="3" statistic_group_id="3" statistic_group_name="Crime" ui_name="stat_group_crime" ui_order="3" />
+      <row icon_id="4" statistic_group_id="4" statistic_group_name="Dialog" ui_name="stat_group_dialog" ui_order="5" />
+      <row icon_id="5" statistic_group_id="5" statistic_group_name="Craft" ui_name="stat_group_craft" ui_order="6" />
+      <row icon_id="6" statistic_group_id="6" statistic_group_name="Quest" ui_name="stat_group_quest" ui_order="4" />
+      <row icon_id="7" statistic_group_id="7" statistic_group_name="Gambling" ui_name="stat_group_gambling" ui_order="7" />
+    </rows>
+  </table>
+</database>

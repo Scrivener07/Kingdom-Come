@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="v_voice_abbreviation" version="1">
+    <header>
+      <column name="abbreviation" type="character varying" />
+      <column name="voice_id" type="integer" />
+    </header>
+    <rows>
+      <row abbreviation="aric" voice_id="68" />
+      <row abbreviation="tsto" voice_id="130" />
+      <row abbreviation="agal" voice_id="125" />
+      <row abbreviation="jbod" voice_id="126" />
+      <row abbreviation="aszi" voice_id="127" />
+      <row abbreviation="cgal" voice_id="128" />
+      <row abbreviation="mnad" voice_id="129" />
+      <row abbreviation="mmax" voice_id="131" />
+      <row abbreviation="phos1" voice_id="102" />
+      <row abbreviation="phos2" voice_id="132" />
+      <row abbreviation="bbea" voice_id="133" />
+      <row abbreviation="smoo" voice_id="134" />
+      <row abbreviation="ahuc" voice_id="135" />
+      <row abbreviation="dbro2" voice_id="137" />
+      <row abbreviation="dbro1" voice_id="81" />
+      <row abbreviation="fwri" voice_id="138" />
+      <row abbreviation="und" voice_id="0" />
+      <row abbreviation="mwol" voice_id="67" />
+      <row abbreviation="amil" voice_id="69" />
+      <row abbreviation="akem" voice_id="70" />
+      <row abbreviation="bvac" voice_id="71" />
+      <row abbreviation="bbra" voice_id="72" />
+      <row abbreviation="bada" voice_id="73" />
+      <row abbreviation="bray" voice_id="74" />
+      <row abbreviation="bcro" voice_id="75" />
+      <row abbreviation="bdou" voice_id="76" />
+      <row abbreviation="bbles" voice_id="77" />
+      <row abbreviation="bcas" voice_id="78" />
+      <row abbreviation="bdav" voice_id="79" />
+      <row abbreviation="cmat" voice_id="80" />
+      <row abbreviation="dsir" voice_id="82" />
+      <row abbreviation="gand" voice_id="83" />
+      <row abbreviation="gtru" voice_id="84" />
+      <row abbreviation="ggud" voice_id="85" />
+      <row abbreviation="ccla" voice_id="86" />
+      <row abbreviation="cduk" voice_id="87" />
+      <row abbreviation="jcla" voice_id="88" />
+      <row abbreviation="jpres" voice_id="91" />
+      <row abbreviation="jhig1" voice_id="92" />
+      <row abbreviation="jcom" voice_id="93" />
+      <row abbreviation="kmic" voice_id="94" />
+      <row abbreviation="lhil" voice_id="95" />
+      <row abbreviation="lall" voice_id="96" />
+      <row abbreviation="ldal" voice_id="97" />
+      <row abbreviation="mcra" voice_id="98" />
+      <row abbreviation="mpit" voice_id="99" />
+      <row abbreviation="pdea" voice_id="100" />
+      <row abbreviation="pgaf" voice_id="101" />
+      <row abbreviation="rwil" voice_id="103" />
+      <row abbreviation="rzem" voice_id="104" />
+      <row abbreviation="rpro" voice_id="105" />
+      <row abbreviation="sbar" voice_id="106" />
+      <row abbreviation="sphe" voice_id="107" />
+      <row abbreviation="tmck" voice_id="108" />
+      <row abbreviation="tzie" voice_id="109" />
+      <row abbreviation="vhoga" voice_id="110" />
+      <row abbreviation="ysha" voice_id="111" />
+      <row abbreviation="gkus" voice_id="123" />
+      <row abbreviation="jdor" voice_id="124" />
+    </rows>
+  </table>
+</database>

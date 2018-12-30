@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="recipe" version="1">
+    <header>
+      <column name="base_material_id" type="uuid" />
+      <column name="max_yield" type="integer" />
+      <column name="product_item_id" type="uuid" />
+      <column name="recipe_id" type="integer" />
+      <column name="ui_name" type="character varying" />
+      <column name="ui_stats" type="character varying" />
+      <column name="ui_usage" type="character varying" />
+    </header>
+    <rows>
+      <row base_material_id="310e921d-da62-48e4-88ef-de9f295e0045" max_yield="3" product_item_id="f1309a89-045f-44ae-a4d9-c997b892a162" recipe_id="2" ui_name="recipe_potion_absintium_name" ui_stats="recipe_potion_absintium_stats" ui_usage="ui_in_potion_absintium" />
+      <row base_material_id="e96d768e-04e5-4480-9197-1c256d642ddc" max_yield="3" product_item_id="8b713d0c-9a04-4354-a53f-ffd384057fa6" recipe_id="3" ui_name="recipe_potion_antidote_name" ui_stats="recipe_potion_antidote_stats" ui_usage="recipe_potion_antidote_usage" />
+      <row base_material_id="310e921d-da62-48e4-88ef-de9f295e0045" max_yield="3" product_item_id="3157d51d-7461-4fdc-9601-93bd5ed42156" recipe_id="4" ui_name="recipe_potion_archer_name" ui_stats="recipe_potion_archer_stats" ui_usage="recipe_potion_archer_usage" />
+      <row base_material_id="d5efb270-948b-4a38-b391-38b2edd31c8d" max_yield="3" product_item_id="42e54d97-6e63-4e50-a09d-325ef4dd2286" recipe_id="5" ui_name="recipe_potion_bane_name" ui_stats="recipe_potion_bane_stats" ui_usage="recipe_potion_bane_usage" />
+      <row base_material_id="34bd1d0b-1203-42a0-b9b4-d3585a4d9b48" max_yield="3" product_item_id="34d9f446-e5a7-4af4-858a-e96473de814f" recipe_id="6" ui_name="recipe_potion_bard_name" ui_stats="recipe_potion_bard_stats" ui_usage="recipe_potion_bard_usage" />
+      <row base_material_id="d5efb270-948b-4a38-b391-38b2edd31c8d" max_yield="3" product_item_id="2b24a290-ec3c-454c-901e-fea76aa76d74" recipe_id="7" ui_name="recipe_potion_berserk_name" ui_stats="recipe_potion_berserk_stats" ui_usage="recipe_potion_berserk_usage" />
+      <row base_material_id="d5efb270-948b-4a38-b391-38b2edd31c8d" max_yield="1" product_item_id="1322a0ca-1be1-449a-b1fa-cd7079a9ba90" recipe_id="8" ui_name="recipe_potion_dementia_name" ui_stats="recipe_potion_dementia_stats" ui_usage="recipe_potion_dementia_usage" />
+      <row base_material_id="310e921d-da62-48e4-88ef-de9f295e0045" max_yield="3" product_item_id="eca88106-4bab-4419-8772-4450739c193c" recipe_id="10" ui_name="recipe_potion_digestion_name" ui_stats="recipe_potion_digestion_stats" ui_usage="recipe_potion_digestion_usage" />
+      <row base_material_id="e96d768e-04e5-4480-9197-1c256d642ddc" max_yield="3" product_item_id="d837e829-d706-4db8-8e3d-e70a16882c96" recipe_id="11" ui_name="recipe_potion_drinker_name" ui_stats="recipe_potion_drinker_stats" ui_usage="recipe_potion_drinker_usage" />
+      <row base_material_id="310e921d-da62-48e4-88ef-de9f295e0045" max_yield="3" product_item_id="c40dc516-9886-4245-8a8b-2cbb16da918d" recipe_id="12" ui_name="recipe_potion_energy_name" ui_stats="recipe_potion_energy_stats" ui_usage="recipe_potion_energy_usage" />
+      <row base_material_id="d5efb270-948b-4a38-b391-38b2edd31c8d" max_yield="3" product_item_id="928463d9-e21a-4f7c-b5d3-8378ed375cd1" recipe_id="13" ui_name="recipe_potion_fever_name" ui_stats="recipe_potion_fever_stats" ui_usage="recipe_potion_fever_usage" />
+      <row base_material_id="e96d768e-04e5-4480-9197-1c256d642ddc" max_yield="3" product_item_id="b38c34b7-6016-4f64-9ba2-65e1ce31d4a1" recipe_id="14" ui_name="recipe_potion_health_bas_name" ui_stats="recipe_potion_health_bas_stats" ui_usage="recipe_potion_health_bas_usage" />
+      <row base_material_id="e96d768e-04e5-4480-9197-1c256d642ddc" max_yield="3" product_item_id="2668d311-8667-4f27-b94b-7f6175678f17" recipe_id="15" ui_name="recipe_potion_health_str_name" ui_stats="recipe_potion_health_str_stats" ui_usage="recipe_potion_health_str_usage" />
+      <row base_material_id="310e921d-da62-48e4-88ef-de9f295e0045" max_yield="3" product_item_id="2529e246-6f1b-4529-8d6b-64245207bae8" recipe_id="16" ui_name="recipe_potion_hooch_name" ui_stats="recipe_potion_hooch_stats" ui_usage="recipe_potion_hooch_usage" />
+      <row base_material_id="310e921d-da62-48e4-88ef-de9f295e0045" max_yield="3" product_item_id="73ff1fde-ec8b-41e9-95e3-b5938c715bf1" recipe_id="17" ui_name="recipe_potion_horseman_name" ui_stats="recipe_potion_horseman_stats" ui_usage="recipe_potion_horseman_usage" />
+      <row base_material_id="34bd1d0b-1203-42a0-b9b4-d3585a4d9b48" max_yield="3" product_item_id="567fc1b1-1424-4784-9da8-5104e2e7354d" recipe_id="18" ui_name="recipe_potion_hunter_name" ui_stats="recipe_potion_hunter_stats" ui_usage="recipe_potion_hunter_usage" />
+      <row base_material_id="d5efb270-948b-4a38-b391-38b2edd31c8d" max_yield="3" product_item_id="2509115d-59c9-44f8-9802-f600eba63fa9" recipe_id="19" ui_name="recipe_potion_lover_name" ui_stats="recipe_potion_lover_stats" ui_usage="recipe_potion_lover_usage" />
+      <row base_material_id="e96d768e-04e5-4480-9197-1c256d642ddc" max_yield="3" product_item_id="6b955a9b-d8de-492c-a53e-a052fab4ff0a" recipe_id="21" ui_name="recipe_potion_owl_name" ui_stats="recipe_potion_owl_stats" ui_usage="recipe_potion_owl_usage" />
+      <row base_material_id="310e921d-da62-48e4-88ef-de9f295e0045" max_yield="3" product_item_id="5c17d1d9-70ec-49d9-9b05-ae23247c045f" recipe_id="22" ui_name="recipe_potion_paralysis_name" ui_stats="recipe_potion_paralysis_stats" ui_usage="recipe_potion_paralysis_usage" />
+      <row base_material_id="34bd1d0b-1203-42a0-b9b4-d3585a4d9b48" max_yield="3" product_item_id="fd6cceee-06d0-4a0b-a0f6-c52d0afd5481" recipe_id="23" ui_name="recipe_potion_poison_name" ui_stats="recipe_potion_poison_stats" ui_usage="recipe_potion_poison_usage" />
+      <row base_material_id="34bd1d0b-1203-42a0-b9b4-d3585a4d9b48" max_yield="3" product_item_id="6568088a-98b6-4353-81d1-31bd2662a545" recipe_id="24" ui_name="recipe_potion_preserver_name" ui_stats="recipe_potion_preserver_stats" ui_usage="recipe_potion_preserver_usage" />
+      <row base_material_id="34bd1d0b-1203-42a0-b9b4-d3585a4d9b48" max_yield="3" product_item_id="31148cbb-8592-4b26-a1ae-8a9e07e309e6" recipe_id="25" ui_name="recipe_potion_sleep_name" ui_stats="recipe_potion_sleep_stats" ui_usage="recipe_potion_sleep_usage" />
+      <row base_material_id="e96d768e-04e5-4480-9197-1c256d642ddc" max_yield="3" product_item_id="ab25a50a-7836-47a9-acb2-5fd93684b8c5" recipe_id="26" ui_name="recipe_potion_sneak_name" ui_stats="recipe_potion_sneak_stats" ui_usage="recipe_potion_sneak_usage" />
+      <row base_material_id="34bd1d0b-1203-42a0-b9b4-d3585a4d9b48" max_yield="3" product_item_id="92c829ca-41f6-40a7-b8d9-aac5159c7a89" recipe_id="27" ui_name="recipe_potion_stamina_name" ui_stats="recipe_potion_stamina_stats" ui_usage="recipe_potion_stamina_usage" />
+      <row base_material_id="e96d768e-04e5-4480-9197-1c256d642ddc" max_yield="3" product_item_id="36d4b46d-75cb-4e58-a430-b1a0aa283088" recipe_id="28" ui_name="recipe_potion_syrup_name" ui_stats="recipe_potion_syrup_stats" ui_usage="recipe_potion_syrup_usage" />
+      <row base_material_id="34bd1d0b-1203-42a0-b9b4-d3585a4d9b48" max_yield="1" product_item_id="73b69372-3ccb-4bf4-bd21-94863da2654e" recipe_id="29" ui_name="recipe_potion_tideness_name" ui_stats="recipe_potion_tideness_stats" ui_usage="recipe_potion_tideness_usage" />
+      <row base_material_id="e96d768e-04e5-4480-9197-1c256d642ddc" max_yield="3" product_item_id="850d28d9-9d0a-4b2e-9feb-e6c48c5f1aad" recipe_id="30" ui_name="recipe_potion_vitality_name" ui_stats="recipe_potion_vitality_stats" ui_usage="recipe_potion_vitality_usage" />
+      <row base_material_id="34bd1d0b-1203-42a0-b9b4-d3585a4d9b48" max_yield="3" product_item_id="3d3f5935-c2e3-4e52-8a16-a6a04ee4a79f" recipe_id="31" ui_name="recipe_potion_witch_name" ui_stats="recipe_potion_witch_stats" ui_usage="recipe_potion_witch_usage" />
+      <row base_material_id="" max_yield="1" product_item_id="20361656-5917-40e9-be7f-a5e6cc07981d" recipe_id="32" ui_name="recipe_potion_abortion_name" ui_stats="recipe_potion_abortion_stats" ui_usage="recipe_potion_abortion_usage" />
+      <row base_material_id="e96d768e-04e5-4480-9197-1c256d642ddc" max_yield="1" product_item_id="5f6cdfad-2e87-45e4-bd5a-e3b604adc766" recipe_id="41" ui_name="recipe_potion_mrch_cure_name" ui_stats="recipe_potion_mrch_cure_stats" ui_usage="recipe_potion_mrch_cure_usage" />
+      <row base_material_id="310e921d-da62-48e4-88ef-de9f295e0045" max_yield="1" product_item_id="b0763820-556a-4d4c-a858-009aa897fb61" recipe_id="42" ui_name="recipe_potion_mrch_cure_name" ui_stats="recipe_potion_mrch_cure_stats" ui_usage="recipe_potion_mrch_cure_usage" />
+      <row base_material_id="310e921d-da62-48e4-88ef-de9f295e0045" max_yield="1" product_item_id="601f9ff2-0413-40c9-b443-9695aafa71a5" recipe_id="43" ui_name="recipe_potion_respec_name" ui_stats="recipe_potion_respec_stats" ui_usage="recipe_potion_respec_usage" />
+      <row base_material_id="d5efb270-948b-4a38-b391-38b2edd31c8d" max_yield="3" product_item_id="eec58bfb-063e-4838-b78d-3c2b354f1346" recipe_id="45" ui_name="recipe_potion_fake_blood_name" ui_stats="recipe_potion_fake_blood_stats" ui_usage="recipe_potion_fake_blood_usage" />
+      <row base_material_id="e96d768e-04e5-4480-9197-1c256d642ddc" max_yield="3" product_item_id="60825599-3c28-4a5b-ad6a-fda128f8b723" recipe_id="47" ui_name="recipe_irresistibility_name" ui_stats="recipe_potion_irresistibility_stats" ui_usage="recipe_potion_irresistibility_usage" />
+    </rows>
+  </table>
+</database>

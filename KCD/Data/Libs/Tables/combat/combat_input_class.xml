@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="combat_input_class" version="1">
+    <header>
+      <column name="combat_input_class_id" type="integer" />
+      <column name="combat_input_class_name" type="character varying" />
+      <column name="mn_tag" type="character varying" />
+    </header>
+    <rows>
+      <row combat_input_class_id="-1" combat_input_class_name="none" mn_tag="" />
+      <row combat_input_class_id="0" combat_input_class_name="attack_light" mn_tag="attack_light" />
+      <row combat_input_class_id="1" combat_input_class_name="attack_heavy" mn_tag="attack_heavy" />
+      <row combat_input_class_id="2" combat_input_class_name="attack_special" mn_tag="attack_special" />
+      <row combat_input_class_id="3" combat_input_class_name="move_left" mn_tag="move_left" />
+      <row combat_input_class_id="4" combat_input_class_name="move_right" mn_tag="move_right" />
+      <row combat_input_class_id="5" combat_input_class_name="move_back" mn_tag="move_back" />
+      <row combat_input_class_id="6" combat_input_class_name="move_forward" mn_tag="move_forward" />
+      <row combat_input_class_id="7" combat_input_class_name="block" mn_tag="" />
+    </rows>
+  </table>
+</database>

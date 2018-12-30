@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="attachment_slot" version="1">
+    <header>
+      <column name="attachment_slot_id" type="integer" />
+      <column name="attachment_slot_name" type="character varying" />
+      <column name="joint_name" type="character varying" />
+      <column name="race_id" type="integer" />
+    </header>
+    <rows>
+      <row attachment_slot_id="1" attachment_slot_name="slot1" joint_name="CS_Slot1" race_id="0" />
+      <row attachment_slot_id="2" attachment_slot_name="slot2" joint_name="CS_Slot2" race_id="0" />
+      <row attachment_slot_id="3" attachment_slot_name="slot3" joint_name="CS_Slot3" race_id="0" />
+      <row attachment_slot_id="4" attachment_slot_name="slot4" joint_name="CS_Slot4" race_id="0" />
+      <row attachment_slot_id="5" attachment_slot_name="slot5" joint_name="CS_Slot5" race_id="0" />
+      <row attachment_slot_id="6" attachment_slot_name="slot6" joint_name="CS_Slot6" race_id="0" />
+      <row attachment_slot_id="7" attachment_slot_name="LeftWeapon" joint_name="LeftWeaponSlot" race_id="0" />
+      <row attachment_slot_id="8" attachment_slot_name="RightWeapon" joint_name="RightWeaponSlot" race_id="0" />
+      <row attachment_slot_id="9" attachment_slot_name="quiver" joint_name="BackSlot_quiver" race_id="0" />
+      <row attachment_slot_id="10" attachment_slot_name="bow" joint_name="BackSlot_bow" race_id="0" />
+      <row attachment_slot_id="11" attachment_slot_name="crossbow" joint_name="BackSlot_crossbow" race_id="0" />
+      <row attachment_slot_id="12" attachment_slot_name="shield" joint_name="BackSlot_shield" race_id="0" />
+    </rows>
+  </table>
+</database>

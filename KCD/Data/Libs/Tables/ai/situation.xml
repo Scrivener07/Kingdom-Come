@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="situation" version="1">
+    <header>
+      <column name="enabled" type="boolean" />
+      <column name="max_instances" type="integer" />
+      <column name="name" type="character varying" />
+      <column name="sa_smart_area_id" type="uuid" />
+      <column name="search_type" type="integer" />
+      <column name="situation_frequency_id" type="uuid" />
+      <column name="situation_id" type="uuid" />
+    </header>
+    <rows>
+      <row enabled="False" max_instances="-1" name="dialogWithPasserby" sa_smart_area_id="5daae9ba-2984-4f18-8455-326569509845" search_type="0" situation_frequency_id="a9c86258-02ac-42de-92cd-f6553b67e65a" situation_id="4018ee51-e4d4-ec57-b007-808661402998" />
+      <row enabled="False" max_instances="-1" name="preachCrowd" sa_smart_area_id="457e6e02-19a8-65b4-4d57-fc9464154584" search_type="0" situation_frequency_id="49d2bf06-95f0-7f4c-c20d-3b1abd36e0a2" situation_id="429d600f-bafb-0b9a-6dc3-9065648dc6aa" />
+      <row enabled="False" max_instances="-1" name="q_plagueInMerhojed_dialogAboutPlague" sa_smart_area_id="5daae9ba-2984-4f18-8455-326569509845" search_type="0" situation_frequency_id="a9c86258-02ac-42de-92cd-f6553b67e65a" situation_id="43c8c1b6-1956-dc49-8fe5-077d6246b79e" />
+      <row enabled="False" max_instances="-1" name="talkingByFire" sa_smart_area_id="50fbc64a-0337-4f02-8e4b-d9a06347c398" search_type="0" situation_frequency_id="79333910-8e6b-11e3-baa8-0800200c9a66" situation_id="45698c1e-705c-6afd-00fb-b59414245e91" />
+      <row enabled="False" max_instances="-1" name="triangleTestSituation" sa_smart_area_id="5daae9ba-2984-4f18-8455-326569509845" search_type="0" situation_frequency_id="a9c86258-02ac-42de-92cd-f6553b67e65a" situation_id="45848952-a456-d5fb-b513-6f5eaae2d1b3" />
+      <row enabled="False" max_instances="-1" name="tournamentCivilTalk" sa_smart_area_id="74584e36-81f7-4c06-8680-975eabdec90d" search_type="0" situation_frequency_id="a9c86258-02ac-42de-92cd-f6553b67e65a" situation_id="4631a217-9054-3790-6f63-08ef864f81b6" />
+      <row enabled="True" max_instances="-1" name="talking" sa_smart_area_id="1938ef44-03af-43b3-b707-e4e05a12184c" search_type="0" situation_frequency_id="4c86e376-96d3-00f7-39cf-5bbb9b43f9a5" situation_id="4675f70e-5482-0b49-ba63-44675a2ce89a" />
+      <row enabled="True" max_instances="-1" name="talkingOnBench" sa_smart_area_id="1938ef44-03af-43b3-b707-e4e05a12184c" search_type="0" situation_frequency_id="49077c48-0c13-feb8-204c-4d3106a377a7" situation_id="47e4986b-2be9-404b-2771-e0bc282b81a5" />
+      <row enabled="True" max_instances="-1" name="beggar" sa_smart_area_id="1938ef44-03af-43b3-b707-e4e05a12184c" search_type="0" situation_frequency_id="4c5125ec-5d01-4b6c-4889-11e064c263b0" situation_id="48f8449d-6b78-ddaf-46e1-0bd955910381" />
+      <row enabled="True" max_instances="-1" name="testOne" sa_smart_area_id="4305fba1-deb4-a58b-ebe7-f8b0aaac2997" search_type="0" situation_frequency_id="79333910-8e6b-11e3-baa8-0800200c9a66" situation_id="497d49ab-d473-d0d0-8e92-8919b07bc5a7" />
+      <row enabled="False" max_instances="-1" name="reactionToPillory" sa_smart_area_id="457e6e02-19a8-65b4-4d57-fc9464154584" search_type="0" situation_frequency_id="49d2bf06-95f0-7f4c-c20d-3b1abd36e0a2" situation_id="4b9a1a92-b405-0f27-244e-8d2e663b3fb5" />
+      <row enabled="False" max_instances="-1" name="shoutPillory" sa_smart_area_id="457e6e02-19a8-65b4-4d57-fc9464154584" search_type="0" situation_frequency_id="4f2e01a8-d0c4-5316-5a7d-39af316603bb" situation_id="4d5f1e07-f947-2069-0a41-034adee6198b" />
+      <row enabled="False" max_instances="2" name="q_escapeToTalmberk_dialogAboutSkalitz" sa_smart_area_id="5daae9ba-2984-4f18-8455-326569509845" search_type="0" situation_frequency_id="79333911-8e6b-11e3-baa8-0800200c9a66" situation_id="4d82c1dc-6851-43c0-27a0-34bd4fa6d7bc" />
+      <row enabled="False" max_instances="-1" name="fortuneTellingPositiv" sa_smart_area_id="457e6e02-19a8-65b4-4d57-fc9464154584" search_type="0" situation_frequency_id="4e4334a8-0834-26a9-90fe-7d965a38d2b5" situation_id="4f1d72c5-f158-48e8-5e33-1c4e69213d83" />
+      <row enabled="False" max_instances="-1" name="fortuneTellingNegative" sa_smart_area_id="457e6e02-19a8-65b4-4d57-fc9464154584" search_type="0" situation_frequency_id="4e4334a8-0834-26a9-90fe-7d965a38d2b5" situation_id="4f40eba7-afbe-32a0-3b28-eef3da0f4b99" />
+    </rows>
+  </table>
+</database>

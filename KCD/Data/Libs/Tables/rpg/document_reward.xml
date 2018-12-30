@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="document_reward" version="1">
+    <header>
+      <column name="item_id" type="uuid" />
+      <column name="script" type="text" />
+    </header>
+    <rows>
+      <row item_id="0defd37d-cfec-446f-b307-e9ef65fea3f3" script="RPG.AddStatXP(event, soul, &quot;vit&quot;, 200, oldProgress, newProgress);RPG.NotifyLevelXpGain(&quot;vit&quot;);" />
+      <row item_id="196ffe33-bec0-410d-abb5-138f69ececd7" script="RPG.AddStatXP(event, soul, &quot;vit&quot;, 350, oldProgress, newProgress);RPG.NotifyLevelXpGain(&quot;vit&quot;);" />
+      <row item_id="20856f2c-1f0c-42dd-805a-87eb7902ddeb" script="RPG.AddStatXP(event, soul, &quot;str&quot;, 200, oldProgress, newProgress);RPG.NotifyLevelXpGain(&quot;str&quot;);" />
+      <row item_id="26cf61b2-5d9f-49b1-94b7-c82e0924abf2" script="RPG.AddStatXP(event, soul, &quot;spc&quot;, 350, oldProgress, newProgress);RPG.NotifyLevelXpGain(&quot;spc&quot;);" />
+      <row item_id="2aca6ba2-e72f-4b29-a550-2f8af50d49ff" script="RPG.AddStatXP(event, soul, &quot;vit&quot;, 500, oldProgress, newProgress);RPG.NotifyLevelXpGain(&quot;vit&quot;);" />
+      <row item_id="2c180a20-ac66-4093-b0d6-15046ea5fa34" script="RPG.AddStatXP(event, soul, &quot;spc&quot;, 200, oldProgress, newProgress);RPG.NotifyLevelXpGain(&quot;spc&quot;);" />
+      <row item_id="55057cac-7e39-47f8-921c-68de4f3e04cb" script="RPG.AddStatXP(event, soul, &quot;spc&quot;, 500, oldProgress, newProgress);RPG.NotifyLevelXpGain(&quot;spc&quot;);" />
+      <row item_id="585319b6-f72f-4662-99dd-817a1c40758d" script="RPG.AddStatXP(event, soul, &quot;str&quot;, 500, oldProgress, newProgress);RPG.NotifyLevelXpGain(&quot;str&quot;);" />
+      <row item_id="6c2efaae-819d-4899-be2b-e4e6142047f7" script="RPG.AddStatXP(event, soul, &quot;str&quot;, 80, oldProgress, newProgress);RPG.NotifyLevelXpGain(&quot;str&quot;);" />
+      <row item_id="7a7db7c5-3089-4224-b180-6e7ece2a534f" script="RPG.AddStatXP(event, soul, &quot;spc&quot;, 80, oldProgress, newProgress);RPG.NotifyLevelXpGain(&quot;spc&quot;);" />
+      <row item_id="7afa398b-2f51-4acf-be39-42971061e5e7" script="RPG.AddStatXP(event, soul, &quot;vit&quot;, 80, oldProgress, newProgress);RPG.NotifyLevelXpGain(&quot;vit&quot;);" />
+      <row item_id="8c23bd24-ea62-43b3-ac49-357ff34d3ed2" script="RPG.AddStatXP(event, soul, &quot;agi&quot;, 200, oldProgress, newProgress);RPG.NotifyLevelXpGain(&quot;agi&quot;);" />
+      <row item_id="b95f10cb-5225-4308-ada7-8405a8238b29" script="RPG.AddStatXP(event, soul, &quot;agi&quot;, 500, oldProgress, newProgress);RPG.NotifyLevelXpGain(&quot;agi&quot;);" />
+      <row item_id="cbe084af-0d9c-4a97-8d83-b9bb8fa02e02" script="RPG.AddStatXP(event, soul, &quot;str&quot;, 350, oldProgress, newProgress);RPG.NotifyLevelXpGain(&quot;str&quot;);" />
+      <row item_id="d9f62ac5-7e3b-4d2b-93d9-2effa81a8610" script="RPG.AddStatXP(event, soul, &quot;agi&quot;, 350, oldProgress, newProgress);RPG.NotifyLevelXpGain(&quot;agi&quot;);" />
+      <row item_id="e69bf96e-47ff-4eb2-a9b3-06dc896d43b8" script="RPG.AddStatXP(event, soul, &quot;agi&quot;, 80, oldProgress, newProgress);RPG.NotifyLevelXpGain(&quot;agi&quot;);" />
+    </rows>
+  </table>
+</database>

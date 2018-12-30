@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="soul_class" version="1">
+    <header>
+      <column name="default_inventory_preset_id" type="uuid" />
+      <column name="hunting_coef" type="real" />
+      <column name="postpone_default_inventory_preset" type="boolean" />
+      <column name="soul_class_courage" type="real" />
+      <column name="soul_class_id" type="integer" />
+      <column name="soul_class_name" type="character varying" />
+    </header>
+    <rows>
+      <row default_inventory_preset_id="" hunting_coef="" postpone_default_inventory_preset="False" soul_class_courage="0" soul_class_id="0" soul_class_name="none" />
+      <row default_inventory_preset_id="" hunting_coef="" postpone_default_inventory_preset="False" soul_class_courage="0" soul_class_id="5" soul_class_name="player" />
+      <row default_inventory_preset_id="542da27b-32ec-46ac-a635-610202611ed3" hunting_coef="0.25" postpone_default_inventory_preset="True" soul_class_courage="0" soul_class_id="7" soul_class_name="horse" />
+      <row default_inventory_preset_id="542da27b-32ec-46ac-a635-610202611ed3" hunting_coef="0.25" postpone_default_inventory_preset="True" soul_class_courage="0" soul_class_id="8" soul_class_name="war horse" />
+      <row default_inventory_preset_id="463d913e-623b-4aa2-bcd7-89921c5d15ea" hunting_coef="1" postpone_default_inventory_preset="True" soul_class_courage="0" soul_class_id="14" soul_class_name="hare" />
+      <row default_inventory_preset_id="" hunting_coef="" postpone_default_inventory_preset="False" soul_class_courage="0.5" soul_class_id="15" soul_class_name="cuman" />
+      <row default_inventory_preset_id="14d94281-9a03-4b33-9216-e9a9b2af0cdd" hunting_coef="5" postpone_default_inventory_preset="True" soul_class_courage="0" soul_class_id="16" soul_class_name="pig" />
+      <row default_inventory_preset_id="12ef8dca-9499-4a2e-9709-1ac2e11b025a" hunting_coef="0.25" postpone_default_inventory_preset="True" soul_class_courage="0" soul_class_id="17" soul_class_name="sheep" />
+      <row default_inventory_preset_id="ea4c6211-63c9-44e6-952b-9736215c1654" hunting_coef="0.5" postpone_default_inventory_preset="True" soul_class_courage="0" soul_class_id="18" soul_class_name="dog" />
+      <row default_inventory_preset_id="" hunting_coef="" postpone_default_inventory_preset="False" soul_class_courage="0" soul_class_id="19" soul_class_name="neuhof_colliers_bandits" />
+      <row default_inventory_preset_id="19919e65-be9b-4619-8ded-d7b9fa289e9a" hunting_coef="4" postpone_default_inventory_preset="True" soul_class_courage="0" soul_class_id="21" soul_class_name="deer" />
+      <row default_inventory_preset_id="860c804d-ee60-4af7-a3fd-f6c3d75eb925" hunting_coef="2" postpone_default_inventory_preset="True" soul_class_courage="0" soul_class_id="22" soul_class_name="doe" />
+      <row default_inventory_preset_id="a7b5d7cb-923b-432d-9b51-c24b8aaaa93f" hunting_coef="0.25" postpone_default_inventory_preset="True" soul_class_courage="0" soul_class_id="23" soul_class_name="cow" />
+      <row default_inventory_preset_id="8acfc816-6153-4254-82cf-690cf77fe3fc" hunting_coef="1.5" postpone_default_inventory_preset="True" soul_class_courage="0" soul_class_id="24" soul_class_name="roe" />
+      <row default_inventory_preset_id="4034033c-ce58-4d5b-b94f-006f72b9ab22" hunting_coef="0.25" postpone_default_inventory_preset="True" soul_class_courage="0" soul_class_id="25" soul_class_name="pig_domestic" />
+      <row default_inventory_preset_id="99008f41-0858-4dda-9bba-ee3181f9f417" hunting_coef="0" postpone_default_inventory_preset="True" soul_class_courage="0" soul_class_id="26" soul_class_name="enemy_camps_bandits" />
+      <row default_inventory_preset_id="39c97287-0bfc-4b4b-a634-555e734d6982" hunting_coef="0" postpone_default_inventory_preset="True" soul_class_courage="0" soul_class_id="27" soul_class_name="enemy_camps_cumans" />
+      <row default_inventory_preset_id="" hunting_coef="0" postpone_default_inventory_preset="False" soul_class_courage="0" soul_class_id="28" soul_class_name="herbalist" />
+      <row default_inventory_preset_id="" hunting_coef="0" postpone_default_inventory_preset="False" soul_class_courage="0" soul_class_id="29" soul_class_name="innkeeper" />
+    </rows>
+  </table>
+</database>

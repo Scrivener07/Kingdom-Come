@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="exp_change" version="1">
+    <header>
+      <column name="change" type="real" />
+      <column name="exp_change_id" type="integer" />
+      <column name="name" type="character varying" />
+    </header>
+    <rows>
+      <row change="0" exp_change_id="0" name="_none" />
+      <row change="100" exp_change_id="1" name="obsolete_1" />
+      <row change="500" exp_change_id="2" name="obsolete_2" />
+      <row change="1000" exp_change_id="3" name="obsolete_3" />
+      <row change="1500" exp_change_id="4" name="obsolete_4" />
+      <row change="2000" exp_change_id="5" name="obsolete_5" />
+      <row change="0.08" exp_change_id="6" name="1-micro" />
+      <row change="0.15" exp_change_id="7" name="2-minor" />
+      <row change="0.25" exp_change_id="8" name="3-small" />
+      <row change="0.4" exp_change_id="9" name="4-normal" />
+      <row change="0.75" exp_change_id="10" name="5-notable" />
+      <row change="0.9" exp_change_id="11" name="6-extraordinary" />
+      <row change="1" exp_change_id="12" name="7-max" />
+    </rows>
+  </table>
+</database>

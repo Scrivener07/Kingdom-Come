@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="situation_role_condition" version="1">
+    <header>
+      <column name="situation_role_condition_data" type="character varying" />
+      <column name="situation_role_condition_id" type="uuid" />
+      <column name="situation_role_condition_name" type="character varying" />
+      <column name="situation_role_condition_type_id" type="integer" />
+    </header>
+    <rows>
+      <row situation_role_condition_data="fortuneTellerReactionPozitiv() AND NOTsittingOnBench() AND notBeggar()" situation_role_condition_id="40086377-0659-a152-b1c0-8715dae35197" situation_role_condition_name="fortuneReactionPozNotOnBenchNotBeggar" situation_role_condition_type_id="0" />
+      <row situation_role_condition_data="pilloryShout() AND NOTsittingOnBench() AND notBeggar()" situation_role_condition_id="40f46d0b-208a-1367-436c-0f2a41f1bab6" situation_role_condition_name="pilloryShoutNotOnBenchNotBeggar" situation_role_condition_type_id="0" />
+      <row situation_role_condition_data="10" situation_role_condition_id="4187b18e-fa9e-6cf2-b56a-687a78f2be8d" situation_role_condition_name="SC_Straz" situation_role_condition_type_id="6" />
+      <row situation_role_condition_data="sittingOnBench() AND CloseToPlayer()" situation_role_condition_id="41940621-3f27-9a40-78fe-3fa8819d64a9" situation_role_condition_name="OnBenchAndCloseToPlayer" situation_role_condition_type_id="0" />
+      <row situation_role_condition_data="IsQuestStarted('q_escapeToTalmberk')" situation_role_condition_id="419e4cbe-3f9b-f31e-17f3-6db26c829eb9" situation_role_condition_name="q_escapeToTalmberk_askAboutSkalitz_storyProgress" situation_role_condition_type_id="0" />
+      <row situation_role_condition_data="12" situation_role_condition_id="41ae3934-1fb7-8580-c469-d7c89cc37f9c" situation_role_condition_name="SC_Zpevak" situation_role_condition_type_id="6" />
+      <row situation_role_condition_data="NOTsittingOnBench AND hasGossip()" situation_role_condition_id="42948ef0-1581-9a6a-dc0a-0f27539718a2" situation_role_condition_name="NOTsittingOnBenchANDGossip" situation_role_condition_type_id="0" />
+      <row situation_role_condition_data="354" situation_role_condition_id="42cc63fe-0a84-59e6-b518-174025123d8b" situation_role_condition_name="spectator" situation_role_condition_type_id="10" />
+      <row situation_role_condition_data="HasSoulTag('beggar')" situation_role_condition_id="436a5964-4243-f16d-992d-ea7e559be882" situation_role_condition_name="beggar" situation_role_condition_type_id="0" />
+      <row situation_role_condition_data="HasSoulTag('onBench')" situation_role_condition_id="44061e3a-b0ad-4644-2e3e-51410ac2f28d" situation_role_condition_name="sittingOnBench" situation_role_condition_type_id="0" />
+      <row situation_role_condition_data="fortuneTellerReactionNegativ() AND NOTsittingOnBench() AND notBeggar()" situation_role_condition_id="443ee1c4-7d52-14b8-92cd-f107c0e801a6" situation_role_condition_name="fortuneReactionNotOnBenchNotBeggar" situation_role_condition_type_id="0" />
+      <row situation_role_condition_data="363" situation_role_condition_id="44acfa0a-a9b8-792b-d617-6614a60dc588" situation_role_condition_name="fortuneTellerReactionPozitiv" situation_role_condition_type_id="10" />
+      <row situation_role_condition_data="287" situation_role_condition_id="451b9cad-ea64-da71-6614-009213450495" situation_role_condition_name="hasGossip" situation_role_condition_type_id="10" />
+      <row situation_role_condition_data="!HasSoulTag('onBench')" situation_role_condition_id="4529e492-89a3-b777-71a0-3c5208ed548f" situation_role_condition_name="NOTsittingOnBench" situation_role_condition_type_id="0" />
+      <row situation_role_condition_data="if isFemale(entity) then&#xD;&#xA;return false;&#xD;&#xA;end;&#xD;&#xA;return true;" situation_role_condition_id="45585c67-9ecd-1883-65ab-3fe9a5b34596" situation_role_condition_name="IsMen" situation_role_condition_type_id="1" />
+      <row situation_role_condition_data="13" situation_role_condition_id="45676fc4-3a59-6b40-8f6b-e1bcc9702381" situation_role_condition_name="SC_Prodavac" situation_role_condition_type_id="6" />
+      <row situation_role_condition_data="358" situation_role_condition_id="4573e9db-0c7b-a5bd-6d28-5afd6c26a6b1" situation_role_condition_name="fortuneTeller" situation_role_condition_type_id="10" />
+      <row situation_role_condition_data="q_escapeToTalmberk_askAboutSkalitz_storyProgress() AND q_escapeToTalmberk_askAboutSkalitz_isVillager()" situation_role_condition_id="4637d2da-7868-7ca1-816e-2f3a325c37b8" situation_role_condition_name="q_escapeToTalmberk_askAboutSkalitz" situation_role_condition_type_id="0" />
+      <row situation_role_condition_data="if isFemale(entity) then&#xD;&#xA;return true;&#xD;&#xA;end;&#xD;&#xA;return false;" situation_role_condition_id="464d1656-c9a2-b7c0-890a-316a434492b3" situation_role_condition_name="IsWomen" situation_role_condition_type_id="1" />
+      <row situation_role_condition_data="beggarGiver() AND NOTsittingOnBench()" situation_role_condition_id="4687b98f-61a1-88e9-d780-49462491b4b2" situation_role_condition_name="NotOnBenchAndGiver" situation_role_condition_type_id="0" />
+      <row situation_role_condition_data="47.599998" situation_role_condition_id="46daec53-b081-dd85-8e48-b379316d668d" situation_role_condition_name="CloseToPlayer" situation_role_condition_type_id="8" />
+      <row situation_role_condition_data="!IsObjectiveCompleted('q_talmberkPrepare', 'getMeat')" situation_role_condition_id="4720d239-3d86-3656-a8e3-3657e268868d" situation_role_condition_name="q_talmberkPrepare_foodComment" situation_role_condition_type_id="0" />
+      <row situation_role_condition_data="352" situation_role_condition_id="475f4ef9-843f-c834-9f27-7b00877bb8bf" situation_role_condition_name="beggarGiver" situation_role_condition_type_id="10" />
+      <row situation_role_condition_data="$brn_pks == 1" situation_role_condition_id="480d0554-9433-9339-0218-ea486d6294ac" situation_role_condition_name="TreeExpr" situation_role_condition_type_id="9" />
+      <row situation_role_condition_data="!HasSoulTag('beggar')" situation_role_condition_id="487e1b8c-7f1c-c461-f2a5-64b74bf9a4ba" situation_role_condition_name="notBeggar" situation_role_condition_type_id="0" />
+      <row situation_role_condition_data="4" situation_role_condition_id="48b9abb0-d18b-ac22-893a-791c71f2e7bc" situation_role_condition_name="SC_Pasak" situation_role_condition_type_id="6" />
+      <row situation_role_condition_data="sittingOnBench() AND hasGossip()" situation_role_condition_id="48c472f3-b0a0-38aa-3b81-c9fca92630b1" situation_role_condition_name="OnBenchAndGossip" situation_role_condition_type_id="0" />
+      <row situation_role_condition_data="spectator() AND NOTsittingOnBench() AND notBeggar()" situation_role_condition_id="48e41e21-30c7-7270-5025-e4bcadf31da7" situation_role_condition_name="spectatorNotOnBenchNotBeggar" situation_role_condition_type_id="0" />
+      <row situation_role_condition_data="1" situation_role_condition_id="493e0f4f-cf83-5409-a222-d85493b649b3" situation_role_condition_name="q_escapeToTalmberk_askAboutSkalitz_isVillager" situation_role_condition_type_id="7" />
+      <row situation_role_condition_data="CloseToPlayer() AND NOTsittingOnBench()" situation_role_condition_id="496ba794-2721-19bb-84ce-0285698dd181" situation_role_condition_name="NotOnBenchAndCloseToPlayer" situation_role_condition_type_id="0" />
+      <row situation_role_condition_data="NPC10:30.000000" situation_role_condition_id="4a165730-92b8-6334-9a9f-c22617e6369c" situation_role_condition_name="viktorRule" situation_role_condition_type_id="2" />
+      <row situation_role_condition_data="364" situation_role_condition_id="4a9ba524-b300-c1af-7660-d495fb688a82" situation_role_condition_name="pilloryShout" situation_role_condition_type_id="10" />
+      <row situation_role_condition_data="366" situation_role_condition_id="4b899348-0ae7-26f7-639a-9b7636b1cf85" situation_role_condition_name="pilloryReaction" situation_role_condition_type_id="10" />
+      <row situation_role_condition_data="pilloryReaction() AND NOTsittingOnBench() AND notBeggar()" situation_role_condition_id="4d7ee043-c305-2859-1946-ebe480defeaa" situation_role_condition_name="pilloryReactionNotOnBenchNotBeggar" situation_role_condition_type_id="0" />
+      <row situation_role_condition_data="362" situation_role_condition_id="4f2efd8e-3a11-1ae2-e409-13d71ab7dc85" situation_role_condition_name="fortuneTellerReactionNegativ" situation_role_condition_type_id="10" />
+    </rows>
+  </table>
+</database>

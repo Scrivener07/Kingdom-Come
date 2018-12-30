@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="herb_element_type" version="1">
+    <header>
+      <column name="id" type="integer" />
+      <column name="name" type="character varying" />
+    </header>
+    <rows>
+      <row id="0" name="empty" />
+      <row id="1" name="aer" />
+      <row id="2" name="aqua" />
+      <row id="3" name="terra" />
+      <row id="4" name="ignis" />
+    </rows>
+  </table>
+</database>

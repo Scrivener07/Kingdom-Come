@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="new_homes_judgement" version="1">
+    <header>
+      <column name="judgement_id" type="integer" />
+      <column name="judgement_name" type="character varying" />
+      <column name="layer_profile" type="character varying" />
+    </header>
+    <rows>
+      <row judgement_id="4" judgement_name="butcher" layer_profile="q_dlc_newhomes_judgement_butcher" />
+      <row judgement_id="5" judgement_name="baker" layer_profile="q_dlc_newhomes_judgement_baker" />
+      <row judgement_id="6" judgement_name="poachers" layer_profile="" />
+      <row judgement_id="7" judgement_name="friends" layer_profile="" />
+      <row judgement_id="8" judgement_name="prachos" layer_profile="" />
+      <row judgement_id="9" judgement_name="cow" layer_profile="" />
+      <row judgement_id="10" judgement_name="grain" layer_profile="" />
+      <row judgement_id="11" judgement_name="witch" layer_profile="" />
+      <row judgement_id="12" judgement_name="wood" layer_profile="" />
+      <row judgement_id="13" judgement_name="malina" layer_profile="q_dlc_newhomes_judgement_malina" />
+      <row judgement_id="14" judgement_name="reinforcements" layer_profile="" />
+      <row judgement_id="15" judgement_name="excrement" layer_profile="" />
+      <row judgement_id="16" judgement_name="bread" layer_profile="" />
+    </rows>
+  </table>
+</database>

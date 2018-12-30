@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="mailbox_group2mailbox" version="1">
+    <header>
+      <column name="mailbox_group_id" type="uuid" />
+      <column name="mailbox_id" type="uuid" />
+      <column name="priority" type="integer" />
+    </header>
+    <rows>
+      <row mailbox_group_id="4111bb3f-f374-25a6-3211-db30085d0884" mailbox_id="4bb55742-9876-1186-59b3-107b4be61188" priority="0" />
+      <row mailbox_group_id="413b158c-424e-c7d3-d1e4-13afc1c4f9be" mailbox_id="43bb8f71-09b0-a2f5-6ec4-64ab510ebcae" priority="0" />
+      <row mailbox_group_id="41a78a7a-19ee-5464-f3ae-7849d6df4297" mailbox_id="445a9476-1ae8-0f38-219a-6bde2b1dcf90" priority="0" />
+      <row mailbox_group_id="41c354ff-136a-2efc-7a15-5d2f58941080" mailbox_id="44749dc4-a878-8a08-01b8-e428decfa89a" priority="0" />
+      <row mailbox_group_id="41c354ff-136a-2efc-7a15-5d2f58941080" mailbox_id="450c48c4-ecbd-a1dd-7625-4a8076f22ea7" priority="0" />
+      <row mailbox_group_id="41c354ff-136a-2efc-7a15-5d2f58941080" mailbox_id="4f514496-89d8-928e-1440-c9faa02c1fba" priority="0" />
+      <row mailbox_group_id="41c354ff-136a-2efc-7a15-5d2f58941080" mailbox_id="4fe0a9e5-0a7b-e304-34cb-e060f4c762be" priority="0" />
+      <row mailbox_group_id="4264ddfb-95f2-5da9-9987-9641c95db884" mailbox_id="40f9ec95-374e-829c-82b8-9554078a5482" priority="0" />
+      <row mailbox_group_id="4287d486-ada4-a002-921f-26df463884af" mailbox_id="45e29042-155f-9c9d-ecae-6e47edcd1897" priority="0" />
+      <row mailbox_group_id="4379acd6-af25-da01-ea15-c89b74d5519f" mailbox_id="445a9476-1ae8-0f38-219a-6bde2b1dcf90" priority="0" />
+      <row mailbox_group_id="439b3d64-968b-6a4c-86fc-29fdcd240286" mailbox_id="493f30c6-5efc-00fd-cd8e-328b1996cc9b" priority="0" />
+      <row mailbox_group_id="43b1f959-9c88-1e2a-79cd-bf6e203a918c" mailbox_id="4a3f5357-6e48-5474-8f3a-e8f83fb66984" priority="0" />
+      <row mailbox_group_id="43d59a6c-98cf-0478-b724-049d6ffef385" mailbox_id="43bb8f71-09b0-a2f5-6ec4-64ab510ebcae" priority="0" />
+      <row mailbox_group_id="4429ae39-d29d-45c0-0e23-9ba0e015658b" mailbox_id="4b7aec94-f9f0-1e0d-995f-09cbcb87a8b2" priority="0" />
+      <row mailbox_group_id="442dd113-6207-ffdd-cb16-1053307ea7ab" mailbox_id="498b1f2b-e913-af22-4271-ffcba74b5ba6" priority="0" />
+      <row mailbox_group_id="44fc6795-6557-728f-6816-f8109b7bfa84" mailbox_id="498b1f2b-e913-af22-4271-ffcba74b5ba6" priority="0" />
+      <row mailbox_group_id="4560f6c1-a2e2-1f46-a52b-1a22ff67aba4" mailbox_id="40aa4801-756f-d629-5bba-aa8559b6b58d" priority="0" />
+      <row mailbox_group_id="45ae2ce8-2621-c2e2-c479-dc7ae42a06a4" mailbox_id="4cb5c702-6bd3-74da-5e00-6331a8e4eebb" priority="0" />
+      <row mailbox_group_id="45b922d6-9851-b6c8-4706-a9fa7ff61483" mailbox_id="498b1f2b-e913-af22-4271-ffcba74b5ba6" priority="0" />
+      <row mailbox_group_id="472c0a1e-d097-50f5-a6e9-77d2e46e1eb3" mailbox_id="454c49c1-ba4f-f7bc-9c9f-735b04506ea6" priority="0" />
+      <row mailbox_group_id="47fffac8-6d2a-0119-f6dc-59bb760c669c" mailbox_id="497fd03a-9623-31d4-90eb-039725a89a94" priority="0" />
+      <row mailbox_group_id="486436ae-f2a3-ac43-1d10-b553e54b338d" mailbox_id="498b1f2b-e913-af22-4271-ffcba74b5ba6" priority="0" />
+      <row mailbox_group_id="4abb2738-9328-58e6-68a2-d2534337b186" mailbox_id="4ccc18b5-e1de-901a-2e97-cd553c58cbbd" priority="0" />
+      <row mailbox_group_id="4aca8e00-e6c6-02c6-25ef-2aa94e800b8f" mailbox_id="43bb8f71-09b0-a2f5-6ec4-64ab510ebcae" priority="0" />
+      <row mailbox_group_id="4b565976-0ab3-0f48-ed2e-780ef721a6b0" mailbox_id="445a9476-1ae8-0f38-219a-6bde2b1dcf90" priority="0" />
+      <row mailbox_group_id="4b5a8ce0-ab05-a9e2-67d2-00a7c2514d9e" mailbox_id="4a32e6a1-227c-75b3-4f26-bde59fae23b7" priority="0" />
+      <row mailbox_group_id="4bd3b74c-34cf-f1f9-52b9-e069a710c4ad" mailbox_id="42e861d6-b5d9-deba-6b3c-f030a3f6a5a5" priority="0" />
+      <row mailbox_group_id="4bf41a68-f77d-def6-9777-6534786f619f" mailbox_id="43bb8f71-09b0-a2f5-6ec4-64ab510ebcae" priority="0" />
+      <row mailbox_group_id="4c4f556b-fbd6-ddd7-9dbb-7dc0bfbbd592" mailbox_id="498b1f2b-e913-af22-4271-ffcba74b5ba6" priority="0" />
+      <row mailbox_group_id="4d1985cc-76a8-6d7a-ac9b-dcf72c15718d" mailbox_id="454c49c1-ba4f-f7bc-9c9f-735b04506ea6" priority="0" />
+      <row mailbox_group_id="4d1985cc-76a8-6d7a-ac9b-dcf72c15718d" mailbox_id="459a1a10-aefa-b7a1-852b-a4da90c3e8b3" priority="0" />
+      <row mailbox_group_id="4ec7fd61-d159-7117-6218-405ab762ff81" mailbox_id="498b1f2b-e913-af22-4271-ffcba74b5ba6" priority="0" />
+      <row mailbox_group_id="4f7d2354-2663-6e92-cb35-8fe3248383a6" mailbox_id="43bb8f71-09b0-a2f5-6ec4-64ab510ebcae" priority="0" />
+      <row mailbox_group_id="4f8ad88f-09b7-ebc7-7b71-44306768e58b" mailbox_id="43bb8f71-09b0-a2f5-6ec4-64ab510ebcae" priority="0" />
+    </rows>
+  </table>
+</database>

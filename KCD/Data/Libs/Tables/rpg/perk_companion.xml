@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="perk_companion" version="1">
+    <header>
+      <column name="companion_type_id" type="integer" />
+      <column name="forward_perk_id" type="uuid" />
+      <column name="perk_id" type="uuid" />
+    </header>
+    <rows>
+      <row companion_type_id="0" forward_perk_id="83d79374-903c-46ce-84a2-3f826e75f70f" perk_id="04b1bb73-1397-4938-9098-f7bf15591c53" />
+      <row companion_type_id="0" forward_perk_id="63067fb0-76d9-40bb-ae6c-d8f7627d24f7" perk_id="9533bcec-0ded-4263-9702-8d54e32ad058" />
+      <row companion_type_id="0" forward_perk_id="2b024592-efdc-4282-916a-e5ceb0197bd8" perk_id="beb2bf89-350c-46e6-8858-7aa448f2700c" />
+      <row companion_type_id="0" forward_perk_id="95616222-6542-4fc9-927b-17750001b54f" perk_id="c68e6f48-9ec0-4eff-bbdb-18f7f213745e" />
+      <row companion_type_id="0" forward_perk_id="cd1756c2-c873-4fb0-989a-b3017e4ee7ab" perk_id="c934c747-1d27-4235-b5bf-314c1eb8a3db" />
+      <row companion_type_id="0" forward_perk_id="8ec2e96a-651e-4a4a-be51-b5b46eb952da" perk_id="e1560d54-7ec3-4b0e-bc8c-c5ea0b5dde70" />
+    </rows>
+  </table>
+</database>

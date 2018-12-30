@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="keyring" version="1">
+    <header>
+      <column name="item_id" type="uuid" />
+      <column name="keyring_type_id" type="integer" />
+    </header>
+    <rows>
+      <row item_id="1e7932a3-736a-49c6-baba-8ff7a0a86850" keyring_type_id="2" />
+      <row item_id="b54eaa25-f0e9-425b-8b29-1fb14a71de56" keyring_type_id="1" />
+    </rows>
+  </table>
+</database>

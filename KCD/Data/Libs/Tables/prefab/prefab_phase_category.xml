@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="prefab_phase_category" version="1">
+    <header>
+      <column name="prefab_phase_category_id" type="integer" />
+      <column name="prefab_phase_category_name" type="character varying" />
+    </header>
+    <rows>
+      <row prefab_phase_category_id="12" prefab_phase_category_name="fireplace_burning" />
+      <row prefab_phase_category_id="13" prefab_phase_category_name="event_ambush_cart" />
+      <row prefab_phase_category_id="16" prefab_phase_category_name="event_ambush_chest" />
+      <row prefab_phase_category_id="17" prefab_phase_category_name="fire_medium" />
+      <row prefab_phase_category_id="18" prefab_phase_category_name="fire_small" />
+      <row prefab_phase_category_id="19" prefab_phase_category_name="torch" />
+      <row prefab_phase_category_id="20" prefab_phase_category_name="candle" />
+      <row prefab_phase_category_id="21" prefab_phase_category_name="fireplace_chimney" />
+      <row prefab_phase_category_id="22" prefab_phase_category_name="collier_kiln" />
+      <row prefab_phase_category_id="23" prefab_phase_category_name="fireplace_corner" />
+      <row prefab_phase_category_id="24" prefab_phase_category_name="fireplace_inset" />
+      <row prefab_phase_category_id="29" prefab_phase_category_name="fireplace_medium" />
+      <row prefab_phase_category_id="30" prefab_phase_category_name="torch_wall" />
+      <row prefab_phase_category_id="31" prefab_phase_category_name="water_tube_blood" />
+    </rows>
+  </table>
+</database>

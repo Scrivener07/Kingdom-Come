@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="ui_map_label" version="1">
+    <header>
+      <column name="location_id" type="uuid" />
+      <column name="position_x" type="real" />
+      <column name="position_y" type="real" />
+      <column name="ui_map_label_id" type="uuid" />
+      <column name="ui_name" type="character varying" />
+    </header>
+    <rows>
+      <row location_id="76e80b5c-06ba-4bce-aa89-899b50cee39d" position_x="1321" position_y="3199" ui_map_label_id="153cb659-d91e-4fbf-b857-4600f91b634b" ui_name="location_Rovne" />
+      <row location_id="1eae7fc9-7292-4151-b706-1b0d99043004" position_x="3259" position_y="3428" ui_map_label_id="19b8e446-341f-48db-b6cd-ada936e59508" ui_name="location_Uzice" />
+      <row location_id="61ebbfbf-c500-4df9-b1ad-38467a476a24" position_x="-1" position_y="-1" ui_map_label_id="28e5786b-bec8-45a5-80d8-c331f8bd37b7" ui_name="location_Mlyny" />
+      <row location_id="85fb8451-d296-4858-afcf-9423e76104aa" position_x="1515" position_y="3801" ui_map_label_id="6579f2ab-77b9-44eb-88fc-4946e4868c56" ui_name="location_Pribyslavice" />
+      <row location_id="ed962377-93c5-444d-8d23-f8063f30668f" position_x="860" position_y="1854" ui_map_label_id="6946f179-2f55-461a-82d9-5e216e95afd9" ui_name="location_Klaster" />
+      <row location_id="0874c462-fa23-40e3-a437-c6fea290af48" position_x="2734" position_y="421" ui_map_label_id="6fbc9bf6-2413-418e-ab12-05aa3618c863" ui_name="location_Rataje" />
+      <row location_id="f1bedd2b-0848-41a3-99c9-61f4055cff23" position_x="983" position_y="837" ui_map_label_id="97d4d3ed-8b99-446d-aa8e-98d43abb8700" ui_name="location_Vranik" />
+      <row location_id="850e6645-f899-472d-aeac-1c0888e85bf9" position_x="3531" position_y="1310" ui_map_label_id="b2b2c3b2-0f28-4b2b-b112-c7e1264af472" ui_name="location_Neuhof" />
+      <row location_id="828eb313-f068-4dd1-ac65-a26ad7a91c69" position_x="938" position_y="1063" ui_map_label_id="c16f6c26-fdfd-4b7a-952b-f2b52de769ba" ui_name="location_Sazava" />
+      <row location_id="0d7e5531-54ce-449f-8f4f-57f539b928b9" position_x="1947" position_y="1451" ui_map_label_id="c9cb87d4-07aa-41cd-81ac-ff1cf8998598" ui_name="location_Ledecko" />
+      <row location_id="83bb13a5-96b6-4909-9834-0228d8c6c124" position_x="2278" position_y="2906" ui_map_label_id="cb835365-ac0f-4ad6-976c-6298e8409f9f" ui_name="location_Talmberk" />
+      <row location_id="b4dac612-e764-4fc9-b899-94612d2882c6" position_x="783" position_y="3631" ui_map_label_id="d5569f44-1083-4855-b878-467f904ec0be" ui_name="location_Skalice" />
+      <row location_id="0b82bf92-69b2-4d0c-8313-20f63197cf7a" position_x="1569" position_y="2758" ui_map_label_id="e20464a8-99a1-4687-94a8-3cbba0166530" ui_name="location_Mrchojedy" />
+      <row location_id="3622822e-f0ad-44a5-b20f-995f5f4e934a" position_x="1159" position_y="2130" ui_map_label_id="e836ac71-485e-4969-9e71-bb2bfb8def20" ui_name="location_Samopse" />
+    </rows>
+  </table>
+</database>

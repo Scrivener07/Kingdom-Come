@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="alchemy_material_subtype" version="1">
+    <header>
+      <column name="alchemy_material_subtype_id" type="integer" />
+      <column name="alchemy_material_subtype_name" type="character varying" />
+    </header>
+    <rows>
+      <row alchemy_material_subtype_id="1" alchemy_material_subtype_name="tusk" />
+      <row alchemy_material_subtype_id="2" alchemy_material_subtype_name="horn" />
+      <row alchemy_material_subtype_id="3" alchemy_material_subtype_name="q_disguise_anyfeather" />
+    </rows>
+  </table>
+</database>

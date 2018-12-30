@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="actor_side" version="1">
+    <header>
+      <column name="actor_action_type_id" type="integer" />
+      <column name="actor_side_id" type="integer" />
+      <column name="actor_side_name" type="character varying" />
+      <column name="angle_from" type="real" />
+      <column name="angle_to" type="real" />
+      <column name="mn_tag" type="character varying" />
+    </header>
+    <rows>
+      <row actor_action_type_id="14" actor_side_id="1" actor_side_name="leftMark" angle_from="0" angle_to="180" mn_tag="sideLeft" />
+      <row actor_action_type_id="14" actor_side_id="2" actor_side_name="rightMark" angle_from="180" angle_to="360" mn_tag="sideRight" />
+    </rows>
+  </table>
+</database>

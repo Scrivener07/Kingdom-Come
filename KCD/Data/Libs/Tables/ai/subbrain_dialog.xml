@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="subbrain_dialog" version="1">
+    <header>
+      <column name="file_name" type="character varying" />
+      <column name="subbrain_id" type="uuid" />
+      <column name="tree_name" type="character varying" />
+    </header>
+    <rows>
+      <row file_name="final/sb_dialog_horse.xml" subbrain_id="4418990b-6236-b0cd-25a7-d043b56cf6ae" tree_name="onUpdate" />
+      <row file_name="final/sb_dialog.xml" subbrain_id="4ab12173-2463-411a-c03e-b173c147838b" tree_name="dialogReceiver" />
+    </rows>
+  </table>
+</database>

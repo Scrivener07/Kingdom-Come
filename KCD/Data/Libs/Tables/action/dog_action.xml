@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="dog_action" version="1">
+    <header>
+      <column name="actor_action_type_id" type="integer" />
+      <column name="actor_action_type_id_request" type="integer" />
+      <column name="actor_activity_id" type="integer" />
+      <column name="actor_class_hash" type="integer" />
+      <column name="actor_pose_id" type="integer" />
+      <column name="actor_side_id" type="integer" />
+      <column name="animation_duration" type="real" />
+      <column name="mn_fragment_id" type="character varying" />
+      <column name="mn_option_index" type="integer" />
+      <column name="mn_tags" type="character varying" />
+      <column name="mounted" type="boolean" />
+      <column name="timestamp" type="bigint" />
+    </header>
+    <rows>
+      <row actor_action_type_id="14" actor_action_type_id_request="-1" actor_activity_id="-1" actor_class_hash="20967892" actor_pose_id="-1" actor_side_id="1" animation_duration="3.833333" mn_fragment_id="Mark" mn_option_index="0" mn_tags="sideLeft" mounted="False" timestamp="4698499423840759776" />
+      <row actor_action_type_id="14" actor_action_type_id_request="-1" actor_activity_id="-1" actor_class_hash="20967892" actor_pose_id="-1" actor_side_id="2" animation_duration="3.833333" mn_fragment_id="Mark" mn_option_index="0" mn_tags="sideRight" mounted="False" timestamp="4698499423840759776" />
+      <row actor_action_type_id="15" actor_action_type_id_request="-1" actor_activity_id="-1" actor_class_hash="20967892" actor_pose_id="-1" actor_side_id="-1" animation_duration="0.8" mn_fragment_id="TailWaving" mn_option_index="0" mn_tags="" mounted="False" timestamp="4698499423840759776" />
+    </rows>
+  </table>
+</database>

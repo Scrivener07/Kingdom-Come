@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="dialogue_hearing" version="1">
+    <header>
+      <column name="dialogue_hearing_id" type="integer" />
+      <column name="dialogue_hearing_name" type="character varying" />
+    </header>
+    <rows>
+      <row dialogue_hearing_id="1" dialogue_hearing_name="inner" />
+      <row dialogue_hearing_id="2" dialogue_hearing_name="bark10" />
+      <row dialogue_hearing_id="3" dialogue_hearing_name="bark20" />
+      <row dialogue_hearing_id="4" dialogue_hearing_name="bark35" />
+      <row dialogue_hearing_id="5" dialogue_hearing_name="bark50" />
+      <row dialogue_hearing_id="6" dialogue_hearing_name="bark100" />
+      <row dialogue_hearing_id="7" dialogue_hearing_name="bark200" />
+    </rows>
+  </table>
+</database>

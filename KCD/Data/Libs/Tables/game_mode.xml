@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="game_mode" version="1">
+    <header>
+      <column name="game_mode_id" type="integer" />
+      <column name="game_mode_name" type="character varying" />
+      <column name="player_perk_id" type="uuid" />
+    </header>
+    <rows>
+      <row game_mode_id="1" game_mode_name="normal" player_perk_id="" />
+      <row game_mode_id="2" game_mode_name="hardcore" player_perk_id="1e53b07d-8012-44b1-ace6-3504558f04aa" />
+    </rows>
+  </table>
+</database>

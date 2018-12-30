@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="random_event_source_type" version="1">
+    <header>
+      <column name="random_event_source_type_id" type="integer" />
+      <column name="random_event_source_type_name" type="character varying" />
+    </header>
+    <rows>
+      <row random_event_source_type_id="1" random_event_source_type_name="Player" />
+      <row random_event_source_type_id="2" random_event_source_type_name="NPC" />
+      <row random_event_source_type_id="3" random_event_source_type_name="Dog" />
+    </rows>
+  </table>
+</database>

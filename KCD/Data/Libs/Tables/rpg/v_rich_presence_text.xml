@@ -1,0 +1,1896 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="v_rich_presence_text" version="1">
+    <header>
+      <column name="iso_code" type="character varying" />
+      <column name="string_name" type="character varying" />
+      <column name="text" type="text" />
+    </header>
+    <rows>
+      <row iso_code="cs" string_name="rich_presence_initial" text="Initial rich presence" />
+      <row iso_code="de" string_name="rich_presence_initial" text="Rich Presence initialisieren" />
+      <row iso_code="en" string_name="rich_presence_initial" text="Initial rich presence" />
+      <row iso_code="es" string_name="rich_presence_initial" text="Presencia inicial rica" />
+      <row iso_code="fr" string_name="rich_presence_initial" text="Pr?sence enrichie initiale" />
+      <row iso_code="it" string_name="rich_presence_initial" text="Presenza iniziale" />
+      <row iso_code="pl" string_name="rich_presence_initial" text="Pocz?tkowa informacja o obecno?ci" />
+      <row iso_code="ru" string_name="rich_presence_initial" text="????????? ??????????? ???????????" />
+      <row iso_code="tr" string_name="rich_presence_initial" text="Rich presence'? ba?lat" />
+      <row iso_code="zh-CH" string_name="rich_presence_initial" text="????" />
+      <row iso_code="" string_name="rich_presence_initial" text="Initial rich presence" />
+      <row iso_code="" string_name="rich_presence_initial" text="Initial rich presence" />
+      <row iso_code="cs" string_name="rich_presence_main_quest_started" text="Playing the quest %s" />
+      <row iso_code="de" string_name="rich_presence_main_quest_started" text="Aktuelle Quest: %s" />
+      <row iso_code="en" string_name="rich_presence_main_quest_started" text="Playing the quest %s" />
+      <row iso_code="es" string_name="rich_presence_main_quest_started" text="Jugando la misi?n %s" />
+      <row iso_code="fr" string_name="rich_presence_main_quest_started" text="Joue ? la qu?te?%s" />
+      <row iso_code="it" string_name="rich_presence_main_quest_started" text="Gioca la missione %s" />
+      <row iso_code="pl" string_name="rich_presence_main_quest_started" text="Graj?cy w ten quest %" />
+      <row iso_code="ru" string_name="rich_presence_main_quest_started" text="???????? ??????? &quot;%s&quot;" />
+      <row iso_code="tr" string_name="rich_presence_main_quest_started" text="Oynanan G?rev %s" />
+      <row iso_code="zh-CH" string_name="rich_presence_main_quest_started" text="???? %s" />
+      <row iso_code="" string_name="rich_presence_main_quest_started" text="Playing the quest %s" />
+      <row iso_code="" string_name="rich_presence_main_quest_started" text="Playing the quest %s" />
+      <row iso_code="cs" string_name="rich_presence_skill_level_up" text="New skill level (%s)" />
+      <row iso_code="de" string_name="rich_presence_skill_level_up" text="Neue Fertigkeitenstufe (%s)" />
+      <row iso_code="en" string_name="rich_presence_skill_level_up" text="New skill level (%s)" />
+      <row iso_code="es" string_name="rich_presence_skill_level_up" text="Nuevo nivel de habilidad (%s)" />
+      <row iso_code="fr" string_name="rich_presence_skill_level_up" text="Nouveau niveau de comp?tence (%s)" />
+      <row iso_code="it" string_name="rich_presence_skill_level_up" text="Nuovo livello abilit? (%s)" />
+      <row iso_code="pl" string_name="rich_presence_skill_level_up" text="Nowy poziom umiej?tno?ci (%)" />
+      <row iso_code="ru" string_name="rich_presence_skill_level_up" text="????? ??????? ?????? (%s)" />
+      <row iso_code="tr" string_name="rich_presence_skill_level_up" text="Yeni Yetenek Seviyesi (%s)" />
+      <row iso_code="zh-CH" string_name="rich_presence_skill_level_up" text="????? (%s)" />
+      <row iso_code="" string_name="rich_presence_skill_level_up" text="New skill level (%s)" />
+      <row iso_code="" string_name="rich_presence_skill_level_up" text="New skill level (%s)" />
+      <row iso_code="cs" string_name="rich_presence_stat_level_up" text="New stat level (%s)" />
+      <row iso_code="de" string_name="rich_presence_stat_level_up" text="Neuer Wert (%s)" />
+      <row iso_code="en" string_name="rich_presence_stat_level_up" text="New stat level (%s)" />
+      <row iso_code="es" string_name="rich_presence_stat_level_up" text="Nuevo nivel de estad?stica (%s)" />
+      <row iso_code="fr" string_name="rich_presence_stat_level_up" text="Nouveau niveau de stat (%s)" />
+      <row iso_code="it" string_name="rich_presence_stat_level_up" text="Nuovo livello statistica (%s)" />
+      <row iso_code="pl" string_name="rich_presence_stat_level_up" text="Nowy poziom zdolno?ci (%)" />
+      <row iso_code="ru" string_name="rich_presence_stat_level_up" text="????? ??????? ?????????????? (%s)" />
+      <row iso_code="tr" string_name="rich_presence_stat_level_up" text="Yeni Stat Seviyesi (%s)" />
+      <row iso_code="zh-CH" string_name="rich_presence_stat_level_up" text="????? (%s)" />
+      <row iso_code="" string_name="rich_presence_stat_level_up" text="New stat level (%s)" />
+      <row iso_code="" string_name="rich_presence_stat_level_up" text="New stat level (%s)" />
+      <row iso_code="cs" string_name="subchapter_198_name" text="P?evlek" />
+      <row iso_code="de" string_name="subchapter_198_name" text="Maskerade" />
+      <row iso_code="en" string_name="subchapter_198_name" text="Masquerade" />
+      <row iso_code="es" string_name="subchapter_198_name" text="Mascarada" />
+      <row iso_code="fr" string_name="subchapter_198_name" text="Mascarade" />
+      <row iso_code="it" string_name="subchapter_198_name" text="Mago del travestimento" />
+      <row iso_code="pl" string_name="subchapter_198_name" text="Maskarada" />
+      <row iso_code="ru" string_name="subchapter_198_name" text="????????" />
+      <row iso_code="tr" string_name="subchapter_198_name" text="Maskeli Balo" />
+      <row iso_code="zh-CH" string_name="subchapter_198_name" text="????" />
+      <row iso_code="" string_name="subchapter_198_name" text="Masquerade" />
+      <row iso_code="" string_name="subchapter_198_name" text="P?evlek" />
+      <row iso_code="cs" string_name="subchapter_208_name" text="Dluhy se maj? platit" />
+      <row iso_code="de" string_name="subchapter_208_name" text="Der ehrbare Dieb" />
+      <row iso_code="en" string_name="subchapter_208_name" text="The Good Thief" />
+      <row iso_code="es" string_name="subchapter_208_name" text="El buen ladr?n" />
+      <row iso_code="fr" string_name="subchapter_208_name" text="Le bon larron" />
+      <row iso_code="it" string_name="subchapter_208_name" text="Il buon ladrone" />
+      <row iso_code="pl" string_name="subchapter_208_name" text="Dobry z?odziej" />
+      <row iso_code="ru" string_name="subchapter_208_name" text="?????? ???" />
+      <row iso_code="tr" string_name="subchapter_208_name" text="Muteber H?rs?z" />
+      <row iso_code="zh-CH" string_name="subchapter_208_name" text="????" />
+      <row iso_code="" string_name="subchapter_208_name" text="Dluhy se maj? platit" />
+      <row iso_code="" string_name="subchapter_208_name" text="The Good Thief" />
+      <row iso_code="cs" string_name="subchapter_242_name" text="Ztraceno v p?ekladu" />
+      <row iso_code="de" string_name="subchapter_242_name" text="Sprachbarriere" />
+      <row iso_code="en" string_name="subchapter_242_name" text="Lost in Translation" />
+      <row iso_code="es" string_name="subchapter_242_name" text="Problemas de comunicaci?n" />
+      <row iso_code="fr" string_name="subchapter_242_name" text="Traduttore, traditore" />
+      <row iso_code="it" string_name="subchapter_242_name" text="Problemi di comunicazione" />
+      <row iso_code="pl" string_name="subchapter_242_name" text="Mi?dzy s?owami" />
+      <row iso_code="ru" string_name="subchapter_242_name" text="????????? ????????" />
+      <row iso_code="tr" string_name="subchapter_242_name" text="Terc?me Hatas?" />
+      <row iso_code="zh-CH" string_name="subchapter_242_name" text="????" />
+      <row iso_code="" string_name="subchapter_242_name" text="Lost in Translation" />
+      <row iso_code="" string_name="subchapter_242_name" text="Ztraceno v p?ekladu" />
+      <row iso_code="en" string_name="subchapter_245_name" text="Usurer's daughter" />
+      <row iso_code="fr" string_name="subchapter_245_name" text="La fille de l'usurier." />
+      <row iso_code="pl" string_name="subchapter_245_name" text="C?rka lichwiarza." />
+      <row iso_code="" string_name="subchapter_245_name" text="Lichv??ova dcera" />
+      <row iso_code="" string_name="subchapter_245_name" text="Usurer's daughter" />
+      <row iso_code="en" string_name="subchapter_249_name" text="No Rest for the Wicked" />
+      <row iso_code="" string_name="subchapter_249_name" text="Trable s nebo?t?kem" />
+      <row iso_code="" string_name="subchapter_249_name" text="No Rest for the Wicked" />
+      <row iso_code="cs" string_name="subchapter_250_name" text="Nosi?i vody" />
+      <row iso_code="de" string_name="subchapter_250_name" text="Wasser oder Schei?e" />
+      <row iso_code="en" string_name="subchapter_250_name" text="Aquarius" />
+      <row iso_code="es" string_name="subchapter_250_name" text="Acuario" />
+      <row iso_code="fr" string_name="subchapter_250_name" text="Il n'y a pas de seau m?tier" />
+      <row iso_code="it" string_name="subchapter_250_name" text="Acquario" />
+      <row iso_code="pl" string_name="subchapter_250_name" text="Nosiwody" />
+      <row iso_code="ru" string_name="subchapter_250_name" text="???????" />
+      <row iso_code="tr" string_name="subchapter_250_name" text="Kova" />
+      <row iso_code="zh-CH" string_name="subchapter_250_name" text="????" />
+      <row iso_code="" string_name="subchapter_250_name" text="Nosi?i vody" />
+      <row iso_code="" string_name="subchapter_250_name" text="Aquarius" />
+      <row iso_code="cs" string_name="subchapter_254_name" text="Pr?zkum dolu" />
+      <row iso_code="de" string_name="subchapter_254_name" text="Unter Tage" />
+      <row iso_code="en" string_name="subchapter_254_name" text="The King's Silver" />
+      <row iso_code="es" string_name="subchapter_254_name" text="La plata del rey" />
+      <row iso_code="fr" string_name="subchapter_254_name" text="L'argent du roi" />
+      <row iso_code="it" string_name="subchapter_254_name" text="L'argento del re" />
+      <row iso_code="pl" string_name="subchapter_254_name" text="Kr?lewskie srebro" />
+      <row iso_code="ru" string_name="subchapter_254_name" text="??????????? ???????" />
+      <row iso_code="tr" string_name="subchapter_254_name" text="Kral?n G?m???" />
+      <row iso_code="zh-CH" string_name="subchapter_254_name" text="????" />
+      <row iso_code="" string_name="subchapter_254_name" text="Mine exploration" />
+      <row iso_code="" string_name="subchapter_254_name" text="Pr?zkum dolu" />
+      <row iso_code="cs" string_name="subchapter_258_name" text="Hl?dka" />
+      <row iso_code="de" string_name="subchapter_258_name" text="Wachdienst" />
+      <row iso_code="en" string_name="subchapter_258_name" text="Keeping the Peace" />
+      <row iso_code="es" string_name="subchapter_258_name" text="Mantener la paz" />
+      <row iso_code="fr" string_name="subchapter_258_name" text="Ronde de nuit" />
+      <row iso_code="it" string_name="subchapter_258_name" text="Ordine e pace" />
+      <row iso_code="pl" string_name="subchapter_258_name" text="Utrzymanie porz?dku" />
+      <row iso_code="ru" string_name="subchapter_258_name" text="?????????? ???????" />
+      <row iso_code="tr" string_name="subchapter_258_name" text="Huzuru Korumak" />
+      <row iso_code="zh-CH" string_name="subchapter_258_name" text="????" />
+      <row iso_code="" string_name="subchapter_258_name" text="Sentry duty" />
+      <row iso_code="" string_name="subchapter_258_name" text="Hl?dka" />
+      <row iso_code="cs" string_name="subchapter_275_name" text="P??tel v nouzi" />
+      <row iso_code="de" string_name="subchapter_275_name" text="Ein Freund in der Not ?" />
+      <row iso_code="en" string_name="subchapter_275_name" text="A Friend In Need..." />
+      <row iso_code="es" string_name="subchapter_275_name" text="Un amigo en problemas" />
+      <row iso_code="fr" string_name="subchapter_275_name" text="C'est dans le besoin..." />
+      <row iso_code="it" string_name="subchapter_275_name" text="Un vero amico..." />
+      <row iso_code="pl" string_name="subchapter_275_name" text="Prawdziwych przyjaci???" />
+      <row iso_code="ru" string_name="subchapter_275_name" text="????????? ????" />
+      <row iso_code="tr" string_name="subchapter_275_name" text="Dost Dedi?in?" />
+      <row iso_code="zh-CH" string_name="subchapter_275_name" text="????" />
+      <row iso_code="" string_name="subchapter_275_name" text="A friend in need" />
+      <row iso_code="" string_name="subchapter_275_name" text="P??tel v nouzi" />
+      <row iso_code="de" string_name="subchapter_276_name" text="Kranker Bastard" />
+      <row iso_code="en" string_name="subchapter_276_name" text="Sick Bastard" />
+      <row iso_code="es" string_name="subchapter_276_name" text="Canalla enfermo" />
+      <row iso_code="fr" string_name="subchapter_276_name" text="Un malade mental" />
+      <row iso_code="it" string_name="subchapter_276_name" text="Stomaco in subbuglio" />
+      <row iso_code="pl" string_name="subchapter_276_name" text="Jurny Gbur" />
+      <row iso_code="ru" string_name="subchapter_276_name" text="??????? ???????" />
+      <row iso_code="zh-CH" string_name="subchapter_276_name" text="?????" />
+      <row iso_code="" string_name="subchapter_276_name" text="Otr?ven? parchant" />
+      <row iso_code="" string_name="subchapter_276_name" text="Sick Bastard" />
+      <row iso_code="de" string_name="subchapter_284_name" text="Verlorene Schl?ssel" />
+      <row iso_code="en" string_name="subchapter_284_name" text="Locked out" />
+      <row iso_code="fr" string_name="subchapter_284_name" text="Enferm? dehors" />
+      <row iso_code="pl" string_name="subchapter_284_name" text="0" />
+      <row iso_code="ru" string_name="subchapter_284_name" text="?????????? ?????" />
+      <row iso_code="zh-CH" string_name="subchapter_284_name" text="????" />
+      <row iso_code="" string_name="subchapter_284_name" text="Locked out" />
+      <row iso_code="" string_name="subchapter_284_name" text="Ztracen? kl??e" />
+      <row iso_code="cs" string_name="subchapter_287_name" text="Ko?ist" />
+      <row iso_code="de" string_name="subchapter_287_name" text="Jagdfieber" />
+      <row iso_code="en" string_name="subchapter_287_name" text="The Prey" />
+      <row iso_code="es" string_name="subchapter_287_name" text="La presa" />
+      <row iso_code="fr" string_name="subchapter_287_name" text="La proie" />
+      <row iso_code="it" string_name="subchapter_287_name" text="La preda" />
+      <row iso_code="pl" string_name="subchapter_287_name" text="Zdobycz" />
+      <row iso_code="ru" string_name="subchapter_287_name" text="??????" />
+      <row iso_code="tr" string_name="subchapter_287_name" text="Av" />
+      <row iso_code="zh-CH" string_name="subchapter_287_name" text="????" />
+      <row iso_code="" string_name="subchapter_287_name" text="Ko?ist" />
+      <row iso_code="" string_name="subchapter_287_name" text="The Prey" />
+      <row iso_code="cs" string_name="subchapter_292_name" text="Viselcova vdova" />
+      <row iso_code="de" string_name="subchapter_292_name" text="Z?he Liebe" />
+      <row iso_code="en" string_name="subchapter_292_name" text="Tough Love" />
+      <row iso_code="es" string_name="subchapter_292_name" text="Un amor dif?cil" />
+      <row iso_code="fr" string_name="subchapter_292_name" text="Qui aime bien ch?tie bien" />
+      <row iso_code="it" string_name="subchapter_292_name" text="Amore impossibile" />
+      <row iso_code="pl" string_name="subchapter_292_name" text="Trudna mi?o??" />
+      <row iso_code="ru" string_name="subchapter_292_name" text="?????? ???" />
+      <row iso_code="tr" string_name="subchapter_292_name" text="Zorlu A?k" />
+      <row iso_code="zh-CH" string_name="subchapter_292_name" text="????" />
+      <row iso_code="" string_name="subchapter_292_name" text="Tough Love" />
+      <row iso_code="" string_name="subchapter_292_name" text="Viselcova vdova" />
+      <row iso_code="cs" string_name="subchapter_293_name" text="Z mlejna do lou?e" />
+      <row iso_code="de" string_name="subchapter_293_name" text="? ist ein Freund bis zum Tod" />
+      <row iso_code="en" string_name="subchapter_293_name" text="...Is a Friend Indeed" />
+      <row iso_code="es" string_name="subchapter_293_name" text="... Sin duda es un amigo." />
+      <row iso_code="fr" string_name="subchapter_293_name" text="... qu'on reconna?t ses vrais amis" />
+      <row iso_code="it" string_name="subchapter_293_name" text="... Nel momento del bisogno" />
+      <row iso_code="pl" string_name="subchapter_293_name" text="? Poznaje si? w biedzie" />
+      <row iso_code="ru" string_name="subchapter_293_name" text="????????? ??????." />
+      <row iso_code="tr" string_name="subchapter_293_name" text="Kara G?nde Belli Olur" />
+      <row iso_code="zh-CH" string_name="subchapter_293_name" text="????" />
+      <row iso_code="" string_name="subchapter_293_name" text="Z mlejna do lou?e" />
+      <row iso_code="" string_name="subchapter_293_name" text="A Friend in Need" />
+      <row iso_code="cs" string_name="subchapter_294_name" text="Poprava" />
+      <row iso_code="de" string_name="subchapter_294_name" text="Wenn alle Stricke rei?en" />
+      <row iso_code="en" string_name="subchapter_294_name" text="Money for Old Rope" />
+      <row iso_code="es" string_name="subchapter_294_name" text="Dinero para cuerda vieja" />
+      <row iso_code="fr" string_name="subchapter_294_name" text="De l'argent pour une vieille corde" />
+      <row iso_code="it" string_name="subchapter_294_name" text="Il cappio della giustizia" />
+      <row iso_code="pl" string_name="subchapter_294_name" text="Par? groszy na stary sznur" />
+      <row iso_code="ru" string_name="subchapter_294_name" text="????? ?? ?????? ???????" />
+      <row iso_code="tr" string_name="subchapter_294_name" text="Kolay Kazan?lan Para" />
+      <row iso_code="zh-CH" string_name="subchapter_294_name" text="????" />
+      <row iso_code="" string_name="subchapter_294_name" text="Poprava" />
+      <row iso_code="" string_name="subchapter_294_name" text="Execution" />
+      <row iso_code="cs" string_name="subchapter_298_name" text="Ne?ekan? n?v?t?va" />
+      <row iso_code="de" string_name="subchapter_298_name" text="Unerwarteter Besuch" />
+      <row iso_code="en" string_name="subchapter_298_name" text="Unexpected Visit" />
+      <row iso_code="es" string_name="subchapter_298_name" text="Una visita inesperada" />
+      <row iso_code="fr" string_name="subchapter_298_name" text="Une visite inopin?e" />
+      <row iso_code="it" string_name="subchapter_298_name" text="Una visita inattesa" />
+      <row iso_code="pl" string_name="subchapter_298_name" text="Niespodziewana wizyta" />
+      <row iso_code="ru" string_name="subchapter_298_name" text="????????? ?????" />
+      <row iso_code="tr" string_name="subchapter_298_name" text="Beklenmeyen Ziyaret" />
+      <row iso_code="zh-CH" string_name="subchapter_298_name" text="????" />
+      <row iso_code="" string_name="subchapter_298_name" text="Ne?ekan? n?v?t?va" />
+      <row iso_code="" string_name="subchapter_298_name" text="Unexpected Visit" />
+      <row iso_code="cs" string_name="subchapter_300_name" text="Hon na Zaj?ce" />
+      <row iso_code="de" string_name="subchapter_300_name" text="Hasenjagd" />
+      <row iso_code="en" string_name="subchapter_300_name" text="Hare Hunt" />
+      <row iso_code="es" string_name="subchapter_300_name" text="Caza de liebres" />
+      <row iso_code="fr" string_name="subchapter_300_name" text="La chasse au li?vre" />
+      <row iso_code="it" string_name="subchapter_300_name" text="Caccia alla lepre" />
+      <row iso_code="pl" string_name="subchapter_300_name" text="W pogoni za Zaj?cem" />
+      <row iso_code="ru" string_name="subchapter_300_name" text="????? ?? ?????" />
+      <row iso_code="tr" string_name="subchapter_300_name" text="Tav?an Av?" />
+      <row iso_code="zh-CH" string_name="subchapter_300_name" text="????" />
+      <row iso_code="" string_name="subchapter_300_name" text="Hare Hunt" />
+      <row iso_code="" string_name="subchapter_300_name" text="Hon na Zaj?ce" />
+      <row iso_code="cs" string_name="subchapter_303_name" text="Kotl?k st??bra na konci duhy" />
+      <row iso_code="de" string_name="subchapter_303_name" text="Verru?t" />
+      <row iso_code="en" string_name="subchapter_303_name" text="Besmirched" />
+      <row iso_code="es" string_name="subchapter_303_name" text="Mancillado" />
+      <row iso_code="fr" string_name="subchapter_303_name" text="Diffamation" />
+      <row iso_code="it" string_name="subchapter_303_name" text="Macchie sulla coscienza" />
+      <row iso_code="pl" string_name="subchapter_303_name" text="Oszczerstwa" />
+      <row iso_code="ru" string_name="subchapter_303_name" text="???????????" />
+      <row iso_code="tr" string_name="subchapter_303_name" text="Karalanm??" />
+      <row iso_code="zh-CH" string_name="subchapter_303_name" text="????" />
+      <row iso_code="" string_name="subchapter_303_name" text="Kotl?k st??bra na konci duhy" />
+      <row iso_code="" string_name="subchapter_303_name" text="The pot of silver at the end of the rainbow" />
+      <row iso_code="" string_name="subchapter_304_name" text="Zlod?j??ek" />
+      <row iso_code="cs" string_name="subchapter_309_name" text="H?bitovn? kv?t?" />
+      <row iso_code="de" string_name="subchapter_309_name" text="Ruheloser Geist" />
+      <row iso_code="en" string_name="subchapter_309_name" text="Restless Spirit" />
+      <row iso_code="es" string_name="subchapter_309_name" text="Esp?ritu inquieto" />
+      <row iso_code="fr" string_name="subchapter_309_name" text="Un esprit tourment?" />
+      <row iso_code="it" string_name="subchapter_309_name" text="Spirito irrequieto" />
+      <row iso_code="pl" string_name="subchapter_309_name" text="Niespokojna dusza" />
+      <row iso_code="ru" string_name="subchapter_309_name" text="???????????? ???" />
+      <row iso_code="tr" string_name="subchapter_309_name" text="Huzursuz Ruh" />
+      <row iso_code="zh-CH" string_name="subchapter_309_name" text="????" />
+      <row iso_code="" string_name="subchapter_309_name" text="H?bitovn? kv?t?" />
+      <row iso_code="" string_name="subchapter_309_name" text="Cemetery Blossoms" />
+      <row iso_code="cs" string_name="subchapter_311_name" text="Hr?tky s ?ertem" />
+      <row iso_code="de" string_name="subchapter_311_name" text="Tanz mit dem Teufel" />
+      <row iso_code="en" string_name="subchapter_311_name" text="Playing with the Devil" />
+      <row iso_code="es" string_name="subchapter_311_name" text="Jugar con el Diablo" />
+      <row iso_code="fr" string_name="subchapter_311_name" text="Jouer avec le diable" />
+      <row iso_code="it" string_name="subchapter_311_name" text="Danzando con il diavolo" />
+      <row iso_code="pl" string_name="subchapter_311_name" text="Igraszki z diab?em" />
+      <row iso_code="ru" string_name="subchapter_311_name" text="???? ? ????????." />
+      <row iso_code="tr" string_name="subchapter_311_name" text="?eytanla Dans" />
+      <row iso_code="zh-CH" string_name="subchapter_311_name" text="????" />
+      <row iso_code="" string_name="subchapter_311_name" text="Hr?tky s ?ertem" />
+      <row iso_code="" string_name="subchapter_311_name" text="Playing with the Devil" />
+      <row iso_code="cs" string_name="subchapter_313_name" text="Ut?kej!" />
+      <row iso_code="de" string_name="subchapter_313_name" text="Auf der Flucht" />
+      <row iso_code="en" string_name="subchapter_313_name" text="Run!" />
+      <row iso_code="es" string_name="subchapter_313_name" text="?Corred!" />
+      <row iso_code="fr" string_name="subchapter_313_name" text="Fuite?!" />
+      <row iso_code="it" string_name="subchapter_313_name" text="In fuga!" />
+      <row iso_code="pl" string_name="subchapter_313_name" text="Uciekaj!" />
+      <row iso_code="ru" string_name="subchapter_313_name" text="????!" />
+      <row iso_code="tr" string_name="subchapter_313_name" text="Ko?!" />
+      <row iso_code="zh-CH" string_name="subchapter_313_name" text="????" />
+      <row iso_code="" string_name="subchapter_313_name" text="Ut?kej!" />
+      <row iso_code="" string_name="subchapter_313_name" text="Run!" />
+      <row iso_code="cs" string_name="subchapter_315_name" text="Zaj?covo oko" />
+      <row iso_code="de" string_name="subchapter_315_name" text="Weiberjagd" />
+      <row iso_code="en" string_name="subchapter_315_name" text="Cherchez la Femme" />
+      <row iso_code="es" string_name="subchapter_315_name" text="Siempre es una mujer" />
+      <row iso_code="fr" string_name="subchapter_315_name" text="Cherchez la femme" />
+      <row iso_code="it" string_name="subchapter_315_name" text="Cherchez la femme" />
+      <row iso_code="pl" string_name="subchapter_315_name" text="Cherchez la Femme" />
+      <row iso_code="ru" string_name="subchapter_315_name" text="Cherchez la Femme" />
+      <row iso_code="tr" string_name="subchapter_315_name" text="Cherchez la Femme" />
+      <row iso_code="zh-CH" string_name="subchapter_315_name" text="????" />
+      <row iso_code="" string_name="subchapter_315_name" text="Hanekin Hare and the Huntsman's Horn" />
+      <row iso_code="" string_name="subchapter_315_name" text="Zaj?covo oko" />
+      <row iso_code="" string_name="subchapter_319_name" text="Whose Cow" />
+      <row iso_code="" string_name="subchapter_319_name" text="whoseCow" />
+      <row iso_code="" string_name="subchapter_320_name" text="Kr?vovrah" />
+      <row iso_code="en" string_name="subchapter_322_name" text="Corpus Christi" />
+      <row iso_code="" string_name="subchapter_322_name" text="T?lo Kristovo" />
+      <row iso_code="" string_name="subchapter_322_name" text="Corpus Christi" />
+      <row iso_code="cs" string_name="subchapter_323_name" text="Ve v?? po?estnosti" />
+      <row iso_code="de" string_name="subchapter_323_name" text="Im siebten Himmel" />
+      <row iso_code="en" string_name="subchapter_323_name" text="Next to Godliness" />
+      <row iso_code="es" string_name="subchapter_323_name" text="Rozando la divinidad" />
+      <row iso_code="fr" string_name="subchapter_323_name" text="En odeur de saintet?" />
+      <row iso_code="it" string_name="subchapter_323_name" text="Un bagno di umilt?" />
+      <row iso_code="pl" string_name="subchapter_323_name" text="Z ca?? pobo?no?ci?" />
+      <row iso_code="ru" string_name="subchapter_323_name" text="????? ????????." />
+      <row iso_code="tr" string_name="subchapter_323_name" text="Temizlik ?mandan Gelir" />
+      <row iso_code="zh-CH" string_name="subchapter_323_name" text="????" />
+      <row iso_code="" string_name="subchapter_323_name" text="Ve v?? po?estnosti" />
+      <row iso_code="" string_name="subchapter_323_name" text="NEXT TO GODLINESS" />
+      <row iso_code="cs" string_name="subchapter_326_name" text="Z kamene" />
+      <row iso_code="de" string_name="subchapter_326_name" text="Stein zu Gold" />
+      <row iso_code="en" string_name="subchapter_326_name" text="A Rock and a Hard Place" />
+      <row iso_code="es" string_name="subchapter_326_name" text="Entre la espada y la pared" />
+      <row iso_code="fr" string_name="subchapter_326_name" text="Entre le marteau et l'enclume" />
+      <row iso_code="it" string_name="subchapter_326_name" text="Tra l'incudine e il martello" />
+      <row iso_code="pl" string_name="subchapter_326_name" text="Mi?dzy m?otem a kowad?em" />
+      <row iso_code="ru" string_name="subchapter_326_name" text="???? ?? ???? - ????? ????" />
+      <row iso_code="tr" string_name="subchapter_326_name" text="?ki Arada Bir Derede" />
+      <row iso_code="zh-CH" string_name="subchapter_326_name" text="????" />
+      <row iso_code="" string_name="subchapter_326_name" text="Z kamene" />
+      <row iso_code="" string_name="subchapter_326_name" text="A Rock and a Hard Place" />
+      <row iso_code="de" string_name="subchapter_332_name" text="Chaos bei Merhojed / Wo Rauch aufsteigt?" />
+      <row iso_code="en" string_name="subchapter_332_name" text="Mayhem near Merhojed / Where there's smoke?[?]" />
+      <row iso_code="fr" string_name="subchapter_332_name" text="Pagaille du c?t? de Merhojed / L? o? il y a de la fum?e?[?]" />
+      <row iso_code="pl" string_name="subchapter_332_name" text="Mejhem, ko?o Merchojed?w" />
+      <row iso_code="ru" string_name="subchapter_332_name" text="?????? ? ????????" />
+      <row iso_code="zh-CH" string_name="subchapter_332_name" text="????????/???????[?]" />
+      <row iso_code="" string_name="subchapter_332_name" text="Mayhem near Merhojed / Where there's smoke?[?]" />
+      <row iso_code="" string_name="subchapter_332_name" text="N?jezd u Mrchojed" />
+      <row iso_code="de" string_name="subchapter_338_name" text="Schmerzlinderung" />
+      <row iso_code="en" string_name="subchapter_338_name" text="Easing the pain" />
+      <row iso_code="fr" string_name="subchapter_338_name" text="Apaiser ses souffrances" />
+      <row iso_code="pl" string_name="subchapter_338_name" text="?agodz?c b?l" />
+      <row iso_code="ru" string_name="subchapter_338_name" text="????????? ??????" />
+      <row iso_code="zh-CH" string_name="subchapter_338_name" text="????" />
+      <row iso_code="" string_name="subchapter_338_name" text="Easing the pain" />
+      <row iso_code="" string_name="subchapter_338_name" text="Um?raj?c? voj?k" />
+      <row iso_code="de" string_name="subchapter_340_name" text="Unser kleines Haus in Kuttenberg" />
+      <row iso_code="en" string_name="subchapter_340_name" text="Our little house in Kuttenberg" />
+      <row iso_code="fr" string_name="subchapter_340_name" text="Notre petite maison de Kuttenberg" />
+      <row iso_code="pl" string_name="subchapter_340_name" text="Nasz ma?y dom w Kuttenbergu." />
+      <row iso_code="ru" string_name="subchapter_340_name" text="??? ????? ? ?????? ????" />
+      <row iso_code="zh-CH" string_name="subchapter_340_name" text="??????????" />
+      <row iso_code="" string_name="subchapter_340_name" text="Our little house in Kuttenberg" />
+      <row iso_code="" string_name="subchapter_340_name" text="N?? dome?ek v Kutn? Ho?e" />
+      <row iso_code="de" string_name="subchapter_343_name" text="Schmarzmarkth?ndler" />
+      <row iso_code="en" string_name="subchapter_343_name" text="Black Marketeer" />
+      <row iso_code="fr" string_name="subchapter_343_name" text="Contrebandier" />
+      <row iso_code="pl" string_name="subchapter_343_name" text="Paser" />
+      <row iso_code="ru" string_name="subchapter_343_name" text="??????" />
+      <row iso_code="zh-CH" string_name="subchapter_343_name" text="????" />
+      <row iso_code="" string_name="subchapter_343_name" text="?melin??" />
+      <row iso_code="" string_name="subchapter_343_name" text="Black Marketeer" />
+      <row iso_code="de" string_name="subchapter_344_name" text="Ritterlichkeit f?r Anf?nger" />
+      <row iso_code="en" string_name="subchapter_344_name" text="A lesson in chivalry" />
+      <row iso_code="fr" string_name="subchapter_344_name" text="Une le?on de galanterie" />
+      <row iso_code="pl" string_name="subchapter_344_name" text="Lekcja rycerstwa" />
+      <row iso_code="ru" string_name="subchapter_344_name" text="???????? ?????? ? ????????" />
+      <row iso_code="zh-CH" string_name="subchapter_344_name" text="????????" />
+      <row iso_code="" string_name="subchapter_344_name" text="?enk??ka v nesn?z?ch" />
+      <row iso_code="" string_name="subchapter_344_name" text="A lesson in chivalry" />
+      <row iso_code="de" string_name="subchapter_345_name" text="Ein Auftrag der Gnade" />
+      <row iso_code="en" string_name="subchapter_345_name" text="An errand of mercy" />
+      <row iso_code="fr" string_name="subchapter_345_name" text="Une cause charitable" />
+      <row iso_code="pl" string_name="subchapter_345_name" text="Okazanie mi?osierdzia" />
+      <row iso_code="ru" string_name="subchapter_345_name" text="??????" />
+      <row iso_code="zh-CH" string_name="subchapter_345_name" text="???????" />
+      <row iso_code="" string_name="subchapter_345_name" text="Medicus" />
+      <row iso_code="" string_name="subchapter_345_name" text="An errand of mercy" />
+      <row iso_code="cs" string_name="subchapter_348_name" text="Ratajsk? turnaj" />
+      <row iso_code="de" string_name="subchapter_348_name" text="Rattayer Turnier" />
+      <row iso_code="en" string_name="subchapter_348_name" text="Rattay Tourney" />
+      <row iso_code="es" string_name="subchapter_348_name" text="Torneo de Rataje" />
+      <row iso_code="fr" string_name="subchapter_348_name" text="Le tournoi de Rattay" />
+      <row iso_code="it" string_name="subchapter_348_name" text="Torneo di Rattay" />
+      <row iso_code="pl" string_name="subchapter_348_name" text="Ratajski Turniej" />
+      <row iso_code="ru" string_name="subchapter_348_name" text="?????? ? ?????" />
+      <row iso_code="tr" string_name="subchapter_348_name" text="Rattay Turnuvas?" />
+      <row iso_code="zh-CH" string_name="subchapter_348_name" text="????" />
+      <row iso_code="" string_name="subchapter_348_name" text="Ratajsk? turnaj" />
+      <row iso_code="" string_name="subchapter_348_name" text="Rattay Tourney" />
+      <row iso_code="" string_name="subchapter_349_name" text="In vino veritas" />
+      <row iso_code="" string_name="subchapter_349_name" text="in vino veritas" />
+      <row iso_code="de" string_name="subchapter_351_name" text="Unter der Erde" />
+      <row iso_code="en" string_name="subchapter_351_name" text="Six feet under" />
+      <row iso_code="fr" string_name="subchapter_351_name" text="Six pieds sous terre" />
+      <row iso_code="pl" string_name="subchapter_351_name" text="Sze?? st?p pod ziemi?" />
+      <row iso_code="ru" string_name="subchapter_351_name" text="????????? ????" />
+      <row iso_code="zh-CH" string_name="subchapter_351_name" text="????" />
+      <row iso_code="" string_name="subchapter_351_name" text="Six feet under" />
+      <row iso_code="" string_name="subchapter_351_name" text="POH?B?V?N?" />
+      <row iso_code="cs" string_name="subchapter_354_name" text="Z?zraky na po?k?n?" />
+      <row iso_code="de" string_name="subchapter_354_name" text="Wunder dieser Welt" />
+      <row iso_code="en" string_name="subchapter_354_name" text="Miracles While You Wait" />
+      <row iso_code="es" string_name="subchapter_354_name" text="Milagros mientras se espera" />
+      <row iso_code="fr" string_name="subchapter_354_name" text="Un miracle n'arrive jamais seul" />
+      <row iso_code="it" string_name="subchapter_354_name" text="Intrattenimento magico" />
+      <row iso_code="pl" string_name="subchapter_354_name" text="Cuda na poczekaniu" />
+      <row iso_code="ru" string_name="subchapter_354_name" text="?????? ? ??????????? ?????????" />
+      <row iso_code="tr" string_name="subchapter_354_name" text="Beklerken Olan Mucizeler" />
+      <row iso_code="zh-CH" string_name="subchapter_354_name" text="????" />
+      <row iso_code="" string_name="subchapter_354_name" text="Miracles While You Wait" />
+      <row iso_code="" string_name="subchapter_354_name" text="Z?zraky na po?k?n?" />
+      <row iso_code="cs" string_name="subchapter_356_name" text="Raubritter" />
+      <row iso_code="de" string_name="subchapter_356_name" text="R?uberbaron" />
+      <row iso_code="en" string_name="subchapter_356_name" text="Robber Baron" />
+      <row iso_code="es" string_name="subchapter_356_name" text="Bar?n ladr?n" />
+      <row iso_code="fr" string_name="subchapter_356_name" text="Le baron-bandit" />
+      <row iso_code="it" string_name="subchapter_356_name" text="Un nobile brigante" />
+      <row iso_code="pl" string_name="subchapter_356_name" text="Rycerz rozb?jnik" />
+      <row iso_code="ru" string_name="subchapter_356_name" text="?????-?????????" />
+      <row iso_code="tr" string_name="subchapter_356_name" text="H?rs?z Baron" />
+      <row iso_code="zh-CH" string_name="subchapter_356_name" text="????" />
+      <row iso_code="" string_name="subchapter_356_name" text="Robber Baron" />
+      <row iso_code="" string_name="subchapter_356_name" text="Raubritter" />
+      <row iso_code="cs" string_name="subchapter_362_name" text="Ztracen? k??" />
+      <row iso_code="de" string_name="subchapter_362_name" text="Das ausgeb?xte Pferd" />
+      <row iso_code="en" string_name="subchapter_362_name" text="The Horse That Bolted" />
+      <row iso_code="es" string_name="subchapter_362_name" text="El caballo que se escap?" />
+      <row iso_code="fr" string_name="subchapter_362_name" text="Le cheval fugitif" />
+      <row iso_code="it" string_name="subchapter_362_name" text="Un cavallo in fuga" />
+      <row iso_code="pl" string_name="subchapter_362_name" text="Z kopyta" />
+      <row iso_code="ru" string_name="subchapter_362_name" text="????, ??????? ?????." />
+      <row iso_code="tr" string_name="subchapter_362_name" text="Ka??p Giden At" />
+      <row iso_code="zh-CH" string_name="subchapter_362_name" text="????" />
+      <row iso_code="" string_name="subchapter_362_name" text="The horse that bolted" />
+      <row iso_code="" string_name="subchapter_362_name" text="Ztracen? k??" />
+      <row iso_code="cs" string_name="subchapter_363_name" text="Tajemstv? oceli" />
+      <row iso_code="de" string_name="subchapter_363_name" text="Der Verseschmied" />
+      <row iso_code="en" string_name="subchapter_363_name" text="Tricks of the Trade" />
+      <row iso_code="es" string_name="subchapter_363_name" text="Los trucos del oficio" />
+      <row iso_code="fr" string_name="subchapter_363_name" text="Les ficelles du m?tier." />
+      <row iso_code="it" string_name="subchapter_363_name" text="Segreti del mestiere" />
+      <row iso_code="pl" string_name="subchapter_363_name" text="Tajniki zawodu" />
+      <row iso_code="ru" string_name="subchapter_363_name" text="?????? ?????" />
+      <row iso_code="tr" string_name="subchapter_363_name" text="Ticaretin Hileleri" />
+      <row iso_code="zh-CH" string_name="subchapter_363_name" text="????" />
+      <row iso_code="" string_name="subchapter_363_name" text="Tajemstv? oceli" />
+      <row iso_code="" string_name="subchapter_363_name" text="Steel Secret" />
+      <row iso_code="" string_name="subchapter_364_name" text="Cizozemsk? Ocel" />
+      <row iso_code="" string_name="subchapter_364_name" text="Foreign Steel" />
+      <row iso_code="cs" string_name="subchapter_365_name" text="Skute?n? k?es?an?" />
+      <row iso_code="de" string_name="subchapter_365_name" text="Waldenser" />
+      <row iso_code="en" string_name="subchapter_365_name" text="Waldensians" />
+      <row iso_code="es" string_name="subchapter_365_name" text="Valdenses" />
+      <row iso_code="fr" string_name="subchapter_365_name" text="Les vaudois" />
+      <row iso_code="it" string_name="subchapter_365_name" text="Valdesi" />
+      <row iso_code="pl" string_name="subchapter_365_name" text="Waldensi" />
+      <row iso_code="ru" string_name="subchapter_365_name" text="?????????" />
+      <row iso_code="tr" string_name="subchapter_365_name" text="Waldensianlar" />
+      <row iso_code="zh-CH" string_name="subchapter_365_name" text="????" />
+      <row iso_code="" string_name="subchapter_365_name" text="Skute?n? k?es?an?" />
+      <row iso_code="" string_name="subchapter_365_name" text="True Christians" />
+      <row iso_code="cs" string_name="subchapter_370_name" text="N?vrat ztracen?ho syna" />
+      <row iso_code="de" string_name="subchapter_370_name" text="Heimkehr" />
+      <row iso_code="en" string_name="subchapter_370_name" text="Homecoming" />
+      <row iso_code="es" string_name="subchapter_370_name" text="Vuelta a casa" />
+      <row iso_code="fr" string_name="subchapter_370_name" text="Retour au bercail" />
+      <row iso_code="it" string_name="subchapter_370_name" text="Ritorno a casa" />
+      <row iso_code="pl" string_name="subchapter_370_name" text="Powr?t do domu" />
+      <row iso_code="ru" string_name="subchapter_370_name" text="??????????? ?????." />
+      <row iso_code="tr" string_name="subchapter_370_name" text="Eve D?n??" />
+      <row iso_code="uk" string_name="subchapter_370_name" text="?????????? ??????" />
+      <row iso_code="zh-CH" string_name="subchapter_370_name" text="????" />
+      <row iso_code="" string_name="subchapter_370_name" text="N?vrat ztracen?ho syna" />
+      <row iso_code="" string_name="subchapter_370_name" text="Homecoming" />
+      <row iso_code="cs" string_name="subchapter_373_name" text="Trestaj?c? k?men" />
+      <row iso_code="de" string_name="subchapter_373_name" text="Steinschlag" />
+      <row iso_code="en" string_name="subchapter_373_name" text="The House of God" />
+      <row iso_code="es" string_name="subchapter_373_name" text="La casa del Se?or" />
+      <row iso_code="fr" string_name="subchapter_373_name" text="Qui jette la premi?re pierre" />
+      <row iso_code="it" string_name="subchapter_373_name" text="La casa del Signore" />
+      <row iso_code="pl" string_name="subchapter_373_name" text="Dom Bo?y" />
+      <row iso_code="ru" string_name="subchapter_373_name" text="??? ?????" />
+      <row iso_code="tr" string_name="subchapter_373_name" text="Tanr?'n?n Evi" />
+      <row iso_code="zh-CH" string_name="subchapter_373_name" text="????" />
+      <row iso_code="" string_name="subchapter_373_name" text="Stone Dead" />
+      <row iso_code="" string_name="subchapter_373_name" text="Trestaj?c? k?men" />
+      <row iso_code="cs" string_name="subchapter_374_name" text="Poklad" />
+      <row iso_code="de" string_name="subchapter_374_name" text="Der Schatz" />
+      <row iso_code="en" string_name="subchapter_374_name" text="Scavenger" />
+      <row iso_code="es" string_name="subchapter_374_name" text="Carro?ero" />
+      <row iso_code="fr" string_name="subchapter_374_name" text="Chasse au tr?sor" />
+      <row iso_code="it" string_name="subchapter_374_name" text="Sciacallo" />
+      <row iso_code="pl" string_name="subchapter_374_name" text="?cierwojad" />
+      <row iso_code="ru" string_name="subchapter_374_name" text="?????????" />
+      <row iso_code="tr" string_name="subchapter_374_name" text="Le??il" />
+      <row iso_code="zh-CH" string_name="subchapter_374_name" text="????" />
+      <row iso_code="" string_name="subchapter_374_name" text="Treasure" />
+      <row iso_code="" string_name="subchapter_374_name" text="Poklad" />
+      <row iso_code="cs" string_name="subchapter_377_name" text="Past??" />
+      <row iso_code="de" string_name="subchapter_377_name" text="Ein Mann Gottes" />
+      <row iso_code="en" string_name="subchapter_377_name" text="A Man of the Cloth" />
+      <row iso_code="es" string_name="subchapter_377_name" text="Un hombre de sotana" />
+      <row iso_code="fr" string_name="subchapter_377_name" text="Un homme de foi" />
+      <row iso_code="it" string_name="subchapter_377_name" text="Un uomo di chiesa" />
+      <row iso_code="pl" string_name="subchapter_377_name" text="W sutannie" />
+      <row iso_code="ru" string_name="subchapter_377_name" text="????????? ??????" />
+      <row iso_code="tr" string_name="subchapter_377_name" text="Din Adam?" />
+      <row iso_code="zh-CH" string_name="subchapter_377_name" text="????" />
+      <row iso_code="" string_name="subchapter_377_name" text="A Man of the Cloth" />
+      <row iso_code="" string_name="subchapter_377_name" text="Cesty p?n?" />
+      <row iso_code="en" string_name="subchapter_379_name" text="Divine Retribution" />
+      <row iso_code="pl" string_name="subchapter_379_name" text="Kara boska" />
+      <row iso_code="" string_name="subchapter_379_name" text="Chlast slast" />
+      <row iso_code="" string_name="subchapter_379_name" text="Divine Retribution" />
+      <row iso_code="cs" string_name="subchapter_382_name" text="Probuzen?" />
+      <row iso_code="de" string_name="subchapter_382_name" text="Das Erwachen" />
+      <row iso_code="en" string_name="subchapter_382_name" text="Awakening" />
+      <row iso_code="es" string_name="subchapter_382_name" text="Despertar" />
+      <row iso_code="fr" string_name="subchapter_382_name" text="Le r?veil" />
+      <row iso_code="it" string_name="subchapter_382_name" text="Risveglio" />
+      <row iso_code="pl" string_name="subchapter_382_name" text="Przebudzenie" />
+      <row iso_code="ru" string_name="subchapter_382_name" text="???????????" />
+      <row iso_code="tr" string_name="subchapter_382_name" text="Uyan??" />
+      <row iso_code="zh-CH" string_name="subchapter_382_name" text="????" />
+      <row iso_code="" string_name="subchapter_382_name" text="Awakening" />
+      <row iso_code="" string_name="subchapter_382_name" text="Probuzen?" />
+      <row iso_code="cs" string_name="subchapter_383_name" text="Dostihy" />
+      <row iso_code="de" string_name="subchapter_383_name" text="Das Rennen" />
+      <row iso_code="en" string_name="subchapter_383_name" text="The Sport of Kings" />
+      <row iso_code="es" string_name="subchapter_383_name" text="El deporte de los reyes" />
+      <row iso_code="fr" string_name="subchapter_383_name" text="Le sport des rois." />
+      <row iso_code="it" string_name="subchapter_383_name" text="Lo sport dei re" />
+      <row iso_code="pl" string_name="subchapter_383_name" text="Sport kr?l?w" />
+      <row iso_code="ru" string_name="subchapter_383_name" text="??????????? ?????" />
+      <row iso_code="tr" string_name="subchapter_383_name" text="Krallar?n Sporu" />
+      <row iso_code="zh-CH" string_name="subchapter_383_name" text="????" />
+      <row iso_code="" string_name="subchapter_383_name" text="Races" />
+      <row iso_code="" string_name="subchapter_383_name" text="Dostihy" />
+      <row iso_code="cs" string_name="subchapter_384_name" text="V Bo??ch rukou" />
+      <row iso_code="de" string_name="subchapter_384_name" text="In Gottes Hand" />
+      <row iso_code="en" string_name="subchapter_384_name" text="In God's Hands" />
+      <row iso_code="es" string_name="subchapter_384_name" text="En manos de Dios" />
+      <row iso_code="fr" string_name="subchapter_384_name" text="? la merci de Dieu" />
+      <row iso_code="it" string_name="subchapter_384_name" text="Nelle mani del Signore" />
+      <row iso_code="pl" string_name="subchapter_384_name" text="W r?kach Boga" />
+      <row iso_code="ru" string_name="subchapter_384_name" text="? ????? ??????" />
+      <row iso_code="tr" string_name="subchapter_384_name" text="Tanr?'n?n Ellerinde" />
+      <row iso_code="zh-CH" string_name="subchapter_384_name" text="????" />
+      <row iso_code="" string_name="subchapter_384_name" text="In God's Hands" />
+      <row iso_code="" string_name="subchapter_384_name" text="V Bo??ch rukou" />
+      <row iso_code="cs" string_name="subchapter_385_name" text="Milostn? dopis" />
+      <row iso_code="de" string_name="subchapter_385_name" text="Honigs??e Worte" />
+      <row iso_code="en" string_name="subchapter_385_name" text="Honeyed Words" />
+      <row iso_code="es" string_name="subchapter_385_name" text="Dulces palabras" />
+      <row iso_code="fr" string_name="subchapter_385_name" text="Belles paroles" />
+      <row iso_code="it" string_name="subchapter_385_name" text="Parole al miele" />
+      <row iso_code="pl" string_name="subchapter_385_name" text="Czu?e s??wka" />
+      <row iso_code="ru" string_name="subchapter_385_name" text="??????? ????" />
+      <row iso_code="tr" string_name="subchapter_385_name" text="Tatl? S?zler" />
+      <row iso_code="zh-CH" string_name="subchapter_385_name" text="????" />
+      <row iso_code="" string_name="subchapter_385_name" text="Honeyed Words" />
+      <row iso_code="" string_name="subchapter_385_name" text="Ve slu?b?ch l?sky" />
+      <row iso_code="cs" string_name="subchapter_386_name" text="?palky na ?ece" />
+      <row iso_code="de" string_name="subchapter_386_name" text="Kl?tze im Fluss" />
+      <row iso_code="en" string_name="subchapter_386_name" text="Chumps on the River" />
+      <row iso_code="es" string_name="subchapter_386_name" text="Troncos en el r?o" />
+      <row iso_code="fr" string_name="subchapter_386_name" text="Des rondins sur la rivi?re" />
+      <row iso_code="it" string_name="subchapter_386_name" text="Teste di legno alla deriva" />
+      <row iso_code="pl" string_name="subchapter_386_name" text="K?ody na rzece" />
+      <row iso_code="ru" string_name="subchapter_386_name" text="??????? ? ????" />
+      <row iso_code="tr" string_name="subchapter_386_name" text="Nehirdeki K?t?kler" />
+      <row iso_code="zh-CH" string_name="subchapter_386_name" text="????" />
+      <row iso_code="" string_name="subchapter_386_name" text="?palky na ?ece" />
+      <row iso_code="" string_name="subchapter_386_name" text="Chumps on the River" />
+      <row iso_code="cs" string_name="subchapter_387_name" text="Slav?ci" />
+      <row iso_code="de" string_name="subchapter_387_name" text="Der Ruf der Nachtigallen" />
+      <row iso_code="en" string_name="subchapter_387_name" text="A Bird in the Hand..." />
+      <row iso_code="es" string_name="subchapter_387_name" text="M?s vale p?jaro en mano..." />
+      <row iso_code="fr" string_name="subchapter_387_name" text="Le chant du rossignol" />
+      <row iso_code="it" string_name="subchapter_387_name" text="Uccel di bosco..." />
+      <row iso_code="pl" string_name="subchapter_387_name" text="Ptaszek w gar?ci?" />
+      <row iso_code="ru" string_name="subchapter_387_name" text="??????-??????????" />
+      <row iso_code="tr" string_name="subchapter_387_name" text="P?rp?r Ederken..." />
+      <row iso_code="zh-CH" string_name="subchapter_387_name" text="??????" />
+      <row iso_code="" string_name="subchapter_387_name" text="Slav?ci" />
+      <row iso_code="" string_name="subchapter_387_name" text="Nightingales" />
+      <row iso_code="cs" string_name="subchapter_391_name" text="Plevel" />
+      <row iso_code="de" string_name="subchapter_391_name" text="Unkraut" />
+      <row iso_code="en" string_name="subchapter_391_name" text="Weeds" />
+      <row iso_code="es" string_name="subchapter_391_name" text="Desbroce" />
+      <row iso_code="fr" string_name="subchapter_391_name" text="Mauvaises herbes" />
+      <row iso_code="it" string_name="subchapter_391_name" text="Erbacce" />
+      <row iso_code="pl" string_name="subchapter_391_name" text="Chwasty" />
+      <row iso_code="ru" string_name="subchapter_391_name" text="??????" />
+      <row iso_code="tr" string_name="subchapter_391_name" text="Yabani Otlar" />
+      <row iso_code="zh-CH" string_name="subchapter_391_name" text="????" />
+      <row iso_code="" string_name="subchapter_391_name" text="Weeds" />
+      <row iso_code="" string_name="subchapter_391_name" text="Plevel" />
+      <row iso_code="cs" string_name="subchapter_392_name" text="Nov? herb??" />
+      <row iso_code="de" string_name="subchapter_392_name" text="Das neue Herbarium" />
+      <row iso_code="en" string_name="subchapter_392_name" text="New Herbarium" />
+      <row iso_code="es" string_name="subchapter_392_name" text="Nuevo herbario" />
+      <row iso_code="fr" string_name="subchapter_392_name" text="Un nouvel herbier" />
+      <row iso_code="it" string_name="subchapter_392_name" text="Il nuovo erbario" />
+      <row iso_code="pl" string_name="subchapter_392_name" text="Nowy Herbarz" />
+      <row iso_code="ru" string_name="subchapter_392_name" text="????? ????????" />
+      <row iso_code="tr" string_name="subchapter_392_name" text="Yeni Bitki Katalo?u" />
+      <row iso_code="zh-CH" string_name="subchapter_392_name" text="????" />
+      <row iso_code="" string_name="subchapter_392_name" text="Nov? herb??" />
+      <row iso_code="" string_name="subchapter_392_name" text="New herbarium" />
+      <row iso_code="cs" string_name="subchapter_393_name" text="Masakr" />
+      <row iso_code="de" string_name="subchapter_393_name" text="M?ge die Jagd beginnen" />
+      <row iso_code="en" string_name="subchapter_393_name" text="The Hunt Begins" />
+      <row iso_code="es" string_name="subchapter_393_name" text="Comienza la cacer?a" />
+      <row iso_code="fr" string_name="subchapter_393_name" text="La chasse est ouverte" />
+      <row iso_code="it" string_name="subchapter_393_name" text="La caccia ha inizio" />
+      <row iso_code="pl" string_name="subchapter_393_name" text="Pogo? si? zacz??a" />
+      <row iso_code="ru" string_name="subchapter_393_name" text="????? ??????????" />
+      <row iso_code="tr" string_name="subchapter_393_name" text="Av Ba?lar" />
+      <row iso_code="zh-CH" string_name="subchapter_393_name" text="????" />
+      <row iso_code="" string_name="subchapter_393_name" text="Masakr" />
+      <row iso_code="" string_name="subchapter_393_name" text="The Hunt Begins" />
+      <row iso_code="cs" string_name="subchapter_395_name" text="Zrzek v brynd?" />
+      <row iso_code="de" string_name="subchapter_395_name" text="Rotschopf in der Klemme" />
+      <row iso_code="en" string_name="subchapter_395_name" text="Ginger in a Pickle" />
+      <row iso_code="es" string_name="subchapter_395_name" text="Panocha en un berenjenal" />
+      <row iso_code="fr" string_name="subchapter_395_name" text="Rouquin dans le p?trin" />
+      <row iso_code="it" string_name="subchapter_395_name" text="Ginger rosso sangue" />
+      <row iso_code="pl" string_name="subchapter_395_name" text="Rudzielec w tarapatach" />
+      <row iso_code="ru" string_name="subchapter_395_name" text="????? ????? ???? ?????" />
+      <row iso_code="tr" string_name="subchapter_395_name" text="K?z?l K?yamet" />
+      <row iso_code="zh-CH" string_name="subchapter_395_name" text="????" />
+      <row iso_code="" string_name="subchapter_395_name" text="Ginger in a Pickle" />
+      <row iso_code="" string_name="subchapter_395_name" text="Zrzek v brynd?" />
+      <row iso_code="cs" string_name="subchapter_396_name" text="Cesty P?n?" />
+      <row iso_code="de" string_name="subchapter_396_name" text="Die Wege des Herrn" />
+      <row iso_code="en" string_name="subchapter_396_name" text="Mysterious Ways" />
+      <row iso_code="es" string_name="subchapter_396_name" text="Designios inescrutables" />
+      <row iso_code="fr" string_name="subchapter_396_name" text="Les voies imp?n?trables" />
+      <row iso_code="it" string_name="subchapter_396_name" text="Le vie del Signore" />
+      <row iso_code="pl" string_name="subchapter_396_name" text="Tajemnicze drogi" />
+      <row iso_code="ru" string_name="subchapter_396_name" text="????????????? ????" />
+      <row iso_code="tr" string_name="subchapter_396_name" text="Gizemli Yollar" />
+      <row iso_code="zh-CH" string_name="subchapter_396_name" text="????" />
+      <row iso_code="" string_name="subchapter_396_name" text="Cesty P?n?" />
+      <row iso_code="" string_name="subchapter_396_name" text="Mysterious Ways" />
+      <row iso_code="cs" string_name="subchapter_397_name" text="Na stop?" />
+      <row iso_code="de" string_name="subchapter_397_name" text="Auf der F?hrte" />
+      <row iso_code="en" string_name="subchapter_397_name" text="On the Scent" />
+      <row iso_code="es" string_name="subchapter_397_name" text="En el rastro" />
+      <row iso_code="fr" string_name="subchapter_397_name" text="Sur la piste" />
+      <row iso_code="it" string_name="subchapter_397_name" text="Scia di fetore" />
+      <row iso_code="pl" string_name="subchapter_397_name" text="Na tropie" />
+      <row iso_code="ru" string_name="subchapter_397_name" text="?? ?????" />
+      <row iso_code="tr" string_name="subchapter_397_name" text="Kokunun Pe?inde" />
+      <row iso_code="zh-CH" string_name="subchapter_397_name" text="????" />
+      <row iso_code="" string_name="subchapter_397_name" text="Na stop?" />
+      <row iso_code="" string_name="subchapter_397_name" text="On the scent" />
+      <row iso_code="cs" string_name="subchapter_398_name" text="M?j kamar?d P??a" />
+      <row iso_code="de" string_name="subchapter_398_name" text="Mein Freund Timmy" />
+      <row iso_code="en" string_name="subchapter_398_name" text="My Friend Timmy" />
+      <row iso_code="es" string_name="subchapter_398_name" text="Mi amigo Timmy" />
+      <row iso_code="fr" string_name="subchapter_398_name" text="Mon ami Timmy" />
+      <row iso_code="it" string_name="subchapter_398_name" text="Il mio amico Timmy" />
+      <row iso_code="pl" string_name="subchapter_398_name" text="M?j kole?ka Tymek" />
+      <row iso_code="ru" string_name="subchapter_398_name" text="??? ???????? ????" />
+      <row iso_code="tr" string_name="subchapter_398_name" text="Arkada??m Timmy" />
+      <row iso_code="zh-CH" string_name="subchapter_398_name" text="????" />
+      <row iso_code="" string_name="subchapter_398_name" text="M?j Kamar?d P??a" />
+      <row iso_code="" string_name="subchapter_398_name" text="My Friend Timmy" />
+      <row iso_code="cs" string_name="subchapter_400_name" text="K?est ohn?m" />
+      <row iso_code="de" string_name="subchapter_400_name" text="Feuertaufe" />
+      <row iso_code="en" string_name="subchapter_400_name" text="Baptism of Fire" />
+      <row iso_code="es" string_name="subchapter_400_name" text="Bautismo de fuego" />
+      <row iso_code="fr" string_name="subchapter_400_name" text="Le bapt?me du feu" />
+      <row iso_code="it" string_name="subchapter_400_name" text="Battesimo del fuoco" />
+      <row iso_code="pl" string_name="subchapter_400_name" text="Pr?ba ognia" />
+      <row iso_code="ru" string_name="subchapter_400_name" text="???????? ?????" />
+      <row iso_code="tr" string_name="subchapter_400_name" text="?lk S?nanma" />
+      <row iso_code="zh-CH" string_name="subchapter_400_name" text="????" />
+      <row iso_code="" string_name="subchapter_400_name" text="K?est ohn?m" />
+      <row iso_code="" string_name="subchapter_400_name" text="Trial By Fire" />
+      <row iso_code="cs" string_name="subchapter_402_name" text="Doup? zmij?" />
+      <row iso_code="de" string_name="subchapter_402_name" text="Schlangennest" />
+      <row iso_code="en" string_name="subchapter_402_name" text="Nest of Vipers" />
+      <row iso_code="es" string_name="subchapter_402_name" text="Nido de v?boras" />
+      <row iso_code="fr" string_name="subchapter_402_name" text="Un nid de vip?res" />
+      <row iso_code="it" string_name="subchapter_402_name" text="Nido di vipere" />
+      <row iso_code="pl" string_name="subchapter_402_name" text="Gniazdo ?mij" />
+      <row iso_code="ru" string_name="subchapter_402_name" text="??????? ??????" />
+      <row iso_code="tr" string_name="subchapter_402_name" text="Y?lanlar?n Yuvas?" />
+      <row iso_code="zh-CH" string_name="subchapter_402_name" text="????" />
+      <row iso_code="" string_name="subchapter_402_name" text="Nest of vipers" />
+      <row iso_code="" string_name="subchapter_402_name" text="Doup? zmij?" />
+      <row iso_code="cs" string_name="subchapter_403_name" text="Mor v Mrchojedech" />
+      <row iso_code="de" string_name="subchapter_403_name" text="Die Seuche" />
+      <row iso_code="en" string_name="subchapter_403_name" text="Pestilence" />
+      <row iso_code="es" string_name="subchapter_403_name" text="Pestilencia" />
+      <row iso_code="fr" string_name="subchapter_403_name" text="Le fl?au" />
+      <row iso_code="it" string_name="subchapter_403_name" text="Pestilenza" />
+      <row iso_code="pl" string_name="subchapter_403_name" text="Zaraza" />
+      <row iso_code="ru" string_name="subchapter_403_name" text="???" />
+      <row iso_code="tr" string_name="subchapter_403_name" text="Veba" />
+      <row iso_code="zh-CH" string_name="subchapter_403_name" text="????" />
+      <row iso_code="" string_name="subchapter_403_name" text="Mor v Mrchojedech" />
+      <row iso_code="" string_name="subchapter_403_name" text="Pestilence" />
+      <row iso_code="cs" string_name="subchapter_404_name" text="P?tr?n? po verb???ch" />
+      <row iso_code="de" string_name="subchapter_404_name" text="Unter Feinden" />
+      <row iso_code="en" string_name="subchapter_404_name" text="If You Can't Beat 'em" />
+      <row iso_code="es" string_name="subchapter_404_name" text="Si no puedes con ellos" />
+      <row iso_code="fr" string_name="subchapter_404_name" text="En qu?te des rabatteurs" />
+      <row iso_code="it" string_name="subchapter_404_name" text="Se non puoi batterli" />
+      <row iso_code="pl" string_name="subchapter_404_name" text="Je?li nie si?? pi??ci" />
+      <row iso_code="ru" string_name="subchapter_404_name" text="???? ??? ???? ?? ?? ?????." />
+      <row iso_code="tr" string_name="subchapter_404_name" text="E?er Onlar? Yenemezsen" />
+      <row iso_code="zh-CH" string_name="subchapter_404_name" text="????" />
+      <row iso_code="" string_name="subchapter_404_name" text="P?tr?n? po verb???ch" />
+      <row iso_code="" string_name="subchapter_404_name" text="On the trail of the crimps." />
+      <row iso_code="cs" string_name="subchapter_406_name" text="Nen? v?echno st??bro, co se t?pyt?" />
+      <row iso_code="de" string_name="subchapter_406_name" text="Alles, was glitzert" />
+      <row iso_code="en" string_name="subchapter_406_name" text="All that Glisters" />
+      <row iso_code="es" string_name="subchapter_406_name" text="Todo lo que reluce" />
+      <row iso_code="fr" string_name="subchapter_406_name" text="Tout ce qui brille" />
+      <row iso_code="it" string_name="subchapter_406_name" text="Quel che luccica" />
+      <row iso_code="pl" string_name="subchapter_406_name" text="Nie wszystko z?oto" />
+      <row iso_code="ru" string_name="subchapter_406_name" text="??? ??, ??? ???????." />
+      <row iso_code="tr" string_name="subchapter_406_name" text="P?r?ldayan Her ?ey" />
+      <row iso_code="zh-CH" string_name="subchapter_406_name" text="????" />
+      <row iso_code="" string_name="subchapter_406_name" text="Nen? v?echno st??bro, co se t?pyt?" />
+      <row iso_code="" string_name="subchapter_406_name" text="All that Glisters" />
+      <row iso_code="cs" string_name="subchapter_407_name" text="V zahrad? rajsk?" />
+      <row iso_code="de" string_name="subchapter_407_name" text="T?glich gr??t das Klosterleben" />
+      <row iso_code="en" string_name="subchapter_407_name" text="In the Cloister" />
+      <row iso_code="es" string_name="subchapter_407_name" text="En el claustro" />
+      <row iso_code="fr" string_name="subchapter_407_name" text="Une vie clo?tr?e" />
+      <row iso_code="it" string_name="subchapter_407_name" text="Vita nel chiostro" />
+      <row iso_code="pl" string_name="subchapter_407_name" text="W klauzurze" />
+      <row iso_code="ru" string_name="subchapter_407_name" text="? ?????????" />
+      <row iso_code="tr" string_name="subchapter_407_name" text="Manast?ra Kapanmak" />
+      <row iso_code="zh-CH" string_name="subchapter_407_name" text="????" />
+      <row iso_code="" string_name="subchapter_407_name" text="In The Garden of Eden" />
+      <row iso_code="" string_name="subchapter_407_name" text="V zahrad? rajsk?" />
+      <row iso_code="cs" string_name="subchapter_410_name" text="Prostop??n? mni?i" />
+      <row iso_code="de" string_name="subchapter_410_name" text="N?chtliche Gelage" />
+      <row iso_code="en" string_name="subchapter_410_name" text="Nasty Habits" />
+      <row iso_code="es" string_name="subchapter_410_name" text="Malos h?bitos" />
+      <row iso_code="fr" string_name="subchapter_410_name" text="Mauvaises manies" />
+      <row iso_code="it" string_name="subchapter_410_name" text="Pessime abitudini" />
+      <row iso_code="pl" string_name="subchapter_410_name" text="Z?e nawyki" />
+      <row iso_code="ru" string_name="subchapter_410_name" text="?????? ????????" />
+      <row iso_code="tr" string_name="subchapter_410_name" text="K?t? Huylar" />
+      <row iso_code="zh-CH" string_name="subchapter_410_name" text="????" />
+      <row iso_code="" string_name="subchapter_410_name" text="Nasty Habits" />
+      <row iso_code="" string_name="subchapter_410_name" text="Prostop??n? mni?i" />
+      <row iso_code="cs" string_name="subchapter_412_name" text="Z bl?ta do lou?e" />
+      <row iso_code="de" string_name="subchapter_412_name" text="Vom Regen in die Traufe" />
+      <row iso_code="en" string_name="subchapter_412_name" text="Out of the Frying Pan" />
+      <row iso_code="es" string_name="subchapter_412_name" text="De la sart?n" />
+      <row iso_code="fr" string_name="subchapter_412_name" text="De Charybde en Scylla" />
+      <row iso_code="it" string_name="subchapter_412_name" text="Tra incudine e martello" />
+      <row iso_code="pl" string_name="subchapter_412_name" text="Z deszczu pod rynn?" />
+      <row iso_code="ru" string_name="subchapter_412_name" text="?? ??????????? ?????????" />
+      <row iso_code="tr" string_name="subchapter_412_name" text="Ya?murdan Ka?arken" />
+      <row iso_code="zh-CH" string_name="subchapter_412_name" text="????" />
+      <row iso_code="" string_name="subchapter_412_name" text="Out of the Frying Pan" />
+      <row iso_code="" string_name="subchapter_412_name" text="Z bl?ta do lou?e" />
+      <row iso_code="cs" string_name="subchapter_413_name" text="Obl?h?n?" />
+      <row iso_code="de" string_name="subchapter_413_name" text="Belagerung" />
+      <row iso_code="en" string_name="subchapter_413_name" text="Siege" />
+      <row iso_code="es" string_name="subchapter_413_name" text="Asedio" />
+      <row iso_code="fr" string_name="subchapter_413_name" text="Le si?ge" />
+      <row iso_code="it" string_name="subchapter_413_name" text="Assedio" />
+      <row iso_code="pl" string_name="subchapter_413_name" text="Obl??enie" />
+      <row iso_code="ru" string_name="subchapter_413_name" text="?????" />
+      <row iso_code="tr" string_name="subchapter_413_name" text="Ku?atma" />
+      <row iso_code="zh-CH" string_name="subchapter_413_name" text="????" />
+      <row iso_code="" string_name="subchapter_413_name" text="Siege" />
+      <row iso_code="" string_name="subchapter_413_name" text="Obl?h?n?" />
+      <row iso_code="cs" string_name="subchapter_414_name" text="Raket?r" />
+      <row iso_code="de" string_name="subchapter_414_name" text="Genie und Wahnsinn" />
+      <row iso_code="en" string_name="subchapter_414_name" text="Rocketeer" />
+      <row iso_code="es" string_name="subchapter_414_name" text="Cohetero" />
+      <row iso_code="fr" string_name="subchapter_414_name" text="Le lance-pierres" />
+      <row iso_code="it" string_name="subchapter_414_name" text="Arsenale pesante" />
+      <row iso_code="pl" string_name="subchapter_414_name" text="Rakietowiec" />
+      <row iso_code="ru" string_name="subchapter_414_name" text="????????" />
+      <row iso_code="tr" string_name="subchapter_414_name" text="F?ze Uzman?" />
+      <row iso_code="zh-CH" string_name="subchapter_414_name" text="????" />
+      <row iso_code="" string_name="subchapter_414_name" text="Raket?r" />
+      <row iso_code="" string_name="subchapter_414_name" text="Rocketeer" />
+      <row iso_code="cs" string_name="subchapter_415_name" text="Den pln? p?ekvapen?" />
+      <row iso_code="de" string_name="subchapter_415_name" text="Kalter Stahl und hitzige Gem?ter" />
+      <row iso_code="en" string_name="subchapter_415_name" text="Cold Steel, Hot Blood" />
+      <row iso_code="es" string_name="subchapter_415_name" text="Fr?o acero, sangre caliente" />
+      <row iso_code="fr" string_name="subchapter_415_name" text="Les renforts d'Istvan" />
+      <row iso_code="it" string_name="subchapter_415_name" text="Gelido acciaio, sangue rovente" />
+      <row iso_code="pl" string_name="subchapter_415_name" text="Ch?odne ostrze, gor?ca krew" />
+      <row iso_code="ru" string_name="subchapter_415_name" text="????????????" />
+      <row iso_code="tr" string_name="subchapter_415_name" text="So?uk ?elik, S?cak Kan" />
+      <row iso_code="zh-CH" string_name="subchapter_415_name" text="????" />
+      <row iso_code="" string_name="subchapter_415_name" text="A Day Full of Surprises" />
+      <row iso_code="" string_name="subchapter_415_name" text="Den pln? p?ekvapen?" />
+      <row iso_code="cs" string_name="subchapter_416_name" text="Rodina je z?klad" />
+      <row iso_code="de" string_name="subchapter_416_name" text="Familienbande" />
+      <row iso_code="en" string_name="subchapter_416_name" text="Family Values" />
+      <row iso_code="es" string_name="subchapter_416_name" text="Valores familiares" />
+      <row iso_code="fr" string_name="subchapter_416_name" text="Valeurs familiales" />
+      <row iso_code="it" string_name="subchapter_416_name" text="Valori di famiglia" />
+      <row iso_code="pl" string_name="subchapter_416_name" text="Rodzinne warto?ci" />
+      <row iso_code="ru" string_name="subchapter_416_name" text="???????." />
+      <row iso_code="tr" string_name="subchapter_416_name" text="Aile De?erleri" />
+      <row iso_code="zh-CH" string_name="subchapter_416_name" text="????" />
+      <row iso_code="" string_name="subchapter_416_name" text="Rodina je z?klad" />
+      <row iso_code="" string_name="subchapter_416_name" text="Family Values" />
+      <row iso_code="cs" string_name="subchapter_417_name" text="Slovo je slovo" />
+      <row iso_code="de" string_name="subchapter_417_name" text="Ehrenwort" />
+      <row iso_code="en" string_name="subchapter_417_name" text="An Oath is an Oath" />
+      <row iso_code="es" string_name="subchapter_417_name" text="Un juramento es un juramento." />
+      <row iso_code="fr" string_name="subchapter_417_name" text="Une promesse est une promesse" />
+      <row iso_code="it" string_name="subchapter_417_name" text="La sacralit? di un giuramento" />
+      <row iso_code="pl" string_name="subchapter_417_name" text="S?owo honoru" />
+      <row iso_code="ru" string_name="subchapter_417_name" text="????? ???? ???????" />
+      <row iso_code="tr" string_name="subchapter_417_name" text="Yemin Yemindir" />
+      <row iso_code="zh-CH" string_name="subchapter_417_name" text="????" />
+      <row iso_code="" string_name="subchapter_417_name" text="An Oath is an Oath" />
+      <row iso_code="" string_name="subchapter_417_name" text="Slovo je slovo" />
+      <row iso_code="cs" string_name="subchapter_418_name" text="Protiofenz?va" />
+      <row iso_code="de" string_name="subchapter_418_name" text="Rache" />
+      <row iso_code="en" string_name="subchapter_418_name" text="Payback" />
+      <row iso_code="es" string_name="subchapter_418_name" text="Ajuste de cuentas" />
+      <row iso_code="fr" string_name="subchapter_418_name" text="Riposte" />
+      <row iso_code="it" string_name="subchapter_418_name" text="Rivincita" />
+      <row iso_code="pl" string_name="subchapter_418_name" text="Odwet" />
+      <row iso_code="ru" string_name="subchapter_418_name" text="??????????." />
+      <row iso_code="tr" string_name="subchapter_418_name" text="Geri ?deme" />
+      <row iso_code="zh-CH" string_name="subchapter_418_name" text="????" />
+      <row iso_code="" string_name="subchapter_418_name" text="Counter-attack" />
+      <row iso_code="" string_name="subchapter_418_name" text="Protiofenz?va" />
+      <row iso_code="cs" string_name="subchapter_424_name" text="Poklad v kl??te?e" />
+      <row iso_code="de" string_name="subchapter_424_name" text="Weltliche G?ter" />
+      <row iso_code="en" string_name="subchapter_424_name" text="Worldly Goods" />
+      <row iso_code="es" string_name="subchapter_424_name" text="Bienes mundanos" />
+      <row iso_code="fr" string_name="subchapter_424_name" text="Biens mat?riels" />
+      <row iso_code="it" string_name="subchapter_424_name" text="Ricchezze terrene" />
+      <row iso_code="pl" string_name="subchapter_424_name" text="Dobra Doczesne" />
+      <row iso_code="ru" string_name="subchapter_424_name" text="?????? ?????" />
+      <row iso_code="tr" string_name="subchapter_424_name" text="D?nyevi mallar" />
+      <row iso_code="zh-CH" string_name="subchapter_424_name" text="????" />
+      <row iso_code="" string_name="subchapter_424_name" text="Treasure in the monastery" />
+      <row iso_code="" string_name="subchapter_424_name" text="Poklad v kl??te?e" />
+      <row iso_code="cs" string_name="subchapter_428_name" text="Chudoba, ?istota a poslu?nost" />
+      <row iso_code="de" string_name="subchapter_428_name" text="Pfad der Erleuchtung" />
+      <row iso_code="en" string_name="subchapter_428_name" text="Poverty, Chastity and Obedience" />
+      <row iso_code="es" string_name="subchapter_428_name" text="Pobreza, castidad y obediencia" />
+      <row iso_code="fr" string_name="subchapter_428_name" text="Pauvret?, chastet? et ob?issance" />
+      <row iso_code="it" string_name="subchapter_428_name" text="Povert?, castit? e obbedienza" />
+      <row iso_code="pl" string_name="subchapter_428_name" text="Ub?stwo, czysto?? i pos?usze?stwo" />
+      <row iso_code="ru" string_name="subchapter_428_name" text="????????, ?????????? ? ??????????." />
+      <row iso_code="tr" string_name="subchapter_428_name" text="Yoksulluk, ?ffet ve ?taat" />
+      <row iso_code="zh-CH" string_name="subchapter_428_name" text="????" />
+      <row iso_code="" string_name="subchapter_428_name" text="Chudoba, ?istota a poslu?nost" />
+      <row iso_code="" string_name="subchapter_428_name" text="Poverty, Chastity and Obedience" />
+      <row iso_code="cs" string_name="subchapter_429_name" text="Libri prohibiti" />
+      <row iso_code="de" string_name="subchapter_429_name" text="Libri Prohibiti" />
+      <row iso_code="en" string_name="subchapter_429_name" text="Libri Prohibiti" />
+      <row iso_code="es" string_name="subchapter_429_name" text="Libri Prohibiti" />
+      <row iso_code="fr" string_name="subchapter_429_name" text="Libri Prohibiti" />
+      <row iso_code="it" string_name="subchapter_429_name" text="Libri prohibiti" />
+      <row iso_code="pl" string_name="subchapter_429_name" text="Ksi?gi zakazane" />
+      <row iso_code="ru" string_name="subchapter_429_name" text="Libri Prohibiti" />
+      <row iso_code="tr" string_name="subchapter_429_name" text="Libri Prohibiti" />
+      <row iso_code="zh-CH" string_name="subchapter_429_name" text="????" />
+      <row iso_code="" string_name="subchapter_429_name" text="Libri prohibiti" />
+      <row iso_code="" string_name="subchapter_429_name" text="Libri prohibiti" />
+      <row iso_code="cs" string_name="subchapter_440_name" text="Kostka je vr?ena" />
+      <row iso_code="de" string_name="subchapter_440_name" text="Die W?rfel sind gefallen" />
+      <row iso_code="en" string_name="subchapter_440_name" text="The Die is Cast" />
+      <row iso_code="es" string_name="subchapter_440_name" text="Los dados se han lanzado" />
+      <row iso_code="fr" string_name="subchapter_440_name" text="Les d?s sont jet?s" />
+      <row iso_code="it" string_name="subchapter_440_name" text="Il dado ? tratto" />
+      <row iso_code="pl" string_name="subchapter_440_name" text="Ko?ci zosta?y rzucone" />
+      <row iso_code="ru" string_name="subchapter_440_name" text="?????? ??????" />
+      <row iso_code="tr" string_name="subchapter_440_name" text="Zarlar At?ld?" />
+      <row iso_code="zh-CH" string_name="subchapter_440_name" text="????" />
+      <row iso_code="" string_name="subchapter_440_name" text="Kostka je vr?ena" />
+      <row iso_code="" string_name="subchapter_440_name" text="The Die is cast" />
+      <row iso_code="cs" string_name="subchapter_441_name" text="M?t tak d?v?e, jako je Tereza..." />
+      <row iso_code="de" string_name="subchapter_441_name" text="Liebeswerben" />
+      <row iso_code="en" string_name="subchapter_441_name" text="Courtship" />
+      <row iso_code="es" string_name="subchapter_441_name" text="Cortejo" />
+      <row iso_code="fr" string_name="subchapter_441_name" text="Un brin de cour" />
+      <row iso_code="it" string_name="subchapter_441_name" text="Rituali di corteggiamento" />
+      <row iso_code="pl" string_name="subchapter_441_name" text="Zaloty" />
+      <row iso_code="ru" string_name="subchapter_441_name" text="??????" />
+      <row iso_code="tr" string_name="subchapter_441_name" text="Fl?rtle?me" />
+      <row iso_code="zh-CH" string_name="subchapter_441_name" text="????" />
+      <row iso_code="" string_name="subchapter_441_name" text="If only I could have a girl like Theresa?" />
+      <row iso_code="" string_name="subchapter_441_name" text="M?t tak d?v?e jako je Tereza..." />
+      <row iso_code="cs" string_name="subchapter_442_name" text="Jehla v kupce sena" />
+      <row iso_code="de" string_name="subchapter_442_name" text="Die Nadel im Heuhaufen" />
+      <row iso_code="en" string_name="subchapter_442_name" text="A Needle in a Haystack" />
+      <row iso_code="es" string_name="subchapter_442_name" text="Una aguja en un pajar" />
+      <row iso_code="fr" string_name="subchapter_442_name" text="Une aiguille dans une botte de foin" />
+      <row iso_code="it" string_name="subchapter_442_name" text="Un ago nel pagliaio" />
+      <row iso_code="pl" string_name="subchapter_442_name" text="Ig?a w stogu siana" />
+      <row iso_code="ru" string_name="subchapter_442_name" text="?????? ? ????? ????" />
+      <row iso_code="tr" string_name="subchapter_442_name" text="Samanl?kta ??ne" />
+      <row iso_code="zh-CH" string_name="subchapter_442_name" text="????" />
+      <row iso_code="" string_name="subchapter_442_name" text="A Needle In A Haystack" />
+      <row iso_code="" string_name="subchapter_442_name" text="Jehla v kupce sena" />
+      <row iso_code="de" string_name="subchapter_452_name" text="Verlorenes Schwert" />
+      <row iso_code="en" string_name="subchapter_452_name" text="Lost sword" />
+      <row iso_code="fr" string_name="subchapter_452_name" text="Une ?p?e perdue" />
+      <row iso_code="pl" string_name="subchapter_452_name" text="Zaginiony miecz" />
+      <row iso_code="ru" string_name="subchapter_452_name" text="?????????? ???" />
+      <row iso_code="zh-CH" string_name="subchapter_452_name" text="????" />
+      <row iso_code="" string_name="subchapter_452_name" text="Lost sword" />
+      <row iso_code="" string_name="subchapter_452_name" text="Ztracen? me?" />
+      <row iso_code="de" string_name="subchapter_453_name" text="Altes Schwert" />
+      <row iso_code="en" string_name="subchapter_453_name" text="Old sword" />
+      <row iso_code="fr" string_name="subchapter_453_name" text="Une vieille ?p?e" />
+      <row iso_code="pl" string_name="subchapter_453_name" text="Stary miecz" />
+      <row iso_code="ru" string_name="subchapter_453_name" text="????????? ???" />
+      <row iso_code="zh-CH" string_name="subchapter_453_name" text="??" />
+      <row iso_code="" string_name="subchapter_453_name" text="Old sword" />
+      <row iso_code="" string_name="subchapter_453_name" text="NALEZEN? ME?" />
+      <row iso_code="cs" string_name="subchapter_454_name" text="?ofiina svatba" />
+      <row iso_code="de" string_name="subchapter_454_name" text="Zu Diensten, meine Herrin" />
+      <row iso_code="en" string_name="subchapter_454_name" text="At Your Service, My Lady" />
+      <row iso_code="es" string_name="subchapter_454_name" text="A vuestro servicio, mi se?ora" />
+      <row iso_code="fr" string_name="subchapter_454_name" text="? votre service, Gente Dame" />
+      <row iso_code="it" string_name="subchapter_454_name" text="Al vostro servizio, mia signora" />
+      <row iso_code="pl" string_name="subchapter_454_name" text="Do twych us?ug, pani" />
+      <row iso_code="ru" string_name="subchapter_454_name" text="? ????? ???????, ????" />
+      <row iso_code="tr" string_name="subchapter_454_name" text="Hizmetinizdeyim, Leydim" />
+      <row iso_code="zh-CH" string_name="subchapter_454_name" text="????" />
+      <row iso_code="" string_name="subchapter_454_name" text="Sophie's wedding." />
+      <row iso_code="" string_name="subchapter_454_name" text="?ofiina svatba" />
+      <row iso_code="cs" string_name="subchapter_458_name" text="U?en? z nebe nespadl" />
+      <row iso_code="de" string_name="subchapter_458_name" text="M?chtiger als das Schwert" />
+      <row iso_code="en" string_name="subchapter_458_name" text="Mightier than the Sword" />
+      <row iso_code="es" string_name="subchapter_458_name" text="M?s poderoso que la espada" />
+      <row iso_code="fr" string_name="subchapter_458_name" text="Plus forte que l'?p?e" />
+      <row iso_code="it" string_name="subchapter_458_name" text="La penna e la spada" />
+      <row iso_code="pl" string_name="subchapter_458_name" text="Pot??niejsze ni? miecz" />
+      <row iso_code="ru" string_name="subchapter_458_name" text="??????? ????? ? ????? ?? ??????????." />
+      <row iso_code="tr" string_name="subchapter_458_name" text="K?l??tan Keskin" />
+      <row iso_code="zh-CH" string_name="subchapter_458_name" text="????" />
+      <row iso_code="" string_name="subchapter_458_name" text="There is no royal road to learning" />
+      <row iso_code="" string_name="subchapter_458_name" text="U?en? z nebe nespadl" />
+      <row iso_code="de" string_name="subchapter_460_name" text="Verlorene Schafe" />
+      <row iso_code="en" string_name="subchapter_460_name" text="Lost sheep" />
+      <row iso_code="fr" string_name="subchapter_460_name" text="Une brebis ?gar?e" />
+      <row iso_code="pl" string_name="subchapter_460_name" text="Zb??kana owca." />
+      <row iso_code="ru" string_name="subchapter_460_name" text="?????????? ????" />
+      <row iso_code="zh-CH" string_name="subchapter_460_name" text="????" />
+      <row iso_code="" string_name="subchapter_460_name" text="Lost sheep" />
+      <row iso_code="" string_name="subchapter_460_name" text="Zatoulan? ovce" />
+      <row iso_code="de" string_name="subchapter_461_name" text="DIE FL?TE DES SCHMIEDS" />
+      <row iso_code="en" string_name="subchapter_461_name" text="BLACKSMITH FLUTE" />
+      <row iso_code="fr" string_name="subchapter_461_name" text="LA FL?TE DU FORGERON" />
+      <row iso_code="pl" string_name="subchapter_461_name" text="FLET KOWALA" />
+      <row iso_code="ru" string_name="subchapter_461_name" text="?????? ? ???????" />
+      <row iso_code="zh-CH" string_name="subchapter_461_name" text="?????" />
+      <row iso_code="" string_name="subchapter_461_name" text="Kov??ova p???alka" />
+      <row iso_code="" string_name="subchapter_461_name" text="BLACKSMITH FLUTE" />
+      <row iso_code="cs" string_name="subchapter_471_name" text="Do st?ehu!" />
+      <row iso_code="de" string_name="subchapter_471_name" text="Auf der Hut!" />
+      <row iso_code="en" string_name="subchapter_471_name" text="On guard!" />
+      <row iso_code="fr" string_name="subchapter_471_name" text="En garde!" />
+      <row iso_code="pl" string_name="subchapter_471_name" text="Na stra?y!" />
+      <row iso_code="" string_name="subchapter_471_name" text="On guard!" />
+      <row iso_code="" string_name="subchapter_471_name" text="Do st?ehu!" />
+      <row iso_code="cs" string_name="subchapter_473_name" text="Bitva kov???" />
+      <row iso_code="de" string_name="subchapter_473_name" text="S?belrasseln" />
+      <row iso_code="en" string_name="subchapter_473_name" text="Rattled" />
+      <row iso_code="es" string_name="subchapter_473_name" text="Desaire" />
+      <row iso_code="fr" string_name="subchapter_473_name" text="Duel de forgerons" />
+      <row iso_code="it" string_name="subchapter_473_name" text="Ferro e fuoco" />
+      <row iso_code="pl" string_name="subchapter_473_name" text="?oskot" />
+      <row iso_code="ru" string_name="subchapter_473_name" text="????? ????????" />
+      <row iso_code="tr" string_name="subchapter_473_name" text="Tak?rdayan" />
+      <row iso_code="zh-CH" string_name="subchapter_473_name" text="????" />
+      <row iso_code="" string_name="subchapter_473_name" text="Battling blacksmiths" />
+      <row iso_code="" string_name="subchapter_473_name" text="Bitva kov???" />
+      <row iso_code="cs" string_name="subchapter_478_name" text="Kus svat?ho" />
+      <row iso_code="de" string_name="subchapter_478_name" text="Ein St?ck Heiligkeit" />
+      <row iso_code="en" string_name="subchapter_478_name" text="Saintly Remains" />
+      <row iso_code="es" string_name="subchapter_478_name" text="Reliquias sagradas" />
+      <row iso_code="fr" string_name="subchapter_478_name" text="Saintes reliques" />
+      <row iso_code="it" string_name="subchapter_478_name" text="Stinco di santo" />
+      <row iso_code="pl" string_name="subchapter_478_name" text="Relikwie" />
+      <row iso_code="ru" string_name="subchapter_478_name" text="?????? ????" />
+      <row iso_code="tr" string_name="subchapter_478_name" text="Kutsal Kemikler" />
+      <row iso_code="zh-CH" string_name="subchapter_478_name" text="????" />
+      <row iso_code="" string_name="subchapter_478_name" text="Piece of a Saint" />
+      <row iso_code="" string_name="subchapter_478_name" text="Kus svat?ho" />
+      <row iso_code="cs" string_name="subchapter_480_name" text="T??ko na cvi?i?ti?" />
+      <row iso_code="de" string_name="subchapter_480_name" text="Ohne Flei? kein Preis" />
+      <row iso_code="en" string_name="subchapter_480_name" text="Train Hard, Fight Easy" />
+      <row iso_code="es" string_name="subchapter_480_name" text="Entrenar duro para luchar con facilidad" />
+      <row iso_code="fr" string_name="subchapter_480_name" text="C'est en forgeant qu'on devient forgeron" />
+      <row iso_code="it" string_name="subchapter_480_name" text="Addestrato per combattere" />
+      <row iso_code="pl" string_name="subchapter_480_name" text="Trening czyni mistrza" />
+      <row iso_code="ru" string_name="subchapter_480_name" text="?????? ? ?????? - ????? ? ???" />
+      <row iso_code="tr" string_name="subchapter_480_name" text="A??r ?dman, Kolay D?v??" />
+      <row iso_code="zh-CH" string_name="subchapter_480_name" text="????" />
+      <row iso_code="" string_name="subchapter_480_name" text="Train Hard, Fight Easy" />
+      <row iso_code="" string_name="subchapter_480_name" text="T??ko na cvi?i?ti..." />
+      <row iso_code="" string_name="subchapter_488_name" text="Najdi predmety" />
+      <row iso_code="" string_name="subchapter_489_name" text="Najdi predmety (vedlejsak)" />
+      <row iso_code="" string_name="subchapter_490_name" text="Zabijackej" />
+      <row iso_code="" string_name="subchapter_491_name" text="Zabijackej (vedlejsak)" />
+      <row iso_code="" string_name="subchapter_492_name" text="Hejbajici se lidi" />
+      <row iso_code="" string_name="subchapter_493_name" text="Hejbajici se lidi (vedlejsi)" />
+      <row iso_code="" string_name="subchapter_494_name" text="Jedna area za druhou" />
+      <row iso_code="" string_name="subchapter_495_name" text="Jedna area za druhou (vedlejsi)" />
+      <row iso_code="cs" string_name="subchapter_500_name" text="Posledn? v?le" />
+      <row iso_code="de" string_name="subchapter_500_name" text="Letzter Wille" />
+      <row iso_code="en" string_name="subchapter_500_name" text="Last Will and Testament" />
+      <row iso_code="es" string_name="subchapter_500_name" text="Testamento y ?ltimas voluntades" />
+      <row iso_code="fr" string_name="subchapter_500_name" text="Derni?res volont?s" />
+      <row iso_code="it" string_name="subchapter_500_name" text="Ultime volont? e testamento" />
+      <row iso_code="pl" string_name="subchapter_500_name" text="Ostatnia wola i Testament" />
+      <row iso_code="ru" string_name="subchapter_500_name" text="????????? ???? ? ?????????" />
+      <row iso_code="tr" string_name="subchapter_500_name" text="Son Arzu ve Vasiyet" />
+      <row iso_code="zh-CH" string_name="subchapter_500_name" text="????" />
+      <row iso_code="" string_name="subchapter_500_name" text="Last Will and Testament" />
+      <row iso_code="" string_name="subchapter_500_name" text="Posledn? v?le" />
+      <row iso_code="cs" string_name="subchapter_501_name" text="Zajatec" />
+      <row iso_code="de" string_name="subchapter_501_name" text="Fragen und Antworten" />
+      <row iso_code="en" string_name="subchapter_501_name" text="Questions and Answers" />
+      <row iso_code="es" string_name="subchapter_501_name" text="Preguntas y respuestas" />
+      <row iso_code="fr" string_name="subchapter_501_name" text="Questions et r?ponses" />
+      <row iso_code="it" string_name="subchapter_501_name" text="Domande e risposte" />
+      <row iso_code="pl" string_name="subchapter_501_name" text="Przes?uchanie" />
+      <row iso_code="ru" string_name="subchapter_501_name" text="??????? ? ??????" />
+      <row iso_code="tr" string_name="subchapter_501_name" text="Sorular ve Cevaplar" />
+      <row iso_code="zh-CH" string_name="subchapter_501_name" text="????" />
+      <row iso_code="" string_name="subchapter_501_name" text="Zajatec" />
+      <row iso_code="" string_name="subchapter_501_name" text="Captive" />
+      <row iso_code="cs" string_name="subchapter_507_name" text="Opat?v seznam" />
+      <row iso_code="de" string_name="subchapter_507_name" text="Die Aufzeichnungen des Abtes" />
+      <row iso_code="en" string_name="subchapter_507_name" text="The Abbot's List" />
+      <row iso_code="es" string_name="subchapter_507_name" text="La lista del abad" />
+      <row iso_code="fr" string_name="subchapter_507_name" text="La liste de l'abb?" />
+      <row iso_code="it" string_name="subchapter_507_name" text="Il registro dell'abate" />
+      <row iso_code="pl" string_name="subchapter_507_name" text="Rejestr opata" />
+      <row iso_code="ru" string_name="subchapter_507_name" text="?????? ??????." />
+      <row iso_code="tr" string_name="subchapter_507_name" text="Ba?rahip'in Listesi" />
+      <row iso_code="zh-CH" string_name="subchapter_507_name" text="????" />
+      <row iso_code="" string_name="subchapter_507_name" text="Opat?v seznam" />
+      <row iso_code="" string_name="subchapter_507_name" text="The Abbot's List" />
+      <row iso_code="cs" string_name="subchapter_510_name" text="Roztrhan? kniha" />
+      <row iso_code="de" string_name="subchapter_510_name" text="Verlorene Seiten" />
+      <row iso_code="en" string_name="subchapter_510_name" text="Scattered Pages" />
+      <row iso_code="es" string_name="subchapter_510_name" text="P?ginas perdidas" />
+      <row iso_code="fr" string_name="subchapter_510_name" text="Des pages ?parpill?es" />
+      <row iso_code="it" string_name="subchapter_510_name" text="Fogli sparsi" />
+      <row iso_code="pl" string_name="subchapter_510_name" text="Z ksi?gi wydarte" />
+      <row iso_code="ru" string_name="subchapter_510_name" text="?????????? ????????" />
+      <row iso_code="tr" string_name="subchapter_510_name" text="Da??lm?? Sayfalar" />
+      <row iso_code="zh-CH" string_name="subchapter_510_name" text="????" />
+      <row iso_code="" string_name="subchapter_510_name" text="Roztrhan? kniha" />
+      <row iso_code="" string_name="subchapter_510_name" text="Torn Book" />
+      <row iso_code="cs" string_name="subchapter_518_name" text="Novicovo tr?pen?" />
+      <row iso_code="de" string_name="subchapter_518_name" text="Die Leiden des jungen Novizen" />
+      <row iso_code="en" string_name="subchapter_518_name" text="The Trials of a Novice" />
+      <row iso_code="es" string_name="subchapter_518_name" text="Las pruebas del novicio" />
+      <row iso_code="fr" string_name="subchapter_518_name" text="Un apprenti ? l'?preuve" />
+      <row iso_code="it" string_name="subchapter_518_name" text="Le tribolazioni di un novizio" />
+      <row iso_code="pl" string_name="subchapter_518_name" text="M?ki nowicjusza" />
+      <row iso_code="ru" string_name="subchapter_518_name" text="??????????? ??????????" />
+      <row iso_code="tr" string_name="subchapter_518_name" text="Aceminin S?k?nt?lar?" />
+      <row iso_code="zh-CH" string_name="subchapter_518_name" text="????" />
+      <row iso_code="" string_name="subchapter_518_name" text="Novicovo tr?pen?" />
+      <row iso_code="" string_name="subchapter_518_name" text="The Trials of a Novice" />
+      <row iso_code="" string_name="subchapter_523_name" text="What a strange day..." />
+      <row iso_code="" string_name="subchapter_523_name" text="What a strange day..." />
+      <row iso_code="cs" string_name="subchapter_524_name" text="Talmbersk? z?vod" />
+      <row iso_code="de" string_name="subchapter_524_name" text="Talmberger Pferderennen" />
+      <row iso_code="en" string_name="subchapter_524_name" text="Talmberg Horse Race" />
+      <row iso_code="es" string_name="subchapter_524_name" text="Carrera de caballos de Talmberk" />
+      <row iso_code="fr" string_name="subchapter_524_name" text="La course de chevaux de Talmberg" />
+      <row iso_code="it" string_name="subchapter_524_name" text="Corsa di cavalli di Talmberg" />
+      <row iso_code="pl" string_name="subchapter_524_name" text="Talmberski Wy?cig Konny" />
+      <row iso_code="ru" string_name="subchapter_524_name" text="????????????? ??????." />
+      <row iso_code="tr" string_name="subchapter_524_name" text="Talmberg At Yar???" />
+      <row iso_code="zh-CH" string_name="subchapter_524_name" text="????" />
+      <row iso_code="" string_name="subchapter_524_name" text="Talmbersk? z?vod" />
+      <row iso_code="" string_name="subchapter_524_name" text="Talmberg Races" />
+      <row iso_code="cs" string_name="subchapter_527_name" text="Epilog" />
+      <row iso_code="de" string_name="subchapter_527_name" text="Epilog" />
+      <row iso_code="en" string_name="subchapter_527_name" text="Epilogue" />
+      <row iso_code="es" string_name="subchapter_527_name" text="Epilogo" />
+      <row iso_code="fr" string_name="subchapter_527_name" text="?pilogue" />
+      <row iso_code="it" string_name="subchapter_527_name" text="Epilogo" />
+      <row iso_code="pl" string_name="subchapter_527_name" text="Epilog" />
+      <row iso_code="ru" string_name="subchapter_527_name" text="??????" />
+      <row iso_code="tr" string_name="subchapter_527_name" text="Kapan??" />
+      <row iso_code="zh-CH" string_name="subchapter_527_name" text="??" />
+      <row iso_code="" string_name="subchapter_527_name" text="Epilogue" />
+      <row iso_code="" string_name="subchapter_527_name" text="Epilog" />
+      <row iso_code="cs" string_name="subchapter_528_name" text="Holka do v?tru" />
+      <row iso_code="de" string_name="subchapter_528_name" text="Jungfer in N?ten" />
+      <row iso_code="en" string_name="subchapter_528_name" text="Damsel in Distress" />
+      <row iso_code="es" string_name="subchapter_528_name" text="Dama en problemas" />
+      <row iso_code="fr" string_name="subchapter_528_name" text="Une demoiselle en d?tresse." />
+      <row iso_code="it" string_name="subchapter_528_name" text="Una fanciulla in pericolo" />
+      <row iso_code="pl" string_name="subchapter_528_name" text="Dziewcz? w opa?ach" />
+      <row iso_code="ru" string_name="subchapter_528_name" text="?????? ? ????" />
+      <row iso_code="tr" string_name="subchapter_528_name" text="Ba?? Dertte K?z" />
+      <row iso_code="zh-CH" string_name="subchapter_528_name" text="????" />
+      <row iso_code="" string_name="subchapter_528_name" text="Holka do v?tru" />
+      <row iso_code="" string_name="subchapter_528_name" text="Damsel in Distress" />
+      <row iso_code="cs" string_name="subchapter_531_name" text="No?n? ?tok" />
+      <row iso_code="de" string_name="subchapter_531_name" text="N?chtlicher ?berfall" />
+      <row iso_code="en" string_name="subchapter_531_name" text="Night Raid" />
+      <row iso_code="es" string_name="subchapter_531_name" text="Asalto nocturno" />
+      <row iso_code="fr" string_name="subchapter_531_name" text="Assaut nocturne" />
+      <row iso_code="it" string_name="subchapter_531_name" text="Incursione notturna" />
+      <row iso_code="pl" string_name="subchapter_531_name" text="Pod os?on? nocy" />
+      <row iso_code="ru" string_name="subchapter_531_name" text="?????? ???????" />
+      <row iso_code="tr" string_name="subchapter_531_name" text="Gece Bask?n?" />
+      <row iso_code="zh-CH" string_name="subchapter_531_name" text="????" />
+      <row iso_code="" string_name="subchapter_531_name" text="Night Raid" />
+      <row iso_code="" string_name="subchapter_531_name" text="No?n? ?tok" />
+      <row iso_code="" string_name="subchapter_535_name" text="Stealth focus test" />
+      <row iso_code="cs" string_name="subchapter_537_name" text="Pomsta" />
+      <row iso_code="de" string_name="subchapter_537_name" text="Vergeltung" />
+      <row iso_code="en" string_name="subchapter_537_name" text="Vengeance" />
+      <row iso_code="es" string_name="subchapter_537_name" text="Venganza" />
+      <row iso_code="fr" string_name="subchapter_537_name" text="Vengeance" />
+      <row iso_code="it" string_name="subchapter_537_name" text="Vendetta" />
+      <row iso_code="pl" string_name="subchapter_537_name" text="Zemsta" />
+      <row iso_code="ru" string_name="subchapter_537_name" text="?????" />
+      <row iso_code="tr" string_name="subchapter_537_name" text="?ntikam" />
+      <row iso_code="uk" string_name="subchapter_537_name" text="??????" />
+      <row iso_code="zh-CH" string_name="subchapter_537_name" text="????" />
+      <row iso_code="" string_name="subchapter_537_name" text="Pomsta" />
+      <row iso_code="" string_name="subchapter_537_name" text="Vengeance" />
+      <row iso_code="cs" string_name="subchapter_557_name" text="?ibeni?n? brat?i" />
+      <row iso_code="de" string_name="subchapter_557_name" text="Galgenbr?der" />
+      <row iso_code="en" string_name="subchapter_557_name" text="Gallows Brothers" />
+      <row iso_code="es" string_name="subchapter_557_name" text="Hermanos de cadalso" />
+      <row iso_code="fr" string_name="subchapter_557_name" text="Fr?res de potence" />
+      <row iso_code="it" string_name="subchapter_557_name" text="Fratelli di forca" />
+      <row iso_code="pl" string_name="subchapter_557_name" text="Bracia na szubienicy" />
+      <row iso_code="ru" string_name="subchapter_557_name" text="?????? ?? ????????" />
+      <row iso_code="tr" string_name="subchapter_557_name" text="As?lacak Karde?ler" />
+      <row iso_code="zh-CH" string_name="subchapter_557_name" text="????" />
+      <row iso_code="" string_name="subchapter_557_name" text="?ibeni?n? brat?i" />
+      <row iso_code="" string_name="subchapter_557_name" text="Gallows brothers" />
+      <row iso_code="cs" string_name="subchapter_558_name" text="Ber?nek v rou?e vl??m" />
+      <row iso_code="de" string_name="subchapter_558_name" text="Schaf im Wolfspelz" />
+      <row iso_code="en" string_name="subchapter_558_name" text="Sheep in Wolf's Clothing" />
+      <row iso_code="es" string_name="subchapter_558_name" text="Cordero con piel de lobo" />
+      <row iso_code="fr" string_name="subchapter_558_name" text="Un agneau d?guis? en loup" />
+      <row iso_code="it" string_name="subchapter_558_name" text="Agnelli travestiti da lupo" />
+      <row iso_code="pl" string_name="subchapter_558_name" text="Owca w wilczej sk?rze" />
+      <row iso_code="ru" string_name="subchapter_558_name" text="??????? ? ??????? ?????" />
+      <row iso_code="tr" string_name="subchapter_558_name" text="Kurt K?yafetli Koyun" />
+      <row iso_code="zh-CH" string_name="subchapter_558_name" text="????" />
+      <row iso_code="" string_name="subchapter_558_name" text="Ber?nek v rou?e vl??m" />
+      <row iso_code="" string_name="subchapter_558_name" text="Sheep in Wolf's Clothing" />
+      <row iso_code="cs" string_name="subchapter_563_name" text="Drah? rva?ka" />
+      <row iso_code="de" string_name="subchapter_563_name" text="Eine kostspielige Schl?gerei" />
+      <row iso_code="en" string_name="subchapter_563_name" text="A Costly Brawl" />
+      <row iso_code="es" string_name="subchapter_563_name" text="Un altercado costoso" />
+      <row iso_code="fr" string_name="subchapter_563_name" text="Une bagarre on?reuse" />
+      <row iso_code="it" string_name="subchapter_563_name" text="Rissa a caro prezzo" />
+      <row iso_code="pl" string_name="subchapter_563_name" text="Kosztowna b?jka" />
+      <row iso_code="ru" string_name="subchapter_563_name" text="??????? ?????" />
+      <row iso_code="tr" string_name="subchapter_563_name" text="Pahal?ya Patlayan Kavga" />
+      <row iso_code="zh-CH" string_name="subchapter_563_name" text="????" />
+      <row iso_code="" string_name="subchapter_563_name" text="A costly fight" />
+      <row iso_code="" string_name="subchapter_563_name" text="Drah? rva?ka" />
+      <row iso_code="cs" string_name="subchapter_571_name" text="?elezn? z?soba" />
+      <row iso_code="de" string_name="subchapter_571_name" text="Eiserne Reserve" />
+      <row iso_code="en" string_name="subchapter_571_name" text="Emergency Supply" />
+      <row iso_code="es" string_name="subchapter_571_name" text="Suministro de emergencia" />
+      <row iso_code="fr" string_name="subchapter_571_name" text="Bas de laine" />
+      <row iso_code="it" string_name="subchapter_571_name" text="Scorte di emergenza" />
+      <row iso_code="pl" string_name="subchapter_571_name" text="Zapasy na czarn? godzin?" />
+      <row iso_code="ru" string_name="subchapter_571_name" text="???????????????? ?????." />
+      <row iso_code="tr" string_name="subchapter_571_name" text="Acil Erzak" />
+      <row iso_code="zh-CH" string_name="subchapter_571_name" text="????" />
+      <row iso_code="" string_name="subchapter_571_name" text="?elezn? z?soba" />
+      <row iso_code="" string_name="subchapter_571_name" text="Emergency Supply" />
+      <row iso_code="cs" string_name="subchapter_573_name" text="?aty d?laj? ?lov?ka" />
+      <row iso_code="de" string_name="subchapter_573_name" text="Kleider machen Leute" />
+      <row iso_code="en" string_name="subchapter_573_name" text="Clothes Make the Man" />
+      <row iso_code="es" string_name="subchapter_573_name" text="El h?bito hace al monje" />
+      <row iso_code="fr" string_name="subchapter_573_name" text="L'habit fait l'homme" />
+      <row iso_code="it" string_name="subchapter_573_name" text="L'abito fa il monaco" />
+      <row iso_code="pl" string_name="subchapter_573_name" text="Szaty zdobi? cz?owieka" />
+      <row iso_code="ru" string_name="subchapter_573_name" text="???????? ????? ?? ??????." />
+      <row iso_code="tr" string_name="subchapter_573_name" text="Ye K?rk?m Ye" />
+      <row iso_code="zh-CH" string_name="subchapter_573_name" text="????" />
+      <row iso_code="" string_name="subchapter_573_name" text="Clothes make the man" />
+      <row iso_code="" string_name="subchapter_573_name" text="?aty d?laj? ?lov?ka" />
+      <row iso_code="cs" string_name="subchapter_585_name" text="Mlsn? jaz??ek" />
+      <row iso_code="de" string_name="subchapter_585_name" text="K?stlichkeiten" />
+      <row iso_code="en" string_name="subchapter_585_name" text="Delicacies" />
+      <row iso_code="es" string_name="subchapter_585_name" text="Exquisiteces" />
+      <row iso_code="fr" string_name="subchapter_585_name" text="Le corroyeur et le logeur" />
+      <row iso_code="it" string_name="subchapter_585_name" text="Prelibatezze" />
+      <row iso_code="pl" string_name="subchapter_585_name" text="Delicje" />
+      <row iso_code="ru" string_name="subchapter_585_name" text="??????????" />
+      <row iso_code="tr" string_name="subchapter_585_name" text="Lezzetler" />
+      <row iso_code="zh-CH" string_name="subchapter_585_name" text="????" />
+      <row iso_code="" string_name="subchapter_585_name" text="Mlsn? jaz??ek" />
+      <row iso_code="" string_name="subchapter_585_name" text="Delicacies" />
+      <row iso_code="cs" string_name="subchapter_586_name" text="Ch?tra" />
+      <row iso_code="de" string_name="subchapter_586_name" text="Pl?nderer" />
+      <row iso_code="en" string_name="subchapter_586_name" text="Ruin" />
+      <row iso_code="es" string_name="subchapter_586_name" text="Ruina" />
+      <row iso_code="fr" string_name="subchapter_586_name" text="Ruine" />
+      <row iso_code="it" string_name="subchapter_586_name" text="Rovina" />
+      <row iso_code="pl" string_name="subchapter_586_name" text="Ruina" />
+      <row iso_code="ru" string_name="subchapter_586_name" text="?????" />
+      <row iso_code="tr" string_name="subchapter_586_name" text="Harabe" />
+      <row iso_code="zh-CH" string_name="subchapter_586_name" text="??" />
+      <row iso_code="" string_name="subchapter_586_name" text="Ch?tra" />
+      <row iso_code="" string_name="subchapter_586_name" text="Ruin" />
+      <row iso_code="cs" string_name="subchapter_587_name" text="Me? kr?lovny ze S?by" />
+      <row iso_code="de" string_name="subchapter_587_name" text="Das Schwert der K?nigin von Saba" />
+      <row iso_code="en" string_name="subchapter_587_name" text="The Queen of Sheba?s Sword" />
+      <row iso_code="es" string_name="subchapter_587_name" text="La espada de la Reina de Sheba" />
+      <row iso_code="fr" string_name="subchapter_587_name" text="L'?p?e de la reine de Saba" />
+      <row iso_code="it" string_name="subchapter_587_name" text="La spada della regina di Saba" />
+      <row iso_code="pl" string_name="subchapter_587_name" text="Miecz kr?lowej z Saby" />
+      <row iso_code="ru" string_name="subchapter_587_name" text="??? ?????? ???????" />
+      <row iso_code="tr" string_name="subchapter_587_name" text="Saba Melikesi'nin K?l?c?" />
+      <row iso_code="zh-CH" string_name="subchapter_587_name" text="??????" />
+      <row iso_code="" string_name="subchapter_587_name" text="Queen of Sheba?s sword" />
+      <row iso_code="" string_name="subchapter_587_name" text="Me? kr?lovny ze S?by" />
+      <row iso_code="cs" string_name="subchapter_588_name" text="Mlyn?? Pe?ek" />
+      <row iso_code="de" string_name="subchapter_588_name" text="Diebische M?ller ? Peschek" />
+      <row iso_code="en" string_name="subchapter_588_name" text="Thick as Thieves - Peshek" />
+      <row iso_code="es" string_name="subchapter_588_name" text="El dobl?n nunca huele a ladr?n: Peshek" />
+      <row iso_code="fr" string_name="subchapter_588_name" text="Copains comme cochons - Peshek" />
+      <row iso_code="it" string_name="subchapter_588_name" text="Ladri incalliti - Peshek" />
+      <row iso_code="pl" string_name="subchapter_588_name" text="Jak ?yse konie - Peszek" />
+      <row iso_code="ru" string_name="subchapter_588_name" text="??? ???? ????? ???????? - ?????." />
+      <row iso_code="tr" string_name="subchapter_588_name" text="S?k? Dostlar - Peshek" />
+      <row iso_code="zh-CH" string_name="subchapter_588_name" text="???? - ???" />
+      <row iso_code="" string_name="subchapter_588_name" text="Mlyn?? Pe?ek" />
+      <row iso_code="" string_name="subchapter_588_name" text="Peshek the Miller" />
+      <row iso_code="cs" string_name="subchapter_589_name" text="Mlyn?? Vojt?ch" />
+      <row iso_code="de" string_name="subchapter_589_name" text="Diebische M?ller ? Woyzeck" />
+      <row iso_code="en" string_name="subchapter_589_name" text="Thick as Thieves - Woyzeck" />
+      <row iso_code="es" string_name="subchapter_589_name" text="El dobl?n nunca huele a ladr?n: Woyzeck" />
+      <row iso_code="fr" string_name="subchapter_589_name" text="Copains comme cochons - Woyzeck" />
+      <row iso_code="it" string_name="subchapter_589_name" text="Ladri incalliti - Woyzeck" />
+      <row iso_code="pl" string_name="subchapter_589_name" text="Jak ?yse konie - Wojciech" />
+      <row iso_code="ru" string_name="subchapter_589_name" text="??? ???? ????? ???????? - ??????" />
+      <row iso_code="tr" string_name="subchapter_589_name" text="S?k? Dostlar - Woyzeck" />
+      <row iso_code="zh-CH" string_name="subchapter_589_name" text="???? - ???" />
+      <row iso_code="" string_name="subchapter_589_name" text="Mlyn?? Vojt?ch" />
+      <row iso_code="" string_name="subchapter_589_name" text="Thick as Thieves - Woyzeck" />
+      <row iso_code="cs" string_name="subchapter_590_name" text="Mlyn?? ?imon" />
+      <row iso_code="de" string_name="subchapter_590_name" text="Diebische M?ller ? Simon" />
+      <row iso_code="en" string_name="subchapter_590_name" text="Thick as Thieves - Simon" />
+      <row iso_code="es" string_name="subchapter_590_name" text="El dobl?n nunca huele a ladr?n: Simon" />
+      <row iso_code="fr" string_name="subchapter_590_name" text="Copains comme cochons - Simon" />
+      <row iso_code="it" string_name="subchapter_590_name" text="Ladri incalliti - Simon" />
+      <row iso_code="pl" string_name="subchapter_590_name" text="Jak ?yse konie - Szymon" />
+      <row iso_code="ru" string_name="subchapter_590_name" text="??? ???? ????? ???????? - ?????" />
+      <row iso_code="tr" string_name="subchapter_590_name" text="S?k? Dostlar - Simon" />
+      <row iso_code="zh-CH" string_name="subchapter_590_name" text="???? - ??" />
+      <row iso_code="" string_name="subchapter_590_name" text="Thick as Thieves - Simon" />
+      <row iso_code="" string_name="subchapter_590_name" text="Mlyn?? ?imon" />
+      <row iso_code="cs" string_name="subchapter_592_name" text="N?jezdn?ci" />
+      <row iso_code="de" string_name="subchapter_592_name" text="Pl?ndernde Kumanen" />
+      <row iso_code="en" string_name="subchapter_592_name" text="Raiders" />
+      <row iso_code="es" string_name="subchapter_592_name" text="Asaltantes" />
+      <row iso_code="fr" string_name="subchapter_592_name" text="Les maraudeurs" />
+      <row iso_code="it" string_name="subchapter_592_name" text="Saccheggiatori" />
+      <row iso_code="pl" string_name="subchapter_592_name" text="Naje?d?cy" />
+      <row iso_code="ru" string_name="subchapter_592_name" text="?????????" />
+      <row iso_code="tr" string_name="subchapter_592_name" text="Ya?mac?lar" />
+      <row iso_code="zh-CH" string_name="subchapter_592_name" text="???" />
+      <row iso_code="" string_name="subchapter_592_name" text="N?jezdn?ci" />
+      <row iso_code="" string_name="subchapter_592_name" text="Raiders" />
+      <row iso_code="cs" string_name="subchapter_596_name" text="Vet?elci" />
+      <row iso_code="de" string_name="subchapter_596_name" text="Briganten" />
+      <row iso_code="en" string_name="subchapter_596_name" text="Interlopers" />
+      <row iso_code="es" string_name="subchapter_596_name" text="Intrusos" />
+      <row iso_code="fr" string_name="subchapter_596_name" text="Les intrus" />
+      <row iso_code="it" string_name="subchapter_596_name" text="Intrusi" />
+      <row iso_code="pl" string_name="subchapter_596_name" text="Intruzi" />
+      <row iso_code="ru" string_name="subchapter_596_name" text="????????" />
+      <row iso_code="tr" string_name="subchapter_596_name" text="M?tecavizler" />
+      <row iso_code="zh-CH" string_name="subchapter_596_name" text="????" />
+      <row iso_code="" string_name="subchapter_596_name" text="Vet?elci" />
+      <row iso_code="" string_name="subchapter_596_name" text="Interlopers" />
+      <row iso_code="cs" string_name="subchapter_598_name" text="Lekce ?ermu" />
+      <row iso_code="de" string_name="subchapter_598_name" text="Kampf-Tutorial" />
+      <row iso_code="en" string_name="subchapter_598_name" text="Combat Tutorial" />
+      <row iso_code="es" string_name="subchapter_598_name" text="Tutorial de combate" />
+      <row iso_code="fr" string_name="subchapter_598_name" text="Didacticiel de combat" />
+      <row iso_code="it" string_name="subchapter_598_name" text="Tutorial sul combattimento" />
+      <row iso_code="pl" string_name="subchapter_598_name" text="Nauka walki mieczem" />
+      <row iso_code="ru" string_name="subchapter_598_name" text="?????? ??????????" />
+      <row iso_code="tr" string_name="subchapter_598_name" text="K?l?? E?itimi" />
+      <row iso_code="zh-CH" string_name="subchapter_598_name" text="????" />
+      <row iso_code="" string_name="subchapter_598_name" text="Sword Tutorial" />
+      <row iso_code="" string_name="subchapter_598_name" text="sword tutorial" />
+      <row iso_code="cs" string_name="subchapter_599_name" text="P?sti ve tm?" />
+      <row iso_code="de" string_name="subchapter_599_name" text="Zwielichtiges Treiben in Uschitze" />
+      <row iso_code="en" string_name="subchapter_599_name" text="Fishy Business in Uzhitz" />
+      <row iso_code="es" string_name="subchapter_599_name" text="Algo huele mal en ??ice" />
+      <row iso_code="fr" string_name="subchapter_599_name" text="Anguille sous roche ? Uzice." />
+      <row iso_code="it" string_name="subchapter_599_name" text="Torbidi affari a Uzhitz" />
+      <row iso_code="pl" string_name="subchapter_599_name" text="?mierdz?ce interesy w U?ycach" />
+      <row iso_code="ru" string_name="subchapter_599_name" text="?????? ???? ? ?????" />
+      <row iso_code="tr" string_name="subchapter_599_name" text="Uzhitz'de Bal?k Ba?tan Kokar" />
+      <row iso_code="zh-CH" string_name="subchapter_599_name" text="??????" />
+      <row iso_code="" string_name="subchapter_599_name" text="P?sti ve tm?" />
+      <row iso_code="" string_name="subchapter_599_name" text="Fishy Business in Uzhitz" />
+      <row iso_code="cs" string_name="subchapter_601_name" text="Bohat?m br?t, chud?m d?vat" />
+      <row iso_code="de" string_name="subchapter_601_name" text="Nimm?s den Reichen, gib?s den Armen" />
+      <row iso_code="en" string_name="subchapter_601_name" text="Rob the Rich, Give to the Poor" />
+      <row iso_code="es" string_name="subchapter_601_name" text="Robar al rico para d?rselo al pobre" />
+      <row iso_code="fr" string_name="subchapter_601_name" text="Voler aux riches pour donner aux pauvres" />
+      <row iso_code="it" string_name="subchapter_601_name" text="Rubare ai ricchi, donare ai poveri" />
+      <row iso_code="pl" string_name="subchapter_601_name" text="Okrada? bogatych, oddawa? biednym" />
+      <row iso_code="ru" string_name="subchapter_601_name" text="????? ???????, ????? ??????." />
+      <row iso_code="tr" string_name="subchapter_601_name" text="Zenginden Al?p Fakire Ver" />
+      <row iso_code="zh-CH" string_name="subchapter_601_name" text="????" />
+      <row iso_code="" string_name="subchapter_601_name" text="Rob the Rich, Give to the Poor" />
+      <row iso_code="" string_name="subchapter_601_name" text="Bohat?m br?t, chud?m d?vat" />
+      <row iso_code="cs" string_name="subchapter_602_name" text="Pomsta vyslou?il? d?vky" />
+      <row iso_code="de" string_name="subchapter_602_name" text="Die alte Dirne" />
+      <row iso_code="en" string_name="subchapter_602_name" text="A Woman Scorned" />
+      <row iso_code="es" string_name="subchapter_602_name" text="Una mujer despechada" />
+      <row iso_code="fr" string_name="subchapter_602_name" text="Une femme d?laiss?e" />
+      <row iso_code="it" string_name="subchapter_602_name" text="Una donna rifiutata" />
+      <row iso_code="pl" string_name="subchapter_602_name" text="Gdzie diabe? nie mo?e?" />
+      <row iso_code="ru" string_name="subchapter_602_name" text="?????? ???????." />
+      <row iso_code="tr" string_name="subchapter_602_name" text="K???msenmi? Kad?n" />
+      <row iso_code="zh-CH" string_name="subchapter_602_name" text="??????" />
+      <row iso_code="" string_name="subchapter_602_name" text="A Woman Scorned" />
+      <row iso_code="" string_name="subchapter_602_name" text="Pomsta vyslou?il? d?vky" />
+      <row iso_code="cs" string_name="subchapter_603_name" text="??rliv? ?eled?n" />
+      <row iso_code="de" string_name="subchapter_603_name" text="Rachegel?ste" />
+      <row iso_code="en" string_name="subchapter_603_name" text="Green-Eyed Monster" />
+      <row iso_code="es" string_name="subchapter_603_name" text="Monstruo de ojos verdes" />
+      <row iso_code="fr" string_name="subchapter_603_name" text="Un monstre aux yeux verts" />
+      <row iso_code="it" string_name="subchapter_603_name" text="Mostro dagli occhi verdi" />
+      <row iso_code="pl" string_name="subchapter_603_name" text="Zielonooki potw?r" />
+      <row iso_code="ru" string_name="subchapter_603_name" text="???????????? ????????" />
+      <row iso_code="tr" string_name="subchapter_603_name" text="Ye?il G?zl? Canavar" />
+      <row iso_code="zh-CH" string_name="subchapter_603_name" text="????" />
+      <row iso_code="" string_name="subchapter_603_name" text="Green-Eyed Monster" />
+      <row iso_code="" string_name="subchapter_603_name" text="??rliv? ?eled?n" />
+      <row iso_code="cs" string_name="subchapter_604_name" text="Jednoho zhmo?dil, dal??ho zesm??nil!" />
+      <row iso_code="de" string_name="subchapter_604_name" text="Na los, verpass mir eine!" />
+      <row iso_code="en" string_name="subchapter_604_name" text="Do Me a Favour - Punch Me!" />
+      <row iso_code="es" string_name="subchapter_604_name" text="Hacedme un favor: ?Dadme un pu?etazo!" />
+      <row iso_code="fr" string_name="subchapter_604_name" text="Soyez gentil - frappez-moi?!" />
+      <row iso_code="it" string_name="subchapter_604_name" text="Gentilmente, dammi un pugno!" />
+      <row iso_code="pl" string_name="subchapter_604_name" text="Zr?b mi przys?ug? - przy??? mi!" />
+      <row iso_code="ru" string_name="subchapter_604_name" text="?????? ??? ????????? - ????? ????!" />
+      <row iso_code="tr" string_name="subchapter_604_name" text="Bana Bir ?yilik Yap, Vur Bana!" />
+      <row iso_code="zh-CH" string_name="subchapter_604_name" text="????- ?????" />
+      <row iso_code="" string_name="subchapter_604_name" text="Jednoho zhmo?dil, dal??ho zesm??nil!" />
+      <row iso_code="" string_name="subchapter_604_name" text="Do Me a Favour - Punch Me!" />
+      <row iso_code="cs" string_name="subchapter_605_name" text="Pomsta kum?nsk?ho kr?le" />
+      <row iso_code="de" string_name="subchapter_605_name" text="K?nig der Kumanen" />
+      <row iso_code="en" string_name="subchapter_605_name" text="Revenge of the Cuman King" />
+      <row iso_code="es" string_name="subchapter_605_name" text="La venganza del rey cumano" />
+      <row iso_code="fr" string_name="subchapter_605_name" text="La revanche du roi couman" />
+      <row iso_code="it" string_name="subchapter_605_name" text="La vendetta del re dei cumani" />
+      <row iso_code="pl" string_name="subchapter_605_name" text="Zemsta kr?la Kuman?w" />
+      <row iso_code="ru" string_name="subchapter_605_name" text="????? ??????????? &quot;??????&quot;." />
+      <row iso_code="tr" string_name="subchapter_605_name" text="Kuman Kral?'n?n ?ntikam?" />
+      <row iso_code="zh-CH" string_name="subchapter_605_name" text="??????" />
+      <row iso_code="" string_name="subchapter_605_name" text="Pomsta Kum?nsk?ho Kr?le" />
+      <row iso_code="" string_name="subchapter_605_name" text="Revenge of the Cuman King" />
+      <row iso_code="cs" string_name="subchapter_606_name" text="Hostina pro ?ebrotu" />
+      <row iso_code="de" string_name="subchapter_606_name" text="Festmahl f?r die Bettler" />
+      <row iso_code="en" string_name="subchapter_606_name" text="Beggars' Feast" />
+      <row iso_code="es" string_name="subchapter_606_name" text="El fest?n del mendigo" />
+      <row iso_code="fr" string_name="subchapter_606_name" text="Le festin des mendiants" />
+      <row iso_code="it" string_name="subchapter_606_name" text="Il banchetto dei mendicanti" />
+      <row iso_code="pl" string_name="subchapter_606_name" text="Uczta ?ebrak?w" />
+      <row iso_code="ru" string_name="subchapter_606_name" text="??? ??? ?????" />
+      <row iso_code="tr" string_name="subchapter_606_name" text="Dilenci Ziyafeti" />
+      <row iso_code="zh-CH" string_name="subchapter_606_name" text="?????" />
+      <row iso_code="" string_name="subchapter_606_name" text="Beggars' Feast" />
+      <row iso_code="" string_name="subchapter_606_name" text="Hostina pro ?ebrotu" />
+      <row iso_code="" string_name="subchapter_608_name" text="Focus test" />
+      <row iso_code="en" string_name="subchapter_609_name" text="Fight!" />
+      <row iso_code="es" string_name="subchapter_609_name" text="?Luchad!" />
+      <row iso_code="it" string_name="subchapter_609_name" text="Combatti!" />
+      <row iso_code="pl" string_name="subchapter_609_name" text="Walcz!" />
+      <row iso_code="" string_name="subchapter_609_name" text="Bojuj!" />
+      <row iso_code="" string_name="subchapter_609_name" text="Fight!" />
+      <row iso_code="cs" string_name="subchapter_612_name" text="Tu?n? k?eft" />
+      <row iso_code="de" string_name="subchapter_612_name" text="Gutes Geld f?r gutes Fleisch" />
+      <row iso_code="en" string_name="subchapter_612_name" text="Fat Profits" />
+      <row iso_code="es" string_name="subchapter_612_name" text="Beneficios de enjundia" />
+      <row iso_code="fr" string_name="subchapter_612_name" text="B?n?fices juteux" />
+      <row iso_code="it" string_name="subchapter_612_name" text="Pingui profitti" />
+      <row iso_code="pl" string_name="subchapter_612_name" text="Obfite zyski" />
+      <row iso_code="ru" string_name="subchapter_612_name" text="?????? ?????" />
+      <row iso_code="tr" string_name="subchapter_612_name" text="Ya?l? Kap?" />
+      <row iso_code="zh-CH" string_name="subchapter_612_name" text="????" />
+      <row iso_code="" string_name="subchapter_612_name" text="Tu?n? k?eft" />
+      <row iso_code="" string_name="subchapter_612_name" text="Fat Profits" />
+      <row iso_code="cs" string_name="subchapter_613_name" text="Jind?ich mistrem lov??m" />
+      <row iso_code="de" string_name="subchapter_613_name" text="Heinrich der J?germeister" />
+      <row iso_code="en" string_name="subchapter_613_name" text="Henry the Master Huntsman" />
+      <row iso_code="es" string_name="subchapter_613_name" text="Henry, el maestro cazador." />
+      <row iso_code="fr" string_name="subchapter_613_name" text="Henry le ma?tre chasseur" />
+      <row iso_code="it" string_name="subchapter_613_name" text="Il mastro cacciatore Henry" />
+      <row iso_code="pl" string_name="subchapter_613_name" text="Henryk Mistrz ?owczy" />
+      <row iso_code="ru" string_name="subchapter_613_name" text="?????? ???????" />
+      <row iso_code="tr" string_name="subchapter_613_name" text="Usta Avc? Henry" />
+      <row iso_code="zh-CH" string_name="subchapter_613_name" text="????" />
+      <row iso_code="" string_name="subchapter_613_name" text="Jind?ich mistrem lov??m" />
+      <row iso_code="" string_name="subchapter_613_name" text="Henry the Master Huntsman" />
+      <row iso_code="cs" string_name="subchapter_615_name" text="Vyb?r?n? kapes" />
+      <row iso_code="de" string_name="subchapter_615_name" text="Taschendiebstahl" />
+      <row iso_code="en" string_name="subchapter_615_name" text="Pickpocketing" />
+      <row iso_code="es" string_name="subchapter_615_name" text="Robar bolsillos." />
+      <row iso_code="fr" string_name="subchapter_615_name" text="Vol ? la tire" />
+      <row iso_code="it" string_name="subchapter_615_name" text="Borseggio" />
+      <row iso_code="pl" string_name="subchapter_615_name" text="Nauka drobnej kradzie?y" />
+      <row iso_code="ru" string_name="subchapter_615_name" text="?????????" />
+      <row iso_code="tr" string_name="subchapter_615_name" text="Yankesicilik" />
+      <row iso_code="zh-CH" string_name="subchapter_615_name" text="????" />
+      <row iso_code="" string_name="subchapter_615_name" text="Vyb?r?n? kapes" />
+      <row iso_code="" string_name="subchapter_615_name" text="Pickpocketing" />
+      <row iso_code="cs" string_name="subchapter_616_name" text="S k??? na trh" />
+      <row iso_code="de" string_name="subchapter_616_name" text="Tierh?ute" />
+      <row iso_code="en" string_name="subchapter_616_name" text="Skin" />
+      <row iso_code="es" string_name="subchapter_616_name" text="Piel" />
+      <row iso_code="fr" string_name="subchapter_616_name" text="Peaux" />
+      <row iso_code="it" string_name="subchapter_616_name" text="Pelle" />
+      <row iso_code="pl" string_name="subchapter_616_name" text="Sk?ra" />
+      <row iso_code="ru" string_name="subchapter_616_name" text="?????" />
+      <row iso_code="tr" string_name="subchapter_616_name" text="Deri" />
+      <row iso_code="zh-CH" string_name="subchapter_616_name" text="??" />
+      <row iso_code="" string_name="subchapter_616_name" text="Skin" />
+      <row iso_code="" string_name="subchapter_616_name" text="S k??? na trh." />
+      <row iso_code="cs" string_name="subchapter_623_name" text="V Kostky" />
+      <row iso_code="de" string_name="subchapter_623_name" text="Herr der W?rfel" />
+      <row iso_code="en" string_name="subchapter_623_name" text="Game of Throws" />
+      <row iso_code="pl" string_name="subchapter_623_name" text="Kolekcjoner ko?ci" />
+      <row iso_code="ru" string_name="subchapter_623_name" text="??????? ???????" />
+      <row iso_code="" string_name="subchapter_623_name" text="Game of Throws" />
+      <row iso_code="" string_name="subchapter_623_name" text="V Kostky" />
+      <row iso_code="cs" string_name="subchapter_624_name" text="Ztracen v les?ch" />
+      <row iso_code="de" string_name="subchapter_624_name" text="Tief im Walde" />
+      <row iso_code="en" string_name="subchapter_624_name" text="Lost in the Woods" />
+      <row iso_code="es" string_name="subchapter_624_name" text="Perdido en el bosque" />
+      <row iso_code="fr" string_name="subchapter_624_name" text="Perdu dans les bois" />
+      <row iso_code="it" string_name="subchapter_624_name" text="Sperduto nei boschi" />
+      <row iso_code="pl" string_name="subchapter_624_name" text="Zaginione w lesie" />
+      <row iso_code="ru" string_name="subchapter_624_name" text="????????? ? ????" />
+      <row iso_code="zh-CH" string_name="subchapter_624_name" text="????" />
+      <row iso_code="" string_name="subchapter_624_name" text="Lost in the woods" />
+      <row iso_code="" string_name="subchapter_624_name" text="Lost in the woods" />
+      <row iso_code="cs" string_name="subchapter_625_name" text="Nov? domov" />
+      <row iso_code="de" string_name="subchapter_625_name" text="Ein neues Zuhause" />
+      <row iso_code="en" string_name="subchapter_625_name" text="A Place to Call Home" />
+      <row iso_code="es" string_name="subchapter_625_name" text="Un lugar al que llamar hogar" />
+      <row iso_code="fr" string_name="subchapter_625_name" text="Un nouveau foyer" />
+      <row iso_code="it" string_name="subchapter_625_name" text="Casa dolce casa" />
+      <row iso_code="pl" string_name="subchapter_625_name" text="Miejsce, kt?re mo?na nazwa? domem" />
+      <row iso_code="ru" string_name="subchapter_625_name" text="?????, ??? ??????? ?????." />
+      <row iso_code="zh-CH" string_name="subchapter_625_name" text="????" />
+      <row iso_code="" string_name="subchapter_625_name" text="A Place to Call Home" />
+      <row iso_code="" string_name="subchapter_625_name" text="A place to call home" />
+      <row iso_code="de" string_name="subchapter_629_name" text="Das B?se schl?ft nie" />
+      <row iso_code="en" string_name="subchapter_629_name" text="No Rest for the Wicked" />
+      <row iso_code="pl" string_name="subchapter_629_name" text="Wskrzeszanie zmar?ych" />
+      <row iso_code="ru" string_name="subchapter_629_name" text="??? ????? ?????????" />
+      <row iso_code="" string_name="subchapter_629_name" text="Pov?r?ivost" />
+      <row iso_code="" string_name="subchapter_629_name" text="Old Wive's Tale" />
+      <row iso_code="cs" string_name="subchapter_630_name" text="Ztr?ty a n?lezy" />
+      <row iso_code="de" string_name="subchapter_630_name" text="Fundsachen" />
+      <row iso_code="en" string_name="subchapter_630_name" text="Lost and Found" />
+      <row iso_code="es" string_name="subchapter_630_name" text="Objetos perdidos" />
+      <row iso_code="fr" string_name="subchapter_630_name" text="Des objets ?gar?s" />
+      <row iso_code="it" string_name="subchapter_630_name" text="Oggetti smarriti" />
+      <row iso_code="pl" string_name="subchapter_630_name" text="Zgubione i znalezione" />
+      <row iso_code="ru" string_name="subchapter_630_name" text="???? ???????" />
+      <row iso_code="zh-CH" string_name="subchapter_630_name" text="????" />
+      <row iso_code="" string_name="subchapter_630_name" text="Lost and Found" />
+      <row iso_code="" string_name="subchapter_630_name" text="Ztr?ty a n?lezy" />
+      <row iso_code="cs" string_name="subchapter_641_name" text="Soudy" />
+      <row iso_code="de" string_name="subchapter_641_name" text="Recht und Ordnung" />
+      <row iso_code="en" string_name="subchapter_641_name" text="The Scales of Justice" />
+      <row iso_code="es" string_name="subchapter_641_name" text="La balanza de la justicia" />
+      <row iso_code="fr" string_name="subchapter_641_name" text="La balance de la justice" />
+      <row iso_code="it" string_name="subchapter_641_name" text="La bilancia della giustizia" />
+      <row iso_code="pl" string_name="subchapter_641_name" text="Waga sprawiedliwo?ci." />
+      <row iso_code="ru" string_name="subchapter_641_name" text="???? ??????????" />
+      <row iso_code="zh-CH" string_name="subchapter_641_name" text="????" />
+      <row iso_code="" string_name="subchapter_641_name" text="The Scales of Justice" />
+      <row iso_code="" string_name="subchapter_641_name" text="Soudy" />
+      <row iso_code="cs" string_name="subchapter_657_name" text="Suroviny" />
+      <row iso_code="de" string_name="subchapter_657_name" text="Vorr?te" />
+      <row iso_code="en" string_name="subchapter_657_name" text="Supplies" />
+      <row iso_code="es" string_name="subchapter_657_name" text="Suministros" />
+      <row iso_code="fr" string_name="subchapter_657_name" text="Provisions" />
+      <row iso_code="it" string_name="subchapter_657_name" text="Risorse" />
+      <row iso_code="pl" string_name="subchapter_657_name" text="Zasoby" />
+      <row iso_code="ru" string_name="subchapter_657_name" text="??????" />
+      <row iso_code="zh-CH" string_name="subchapter_657_name" text="??" />
+      <row iso_code="" string_name="subchapter_657_name" text="Suroviny" />
+      <row iso_code="" string_name="subchapter_657_name" text="Supplies" />
+      <row iso_code="" string_name="subchapter_661_name" text="P??e pana Pt??ka" />
+      <row iso_code="" string_name="subchapter_664_name" text="Mrtv? nemluv?" />
+      <row iso_code="" string_name="subchapter_665_name" text="Mrtv? nemluv? - dohra" />
+      <row iso_code="" string_name="subchapter_676_name" text="S?zky s Pe?kem" />
+      <row iso_code="cs" string_name="ui_skill_alchemy" text="Alchymie" />
+      <row iso_code="de" string_name="ui_skill_alchemy" text="Alchemie" />
+      <row iso_code="en" string_name="ui_skill_alchemy" text="Alchemy" />
+      <row iso_code="es" string_name="ui_skill_alchemy" text="Alquimia" />
+      <row iso_code="fr" string_name="ui_skill_alchemy" text="Alchimie" />
+      <row iso_code="it" string_name="ui_skill_alchemy" text="Alchimia" />
+      <row iso_code="pl" string_name="ui_skill_alchemy" text="Alchemia" />
+      <row iso_code="ru" string_name="ui_skill_alchemy" text="??????? ????????" />
+      <row iso_code="tr" string_name="ui_skill_alchemy" text="Simya" />
+      <row iso_code="zh-CH" string_name="ui_skill_alchemy" text="??" />
+      <row iso_code="" string_name="ui_skill_alchemy" text="Alchemy" />
+      <row iso_code="" string_name="ui_skill_alchemy" text="Alchemy" />
+      <row iso_code="cs" string_name="ui_skill_armourer" text="Platn??stv?" />
+      <row iso_code="de" string_name="ui_skill_armourer" text="R?stmeister" />
+      <row iso_code="en" string_name="ui_skill_armourer" text="Armourer" />
+      <row iso_code="es" string_name="ui_skill_armourer" text="Armero" />
+      <row iso_code="fr" string_name="ui_skill_armourer" text="Armurier" />
+      <row iso_code="it" string_name="ui_skill_armourer" text="Corazzaio" />
+      <row iso_code="pl" string_name="ui_skill_armourer" text="P?atnerz" />
+      <row iso_code="ru" string_name="ui_skill_armourer" text="???????" />
+      <row iso_code="tr" string_name="ui_skill_armourer" text="Z?rh Ustas?" />
+      <row iso_code="zh-CH" string_name="ui_skill_armourer" text="????" />
+      <row iso_code="" string_name="ui_skill_armourer" text="Armourer" />
+      <row iso_code="" string_name="ui_skill_armourer" text="Armourer" />
+      <row iso_code="cs" string_name="ui_skill_bard" text="Bard" />
+      <row iso_code="de" string_name="ui_skill_bard" text="Barde" />
+      <row iso_code="en" string_name="ui_skill_bard" text="Bard" />
+      <row iso_code="es" string_name="ui_skill_bard" text="Bardo" />
+      <row iso_code="fr" string_name="ui_skill_bard" text="Barde" />
+      <row iso_code="it" string_name="ui_skill_bard" text="Bardo" />
+      <row iso_code="pl" string_name="ui_skill_bard" text="Bard" />
+      <row iso_code="ru" string_name="ui_skill_bard" text="????" />
+      <row iso_code="tr" string_name="ui_skill_bard" text="Ozan" />
+      <row iso_code="zh-CH" string_name="ui_skill_bard" text="??" />
+      <row iso_code="" string_name="ui_skill_bard" text="Bard" />
+      <row iso_code="" string_name="ui_skill_bard" text="Bard" />
+      <row iso_code="cs" string_name="ui_skill_cooking" text="Va?en?" />
+      <row iso_code="de" string_name="ui_skill_cooking" text="Kochen" />
+      <row iso_code="en" string_name="ui_skill_cooking" text="Cooking" />
+      <row iso_code="es" string_name="ui_skill_cooking" text="Cocina" />
+      <row iso_code="fr" string_name="ui_skill_cooking" text="Cuisine" />
+      <row iso_code="it" string_name="ui_skill_cooking" text="Cucina" />
+      <row iso_code="pl" string_name="ui_skill_cooking" text="Gotowanie" />
+      <row iso_code="ru" string_name="ui_skill_cooking" text="?????????" />
+      <row iso_code="tr" string_name="ui_skill_cooking" text="A???l?k" />
+      <row iso_code="zh-CH" string_name="ui_skill_cooking" text="??" />
+      <row iso_code="" string_name="ui_skill_cooking" text="Cooking" />
+      <row iso_code="" string_name="ui_skill_cooking" text="Cooking" />
+      <row iso_code="cs" string_name="ui_skill_defense" text="Obrana" />
+      <row iso_code="de" string_name="ui_skill_defense" text="Verteidigung" />
+      <row iso_code="en" string_name="ui_skill_defense" text="Defence" />
+      <row iso_code="es" string_name="ui_skill_defense" text="Defensa" />
+      <row iso_code="fr" string_name="ui_skill_defense" text="D?fense" />
+      <row iso_code="it" string_name="ui_skill_defense" text="Difesa" />
+      <row iso_code="pl" string_name="ui_skill_defense" text="Obrona" />
+      <row iso_code="ru" string_name="ui_skill_defense" text="??????" />
+      <row iso_code="tr" string_name="ui_skill_defense" text="Savunma" />
+      <row iso_code="zh-CH" string_name="ui_skill_defense" text="??" />
+      <row iso_code="" string_name="ui_skill_defense" text="Defence" />
+      <row iso_code="" string_name="ui_skill_defense" text="Defence" />
+      <row iso_code="cs" string_name="ui_skill_drinking" text="Pij?ctv?" />
+      <row iso_code="de" string_name="ui_skill_drinking" text="Trinkfestigkeit" />
+      <row iso_code="en" string_name="ui_skill_drinking" text="Drinking" />
+      <row iso_code="es" string_name="ui_skill_drinking" text="Bebida" />
+      <row iso_code="fr" string_name="ui_skill_drinking" text="Alcool" />
+      <row iso_code="it" string_name="ui_skill_drinking" text="Bevitore" />
+      <row iso_code="pl" string_name="ui_skill_drinking" text="Picie" />
+      <row iso_code="ru" string_name="ui_skill_drinking" text="????????" />
+      <row iso_code="tr" string_name="ui_skill_drinking" text="??ki ??me" />
+      <row iso_code="zh-CH" string_name="ui_skill_drinking" text="??" />
+      <row iso_code="" string_name="ui_skill_drinking" text="Drinking" />
+      <row iso_code="" string_name="ui_skill_drinking" text="Drinking" />
+      <row iso_code="cs" string_name="ui_skill_fencing" text="Bojov? zdatnost" />
+      <row iso_code="de" string_name="ui_skill_fencing" text="Kampf" />
+      <row iso_code="en" string_name="ui_skill_fencing" text="Warfare" />
+      <row iso_code="es" string_name="ui_skill_fencing" text="Arte de la guerra" />
+      <row iso_code="fr" string_name="ui_skill_fencing" text="Combat" />
+      <row iso_code="it" string_name="ui_skill_fencing" text="Arte bellica" />
+      <row iso_code="pl" string_name="ui_skill_fencing" text="Sztuka walki" />
+      <row iso_code="ru" string_name="ui_skill_fencing" text="??????? ???" />
+      <row iso_code="tr" string_name="ui_skill_fencing" text="M?cadele" />
+      <row iso_code="zh-CH" string_name="ui_skill_fencing" text="??" />
+      <row iso_code="" string_name="ui_skill_fencing" text="Bojov? zdatnost" />
+      <row iso_code="" string_name="ui_skill_fencing" text="Warfare" />
+      <row iso_code="cs" string_name="ui_skill_first_aid" text="Prvn? pomoc" />
+      <row iso_code="de" string_name="ui_skill_first_aid" text="Erste Hilfe" />
+      <row iso_code="en" string_name="ui_skill_first_aid" text="First Aid" />
+      <row iso_code="es" string_name="ui_skill_first_aid" text="Primeros auxilios" />
+      <row iso_code="fr" string_name="ui_skill_first_aid" text="Premiers soins" />
+      <row iso_code="it" string_name="ui_skill_first_aid" text="Primo soccorso" />
+      <row iso_code="pl" string_name="ui_skill_first_aid" text="Pierwsza pomoc" />
+      <row iso_code="ru" string_name="ui_skill_first_aid" text="?????? ??????" />
+      <row iso_code="tr" string_name="ui_skill_first_aid" text="?lk Yard?m" />
+      <row iso_code="zh-CH" string_name="ui_skill_first_aid" text="??" />
+      <row iso_code="" string_name="ui_skill_first_aid" text="First Aid" />
+      <row iso_code="" string_name="ui_skill_first_aid" text="First Aid" />
+      <row iso_code="cs" string_name="ui_skill_fishing" text="Ryba?en?" />
+      <row iso_code="de" string_name="ui_skill_fishing" text="Angeln" />
+      <row iso_code="en" string_name="ui_skill_fishing" text="Fishing" />
+      <row iso_code="es" string_name="ui_skill_fishing" text="Pesca" />
+      <row iso_code="fr" string_name="ui_skill_fishing" text="P?che" />
+      <row iso_code="it" string_name="ui_skill_fishing" text="Pesca" />
+      <row iso_code="pl" string_name="ui_skill_fishing" text="Rybo??wstwo" />
+      <row iso_code="ru" string_name="ui_skill_fishing" text="?????? ?????" />
+      <row iso_code="tr" string_name="ui_skill_fishing" text="Bal?k??l?k" />
+      <row iso_code="zh-CH" string_name="ui_skill_fishing" text="??" />
+      <row iso_code="" string_name="ui_skill_fishing" text="Fishing" />
+      <row iso_code="" string_name="ui_skill_fishing" text="Fishing" />
+      <row iso_code="cs" string_name="ui_skill_herbalism" text="Bylink??stv?" />
+      <row iso_code="de" string_name="ui_skill_herbalism" text="Kr?uterkunde" />
+      <row iso_code="en" string_name="ui_skill_herbalism" text="Herbalism" />
+      <row iso_code="es" string_name="ui_skill_herbalism" text="Herborister?a" />
+      <row iso_code="fr" string_name="ui_skill_herbalism" text="Herboristerie" />
+      <row iso_code="it" string_name="ui_skill_herbalism" text="Erboristeria" />
+      <row iso_code="pl" string_name="ui_skill_herbalism" text="Zielarstwo" />
+      <row iso_code="ru" string_name="ui_skill_herbalism" text="????????????" />
+      <row iso_code="tr" string_name="ui_skill_herbalism" text="Otac?l?k" />
+      <row iso_code="zh-CH" string_name="ui_skill_herbalism" text="??" />
+      <row iso_code="" string_name="ui_skill_herbalism" text="Herbalism" />
+      <row iso_code="" string_name="ui_skill_herbalism" text="Herbalism" />
+      <row iso_code="cs" string_name="ui_skill_horse_whispering" text="Jezdectv?" />
+      <row iso_code="de" string_name="ui_skill_horse_whispering" text="Reiten" />
+      <row iso_code="en" string_name="ui_skill_horse_whispering" text="Horsemanship" />
+      <row iso_code="es" string_name="ui_skill_horse_whispering" text="Equitaci?n" />
+      <row iso_code="fr" string_name="ui_skill_horse_whispering" text="?quitation" />
+      <row iso_code="it" string_name="ui_skill_horse_whispering" text="Cavallerizzo" />
+      <row iso_code="pl" string_name="ui_skill_horse_whispering" text="Jazda konna" />
+      <row iso_code="ru" string_name="ui_skill_horse_whispering" text="???????? ????" />
+      <row iso_code="tr" string_name="ui_skill_horse_whispering" text="Binicilik" />
+      <row iso_code="zh-CH" string_name="ui_skill_horse_whispering" text="??" />
+      <row iso_code="" string_name="ui_skill_horse_whispering" text="Horsemanship" />
+      <row iso_code="" string_name="ui_skill_horse_whispering" text="Horse Riding" />
+      <row iso_code="cs" string_name="ui_skill_hunter" text="Lov" />
+      <row iso_code="de" string_name="ui_skill_hunter" text="Jagen" />
+      <row iso_code="en" string_name="ui_skill_hunter" text="Hunting" />
+      <row iso_code="es" string_name="ui_skill_hunter" text="Cacer?a" />
+      <row iso_code="fr" string_name="ui_skill_hunter" text="Chasse" />
+      <row iso_code="it" string_name="ui_skill_hunter" text="Caccia" />
+      <row iso_code="pl" string_name="ui_skill_hunter" text="?owy" />
+      <row iso_code="ru" string_name="ui_skill_hunter" text="?????" />
+      <row iso_code="tr" string_name="ui_skill_hunter" text="Avc?l?k" />
+      <row iso_code="zh-CH" string_name="ui_skill_hunter" text="??" />
+      <row iso_code="" string_name="ui_skill_hunter" text="Hunter" />
+      <row iso_code="" string_name="ui_skill_hunter" text="Hunter" />
+      <row iso_code="cs" string_name="ui_skill_lockpicking" text="Vylamov?n? z?mk?" />
+      <row iso_code="de" string_name="ui_skill_lockpicking" text="Schl?sserknacken" />
+      <row iso_code="en" string_name="ui_skill_lockpicking" text="Lockpicking" />
+      <row iso_code="es" string_name="ui_skill_lockpicking" text="Forzar cerradura" />
+      <row iso_code="fr" string_name="ui_skill_lockpicking" text="Crochetage" />
+      <row iso_code="it" string_name="ui_skill_lockpicking" text="Scassinamento" />
+      <row iso_code="pl" string_name="ui_skill_lockpicking" text="W?amywanie" />
+      <row iso_code="ru" string_name="ui_skill_lockpicking" text="???????? ??????" />
+      <row iso_code="tr" string_name="ui_skill_lockpicking" text="Maymuncuk" />
+      <row iso_code="zh-CH" string_name="ui_skill_lockpicking" text="??" />
+      <row iso_code="" string_name="ui_skill_lockpicking" text="Lockpicking" />
+      <row iso_code="" string_name="ui_skill_lockpicking" text="Lockpicking" />
+      <row iso_code="cs" string_name="ui_skill_mining" text="Kut?n?" />
+      <row iso_code="de" string_name="ui_skill_mining" text="Bergbau" />
+      <row iso_code="en" string_name="ui_skill_mining" text="Mining" />
+      <row iso_code="es" string_name="ui_skill_mining" text="Miner?a" />
+      <row iso_code="fr" string_name="ui_skill_mining" text="Minage" />
+      <row iso_code="it" string_name="ui_skill_mining" text="Estrazione" />
+      <row iso_code="pl" string_name="ui_skill_mining" text="G?rnictwo" />
+      <row iso_code="ru" string_name="ui_skill_mining" text="?????? ????" />
+      <row iso_code="tr" string_name="ui_skill_mining" text="Madencilik" />
+      <row iso_code="zh-CH" string_name="ui_skill_mining" text="??" />
+      <row iso_code="" string_name="ui_skill_mining" text="Mining" />
+      <row iso_code="" string_name="ui_skill_mining" text="Mining" />
+      <row iso_code="cs" string_name="ui_skill_pickpocketing" text="Kaps??stv?" />
+      <row iso_code="de" string_name="ui_skill_pickpocketing" text="Taschendiebstahl" />
+      <row iso_code="en" string_name="ui_skill_pickpocketing" text="Pickpocketing" />
+      <row iso_code="es" string_name="ui_skill_pickpocketing" text="Robar bolsillos" />
+      <row iso_code="fr" string_name="ui_skill_pickpocketing" text="Vol ? la tire" />
+      <row iso_code="it" string_name="ui_skill_pickpocketing" text="Borseggio" />
+      <row iso_code="pl" string_name="ui_skill_pickpocketing" text="Drobna kradzie?" />
+      <row iso_code="ru" string_name="ui_skill_pickpocketing" text="????????? ?????" />
+      <row iso_code="tr" string_name="ui_skill_pickpocketing" text="Yankesicilik" />
+      <row iso_code="zh-CH" string_name="ui_skill_pickpocketing" text="??" />
+      <row iso_code="" string_name="ui_skill_pickpocketing" text="Pickpocketing" />
+      <row iso_code="" string_name="ui_skill_pickpocketing" text="Pickpocketing" />
+      <row iso_code="cs" string_name="ui_skill_reading" text="?ten?" />
+      <row iso_code="de" string_name="ui_skill_reading" text="Lesen" />
+      <row iso_code="en" string_name="ui_skill_reading" text="Reading" />
+      <row iso_code="es" string_name="ui_skill_reading" text="Lectura" />
+      <row iso_code="fr" string_name="ui_skill_reading" text="Lecture" />
+      <row iso_code="it" string_name="ui_skill_reading" text="Lettura" />
+      <row iso_code="pl" string_name="ui_skill_reading" text="Czytanie" />
+      <row iso_code="ru" string_name="ui_skill_reading" text="??????" />
+      <row iso_code="tr" string_name="ui_skill_reading" text="Okuma" />
+      <row iso_code="zh-CH" string_name="ui_skill_reading" text="??" />
+      <row iso_code="" string_name="ui_skill_reading" text="Reading" />
+      <row iso_code="" string_name="ui_skill_reading" text="Reading" />
+      <row iso_code="cs" string_name="ui_skill_sharpening" text="?dr?ba" />
+      <row iso_code="de" string_name="ui_skill_sharpening" text="Reparieren" />
+      <row iso_code="en" string_name="ui_skill_sharpening" text="Maintenance" />
+      <row iso_code="es" string_name="ui_skill_sharpening" text="Mantenimiento" />
+      <row iso_code="fr" string_name="ui_skill_sharpening" text="Entretien" />
+      <row iso_code="it" string_name="ui_skill_sharpening" text="Manutenzione" />
+      <row iso_code="pl" string_name="ui_skill_sharpening" text="Konserwacja" />
+      <row iso_code="ru" string_name="ui_skill_sharpening" text="???????" />
+      <row iso_code="tr" string_name="ui_skill_sharpening" text="Bak?m" />
+      <row iso_code="zh-CH" string_name="ui_skill_sharpening" text="??" />
+      <row iso_code="" string_name="ui_skill_sharpening" text="Maintenance" />
+      <row iso_code="" string_name="ui_skill_sharpening" text="Maintenance" />
+      <row iso_code="cs" string_name="ui_skill_shoemaking" text="?evcovstv?" />
+      <row iso_code="de" string_name="ui_skill_shoemaking" text="Schuhmacherei" />
+      <row iso_code="en" string_name="ui_skill_shoemaking" text="Cobbler" />
+      <row iso_code="es" string_name="ui_skill_shoemaking" text="Zapatero" />
+      <row iso_code="fr" string_name="ui_skill_shoemaking" text="Cordonnier" />
+      <row iso_code="it" string_name="ui_skill_shoemaking" text="Calzolaio" />
+      <row iso_code="pl" string_name="ui_skill_shoemaking" text="Szewc" />
+      <row iso_code="ru" string_name="ui_skill_shoemaking" text="????????" />
+      <row iso_code="tr" string_name="ui_skill_shoemaking" text="Yamac?" />
+      <row iso_code="zh-CH" string_name="ui_skill_shoemaking" text="??" />
+      <row iso_code="" string_name="ui_skill_shoemaking" text="Shoemaking" />
+      <row iso_code="" string_name="ui_skill_shoemaking" text="Shoemaking" />
+      <row iso_code="cs" string_name="ui_skill_smithing" text="Kov??stv?" />
+      <row iso_code="de" string_name="ui_skill_smithing" text="Schmiedekunst" />
+      <row iso_code="en" string_name="ui_skill_smithing" text="Smithing" />
+      <row iso_code="es" string_name="ui_skill_smithing" text="Herrer?a" />
+      <row iso_code="fr" string_name="ui_skill_smithing" text="Forge" />
+      <row iso_code="it" string_name="ui_skill_smithing" text="Forgiatura" />
+      <row iso_code="pl" string_name="ui_skill_smithing" text="Kowalstwo" />
+      <row iso_code="ru" string_name="ui_skill_smithing" text="????????? ????" />
+      <row iso_code="tr" string_name="ui_skill_smithing" text="Demircilik" />
+      <row iso_code="zh-CH" string_name="ui_skill_smithing" text="??" />
+      <row iso_code="" string_name="ui_skill_smithing" text="Smithing" />
+      <row iso_code="" string_name="ui_skill_smithing" text="Smithing" />
+      <row iso_code="cs" string_name="ui_skill_stealth" text="Pl??en?" />
+      <row iso_code="de" string_name="ui_skill_stealth" text="Heimlichkeit" />
+      <row iso_code="en" string_name="ui_skill_stealth" text="Stealth" />
+      <row iso_code="es" string_name="ui_skill_stealth" text="Sigilo" />
+      <row iso_code="fr" string_name="ui_skill_stealth" text="Furtivit?" />
+      <row iso_code="it" string_name="ui_skill_stealth" text="Furtivit?" />
+      <row iso_code="pl" string_name="ui_skill_stealth" text="Skradanie si?" />
+      <row iso_code="ru" string_name="ui_skill_stealth" text="????????????" />
+      <row iso_code="tr" string_name="ui_skill_stealth" text="Gizlilik" />
+      <row iso_code="zh-CH" string_name="ui_skill_stealth" text="??" />
+      <row iso_code="" string_name="ui_skill_stealth" text="Stealth" />
+      <row iso_code="" string_name="ui_skill_stealth" text="Stealth" />
+      <row iso_code="cs" string_name="ui_skill_tailoring" text="Krej?ovstv?" />
+      <row iso_code="de" string_name="ui_skill_tailoring" text="Schneiderei" />
+      <row iso_code="en" string_name="ui_skill_tailoring" text="Tailor" />
+      <row iso_code="es" string_name="ui_skill_tailoring" text="Sastre" />
+      <row iso_code="fr" string_name="ui_skill_tailoring" text="Tailleur" />
+      <row iso_code="it" string_name="ui_skill_tailoring" text="Sartoria" />
+      <row iso_code="pl" string_name="ui_skill_tailoring" text="Krawiec" />
+      <row iso_code="ru" string_name="ui_skill_tailoring" text="???????" />
+      <row iso_code="tr" string_name="ui_skill_tailoring" text="Terzi" />
+      <row iso_code="zh-CH" string_name="ui_skill_tailoring" text="??" />
+      <row iso_code="" string_name="ui_skill_tailoring" text="Tailoring" />
+      <row iso_code="" string_name="ui_skill_tailoring" text="Tailoring" />
+      <row iso_code="cs" string_name="ui_skill_weapon_axe" text="Sekery" />
+      <row iso_code="de" string_name="ui_skill_weapon_axe" text="Axt" />
+      <row iso_code="en" string_name="ui_skill_weapon_axe" text="Axe" />
+      <row iso_code="es" string_name="ui_skill_weapon_axe" text="Hacha" />
+      <row iso_code="fr" string_name="ui_skill_weapon_axe" text="Hache" />
+      <row iso_code="it" string_name="ui_skill_weapon_axe" text="Ascia" />
+      <row iso_code="pl" string_name="ui_skill_weapon_axe" text="Siekiera" />
+      <row iso_code="ru" string_name="ui_skill_weapon_axe" text="??? ???????" />
+      <row iso_code="tr" string_name="ui_skill_weapon_axe" text="Balta" />
+      <row iso_code="zh-CH" string_name="ui_skill_weapon_axe" text="??" />
+      <row iso_code="" string_name="ui_skill_weapon_axe" text="Axe" />
+      <row iso_code="" string_name="ui_skill_weapon_axe" text="Axe" />
+      <row iso_code="cs" string_name="ui_skill_weapon_bow" text="Lukost?elba" />
+      <row iso_code="de" string_name="ui_skill_weapon_bow" text="Bogen" />
+      <row iso_code="en" string_name="ui_skill_weapon_bow" text="Bow" />
+      <row iso_code="es" string_name="ui_skill_weapon_bow" text="Arco" />
+      <row iso_code="fr" string_name="ui_skill_weapon_bow" text="Arc" />
+      <row iso_code="it" string_name="ui_skill_weapon_bow" text="Arco" />
+      <row iso_code="pl" string_name="ui_skill_weapon_bow" text="?uk" />
+      <row iso_code="ru" string_name="ui_skill_weapon_bow" text="???????? ?? ????" />
+      <row iso_code="tr" string_name="ui_skill_weapon_bow" text="Yay" />
+      <row iso_code="zh-CH" string_name="ui_skill_weapon_bow" text="??" />
+      <row iso_code="" string_name="ui_skill_weapon_bow" text="Bow" />
+      <row iso_code="" string_name="ui_skill_weapon_bow" text="Bow" />
+      <row iso_code="cs" string_name="ui_skill_weapon_crossbow" text="Ku?e" />
+      <row iso_code="de" string_name="ui_skill_weapon_crossbow" text="Armbrust" />
+      <row iso_code="en" string_name="ui_skill_weapon_crossbow" text="Crossbow" />
+      <row iso_code="es" string_name="ui_skill_weapon_crossbow" text="Ballesta" />
+      <row iso_code="fr" string_name="ui_skill_weapon_crossbow" text="Arbal?te" />
+      <row iso_code="it" string_name="ui_skill_weapon_crossbow" text="Balestra" />
+      <row iso_code="pl" string_name="ui_skill_weapon_crossbow" text="Kusza" />
+      <row iso_code="ru" string_name="ui_skill_weapon_crossbow" text="???????? ?? ????????" />
+      <row iso_code="tr" string_name="ui_skill_weapon_crossbow" text="Arbalet" />
+      <row iso_code="zh-CH" string_name="ui_skill_weapon_crossbow" text="??" />
+      <row iso_code="" string_name="ui_skill_weapon_crossbow" text="Crossbow" />
+      <row iso_code="" string_name="ui_skill_weapon_crossbow" text="Crossbow" />
+      <row iso_code="cs" string_name="ui_skill_weapon_dagger" text="D?ky" />
+      <row iso_code="de" string_name="ui_skill_weapon_dagger" text="Dolch" />
+      <row iso_code="en" string_name="ui_skill_weapon_dagger" text="Dagger" />
+      <row iso_code="es" string_name="ui_skill_weapon_dagger" text="Daga" />
+      <row iso_code="fr" string_name="ui_skill_weapon_dagger" text="Dague" />
+      <row iso_code="it" string_name="ui_skill_weapon_dagger" text="Pugnale" />
+      <row iso_code="pl" string_name="ui_skill_weapon_dagger" text="Sztylet" />
+      <row iso_code="ru" string_name="ui_skill_weapon_dagger" text="??? ????????" />
+      <row iso_code="tr" string_name="ui_skill_weapon_dagger" text="Han?er" />
+      <row iso_code="zh-CH" string_name="ui_skill_weapon_dagger" text="??" />
+      <row iso_code="" string_name="ui_skill_weapon_dagger" text="Dagger" />
+      <row iso_code="" string_name="ui_skill_weapon_dagger" text="Dagger" />
+      <row iso_code="cs" string_name="ui_skill_weapon_large" text="D?evcov? zbran?" />
+      <row iso_code="de" string_name="ui_skill_weapon_large" text="Stangenwaffe" />
+      <row iso_code="en" string_name="ui_skill_weapon_large" text="Polearm" />
+      <row iso_code="es" string_name="ui_skill_weapon_large" text="Arma de asta" />
+      <row iso_code="fr" string_name="ui_skill_weapon_large" text="Arme d'hast" />
+      <row iso_code="it" string_name="ui_skill_weapon_large" text="Arma ad asta" />
+      <row iso_code="pl" string_name="ui_skill_weapon_large" text="Bro? drzewcowa" />
+      <row iso_code="ru" string_name="ui_skill_weapon_large" text="??? ????????? ???????" />
+      <row iso_code="tr" string_name="ui_skill_weapon_large" text="G?nderli  Silah" />
+      <row iso_code="zh-CH" string_name="ui_skill_weapon_large" text="????" />
+      <row iso_code="" string_name="ui_skill_weapon_large" text="Large Weapon" />
+      <row iso_code="" string_name="ui_skill_weapon_large" text="Long Weapon" />
+      <row iso_code="cs" string_name="ui_skill_weapon_mace" text="Drtiv? zbran?" />
+      <row iso_code="de" string_name="ui_skill_weapon_mace" text="Streitkolben" />
+      <row iso_code="en" string_name="ui_skill_weapon_mace" text="Mace" />
+      <row iso_code="es" string_name="ui_skill_weapon_mace" text="Maza" />
+      <row iso_code="fr" string_name="ui_skill_weapon_mace" text="Massue" />
+      <row iso_code="it" string_name="ui_skill_weapon_mace" text="Mazza" />
+      <row iso_code="pl" string_name="ui_skill_weapon_mace" text="Buzdygan" />
+      <row iso_code="ru" string_name="ui_skill_weapon_mace" text="??? ???????" />
+      <row iso_code="tr" string_name="ui_skill_weapon_mace" text="Topuz" />
+      <row iso_code="zh-CH" string_name="ui_skill_weapon_mace" text="???" />
+      <row iso_code="" string_name="ui_skill_weapon_mace" text="Mace" />
+      <row iso_code="" string_name="ui_skill_weapon_mace" text="Mace" />
+      <row iso_code="cs" string_name="ui_skill_weapon_shield" text="?t?ty" />
+      <row iso_code="de" string_name="ui_skill_weapon_shield" text="Schild" />
+      <row iso_code="en" string_name="ui_skill_weapon_shield" text="Shield" />
+      <row iso_code="es" string_name="ui_skill_weapon_shield" text="Escudo" />
+      <row iso_code="fr" string_name="ui_skill_weapon_shield" text="Bouclier" />
+      <row iso_code="it" string_name="ui_skill_weapon_shield" text="Scudo" />
+      <row iso_code="pl" string_name="ui_skill_weapon_shield" text="Tarcza" />
+      <row iso_code="ru" string_name="ui_skill_weapon_shield" text="???????? ?????" />
+      <row iso_code="tr" string_name="ui_skill_weapon_shield" text="Kalkan" />
+      <row iso_code="zh-CH" string_name="ui_skill_weapon_shield" text="??" />
+      <row iso_code="" string_name="ui_skill_weapon_shield" text="Shield" />
+      <row iso_code="" string_name="ui_skill_weapon_shield" text="Shield" />
+      <row iso_code="cs" string_name="ui_skill_weapon_sword" text="Se?n? zbran?" />
+      <row iso_code="de" string_name="ui_skill_weapon_sword" text="Schwert" />
+      <row iso_code="en" string_name="ui_skill_weapon_sword" text="Sword" />
+      <row iso_code="es" string_name="ui_skill_weapon_sword" text="Espada" />
+      <row iso_code="fr" string_name="ui_skill_weapon_sword" text="?p?e" />
+      <row iso_code="it" string_name="ui_skill_weapon_sword" text="Spada" />
+      <row iso_code="pl" string_name="ui_skill_weapon_sword" text="Miecz" />
+      <row iso_code="ru" string_name="ui_skill_weapon_sword" text="??? ?????" />
+      <row iso_code="tr" string_name="ui_skill_weapon_sword" text="K?l??" />
+      <row iso_code="zh-CH" string_name="ui_skill_weapon_sword" text="??" />
+      <row iso_code="" string_name="ui_skill_weapon_sword" text="Sword" />
+      <row iso_code="" string_name="ui_skill_weapon_sword" text="Sword" />
+      <row iso_code="cs" string_name="ui_skill_weapon_unarmed" text="Boj beze zbran?" />
+      <row iso_code="de" string_name="ui_skill_weapon_unarmed" text="Faustkampf" />
+      <row iso_code="en" string_name="ui_skill_weapon_unarmed" text="Unarmed" />
+      <row iso_code="es" string_name="ui_skill_weapon_unarmed" text="Sin arma" />
+      <row iso_code="fr" string_name="ui_skill_weapon_unarmed" text="Combat ? mains nues" />
+      <row iso_code="it" string_name="ui_skill_weapon_unarmed" text="Corpo a corpo" />
+      <row iso_code="pl" string_name="ui_skill_weapon_unarmed" text="Walka wr?cz" />
+      <row iso_code="ru" string_name="ui_skill_weapon_unarmed" text="??? ??? ??????" />
+      <row iso_code="tr" string_name="ui_skill_weapon_unarmed" text="Silahs?z" />
+      <row iso_code="zh-CH" string_name="ui_skill_weapon_unarmed" text="??" />
+      <row iso_code="" string_name="ui_skill_weapon_unarmed" text="Unarmed" />
+      <row iso_code="" string_name="ui_skill_weapon_unarmed" text="Unarmed Combat" />
+      <row iso_code="cs" string_name="ui_skill_weaponsmithing" text="Zbroj??stv?" />
+      <row iso_code="de" string_name="ui_skill_weaponsmithing" text="Waffenschmiedekunst" />
+      <row iso_code="en" string_name="ui_skill_weaponsmithing" text="Weaponsmith" />
+      <row iso_code="es" string_name="ui_skill_weaponsmithing" text="Espadero" />
+      <row iso_code="fr" string_name="ui_skill_weaponsmithing" text="Forge d'armes" />
+      <row iso_code="it" string_name="ui_skill_weaponsmithing" text="Armaiolo" />
+      <row iso_code="pl" string_name="ui_skill_weaponsmithing" text="Miecznik" />
+      <row iso_code="ru" string_name="ui_skill_weaponsmithing" text="?????????" />
+      <row iso_code="tr" string_name="ui_skill_weaponsmithing" text="Silah Ustas?" />
+      <row iso_code="zh-CH" string_name="ui_skill_weaponsmithing" text="????" />
+      <row iso_code="" string_name="ui_skill_weaponsmithing" text="Weaponsmithing" />
+      <row iso_code="" string_name="ui_skill_weaponsmithing" text="Weaponsmithing" />
+    </rows>
+  </table>
+</database>

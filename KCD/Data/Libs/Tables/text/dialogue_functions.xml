@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="dialogue_functions" version="1">
+    <header>
+      <column name="expression" type="character varying" />
+      <column name="function_name" type="character varying" />
+    </header>
+    <rows>
+      <row expression="HourOfDay() &gt; 21 | HourOfDay() &lt; 5" function_name="afterWakingUpFarewell_isNightTime" />
+      <row expression="GetActorAngriness() &lt; 0.35" function_name="angriness_canSing" />
+      <row expression="IsObjectiveStarted('q_master_main','talmberIsNotAvailable')" function_name="battleOfTalmberk" />
+      <row expression="var('skillCheckAttemptMade') == 0" function_name="crime_confrontation_skillCheck_available" />
+      <row expression="CallScriptFunctionInTable('CrimeUtils', 'CalculateConfrontationSkillCheckDifficulty') == 1" function_name="crime_confrontation_skillCheck_difficulty_1" />
+      <row expression="CallScriptFunctionInTable('CrimeUtils', 'CalculateConfrontationSkillCheckDifficulty') == 2" function_name="crime_confrontation_skillCheck_difficulty_2" />
+      <row expression="CallScriptFunctionInTable('CrimeUtils', 'CalculateConfrontationSkillCheckDifficulty') == 3" function_name="crime_confrontation_skillCheck_difficulty_3" />
+      <row expression="CallScriptFunctionInTable('CrimeUtils', 'CalculateConfrontationSkillCheckDifficulty') == 4" function_name="crime_confrontation_skillCheck_difficulty_4" />
+      <row expression="HasSoulTag('wantsToUseGenericSearchBark')" function_name="crime_wantsToUseGenericSearchBark" />
+      <row expression="GetTrueRelationship()[1] &lt; 0.1 &amp; !HasSoulTag('expectsDude')[1]" function_name="dialog_willDenyDialog" />
+      <row expression="gvar('shop_input_canceled') == 0" function_name="dialogUtils_moneySliderInput_passed" />
+      <row expression="CallScriptFunctionInTable('DialogUtils','MoneySliderSetupResultNpcLimitFail')" function_name="dialogUtils_moneySliderSetupResult_npcLimitFail" />
+      <row expression="CallScriptFunctionInTable('DialogUtils','MoneySliderSetupResultPlayerLimitFail')" function_name="dialogUtils_moneySliderSetupResult_playerLimitFail" />
+      <row expression="CallScriptFunctionInTable('DialogUtils','MoneySliderSetupResultSuccess')" function_name="dialogUtils_moneySliderSetupResult_success" />
+      <row expression="CallScriptFunctionInTable('EventSystem','HasItemsForSale')" function_name="event_wanderer_HasItemsForSale" />
+      <row expression="HasSoulTag('expectsDude')[1]" function_name="expectsDude" />
+      <row expression="GetBloodiness()['Dude'] &gt; 0.25" function_name="greeting_looksBloody" />
+      <row expression="GetPlayerRelativeCharisma('Default')[1] &gt; 0.5" function_name="greeting_looksFancy" />
+      <row expression="GetArmorRating()['Dude'] &gt; 0.65 &amp; !IsActor('tal_borek')[1] &amp; !IsActor('rat_bernard')[1]" function_name="greeting_looksKnightly" />
+      <row expression="GetDirtiness()['Dude'] &gt; 0.25" function_name="greeting_looksPoor" />
+      <row expression="GetTrueRelationship()[1] &lt; 0.25" function_name="greeting_reputation_1" />
+      <row expression="GetTrueRelationship()[1] &gt;= 0.2 &amp; GetTrueRelationship()[1] &lt; 0.35" function_name="greeting_reputation_2" />
+      <row expression="GetTrueRelationship()[1] &gt;= 0.3 &amp; GetTrueRelationship()[1] &lt; 0.7" function_name="greeting_reputation_3" />
+      <row expression="GetTrueRelationship()[1] &gt;= 0.65 &amp; GetTrueRelationship()[1] &lt; 0.85" function_name="greeting_reputation_4" />
+      <row expression="GetTrueRelationship()[1] &gt;= 0.8" function_name="greeting_reputation_5" />
+      <row expression="gvar('shop_progress_value') &gt; 0.55" function_name="haggle_impatienceCritical" />
+      <row expression="HasSoulTag('hasRenegadeCrimeRole')" function_name="hasRenegadeCrimeRole" />
+      <row expression="HasSoulTag('hasSoldierCrimeRole')" function_name="hasSoldierCrimeRole" />
+      <row expression="IsInsideAreaWithLabel('stables') &amp; HasBehaviorTag('work')[1]" function_name="horsetraders_horseTradesAvailable" />
+      <row expression="!IsQuestStarted('q_captiveInMerhojed') &amp; !IsQuestStarted('q_counterfeiters')" function_name="horsetraders_horseTradesAvailableAtMerhojed" />
+      <row expression="!IsQuestStarted('q_massacre') &amp; !IsQuestStarted('q_colliers')" function_name="horsetraders_horseTradesAvailableAtNeuhoff" />
+      <row expression="HasSoulTag('camping')" function_name="isCamping" />
+      <row expression="HourOfDay() &gt;= 5.50 AND HourOfDay() &lt; 19.50" function_name="IsDayTime" />
+      <row expression="HasSoulTag('camp_guarding')" function_name="isGuardingCamp" />
+      <row expression="IsActorInside('Prib_location')" function_name="isInPribyslawitzCamp" />
+      <row expression="HasSoulTag('trainingDuelist')" function_name="isTrainingDuelist" />
+      <row expression="IsObjectiveTrackedCompleted('q_millerDate','hasAlcohol') AND     IsObjectiveStarted('q_millerDate','hasAlcohol')" function_name="millerDate_giftAlcoholGiftable" />
+      <row expression="IsObjectiveTrackedCompleted('q_millerDate','hasDagger') AND     IsObjectiveStarted('q_millerDate','hasDagger')" function_name="millerDate_giftDaggerGiftable" />
+      <row expression="IsObjectiveTrackedCompleted('q_millerDate','hasDecoration') AND     IsObjectiveStarted('q_millerDate','hasDecoration')" function_name="millerDate_giftDecorationGiftable" />
+      <row expression="IsObjectiveTrackedCompleted('q_millerDate','hasLadyDress') AND     IsObjectiveStarted('q_millerDate','hasLadyDress')" function_name="millerDate_giftDressGiftable" />
+      <row expression="(CountOfActorItems('e8676cb3-98a9-4a71-949e-cb463e6f7732')[0] &gt; 0)  OR   (CountOfActorItems('7b1c57a3-54fd-441f-8cad-21157bd1a85b')[0] &gt; 0)  OR   (CountOfActorItems('a4f0f4c8-dc3f-4cb2-be89-f0f56fbb09fa')[0] &gt; 0)" function_name="millerDate_giftTrophyGiftable" />
+      <row expression="GetActorMoney()[1] &gt; 0.5" function_name="minigame_dice_enoughMoney" />
+      <row expression="!HasSoulTag('isCircator')[0] &amp; !HasSoulTag('isCircator')[1]" function_name="monastery_bothAreNotCircators" />
+      <row expression="!HasSoulTag('isCook')[0] &amp; !HasSoulTag('isCook')[1]" function_name="monastery_bothAreNotCooks" />
+      <row expression="!HasSoulTag('isNovic')[0] &amp; !HasSoulTag('isNovic')[1]" function_name="monastery_bothAreNotNovics" />
+      <row expression="!IsActor('mon_novic_jodok')[0] &amp; !IsActor('mon_novic_jodok')[1]" function_name="monastery_notJodok" />
+      <row expression="!IsActor('mon_novic_jodok')[0] &amp; !IsActor('mon_novic_jodok')[1] &amp; !IsActor('mon_novic_lukas')[0] &amp; !IsActor('mon_novic_lukas')[1]" function_name="monastery_notJodokOrLukas" />
+      <row expression="GetActorAngriness()[0] &lt; 0.2" function_name="neighbourGreetings_angriness_1_none" />
+      <row expression="GetActorAngriness()[0] &gt; 0.15 &amp; GetActorAngriness()[0] &lt; 0.4" function_name="neighbourGreetings_angriness_2_low" />
+      <row expression="GetActorAngriness()[0] &gt; 0.35 &amp; GetActorAngriness()[0] &lt; 0.6" function_name="neighbourGreetings_angriness_3_medium" />
+      <row expression="GetActorAngriness()[0] &gt; 0.5" function_name="neighbourGreetings_angriness_4_high" />
+      <row expression="IsQuestCompleted('q_dlc_homes') OR IsObjectiveStarted('q_dlc_homes','reportToDivis')" function_name="newhomes_constructionCompleted" />
+      <row expression="!IsQuestStarted('q_counterOffensive') AND   !IsQuestStarted('q_talmberkBarbican') AND   !IsQuestStarted('q_istvans_reinforcements') AND   (   (    IsQuestStarted('q_defence') AND     IsObjectiveCompleted('q_defence','defendTrebuchet')   )   OR   !IsQuestStarted('q_defence')  ) AND  (   (    IsQuestStarted('q_conquest') AND    !IsObjectiveCompleted('q_conquest','intro') AND    !IsObjectiveStarted('q_conquest','intro')   )   OR   !IsQuestStarted('q_conquest')  ) AND   (   !IsQuestStarted('q_epilogue')    OR   (    IsQuestStarted('q_epilogue') AND     IsObjectiveCompleted('q_epilogue','cin3_end')   )  )" function_name="newhomes_divis_is_available" />
+      <row expression="CallScriptFunctionInTableWithParam('NewHomesLuaAPI','IsStructureBuilt','church')" function_name="newhomes_churchBuilt" />
+      <row expression="var('availableAddonCount') &lt;= 0" function_name="newhomes_locator_allAddonsBuilt" />
+      <row expression="!(var('structure_townHall-2') &gt; 0 OR  var('structure_townHall-3') &gt; 0 OR  var('structure_church-1') &gt; 0 OR  var('structure_church-2') &gt; 0 OR  var('structure_blacksmith-1') &gt; 0 OR  var('structure_baker-1') &gt; 0 OR  var('structure_butcher-1') &gt; 0 OR  var('structure_garrison-1') &gt; 0 OR  var('structure_stables-1') &gt; 0)" function_name="newhomes_locator_allInnerStructuresBuilt" />
+      <row expression="!(var('structure_merchant-1') &gt; 0 OR  var('structure_pub-1') &gt; 0 OR  var('structure_bridge-1') &gt; 0 OR  var('structure_lumberjacks-1') &gt; 0 OR  var('structure_apiary-1') &gt; 0)" function_name="newhomes_locator_allOuterStructuresBuilt" />
+      <row expression="CallScriptFunctionInTableWithParam('NewHomesLuaAPI', 'IsObjectiveHalfComplete', 'church')" function_name="newhomes_objective_churchHalfComplete" />
+      <row expression="CallScriptFunctionInTableWithParam('NewHomesLuaAPI', 'IsObjectiveHalfComplete', 'income')" function_name="newhomes_objective_incomeHalfComplete" />
+      <row expression="CallScriptFunctionInTableWithParam('NewHomesLuaAPI', 'IsObjectiveHalfComplete', 'people')" function_name="newhomes_objective_peopleHalfComplete" />
+      <row expression="HasSoulTag('newhomes_recruits_isRecruited')[1] AND IsActorInside('Prib_location')[1]" function_name="newhomes_recruit_isRecruited" />
+      <row expression="IsQuestCompleted('q_colliers') OR IsQuestCanceled('q_colliers')" function_name="newhomes_recruits_adam" />
+      <row expression="IsQuestCompleted('q_watercarrier') OR IsQuestCanceled('q_watercarrier')" function_name="newhomes_recruits_krojchanzl" />
+      <row expression="IsQuestCompleted('q_debtor') OR IsQuestCanceled('q_debtor')" function_name="newhomes_recruits_kunes" />
+      <row expression="((IsQuestCompleted('q_stone') OR IsQuestCanceled('q_stone')) AND !IsQuestStarted('q_gallowsBrothers')) OR  (IsObjectiveStarted('q_stone','henryRefusedQuest') AND  IsObjectiveCompleted('q_gallowsBrothers','ondrejHang'))" function_name="newhomes_recruits_matusFricek" />
+      <row expression="IsQuestCompleted('a_swordofsheba') OR IsQuestCanceled('a_swordofsheba')" function_name="newhomes_recruits_swordsmith" />
+      <row expression="IsQuestCompleted('q_horse_on_the_run') OR IsQuestCanceled('q_horse_on_the_run')" function_name="newhomes_recruits_vasek" />
+      <row expression="CallScriptFunctionInTable('NewHomesLuaAPI','IsVillageCompletelyBuilt')" function_name="newhomes_villageCompletelyBuilt" />
+      <row expression="!CallScriptFunctionInTable('DialogUtils','IsWealthyCustomer')" function_name="notWealthyCustomer" />
+      <row expression="GetActorMoney()['Dude'] &gt;= gvar('dlg_crimeFineAmount')" function_name="playerHasMoneyForPayment" />
+      <row expression="CountOfActorItems('b38c34b7-6016-4f64-9ba2-65e1ce31d4a1') &gt; 0 | CountOfActorItems('2668d311-8667-4f27-b94b-7f6175678f17') &gt; 0" function_name="potion_hasHealingPotion" />
+      <row expression="IsObjectiveCompleted('q_execIntro','deliverKneeCureToClerk') OR IsObjectiveCompleted('q_auschitz','bedrichIsCured')" function_name="q_auschitz_bedrichIsCured" />
+      <row expression="IsQuestStarted('q_counterfeiters') AND   IsObjectiveStarted('q_counterfeiters', 'findUlrichAfterHorsePursuit') AND   IsObjectiveUnchanged('q_counterfeiters', 'meetWithUlrichInPrivacy')" function_name="q_counterfeiters_ulrichBackInPub" />
+      <row expression="GetArmorRating()['Dude'] &gt; 0.2 AND !LookLikeSuperfaction(1)['Dude']" function_name="q_escapeToTalmberk_lookLikeSoldier" />
+      <row expression="IsQuestStarted('q_escapeToTalmberk') AND  IsObjectiveStarted('q_escapeToTalmberk','talkAboutShop')" function_name="q_escapeToTalmberk_talkAboutShop" />
+      <row expression="IsObjectiveCompleted('q_execExec', 'sabotageOil') &amp; !IsObjectiveCompleted('q_execExec', 'ratOil')" function_name="q_execExec_isSabotaged_oil" />
+      <row expression="IsObjectiveCompleted('q_execExec', 'sabotageRope') &amp; !IsObjectiveCompleted('q_execExec', 'ratRope')" function_name="q_execExec_isSabotaged_rope" />
+      <row expression="IsObjectiveCompleted('q_execExec', 'sabotageSword') &amp; !IsObjectiveCompleted('q_execExec', 'ratSword')" function_name="q_execExec_isSabotaged_sword" />
+      <row expression="IsObjectiveCompleted('q_execExec', 'sabotageTools') &amp; !IsObjectiveCompleted('q_execExec', 'ratTools')" function_name="q_execExec_isSabotaged_tools" />
+      <row expression="IsObjectiveCompleted('q_execExec', 'sabotageTrough') &amp; !IsObjectiveCompleted('q_execExec', 'ratTrough')" function_name="q_execExec_isSabotaged_trough" />
+      <row expression="HasBehaviorTag('work')[1] &amp; IsObjectiveStarted('q_gamblersDen','playTournament')" function_name="q_gamblersDen_canPlayTournament" />
+      <row expression="CountOfActorItems('6f1d0e9e-d532-4476-af7a-e24ea01da040')['Dude'] &gt; CountOfActorItems('6f1d0e9e-d532-4476-af7a-e24ea01da040')['rat_ptacek']" function_name="q_huntPtacek_henryHasMoreHaresThanPtacek" />
+      <row expression="(HourOfDay() &gt;= 6) &amp; (HourOfDay() &lt;= 12)" function_name="q_huntPtacek_isTimeForHunt" />
+      <row expression="(HourOfDay() &gt; 6) &amp; (HourOfDay() &lt; 23)" function_name="q_huntPtacek_notSleepTime" />
+      <row expression="IsObjectiveStarted('q_huntPtacek','returnToCampsite') | IsObjectiveStarted('q_huntPtacek','talkAboutRabbits') | IsObjectiveStarted('q_huntPtacek','waitForPtaceksReturn')" function_name="q_huntPtacek_playerCanTalkAboutHares" />
+      <row expression="!IsObjectiveCompleted('q_huntPtacek','rabbitShootingIsOver') | IsObjectiveCompleted('q_huntPtacek','henryLeftPtacekDuringBoarHunting')" function_name="q_huntPtacek_playerWasNaughtyBeforeBoar" />
+      <row expression="CountOfActorItems('6f1d0e9e-d532-4476-af7a-e24ea01da040')['Dude'] &lt; CountOfActorItems('6f1d0e9e-d532-4476-af7a-e24ea01da040')['rat_ptacek']" function_name="q_huntPtacek_ptacekHasMoreHaresThanHenry" />
+      <row expression="IsQuestAvailable('q_charlatan') AND var('endPriorityDialog') == 1" function_name="q_charlatan_aboutDreamFirstSequenceCondition" />
+      <row expression="IsQuestAvailable('q_charlatan') AND var('endPriorityDialog') == 0 AND IsObjectiveUnchanged('q_charlatan','aboutDream')" function_name="q_charlatan_aboutDreamSecondSequenceCondition" />
+      <row expression="(!IsSeqAvailable(18510) | !q_charlatan_aboutDreamFirstSequenceCondition) &amp; (!IsSeqAvailable(18525) | !q_charlatan_aboutDreamSecondSequenceCondition)" function_name="q_charlatan_canReconsiderBecomingApprentice" />
+      <row expression="(IsObjectiveCompleted('q_ledecko', 'knowAboutSomeCave') OR IsObjectiveCompleted('q_ledecko', 'hearAboutCavesNearby'))" function_name="q_ledecko_knowEverythingFromInnkeper" />
+      <row expression="IsObjectiveCompleted('q_ledecko', 'knowAboutHideoutFromAdela') OR IsObjectiveCompleted('q_ledecko', 'knowAboutHideoutFromTanner')" function_name="q_ledecko_log_lookForHynek" />
+      <row expression="HourOfDay() &gt;= 23 AND HourOfDay() &lt; 24" function_name="q_licentious_monks_itsTooLateButOk" />
+      <row expression="HourOfDay() &gt;= 21 AND HourOfDay() &lt; 23" function_name="q_licentious_monks_justInTime" />
+      <row expression="get_alchemy()['Dude'] &gt;= 3" function_name="q_loveLetter_alchemy" />
+      <row expression="HourOfDay() &gt;= 7 AND HourOfDay() &lt; 21" function_name="q_loveLetter_finalCutscene_time" />
+      <row expression="HourOfDay() &gt;= 3 AND HourOfDay() &lt; 19" function_name="q_loveLetter_itsTooEarly" />
+      <row expression="HourOfDay() &gt;= 2 AND HourOfDay() &lt; 6" function_name="q_loveLetter_itsTooLate" />
+      <row expression="0" function_name="q_loveLetter_playerNotDressedProperly" />
+      <row expression="get_reading()['Dude'] &gt;= 1" function_name="q_loveLetter_reading" />
+      <row expression="IsRaining()" function_name="q_millerDate_aRain" />
+      <row expression="GetPerceivedRelationship()[1] &lt; 0.2" function_name="q_millerDate_aTerezaAngry" />
+      <row expression="!q_millerDate_aTerezaAngry AND !q_millerDate_aTerezaLate AND !q_millerDate_aTerezaTooLate AND !q_millerDate_aRain" function_name="q_millerDate_aTerezaFree" />
+      <row expression="!q_millerDate_aTerezaAngry AND !q_millerDate_aTerezaLate AND !q_millerDate_aTerezaTooLate" function_name="q_millerDate_aTerezaFree3rdDate" />
+      <row expression="GetPerceivedRelationship()[1] &gt; 0.3" function_name="q_millerDate_aTerezaFriendly" />
+      <row expression="HourOfDay() &gt; 12 AND HourOfDay() &lt;= 18" function_name="q_millerDate_aTerezaLate" />
+      <row expression="HourOfDay() &lt; 16" function_name="q_millerDate_aTerezaPubEarly" />
+      <row expression="!q_millerDate_aTerezaAngry AND !q_millerDate_aTerezaPubLate AND !q_millerDate_aTerezaPubEarly" function_name="q_millerDate_aTerezaPubFree" />
+      <row expression="HourOfDay() &gt;= 20" function_name="q_millerDate_aTerezaPubLate" />
+      <row expression="HourOfDay() &gt; 18 OR HourOfDay() &lt;= 7" function_name="q_millerDate_aTerezaTooLate" />
+      <row expression="get_pickpocketing()[0] &lt; 5" function_name="q_pickpocketTutorial_initiatorHasLowPickpocketLevel" />
+      <row expression="DistanceToEntity('q_samopesh_millSpot_mirka') &lt; 5" function_name="q_samopesh_closeToMillSpot" />
+      <row expression="DistanceToEntity('q_samopesh_colliers') &lt; 30" function_name="q_samopesh_pursue_colliers" />
+      <row expression="HourOfDay() &gt; 23 OR HourOfDay() &lt; 8" function_name="q_samopesh_pursue_night" />
+      <row expression="IsRaining()" function_name="q_samopesh_pursue_raining" />
+      <row expression="DistanceToEntity('q_samopesh_tanner') &lt; 20" function_name="q_samopesh_pursue_tanner" />
+      <row expression="DistanceToEntity('q_samopesh_trash') &lt; 30" function_name="q_samopesh_pursue_trash" />
+      <row expression="IsObjectiveCompleted('q_samopesh','playerBeenToCamp') AND !IsObjectiveCompleted('q_samopesh','findBanditCampByAccident')" function_name="q_samopesh_racek_foundCamp" />
+      <row expression="IsObjectiveCompleted('q_samopesh','findBanditCampByAccident')" function_name="q_samopesh_racek_foundCampByAccident" />
+      <row expression="!IsObjectiveCompleted('q_samopesh','playerBeenToCamp') AND IsObjectiveCompleted('q_samopesh','machTellsBanditCampLocation') AND IsObjectiveStarted('q_samopesh','reportBanditCampLocation')" function_name="q_samopesh_racek_knowAboutCampFromMach" />
+      <row expression="!IsObjectiveCompleted('q_samopesh','playerBeenToCamp') AND IsObjectiveCompleted('q_samopesh','petaTellsBanditCampLocation') AND IsObjectiveStarted('q_samopesh','reportBanditCampLocation')" function_name="q_samopesh_racek_knowAboutCampFromPeta" />
+      <row expression="!IsObjectiveStarted('q_skalitz','beerWasBad') &amp; !IsObjectiveStarted('q_skalitz','itemsRemoved') &amp; IsObjectiveCompleted('q_skalitz','practiceFencing') &amp; q_skalitz_henryHasItemsForFather" function_name="q_skalitz_henryCanReturnToFather" />
+      <row expression="CountOfActorItems('f879ac63-2ce2-4114-83a2-89643c1ed102')['Dude'] &gt; 9 &amp; CountOfActorItems('3f770b82-32a7-410d-b546-c8744348ff93')['Dude'] &gt; 0 &amp; CountOfActorItems('dd0113ff-993b-45e7-8f86-870cde8a1a50')['Dude'] &gt; 0" function_name="q_skalitz_henryHasItemsForFather" />
+      <row expression="(CountOfActorItems('ea98e001-9d40-4eb8-a198-ccf5cb548747') &gt; 0) AND (CountOfActorItems('63abdbb4-b0fd-464b-87a4-80d26b33872a') &gt; 0) AND (CountOfActorItems('983a6813-20b6-4fc8-bc2d-105939ff6000') &gt; 0)" function_name="q_skalitz_henryHasStolenItems" />
+      <row expression="IsObjectiveCompleted('q_skalitz','stealAxe') | IsObjectiveCompleted('q_skalitz','stealHammer') | IsObjectiveCompleted('q_skalitz','stealNails')" function_name="q_skalitz_henryStoleSomething" />
+      <row expression="!IsObjectiveStarted('q_skalitz','kunesBeatsHenry')  &amp; !IsObjectiveCompleted('q_skalitz','kunesIsBeaten')" function_name="q_skalitz_henryWasntFightingWithKunes" />
+      <row expression="!IsObjectiveCompleted('q_skalitz','kunesSolved') AND !IsObjectiveStarted('q_skalitz','getDebtMoney')" function_name="q_skalitz_kunesForGuards" />
+      <row expression="GetTrueRelationship()[1] &gt; 0.20" function_name="q_skalitz_matus_willHelp" />
+      <row expression="IsObjectiveStarted('q_skalitz','henryHearsSkinnerTalk')" function_name="q_skalitz_skinnerForGuards" />
+      <row expression="IsRaining()" function_name="q_smithBattle_fuckingWeather" />
+      <row expression="HourOfDay() &gt;= 2 AND HourOfDay() &lt; 6" function_name="q_smithBattle_itsTooEarly" />
+      <row expression="HourOfDay() &gt;= 19 OR HourOfDay() &lt; 2" function_name="q_smithBattle_itsTooLate" />
+      <row expression="(IsObjectiveCompleted('q_superstition','braveGuyDead') AND   IsObjectiveCompleted('q_superstition','braveGuy2Dead'))  OR   (IsObjectiveCompleted('q_superstition','braveGuy3Dead') AND   IsObjectiveCompleted('q_superstition','braveGuy2Dead'))   OR   (IsObjectiveCompleted('q_superstition','braveGuyDead') AND   IsObjectiveCompleted('q_superstition','braveGuy3Dead'))  OR    (IsObjectiveCompleted('q_superstition','braveGuyDead') AND   IsObjectiveCompleted('q_superstition','braveGuy2Dead') AND    IsObjectiveCompleted('q_superstition','braveGuy3Dead'))" function_name="q_superstition_braveGuysDead" />
+      <row expression="(IsObjectiveCompleted('q_superstition','placeCharcoalInCoop_hidden') OR IsObjectiveCanceled('q_superstition','placeCharcoalInCoop_hidden')) AND  (IsObjectiveCompleted('q_superstition','replaceMeat_hidden') OR IsObjectiveCanceled('q_superstition','replaceMeat_hidden')) AND  (IsObjectiveCompleted('q_superstition','colorWater_hidden') OR IsObjectiveCanceled('q_superstition','colorWater_hidden')) AND (IsObjectiveCompleted('q_superstition','stealRosary') OR IsObjectiveCanceled('q_superstition','stealRosary')) AND  (IsObjectiveCompleted('q_superstition','throwEggToWell_trigger') OR IsObjectiveCanceled('q_superstition','throwEggToWell_trigger')) AND   (IsObjectiveCompleted('q_superstition','blameRevenantForDeadBandits') OR IsObjectiveCanceled('q_superstition','blameRevenantForDeadBandits')) AND   (IsObjectiveCompleted('q_superstition','getBanditsHelp') OR IsObjectiveCanceled('q_superstition','getBanditsHelp')) AND   (IsObjectiveCompleted('q_superstition','fricekMatusHelp_hidden') OR IsObjectiveCanceled('q_superstition','fricekMatusHelp_hidden'))" function_name="q_superstition_hauntDone" />
+      <row expression="!(IsObjectiveCompleted('q_superstition','placeCharcoalInCoop_hidden') AND  IsObjectiveStarted('q_superstition','placeCharcoalInCoop_dialog'))  AND   !(IsObjectiveCompleted('q_superstition','replaceMeat_hidden') AND  IsObjectiveStarted('q_superstition','replaceMeat_dialog'))  AND   !(IsObjectiveCompleted('q_superstition','colorWater_hidden') AND  IsObjectiveStarted('q_superstition','colorWater_dialog'))  AND   !(IsObjectiveCompleted('q_superstition','stealRosary')  AND  IsObjectiveStarted('q_superstition','stealRosary_dialog'))  AND   !(IsObjectiveCompleted('q_superstition','throwEggToWell_trigger') AND  IsObjectiveStarted('q_superstition','throwEggToWell'))   AND   !(IsObjectiveCompleted('q_superstition','blameRevenantForDeadBandits') AND  IsObjectiveStarted('q_superstition','blameRevenantForDeadBandits_dialog'))   AND   !(IsObjectiveCompleted('q_superstition','getBanditsHelp') AND  IsObjectiveStarted('q_superstition','getBanditsHelp_dialog'))   AND   !(IsObjectiveCompleted('q_superstition','fricekMatusHelp_hidden') AND  IsObjectiveStarted('q_superstition','fricekMatusHelp_dialog'))" function_name="q_superstition_noHauntChanges" />
+      <row expression="IsObjectiveCompleted('q_tournament_smith','henryInvestigatedCernyPetr') OR IsObjectiveCompleted('q_tournament_smith','henryEnteringTournament') OR IsObjectiveCompleted('q_tournament_smith','cernyPetrKilled')" function_name="q_tournament_smith_henryTriedSomething" />
+      <row expression="IsQuestAvailable('q_tournament_smith') AND (IsObjectiveUnchanged('q_master_main','q_counterOffensive') OR IsObjectiveCompleted('q_epilogue','lock_playerFarFromYard'))" function_name="q_tournament_smith_isAvailable" />
+      <row expression="HourOfDay() &gt; 21" function_name="q_tvujQuest_lateAtNight" />
+      <row expression="gvar('q_watercarrier_numWater') &lt; 3 | gvar('q_watercarrier_numShit') &lt; 2" function_name="q_watercarrier_freeJobs" />
+      <row expression="!HasSoulTag('q_watercarrier_water')['rat_refugee_krojchanzl'] &amp; !HasSoulTag('q_watercarrier_shit')['rat_refugee_krojchanzl'] &amp; !IsObjectiveCompleted('q_watercarrier','krojchanzlDead')" function_name="q_watercarrier_job_krojchanzl" />
+      <row expression="!HasSoulTag('q_watercarrier_water')['rat_refugee_petrina'] &amp; !HasSoulTag('q_watercarrier_shit')['rat_refugee_petrina'] &amp; !IsObjectiveCompleted('q_watercarrier','petrinaDead')" function_name="q_watercarrier_job_petrina" />
+      <row expression="!HasSoulTag('q_watercarrier_water')['rat_refugee_tonda_rumpal'] &amp; !HasSoulTag('q_watercarrier_shit')['rat_refugee_tonda_rumpal'] &amp; !IsObjectiveCompleted('q_watercarrier','tondaDead')" function_name="q_watercarrier_job_tonda" />
+      <row expression="!HasSoulTag('q_watercarrier_water')['rat_refugee_tonka'] &amp; !HasSoulTag('q_watercarrier_shit')['rat_refugee_tonka'] &amp; !IsObjectiveCompleted('q_watercarrier','tondaDead')" function_name="q_watercarrier_job_tonka" />
+      <row expression="!HasSoulTag('q_watercarrier_water')['rat_refugee_vit_synMojmira'] &amp; !HasSoulTag('q_watercarrier_shit')['rat_refugee_vit_synMojmira'] &amp; !IsObjectiveCompleted('q_watercarrier','vitDead')" function_name="q_watercarrier_job_vit" />
+      <row expression="!HasSoulTag('q_watercarrier_water')['rat_refugee_vojcek'] &amp; !HasSoulTag('q_watercarrier_shit')['rat_refugee_vojcek'] &amp; !IsObjectiveCompleted('q_watercarrier','kutnaDead')" function_name="q_watercarrier_job_vojcek" />
+      <row expression="(IsObjectiveStarted('q_ratajTournament', 'ratajTournamentPrepared') OR IsObjectiveStarted('q_ratajTournament', 'ratajTournamentStartingToday') OR IsObjectiveStarted('q_ratajTournament', 'ratajTournamentStarted')) AND !IsObjectiveCompleted('q_questGivers','a_tournament_starter')" function_name="questGivers_a_tournament" />
+      <row expression="GetActorAngriness()[1] &gt;= 0.4" function_name="questGivers_highAngriness" />
+      <row expression="questGivers_q_capCum | questGivers_q_cemeteryFlowers | questGivers_q_floatingArchery | questGivers_q_disguise" function_name="questGivers_ledeckoInnkeeper_any" />
+      <row expression="questGivers_q_disguise| questGivers_q_racingAndBetting" function_name="questGivers_mytinkaInnkeeper_any" />
+      <row expression="IsQuestAvailable('q_avalonSteel') &amp; !IsObjectiveCompleted('q_questGivers','q_avalonSteel_starter')" function_name="questGivers_q_avalonSteel" />
+      <row expression="IsQuestAvailable('q_capCum') &amp; !IsObjectiveCompleted('q_questGivers','q_capCum_starter')" function_name="questGivers_q_capCum" />
+      <row expression="IsQuestAvailable('q_cemetery_flowers') &amp; !IsObjectiveCompleted('q_questGivers','q_cemeteryFlowers_starter')" function_name="questGivers_q_cemeteryFlowers" />
+      <row expression="IsQuestAvailable('q_devilplay') &amp; !IsObjectiveCompleted('q_questGivers','q_devilPlay_starter')" function_name="questGivers_q_devilPlay" />
+      <row expression="IsQuestAvailable('q_disguise') &amp; !IsObjectiveCompleted('q_questGivers','q_disguise_starter')" function_name="questGivers_q_disguise" />
+      <row expression="IsQuestAvailable('q_execExec') &amp; !IsObjectiveCompleted('q_questGivers','q_execExec_starter')" function_name="questGivers_q_execExec" />
+      <row expression="IsQuestAvailable('q_execIntro') &amp; !IsObjectiveCompleted('q_questGivers','q_execIntro_starter')" function_name="questGivers_q_execIntro" />
+      <row expression="IsQuestAvailable('q_flirtTalmberk') &amp; !IsObjectiveCompleted('q_questGivers','q_flirtTalmberk_starter')" function_name="questGivers_q_flirtTalmberk" />
+      <row expression="IsQuestAvailable('q_floatingArchery') &amp; !IsObjectiveCompleted('q_questGivers','q_floatingArchery_starter')" function_name="questGivers_q_floatingArchery" />
+      <row expression="IsQuestAvailable('q_friendInNeed') &amp; !IsObjectiveCompleted('q_questGivers','q_friendInNeed_starter')" function_name="questGivers_q_friendInNeed" />
+      <row expression="IsQuestAvailable('q_godsWays') &amp; !IsObjectiveCompleted('q_questGivers','q_godsWays_starter')" function_name="questGivers_q_godsWays" />
+      <row expression="IsQuestAvailable('q_hareHunt') &amp; !IsObjectiveCompleted('q_questGivers','q_hareHunt_starter')" function_name="questGivers_q_hareHunt" />
+      <row expression="IsQuestAvailable('q_horse_on_the_run') &amp; !IsObjectiveCompleted('q_questGivers','q_horseOnTheRun_starter')" function_name="questGivers_q_horseOnTheRun" />
+      <row expression="IsQuestAvailable('q_charlatan') &amp; !IsObjectiveCompleted('q_questGivers','q_charlatan_starter')" function_name="questGivers_q_charlatan" />
+      <row expression="IsQuestAvailable('q_church_construction') &amp; !IsObjectiveCompleted('q_questGivers','q_churchConstruction_starter')" function_name="questGivers_q_churchConstruction" />
+      <row expression="IsQuestAvailable('ta03_lostKeys') &amp; !IsQuestActivated('ta03_lostKeys')" function_name="questGivers_q_lostKeys" />
+      <row expression="IsQuestAvailable('q_newHerbarium') &amp; !IsObjectiveCompleted('q_questGivers','q_newHerbarium_starter')" function_name="questGivers_q_newHerbarium" />
+      <row expression="IsQuestAvailable('q_nightingales') &amp; !IsObjectiveCompleted('q_questGivers','q_nightingales_starter')" function_name="questGivers_q_nightingales" />
+      <row expression="IsQuestAvailable('q_RacingAndBetting') &amp; !IsObjectiveCompleted('q_questGivers','q_racingAndBetting_starter')" function_name="questGivers_q_racingAndBetting" />
+      <row expression="0" function_name="questGivers_q_sickBastard" />
+      <row expression="q_tournament_smith_isAvailable &amp; !IsObjectiveCompleted('q_questGivers','q_tournament_smith_starter')" function_name="questGivers_q_tournament_smith" />
+      <row expression="IsQuestAvailable('q_waldensians') &amp; !IsObjectiveCompleted('q_questGivers','q_waldensians_starter')" function_name="questGivers_q_waldensians" />
+      <row expression="IsQuestAvailable('q_watercarrier') &amp; !IsObjectiveCompleted('q_questGivers','q_watercarrier_starter')" function_name="questGivers_q_watercarrier" />
+      <row expression="IsQuestAvailable('q_wounded_soul') &amp; !IsObjectiveCompleted('q_questGivers','q_woundedSoul_starter')" function_name="questGivers_q_woundedSoul" />
+      <row expression="questGivers_q_nightingales | questGivers_q_watercarrier | questGivers_q_execIntro | questGivers_q_execExec | questGivers_a_tournament" function_name="questGivers_ratajeInnkeepers_any" />
+      <row expression="questGivers_q_sickBastard | questGivers_q_lostKeys" function_name="questGivers_samopseBailiff_any" />
+      <row expression="questGivers_q_godsWays | questGivers_q_tournament_smith" function_name="questGivers_samopseInnkeeper_any" />
+      <row expression="questGivers_q_friendInNeed | questGivers_q_newHerbarium | questGivers_q_charlatan | questGivers_q_woundedSoul" function_name="questGivers_sazavaInnkeeper_any" />
+      <row expression="questGivers_q_hareHunt | questGivers_q_godsWays | questGivers_q_churchConstruction | questGivers_q_flirtTalmberk" function_name="questGivers_talmberkInnkeeper_any" />
+      <row expression="questGivers_q_hareHunt | questGivers_q_horseOnTheRun | questGivers_q_devilPlay" function_name="questGivers_uziceInnkeeper_any" />
+      <row expression="GetPerceivedRelationship()[0] &lt; 0.15" function_name="reputation_canSayNegativeDudeProxBark" />
+      <row expression="GetPerceivedRelationship()[0] &gt; 0.6" function_name="reputation_canSayPositiveDudeProxBark" />
+      <row expression="(GetPerceivedRelationship()[0] - GetActorAngriness()[0]) &lt; 0.2" function_name="reputation_weaponComment_amicality_1_low" />
+      <row expression="(GetPerceivedRelationship()[0] - GetActorAngriness()[0]) &gt;= 0.2 &amp; (GetPerceivedRelationship()[0] - GetActorAngriness()[0]) &lt; 0.4" function_name="reputation_weaponComment_amicality_2_medium" />
+      <row expression="(GetPerceivedRelationship()[0] - GetActorAngriness()[0]) &gt;= 0.4 &amp; (GetPerceivedRelationship()[0] - GetActorAngriness()[0]) &lt; 0.7" function_name="reputation_weaponComment_amicality_3_solid" />
+      <row expression="(GetPerceivedRelationship()[0] - GetActorAngriness()[0]) &gt;= 0.65" function_name="reputation_weaponComment_amicality_4_excellent" />
+      <row expression="IsSeqAvailable(53156) &amp; IsSeqAvailable(53168) &amp; IsSeqAvailable(53181) &amp; IsSeqAvailable(53196) &amp; IsSeqAvailable(53231) &amp; IsSeqAvailable(53242) &amp; IsSeqAvailable(53257) &amp; IsSeqAvailable(53269) &amp; IsSeqAvailable(53308)" function_name="screamAndShout_tauntGlobalCooldownReady_cuman" />
+      <row expression="IsSeqAvailable(17735) &amp; IsSeqAvailable(17740) &amp; IsSeqAvailable(17745) &amp; IsSeqAvailable(17765) &amp; IsSeqAvailable(17791) &amp; IsSeqAvailable(33623) &amp; IsSeqAvailable(33866) &amp; IsSeqAvailable(33871) &amp; IsSeqAvailable(33876) &amp; IsSeqAvailable(49773)" function_name="screamAndShout_tauntGlobalCooldownReady_man" />
+      <row expression="HasSoulTag('selectLine_wantsToUsePursuitBark')" function_name="selectLine_wantsToUsePursuitBark" />
+      <row expression="var('success') &lt; 0" function_name="skillCheckFail" />
+      <row expression="var('success') &gt;= 0" function_name="skillCheckSuccess" />
+      <row expression="HasSoulTag('suppressTournamentCombatShout')" function_name="suppressTournamentCombatShout" />
+      <row expression="HourOfDay() &gt; 6 &amp; HourOfDay() &lt; 21" function_name="trainers_commonGlobalCondition" />
+      <row expression="IsQuestCompleted('q_basicTraining')" function_name="trainers_commonGlobalCondition_combatSkills" />
+      <row expression="GetPerceivedRelationship()[1] &gt; 0.35 | IsActor('rat_pesek')[1]" function_name="trainers_hasRequiredReputation" />
+      <row expression="IsActor('sas_charlatan')[1] | IsActor('rat_konyas')[1] | IsActor('mon_nikodem')[1]" function_name="trainers_isTrainerFor_alchemy" />
+      <row expression="IsActor('tal_borek')[1] | IsActor('rat_bernard')[1]" function_name="trainers_isTrainerFor_defense" />
+      <row expression="IsActor('prib_gertruda')[1] | IsActor('brd_kunhutaHerbalist')[1]" function_name="trainers_isTrainerFor_herbalism" />
+      <row expression="IsActor('neu_zdena')[1] | IsActor('aus_vasek')[1]" function_name="trainers_isTrainerFor_horseriding" />
+      <row expression="IsActor('rat_berthold')[1] | IsActor('tal_mikulas')[1]" function_name="trainers_isTrainerFor_hunter" />
+      <row expression="IsActor('rat_pesek')[1] | IsActor('tal_lukes')[1] | IsActor('cros_ondrej')[1]" function_name="trainers_isTrainerFor_lockpicking" />
+      <row expression="IsActor('rat_pesek')[1] | IsActor('tal_lukes')[1] | IsActor('sas_charlatan')[1]" function_name="trainers_isTrainerFor_pickpocketing" />
+      <row expression="IsActor('sas_ota')[1] | IsActor('rat_armorer')[1]" function_name="trainers_isTrainerFor_repairing" />
+      <row expression="IsActor('kac_simon')[1] | IsActor('kuch_vojtech')[1] | IsActor('ska_matus')[1]" function_name="trainers_isTrainerFor_stealth" />
+      <row expression="IsActor('rat_bernard')[1] | IsActor('cros_ondrej')[1]" function_name="trainers_isTrainerFor_weaponAxe" />
+      <row expression="IsActor('vra_vanek')[1] | IsActor('rat_berthold')[1] | IsActor('tal_mikulas')[1]" function_name="trainers_isTrainerFor_weaponBow" />
+      <row expression="IsActor('rat_bernard')[1]" function_name="trainers_isTrainerFor_weaponLarge" />
+      <row expression="IsActor('tal_borek')[1]" function_name="trainers_isTrainerFor_weaponMace" />
+      <row expression="IsActor('tal_borek')[1] | IsActor('rat_bernard')[1]" function_name="trainers_isTrainerFor_weaponSword" />
+      <row expression="IsActor('ska_fricek')[1] | IsActor('sas_vostrej')[1] | IsActor('aus_fisherman')[1]" function_name="trainers_isTrainerFor_weaponUnarmed" />
+    </rows>
+  </table>
+</database>

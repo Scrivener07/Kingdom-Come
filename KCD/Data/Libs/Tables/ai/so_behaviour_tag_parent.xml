@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="so_behaviour_tag_parent" version="1">
+    <header>
+      <column name="child_tag_id" type="uuid" />
+      <column name="parent_tag_id" type="uuid" />
+      <column name="so_smart_object_id" type="uuid" />
+    </header>
+    <rows>
+      <row child_tag_id="4d6ef63c-409b-b69d-5967-38684c0a828b" parent_tag_id="48e38523-720e-6bb1-ffdf-5a6d5665b3ac" so_smart_object_id="1d2462ff-f921-4d61-9074-200414ec316c" />
+      <row child_tag_id="4d98c874-c6d1-311f-1906-1257a54b2783" parent_tag_id="4b978466-5e48-5523-50c8-e296df0f0480" so_smart_object_id="1d2462ff-f921-4d61-9074-200414ec316c" />
+      <row child_tag_id="48e38523-720e-6bb1-ffdf-5a6d5665b3ac" parent_tag_id="4bc1fa59-d518-4c9e-f008-54fdac9fecbc" so_smart_object_id="1d2462ff-f921-4d61-9074-200414ec316c" />
+      <row child_tag_id="48edabe6-cbe9-3591-777d-09c58b79f991" parent_tag_id="4bc1fa59-d518-4c9e-f008-54fdac9fecbc" so_smart_object_id="1d2462ff-f921-4d61-9074-200414ec316c" />
+      <row child_tag_id="4b978466-5e48-5523-50c8-e296df0f0480" parent_tag_id="4bc1fa59-d518-4c9e-f008-54fdac9fecbc" so_smart_object_id="1d2462ff-f921-4d61-9074-200414ec316c" />
+      <row child_tag_id="4ca857dc-6fa2-5418-c696-33a791e3f482" parent_tag_id="40419b58-b3ed-edd1-3903-9f9432a8a187" so_smart_object_id="25b51193-ddf5-4ae0-8cb6-e46bdb7e30a7" />
+      <row child_tag_id="468566e3-06f5-d453-c53f-9268ac8474af" parent_tag_id="460660e2-b5e9-39e9-0ef8-9fe89d1733a2" so_smart_object_id="25b51193-ddf5-4ae0-8cb6-e46bdb7e30a7" />
+      <row child_tag_id="4334d1e0-560f-ec56-25b4-1250440ec182" parent_tag_id="76ff1293-0393-4a60-b554-e9241a26b10a" so_smart_object_id="41e038c3-3a60-ba3e-9822-710459c5edac" />
+      <row child_tag_id="4578eeb6-96dc-d494-4345-090bea98df87" parent_tag_id="4757d041-3e80-1539-8472-d248e98c80ac" so_smart_object_id="466595f6-ec07-47eb-b160-e3b563a50e56" />
+      <row child_tag_id="4c02e74d-c55b-2966-1b55-cf1161d08c84" parent_tag_id="0f20459f-2ed5-44ff-a326-423654912eb1" so_smart_object_id="4e21b292-55cd-8bd6-e2ef-c1125e0daca6" />
+    </rows>
+  </table>
+</database>

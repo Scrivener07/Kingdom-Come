@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="so_item_smart_object" version="1">
+    <header>
+      <column name="helper_set_name" type="character varying" />
+      <column name="item_class_id" type="uuid" />
+      <column name="so_smart_object_id" type="uuid" />
+    </header>
+    <rows>
+      <row helper_set_name="" item_class_id="68b5653e-7a01-47a2-81ba-2f1e2143faae" so_smart_object_id="c33a0bae-246f-45d7-a105-972478c20193" />
+      <row helper_set_name="" item_class_id="76fd4ad3-84e2-444c-9822-b67c4adbc349" so_smart_object_id="89d95c8e-a649-4b2a-869c-1211e94b89cd" />
+      <row helper_set_name="" item_class_id="a4cb5d0c-a982-4634-80e2-3a8d7355491e" so_smart_object_id="9daf11ee-40df-4e76-8c58-3b2bf46f905e" />
+      <row helper_set_name="" item_class_id="af459a00-7a61-4444-936c-5eb27403107a" so_smart_object_id="d5f17f76-8e58-4d30-9f6b-997b2f01d081" />
+      <row helper_set_name="" item_class_id="ba455df4-e1d1-46eb-b791-210eb0908227" so_smart_object_id="44759115-0009-6594-a275-d0eab6adebaa" />
+      <row helper_set_name="water_tube_1" item_class_id="e1097afe-649e-4494-8a05-84ab079e8db3" so_smart_object_id="32a991f9-e61b-406a-accb-7e6046e35ed6" />
+      <row helper_set_name="" item_class_id="ec1e9587-44c5-4c67-97cf-e35115ae2809" so_smart_object_id="0d1a79d6-5363-43e1-b1af-c8821005d277" />
+    </rows>
+  </table>
+</database>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="npc_tool_type" version="1">
+    <header>
+      <column name="npc_tool_type_id" type="integer" />
+      <column name="npc_tool_type_name" type="character varying" />
+    </header>
+    <rows>
+      <row npc_tool_type_id="0" npc_tool_type_name="default" />
+      <row npc_tool_type_id="1" npc_tool_type_name="axe" />
+      <row npc_tool_type_id="2" npc_tool_type_name="basket" />
+      <row npc_tool_type_id="3" npc_tool_type_name="broom" />
+      <row npc_tool_type_id="4" npc_tool_type_name="bucket" />
+      <row npc_tool_type_id="5" npc_tool_type_name="cage_left" />
+      <row npc_tool_type_id="6" npc_tool_type_name="cage_right" />
+      <row npc_tool_type_id="7" npc_tool_type_name="hammer" />
+      <row npc_tool_type_id="8" npc_tool_type_name="fishing_rod" />
+      <row npc_tool_type_id="9" npc_tool_type_name="leather_scraper" />
+      <row npc_tool_type_id="10" npc_tool_type_name="meal_tray" />
+      <row npc_tool_type_id="11" npc_tool_type_name="sack" />
+      <row npc_tool_type_id="12" npc_tool_type_name="shovel" />
+      <row npc_tool_type_id="13" npc_tool_type_name="stein" />
+      <row npc_tool_type_id="14" npc_tool_type_name="tankard" />
+      <row npc_tool_type_id="15" npc_tool_type_name="washing_stick" />
+      <row npc_tool_type_id="16" npc_tool_type_name="rasp" />
+      <row npc_tool_type_id="17" npc_tool_type_name="semifinished_sword" />
+      <row npc_tool_type_id="18" npc_tool_type_name="treasure_chest" />
+      <row npc_tool_type_id="19" npc_tool_type_name="hoe" />
+      <row npc_tool_type_id="20" npc_tool_type_name="rope" />
+      <row npc_tool_type_id="21" npc_tool_type_name="cleaver" />
+      <row npc_tool_type_id="22" npc_tool_type_name="knife" />
+      <row npc_tool_type_id="23" npc_tool_type_name="two_handed_knife" />
+      <row npc_tool_type_id="24" npc_tool_type_name="meat" />
+      <row npc_tool_type_id="25" npc_tool_type_name="meal_tray" />
+      <row npc_tool_type_id="26" npc_tool_type_name="light" />
+    </rows>
+  </table>
+</database>

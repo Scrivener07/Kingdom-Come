@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="game_over" version="1">
+    <header>
+      <column name="game_over_id" type="integer" />
+      <column name="game_over_name" type="character varying" />
+      <column name="game_over_type_id" type="integer" />
+      <column name="game_over_ui_message" type="character varying" />
+    </header>
+    <rows>
+      <row game_over_id="0" game_over_name="DiedUnknown" game_over_type_id="0" game_over_ui_message="game_over_died_unknown" />
+      <row game_over_id="1" game_over_name="DiedInCombat" game_over_type_id="0" game_over_ui_message="game_over_died_in_combat" />
+      <row game_over_id="2" game_over_name="DiedByStarving" game_over_type_id="0" game_over_ui_message="game_over_died_by_starving" />
+      <row game_over_id="3" game_over_name="DiedByCollision" game_over_type_id="0" game_over_ui_message="game_over_died_by_collision" />
+      <row game_over_id="4" game_over_name="DiedByScriptedHit" game_over_type_id="0" game_over_ui_message="game_over_died_by_scripted_hit" />
+      <row game_over_id="5" game_over_name="DiedByFall" game_over_type_id="0" game_over_ui_message="game_over_died_by_fall" />
+      <row game_over_id="6" game_over_name="DiedByPoison" game_over_type_id="0" game_over_ui_message="game_over_died_by_poison" />
+      <row game_over_id="7" game_over_name="DiedByBleeding" game_over_type_id="0" game_over_ui_message="game_over_died_by_bleeding" />
+      <row game_over_id="8" game_over_name="DiedBySelfHarm" game_over_type_id="0" game_over_ui_message="game_over_died_by_self_harm" />
+      <row game_over_id="9" game_over_name="Q_IR_IgnoredBattle" game_over_type_id="0" game_over_ui_message="chapter1a_sch28_w7oB_e271_IWz9" />
+      <row game_over_id="10" game_over_name="LostABattle" game_over_type_id="2" game_over_ui_message="game_over_lostBattle" />
+      <row game_over_id="11" game_over_name="DiedInJail" game_over_type_id="2" game_over_ui_message="game_over_died_in_jail" />
+      <row game_over_id="12" game_over_name="EscapeTalmberkFailed" game_over_type_id="2" game_over_ui_message="game_over_escape_talmberk" />
+      <row game_over_id="13" game_over_name="NightsWatchCanceled" game_over_type_id="2" game_over_ui_message="game_over_nights_watch" />
+      <row game_over_id="14" game_over_name="PtacekBledOut" game_over_type_id="2" game_over_ui_message="game_over_ptacek_bled" />
+      <row game_over_id="15" game_over_name="EscapeSkalitzFailed" game_over_type_id="2" game_over_ui_message="game_over_escape_skalitz" />
+      <row game_over_id="16" game_over_name="Q_IR_FledBattle" game_over_type_id="2" game_over_ui_message="chapter1a_sch28_w7oB_e273_wPqw" />
+      <row game_over_id="17" game_over_name="GameFinished" game_over_type_id="1" game_over_ui_message="game_over_finished" />
+      <row game_over_id="18" game_over_name="ZbysekKilledYou" game_over_type_id="2" game_over_ui_message="chapter1a_sch7_nFPk_e311_GKf6" />
+      <row game_over_id="19" game_over_name="ZmolaKilledYou" game_over_type_id="2" game_over_ui_message="game_over_killed_by_zmola" />
+      <row game_over_id="20" game_over_name="Test" game_over_type_id="1" game_over_ui_message="game_over_test" />
+      <row game_over_id="21" game_over_name="PtacekEatenByCumans" game_over_type_id="2" game_over_ui_message="chap17_t1C__sch0_kfJy_e131_CFPj" />
+      <row game_over_id="22" game_over_name="NightRescueRanAway" game_over_type_id="2" game_over_ui_message="game_over_night_rescue_ran_away" />
+      <row game_over_id="23" game_over_name="E3Win" game_over_type_id="1" game_over_ui_message="game_over_E3_win" />
+      <row game_over_id="24" game_over_name="E3Lost" game_over_type_id="0" game_over_ui_message="game_over_E3_lost" />
+      <row game_over_id="25" game_over_name="qco_reinforcements" game_over_type_id="2" game_over_ui_message="game_over_counteroffensive_reinforcements" />
+      <row game_over_id="26" game_over_name="DiedWhileUnconscious" game_over_type_id="0" game_over_ui_message="game_over_killed_while_unconscious" />
+      <row game_over_id="27" game_over_name="ThankYou" game_over_type_id="3" game_over_ui_message="game_over_thank_you" />
+      <row game_over_id="28" game_over_name="TooManyCausalties" game_over_type_id="2" game_over_ui_message="chapter1a_sch15_T7No_e6_QlXw" />
+      <row game_over_id="29" game_over_name="BasicTraining" game_over_type_id="2" game_over_ui_message="game_over_basicTraining" />
+      <row game_over_id="31" game_over_name="ConquestFollowCapon" game_over_type_id="2" game_over_ui_message="game_over_conquest_follow_capon" />
+      <row game_over_id="32" game_over_name="ConquestFled" game_over_type_id="2" game_over_ui_message="game_over_conquest_fled" />
+      <row game_over_id="33" game_over_name="NightRescueCrime" game_over_type_id="2" game_over_ui_message="game_over_night_rescue_crime" />
+      <row game_over_id="34" game_over_name="game_over_Johanka_killing_inquisitor" game_over_type_id="2" game_over_ui_message="game_over_revelation_killing_inquisitor_text" />
+      <row game_over_id="35" game_over_name="game_over_revelation_speking_heresy" game_over_type_id="2" game_over_ui_message="game_over_revelation_speking_heresy_text" />
+      <row game_over_id="36" game_over_name="game_over_revelation_killing_inquisitor_undercover_seen" game_over_type_id="2" game_over_ui_message="game_over_revelation_killing_inquisitor_undercover_seen_text" />
+    </rows>
+  </table>
+</database>

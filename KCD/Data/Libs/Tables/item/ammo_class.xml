@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="ammo_class" version="1">
+    <header>
+      <column name="ammo_class_id" type="integer" />
+      <column name="ammo_class_name" type="character varying" />
+    </header>
+    <rows>
+      <row ammo_class_id="1" ammo_class_name="arrow" />
+      <row ammo_class_id="2" ammo_class_name="bolt" />
+    </rows>
+  </table>
+</database>

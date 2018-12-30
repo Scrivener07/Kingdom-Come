@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="npc_tool_subtype" version="1">
+    <header>
+      <column name="npc_tool_subtype_id" type="integer" />
+      <column name="npc_tool_subtype_name" type="character varying" />
+    </header>
+    <rows>
+      <row npc_tool_subtype_id="0" npc_tool_subtype_name="hammer" />
+      <row npc_tool_subtype_id="1" npc_tool_subtype_name="spawned" />
+      <row npc_tool_subtype_id="2" npc_tool_subtype_name="pocketed" />
+    </rows>
+  </table>
+</database>

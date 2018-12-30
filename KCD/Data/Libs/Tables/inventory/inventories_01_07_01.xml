@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="inventories_01_07_01" version="1">
+    <header>
+      <column name="amount" type="integer" />
+      <column name="item_guid" type="uuid" />
+    </header>
+    <rows>
+    </rows>
+  </table>
+</database>

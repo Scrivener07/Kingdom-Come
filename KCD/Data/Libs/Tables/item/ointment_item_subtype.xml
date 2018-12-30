@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="ointment_item_subtype" version="1">
+    <header>
+      <column name="ointment_item_subtype_id" type="integer" />
+      <column name="ointment_item_subtype_name" type="character varying" />
+    </header>
+    <rows>
+      <row ointment_item_subtype_id="0" ointment_item_subtype_name="weapon" />
+      <row ointment_item_subtype_id="1" ointment_item_subtype_name="armor" />
+      <row ointment_item_subtype_id="2" ointment_item_subtype_name="clothes" />
+      <row ointment_item_subtype_id="3" ointment_item_subtype_name="shoes" />
+    </rows>
+  </table>
+</database>

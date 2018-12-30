@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="situation_role" version="1">
+    <header>
+      <column name="name" type="character varying" />
+      <column name="optional" type="boolean" />
+      <column name="order_by" type="integer" />
+      <column name="passive" type="boolean" />
+      <column name="situation_id" type="uuid" />
+      <column name="situation_role_condition_id" type="uuid" />
+      <column name="situation_role_id" type="uuid" />
+    </header>
+    <rows>
+      <row name="listener" optional="False" order_by="0" passive="False" situation_id="4675f70e-5482-0b49-ba63-44675a2ce89a" situation_role_condition_id="42948ef0-1581-9a6a-dc0a-0f27539718a2" situation_role_id="40494ca4-ca2f-dba7-324b-c4d8116aacba" />
+      <row name="initiator" optional="False" order_by="0" passive="False" situation_id="43c8c1b6-1956-dc49-8fe5-077d6246b79e" situation_role_condition_id="" situation_role_id="40728eeb-91bf-273d-c3db-b18dcdee67bc" />
+      <row name="Dance1" optional="False" order_by="0" passive="False" situation_id="45848952-a456-d5fb-b513-6f5eaae2d1b3" situation_role_condition_id="" situation_role_id="40c55421-5cba-a154-b25d-7d57a439ac84" />
+      <row name="giver" optional="False" order_by="1" passive="False" situation_id="48f8449d-6b78-ddaf-46e1-0bd955910381" situation_role_condition_id="4687b98f-61a1-88e9-d780-49462491b4b2" situation_role_id="419d6918-b0eb-9a97-a7ee-c87159cdfa92" />
+      <row name="client" optional="False" order_by="1" passive="False" situation_id="4f1d72c5-f158-48e8-5e33-1c4e69213d83" situation_role_condition_id="40086377-0659-a152-b1c0-8715dae35197" situation_role_id="41a95a3e-0dac-fc24-3bcf-6bb3b7360999" />
+      <row name="Dance2" optional="False" order_by="1" passive="False" situation_id="45848952-a456-d5fb-b513-6f5eaae2d1b3" situation_role_condition_id="" situation_role_id="41f47699-c8d8-5bb3-519c-70052c46c682" />
+      <row name="listener" optional="False" order_by="1" passive="True" situation_id="45698c1e-705c-6afd-00fb-b59414245e91" situation_role_condition_id="44061e3a-b0ad-4644-2e3e-51410ac2f28d" situation_role_id="41ff7cf0-ea9d-e4f7-2933-235e57aa838e" />
+      <row name="Dance3" optional="False" order_by="2" passive="False" situation_id="45848952-a456-d5fb-b513-6f5eaae2d1b3" situation_role_condition_id="48b9abb0-d18b-ac22-893a-791c71f2e7bc" situation_role_id="420768c5-0d23-fab9-0ac5-4a2ab7e32d9d" />
+      <row name="theSecond" optional="False" order_by="1" passive="False" situation_id="497d49ab-d473-d0d0-8e92-8919b07bc5a7" situation_role_condition_id="" situation_role_id="420925b6-9291-2710-b725-e04910b01b81" />
+      <row name="fortuneTeller" optional="False" order_by="0" passive="False" situation_id="4f40eba7-afbe-32a0-3b28-eef3da0f4b99" situation_role_condition_id="4573e9db-0c7b-a5bd-6d28-5afd6c26a6b1" situation_role_id="434a58a5-84b1-e32f-8cdb-415d7cb3a898" />
+      <row name="listener" optional="False" order_by="1" passive="False" situation_id="4d82c1dc-6851-43c0-27a0-34bd4fa6d7bc" situation_role_condition_id="4637d2da-7868-7ca1-816e-2f3a325c37b8" situation_role_id="4362ad3f-af44-17a9-829a-3fd2292c1e93" />
+      <row name="participant" optional="False" order_by="0" passive="False" situation_id="429d600f-bafb-0b9a-6dc3-9065648dc6aa" situation_role_condition_id="48e41e21-30c7-7270-5025-e4bcadf31da7" situation_role_id="439671df-813c-80c5-3c98-5d30ba2c5ca7" />
+      <row name="initiator" optional="False" order_by="0" passive="False" situation_id="45698c1e-705c-6afd-00fb-b59414245e91" situation_role_condition_id="44061e3a-b0ad-4644-2e3e-51410ac2f28d" situation_role_id="43a6bab2-e135-027c-d1fb-7d7e5a2f3997" />
+      <row name="initiator" optional="False" order_by="0" passive="False" situation_id="4d82c1dc-6851-43c0-27a0-34bd4fa6d7bc" situation_role_condition_id="4637d2da-7868-7ca1-816e-2f3a325c37b8" situation_role_id="44524d57-a8c7-4fe0-d61f-91746e998b9f" />
+      <row name="theFirst" optional="False" order_by="0" passive="False" situation_id="497d49ab-d473-d0d0-8e92-8919b07bc5a7" situation_role_condition_id="" situation_role_id="45e3d1a9-72f5-6b8c-02ff-0ee069dc35a3" />
+      <row name="pocestny2" optional="False" order_by="1" passive="False" situation_id="4018ee51-e4d4-ec57-b007-808661402998" situation_role_condition_id="45676fc4-3a59-6b40-8f6b-e1bcc9702381" situation_role_id="46284a05-f979-9450-b90e-6c9b32bf8480" />
+      <row name="shout" optional="False" order_by="0" passive="False" situation_id="4d5f1e07-f947-2069-0a41-034adee6198b" situation_role_condition_id="40f46d0b-208a-1367-436c-0f2a41f1bab6" situation_role_id="485a49bc-fe89-7065-a5d2-1b3b058a7a8e" />
+      <row name="talker" optional="False" order_by="0" passive="False" situation_id="47e4986b-2be9-404b-2771-e0bc282b81a5" situation_role_condition_id="41940621-3f27-9a40-78fe-3fa8819d64a9" situation_role_id="49979004-c7ee-2dde-6e57-718502f5bdb6" />
+      <row name="talker" optional="False" order_by="1" passive="False" situation_id="4675f70e-5482-0b49-ba63-44675a2ce89a" situation_role_condition_id="42948ef0-1581-9a6a-dc0a-0f27539718a2" situation_role_id="49ca87c8-e866-9b2f-37fe-5897603d23b5" />
+      <row name="pocestny1" optional="False" order_by="0" passive="False" situation_id="4018ee51-e4d4-ec57-b007-808661402998" situation_role_condition_id="464d1656-c9a2-b7c0-890a-316a434492b3" situation_role_id="4b28c54d-f575-1cdc-dc32-e760978b49a6" />
+      <row name="listener" optional="False" order_by="1" passive="False" situation_id="47e4986b-2be9-404b-2771-e0bc282b81a5" situation_role_condition_id="48c472f3-b0a0-38aa-3b81-c9fca92630b1" situation_role_id="4b4332af-5321-fdbf-4ea7-fb23c607598d" />
+      <row name="receiver" optional="False" order_by="1" passive="False" situation_id="4631a217-9054-3790-6f63-08ef864f81b6" situation_role_condition_id="" situation_role_id="4bcadbb3-dadf-fa55-9d8e-b6b8a3bacca7" />
+      <row name="receiver" optional="False" order_by="1" passive="False" situation_id="43c8c1b6-1956-dc49-8fe5-077d6246b79e" situation_role_condition_id="4187b18e-fa9e-6cf2-b56a-687a78f2be8d" situation_role_id="4c41224e-bc47-9f38-0116-365cc1263f80" />
+      <row name="beggar" optional="False" order_by="0" passive="False" situation_id="48f8449d-6b78-ddaf-46e1-0bd955910381" situation_role_condition_id="436a5964-4243-f16d-992d-ea7e559be882" situation_role_id="4d5a243e-c8d3-00ae-7504-bce5bb304399" />
+      <row name="fortuneTeller" optional="False" order_by="0" passive="False" situation_id="4f1d72c5-f158-48e8-5e33-1c4e69213d83" situation_role_condition_id="4573e9db-0c7b-a5bd-6d28-5afd6c26a6b1" situation_role_id="4e248d16-5b40-cba4-4c70-63c30933dbb2" />
+      <row name="client" optional="False" order_by="1" passive="False" situation_id="4f40eba7-afbe-32a0-3b28-eef3da0f4b99" situation_role_condition_id="443ee1c4-7d52-14b8-92cd-f107c0e801a6" situation_role_id="4e2eea28-b66f-e791-1857-6cc312107781" />
+      <row name="react" optional="False" order_by="0" passive="False" situation_id="4b9a1a92-b405-0f27-244e-8d2e663b3fb5" situation_role_condition_id="4d7ee043-c305-2859-1946-ebe480defeaa" situation_role_id="4e3e1cbb-55f2-0cf4-1f45-e652f97a29bb" />
+      <row name="init" optional="False" order_by="0" passive="False" situation_id="4631a217-9054-3790-6f63-08ef864f81b6" situation_role_condition_id="" situation_role_id="4eebf237-d5dc-fd47-bf43-6663edf333ad" />
+    </rows>
+  </table>
+</database>

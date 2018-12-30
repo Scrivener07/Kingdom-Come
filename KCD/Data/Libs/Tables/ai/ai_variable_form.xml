@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="ai_variable_form" version="1">
+    <header>
+      <column name="ai_variable_form_id" type="integer" />
+      <column name="ai_variable_form_name" type="character varying" />
+    </header>
+    <rows>
+      <row ai_variable_form_id="0" ai_variable_form_name="single" />
+      <row ai_variable_form_id="1" ai_variable_form_name="indexed" />
+      <row ai_variable_form_id="2" ai_variable_form_name="associative" />
+      <row ai_variable_form_id="3" ai_variable_form_name="custom_associative" />
+    </rows>
+  </table>
+</database>

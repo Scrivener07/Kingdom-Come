@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="brain_sensor" version="1">
+    <header>
+      <column name="brain_sensor_id" type="uuid" />
+      <column name="brain_sensor_name" type="character varying" />
+      <column name="brain_sensor_type" type="integer" />
+      <column name="direction_x" type="real" />
+      <column name="direction_y" type="real" />
+      <column name="direction_z" type="real" />
+      <column name="field_of_view" type="real" />
+      <column name="position_x" type="real" />
+      <column name="position_y" type="real" />
+      <column name="position_z" type="real" />
+      <column name="range" type="real" />
+    </header>
+    <rows>
+      <row brain_sensor_id="00000000-0000-0000-0000-000000053101" brain_sensor_name="Eyes" brain_sensor_type="2" direction_x="0" direction_y="0" direction_z="0" field_of_view="180" position_x="0" position_y="0" position_z="1.75" range="20" />
+      <row brain_sensor_id="00000000-0000-0000-0000-000000053102" brain_sensor_name="Ears" brain_sensor_type="3" direction_x="0" direction_y="0" direction_z="0" field_of_view="360" position_x="0" position_y="0" position_z="1.65" range="20" />
+    </rows>
+  </table>
+</database>

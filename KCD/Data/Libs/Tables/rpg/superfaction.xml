@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="superfaction" version="1">
+    <header>
+      <column name="superfaction_id" type="integer" />
+      <column name="superfaction_name" type="character varying" />
+      <column name="ui_name" type="character varying" />
+    </header>
+    <rows>
+      <row superfaction_id="1" superfaction_name="Cumans" ui_name="" />
+      <row superfaction_id="2" superfaction_name="RatzigSoldiers" ui_name="" />
+      <row superfaction_id="3" superfaction_name="Civilians" ui_name="" />
+      <row superfaction_id="4" superfaction_name="Bandits" ui_name="" />
+      <row superfaction_id="5" superfaction_name="Player" ui_name="" />
+      <row superfaction_id="6" superfaction_name="Soldiers" ui_name="" />
+      <row superfaction_id="7" superfaction_name="Duelists" ui_name="" />
+      <row superfaction_id="8" superfaction_name="PribyslavitzBandits" ui_name="" />
+      <row superfaction_id="9" superfaction_name="MachsBandits" ui_name="" />
+      <row superfaction_id="11" superfaction_name="CiviliansWithoutEnemies" ui_name="" />
+      <row superfaction_id="12" superfaction_name="MatusFricek" ui_name="" />
+      <row superfaction_id="13" superfaction_name="SkalitzBrawlEnemies" ui_name="" />
+      <row superfaction_id="14" superfaction_name="SkalitzBrawlFriends" ui_name="" />
+      <row superfaction_id="15" superfaction_name="SazavaMonasteryMonks" ui_name="" />
+      <row superfaction_id="16" superfaction_name="TournamentDuelist" ui_name="" />
+      <row superfaction_id="17" superfaction_name="TournamentDuelistNpc1" ui_name="" />
+      <row superfaction_id="18" superfaction_name="TournamentDuelistNpc2" ui_name="" />
+      <row superfaction_id="19" superfaction_name="AggressorAgainstPlayer" ui_name="" />
+      <row superfaction_id="20" superfaction_name="WolflinBandits" ui_name="" />
+      <row superfaction_id="21" superfaction_name="BernardSoldiers" ui_name="" />
+      <row superfaction_id="22" superfaction_name="DuelistAgainstPlayer" ui_name="" />
+      <row superfaction_id="23" superfaction_name="SiegeBandits" ui_name="" />
+      <row superfaction_id="24" superfaction_name="EventSecondaryBandits" ui_name="" />
+      <row superfaction_id="25" superfaction_name="q_abductedWoman_Abductors" ui_name="" />
+      <row superfaction_id="26" superfaction_name="Ulrich" ui_name="" />
+      <row superfaction_id="27" superfaction_name="Counterfeiters" ui_name="" />
+      <row superfaction_id="28" superfaction_name="q_infiltration_zbysek" ui_name="" />
+      <row superfaction_id="29" superfaction_name="q_pribyslav_banditCampAlly" ui_name="" />
+      <row superfaction_id="30" superfaction_name="q_infiltration_bandits" ui_name="" />
+      <row superfaction_id="33" superfaction_name="banditsInPublic" ui_name="" />
+      <row superfaction_id="34" superfaction_name="q_ledecko_banditsInCave" ui_name="" />
+      <row superfaction_id="35" superfaction_name="q_ledecko_bandits" ui_name="" />
+      <row superfaction_id="36" superfaction_name="q_samopesh_bandits" ui_name="" />
+      <row superfaction_id="37" superfaction_name="unpopularCivilians" ui_name="" />
+      <row superfaction_id="38" superfaction_name="playersBestFriendsForever" ui_name="" />
+      <row superfaction_id="39" superfaction_name="q_auschitz_bohutasFriends" ui_name="" />
+      <row superfaction_id="40" superfaction_name="q_auschitz_bailiffsFriends" ui_name="" />
+      <row superfaction_id="41" superfaction_name="EventBandits" ui_name="" />
+      <row superfaction_id="42" superfaction_name="hatedCivilians" ui_name="" />
+      <row superfaction_id="43" superfaction_name="q_ledecko_banditsInPub" ui_name="" />
+      <row superfaction_id="44" superfaction_name="q_sheepInWolfsClothing_poachers" ui_name="" />
+      <row superfaction_id="45" superfaction_name="q_sheepInWolfsClothing_rangers" ui_name="" />
+      <row superfaction_id="46" superfaction_name="q_escapeToTalmberk_seekers" ui_name="" />
+      <row superfaction_id="47" superfaction_name="q_escapeToTalmberk_seekers_enem" ui_name="" />
+      <row superfaction_id="48" superfaction_name="q_abductedWoman_ester" ui_name="" />
+      <row superfaction_id="49" superfaction_name="q_samopesh_bandits_temporal" ui_name="" />
+      <row superfaction_id="50" superfaction_name="publicEnemy_corpse" ui_name="" />
+      <row superfaction_id="51" superfaction_name="q_awakening_dream_civilian" ui_name="" />
+      <row superfaction_id="52" superfaction_name="Animals" ui_name="" />
+      <row superfaction_id="53" superfaction_name="q_ginger_civilian_bandits" ui_name="" />
+      <row superfaction_id="54" superfaction_name="bandits_undercover_loves_all" ui_name="" />
+      <row superfaction_id="55" superfaction_name="q_rides_kunoband" ui_name="" />
+      <row superfaction_id="56" superfaction_name="q_capcum_cumanCaptive" ui_name="" />
+      <row superfaction_id="57" superfaction_name="q_tournament_cernyPetrAmbush" ui_name="" />
+      <row superfaction_id="58" superfaction_name="q_rides_hagenband" ui_name="" />
+      <row superfaction_id="59" superfaction_name="q_rides_hagenband_unfriendly" ui_name="" />
+    </rows>
+  </table>
+</database>

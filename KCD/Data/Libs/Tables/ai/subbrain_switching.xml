@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="subbrain_switching" version="1">
+    <header>
+      <column name="file_name" type="character varying" />
+      <column name="subbrain_id" type="uuid" />
+      <column name="tree_name" type="character varying" />
+    </header>
+    <rows>
+      <row file_name="player.xml" subbrain_id="40f93e8e-071f-bc2f-9a70-9df16a223ea1" tree_name="player" />
+      <row file_name="_mz/npc_combatDummyE3.xml" subbrain_id="45279ed1-a1ec-9aac-0bde-ba084711a788" tree_name="switch" />
+      <row file_name="final/sb_switch.xml" subbrain_id="466fd343-4fe7-17ad-28b8-59735daba18b" tree_name="switch" />
+      <row file_name="final/sb_switching_horse.xml" subbrain_id="49dea97d-b200-366b-5d27-b6b738a1999e" tree_name="onUpdate" />
+      <row file_name="_viktor/combatTutorial.xml" subbrain_id="4bc48dd8-54f2-ce02-bed9-54bd54d56b9b" tree_name="CombatTutorial_Switch" />
+    </rows>
+  </table>
+</database>

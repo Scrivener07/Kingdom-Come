@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="reputation_notification" version="1">
+    <header>
+      <column name="cooldown" type="character varying" />
+      <column name="reputation_notification_id" type="integer" />
+      <column name="reputation_notification_name" type="character varying" />
+      <column name="reputation_notification_ui_text" type="character varying" />
+    </header>
+    <rows>
+      <row cooldown="2s #GT" reputation_notification_id="0" reputation_notification_name="Reputation gained" reputation_notification_ui_text="ui_hud_reputation_notification_reputation_gained" />
+      <row cooldown="2s #GT" reputation_notification_id="1" reputation_notification_name="Reputation lost" reputation_notification_ui_text="ui_hud_reputation_notification_reputation_lost" />
+      <row cooldown="20s #GT" reputation_notification_id="2" reputation_notification_name="Crime reported" reputation_notification_ui_text="ui_hud_reputation_notification_crime_reported" />
+    </rows>
+  </table>
+</database>

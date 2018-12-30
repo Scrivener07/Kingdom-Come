@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="infotext_category" version="1">
+    <header>
+      <column name="name" type="character varying" />
+    </header>
+    <rows>
+      <row name="skiptime" />
+    </rows>
+  </table>
+</database>

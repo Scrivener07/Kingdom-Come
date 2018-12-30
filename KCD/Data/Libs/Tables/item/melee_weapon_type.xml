@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="melee_weapon_type" version="1">
+    <header>
+      <column name="melee_weapon_type_id" type="integer" />
+      <column name="melee_weapon_type_name" type="character varying" />
+    </header>
+    <rows>
+      <row melee_weapon_type_id="0" melee_weapon_type_name="dagger" />
+      <row melee_weapon_type_id="1" melee_weapon_type_name="sword" />
+      <row melee_weapon_type_id="2" melee_weapon_type_name="sabre" />
+      <row melee_weapon_type_id="3" melee_weapon_type_name="axe" />
+      <row melee_weapon_type_id="4" melee_weapon_type_name="longsword" />
+      <row melee_weapon_type_id="5" melee_weapon_type_name="mace" />
+      <row melee_weapon_type_id="7" melee_weapon_type_name="halberd" />
+      <row melee_weapon_type_id="8" melee_weapon_type_name="shield" />
+      <row melee_weapon_type_id="11" melee_weapon_type_name="torch" />
+    </rows>
+  </table>
+</database>

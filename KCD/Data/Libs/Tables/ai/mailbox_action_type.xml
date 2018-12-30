@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="mailbox_action_type" version="1">
+    <header>
+      <column name="mailbox_action_type_id" type="integer" />
+      <column name="mailbox_action_type_name" type="character varying" />
+    </header>
+    <rows>
+      <row mailbox_action_type_id="1" mailbox_action_type_name="continue" />
+      <row mailbox_action_type_id="2" mailbox_action_type_name="consume" />
+    </rows>
+  </table>
+</database>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="gender" version="1">
+    <header>
+      <column name="gender_id" type="integer" />
+      <column name="gender_name" type="character varying" />
+    </header>
+    <rows>
+      <row gender_id="0" gender_name="male" />
+      <row gender_id="1" gender_name="female" />
+      <row gender_id="2" gender_name="child" />
+      <row gender_id="3" gender_name="not-defined" />
+    </rows>
+  </table>
+</database>

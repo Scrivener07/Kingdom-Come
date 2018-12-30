@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="random_event_option_set" version="1">
+    <header>
+      <column name="random_event_option_set_id" type="integer" />
+      <column name="random_event_option_set_name" type="character varying" />
+    </header>
+    <rows>
+      <row random_event_option_set_id="1" random_event_option_set_name="Test attack" />
+      <row random_event_option_set_id="2" random_event_option_set_name="Test walk" />
+      <row random_event_option_set_id="3" random_event_option_set_name="Generic random event" />
+      <row random_event_option_set_id="4" random_event_option_set_name="AmbushPlayer" />
+      <row random_event_option_set_id="5" random_event_option_set_name="RoadsideCorpse" />
+      <row random_event_option_set_id="6" random_event_option_set_name="AmbushNPC" />
+      <row random_event_option_set_id="7" random_event_option_set_name="Wanderer" />
+      <row random_event_option_set_id="8" random_event_option_set_name="Chase" />
+      <row random_event_option_set_id="9" random_event_option_set_name="q_tournament_cernyPetrAmbush" />
+    </rows>
+  </table>
+</database>

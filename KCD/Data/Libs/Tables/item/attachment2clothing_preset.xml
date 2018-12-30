@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="attachment2clothing_preset" version="1">
+    <header>
+      <column name="attachment_base_id" type="uuid" />
+      <column name="brightness" type="real" />
+      <column name="clothing_preset_id" type="uuid" />
+      <column name="color" type="integer" />
+      <column name="color_hue" type="real" />
+      <column name="color_saturation" type="real" />
+      <column name="computer_name" type="character varying" />
+      <column name="timestamp" type="character varying" />
+      <column name="zone1_brightness" type="real" />
+      <column name="zone1_hue" type="real" />
+      <column name="zone1_saturation" type="real" />
+      <column name="zone2_brightness" type="real" />
+      <column name="zone2_hue" type="real" />
+      <column name="zone2_saturation" type="real" />
+      <column name="zone3_brightness" type="real" />
+      <column name="zone3_hue" type="real" />
+      <column name="zone3_saturation" type="real" />
+    </header>
+    <rows />
+  </table>
+</database>

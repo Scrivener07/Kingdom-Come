@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="item_phase" version="1">
+    <header>
+      <column name="item_id" type="uuid" />
+      <column name="material" type="character varying" />
+      <column name="model" type="character varying" />
+      <column name="order" type="integer" />
+    </header>
+    <rows>
+      <row item_id="00000000-0000-0000-0000-000000000005" material="" model="default/box_small" order="1" />
+      <row item_id="00000000-0000-0000-0000-000000000005" material="" model="weapons/shield_gothic_01/shield_gothic_03" order="2" />
+      <row item_id="13fc8a8d-2591-4580-97f8-a6e04d47f005" material="" model="props/butcher/hen_hanging" order="1" />
+      <row item_id="13fc8a8d-2591-4580-97f8-a6e04d47f005" material="" model="props/butcher/hen_hanging_rotten.cgf" order="2" />
+      <row item_id="2551ce9f-9369-4679-8cba-4d6df2361546" material="" model="props/wooden_bins/baskets/basket_02/basket_02_woodchips_half_full" order="1" />
+      <row item_id="2551ce9f-9369-4679-8cba-4d6df2361546" material="" model="props/wooden_bins/baskets/basket_02/basket_02_woodchips" order="2" />
+      <row item_id="2551ce9f-9369-4679-8cba-4d6df2361546" material="" model="props/wooden_bins/baskets/basket_02/basket_02_woodsticks" order="3" />
+      <row item_id="2551ce9f-9369-4679-8cba-4d6df2361546" material="" model="props/wooden_bins/baskets/basket_02/basket_02_woodsticks_full" order="4" />
+      <row item_id="2551ce9f-9369-4679-8cba-4d6df2361546" material="" model="props/wooden_bins/baskets/basket_02/basket_02_woodblocks_half_full" order="5" />
+      <row item_id="2551ce9f-9369-4679-8cba-4d6df2361546" material="" model="props/wooden_bins/baskets/basket_02/basket_02_woodblocks_full" order="6" />
+      <row item_id="2a95e7f8-d175-4bea-a1ef-d2e40744dd57" material="" model="props/bakery/bowl_empty" order="1" />
+      <row item_id="2a95e7f8-d175-4bea-a1ef-d2e40744dd57" material="" model="props/bakery/bowl_flour" order="2" />
+      <row item_id="2a95e7f8-d175-4bea-a1ef-d2e40744dd57" material="" model="props/bakery/bowl_water" order="3" />
+      <row item_id="2a95e7f8-d175-4bea-a1ef-d2e40744dd57" material="" model="props/bakery/bowl_dough" order="4" />
+      <row item_id="488a4699-a1b5-475a-b93f-24e4d5729c06" material="" model="props/butcher/skinned_deer_wholemesh.cgf" order="1" />
+      <row item_id="488a4699-a1b5-475a-b93f-24e4d5729c06" material="" model="props/butcher/skinned_deer_rotten.cgf" order="2" />
+      <row item_id="4ce95b2e-d0ed-439a-a705-ab051c499927" material="" model="props/blacksmith_tools/semifinished_sword" order="1" />
+      <row item_id="4ce95b2e-d0ed-439a-a705-ab051c499927" material="" model="props/blacksmith_tools/semifinished_sword_hot" order="2" />
+      <row item_id="4cea28a0-0814-405a-bf24-4fd711f7eb63" material="props/misc/torches/torch_02_burned" model="props/misc/torches/torch01_short_player" order="1" />
+      <row item_id="54917ed5-fb6c-441d-8647-8cb97c42810c" material="" model="props/interiors/kitchenware/food/lamb_meat.cgf" order="1" />
+      <row item_id="54917ed5-fb6c-441d-8647-8cb97c42810c" material="" model="props/interiors/kitchenware/food/lamb_meat_rotten.cgf" order="2" />
+      <row item_id="578a6bb7-4eae-4d06-9272-bdf692b249c6" material="" model="props/tavern_things/bowl_mash" order="1" />
+      <row item_id="68b5653e-7a01-47a2-81ba-2f1e2143faae" material="" model="props/tavern_things/wood_tankard" order="1" />
+      <row item_id="68b5653e-7a01-47a2-81ba-2f1e2143faae" material="" model="props/tavern_things/wood_tankard_full" order="2" />
+      <row item_id="76fd4ad3-84e2-444c-9822-b67c4adbc349" material="" model="props/interiors/kitchenware/food/chicken_thigh_semichewed" order="1" />
+      <row item_id="76fd4ad3-84e2-444c-9822-b67c4adbc349" material="" model="props/interiors/kitchenware/food/chicken_thigh_chewed" order="2" />
+      <row item_id="83a854f3-95f9-4ba5-b907-76434cf61c32" material="" model="props/tavern_things/cauldron2_smaller_half_full" order="1" />
+      <row item_id="83a854f3-95f9-4ba5-b907-76434cf61c32" material="" model="props/tavern_things/cauldron2_smaller_empty" order="2" />
+      <row item_id="90f01aca-5dcb-410c-ab1e-97094f137d8c" material="" model="props/wooden_blocks/chopping_block_wood02" order="1" />
+      <row item_id="90f01aca-5dcb-410c-ab1e-97094f137d8c" material="" model="props/wooden_blocks/chopping_block_wood03" order="2" />
+      <row item_id="948f44e3-6a37-4826-bcd7-eec3ba7f10cb" material="" model="props/interiors/kitchenware/food/bread" order="1" />
+      <row item_id="979b2602-f161-4b9d-8774-738119196ba1" material="" model="props/wooden_bins/bucket/bucket_water" order="1" />
+      <row item_id="99c04991-47fc-49cb-894c-78c93bc7da65" material="" model="props/butcher/skinned_deer_piece01" order="1" />
+      <row item_id="99c04991-47fc-49cb-894c-78c93bc7da65" material="" model="props/butcher/skinned_deer_rotten_piece01" order="2" />
+      <row item_id="a4cb5d0c-a982-4634-80e2-3a8d7355491e" material="" model="props/tavern_things/meal_tray_small" order="1" />
+      <row item_id="a4cb5d0c-a982-4634-80e2-3a8d7355491e" material="" model="props/tavern_things/meal_tray_small_chicken_1_thigh" order="2" />
+      <row item_id="a4cb5d0c-a982-4634-80e2-3a8d7355491e" material="" model="props/tavern_things/meal_tray_small_chicken_2_thighs" order="3" />
+      <row item_id="a4cb5d0c-a982-4634-80e2-3a8d7355491e" material="" model="props/tavern_things/meal_tray_small_chicken_3_thighs" order="4" />
+      <row item_id="a4cb5d0c-a982-4634-80e2-3a8d7355491e" material="" model="props/tavern_things/meal_tray_small_chicken_4_thighs" order="5" />
+      <row item_id="aa07926f-2968-43e8-b0eb-085893d576f2" material="" model="props/butcher/skinned_deer_piece02" order="1" />
+      <row item_id="aa07926f-2968-43e8-b0eb-085893d576f2" material="" model="props/butcher/skinned_deer_rotten_piece02" order="2" />
+      <row item_id="ba455df4-e1d1-46eb-b791-210eb0908227" material="" model="props/cloth_random/stich_frame_half_decor" order="1" />
+      <row item_id="ba455df4-e1d1-46eb-b791-210eb0908227" material="" model="props/cloth_random/stich_frame_decor" order="2" />
+      <row item_id="ded5173a-82e0-4caf-a3ff-6b6529a7fd05" material="" model="props/tavern_things/meal_tray_meat" order="1" />
+      <row item_id="ded5173a-82e0-4caf-a3ff-6b6529a7fd05" material="" model="props/tavern_things/meal_tray_meat_pieces" order="2" />
+      <row item_id="ded5173a-82e0-4caf-a3ff-6b6529a7fd05" material="" model="props/tavern_things/meal_tray_sausage_raw" order="3" />
+      <row item_id="ded5173a-82e0-4caf-a3ff-6b6529a7fd05" material="" model="props/tavern_things/meal_tray_sausage_smoked" order="4" />
+      <row item_id="e09ca305-4de5-46fa-abc5-df39fc2e769d" material="" model="props/butcher/skinned_deer_piece03" order="1" />
+      <row item_id="e09ca305-4de5-46fa-abc5-df39fc2e769d" material="" model="props/butcher/skinned_deer_rotten_piece03" order="2" />
+      <row item_id="e1097afe-649e-4494-8a05-84ab079e8db3" material="" model="props/wooden_bins/water_tub/water_tube_water" order="1" />
+      <row item_id="ec1e9587-44c5-4c67-97cf-e35115ae2809" material="" model="props/tavern_things/wooden_stein" order="1" />
+      <row item_id="ee1fbced-67a4-49ac-85bf-e855358908ca" material="" model="props/wooden_bins/water_tub/water_tube_water" order="1" />
+      <row item_id="ee1fbced-67a4-49ac-85bf-e855358908ca" material="" model="props/wooden_bins/water_tub/water_tube_blood" order="2" />
+    </rows>
+  </table>
+</database>

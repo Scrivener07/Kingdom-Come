@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="actor_action_type_group" version="1">
+    <header>
+      <column name="actor_action_type_group_id" type="integer" />
+      <column name="actor_action_type_id" type="integer" />
+    </header>
+    <rows>
+      <row actor_action_type_group_id="1000" actor_action_type_id="3" />
+      <row actor_action_type_group_id="1001" actor_action_type_id="10" />
+      <row actor_action_type_group_id="1001" actor_action_type_id="11" />
+      <row actor_action_type_group_id="1002" actor_action_type_id="14" />
+      <row actor_action_type_group_id="1002" actor_action_type_id="15" />
+    </rows>
+  </table>
+</database>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="combat_guard_stance" version="1">
+    <header>
+      <column name="combat_guard_stance_id" type="integer" />
+      <column name="combat_guard_stance_name" type="character varying" />
+      <column name="mn_tag" type="character varying" />
+      <column name="opp_mn_tag" type="character varying" />
+    </header>
+    <rows>
+      <row combat_guard_stance_id="-1" combat_guard_stance_name="none" mn_tag="" opp_mn_tag="" />
+      <row combat_guard_stance_id="0" combat_guard_stance_name="left" mn_tag="leftGuard" opp_mn_tag="oppLeftGuard" />
+      <row combat_guard_stance_id="1" combat_guard_stance_name="right" mn_tag="rightGuard" opp_mn_tag="oppRightGuard" />
+    </rows>
+  </table>
+</database>

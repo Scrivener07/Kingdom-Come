@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="situation_global_condition" version="1">
+    <header>
+      <column name="data" type="character varying" />
+      <column name="order_by" type="integer" />
+      <column name="situation_global_condition_id" type="uuid" />
+      <column name="situation_id" type="uuid" />
+      <column name="type" type="integer" />
+    </header>
+    <rows>
+      <row data="2.000000-5.000000:all" order_by="0" situation_global_condition_id="402bed91-f671-c952-07d3-3e728da654b1" situation_id="43c8c1b6-1956-dc49-8fe5-077d6246b79e" type="0" />
+      <row data="0.000000-20.000000:all" order_by="0" situation_global_condition_id="403e009a-8ac9-8073-7b83-60871d5e3a94" situation_id="4018ee51-e4d4-ec57-b007-808661402998" type="0" />
+      <row data="0.000000-5.000000:all" order_by="0" situation_global_condition_id="42154023-e2f2-aeac-5db7-2499fba88ab3" situation_id="4631a217-9054-3790-6f63-08ef864f81b6" type="0" />
+      <row data="2.500000-30.000000:all" order_by="0" situation_global_condition_id="42639b32-f59a-400d-f5fa-3eb77d23618b" situation_id="4675f70e-5482-0b49-ba63-44675a2ce89a" type="0" />
+      <row data="all" order_by="1" situation_global_condition_id="431d7bf1-40ce-d49b-3ba7-0a0007cca89e" situation_id="45698c1e-705c-6afd-00fb-b59414245e91" type="1" />
+      <row data="2.000000-50.000000:all" order_by="0" situation_global_condition_id="436c83f0-efd7-c324-d29c-3cb235d9a0b6" situation_id="48f8449d-6b78-ddaf-46e1-0bd955910381" type="0" />
+      <row data="GOSSIP:all" order_by="1" situation_global_condition_id="441ab8f0-a825-4e0f-3883-cfe1e0e8cfaa" situation_id="47e4986b-2be9-404b-2771-e0bc282b81a5" type="2" />
+      <row data="0.000000-2.000000:all" order_by="0" situation_global_condition_id="443d2cb7-e8b1-2abf-62cb-35435d308d8b" situation_id="47e4986b-2be9-404b-2771-e0bc282b81a5" type="0" />
+      <row data="0.000000-7.000000:all" order_by="0" situation_global_condition_id="44a6ca69-3ec9-490a-6094-23b17758dfbe" situation_id="45698c1e-705c-6afd-00fb-b59414245e91" type="0" />
+      <row data="0.000000-50.000000:all" order_by="0" situation_global_condition_id="49d653e4-674f-b6ce-9311-739c3a684385" situation_id="45848952-a456-d5fb-b513-6f5eaae2d1b3" type="0" />
+      <row data="1.000000-20.000000:all" order_by="0" situation_global_condition_id="4a43affa-701f-ec43-9282-8314fe83f2bd" situation_id="497d49ab-d473-d0d0-8e92-8919b07bc5a7" type="0" />
+      <row data="GOSSIP:all" order_by="1" situation_global_condition_id="4c48df8b-cb0e-c452-fc41-9ec53c3ad4aa" situation_id="4675f70e-5482-0b49-ba63-44675a2ce89a" type="2" />
+      <row data="0.000000-15.000000:all" order_by="0" situation_global_condition_id="4f3b3d5b-efd9-9680-6a92-01d3b3ba39ad" situation_id="4d82c1dc-6851-43c0-27a0-34bd4fa6d7bc" type="0" />
+    </rows>
+  </table>
+</database>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="subbrain2ai_percept_handler" version="1">
+    <header>
+      <column name="ai_percept_handler_id" type="uuid" />
+      <column name="brain_message_type_id" type="integer" />
+      <column name="subbrain_id" type="uuid" />
+    </header>
+    <rows />
+  </table>
+</database>

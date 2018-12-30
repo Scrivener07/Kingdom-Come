@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="new_homes_parcel" version="1">
+    <header>
+      <column name="default_layer_profile" type="character varying" />
+      <column name="parcel_id" type="integer" />
+      <column name="parcel_name" type="character varying" />
+    </header>
+    <rows>
+      <row default_layer_profile="newhomes_lumberjacks_site" parcel_id="1" parcel_name="parcel_lumberjacks" />
+      <row default_layer_profile="newhomes_smithy_site" parcel_id="2" parcel_name="parcel_blacksmith" />
+      <row default_layer_profile="newhomes_townhall_tent" parcel_id="4" parcel_name="parcel_townHall" />
+      <row default_layer_profile="newhomes_merchant_site" parcel_id="5" parcel_name="parcel_merchant" />
+      <row default_layer_profile="newhomes_pub_site" parcel_id="6" parcel_name="parcel_pub" />
+      <row default_layer_profile="newhomes_garrisonstables_site" parcel_id="7" parcel_name="parcel_garrison_stables" />
+      <row default_layer_profile="newhomes_bakerbutcher_site" parcel_id="8" parcel_name="parcel_butcher_baker" />
+      <row default_layer_profile="newhomes_beehive_site" parcel_id="9" parcel_name="parcel_apiary" />
+      <row default_layer_profile="newhomes_church_ruin" parcel_id="12" parcel_name="parcel_church" />
+      <row default_layer_profile="newhomes_bridge_wooden" parcel_id="13" parcel_name="parcel_bridge" />
+      <row default_layer_profile="newhomes_labourers_site" parcel_id="14" parcel_name="parcel_camp" />
+    </rows>
+  </table>
+</database>

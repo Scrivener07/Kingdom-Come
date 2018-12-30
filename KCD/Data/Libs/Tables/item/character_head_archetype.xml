@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="character_head_archetype" version="1">
+    <header>
+      <column name="character_head_archetype_id" type="integer" />
+      <column name="character_head_archetype_name" type="character varying" />
+    </header>
+    <rows>
+      <row character_head_archetype_id="1" character_head_archetype_name="arch_01" />
+      <row character_head_archetype_id="2" character_head_archetype_name="arch_02" />
+      <row character_head_archetype_id="3" character_head_archetype_name="arch_03" />
+      <row character_head_archetype_id="4" character_head_archetype_name="arch_04" />
+      <row character_head_archetype_id="5" character_head_archetype_name="arch_05" />
+      <row character_head_archetype_id="6" character_head_archetype_name="arch_06" />
+      <row character_head_archetype_id="7" character_head_archetype_name="arch_07" />
+      <row character_head_archetype_id="8" character_head_archetype_name="arch_08" />
+      <row character_head_archetype_id="9" character_head_archetype_name="arch_09" />
+    </rows>
+  </table>
+</database>

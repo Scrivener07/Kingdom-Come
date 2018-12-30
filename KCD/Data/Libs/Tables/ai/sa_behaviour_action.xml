@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="sa_behaviour_action" version="1">
+    <header>
+      <column name="sa_behaviour_action_id" type="integer" />
+      <column name="sa_behaviour_action_name" type="character varying" />
+    </header>
+    <rows>
+      <row sa_behaviour_action_id="0" sa_behaviour_action_name="keep" />
+      <row sa_behaviour_action_id="1" sa_behaviour_action_name="drop" />
+      <row sa_behaviour_action_id="2" sa_behaviour_action_name="overridable" />
+    </rows>
+  </table>
+</database>

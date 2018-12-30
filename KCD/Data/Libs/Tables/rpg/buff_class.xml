@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="buff_class" version="1">
+    <header>
+      <column name="buff_class_id" type="integer" />
+      <column name="buff_class_name" type="character varying" />
+    </header>
+    <rows>
+      <row buff_class_id="0" buff_class_name="Testing Stat Buff" />
+      <row buff_class_id="1" buff_class_name="System Buff" />
+      <row buff_class_id="2" buff_class_name="Weapon Skill Buff" />
+      <row buff_class_id="3" buff_class_name="Testing Combat Buff" />
+      <row buff_class_id="4" buff_class_name="Perk Buff" />
+      <row buff_class_id="5" buff_class_name="Injury" />
+      <row buff_class_id="6" buff_class_name="Heal" />
+      <row buff_class_id="7" buff_class_name="Poison" />
+      <row buff_class_id="8" buff_class_name="Perception" />
+      <row buff_class_id="9" buff_class_name="Overeat" />
+      <row buff_class_id="10" buff_class_name="Alcohol" />
+      <row buff_class_id="12" buff_class_name="Item Buff" />
+      <row buff_class_id="13" buff_class_name="Potion" />
+      <row buff_class_id="14" buff_class_name="Food Poison" />
+      <row buff_class_id="15" buff_class_name="Script System" />
+      <row buff_class_id="16" buff_class_name="Unconsciousness" />
+      <row buff_class_id="17" buff_class_name="Hangover" />
+    </rows>
+  </table>
+</database>

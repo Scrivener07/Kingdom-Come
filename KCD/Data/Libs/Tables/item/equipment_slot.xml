@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="equipment_slot" version="1">
+    <header>
+      <column name="body_layer_type_id" type="integer" />
+      <column name="equipment_part_id" type="integer" />
+      <column name="equipment_slot_id" type="integer" />
+      <column name="equipment_slot_name" type="character varying" />
+      <column name="ui_body_part_id" type="integer" />
+    </header>
+    <rows>
+      <row body_layer_type_id="1" equipment_part_id="1" equipment_slot_id="10" equipment_slot_name="head_liner" ui_body_part_id="0" />
+      <row body_layer_type_id="2" equipment_part_id="1" equipment_slot_id="11" equipment_slot_name="head_hood" ui_body_part_id="0" />
+      <row body_layer_type_id="3" equipment_part_id="1" equipment_slot_id="12" equipment_slot_name="head_helmet" ui_body_part_id="0" />
+      <row body_layer_type_id="4" equipment_part_id="1" equipment_slot_id="19" equipment_slot_name="necklace" ui_body_part_id="0" />
+      <row body_layer_type_id="1" equipment_part_id="2" equipment_slot_id="4" equipment_slot_name="body_cloth" ui_body_part_id="2" />
+      <row body_layer_type_id="2" equipment_part_id="2" equipment_slot_id="5" equipment_slot_name="body_chainmail" ui_body_part_id="2" />
+      <row body_layer_type_id="3" equipment_part_id="2" equipment_slot_id="6" equipment_slot_name="body_plate" ui_body_part_id="2" />
+      <row body_layer_type_id="4" equipment_part_id="2" equipment_slot_id="7" equipment_slot_name="body_coat" ui_body_part_id="2" />
+      <row body_layer_type_id="3" equipment_part_id="3" equipment_slot_id="9" equipment_slot_name="sleeves" ui_body_part_id="1" />
+      <row body_layer_type_id="2" equipment_part_id="4" equipment_slot_id="18" equipment_slot_name="ring" ui_body_part_id="1" />
+      <row body_layer_type_id="3" equipment_part_id="4" equipment_slot_id="8" equipment_slot_name="gloves" ui_body_part_id="1" />
+      <row body_layer_type_id="1" equipment_part_id="5" equipment_slot_id="1" equipment_slot_name="leg_trousers" ui_body_part_id="3" />
+      <row body_layer_type_id="2" equipment_part_id="5" equipment_slot_id="2" equipment_slot_name="leg_chainmail" ui_body_part_id="3" />
+      <row body_layer_type_id="3" equipment_part_id="5" equipment_slot_id="3" equipment_slot_name="leg_armor" ui_body_part_id="3" />
+      <row body_layer_type_id="3" equipment_part_id="6" equipment_slot_id="0" equipment_slot_name="boot" ui_body_part_id="3" />
+      <row body_layer_type_id="4" equipment_part_id="6" equipment_slot_id="20" equipment_slot_name="spur" ui_body_part_id="3" />
+      <row body_layer_type_id="2" equipment_part_id="7" equipment_slot_id="14" equipment_slot_name="horse_bridle" ui_body_part_id="0" />
+      <row body_layer_type_id="3" equipment_part_id="7" equipment_slot_id="17" equipment_slot_name="horse_armor_head" ui_body_part_id="0" />
+      <row body_layer_type_id="1" equipment_part_id="8" equipment_slot_id="13" equipment_slot_name="horse_cloth" ui_body_part_id="2" />
+      <row body_layer_type_id="3" equipment_part_id="8" equipment_slot_id="15" equipment_slot_name="horse_armor_torso" ui_body_part_id="2" />
+      <row body_layer_type_id="4" equipment_part_id="8" equipment_slot_id="16" equipment_slot_name="horse_saddle" ui_body_part_id="2" />
+      <row body_layer_type_id="3" equipment_part_id="9" equipment_slot_id="21" equipment_slot_name="horse_shoe" ui_body_part_id="3" />
+    </rows>
+  </table>
+</database>

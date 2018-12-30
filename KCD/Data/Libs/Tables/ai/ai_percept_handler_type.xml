@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="ai_percept_handler_type" version="1">
+    <header>
+      <column name="ai_percept_handler_type_id" type="integer" />
+      <column name="ai_percept_handler_type_name" type="character varying" />
+    </header>
+    <rows>
+      <row ai_percept_handler_type_id="1" ai_percept_handler_type_name="CHandler" />
+      <row ai_percept_handler_type_id="2" ai_percept_handler_type_name="LuaHandler" />
+    </rows>
+  </table>
+</database>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="reputation_condition" version="1">
+    <header>
+      <column name="min_reputation" type="real" />
+      <column name="name" type="character varying" />
+      <column name="reputation_condition_id" type="integer" />
+    </header>
+    <rows>
+      <row min_reputation="0.25" name="test" reputation_condition_id="1" />
+    </rows>
+  </table>
+</database>
