@@ -11,7 +11,7 @@ namespace KCD.Library.Tables.Format
 
 
 		/// <summary>
-		/// Gets the size of this block in bits.
+		/// Gets the size of this block in bytes.
 		/// </summary>
 		public long Size { get { return GetSize(); } }
 

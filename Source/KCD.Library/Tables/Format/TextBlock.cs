@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.IO;
 using Sharp.Reporting;
 
@@ -14,9 +15,9 @@ namespace KCD.Library.Tables.Format
 
 
 		/// <summary>
-		/// Gets the size of this block in bits.
+		/// Gets the size of this block in bytes.
 		/// </summary>
-		/// <returns>Returns the size of this block in bits.</returns>
+		/// <returns>Returns the size of this block in bytes.</returns>
 		protected override long GetSize()
 		{
 			return Self.Header.StringDataSize;
@@ -38,7 +39,7 @@ namespace KCD.Library.Tables.Format
 			catch (Exception exception)
 			{
 				success = false;
-				Console.WriteLine(exception.GetReport());
+				Trace.WriteLine(exception.GetReport());
 			}
 			return success;
 		}

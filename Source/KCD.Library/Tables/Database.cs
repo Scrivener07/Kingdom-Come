@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.IO;
 using Sharp;
 using Sharp.Reporting;
@@ -35,7 +36,7 @@ namespace KCD.Library.Tables
 			Definition.Initialize();
 			Tables = new BindingList<Table>();
 			Rows = new BindingList<Row>();
-			Console.WriteLine("Created the database.\n\n");
+			Trace.WriteLine("Created the database.\n\n");
 		}
 
 
@@ -60,10 +61,10 @@ namespace KCD.Library.Tables
 			catch (Exception exception)
 			{
 				success = false;
-				Console.WriteLine(exception.GetReport());
+				Trace.WriteLine(exception.GetReport());
 			}
 
-			Console.WriteLine(string.Format("Loaded {0} tables.", Tables.Count));
+			Trace.WriteLine(string.Format("Loaded {0} tables.", Tables.Count));
 			return success;
 		}
 
@@ -77,12 +78,12 @@ namespace KCD.Library.Tables
 				{
 					Tables.Add(table);
 					table.Print();
-					Console.WriteLine(string.Format("Loaded `{0}` with descriptor type {1}.", filepath, table.Key));
+					Trace.WriteLine(string.Format("Loaded `{0}` with descriptor type {1}.", filepath, table.Key));
 					return true;
 				}
 				else
 				{
-					Console.WriteLine(string.Format("Failed to load `{0}`.", filepath));
+					Trace.WriteLine(string.Format("Failed to load `{0}`.", filepath));
 					return false;
 				}
 			}

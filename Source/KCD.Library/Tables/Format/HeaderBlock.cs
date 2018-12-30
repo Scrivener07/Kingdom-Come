@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.IO;
 using Sharp.Reporting;
 
@@ -78,9 +79,9 @@ namespace KCD.Library.Tables.Format
 
 
 		/// <summary>
-		/// The header size is 7 bytes or 28 bits.
+		/// The header is composed of 7 integers which is 28 bytes or 224 bits.
 		/// </summary>
-		/// <returns>The header size in bits. This will always be 28 bits.</returns>
+		/// <returns>The header size in bytes. (28 bytes)</returns>
 		protected override long GetSize()
 		{
 			return sizeof(int) * 7;
@@ -108,7 +109,7 @@ namespace KCD.Library.Tables.Format
 			catch (Exception exception)
 			{
 				success = false;
-				Console.WriteLine(exception.GetReport());
+				Trace.WriteLine(exception.GetReport());
 			}
 
 			return success;

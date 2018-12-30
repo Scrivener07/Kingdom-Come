@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Numerics;
 using Sharp.Reporting;
@@ -64,7 +65,7 @@ namespace KCD.Library.Tables
 			Register(Random_Event_Option, typeof(Random_Event_Option));
 			Register(Random_Event_Option_Set, typeof(Random_Event_Option_Set));
 			Register(Random_Event_Source_Type, typeof(Random_Event_Source_Type));
-			Console.WriteLine("Initialized with " + Count + " definitions.");
+			Trace.WriteLine("Initialized with " + Count + " definitions.");
 		}
 
 
@@ -81,20 +82,18 @@ namespace KCD.Library.Tables
 				Types.Add(key, type);
 				if (type == null)
 				{ // TODO: I will allow null types for now, but print a warning.
-					Console.ForegroundColor = ConsoleColor.Yellow;
-					Console.WriteLine(string.Format("Registered the {0} key with no type.", key, type));
-					Console.ResetColor();
+					Trace.WriteLine(string.Format("Registered the {0} key with no type.", key, type));
 				}
 				else
 				{
-					Console.WriteLine(string.Format("Registered the {0} key with the {1} type.", key, type));
+					Trace.WriteLine(string.Format("Registered the {0} key with the {1} type.", key, type));
 				}
 
 				return true;
 			}
 			else
 			{
-				Console.WriteLine(string.Format("Failed to register the {0} key with the {1} type.", key, type));
+				Trace.WriteLine(string.Format("Failed to register the {0} key with the {1} type.", key, type));
 				return false;
 			}
 		}
@@ -139,7 +138,7 @@ namespace KCD.Library.Tables
 			}
 			catch (Exception exception)
 			{
-				Console.WriteLine(exception.GetReport());
+				Trace.WriteLine(exception.GetReport());
 			}
 			return value;
 		}
@@ -160,7 +159,7 @@ namespace KCD.Library.Tables
 			}
 			catch (Exception exception)
 			{
-				Console.WriteLine(exception.GetReport());
+				Trace.WriteLine(exception.GetReport());
 			}
 			return value;
 		}
@@ -181,7 +180,7 @@ namespace KCD.Library.Tables
 			}
 			catch (Exception exception)
 			{
-				Console.WriteLine(exception.GetReport());
+				Trace.WriteLine(exception.GetReport());
 			}
 			return value;
 		}
@@ -202,11 +201,11 @@ namespace KCD.Library.Tables
 			}
 			catch (ArgumentException exception)
 			{
-				Console.WriteLine(exception.GetReport());
+				Trace.WriteLine(exception.GetReport());
 			}
 			catch (Exception exception)
 			{
-				Console.WriteLine(exception.GetReport());
+				Trace.WriteLine(exception.GetReport());
 			}
 			return new Guid(bytes);
 		}
@@ -227,7 +226,7 @@ namespace KCD.Library.Tables
 			}
 			catch (Exception exception)
 			{
-				Console.WriteLine(exception.GetReport());
+				Trace.WriteLine(exception.GetReport());
 			}
 			return value;
 		}
@@ -250,7 +249,7 @@ namespace KCD.Library.Tables
 			}
 			catch (Exception exception)
 			{
-				Console.WriteLine(exception.GetReport());
+				Trace.WriteLine(exception.GetReport());
 			}
 			return value;
 		}

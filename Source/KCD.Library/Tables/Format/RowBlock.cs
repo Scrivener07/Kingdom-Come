@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.IO;
 using Sharp.Reporting;
 
@@ -23,9 +24,9 @@ namespace KCD.Library.Tables.Format
 
 
 		/// <summary>
-		/// Gets the size of this block in bits.
+		/// Gets the size of this block in bytes.
 		/// </summary>
-		/// <returns>Returns the size of this block in bits.</returns>
+		/// <returns>Returns the size of this block in bytes.</returns>
 		protected override long GetSize()
 		{
 			return RowSize * Self.Header.RowCount;
@@ -69,7 +70,7 @@ namespace KCD.Library.Tables.Format
 				}
 				else
 				{
-					Console.WriteLine("An unknown row type definition has been encountered. Key:" + Self.Key);
+					Trace.WriteLine("An unknown row type definition has been encountered. Key:" + Self.Key);
 				}
 
 				index += 1;
@@ -168,7 +169,7 @@ namespace KCD.Library.Tables.Format
 			}
 			catch (Exception exception)
 			{
-				Console.WriteLine(exception.GetReport());
+				Trace.WriteLine(exception.GetReport());
 			}
 
 			return row;

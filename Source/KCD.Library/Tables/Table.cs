@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.IO;
 using KCD.Library.Tables.Format;
 using Sharp.Reporting;
@@ -104,7 +105,7 @@ namespace KCD.Library.Tables
 				catch (Exception exception)
 				{
 					success = false;
-					Console.WriteLine(exception.GetReport());
+					Trace.WriteLine(exception.GetReport());
 				}
 			}
 			return success;
@@ -119,20 +120,20 @@ namespace KCD.Library.Tables
 		/// </summary>
 		public void Print()
 		{
-			Console.WriteLine("Table File: " + FileName);
-			Console.WriteLine("Header:" + Header.ToString());
-			Console.WriteLine("---- FormatVersion: " + Header.FormatVersion);
-			Console.WriteLine("---- DescriptorsHash: " + Header.DescriptorsHash);
-			Console.WriteLine("---- LayoutHash: " + Header.LayoutHash);
-			Console.WriteLine("---- TableVersion: " + Header.TableVersion);
-			Console.WriteLine("---- RowCount: " + Header.RowCount);
-			Console.WriteLine("---- StringDataSize: " + Header.StringDataSize);
-			Console.WriteLine("---- StringUniqueCount: " + Header.StringUniqueCount);
-			Console.WriteLine("Row: " + Row.ToString());
-			Console.WriteLine("---- Count: ");
-			Console.WriteLine("Text: " + Text.ToString());
-			Console.WriteLine("---- Data: ");
-			Console.WriteLine("\n");
+			Trace.WriteLine("Table File: " + FileName);
+			Trace.WriteLine("Header:" + Header.ToString());
+			Trace.WriteLine("---- FormatVersion: " + Header.FormatVersion);
+			Trace.WriteLine("---- DescriptorsHash: " + Header.DescriptorsHash);
+			Trace.WriteLine("---- LayoutHash: " + Header.LayoutHash);
+			Trace.WriteLine("---- TableVersion: " + Header.TableVersion);
+			Trace.WriteLine("---- RowCount: " + Header.RowCount);
+			Trace.WriteLine("---- StringDataSize: " + Header.StringDataSize);
+			Trace.WriteLine("---- StringUniqueCount: " + Header.StringUniqueCount);
+			Trace.WriteLine("Row: " + Row.ToString());
+			Trace.WriteLine("---- Count: ");
+			Trace.WriteLine("Text: " + Text.ToString());
+			Trace.WriteLine("---- Data: ");
+			Trace.WriteLine("\n");
 		}
 
 

@@ -1,8 +1,7 @@
 ﻿using System;
+using System.Diagnostics;
 using KCD.Library.Tables;
 using Sharp.Reporting;
-
-// TODO: Write output to file.
 
 namespace KCD
 {
@@ -18,14 +17,8 @@ namespace KCD
 		/// <param name="arguments">Provide a string directory to load tbl files from.</param>
 		static void Main(string[] arguments)
 		{
-			if (arguments.Length == 0)
-			{
-				Folder = @"E:\Studio\KCD\Data\Libs\Tables";
-			}
-			else
-			{
-				Folder = arguments[0];
-			}
+			Configure(arguments);
+			Trace.WriteLine(string.Format("Using folder `{0}`.", Folder));
 
 			try
 			{
@@ -34,11 +27,21 @@ namespace KCD
 			}
 			catch (Exception exception)
 			{
-				Console.WriteLine(exception.GetReport());
+				var report = exception.GetReport();
+				Trace.WriteLine(report);
 			}
 
-			Console.WriteLine("\nPress any key to terminate the program.");
+			Trace.WriteLine("\nPress any key to terminate the program.");
 			Console.ReadKey();
+		}
+
+
+		private static void Configure(string[] arguments)
+		{
+			if (arguments.Length == 0)
+				Folder = @"E:\Lab\Warhorse\Kingdom-Come\KCD\Data\Libs\Tables";
+			else
+				Folder = arguments[0];
 		}
 
 

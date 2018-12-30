@@ -44,7 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Packages\ModManifest.cs" />
+    <Compile Include="Mods\Manifest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tables\Database.cs" />
     <Compile Include="Tables\Definition.cs" />
