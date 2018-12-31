@@ -9,6 +9,7 @@ namespace KCD.Library.Tables
 	public class Table
 	{
 		#region Meta
+
 		/// <summary>
 		/// The database which is responsible for loading this table.
 		/// </summary>
@@ -20,20 +21,38 @@ namespace KCD.Library.Tables
 		public readonly string FileName;
 
 		/// <summary>
+		///The file size of this table.
+		/// </summary>
+		public long FileSize { get; private set; }
+
+		/// <summary>
 		/// Used for looking up this table type definition.
 		/// </summary>
 		public uint Key { get { return Header.DescriptorsHash; } }
+
+		/// <summary>
+		/// True if this table contains string text.
+		/// </summary>
+		public bool HasText { get { return Header.StringUniqueCount > 0; } }
+
+		/// <summary>
+		/// To see if this table uses padding, compare table description in XML file with row size in TBL file.
+		/// </summary>
+		[Obsolete("Not Implemented!")]
+		public bool HasPadding
+		{
+			get
+			{ // TODO: Determine if a table has padding or not.
+				return false;
+			}
+		}
+
 
 		/// <summary>
 		/// These hashes are not dynamically generated based on the table content; they are hardcoded.
 		/// </summary>
 		/// <remarks>32-bit FNV-1a</remarks>
 		public uint HashDefault { get { return 0x811c9dc5; } }
-
-		/// <summary>
-		///The file size of this table.
-		/// </summary>
-		public long FileSize { get; private set; }
 
 		#endregion
 
@@ -120,20 +139,26 @@ namespace KCD.Library.Tables
 		/// </summary>
 		public void Print()
 		{
-			Trace.WriteLine("Table File: " + FileName);
-			Trace.WriteLine("Header:" + Header.ToString());
-			Trace.WriteLine("---- FormatVersion: " + Header.FormatVersion);
-			Trace.WriteLine("---- DescriptorsHash: " + Header.DescriptorsHash);
-			Trace.WriteLine("---- LayoutHash: " + Header.LayoutHash);
-			Trace.WriteLine("---- TableVersion: " + Header.TableVersion);
-			Trace.WriteLine("---- RowCount: " + Header.RowCount);
-			Trace.WriteLine("---- StringDataSize: " + Header.StringDataSize);
-			Trace.WriteLine("---- StringUniqueCount: " + Header.StringUniqueCount);
-			Trace.WriteLine("Row: " + Row.ToString());
-			Trace.WriteLine("---- Count: ");
-			Trace.WriteLine("Text: " + Text.ToString());
-			Trace.WriteLine("---- Data: ");
-			Trace.WriteLine("\n");
+			Trace.WriteLine("|----------------------------------------");
+			Trace.WriteLine(string.Format("|File: {0}", FileName));
+			Trace.WriteLine("|----------------------------------------");
+			Trace.WriteLine(string.Format("|    FileSize: {0}", FileSize));
+			Trace.WriteLine(string.Format("|    HasPadding: {0}", HasPadding));
+			Trace.WriteLine(string.Format("|    HasText: {0}", HasText));
+			Trace.WriteLine(string.Format("|Header: {0}", Header.ToString()));
+			Trace.WriteLine(string.Format("|    FormatVersion: {0}", Header.FormatVersion));
+			Trace.WriteLine(string.Format("|    DescriptorsHash: {0}", Header.DescriptorsHash));
+			Trace.WriteLine(string.Format("|    LayoutHash: {0}", Header.LayoutHash));
+			Trace.WriteLine(string.Format("|    TableVersion: {0}", Header.TableVersion));
+			Trace.WriteLine(string.Format("|    RowCount: {0}", Header.RowCount));
+			Trace.WriteLine(string.Format("|    StringDataSize: {0}", Header.StringDataSize));
+			Trace.WriteLine(string.Format("|    StringUniqueCount: {0}", Header.StringUniqueCount));
+			Trace.WriteLine(string.Format("|Row: {0}", Row.ToString()));
+			Trace.WriteLine(string.Format("|    RowSize: {0}", Row.RowSize));
+			Trace.WriteLine(string.Format("|Text: {0}", Text.ToString()));
+			Trace.WriteLine(string.Format("|    HasText: {0}", HasText));
+			Trace.WriteLine("|----------------------------------------");
+			Trace.WriteLine(Environment.NewLine);
 		}
 
 

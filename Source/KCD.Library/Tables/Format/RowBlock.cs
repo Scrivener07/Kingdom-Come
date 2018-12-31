@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
 using System.IO;
-using Sharp.Reporting;
 
 namespace KCD.Library.Tables.Format
 {
@@ -63,7 +62,7 @@ namespace KCD.Library.Tables.Format
 			int index = 0;
 			while (index < Self.Header.RowCount)
 			{
-				Row row = ReadRow(reader);
+				Row row = reader.ReadRow(Self);
 				if (row != null)
 				{
 					Self.Owner.Rows.Add(row);
@@ -77,102 +76,6 @@ namespace KCD.Library.Tables.Format
 			}
 
 			return true;
-		}
-
-
-		/// <summary>
-		/// Reads an individual row line from the table file.
-		/// </summary>
-		/// <param name="reader">The binary reader to use.</param>
-		/// <returns>Returns true on success.</returns>
-		private Row ReadRow(BinaryReader reader)
-		{
-			Row row = null;
-			try
-			{
-				if (Self.Key == Definition.Achievement)
-				{
-					row = new Achievement(Self, reader);
-				}
-				else if (Self.Key == Definition.Achievement_Rule)
-				{
-					row = new Achievement_Rule(Self, reader);
-				}
-				else if (Self.Key == Definition.Character_Beard)
-				{
-					row = new Character_Beard(Self, reader);
-				}
-				else if (Self.Key == Definition.Character_Body)
-				{
-					row = new Character_Body(Self, reader);
-				}
-				else if (Self.Key == Definition.Character_Hair)
-				{
-					row = new Character_Hair(Self, reader);
-				}
-				else if (Self.Key == Definition.Character_Head)
-				{
-					row = new Character_Head(Self, reader);
-				}
-				else if (Self.Key == Definition.DLC)
-				{
-					row = new DLC(Self, reader);
-				}
-				else if (Self.Key == Definition.Editor_Object)
-				{
-					row = new Editor_Object(Self, reader);
-				}
-				else if (Self.Key == Definition.Editor_Object_Binding)
-				{
-					row = new Editor_Object_Binding(Self, reader);
-				}
-				else if (Self.Key == Definition.Faction)
-				{
-					row = new Faction(Self, reader);
-				}
-				else if (Self.Key == Definition.Game_Mode)
-				{
-					row = new Game_Mode(Self, reader);
-				}
-				else if (Self.Key == Definition.Perk)
-				{
-					row = new Perk(Self, reader);
-				}
-				else if (Self.Key == Definition.POI_Type)
-				{
-					row = new POI_Type(Self, reader);
-				}
-				else if (Self.Key == Definition.POI_Type2Perk)
-				{
-					row = new POI_Type2Perk(Self, reader);
-				}
-				else if (Self.Key == Definition.Race)
-				{
-					row = new Race(Self, reader);
-				}
-				else if (Self.Key == Definition.Random_Event)
-				{
-					row = new Random_Event(Self, reader);
-				}
-				else if (Self.Key == Definition.Random_Event_Option)
-				{
-					row = new Random_Event_Option(Self, reader);
-				}
-				else if (Self.Key == Definition.Random_Event_Option_Set)
-				{
-					row = new Random_Event_Option_Set(Self, reader);
-				}
-				else if (Self.Key == Definition.Random_Event_Source_Type)
-				{
-					row = new Random_Event_Source_Type(Self, reader);
-				}
-			}
-			catch (Exception exception)
-			{
-				Trace.WriteLine(exception.GetReport());
-			}
-
-			return row;
 		}
 
 

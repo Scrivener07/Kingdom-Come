@@ -124,6 +124,133 @@ namespace KCD.Library.Tables
 		#region Binary Reader
 
 		/// <summary>
+		/// Reads an individual row line from the table file.
+		/// </summary>
+		/// <param name="reader">The binary reader to use.</param>
+		/// <param name="table">The table to read from.</param>
+		/// <returns>Returns true on success.</returns>
+		public static Row ReadRow(this BinaryReader reader, Table table)
+		{
+			Row row = null;
+			try
+			{
+				if (table.Key == Achievement)
+				{
+					row = new Achievement(table, reader);
+				}
+				else if (table.Key == Achievement_Rule)
+				{
+					row = new Achievement_Rule(table, reader);
+				}
+				else if (table.Key == Character_Beard)
+				{
+					row = new Character_Beard(table, reader);
+				}
+				else if (table.Key == Character_Body)
+				{
+					row = new Character_Body(table, reader);
+				}
+				else if (table.Key == Character_Hair)
+				{
+					row = new Character_Hair(table, reader);
+				}
+				else if (table.Key == Character_Head)
+				{
+					row = new Character_Head(table, reader);
+				}
+				else if (table.Key == DLC)
+				{
+					row = new DLC(table, reader);
+				}
+				else if (table.Key == Editor_Object)
+				{
+					row = new Editor_Object(table, reader);
+				}
+				else if (table.Key == Editor_Object_Binding)
+				{
+					row = new Editor_Object_Binding(table, reader);
+				}
+				else if (table.Key == Faction)
+				{
+					row = new Faction(table, reader);
+				}
+				else if (table.Key == Game_Mode)
+				{
+					row = new Game_Mode(table, reader);
+				}
+				else if (table.Key == Perk)
+				{
+					row = new Perk(table, reader);
+				}
+				else if (table.Key == POI_Type)
+				{
+					row = new POI_Type(table, reader);
+				}
+				else if (table.Key == POI_Type2Perk)
+				{
+					row = new POI_Type2Perk(table, reader);
+				}
+				else if (table.Key == Race)
+				{
+					row = new Race(table, reader);
+				}
+				else if (table.Key == Random_Event)
+				{
+					row = new Random_Event(table, reader);
+				}
+				else if (table.Key == Random_Event_Option)
+				{
+					row = new Random_Event_Option(table, reader);
+				}
+				else if (table.Key == Random_Event_Option_Set)
+				{
+					row = new Random_Event_Option_Set(table, reader);
+				}
+				else if (table.Key == Random_Event_Source_Type)
+				{
+					row = new Random_Event_Source_Type(table, reader);
+				}
+			}
+			catch (Exception exception)
+			{
+				Trace.WriteLine(exception.GetReport());
+			}
+
+			return row;
+		}
+
+
+		/// <summary>
+		/// Skips one byte by incrementing the stream position.
+		/// </summary>
+		/// <param name="reader">The binary reader responsible for reading a TBL file.</param>
+		public static void SkipByte(this BinaryReader reader)
+		{
+			SkipBytes(reader, 1);
+		}
+
+
+		/// <summary>
+		/// Skips a number of bytes by incrementing the stream position.
+		/// </summary>
+		/// <param name="reader">The binary reader responsible for reading a TBL file.</param>
+		/// <param name="number">The number of bytes to skip.</param>
+		public static void SkipBytes(this BinaryReader reader, int number)
+		{
+			if (number < 1) { throw new ArgumentOutOfRangeException("number", number, "The argument must be greater than zero."); }
+			try
+			{
+				reader.BaseStream.Position += number;
+			}
+			catch (Exception exception)
+			{
+				Trace.WriteLine(exception.GetReport());
+			}
+
+		}
+
+
+		/// <summary>
 		/// An Int has a 32 bit width in TBL files.
 		/// This is called "integer" within the XML files.
 		/// </summary>

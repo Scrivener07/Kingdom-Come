@@ -39,7 +39,7 @@ namespace KCD
 		private static void Configure(string[] arguments)
 		{
 			if (arguments.Length == 0)
-				Folder = @"E:\Lab\Warhorse\Kingdom-Come\KCD\Data\Libs\Tables";
+				Folder = @"..\..\..\..\KCD\Data\Libs\Tables";
 			else
 				Folder = arguments[0];
 		}

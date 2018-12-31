@@ -42,7 +42,7 @@ namespace KCD.Library.Tables
 			{
 				throw new ArgumentException(string.Format("The reader postion cannot be less than {0} but equals {1}.", Owner.Header.Size, reader.BaseStream.Position));
 			}
-			if (reader.BaseStream.Position > Owner.Row.Size)
+			if (reader.BaseStream.Position > Owner.Header.Size + Owner.Row.Size)
 			{
 				throw new ArgumentException(string.Format("The reader postion cannot be greater than {0} but equals {1}.", Owner.Header.Size, reader.BaseStream.Position));
 			}
