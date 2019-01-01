@@ -26,18 +26,19 @@ This project adds tools and utilities for content creation in Kingdom Come Deliv
 * For more info about table data types, see Table Data Types.
 
 # [Table Data Types](https://wiki.nexusmods.com/index.php/Table_Data_Types_in_KCD)
-| Name    | Width in TBL file          | Name in XML table descriptor |
-|---------|----------------------------|------------------------------|
-| Int     | 32 bit                     | integer                      |
-| Int64   | 64 bit                     | bigint                       |
-| Float   | 32 bit                     | real                         |
-| Guid    | 128 bit                    | uuid                         |
-| Bool    | 8 bit                      | boolean                      |
-| String  | 32 bit                     | text, character varying      |
-| Vec3    | 96 bit (3 * 32 bit)        | vec3                         |
-| Quat    | 128 bit (4 * 32 bit)       | quat                         |
-| QuatT   | 224 bit ((4 + 3) * 32 bit) | quatt                        |
-| Padding | variable                   |                              |
+| Type ID | Name    | Bits                       | Bytes (Bits/4) | Name in XML table descriptor |
+|---------|---------|----------------------------|----------------|------------------------------|
+| -1      | Invalid |                            |                |                              |
+| 0       | Int     | 32 bit                     | 4 bytes        | integer                      |
+| 1       | Int64   | 64 bit                     | 8 bytes        | bigint                       |
+| 2       | Float   | 32 bit                     | 4 bytes        | real                         |
+| 3       | Guid    | 128 bit                    | 16 bytes       | uuid                         |
+| 4       | Bool    | 8 bit                      | 1 bytes        | boolean                      |
+| 5       | String  | 32 bit                     | 4 bytes        | text, character varying      |
+| 6       | Vec3    | 96 bit (3 * 32 bit)        | 12 bytes       | vec3                         |
+| 7       | Quat    | 128 bit (4 * 32 bit)       | 16 bytes       | quat                         |
+| 8       | QuatT   | 224 bit ((4 + 3) * 32 bit) | 28 bytes       | quatt                        |
+| 9       | Padding | variable                   |                |                              |
 
 ### Notes ###
 * Strings are stored as 32-bit signed integers pointing into the string table.
