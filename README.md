@@ -26,7 +26,7 @@ This project adds tools and utilities for content creation in Kingdom Come Deliv
 * For more info about table data types, see Table Data Types.
 
 # [Table Data Types](https://wiki.nexusmods.com/index.php/Table_Data_Types_in_KCD)
-| Type ID | Name    | Bits                       | Bytes (Bits/4) | Name in XML table descriptor |
+| Type ID | Name    | Bits                       | Bytes (Bits/8) | Name in XML table descriptor |
 |---------|---------|----------------------------|----------------|------------------------------|
 | -1      | Invalid |                            |                |                              |
 | 0       | Int     | 32 bit                     | 4 bytes        | integer                      |
