@@ -47,6 +47,9 @@ namespace KCD.Library.Tables
 			return POI_Type_ID;
 		}
 
-
+		protected override long GetSizeActual()
+		{
+			throw new NotImplementedException();
+		}
 	}
 }

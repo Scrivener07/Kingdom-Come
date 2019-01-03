@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Diagnostics;
 using System.IO;
 
 namespace KCD.Library.Tables.Format
@@ -35,7 +34,7 @@ namespace KCD.Library.Tables.Format
 		/// <summary>
 		/// Gets the line size of each row in the row data block.
 		/// </summary>
-		/// <returns>Returns the line size of each row in the row data block.</returns>
+		/// <returns>Returns the line size of an individual row in the row data block.</returns>
 		private long GetRowSize()
 		{
 			if (Self.Header.RowCount != 0) return (Self.FileSize - Self.Header.Size - Self.Header.StringDataSize) / Self.Header.RowCount;
@@ -43,10 +42,12 @@ namespace KCD.Library.Tables.Format
 		}
 
 
-		[Obsolete("This is not working correctly, or doesnt measure what I expected it to.")]
+		/// <summary>
+		/// Gets the total size of the string data block.
+		/// </summary>
+		/// <returns>The size in bytes.</returns>
 		private long GetStringDataSize()
 		{
-			// TODO: Calculates `588` for the `character_beard.tbl` table?
 			return Self.Header.Size + RowSize * Self.Header.RowCount;
 		}
 
@@ -69,7 +70,9 @@ namespace KCD.Library.Tables.Format
 				}
 				else
 				{
-					Trace.WriteLine("An unknown row type definition has been encountered. Key:" + Self.Key);
+					// TODO: Suppress tracing here, most types are not known.
+					// Its screwing up the signal-to-noise ratio of logs.
+					//Trace.WriteLine("An unknown row type definition has been encountered. Key:" + Self.Key);
 				}
 
 				index += 1;

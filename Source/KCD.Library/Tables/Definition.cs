@@ -7,6 +7,16 @@ using Sharp.Reporting;
 
 namespace KCD.Library.Tables
 {
+	/// <summary>
+	/// Provides static information about table entities.
+	/// </summary>
+	/// <remarks>
+	/// To add support for a new table entity, create a new class for the type.
+	/// Add a constant for the types descriptor hash.
+	/// Then `Register` the class type with the type descriptor.
+	/// Add a call the new types constructor within the BinaryReader's `ReadRow` method.
+	/// Finally, extend & implement the abstract `Row` class.
+	/// </remarks>
 	public static class Definition
 	{
 		#region Descriptors
@@ -21,6 +31,7 @@ namespace KCD.Library.Tables
 		public const uint Editor_Object_Binding = 0xf5f64b06;
 		public const uint Faction = 0xd1b6bf5f;
 		public const uint Game_Mode = 0xB24CF8DF;
+		public const uint Game_Over = 0x6d2a1a4f;
 		public const uint Perk = 0x391674DE;
 		public const uint POI_Type = 0x5ba68aa5;
 		public const uint POI_Type2Perk = 0x2fe2a608;
@@ -57,6 +68,7 @@ namespace KCD.Library.Tables
 			Register(Editor_Object_Binding, typeof(Editor_Object_Binding));
 			Register(Faction, typeof(Faction));
 			Register(Game_Mode, typeof(Game_Mode));
+			Register(Game_Over, typeof(Game_Over));
 			Register(Perk, typeof(Perk));
 			Register(POI_Type, typeof(POI_Type));
 			Register(POI_Type2Perk, typeof(POI_Type2Perk));
@@ -177,6 +189,10 @@ namespace KCD.Library.Tables
 				else if (table.Key == Game_Mode)
 				{
 					row = new Game_Mode(table, reader);
+				}
+				else if (table.Key == Game_Over)
+				{
+					row = new Game_Over(table, reader);
 				}
 				else if (table.Key == Perk)
 				{
@@ -367,12 +383,13 @@ namespace KCD.Library.Tables
 		/// </summary>
 		/// <param name="reader">The binary reader responsible for reading a TBL file.</param>
 		/// <returns>The value read in by the binary reader.</returns>
-		public static int ReadTableText(this BinaryReader reader)
+		public static string ReadTableText(this BinaryReader reader)
 		{// TODO: Implement reader for String.
-			int value = 0;
+			string value = string.Empty;
 			try
 			{
-				value = reader.ReadInt32();
+				var bytes = reader.ReadBytes(4);
+				value = BitConverter.ToString(bytes);
 			}
 			catch (Exception exception)
 			{

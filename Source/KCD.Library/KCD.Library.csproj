@@ -67,6 +67,7 @@
     <Compile Include="Tables\entities\Random_Event_Option.cs" />
     <Compile Include="Tables\entities\Random_Event_Option_Set.cs" />
     <Compile Include="Tables\entities\Random_Event_Source_Type.cs" />
+    <Compile Include="Tables\entities\Game_Over.cs" />
     <Compile Include="Tables\Row.cs" />
     <Compile Include="Tables\Format\Block.cs" />
     <Compile Include="Tables\Format\HeaderBlock.cs" />

@@ -21,6 +21,18 @@ namespace KCD.Library.Tables
 
 
 		/// <summary>
+		/// The actual size of this row as bytes, without any padding.
+		/// </summary>
+		public long SizeActual { get { return GetSizeActual(); } }
+
+
+		/// <summary>
+		/// The total amount of padding as bytes.
+		/// </summary>
+		public long SizePadding { get { return (Owner.Row.RowSize * Owner.Header.RowCount) - SizeActual; } }
+
+
+		/// <summary>
 		/// Creates a new row in the given table.
 		/// </summary>
 		/// <param name="table">The table to use.</param>
@@ -54,6 +66,13 @@ namespace KCD.Library.Tables
 		/// </summary>
 		/// <returns>Returns the identifier for this row object.</returns>
 		protected abstract Guid GetID();
+
+
+		/// <summary>
+		/// The actual size of this row without any padding.
+		/// </summary>
+		/// <returns>The actual size in bytes.</returns>
+		protected abstract long GetSizeActual();
 
 
 		/// <summary>

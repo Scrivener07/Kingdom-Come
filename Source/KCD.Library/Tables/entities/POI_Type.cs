@@ -17,8 +17,8 @@ namespace KCD.Library.Tables
 	{
 		public Guid POI_Type_ID { get; set; }
 		public int Mark_Type { get; set; }
-		public int Label { get; set; }
-		public int Discovery_MSG { get; set; }
+		public string Label { get; set; }
+		public string Discovery_MSG { get; set; }
 		public float Discovery_Dist { get; set; }
 		public int Compass_Mark_Type_ID { get; set; }
 		public Guid Associated_Codex_Perk_ID { get; set; }
@@ -31,8 +31,8 @@ namespace KCD.Library.Tables
 		{
 			POI_Type_ID = Guid.Empty;
 			Mark_Type = 0;
-			Label = 0;
-			Discovery_MSG = 0;
+			Label = string.Empty;
+			Discovery_MSG = string.Empty;
 			Discovery_Dist = 0.0f;
 			Compass_Mark_Type_ID = 0;
 			Associated_Codex_Perk_ID = Guid.Empty;
@@ -62,6 +62,9 @@ namespace KCD.Library.Tables
 			return POI_Type_ID;
 		}
 
-
+		protected override long GetSizeActual()
+		{
+			throw new NotImplementedException();
+		}
 	}
 }

@@ -8,17 +8,7 @@
 			"type": "shell",
 			"command": "python tblfile.py",
 			"args": [
-				".\\KCD\\Data\\Libs\\Tables\\rpg\\poi_type.tbl",
-				".\\KCD\\Data\\Libs\\Tables\\rpg\\poi_type2perk.tbl"
-			],
-			"problemMatcher": []
-		},
-		{
-			"label": "KCD:Tree Directory",
-			"type": "shell",
-			"command": "tree /F /A",
-			"args": [
-				".\\KCD\\Data\\Libs\\Tables"
+				".\\KCD\\Data\\Libs\\Tables\\rpg\\game_over.tbl"
 			],
 			"problemMatcher": []
 		}

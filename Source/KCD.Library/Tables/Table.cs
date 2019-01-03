@@ -35,18 +35,6 @@ namespace KCD.Library.Tables
 		/// </summary>
 		public bool HasText { get { return Header.StringUniqueCount > 0; } }
 
-		/// <summary>
-		/// To see if this table uses padding, compare table description in XML file with row size in TBL file.
-		/// </summary>
-		[Obsolete("Not Implemented!")]
-		public bool HasPadding
-		{
-			get
-			{ // TODO: Determine if a table has padding or not.
-				return false;
-			}
-		}
-
 
 		/// <summary>
 		/// These hashes are not dynamically generated based on the table content; they are hardcoded.
@@ -110,22 +98,15 @@ namespace KCD.Library.Tables
 			using (BinaryReader reader = new BinaryReader(File.Open(FileName, FileMode.Open)))
 			{
 				FileSize = reader.BaseStream.Length;
-				try
-				{
-					Header = new HeaderBlock(this);
-					Header.Read(reader);
 
-					Row = new RowBlock(this);
-					Row.Read(reader);
+				Header = new HeaderBlock(this);
+				Header.Read(reader);
 
-					Text = new TextBlock(this);
-					Text.Read(reader);
-				}
-				catch (Exception exception)
-				{
-					success = false;
-					Trace.WriteLine(exception.GetReport());
-				}
+				Row = new RowBlock(this);
+				Row.Read(reader);
+
+				Text = new TextBlock(this);
+				Text.Read(reader);
 			}
 			return success;
 		}
@@ -143,7 +124,6 @@ namespace KCD.Library.Tables
 			Trace.WriteLine(string.Format("|File: {0}", FileName));
 			Trace.WriteLine("|----------------------------------------");
 			Trace.WriteLine(string.Format("|    FileSize: {0}", FileSize));
-			Trace.WriteLine(string.Format("|    HasPadding: {0}", HasPadding));
 			Trace.WriteLine(string.Format("|    HasText: {0}", HasText));
 			Trace.WriteLine(string.Format("|Header: {0}", Header.ToString()));
 			Trace.WriteLine(string.Format("|    FormatVersion: {0}", Header.FormatVersion));

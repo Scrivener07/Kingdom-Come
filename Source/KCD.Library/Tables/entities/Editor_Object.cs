@@ -30,6 +30,9 @@ namespace KCD.Library.Tables
 			throw new NotImplementedException();
 		}
 
-
+		protected override long GetSizeActual()
+		{
+			throw new NotImplementedException();
+		}
 	}
 }

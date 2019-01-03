@@ -12,18 +12,18 @@ namespace KCD.Library.Tables
 	public class Achievement : Row
 	{
 		public int achievement_id { get; set; }
-		public int achievement_name { get; set; }
+		public string achievement_name { get; set; }
 		public int trophy_id { get; set; }
-		public int xboxlive_id { get; set; }
+		public string xboxlive_id { get; set; }
 		public bool unlock_on_steam { get; set; }
 		public bool platform_unlockable { get; set; }
 
 		public Achievement(Table table) : base(table)
 		{
 			achievement_id = 0;
-			achievement_name = 0;
+			achievement_name = string.Empty;
 			trophy_id = 0;
-			xboxlive_id = 0;
+			xboxlive_id = string.Empty;
 			unlock_on_steam = false;
 			platform_unlockable = false;
 		}
@@ -45,6 +45,9 @@ namespace KCD.Library.Tables
 			throw new NotImplementedException();
 		}
 
-
+		protected override long GetSizeActual()
+		{
+			throw new NotImplementedException();
+		}
 	}
 }
