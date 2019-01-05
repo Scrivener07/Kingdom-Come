@@ -42,8 +42,8 @@ namespace KCD.Library.Tables
 
 		public void Import()
 		{
-			ImportDirectory(Folder);
-			//ImportFile(Path.Combine(Folder, "rpg", "game_over.tbl"));
+			//ImportDirectory(Folder);
+			ImportFile(Path.Combine(Folder, "rpg", "game_over.tbl"));
 		}
 
 

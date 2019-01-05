@@ -1,14 +1,16 @@
 ﻿using System;
 using System.Diagnostics;
-using KCD.Library.Tables;
-using Sharp.Reporting;
+using System.IO;
+using KCD.Kaitai;
+//using KCD.Library.Tables;
+//using Sharp.Reporting;
 
 namespace KCD
 {
 	class Program
 	{
 		private static string Folder;
-		private static Database Vanilla;
+		//private static Database Vanilla;
 
 		/// <summary>
 		/// Loads "tbl" files from the given directory. If no directory is given, then
@@ -18,18 +20,21 @@ namespace KCD
 		static void Main(string[] arguments)
 		{
 			Configure(arguments);
-			Trace.WriteLine(string.Format("Using folder `{0}`.", Folder));
+			Trace.WriteLine(string.Format("Using folder {0}.", Folder));
 
-			try
-			{
-				Vanilla = new Database(Folder);
-				Vanilla.Import();
-			}
-			catch (Exception exception)
-			{
-				var report = exception.GetReport();
-				Trace.WriteLine(report);
-			}
+			string filepath = Path.Combine(Folder, "rpg", "game_over.tbl");
+			Table table = Table.FromFile(filepath);
+			Trace.WriteLine(string.Format("Kaitai Table:{0}\nDescriptor:{1}", filepath, table.TblHeader.Descriptors.ToString()));
+
+			//try
+			//{
+			//	Vanilla = new Database(Folder);
+			//	Vanilla.Import();
+			//}
+			//catch (Exception exception)
+			//{
+			//	Trace.WriteLine(exception.GetReport());
+			//}
 
 			Trace.WriteLine("\nPress any key to terminate the program.");
 			Console.ReadKey();

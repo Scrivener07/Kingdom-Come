@@ -4,11 +4,33 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"label": "KCD:Analyze Table",
+			"label": "KCD:Analyze:Table",
 			"type": "shell",
-			"command": "python tblfile.py",
+			"command": "python Scripts\\tblfile.py",
 			"args": [
 				".\\KCD\\Data\\Libs\\Tables\\rpg\\game_over.tbl"
+			],
+			"problemMatcher": []
+		},
+		{
+			"label": "Kaitai:Compile:Table",
+			"type": "shell",
+			"command": "kaitai-struct-compiler",
+			"args": [
+				".\\Source\\KCD.Kaitai\\Table.ksy",
+				"--outdir=.\\Source\\KCD.Kaitai",
+				"--target=csharp",
+				"--dotnet-namespace=KCD.Kaitai"
+			],
+			"problemMatcher": []
+		},
+		{
+			"label": "Kaitai:Visualizer:Table",
+			"type": "shell",
+			"command": "ksv",
+			"args": [
+				".\\KCD\\Data\\Libs\\Tables\\rpg\\game_over.tbl",
+				".\\Source\\KCD.Kaitai\\Table.ksy"
 			],
 			"problemMatcher": []
 		}
