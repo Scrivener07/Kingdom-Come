@@ -1,15 +1,27 @@
 meta:
   id: table
+  title: Table Data
+  application: 'Kingdom Come: Deliverance'
   file-extension: tbl
+  license: MIT
+  ks-version: 0.7.0
   encoding: utf-8
   endian: le
+doc: Tabular data which represents rows and columns.
+doc-ref: https://wiki.fireundubh.com/kingdomcome
 seq:
   - id: tbl_header
     type: header
-  - id: lines
-    type: line
+  - id: lines_game_over
+    type: line_game_over
     repeat: expr
     repeat-expr: tbl_header.line_count
+    if: tbl_header.descriptors == 0x6D2A1A4F
+  - id: lines_dlc
+    type: line_dlc
+    repeat: expr
+    repeat-expr: tbl_header.line_count
+    if: tbl_header.descriptors == 0xDB96E796
   - id: strings
     type: str
     terminator: 0
@@ -36,7 +48,7 @@ types:
         type: s4le
       - id: unique_strings_count
         type: s4le
-  line:
+  line_game_over:
     seq:
       - id: id
         type: s8le
@@ -46,3 +58,11 @@ types:
         type: s8le
       - id: type
         type: s8le
+  line_dlc:
+    seq:
+      - id: affects_savegame
+        type: s1
+      - id: dlc_id
+        type: s4le
+      - id: need_mount
+        type: s1

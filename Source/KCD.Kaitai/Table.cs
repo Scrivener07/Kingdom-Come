@@ -5,6 +5,13 @@ using System.Collections.Generic;
 
 namespace KCD.Kaitai
 {
+
+    /// <summary>
+    /// Tabular data which represents rows and columns.
+    /// </summary>
+    /// <remarks>
+    /// Reference: <a href="https://wiki.fireundubh.com/kingdomcome">Source</a>
+    /// </remarks>
     public partial class Table : KaitaiStruct
     {
         public static Table FromFile(string fileName)
@@ -21,10 +28,19 @@ namespace KCD.Kaitai
         private void _read()
         {
             _tblHeader = new Header(m_io, this, m_root);
-            _lines = new List<Line>((int) (TblHeader.LineCount));
-            for (var i = 0; i < TblHeader.LineCount; i++)
-            {
-                _lines.Add(new Line(m_io, this, m_root));
+            if (TblHeader.Descriptors == 1831475791) {
+                _linesGameOver = new List<LineGameOver>((int) (TblHeader.LineCount));
+                for (var i = 0; i < TblHeader.LineCount; i++)
+                {
+                    _linesGameOver.Add(new LineGameOver(m_io, this, m_root));
+                }
+            }
+            if (TblHeader.Descriptors == 3684099990) {
+                _linesDlc = new List<LineDlc>((int) (TblHeader.LineCount));
+                for (var i = 0; i < TblHeader.LineCount; i++)
+                {
+                    _linesDlc.Add(new LineDlc(m_io, this, m_root));
+                }
             }
             _strings = new List<string>((int) (TblHeader.UniqueStringsCount));
             for (var i = 0; i < TblHeader.UniqueStringsCount; i++)
@@ -98,14 +114,14 @@ namespace KCD.Kaitai
             public Table M_Root { get { return m_root; } }
             public Table M_Parent { get { return m_parent; } }
         }
-        public partial class Line : KaitaiStruct
+        public partial class LineGameOver : KaitaiStruct
         {
-            public static Line FromFile(string fileName)
+            public static LineGameOver FromFile(string fileName)
             {
-                return new Line(new KaitaiStream(fileName));
+                return new LineGameOver(new KaitaiStream(fileName));
             }
 
-            public Line(KaitaiStream p__io, Table p__parent = null, Table p__root = null) : base(p__io)
+            public LineGameOver(KaitaiStream p__io, Table p__parent = null, Table p__root = null) : base(p__io)
             {
                 m_parent = p__parent;
                 m_root = p__root;
@@ -131,13 +147,45 @@ namespace KCD.Kaitai
             public Table M_Root { get { return m_root; } }
             public Table M_Parent { get { return m_parent; } }
         }
+        public partial class LineDlc : KaitaiStruct
+        {
+            public static LineDlc FromFile(string fileName)
+            {
+                return new LineDlc(new KaitaiStream(fileName));
+            }
+
+            public LineDlc(KaitaiStream p__io, Table p__parent = null, Table p__root = null) : base(p__io)
+            {
+                m_parent = p__parent;
+                m_root = p__root;
+                _read();
+            }
+            private void _read()
+            {
+                _affectsSavegame = m_io.ReadS1();
+                _dlcId = m_io.ReadS4le();
+                _needMount = m_io.ReadS1();
+            }
+            private sbyte _affectsSavegame;
+            private int _dlcId;
+            private sbyte _needMount;
+            private Table m_root;
+            private Table m_parent;
+            public sbyte AffectsSavegame { get { return _affectsSavegame; } }
+            public int DlcId { get { return _dlcId; } }
+            public sbyte NeedMount { get { return _needMount; } }
+            public Table M_Root { get { return m_root; } }
+            public Table M_Parent { get { return m_parent; } }
+        }
         private Header _tblHeader;
-        private List<Line> _lines;
+        private List<LineGameOver> _linesGameOver;
+        private List<LineDlc> _linesDlc;
         private List<string> _strings;
         private Table m_root;
         private KaitaiStruct m_parent;
         public Header TblHeader { get { return _tblHeader; } }
-        public List<Line> Lines { get { return _lines; } }
+        public List<LineGameOver> LinesGameOver { get { return _linesGameOver; } }
+        public List<LineDlc> LinesDlc { get { return _linesDlc; } }
         public List<string> Strings { get { return _strings; } }
         public Table M_Root { get { return m_root; } }
         public KaitaiStruct M_Parent { get { return m_parent; } }

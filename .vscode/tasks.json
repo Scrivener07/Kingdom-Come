@@ -22,7 +22,11 @@
 				"--target=csharp",
 				"--dotnet-namespace=KCD.Kaitai"
 			],
-			"problemMatcher": []
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
 		},
 		{
 			"label": "Kaitai:Visualizer:Table",
