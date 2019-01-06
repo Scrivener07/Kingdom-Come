@@ -15,6 +15,22 @@ seq:
     repeat: expr
     repeat-expr: table.unique_strings_count
 types:
+  header:
+    seq:
+      - id: version
+        type: s4
+      - id: descriptors_hash
+        type: u4
+      - id: layout_hash
+        type: u4
+      - id: table_version
+        type: s4
+      - id: row_count
+        type: s4
+      - id: string_data_size
+        type: s4
+      - id: unique_strings_count
+        type: s4
   padding:
     seq:
       - id: padding_type
@@ -33,34 +49,6 @@ types:
     seq:
       - id: quatt_type
         size: 28
-  uuid:
-    seq:
-      - id: uuid_type
-        size: 16
-  vec3:
-    seq:
-      - id: vec3_x
-        type: s4
-      - id: vec3_y
-        type: s4
-      - id: vec3_z
-        type: s4
-  header:
-    seq:
-      - id: version
-        type: s4
-      - id: descriptors_hash
-        type: u4
-      - id: layout_hash
-        type: u4
-      - id: table_version
-        type: s4
-      - id: row_count
-        type: s4
-      - id: string_data_size
-        type: s4
-      - id: unique_strings_count
-        type: s4
   row:
     seq:
       - id: computer_name
@@ -74,4 +62,24 @@ types:
       - id: name
         type: s4
       - id: type
+        type: s4
+  trifloat:
+    seq:
+      - id: float_a
+        type: f4
+      - id: float_b
+        type: f4
+      - id: float_c
+        type: f4
+  uuid:
+    seq:
+      - id: uuid_type
+        size: 16
+  vec3:
+    seq:
+      - id: vec3_x
+        type: s4
+      - id: vec3_y
+        type: s4
+      - id: vec3_z
         type: s4
