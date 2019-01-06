@@ -10,29 +10,29 @@ meta:
 doc: Tabular data which represents rows and columns.
 doc-ref: https://wiki.fireundubh.com/kingdomcome
 seq:
-  - id: tbl_header
-    type: header
-  - id: lines_game_over
-    type: line_game_over
+  - id: header
+    type: header_type
+  - id: row_dlc
+    type: dlc
     repeat: expr
-    repeat-expr: tbl_header.line_count
-    if: tbl_header.descriptors == 0x6D2A1A4F
-  - id: lines_dlc
-    type: line_dlc
+    repeat-expr: header.line_count
+    if: header.descriptors == 0xDB96E796
+  - id: row_game_over
+    type: game_over
     repeat: expr
-    repeat-expr: tbl_header.line_count
-    if: tbl_header.descriptors == 0xDB96E796
+    repeat-expr: header.line_count
+    if: header.descriptors == 0x6D2A1A4F
   - id: strings
-    type: str
-    terminator: 0
+    type: key_value_pair
     repeat: expr
-    repeat-expr: tbl_header.unique_strings_count
+    repeat-expr: header.line_count
+    if: header.unique_strings_count > 0
 types:
-  alignment_type:
+  table_alignment:
     seq:
-      - id: alignment_id
+      - id: padding
         size: (4 - _io.pos) % 4
-  header:
+  header_type:
     seq:
       - id: version
         type: s4le
@@ -48,7 +48,15 @@ types:
         type: s4le
       - id: unique_strings_count
         type: s4le
-  line_game_over:
+  dlc:
+    seq:
+      - id: dlc_id
+        type: s4le
+      - id: affects_savegame
+        type: s2le
+      - id: need_mount
+        type: s2le
+  game_over:
     seq:
       - id: id
         type: s8le
@@ -58,11 +66,9 @@ types:
         type: s8le
       - id: type
         type: s8le
-  line_dlc:
+  key_value_pair:
     seq:
-      - id: affects_savegame
-        type: s1
-      - id: dlc_id
-        type: s4le
-      - id: need_mount
-        type: s1
+      - id: key
+        type: strz
+      - id: value
+        type: strz

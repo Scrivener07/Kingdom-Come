@@ -27,35 +27,37 @@ namespace KCD.Kaitai
         }
         private void _read()
         {
-            _tblHeader = new Header(m_io, this, m_root);
-            if (TblHeader.Descriptors == 1831475791) {
-                _linesGameOver = new List<LineGameOver>((int) (TblHeader.LineCount));
-                for (var i = 0; i < TblHeader.LineCount; i++)
+            _header = new HeaderType(m_io, this, m_root);
+            if (Header.Descriptors == 3684099990) {
+                _rowDlc = new List<Dlc>((int) (Header.LineCount));
+                for (var i = 0; i < Header.LineCount; i++)
                 {
-                    _linesGameOver.Add(new LineGameOver(m_io, this, m_root));
+                    _rowDlc.Add(new Dlc(m_io, this, m_root));
                 }
             }
-            if (TblHeader.Descriptors == 3684099990) {
-                _linesDlc = new List<LineDlc>((int) (TblHeader.LineCount));
-                for (var i = 0; i < TblHeader.LineCount; i++)
+            if (Header.Descriptors == 1831475791) {
+                _rowGameOver = new List<GameOver>((int) (Header.LineCount));
+                for (var i = 0; i < Header.LineCount; i++)
                 {
-                    _linesDlc.Add(new LineDlc(m_io, this, m_root));
+                    _rowGameOver.Add(new GameOver(m_io, this, m_root));
                 }
             }
-            _strings = new List<string>((int) (TblHeader.UniqueStringsCount));
-            for (var i = 0; i < TblHeader.UniqueStringsCount; i++)
-            {
-                _strings.Add(System.Text.Encoding.GetEncoding("utf-8").GetString(m_io.ReadBytesTerm(0, false, true, true)));
+            if (Header.UniqueStringsCount > 0) {
+                _strings = new List<KeyValuePair>((int) (Header.LineCount));
+                for (var i = 0; i < Header.LineCount; i++)
+                {
+                    _strings.Add(new KeyValuePair(m_io, this, m_root));
+                }
             }
         }
-        public partial class AlignmentType : KaitaiStruct
+        public partial class TableAlignment : KaitaiStruct
         {
-            public static AlignmentType FromFile(string fileName)
+            public static TableAlignment FromFile(string fileName)
             {
-                return new AlignmentType(new KaitaiStream(fileName));
+                return new TableAlignment(new KaitaiStream(fileName));
             }
 
-            public AlignmentType(KaitaiStream p__io, KaitaiStruct p__parent = null, Table p__root = null) : base(p__io)
+            public TableAlignment(KaitaiStream p__io, KaitaiStruct p__parent = null, Table p__root = null) : base(p__io)
             {
                 m_parent = p__parent;
                 m_root = p__root;
@@ -63,23 +65,23 @@ namespace KCD.Kaitai
             }
             private void _read()
             {
-                _alignmentId = m_io.ReadBytes(KaitaiStream.Mod((4 - M_Io.Pos), 4));
+                _padding = m_io.ReadBytes(KaitaiStream.Mod((4 - M_Io.Pos), 4));
             }
-            private byte[] _alignmentId;
+            private byte[] _padding;
             private Table m_root;
             private KaitaiStruct m_parent;
-            public byte[] AlignmentId { get { return _alignmentId; } }
+            public byte[] Padding { get { return _padding; } }
             public Table M_Root { get { return m_root; } }
             public KaitaiStruct M_Parent { get { return m_parent; } }
         }
-        public partial class Header : KaitaiStruct
+        public partial class HeaderType : KaitaiStruct
         {
-            public static Header FromFile(string fileName)
+            public static HeaderType FromFile(string fileName)
             {
-                return new Header(new KaitaiStream(fileName));
+                return new HeaderType(new KaitaiStream(fileName));
             }
 
-            public Header(KaitaiStream p__io, Table p__parent = null, Table p__root = null) : base(p__io)
+            public HeaderType(KaitaiStream p__io, Table p__parent = null, Table p__root = null) : base(p__io)
             {
                 m_parent = p__parent;
                 m_root = p__root;
@@ -114,14 +116,14 @@ namespace KCD.Kaitai
             public Table M_Root { get { return m_root; } }
             public Table M_Parent { get { return m_parent; } }
         }
-        public partial class LineGameOver : KaitaiStruct
+        public partial class GameOver : KaitaiStruct
         {
-            public static LineGameOver FromFile(string fileName)
+            public static GameOver FromFile(string fileName)
             {
-                return new LineGameOver(new KaitaiStream(fileName));
+                return new GameOver(new KaitaiStream(fileName));
             }
 
-            public LineGameOver(KaitaiStream p__io, Table p__parent = null, Table p__root = null) : base(p__io)
+            public GameOver(KaitaiStream p__io, Table p__parent = null, Table p__root = null) : base(p__io)
             {
                 m_parent = p__parent;
                 m_root = p__root;
@@ -147,14 +149,14 @@ namespace KCD.Kaitai
             public Table M_Root { get { return m_root; } }
             public Table M_Parent { get { return m_parent; } }
         }
-        public partial class LineDlc : KaitaiStruct
+        public partial class KeyValuePair : KaitaiStruct
         {
-            public static LineDlc FromFile(string fileName)
+            public static KeyValuePair FromFile(string fileName)
             {
-                return new LineDlc(new KaitaiStream(fileName));
+                return new KeyValuePair(new KaitaiStream(fileName));
             }
 
-            public LineDlc(KaitaiStream p__io, Table p__parent = null, Table p__root = null) : base(p__io)
+            public KeyValuePair(KaitaiStream p__io, Table p__parent = null, Table p__root = null) : base(p__io)
             {
                 m_parent = p__parent;
                 m_root = p__root;
@@ -162,31 +164,58 @@ namespace KCD.Kaitai
             }
             private void _read()
             {
-                _affectsSavegame = m_io.ReadS1();
-                _dlcId = m_io.ReadS4le();
-                _needMount = m_io.ReadS1();
+                _key = System.Text.Encoding.GetEncoding("utf-8").GetString(m_io.ReadBytesTerm(0, false, true, true));
+                _value = System.Text.Encoding.GetEncoding("utf-8").GetString(m_io.ReadBytesTerm(0, false, true, true));
             }
-            private sbyte _affectsSavegame;
-            private int _dlcId;
-            private sbyte _needMount;
+            private string _key;
+            private string _value;
             private Table m_root;
             private Table m_parent;
-            public sbyte AffectsSavegame { get { return _affectsSavegame; } }
-            public int DlcId { get { return _dlcId; } }
-            public sbyte NeedMount { get { return _needMount; } }
+            public string Key { get { return _key; } }
+            public string Value { get { return _value; } }
             public Table M_Root { get { return m_root; } }
             public Table M_Parent { get { return m_parent; } }
         }
-        private Header _tblHeader;
-        private List<LineGameOver> _linesGameOver;
-        private List<LineDlc> _linesDlc;
-        private List<string> _strings;
+        public partial class Dlc : KaitaiStruct
+        {
+            public static Dlc FromFile(string fileName)
+            {
+                return new Dlc(new KaitaiStream(fileName));
+            }
+
+            public Dlc(KaitaiStream p__io, Table p__parent = null, Table p__root = null) : base(p__io)
+            {
+                m_parent = p__parent;
+                m_root = p__root;
+                _read();
+            }
+            private void _read()
+            {
+                _dlcId = m_io.ReadS4le();
+                _affectsSavegame = m_io.ReadS2le();
+                _needMount = m_io.ReadS2le();
+            }
+            private int _dlcId;
+            private short _affectsSavegame;
+            private short _needMount;
+            private Table m_root;
+            private Table m_parent;
+            public int DlcId { get { return _dlcId; } }
+            public short AffectsSavegame { get { return _affectsSavegame; } }
+            public short NeedMount { get { return _needMount; } }
+            public Table M_Root { get { return m_root; } }
+            public Table M_Parent { get { return m_parent; } }
+        }
+        private HeaderType _header;
+        private List<Dlc> _rowDlc;
+        private List<GameOver> _rowGameOver;
+        private List<KeyValuePair> _strings;
         private Table m_root;
         private KaitaiStruct m_parent;
-        public Header TblHeader { get { return _tblHeader; } }
-        public List<LineGameOver> LinesGameOver { get { return _linesGameOver; } }
-        public List<LineDlc> LinesDlc { get { return _linesDlc; } }
-        public List<string> Strings { get { return _strings; } }
+        public HeaderType Header { get { return _header; } }
+        public List<Dlc> RowDlc { get { return _rowDlc; } }
+        public List<GameOver> RowGameOver { get { return _rowGameOver; } }
+        public List<KeyValuePair> Strings { get { return _strings; } }
         public Table M_Root { get { return m_root; } }
         public KaitaiStruct M_Parent { get { return m_parent; } }
     }

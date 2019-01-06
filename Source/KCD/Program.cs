@@ -24,7 +24,7 @@ namespace KCD
 
 			string filepath = Path.Combine(Folder, "rpg", "game_over.tbl");
 			Table table = Table.FromFile(filepath);
-			Trace.WriteLine(string.Format("Kaitai Table:{0}\nDescriptor:{1}", filepath, table.TblHeader.Descriptors.ToString()));
+			Trace.WriteLine(string.Format("Kaitai Table:{0}\nDescriptor:{1}", filepath, table.Header.Descriptors.ToString()));
 
 			//try
 			//{
