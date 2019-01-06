@@ -17,7 +17,7 @@
 			"type": "shell",
 			"command": "kaitai-struct-compiler",
 			"args": [
-				".\\Source\\KCD.Kaitai\\Table.ksy",
+				".\\Kaitai\\definitions\\dlc.yml",
 				"--outdir=.\\Source\\KCD.Kaitai",
 				"--target=csharp",
 				"--dotnet-namespace=KCD.Kaitai"
