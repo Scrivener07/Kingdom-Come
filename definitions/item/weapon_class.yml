@@ -1,0 +1,119 @@
+meta:
+  id: weapon_class
+  file-extension: tbl
+  encoding: utf-8
+  endian: le
+seq:
+  - id: table
+    type: header
+  - id: rows
+    type: row
+    repeat: expr
+    repeat-expr: table.row_count
+  - id: strings
+    type: strz
+    repeat: expr
+    repeat-expr: table.unique_strings_count
+types:
+  padding:
+    seq:
+      - id: padding_type
+        size: 16
+  quat:
+    seq:
+      - id: quat_x
+        type: s4
+      - id: quat_y
+        type: s4
+      - id: quat_z
+        type: s4
+      - id: quat_w
+        type: s4
+  quatt:
+    seq:
+      - id: quatt_type
+        size: 28
+  uuid:
+    seq:
+      - id: uuid_type
+        size: 16
+  vec3:
+    seq:
+      - id: vec3_x
+        type: s4
+      - id: vec3_y
+        type: s4
+      - id: vec3_z
+        type: s4
+  header:
+    seq:
+      - id: version
+        type: s4
+      - id: descriptors_hash
+        type: u4
+      - id: layout_hash
+        type: u4
+      - id: table_version
+        type: s4
+      - id: row_count
+        type: s4
+      - id: string_data_size
+        type: s4
+      - id: unique_strings_count
+        type: s4
+  row:
+    seq:
+      - id: weapon_class_id
+        type: s4
+      - id: weapon_class_name
+        type: s4
+      - id: skill_id
+        type: s4
+      - id: attachment_slot_id
+        type: s4
+      - id: weapon_equip_slot_id
+        type: s4
+      - id: in_right_hand
+        type: s1
+      - id: holster_slot_id
+        type: s4
+      - id: primary_attack_type_id
+        type: s4
+      - id: secondary_attack_type_id
+        type: s4
+      - id: attack_distance
+        type: f4
+      - id: is_blocking
+        type: s1
+      - id: sync_guard_distance
+        type: f4
+      - id: sync_guard_priority
+        type: s4
+      - id: item_manipulation_type
+        type: s4
+      - id: max_attack_distance
+        type: f4
+      - id: collision_mode
+        type: s4
+      - id: anim_collision_mode
+        type: s4
+      - id: combat_priority
+        type: s4
+      - id: is_twohanded
+        type: s1
+      - id: horse_pull_down_distance
+        type: f4
+      - id: horse_pull_down_max_speed
+        type: f4
+      - id: horse_pull_down_z_tolerance
+        type: f4
+      - id: hunt_attack_distance
+        type: f4
+      - id: zone_change_timeout_coef
+        type: f4
+      - id: draw_buff_id
+        type: uuid
+      - id: alternative_draw_buff_id
+        type: uuid
+      - id: sharpening_zone_count
+        type: s4

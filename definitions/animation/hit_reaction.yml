@@ -1,0 +1,97 @@
+meta:
+  id: hit_reaction
+  file-extension: tbl
+  encoding: utf-8
+  endian: le
+seq:
+  - id: table
+    type: header
+  - id: rows
+    type: row
+    repeat: expr
+    repeat-expr: table.row_count
+  - id: strings
+    type: strz
+    repeat: expr
+    repeat-expr: table.unique_strings_count
+types:
+  padding:
+    seq:
+      - id: padding_type
+        size: 16
+  quat:
+    seq:
+      - id: quat_x
+        type: s4
+      - id: quat_y
+        type: s4
+      - id: quat_z
+        type: s4
+      - id: quat_w
+        type: s4
+  quatt:
+    seq:
+      - id: quatt_type
+        size: 28
+  uuid:
+    seq:
+      - id: uuid_type
+        size: 16
+  vec3:
+    seq:
+      - id: vec3_x
+        type: s4
+      - id: vec3_y
+        type: s4
+      - id: vec3_z
+        type: s4
+  header:
+    seq:
+      - id: version
+        type: s4
+      - id: descriptors_hash
+        type: u4
+      - id: layout_hash
+        type: u4
+      - id: table_version
+        type: s4
+      - id: row_count
+        type: s4
+      - id: string_data_size
+        type: s4
+      - id: unique_strings_count
+        type: s4
+  row:
+    seq:
+      - id: actor_class_hash
+        type: s4
+      - id: mn_fragment_id_str
+        type: s4
+      - id: mn_tag_state_str
+        type: s4
+      - id: mn_option_index
+        type: s4
+      - id: timestamp
+        type: s8
+      - id: is_fullbody
+        type: s1
+      - id: hit_reaction_type_id
+        type: s4
+      - id: speed_tag
+        type: s4
+      - id: stance_tag
+        type: s4
+      - id: is_mounted
+        type: s1
+      - id: is_carryCorpse
+        type: s1
+      - id: is_player
+        type: s1
+      - id: r_attacker_man_type
+        type: s4
+      - id: l_attacker_man_type
+        type: s4
+      - id: r_target_man_type
+        type: s4
+      - id: l_target_man_type
+        type: s4

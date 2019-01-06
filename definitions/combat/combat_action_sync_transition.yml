@@ -1,0 +1,135 @@
+meta:
+  id: combat_action_sync_transition
+  file-extension: tbl
+  encoding: utf-8
+  endian: le
+seq:
+  - id: table
+    type: header
+  - id: rows
+    type: row
+    repeat: expr
+    repeat-expr: table.row_count
+  - id: strings
+    type: strz
+    repeat: expr
+    repeat-expr: table.unique_strings_count
+types:
+  padding:
+    seq:
+      - id: padding_type
+        size: 16
+  quat:
+    seq:
+      - id: quat_x
+        type: s4
+      - id: quat_y
+        type: s4
+      - id: quat_z
+        type: s4
+      - id: quat_w
+        type: s4
+  quatt:
+    seq:
+      - id: quatt_type
+        size: 28
+  uuid:
+    seq:
+      - id: uuid_type
+        size: 16
+  vec3:
+    seq:
+      - id: vec3_x
+        type: s4
+      - id: vec3_y
+        type: s4
+      - id: vec3_z
+        type: s4
+  header:
+    seq:
+      - id: version
+        type: s4
+      - id: descriptors_hash
+        type: u4
+      - id: layout_hash
+        type: u4
+      - id: table_version
+        type: s4
+      - id: row_count
+        type: s4
+      - id: string_data_size
+        type: s4
+      - id: unique_strings_count
+        type: s4
+  row:
+    seq:
+      - id: actor_class_hash
+        type: s4
+      - id: opp_actor_class_hash
+        type: s4
+      - id: mounted
+        type: s1
+      - id: opp_mounted
+        type: s1
+      - id: timestamp
+        type: s8
+      - id: animation_duration
+        type: f4
+      - id: fade_in
+        type: f4
+      - id: init_align0
+        type: quatt
+      - id: init_align1
+        type: quatt
+      - id: init_sec_align0
+        type: quatt
+      - id: init_sec_align1
+        type: quatt
+      - id: attacking_hand
+        type: s4
+      - id: r_weapon_class_id
+        type: s4
+      - id: l_weapon_class_id
+        type: s4
+      - id: r_weapon_group_id
+        type: s4
+      - id: l_weapon_group_id
+        type: s4
+      - id: opp_r_weapon_class_id
+        type: s4
+      - id: opp_l_weapon_class_id
+        type: s4
+      - id: opp_r_weapon_group_id
+        type: s4
+      - id: opp_l_weapon_group_id
+        type: s4
+      - id: guard_type_id
+        type: s4
+      - id: guard_stance_id
+        type: s4
+      - id: opp_guard_stance_id
+        type: s4
+      - id: guard_zone_id
+        type: s4
+      - id: action_type_id
+        type: s4
+      - id: end_guard_type_id
+        type: s4
+      - id: end_guard_zone_id
+        type: s4
+      - id: end_guard_stance_id
+        type: s4
+      - id: virtual_dagger
+        type: s1
+      - id: input_class_id
+        type: s4
+      - id: mn_fragment_id
+        type: s4
+      - id: mn_option_index
+        type: s4
+      - id: mn_tags
+        type: s4
+      - id: sync_hit_start_by_pc
+        type: s1
+      - id: has_hit_animevents
+        type: s1
