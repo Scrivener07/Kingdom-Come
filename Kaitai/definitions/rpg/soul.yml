@@ -1,0 +1,207 @@
+meta:
+  id: soul
+  file-extension: tbl
+  encoding: utf-8
+  endian: le
+seq:
+  - id: table
+    type: header
+  - id: rows
+    type: row
+    repeat: expr
+    repeat-expr: table.row_count
+  - id: strings
+    type: strz
+    repeat: expr
+    repeat-expr: table.unique_strings_count
+types:
+  padding:
+    seq:
+      - id: padding_type
+        size: 16
+  quat:
+    seq:
+      - id: quat_x
+        type: s4
+      - id: quat_y
+        type: s4
+      - id: quat_z
+        type: s4
+      - id: quat_w
+        type: s4
+  quatt:
+    seq:
+      - id: quatt_type
+        size: 28
+  uuid:
+    seq:
+      - id: uuid_type
+        size: 16
+  vec3:
+    seq:
+      - id: vec3_x
+        type: s4
+      - id: vec3_y
+        type: s4
+      - id: vec3_z
+        type: s4
+  header:
+    seq:
+      - id: version
+        type: s4
+      - id: descriptors_hash
+        type: u4
+      - id: layout_hash
+        type: u4
+      - id: table_version
+        type: s4
+      - id: row_count
+        type: s4
+      - id: string_data_size
+        type: s4
+      - id: unique_strings_count
+        type: s4
+  row:
+    seq:
+      - id: computer_name
+        type: s4
+      - id: timestamp
+        type: s4
+      - id: level_name
+        type: s4
+      - id: soul_id
+        type: uuid
+      - id: soul_name
+        type: s4
+      - id: soul_class_id
+        type: s4
+      - id: soul_vip_class_id
+        type: s4
+      - id: social_class_id
+        type: s4
+      - id: soul_archetype_id
+        type: s4
+      - id: initial_clothing_preset_id
+        type: uuid
+      - id: initial_clothing_dirt
+        type: f4
+      - id: inventory_id
+        type: uuid
+      - id: initial_weapon_preset_id
+        type: uuid
+      - id: xp_multiplier
+        type: f4
+      - id: digestion_multiplier
+        type: f4
+      - id: shadiness
+        type: f4
+      - id: charisma
+        type: s4
+      - id: faction
+        type: s4
+      - id: str
+        type: s4
+      - id: agi
+        type: s4
+      - id: vit
+        type: s4
+      - id: spc
+        type: s4
+      - id: vision
+        type: s4
+      - id: hearing
+        type: s4
+      - id: barter
+        type: s4
+      - id: courage
+        type: s4
+      - id: reputation
+        type: f4
+      - id: brain_id
+        type: uuid
+      - id: ai_body_id
+        type: uuid
+      - id: activity_0
+        type: s4
+      - id: time_0
+        type: s4
+      - id: activity_1
+        type: s4
+      - id: time_1
+        type: s4
+      - id: activity_2
+        type: s4
+      - id: time_2
+        type: s4
+      - id: activity_3
+        type: s4
+      - id: time_3
+        type: s4
+      - id: activity_4
+        type: s4
+      - id: time_4
+        type: s4
+      - id: activity_5
+        type: s4
+      - id: time_5
+        type: s4
+      - id: activity_6
+        type: s4
+      - id: time_6
+        type: s4
+      - id: activity_7
+        type: s4
+      - id: time_7
+        type: s4
+      - id: activity_8
+        type: s4
+      - id: time_8
+        type: s4
+      - id: character_proportion
+        type: s4
+      - id: character_scale
+        type: f4
+      - id: character_body_id
+        type: uuid
+      - id: character_skin_brightness
+        type: f4
+      - id: character_skin_hue
+        type: f4
+      - id: character_skin_saturation
+        type: f4
+      - id: character_skin_color
+        type: s4
+      - id: character_head_id
+        type: uuid
+      - id: character_head_brightness
+        type: f4
+      - id: character_head_hue
+        type: f4
+      - id: character_head_saturation
+        type: f4
+      - id: character_head_color
+        type: s4
+      - id: character_eyes_color
+        type: s4
+      - id: character_eyes_occlusion_strength
+        type: f4
+      - id: character_hair_id
+        type: uuid
+      - id: character_hair_brightness
+        type: f4
+      - id: character_hair_hue
+        type: f4
+      - id: character_hair_saturation
+        type: f4
+      - id: character_hair_color
+        type: s4
+      - id: character_beard_id
+        type: uuid
+      - id: character_beard_brightness
+        type: f4
+      - id: character_beard_hue
+        type: f4
+      - id: character_beard_saturation
+        type: f4
+      - id: character_beard_color
+        type: s4
