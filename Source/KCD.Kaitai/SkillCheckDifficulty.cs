@@ -56,6 +56,36 @@ namespace KCD.Kaitai
             public SkillCheckDifficulty M_Root { get { return m_root; } }
             public KaitaiStruct M_Parent { get { return m_parent; } }
         }
+        public partial class Trifloat : KaitaiStruct
+        {
+            public static Trifloat FromFile(string fileName)
+            {
+                return new Trifloat(new KaitaiStream(fileName));
+            }
+
+            public Trifloat(KaitaiStream p__io, KaitaiStruct p__parent = null, SkillCheckDifficulty p__root = null) : base(p__io)
+            {
+                m_parent = p__parent;
+                m_root = p__root;
+                _read();
+            }
+            private void _read()
+            {
+                _floatA = m_io.ReadF4le();
+                _floatB = m_io.ReadF4le();
+                _floatC = m_io.ReadF4le();
+            }
+            private float _floatA;
+            private float _floatB;
+            private float _floatC;
+            private SkillCheckDifficulty m_root;
+            private KaitaiStruct m_parent;
+            public float FloatA { get { return _floatA; } }
+            public float FloatB { get { return _floatB; } }
+            public float FloatC { get { return _floatC; } }
+            public SkillCheckDifficulty M_Root { get { return m_root; } }
+            public KaitaiStruct M_Parent { get { return m_parent; } }
+        }
         public partial class Row : KaitaiStruct
         {
             public static Row FromFile(string fileName)
