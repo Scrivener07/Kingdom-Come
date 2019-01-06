@@ -13,6 +13,16 @@
 			"problemMatcher": []
 		},
 		{
+			"label": "Kaitai:Visualizer",
+			"type": "shell",
+			"command": "ksv",
+			"args": [
+				".\\KCD\\Data\\Libs\\Tables\\rpg\\game_over.tbl",
+				".\\Source\\KCD.Kaitai\\Table.ksy"
+			],
+			"problemMatcher": []
+		},
+		{
 			"label": "Kaitai:Compile:Table",
 			"type": "shell",
 			"command": "kaitai-struct-compiler",
@@ -22,21 +32,21 @@
 				"--target=csharp",
 				"--dotnet-namespace=KCD.Kaitai"
 			],
+			"problemMatcher": []
+		},
+		{
+			"label": "Kaitai:Compile",
+			"type": "shell",
+			"command": "start Scripts\\Kaitai.Compile.bat",
+			"args": [
+				"E:\\Lab\\Warhorse\\Kingdom-Come\\Kaitai\\definitions",
+				"E:\\Lab\\Warhorse\\Kingdom-Come\\Source\\KCD.Kaitai"
+			],
 			"problemMatcher": [],
 			"group": {
 				"kind": "build",
 				"isDefault": true
 			}
-		},
-		{
-			"label": "Kaitai:Visualizer:Table",
-			"type": "shell",
-			"command": "ksv",
-			"args": [
-				".\\KCD\\Data\\Libs\\Tables\\rpg\\game_over.tbl",
-				".\\Source\\KCD.Kaitai\\Table.ksy"
-			],
-			"problemMatcher": []
 		}
 	]
 }

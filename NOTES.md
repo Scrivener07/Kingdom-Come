@@ -38,3 +38,16 @@ layoutHash = crc32(lineSize, layoutHash)
 
 #### Notes
 * Is `column.typeID` the string in the xml header (e.g., character varying) or is it an integer value?
+
+## KSY Batch Compile Results
+```
+Definition Directory: E:\Lab\Warhorse\Kingdom-Come\Kaitai\definitions
+Output Directory: E:\Lab\Warhorse\Kingdom-Come\Source\KCD.Kaitai
+
+/types/row/seq/6: unable to find type 'trifloat', searching from anim_fragment
+/types/row/seq/10/id: invalid attribute ID: 'is_carryCorpse', expected /^[a-z][a-z0-9_]*$/
+/types/row/seq/9/id: invalid attribute ID: 'IsBSpace', expected /^[a-z][a-z0-9_]*$/
+/types/row/seq/53: unable to find type 'trifloat', searching from combat_action_perfect_block
+/types/row/seq/6/id: invalid attribute ID: 'Locked', expected /^[a-z][a-z0-9_]*$/
+Press any key to continue . . .
+```

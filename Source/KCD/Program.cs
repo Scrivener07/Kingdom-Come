@@ -22,9 +22,21 @@ namespace KCD
 			Configure(arguments);
 			Trace.WriteLine(string.Format("Using folder {0}.", Folder));
 
-			string filepath = Path.Combine(Folder, "rpg", "game_over.tbl");
-			Table table = Table.FromFile(filepath);
-			Trace.WriteLine(string.Format("Kaitai Table:{0}\nDescriptor:{1}", filepath, table.Header.Descriptors.ToString()));
+			//string tableFilepath = Path.Combine(Folder, "rpg", "game_over.tbl");
+			//Table table = Table.FromFile(tableFilepath);
+			//Trace.WriteLine(string.Format("Kaitai Table:{0}\nDescriptor:{1}", tableFilepath, table.Header.Descriptors.ToString()));
+
+			string perkFilepath = Path.Combine(Folder, "rpg", "perk.tbl");
+			Perk perk = Perk.FromFile(perkFilepath);
+			Trace.WriteLine(string.Format("Perk:{0}\nDescriptor:{1}", perkFilepath, perk.Table.DescriptorsHash.ToString()));
+
+
+			string gameOverFilepath = Path.Combine(Folder, "rpg", "game_over.tbl");
+			GameOver gameOver = GameOver.FromFile(gameOverFilepath);
+			Trace.WriteLine(string.Format("GameOver:{0}\nDescriptor:{1}", gameOverFilepath, gameOver.Table.DescriptorsHash.ToString()));
+
+
+
 
 			//try
 			//{
