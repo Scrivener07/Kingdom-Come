@@ -31,24 +31,6 @@ types:
         type: s4
       - id: unique_strings_count
         type: s4
-  padding:
-    seq:
-      - id: padding_type
-        size: 16
-  quat:
-    seq:
-      - id: quat_x
-        type: s4
-      - id: quat_y
-        type: s4
-      - id: quat_z
-        type: s4
-      - id: quat_w
-        type: s4
-  quatt:
-    seq:
-      - id: quatt_type
-        size: 28
   row:
     seq:
       - id: computer_name
@@ -56,7 +38,7 @@ types:
       - id: timestamp
         type: s4
       - id: character_body_id
-        type: uuid
+        size: 16
       - id: character_body_name
         type: s4
       - id: model
@@ -72,24 +54,4 @@ types:
       - id: race_id
         type: s4
       - id: character_body_archetype_id
-        type: s4
-  trifloat:
-    seq:
-      - id: float_a
-        type: f4
-      - id: float_b
-        type: f4
-      - id: float_c
-        type: f4
-  uuid:
-    seq:
-      - id: uuid_type
-        size: 16
-  vec3:
-    seq:
-      - id: vec3_x
-        type: s4
-      - id: vec3_y
-        type: s4
-      - id: vec3_z
         type: s4

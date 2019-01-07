@@ -31,24 +31,6 @@ types:
         type: s4
       - id: unique_strings_count
         type: s4
-  padding:
-    seq:
-      - id: padding_type
-        size: 16
-  quat:
-    seq:
-      - id: quat_x
-        type: s4
-      - id: quat_y
-        type: s4
-      - id: quat_z
-        type: s4
-      - id: quat_w
-        type: s4
-  quatt:
-    seq:
-      - id: quatt_type
-        size: 28
   row:
     seq:
       - id: soul_class_id
@@ -56,30 +38,10 @@ types:
       - id: soul_class_name
         type: s4
       - id: default_inventory_preset_id
-        type: uuid
+        size: 16
       - id: postpone_default_inventory_preset
         type: s1
       - id: soul_class_courage
         type: f4
       - id: hunting_coef
         type: f4
-  trifloat:
-    seq:
-      - id: float_a
-        type: f4
-      - id: float_b
-        type: f4
-      - id: float_c
-        type: f4
-  uuid:
-    seq:
-      - id: uuid_type
-        size: 16
-  vec3:
-    seq:
-      - id: vec3_x
-        type: s4
-      - id: vec3_y
-        type: s4
-      - id: vec3_z
-        type: s4
