@@ -32,159 +32,6 @@ namespace KCD.Kaitai.Tables
                 _strings.Add(System.Text.Encoding.GetEncoding("utf-8").GetString(m_io.ReadBytesTerm(0, false, true, true)));
             }
         }
-        public partial class Uuid : KaitaiStruct
-        {
-            public static Uuid FromFile(string fileName)
-            {
-                return new Uuid(new KaitaiStream(fileName));
-            }
-
-            public Uuid(KaitaiStream p__io, SituationRole.Row p__parent = null, SituationRole p__root = null) : base(p__io)
-            {
-                m_parent = p__parent;
-                m_root = p__root;
-                _read();
-            }
-            private void _read()
-            {
-                _uuidType = m_io.ReadBytes(16);
-            }
-            private byte[] _uuidType;
-            private SituationRole m_root;
-            private SituationRole.Row m_parent;
-            public byte[] UuidType { get { return _uuidType; } }
-            public SituationRole M_Root { get { return m_root; } }
-            public SituationRole.Row M_Parent { get { return m_parent; } }
-        }
-        public partial class Trifloat : KaitaiStruct
-        {
-            public static Trifloat FromFile(string fileName)
-            {
-                return new Trifloat(new KaitaiStream(fileName));
-            }
-
-            public Trifloat(KaitaiStream p__io, KaitaiStruct p__parent = null, SituationRole p__root = null) : base(p__io)
-            {
-                m_parent = p__parent;
-                m_root = p__root;
-                _read();
-            }
-            private void _read()
-            {
-                _floatA = m_io.ReadF4le();
-                _floatB = m_io.ReadF4le();
-                _floatC = m_io.ReadF4le();
-            }
-            private float _floatA;
-            private float _floatB;
-            private float _floatC;
-            private SituationRole m_root;
-            private KaitaiStruct m_parent;
-            public float FloatA { get { return _floatA; } }
-            public float FloatB { get { return _floatB; } }
-            public float FloatC { get { return _floatC; } }
-            public SituationRole M_Root { get { return m_root; } }
-            public KaitaiStruct M_Parent { get { return m_parent; } }
-        }
-        public partial class Row : KaitaiStruct
-        {
-            public static Row FromFile(string fileName)
-            {
-                return new Row(new KaitaiStream(fileName));
-            }
-
-            public Row(KaitaiStream p__io, SituationRole p__parent = null, SituationRole p__root = null) : base(p__io)
-            {
-                m_parent = p__parent;
-                m_root = p__root;
-                _read();
-            }
-            private void _read()
-            {
-                _situationRoleId = new Uuid(m_io, this, m_root);
-                _name = m_io.ReadS4le();
-                _situationId = new Uuid(m_io, this, m_root);
-                _situationRoleConditionId = new Uuid(m_io, this, m_root);
-                _orderBy = m_io.ReadS4le();
-                _optional = m_io.ReadS1();
-                _passive = m_io.ReadS1();
-            }
-            private Uuid _situationRoleId;
-            private int _name;
-            private Uuid _situationId;
-            private Uuid _situationRoleConditionId;
-            private int _orderBy;
-            private sbyte _optional;
-            private sbyte _passive;
-            private SituationRole m_root;
-            private SituationRole m_parent;
-            public Uuid SituationRoleId { get { return _situationRoleId; } }
-            public int Name { get { return _name; } }
-            public Uuid SituationId { get { return _situationId; } }
-            public Uuid SituationRoleConditionId { get { return _situationRoleConditionId; } }
-            public int OrderBy { get { return _orderBy; } }
-            public sbyte Optional { get { return _optional; } }
-            public sbyte Passive { get { return _passive; } }
-            public SituationRole M_Root { get { return m_root; } }
-            public SituationRole M_Parent { get { return m_parent; } }
-        }
-        public partial class Quat : KaitaiStruct
-        {
-            public static Quat FromFile(string fileName)
-            {
-                return new Quat(new KaitaiStream(fileName));
-            }
-
-            public Quat(KaitaiStream p__io, KaitaiStruct p__parent = null, SituationRole p__root = null) : base(p__io)
-            {
-                m_parent = p__parent;
-                m_root = p__root;
-                _read();
-            }
-            private void _read()
-            {
-                _quatX = m_io.ReadS4le();
-                _quatY = m_io.ReadS4le();
-                _quatZ = m_io.ReadS4le();
-                _quatW = m_io.ReadS4le();
-            }
-            private int _quatX;
-            private int _quatY;
-            private int _quatZ;
-            private int _quatW;
-            private SituationRole m_root;
-            private KaitaiStruct m_parent;
-            public int QuatX { get { return _quatX; } }
-            public int QuatY { get { return _quatY; } }
-            public int QuatZ { get { return _quatZ; } }
-            public int QuatW { get { return _quatW; } }
-            public SituationRole M_Root { get { return m_root; } }
-            public KaitaiStruct M_Parent { get { return m_parent; } }
-        }
-        public partial class Quatt : KaitaiStruct
-        {
-            public static Quatt FromFile(string fileName)
-            {
-                return new Quatt(new KaitaiStream(fileName));
-            }
-
-            public Quatt(KaitaiStream p__io, KaitaiStruct p__parent = null, SituationRole p__root = null) : base(p__io)
-            {
-                m_parent = p__parent;
-                m_root = p__root;
-                _read();
-            }
-            private void _read()
-            {
-                _quattType = m_io.ReadBytes(28);
-            }
-            private byte[] _quattType;
-            private SituationRole m_root;
-            private KaitaiStruct m_parent;
-            public byte[] QuattType { get { return _quattType; } }
-            public SituationRole M_Root { get { return m_root; } }
-            public KaitaiStruct M_Parent { get { return m_parent; } }
-        }
         public partial class Header : KaitaiStruct
         {
             public static Header FromFile(string fileName)
@@ -227,14 +74,14 @@ namespace KCD.Kaitai.Tables
             public SituationRole M_Root { get { return m_root; } }
             public SituationRole M_Parent { get { return m_parent; } }
         }
-        public partial class Vec3 : KaitaiStruct
+        public partial class Row : KaitaiStruct
         {
-            public static Vec3 FromFile(string fileName)
+            public static Row FromFile(string fileName)
             {
-                return new Vec3(new KaitaiStream(fileName));
+                return new Row(new KaitaiStream(fileName));
             }
 
-            public Vec3(KaitaiStream p__io, KaitaiStruct p__parent = null, SituationRole p__root = null) : base(p__io)
+            public Row(KaitaiStream p__io, SituationRole p__parent = null, SituationRole p__root = null) : base(p__io)
             {
                 m_parent = p__parent;
                 m_root = p__root;
@@ -242,44 +89,32 @@ namespace KCD.Kaitai.Tables
             }
             private void _read()
             {
-                _vec3X = m_io.ReadS4le();
-                _vec3Y = m_io.ReadS4le();
-                _vec3Z = m_io.ReadS4le();
+                _situationRoleId = m_io.ReadBytes(16);
+                _name = m_io.ReadS4le();
+                _situationId = m_io.ReadBytes(16);
+                _situationRoleConditionId = m_io.ReadBytes(16);
+                _orderBy = m_io.ReadS4le();
+                _optional = m_io.ReadS1();
+                _passive = m_io.ReadS1();
             }
-            private int _vec3X;
-            private int _vec3Y;
-            private int _vec3Z;
+            private byte[] _situationRoleId;
+            private int _name;
+            private byte[] _situationId;
+            private byte[] _situationRoleConditionId;
+            private int _orderBy;
+            private sbyte _optional;
+            private sbyte _passive;
             private SituationRole m_root;
-            private KaitaiStruct m_parent;
-            public int Vec3X { get { return _vec3X; } }
-            public int Vec3Y { get { return _vec3Y; } }
-            public int Vec3Z { get { return _vec3Z; } }
+            private SituationRole m_parent;
+            public byte[] SituationRoleId { get { return _situationRoleId; } }
+            public int Name { get { return _name; } }
+            public byte[] SituationId { get { return _situationId; } }
+            public byte[] SituationRoleConditionId { get { return _situationRoleConditionId; } }
+            public int OrderBy { get { return _orderBy; } }
+            public sbyte Optional { get { return _optional; } }
+            public sbyte Passive { get { return _passive; } }
             public SituationRole M_Root { get { return m_root; } }
-            public KaitaiStruct M_Parent { get { return m_parent; } }
-        }
-        public partial class Padding : KaitaiStruct
-        {
-            public static Padding FromFile(string fileName)
-            {
-                return new Padding(new KaitaiStream(fileName));
-            }
-
-            public Padding(KaitaiStream p__io, KaitaiStruct p__parent = null, SituationRole p__root = null) : base(p__io)
-            {
-                m_parent = p__parent;
-                m_root = p__root;
-                _read();
-            }
-            private void _read()
-            {
-                _paddingType = m_io.ReadBytes(16);
-            }
-            private byte[] _paddingType;
-            private SituationRole m_root;
-            private KaitaiStruct m_parent;
-            public byte[] PaddingType { get { return _paddingType; } }
-            public SituationRole M_Root { get { return m_root; } }
-            public KaitaiStruct M_Parent { get { return m_parent; } }
+            public SituationRole M_Parent { get { return m_parent; } }
         }
         private Header _table;
         private List<Row> _rows;

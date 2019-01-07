@@ -32,153 +32,6 @@ namespace KCD.Kaitai.Tables
                 _strings.Add(System.Text.Encoding.GetEncoding("utf-8").GetString(m_io.ReadBytesTerm(0, false, true, true)));
             }
         }
-        public partial class Uuid : KaitaiStruct
-        {
-            public static Uuid FromFile(string fileName)
-            {
-                return new Uuid(new KaitaiStream(fileName));
-            }
-
-            public Uuid(KaitaiStream p__io, Subbrain.Row p__parent = null, Subbrain p__root = null) : base(p__io)
-            {
-                m_parent = p__parent;
-                m_root = p__root;
-                _read();
-            }
-            private void _read()
-            {
-                _uuidType = m_io.ReadBytes(16);
-            }
-            private byte[] _uuidType;
-            private Subbrain m_root;
-            private Subbrain.Row m_parent;
-            public byte[] UuidType { get { return _uuidType; } }
-            public Subbrain M_Root { get { return m_root; } }
-            public Subbrain.Row M_Parent { get { return m_parent; } }
-        }
-        public partial class Trifloat : KaitaiStruct
-        {
-            public static Trifloat FromFile(string fileName)
-            {
-                return new Trifloat(new KaitaiStream(fileName));
-            }
-
-            public Trifloat(KaitaiStream p__io, KaitaiStruct p__parent = null, Subbrain p__root = null) : base(p__io)
-            {
-                m_parent = p__parent;
-                m_root = p__root;
-                _read();
-            }
-            private void _read()
-            {
-                _floatA = m_io.ReadF4le();
-                _floatB = m_io.ReadF4le();
-                _floatC = m_io.ReadF4le();
-            }
-            private float _floatA;
-            private float _floatB;
-            private float _floatC;
-            private Subbrain m_root;
-            private KaitaiStruct m_parent;
-            public float FloatA { get { return _floatA; } }
-            public float FloatB { get { return _floatB; } }
-            public float FloatC { get { return _floatC; } }
-            public Subbrain M_Root { get { return m_root; } }
-            public KaitaiStruct M_Parent { get { return m_parent; } }
-        }
-        public partial class Row : KaitaiStruct
-        {
-            public static Row FromFile(string fileName)
-            {
-                return new Row(new KaitaiStream(fileName));
-            }
-
-            public Row(KaitaiStream p__io, Subbrain p__parent = null, Subbrain p__root = null) : base(p__io)
-            {
-                m_parent = p__parent;
-                m_root = p__root;
-                _read();
-            }
-            private void _read()
-            {
-                _subbrainId = new Uuid(m_io, this, m_root);
-                _subbrainName = m_io.ReadS4le();
-                _subbrainType = m_io.ReadS4le();
-                _timeout = m_io.ReadS4le();
-                _alwaysActive = m_io.ReadS1();
-            }
-            private Uuid _subbrainId;
-            private int _subbrainName;
-            private int _subbrainType;
-            private int _timeout;
-            private sbyte _alwaysActive;
-            private Subbrain m_root;
-            private Subbrain m_parent;
-            public Uuid SubbrainId { get { return _subbrainId; } }
-            public int SubbrainName { get { return _subbrainName; } }
-            public int SubbrainType { get { return _subbrainType; } }
-            public int Timeout { get { return _timeout; } }
-            public sbyte AlwaysActive { get { return _alwaysActive; } }
-            public Subbrain M_Root { get { return m_root; } }
-            public Subbrain M_Parent { get { return m_parent; } }
-        }
-        public partial class Quat : KaitaiStruct
-        {
-            public static Quat FromFile(string fileName)
-            {
-                return new Quat(new KaitaiStream(fileName));
-            }
-
-            public Quat(KaitaiStream p__io, KaitaiStruct p__parent = null, Subbrain p__root = null) : base(p__io)
-            {
-                m_parent = p__parent;
-                m_root = p__root;
-                _read();
-            }
-            private void _read()
-            {
-                _quatX = m_io.ReadS4le();
-                _quatY = m_io.ReadS4le();
-                _quatZ = m_io.ReadS4le();
-                _quatW = m_io.ReadS4le();
-            }
-            private int _quatX;
-            private int _quatY;
-            private int _quatZ;
-            private int _quatW;
-            private Subbrain m_root;
-            private KaitaiStruct m_parent;
-            public int QuatX { get { return _quatX; } }
-            public int QuatY { get { return _quatY; } }
-            public int QuatZ { get { return _quatZ; } }
-            public int QuatW { get { return _quatW; } }
-            public Subbrain M_Root { get { return m_root; } }
-            public KaitaiStruct M_Parent { get { return m_parent; } }
-        }
-        public partial class Quatt : KaitaiStruct
-        {
-            public static Quatt FromFile(string fileName)
-            {
-                return new Quatt(new KaitaiStream(fileName));
-            }
-
-            public Quatt(KaitaiStream p__io, KaitaiStruct p__parent = null, Subbrain p__root = null) : base(p__io)
-            {
-                m_parent = p__parent;
-                m_root = p__root;
-                _read();
-            }
-            private void _read()
-            {
-                _quattType = m_io.ReadBytes(28);
-            }
-            private byte[] _quattType;
-            private Subbrain m_root;
-            private KaitaiStruct m_parent;
-            public byte[] QuattType { get { return _quattType; } }
-            public Subbrain M_Root { get { return m_root; } }
-            public KaitaiStruct M_Parent { get { return m_parent; } }
-        }
         public partial class Header : KaitaiStruct
         {
             public static Header FromFile(string fileName)
@@ -221,14 +74,14 @@ namespace KCD.Kaitai.Tables
             public Subbrain M_Root { get { return m_root; } }
             public Subbrain M_Parent { get { return m_parent; } }
         }
-        public partial class Vec3 : KaitaiStruct
+        public partial class Row : KaitaiStruct
         {
-            public static Vec3 FromFile(string fileName)
+            public static Row FromFile(string fileName)
             {
-                return new Vec3(new KaitaiStream(fileName));
+                return new Row(new KaitaiStream(fileName));
             }
 
-            public Vec3(KaitaiStream p__io, KaitaiStruct p__parent = null, Subbrain p__root = null) : base(p__io)
+            public Row(KaitaiStream p__io, Subbrain p__parent = null, Subbrain p__root = null) : base(p__io)
             {
                 m_parent = p__parent;
                 m_root = p__root;
@@ -236,44 +89,26 @@ namespace KCD.Kaitai.Tables
             }
             private void _read()
             {
-                _vec3X = m_io.ReadS4le();
-                _vec3Y = m_io.ReadS4le();
-                _vec3Z = m_io.ReadS4le();
+                _subbrainId = m_io.ReadBytes(16);
+                _subbrainName = m_io.ReadS4le();
+                _subbrainType = m_io.ReadS4le();
+                _timeout = m_io.ReadS4le();
+                _alwaysActive = m_io.ReadS1();
             }
-            private int _vec3X;
-            private int _vec3Y;
-            private int _vec3Z;
+            private byte[] _subbrainId;
+            private int _subbrainName;
+            private int _subbrainType;
+            private int _timeout;
+            private sbyte _alwaysActive;
             private Subbrain m_root;
-            private KaitaiStruct m_parent;
-            public int Vec3X { get { return _vec3X; } }
-            public int Vec3Y { get { return _vec3Y; } }
-            public int Vec3Z { get { return _vec3Z; } }
+            private Subbrain m_parent;
+            public byte[] SubbrainId { get { return _subbrainId; } }
+            public int SubbrainName { get { return _subbrainName; } }
+            public int SubbrainType { get { return _subbrainType; } }
+            public int Timeout { get { return _timeout; } }
+            public sbyte AlwaysActive { get { return _alwaysActive; } }
             public Subbrain M_Root { get { return m_root; } }
-            public KaitaiStruct M_Parent { get { return m_parent; } }
-        }
-        public partial class Padding : KaitaiStruct
-        {
-            public static Padding FromFile(string fileName)
-            {
-                return new Padding(new KaitaiStream(fileName));
-            }
-
-            public Padding(KaitaiStream p__io, KaitaiStruct p__parent = null, Subbrain p__root = null) : base(p__io)
-            {
-                m_parent = p__parent;
-                m_root = p__root;
-                _read();
-            }
-            private void _read()
-            {
-                _paddingType = m_io.ReadBytes(16);
-            }
-            private byte[] _paddingType;
-            private Subbrain m_root;
-            private KaitaiStruct m_parent;
-            public byte[] PaddingType { get { return _paddingType; } }
-            public Subbrain M_Root { get { return m_root; } }
-            public KaitaiStruct M_Parent { get { return m_parent; } }
+            public Subbrain M_Parent { get { return m_parent; } }
         }
         private Header _table;
         private List<Row> _rows;

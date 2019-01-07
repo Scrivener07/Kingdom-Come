@@ -32,168 +32,6 @@ namespace KCD.Kaitai.Tables
                 _strings.Add(System.Text.Encoding.GetEncoding("utf-8").GetString(m_io.ReadBytesTerm(0, false, true, true)));
             }
         }
-        public partial class Uuid : KaitaiStruct
-        {
-            public static Uuid FromFile(string fileName)
-            {
-                return new Uuid(new KaitaiStream(fileName));
-            }
-
-            public Uuid(KaitaiStream p__io, PoiType.Row p__parent = null, PoiType p__root = null) : base(p__io)
-            {
-                m_parent = p__parent;
-                m_root = p__root;
-                _read();
-            }
-            private void _read()
-            {
-                _uuidType = m_io.ReadBytes(16);
-            }
-            private byte[] _uuidType;
-            private PoiType m_root;
-            private PoiType.Row m_parent;
-            public byte[] UuidType { get { return _uuidType; } }
-            public PoiType M_Root { get { return m_root; } }
-            public PoiType.Row M_Parent { get { return m_parent; } }
-        }
-        public partial class Trifloat : KaitaiStruct
-        {
-            public static Trifloat FromFile(string fileName)
-            {
-                return new Trifloat(new KaitaiStream(fileName));
-            }
-
-            public Trifloat(KaitaiStream p__io, KaitaiStruct p__parent = null, PoiType p__root = null) : base(p__io)
-            {
-                m_parent = p__parent;
-                m_root = p__root;
-                _read();
-            }
-            private void _read()
-            {
-                _floatA = m_io.ReadF4le();
-                _floatB = m_io.ReadF4le();
-                _floatC = m_io.ReadF4le();
-            }
-            private float _floatA;
-            private float _floatB;
-            private float _floatC;
-            private PoiType m_root;
-            private KaitaiStruct m_parent;
-            public float FloatA { get { return _floatA; } }
-            public float FloatB { get { return _floatB; } }
-            public float FloatC { get { return _floatC; } }
-            public PoiType M_Root { get { return m_root; } }
-            public KaitaiStruct M_Parent { get { return m_parent; } }
-        }
-        public partial class Row : KaitaiStruct
-        {
-            public static Row FromFile(string fileName)
-            {
-                return new Row(new KaitaiStream(fileName));
-            }
-
-            public Row(KaitaiStream p__io, PoiType p__parent = null, PoiType p__root = null) : base(p__io)
-            {
-                m_parent = p__parent;
-                m_root = p__root;
-                _read();
-            }
-            private void _read()
-            {
-                _poiTypeId = new Uuid(m_io, this, m_root);
-                _markType = m_io.ReadS4le();
-                _label = m_io.ReadS4le();
-                _discoveryMsg = m_io.ReadS4le();
-                _discoveryDist = m_io.ReadF4le();
-                _compassMarkTypeId = m_io.ReadS4le();
-                _associatedCodexPerkId = new Uuid(m_io, this, m_root);
-                _discoveryMsgMode = m_io.ReadS4le();
-                _discoverableByLocation = m_io.ReadS1();
-                _uiOrder = m_io.ReadS4le();
-            }
-            private Uuid _poiTypeId;
-            private int _markType;
-            private int _label;
-            private int _discoveryMsg;
-            private float _discoveryDist;
-            private int _compassMarkTypeId;
-            private Uuid _associatedCodexPerkId;
-            private int _discoveryMsgMode;
-            private sbyte _discoverableByLocation;
-            private int _uiOrder;
-            private PoiType m_root;
-            private PoiType m_parent;
-            public Uuid PoiTypeId { get { return _poiTypeId; } }
-            public int MarkType { get { return _markType; } }
-            public int Label { get { return _label; } }
-            public int DiscoveryMsg { get { return _discoveryMsg; } }
-            public float DiscoveryDist { get { return _discoveryDist; } }
-            public int CompassMarkTypeId { get { return _compassMarkTypeId; } }
-            public Uuid AssociatedCodexPerkId { get { return _associatedCodexPerkId; } }
-            public int DiscoveryMsgMode { get { return _discoveryMsgMode; } }
-            public sbyte DiscoverableByLocation { get { return _discoverableByLocation; } }
-            public int UiOrder { get { return _uiOrder; } }
-            public PoiType M_Root { get { return m_root; } }
-            public PoiType M_Parent { get { return m_parent; } }
-        }
-        public partial class Quat : KaitaiStruct
-        {
-            public static Quat FromFile(string fileName)
-            {
-                return new Quat(new KaitaiStream(fileName));
-            }
-
-            public Quat(KaitaiStream p__io, KaitaiStruct p__parent = null, PoiType p__root = null) : base(p__io)
-            {
-                m_parent = p__parent;
-                m_root = p__root;
-                _read();
-            }
-            private void _read()
-            {
-                _quatX = m_io.ReadS4le();
-                _quatY = m_io.ReadS4le();
-                _quatZ = m_io.ReadS4le();
-                _quatW = m_io.ReadS4le();
-            }
-            private int _quatX;
-            private int _quatY;
-            private int _quatZ;
-            private int _quatW;
-            private PoiType m_root;
-            private KaitaiStruct m_parent;
-            public int QuatX { get { return _quatX; } }
-            public int QuatY { get { return _quatY; } }
-            public int QuatZ { get { return _quatZ; } }
-            public int QuatW { get { return _quatW; } }
-            public PoiType M_Root { get { return m_root; } }
-            public KaitaiStruct M_Parent { get { return m_parent; } }
-        }
-        public partial class Quatt : KaitaiStruct
-        {
-            public static Quatt FromFile(string fileName)
-            {
-                return new Quatt(new KaitaiStream(fileName));
-            }
-
-            public Quatt(KaitaiStream p__io, KaitaiStruct p__parent = null, PoiType p__root = null) : base(p__io)
-            {
-                m_parent = p__parent;
-                m_root = p__root;
-                _read();
-            }
-            private void _read()
-            {
-                _quattType = m_io.ReadBytes(28);
-            }
-            private byte[] _quattType;
-            private PoiType m_root;
-            private KaitaiStruct m_parent;
-            public byte[] QuattType { get { return _quattType; } }
-            public PoiType M_Root { get { return m_root; } }
-            public KaitaiStruct M_Parent { get { return m_parent; } }
-        }
         public partial class Header : KaitaiStruct
         {
             public static Header FromFile(string fileName)
@@ -236,14 +74,14 @@ namespace KCD.Kaitai.Tables
             public PoiType M_Root { get { return m_root; } }
             public PoiType M_Parent { get { return m_parent; } }
         }
-        public partial class Vec3 : KaitaiStruct
+        public partial class Row : KaitaiStruct
         {
-            public static Vec3 FromFile(string fileName)
+            public static Row FromFile(string fileName)
             {
-                return new Vec3(new KaitaiStream(fileName));
+                return new Row(new KaitaiStream(fileName));
             }
 
-            public Vec3(KaitaiStream p__io, KaitaiStruct p__parent = null, PoiType p__root = null) : base(p__io)
+            public Row(KaitaiStream p__io, PoiType p__parent = null, PoiType p__root = null) : base(p__io)
             {
                 m_parent = p__parent;
                 m_root = p__root;
@@ -251,44 +89,41 @@ namespace KCD.Kaitai.Tables
             }
             private void _read()
             {
-                _vec3X = m_io.ReadS4le();
-                _vec3Y = m_io.ReadS4le();
-                _vec3Z = m_io.ReadS4le();
+                _poiTypeId = m_io.ReadBytes(16);
+                _markType = m_io.ReadS4le();
+                _label = m_io.ReadS4le();
+                _discoveryMsg = m_io.ReadS4le();
+                _discoveryDist = m_io.ReadF4le();
+                _compassMarkTypeId = m_io.ReadS4le();
+                _associatedCodexPerkId = m_io.ReadBytes(16);
+                _discoveryMsgMode = m_io.ReadS4le();
+                _discoverableByLocation = m_io.ReadS1();
+                _uiOrder = m_io.ReadS4le();
             }
-            private int _vec3X;
-            private int _vec3Y;
-            private int _vec3Z;
+            private byte[] _poiTypeId;
+            private int _markType;
+            private int _label;
+            private int _discoveryMsg;
+            private float _discoveryDist;
+            private int _compassMarkTypeId;
+            private byte[] _associatedCodexPerkId;
+            private int _discoveryMsgMode;
+            private sbyte _discoverableByLocation;
+            private int _uiOrder;
             private PoiType m_root;
-            private KaitaiStruct m_parent;
-            public int Vec3X { get { return _vec3X; } }
-            public int Vec3Y { get { return _vec3Y; } }
-            public int Vec3Z { get { return _vec3Z; } }
+            private PoiType m_parent;
+            public byte[] PoiTypeId { get { return _poiTypeId; } }
+            public int MarkType { get { return _markType; } }
+            public int Label { get { return _label; } }
+            public int DiscoveryMsg { get { return _discoveryMsg; } }
+            public float DiscoveryDist { get { return _discoveryDist; } }
+            public int CompassMarkTypeId { get { return _compassMarkTypeId; } }
+            public byte[] AssociatedCodexPerkId { get { return _associatedCodexPerkId; } }
+            public int DiscoveryMsgMode { get { return _discoveryMsgMode; } }
+            public sbyte DiscoverableByLocation { get { return _discoverableByLocation; } }
+            public int UiOrder { get { return _uiOrder; } }
             public PoiType M_Root { get { return m_root; } }
-            public KaitaiStruct M_Parent { get { return m_parent; } }
-        }
-        public partial class Padding : KaitaiStruct
-        {
-            public static Padding FromFile(string fileName)
-            {
-                return new Padding(new KaitaiStream(fileName));
-            }
-
-            public Padding(KaitaiStream p__io, KaitaiStruct p__parent = null, PoiType p__root = null) : base(p__io)
-            {
-                m_parent = p__parent;
-                m_root = p__root;
-                _read();
-            }
-            private void _read()
-            {
-                _paddingType = m_io.ReadBytes(16);
-            }
-            private byte[] _paddingType;
-            private PoiType m_root;
-            private KaitaiStruct m_parent;
-            public byte[] PaddingType { get { return _paddingType; } }
-            public PoiType M_Root { get { return m_root; } }
-            public KaitaiStruct M_Parent { get { return m_parent; } }
+            public PoiType M_Parent { get { return m_parent; } }
         }
         private Header _table;
         private List<Row> _rows;

@@ -32,177 +32,6 @@ namespace KCD.Kaitai.Tables
                 _strings.Add(System.Text.Encoding.GetEncoding("utf-8").GetString(m_io.ReadBytesTerm(0, false, true, true)));
             }
         }
-        public partial class Uuid : KaitaiStruct
-        {
-            public static Uuid FromFile(string fileName)
-            {
-                return new Uuid(new KaitaiStream(fileName));
-            }
-
-            public Uuid(KaitaiStream p__io, Die.Row p__parent = null, Die p__root = null) : base(p__io)
-            {
-                m_parent = p__parent;
-                m_root = p__root;
-                _read();
-            }
-            private void _read()
-            {
-                _uuidType = m_io.ReadBytes(16);
-            }
-            private byte[] _uuidType;
-            private Die m_root;
-            private Die.Row m_parent;
-            public byte[] UuidType { get { return _uuidType; } }
-            public Die M_Root { get { return m_root; } }
-            public Die.Row M_Parent { get { return m_parent; } }
-        }
-        public partial class Trifloat : KaitaiStruct
-        {
-            public static Trifloat FromFile(string fileName)
-            {
-                return new Trifloat(new KaitaiStream(fileName));
-            }
-
-            public Trifloat(KaitaiStream p__io, KaitaiStruct p__parent = null, Die p__root = null) : base(p__io)
-            {
-                m_parent = p__parent;
-                m_root = p__root;
-                _read();
-            }
-            private void _read()
-            {
-                _floatA = m_io.ReadF4le();
-                _floatB = m_io.ReadF4le();
-                _floatC = m_io.ReadF4le();
-            }
-            private float _floatA;
-            private float _floatB;
-            private float _floatC;
-            private Die m_root;
-            private KaitaiStruct m_parent;
-            public float FloatA { get { return _floatA; } }
-            public float FloatB { get { return _floatB; } }
-            public float FloatC { get { return _floatC; } }
-            public Die M_Root { get { return m_root; } }
-            public KaitaiStruct M_Parent { get { return m_parent; } }
-        }
-        public partial class Row : KaitaiStruct
-        {
-            public static Row FromFile(string fileName)
-            {
-                return new Row(new KaitaiStream(fileName));
-            }
-
-            public Row(KaitaiStream p__io, Die p__parent = null, Die p__root = null) : base(p__io)
-            {
-                m_parent = p__parent;
-                m_root = p__root;
-                _read();
-            }
-            private void _read()
-            {
-                _itemId = new Uuid(m_io, this, m_root);
-                _sideWeight1 = m_io.ReadF4le();
-                _sideWeight2 = m_io.ReadF4le();
-                _sideWeight3 = m_io.ReadF4le();
-                _sideWeight4 = m_io.ReadF4le();
-                _sideWeight5 = m_io.ReadF4le();
-                _sideWeight6 = m_io.ReadF4le();
-                _sideValue1 = m_io.ReadS4le();
-                _sideValue2 = m_io.ReadS4le();
-                _sideValue3 = m_io.ReadS4le();
-                _sideValue4 = m_io.ReadS4le();
-                _sideValue5 = m_io.ReadS4le();
-                _sideValue6 = m_io.ReadS4le();
-            }
-            private Uuid _itemId;
-            private float _sideWeight1;
-            private float _sideWeight2;
-            private float _sideWeight3;
-            private float _sideWeight4;
-            private float _sideWeight5;
-            private float _sideWeight6;
-            private int _sideValue1;
-            private int _sideValue2;
-            private int _sideValue3;
-            private int _sideValue4;
-            private int _sideValue5;
-            private int _sideValue6;
-            private Die m_root;
-            private Die m_parent;
-            public Uuid ItemId { get { return _itemId; } }
-            public float SideWeight1 { get { return _sideWeight1; } }
-            public float SideWeight2 { get { return _sideWeight2; } }
-            public float SideWeight3 { get { return _sideWeight3; } }
-            public float SideWeight4 { get { return _sideWeight4; } }
-            public float SideWeight5 { get { return _sideWeight5; } }
-            public float SideWeight6 { get { return _sideWeight6; } }
-            public int SideValue1 { get { return _sideValue1; } }
-            public int SideValue2 { get { return _sideValue2; } }
-            public int SideValue3 { get { return _sideValue3; } }
-            public int SideValue4 { get { return _sideValue4; } }
-            public int SideValue5 { get { return _sideValue5; } }
-            public int SideValue6 { get { return _sideValue6; } }
-            public Die M_Root { get { return m_root; } }
-            public Die M_Parent { get { return m_parent; } }
-        }
-        public partial class Quat : KaitaiStruct
-        {
-            public static Quat FromFile(string fileName)
-            {
-                return new Quat(new KaitaiStream(fileName));
-            }
-
-            public Quat(KaitaiStream p__io, KaitaiStruct p__parent = null, Die p__root = null) : base(p__io)
-            {
-                m_parent = p__parent;
-                m_root = p__root;
-                _read();
-            }
-            private void _read()
-            {
-                _quatX = m_io.ReadS4le();
-                _quatY = m_io.ReadS4le();
-                _quatZ = m_io.ReadS4le();
-                _quatW = m_io.ReadS4le();
-            }
-            private int _quatX;
-            private int _quatY;
-            private int _quatZ;
-            private int _quatW;
-            private Die m_root;
-            private KaitaiStruct m_parent;
-            public int QuatX { get { return _quatX; } }
-            public int QuatY { get { return _quatY; } }
-            public int QuatZ { get { return _quatZ; } }
-            public int QuatW { get { return _quatW; } }
-            public Die M_Root { get { return m_root; } }
-            public KaitaiStruct M_Parent { get { return m_parent; } }
-        }
-        public partial class Quatt : KaitaiStruct
-        {
-            public static Quatt FromFile(string fileName)
-            {
-                return new Quatt(new KaitaiStream(fileName));
-            }
-
-            public Quatt(KaitaiStream p__io, KaitaiStruct p__parent = null, Die p__root = null) : base(p__io)
-            {
-                m_parent = p__parent;
-                m_root = p__root;
-                _read();
-            }
-            private void _read()
-            {
-                _quattType = m_io.ReadBytes(28);
-            }
-            private byte[] _quattType;
-            private Die m_root;
-            private KaitaiStruct m_parent;
-            public byte[] QuattType { get { return _quattType; } }
-            public Die M_Root { get { return m_root; } }
-            public KaitaiStruct M_Parent { get { return m_parent; } }
-        }
         public partial class Header : KaitaiStruct
         {
             public static Header FromFile(string fileName)
@@ -245,14 +74,14 @@ namespace KCD.Kaitai.Tables
             public Die M_Root { get { return m_root; } }
             public Die M_Parent { get { return m_parent; } }
         }
-        public partial class Vec3 : KaitaiStruct
+        public partial class Row : KaitaiStruct
         {
-            public static Vec3 FromFile(string fileName)
+            public static Row FromFile(string fileName)
             {
-                return new Vec3(new KaitaiStream(fileName));
+                return new Row(new KaitaiStream(fileName));
             }
 
-            public Vec3(KaitaiStream p__io, KaitaiStruct p__parent = null, Die p__root = null) : base(p__io)
+            public Row(KaitaiStream p__io, Die p__parent = null, Die p__root = null) : base(p__io)
             {
                 m_parent = p__parent;
                 m_root = p__root;
@@ -260,44 +89,50 @@ namespace KCD.Kaitai.Tables
             }
             private void _read()
             {
-                _vec3X = m_io.ReadS4le();
-                _vec3Y = m_io.ReadS4le();
-                _vec3Z = m_io.ReadS4le();
+                _itemId = m_io.ReadBytes(16);
+                _sideWeight1 = m_io.ReadF4le();
+                _sideWeight2 = m_io.ReadF4le();
+                _sideWeight3 = m_io.ReadF4le();
+                _sideWeight4 = m_io.ReadF4le();
+                _sideWeight5 = m_io.ReadF4le();
+                _sideWeight6 = m_io.ReadF4le();
+                _sideValue1 = m_io.ReadS4le();
+                _sideValue2 = m_io.ReadS4le();
+                _sideValue3 = m_io.ReadS4le();
+                _sideValue4 = m_io.ReadS4le();
+                _sideValue5 = m_io.ReadS4le();
+                _sideValue6 = m_io.ReadS4le();
             }
-            private int _vec3X;
-            private int _vec3Y;
-            private int _vec3Z;
+            private byte[] _itemId;
+            private float _sideWeight1;
+            private float _sideWeight2;
+            private float _sideWeight3;
+            private float _sideWeight4;
+            private float _sideWeight5;
+            private float _sideWeight6;
+            private int _sideValue1;
+            private int _sideValue2;
+            private int _sideValue3;
+            private int _sideValue4;
+            private int _sideValue5;
+            private int _sideValue6;
             private Die m_root;
-            private KaitaiStruct m_parent;
-            public int Vec3X { get { return _vec3X; } }
-            public int Vec3Y { get { return _vec3Y; } }
-            public int Vec3Z { get { return _vec3Z; } }
+            private Die m_parent;
+            public byte[] ItemId { get { return _itemId; } }
+            public float SideWeight1 { get { return _sideWeight1; } }
+            public float SideWeight2 { get { return _sideWeight2; } }
+            public float SideWeight3 { get { return _sideWeight3; } }
+            public float SideWeight4 { get { return _sideWeight4; } }
+            public float SideWeight5 { get { return _sideWeight5; } }
+            public float SideWeight6 { get { return _sideWeight6; } }
+            public int SideValue1 { get { return _sideValue1; } }
+            public int SideValue2 { get { return _sideValue2; } }
+            public int SideValue3 { get { return _sideValue3; } }
+            public int SideValue4 { get { return _sideValue4; } }
+            public int SideValue5 { get { return _sideValue5; } }
+            public int SideValue6 { get { return _sideValue6; } }
             public Die M_Root { get { return m_root; } }
-            public KaitaiStruct M_Parent { get { return m_parent; } }
-        }
-        public partial class Padding : KaitaiStruct
-        {
-            public static Padding FromFile(string fileName)
-            {
-                return new Padding(new KaitaiStream(fileName));
-            }
-
-            public Padding(KaitaiStream p__io, KaitaiStruct p__parent = null, Die p__root = null) : base(p__io)
-            {
-                m_parent = p__parent;
-                m_root = p__root;
-                _read();
-            }
-            private void _read()
-            {
-                _paddingType = m_io.ReadBytes(16);
-            }
-            private byte[] _paddingType;
-            private Die m_root;
-            private KaitaiStruct m_parent;
-            public byte[] PaddingType { get { return _paddingType; } }
-            public Die M_Root { get { return m_root; } }
-            public KaitaiStruct M_Parent { get { return m_parent; } }
+            public Die M_Parent { get { return m_parent; } }
         }
         private Header _table;
         private List<Row> _rows;

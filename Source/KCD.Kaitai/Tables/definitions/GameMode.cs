@@ -5,14 +5,14 @@ using System.Collections.Generic;
 
 namespace KCD.Kaitai.Tables
 {
-    public partial class CombatHitType : KaitaiStruct
+    public partial class GameMode : KaitaiStruct
     {
-        public static CombatHitType FromFile(string fileName)
+        public static GameMode FromFile(string fileName)
         {
-            return new CombatHitType(new KaitaiStream(fileName));
+            return new GameMode(new KaitaiStream(fileName));
         }
 
-        public CombatHitType(KaitaiStream p__io, KaitaiStruct p__parent = null, CombatHitType p__root = null) : base(p__io)
+        public GameMode(KaitaiStream p__io, KaitaiStruct p__parent = null, GameMode p__root = null) : base(p__io)
         {
             m_parent = p__parent;
             m_root = p__root ?? this;
@@ -39,7 +39,7 @@ namespace KCD.Kaitai.Tables
                 return new Header(new KaitaiStream(fileName));
             }
 
-            public Header(KaitaiStream p__io, CombatHitType p__parent = null, CombatHitType p__root = null) : base(p__io)
+            public Header(KaitaiStream p__io, GameMode p__parent = null, GameMode p__root = null) : base(p__io)
             {
                 m_parent = p__parent;
                 m_root = p__root;
@@ -62,8 +62,8 @@ namespace KCD.Kaitai.Tables
             private int _rowCount;
             private int _stringDataSize;
             private int _uniqueStringsCount;
-            private CombatHitType m_root;
-            private CombatHitType m_parent;
+            private GameMode m_root;
+            private GameMode m_parent;
             public int Version { get { return _version; } }
             public uint DescriptorsHash { get { return _descriptorsHash; } }
             public uint LayoutHash { get { return _layoutHash; } }
@@ -71,8 +71,8 @@ namespace KCD.Kaitai.Tables
             public int RowCount { get { return _rowCount; } }
             public int StringDataSize { get { return _stringDataSize; } }
             public int UniqueStringsCount { get { return _uniqueStringsCount; } }
-            public CombatHitType M_Root { get { return m_root; } }
-            public CombatHitType M_Parent { get { return m_parent; } }
+            public GameMode M_Root { get { return m_root; } }
+            public GameMode M_Parent { get { return m_parent; } }
         }
         public partial class Row : KaitaiStruct
         {
@@ -81,7 +81,7 @@ namespace KCD.Kaitai.Tables
                 return new Row(new KaitaiStream(fileName));
             }
 
-            public Row(KaitaiStream p__io, CombatHitType p__parent = null, CombatHitType p__root = null) : base(p__io)
+            public Row(KaitaiStream p__io, GameMode p__parent = null, GameMode p__root = null) : base(p__io)
             {
                 m_parent = p__parent;
                 m_root = p__root;
@@ -89,30 +89,30 @@ namespace KCD.Kaitai.Tables
             }
             private void _read()
             {
-                _combatHitTypeId = m_io.ReadS4le();
-                _combatHitTypeName = m_io.ReadS4le();
-                _mnTag = m_io.ReadS4le();
+                _gameModeId = m_io.ReadS4le();
+                _gameModeName = m_io.ReadBytes(12);
+                _playerPerkId = m_io.ReadBytes(16);
             }
-            private int _combatHitTypeId;
-            private int _combatHitTypeName;
-            private int _mnTag;
-            private CombatHitType m_root;
-            private CombatHitType m_parent;
-            public int CombatHitTypeId { get { return _combatHitTypeId; } }
-            public int CombatHitTypeName { get { return _combatHitTypeName; } }
-            public int MnTag { get { return _mnTag; } }
-            public CombatHitType M_Root { get { return m_root; } }
-            public CombatHitType M_Parent { get { return m_parent; } }
+            private int _gameModeId;
+            private byte[] _gameModeName;
+            private byte[] _playerPerkId;
+            private GameMode m_root;
+            private GameMode m_parent;
+            public int GameModeId { get { return _gameModeId; } }
+            public byte[] GameModeName { get { return _gameModeName; } }
+            public byte[] PlayerPerkId { get { return _playerPerkId; } }
+            public GameMode M_Root { get { return m_root; } }
+            public GameMode M_Parent { get { return m_parent; } }
         }
         private Header _table;
         private List<Row> _rows;
         private List<string> _strings;
-        private CombatHitType m_root;
+        private GameMode m_root;
         private KaitaiStruct m_parent;
         public Header Table { get { return _table; } }
         public List<Row> Rows { get { return _rows; } }
         public List<string> Strings { get { return _strings; } }
-        public CombatHitType M_Root { get { return m_root; } }
+        public GameMode M_Root { get { return m_root; } }
         public KaitaiStruct M_Parent { get { return m_parent; } }
     }
 }

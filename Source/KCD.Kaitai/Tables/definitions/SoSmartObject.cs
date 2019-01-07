@@ -32,153 +32,6 @@ namespace KCD.Kaitai.Tables
                 _strings.Add(System.Text.Encoding.GetEncoding("utf-8").GetString(m_io.ReadBytesTerm(0, false, true, true)));
             }
         }
-        public partial class Uuid : KaitaiStruct
-        {
-            public static Uuid FromFile(string fileName)
-            {
-                return new Uuid(new KaitaiStream(fileName));
-            }
-
-            public Uuid(KaitaiStream p__io, SoSmartObject.Row p__parent = null, SoSmartObject p__root = null) : base(p__io)
-            {
-                m_parent = p__parent;
-                m_root = p__root;
-                _read();
-            }
-            private void _read()
-            {
-                _uuidType = m_io.ReadBytes(16);
-            }
-            private byte[] _uuidType;
-            private SoSmartObject m_root;
-            private SoSmartObject.Row m_parent;
-            public byte[] UuidType { get { return _uuidType; } }
-            public SoSmartObject M_Root { get { return m_root; } }
-            public SoSmartObject.Row M_Parent { get { return m_parent; } }
-        }
-        public partial class Trifloat : KaitaiStruct
-        {
-            public static Trifloat FromFile(string fileName)
-            {
-                return new Trifloat(new KaitaiStream(fileName));
-            }
-
-            public Trifloat(KaitaiStream p__io, KaitaiStruct p__parent = null, SoSmartObject p__root = null) : base(p__io)
-            {
-                m_parent = p__parent;
-                m_root = p__root;
-                _read();
-            }
-            private void _read()
-            {
-                _floatA = m_io.ReadF4le();
-                _floatB = m_io.ReadF4le();
-                _floatC = m_io.ReadF4le();
-            }
-            private float _floatA;
-            private float _floatB;
-            private float _floatC;
-            private SoSmartObject m_root;
-            private KaitaiStruct m_parent;
-            public float FloatA { get { return _floatA; } }
-            public float FloatB { get { return _floatB; } }
-            public float FloatC { get { return _floatC; } }
-            public SoSmartObject M_Root { get { return m_root; } }
-            public KaitaiStruct M_Parent { get { return m_parent; } }
-        }
-        public partial class Row : KaitaiStruct
-        {
-            public static Row FromFile(string fileName)
-            {
-                return new Row(new KaitaiStream(fileName));
-            }
-
-            public Row(KaitaiStream p__io, SoSmartObject p__parent = null, SoSmartObject p__root = null) : base(p__io)
-            {
-                m_parent = p__parent;
-                m_root = p__root;
-                _read();
-            }
-            private void _read()
-            {
-                _soSmartObjectId = new Uuid(m_io, this, m_root);
-                _soSmartObjectName = m_io.ReadS4le();
-                _brainId = new Uuid(m_io, this, m_root);
-                _bodyId = new Uuid(m_io, this, m_root);
-                _priority = m_io.ReadS1();
-            }
-            private Uuid _soSmartObjectId;
-            private int _soSmartObjectName;
-            private Uuid _brainId;
-            private Uuid _bodyId;
-            private sbyte _priority;
-            private SoSmartObject m_root;
-            private SoSmartObject m_parent;
-            public Uuid SoSmartObjectId { get { return _soSmartObjectId; } }
-            public int SoSmartObjectName { get { return _soSmartObjectName; } }
-            public Uuid BrainId { get { return _brainId; } }
-            public Uuid BodyId { get { return _bodyId; } }
-            public sbyte Priority { get { return _priority; } }
-            public SoSmartObject M_Root { get { return m_root; } }
-            public SoSmartObject M_Parent { get { return m_parent; } }
-        }
-        public partial class Quat : KaitaiStruct
-        {
-            public static Quat FromFile(string fileName)
-            {
-                return new Quat(new KaitaiStream(fileName));
-            }
-
-            public Quat(KaitaiStream p__io, KaitaiStruct p__parent = null, SoSmartObject p__root = null) : base(p__io)
-            {
-                m_parent = p__parent;
-                m_root = p__root;
-                _read();
-            }
-            private void _read()
-            {
-                _quatX = m_io.ReadS4le();
-                _quatY = m_io.ReadS4le();
-                _quatZ = m_io.ReadS4le();
-                _quatW = m_io.ReadS4le();
-            }
-            private int _quatX;
-            private int _quatY;
-            private int _quatZ;
-            private int _quatW;
-            private SoSmartObject m_root;
-            private KaitaiStruct m_parent;
-            public int QuatX { get { return _quatX; } }
-            public int QuatY { get { return _quatY; } }
-            public int QuatZ { get { return _quatZ; } }
-            public int QuatW { get { return _quatW; } }
-            public SoSmartObject M_Root { get { return m_root; } }
-            public KaitaiStruct M_Parent { get { return m_parent; } }
-        }
-        public partial class Quatt : KaitaiStruct
-        {
-            public static Quatt FromFile(string fileName)
-            {
-                return new Quatt(new KaitaiStream(fileName));
-            }
-
-            public Quatt(KaitaiStream p__io, KaitaiStruct p__parent = null, SoSmartObject p__root = null) : base(p__io)
-            {
-                m_parent = p__parent;
-                m_root = p__root;
-                _read();
-            }
-            private void _read()
-            {
-                _quattType = m_io.ReadBytes(28);
-            }
-            private byte[] _quattType;
-            private SoSmartObject m_root;
-            private KaitaiStruct m_parent;
-            public byte[] QuattType { get { return _quattType; } }
-            public SoSmartObject M_Root { get { return m_root; } }
-            public KaitaiStruct M_Parent { get { return m_parent; } }
-        }
         public partial class Header : KaitaiStruct
         {
             public static Header FromFile(string fileName)
@@ -221,14 +74,14 @@ namespace KCD.Kaitai.Tables
             public SoSmartObject M_Root { get { return m_root; } }
             public SoSmartObject M_Parent { get { return m_parent; } }
         }
-        public partial class Vec3 : KaitaiStruct
+        public partial class Row : KaitaiStruct
         {
-            public static Vec3 FromFile(string fileName)
+            public static Row FromFile(string fileName)
             {
-                return new Vec3(new KaitaiStream(fileName));
+                return new Row(new KaitaiStream(fileName));
             }
 
-            public Vec3(KaitaiStream p__io, KaitaiStruct p__parent = null, SoSmartObject p__root = null) : base(p__io)
+            public Row(KaitaiStream p__io, SoSmartObject p__parent = null, SoSmartObject p__root = null) : base(p__io)
             {
                 m_parent = p__parent;
                 m_root = p__root;
@@ -236,44 +89,26 @@ namespace KCD.Kaitai.Tables
             }
             private void _read()
             {
-                _vec3X = m_io.ReadS4le();
-                _vec3Y = m_io.ReadS4le();
-                _vec3Z = m_io.ReadS4le();
+                _soSmartObjectId = m_io.ReadBytes(16);
+                _soSmartObjectName = m_io.ReadS4le();
+                _brainId = m_io.ReadBytes(16);
+                _bodyId = m_io.ReadBytes(16);
+                _priority = m_io.ReadS1();
             }
-            private int _vec3X;
-            private int _vec3Y;
-            private int _vec3Z;
+            private byte[] _soSmartObjectId;
+            private int _soSmartObjectName;
+            private byte[] _brainId;
+            private byte[] _bodyId;
+            private sbyte _priority;
             private SoSmartObject m_root;
-            private KaitaiStruct m_parent;
-            public int Vec3X { get { return _vec3X; } }
-            public int Vec3Y { get { return _vec3Y; } }
-            public int Vec3Z { get { return _vec3Z; } }
+            private SoSmartObject m_parent;
+            public byte[] SoSmartObjectId { get { return _soSmartObjectId; } }
+            public int SoSmartObjectName { get { return _soSmartObjectName; } }
+            public byte[] BrainId { get { return _brainId; } }
+            public byte[] BodyId { get { return _bodyId; } }
+            public sbyte Priority { get { return _priority; } }
             public SoSmartObject M_Root { get { return m_root; } }
-            public KaitaiStruct M_Parent { get { return m_parent; } }
-        }
-        public partial class Padding : KaitaiStruct
-        {
-            public static Padding FromFile(string fileName)
-            {
-                return new Padding(new KaitaiStream(fileName));
-            }
-
-            public Padding(KaitaiStream p__io, KaitaiStruct p__parent = null, SoSmartObject p__root = null) : base(p__io)
-            {
-                m_parent = p__parent;
-                m_root = p__root;
-                _read();
-            }
-            private void _read()
-            {
-                _paddingType = m_io.ReadBytes(16);
-            }
-            private byte[] _paddingType;
-            private SoSmartObject m_root;
-            private KaitaiStruct m_parent;
-            public byte[] PaddingType { get { return _paddingType; } }
-            public SoSmartObject M_Root { get { return m_root; } }
-            public KaitaiStruct M_Parent { get { return m_parent; } }
+            public SoSmartObject M_Parent { get { return m_parent; } }
         }
         private Header _table;
         private List<Row> _rows;

@@ -32,60 +32,6 @@ namespace KCD.Kaitai.Tables
                 _strings.Add(System.Text.Encoding.GetEncoding("utf-8").GetString(m_io.ReadBytesTerm(0, false, true, true)));
             }
         }
-        public partial class Uuid : KaitaiStruct
-        {
-            public static Uuid FromFile(string fileName)
-            {
-                return new Uuid(new KaitaiStream(fileName));
-            }
-
-            public Uuid(KaitaiStream p__io, KaitaiStruct p__parent = null, CombatActionPerfectBlock p__root = null) : base(p__io)
-            {
-                m_parent = p__parent;
-                m_root = p__root;
-                _read();
-            }
-            private void _read()
-            {
-                _uuidType = m_io.ReadBytes(16);
-            }
-            private byte[] _uuidType;
-            private CombatActionPerfectBlock m_root;
-            private KaitaiStruct m_parent;
-            public byte[] UuidType { get { return _uuidType; } }
-            public CombatActionPerfectBlock M_Root { get { return m_root; } }
-            public KaitaiStruct M_Parent { get { return m_parent; } }
-        }
-        public partial class Trifloat : KaitaiStruct
-        {
-            public static Trifloat FromFile(string fileName)
-            {
-                return new Trifloat(new KaitaiStream(fileName));
-            }
-
-            public Trifloat(KaitaiStream p__io, CombatActionPerfectBlock.Row p__parent = null, CombatActionPerfectBlock p__root = null) : base(p__io)
-            {
-                m_parent = p__parent;
-                m_root = p__root;
-                _read();
-            }
-            private void _read()
-            {
-                _floatA = m_io.ReadF4le();
-                _floatB = m_io.ReadF4le();
-                _floatC = m_io.ReadF4le();
-            }
-            private float _floatA;
-            private float _floatB;
-            private float _floatC;
-            private CombatActionPerfectBlock m_root;
-            private CombatActionPerfectBlock.Row m_parent;
-            public float FloatA { get { return _floatA; } }
-            public float FloatB { get { return _floatB; } }
-            public float FloatC { get { return _floatC; } }
-            public CombatActionPerfectBlock M_Root { get { return m_root; } }
-            public CombatActionPerfectBlock.Row M_Parent { get { return m_parent; } }
-        }
         public partial class Row : KaitaiStruct
         {
             public static Row FromFile(string fileName)
@@ -154,7 +100,7 @@ namespace KCD.Kaitai.Tables
                 _syncHitStartByPc = m_io.ReadS1();
                 _zSpatialGrid = m_io.ReadS4le();
                 _hasHitAnimevents = m_io.ReadS1();
-                _endPoint = new Trifloat(m_io, this, m_root);
+                _endPoint = new Vec3(m_io, this, m_root);
                 _syncPoint = m_io.ReadF4le();
             }
             private int _actorClassHash;
@@ -210,7 +156,7 @@ namespace KCD.Kaitai.Tables
             private sbyte _syncHitStartByPc;
             private int _zSpatialGrid;
             private sbyte _hasHitAnimevents;
-            private Trifloat _endPoint;
+            private Vec3 _endPoint;
             private float _syncPoint;
             private CombatActionPerfectBlock m_root;
             private CombatActionPerfectBlock m_parent;
@@ -267,43 +213,10 @@ namespace KCD.Kaitai.Tables
             public sbyte SyncHitStartByPc { get { return _syncHitStartByPc; } }
             public int ZSpatialGrid { get { return _zSpatialGrid; } }
             public sbyte HasHitAnimevents { get { return _hasHitAnimevents; } }
-            public Trifloat EndPoint { get { return _endPoint; } }
+            public Vec3 EndPoint { get { return _endPoint; } }
             public float SyncPoint { get { return _syncPoint; } }
             public CombatActionPerfectBlock M_Root { get { return m_root; } }
             public CombatActionPerfectBlock M_Parent { get { return m_parent; } }
-        }
-        public partial class Quat : KaitaiStruct
-        {
-            public static Quat FromFile(string fileName)
-            {
-                return new Quat(new KaitaiStream(fileName));
-            }
-
-            public Quat(KaitaiStream p__io, KaitaiStruct p__parent = null, CombatActionPerfectBlock p__root = null) : base(p__io)
-            {
-                m_parent = p__parent;
-                m_root = p__root;
-                _read();
-            }
-            private void _read()
-            {
-                _quatX = m_io.ReadS4le();
-                _quatY = m_io.ReadS4le();
-                _quatZ = m_io.ReadS4le();
-                _quatW = m_io.ReadS4le();
-            }
-            private int _quatX;
-            private int _quatY;
-            private int _quatZ;
-            private int _quatW;
-            private CombatActionPerfectBlock m_root;
-            private KaitaiStruct m_parent;
-            public int QuatX { get { return _quatX; } }
-            public int QuatY { get { return _quatY; } }
-            public int QuatZ { get { return _quatZ; } }
-            public int QuatW { get { return _quatW; } }
-            public CombatActionPerfectBlock M_Root { get { return m_root; } }
-            public KaitaiStruct M_Parent { get { return m_parent; } }
         }
         public partial class Quatt : KaitaiStruct
         {
@@ -320,12 +233,12 @@ namespace KCD.Kaitai.Tables
             }
             private void _read()
             {
-                _quattType = m_io.ReadBytes(28);
+                _quattData = m_io.ReadBytes(28);
             }
-            private byte[] _quattType;
+            private byte[] _quattData;
             private CombatActionPerfectBlock m_root;
             private CombatActionPerfectBlock.Row m_parent;
-            public byte[] QuattType { get { return _quattType; } }
+            public byte[] QuattData { get { return _quattData; } }
             public CombatActionPerfectBlock M_Root { get { return m_root; } }
             public CombatActionPerfectBlock.Row M_Parent { get { return m_parent; } }
         }
@@ -378,7 +291,7 @@ namespace KCD.Kaitai.Tables
                 return new Vec3(new KaitaiStream(fileName));
             }
 
-            public Vec3(KaitaiStream p__io, KaitaiStruct p__parent = null, CombatActionPerfectBlock p__root = null) : base(p__io)
+            public Vec3(KaitaiStream p__io, CombatActionPerfectBlock.Row p__parent = null, CombatActionPerfectBlock p__root = null) : base(p__io)
             {
                 m_parent = p__parent;
                 m_root = p__root;
@@ -386,20 +299,20 @@ namespace KCD.Kaitai.Tables
             }
             private void _read()
             {
-                _vec3X = m_io.ReadS4le();
-                _vec3Y = m_io.ReadS4le();
-                _vec3Z = m_io.ReadS4le();
+                _x = m_io.ReadS4le();
+                _y = m_io.ReadS4le();
+                _z = m_io.ReadS4le();
             }
-            private int _vec3X;
-            private int _vec3Y;
-            private int _vec3Z;
+            private int _x;
+            private int _y;
+            private int _z;
             private CombatActionPerfectBlock m_root;
-            private KaitaiStruct m_parent;
-            public int Vec3X { get { return _vec3X; } }
-            public int Vec3Y { get { return _vec3Y; } }
-            public int Vec3Z { get { return _vec3Z; } }
+            private CombatActionPerfectBlock.Row m_parent;
+            public int X { get { return _x; } }
+            public int Y { get { return _y; } }
+            public int Z { get { return _z; } }
             public CombatActionPerfectBlock M_Root { get { return m_root; } }
-            public KaitaiStruct M_Parent { get { return m_parent; } }
+            public CombatActionPerfectBlock.Row M_Parent { get { return m_parent; } }
         }
         public partial class Padding : KaitaiStruct
         {
