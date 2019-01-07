@@ -1,5 +1,5 @@
 meta:
-  id: ai_fragment_exclude
+  id: game_mode
   file-extension: tbl
   encoding: utf-8
   endian: le
@@ -33,7 +33,9 @@ types:
         type: s4
   row:
     seq:
-      - id: ai_fragment_exclude_id
+      - id: game_mode_id
         type: s4
-      - id: ai_fragment_exclude_prefix
-        type: s4
+      - id: game_mode_name
+        size: 12
+      - id: player_perk_id
+        size: 16
