@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.IO;
-using KCD.Kaitai;
+using KCD.Kaitai.Tables;
 //using KCD.Library.Tables;
 //using Sharp.Reporting;
 
