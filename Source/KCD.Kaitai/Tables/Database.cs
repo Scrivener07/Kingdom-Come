@@ -17,7 +17,7 @@ namespace KCD.Kaitai.Tables
 		/// </summary>
 		public readonly string Folder;
 
-		private BindingList<KaitaiStruct> Entities;
+		public BindingList<KaitaiStruct> Entities { get; private set; }
 
 
 		public Database(string folder)
@@ -69,9 +69,8 @@ namespace KCD.Kaitai.Tables
 			string fullpath = Path.GetFullPath(filepath);
 			if (File.Exists(fullpath))
 			{
-				string filename = Path.GetFileName(fullpath);
-
-				Type type = Definition.GetType(filename);
+				string key = Definition.PathToKey(fullpath);
+				Type type = Definition.GetType(key);
 				if (type != null)
 				{
 					object[] arguments = new object[1];

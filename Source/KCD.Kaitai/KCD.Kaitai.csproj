@@ -406,6 +406,7 @@
     <Compile Include="Tables\definitions\WeaponEquipSlot.cs" />
     <Compile Include="Tables\definitions\WeaponPreset.cs" />
     <Compile Include="Tables\definitions\WeaponSubClass.cs" />
+    <Compile Include="Tables\ReflectiveEnumerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
