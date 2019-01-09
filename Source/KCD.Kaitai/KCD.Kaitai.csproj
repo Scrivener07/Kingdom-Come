@@ -194,6 +194,7 @@
     <Compile Include="Tables\definitions\Food.cs" />
     <Compile Include="Tables\definitions\FoodSubtype.cs" />
     <Compile Include="Tables\definitions\FoodType.cs" />
+    <Compile Include="Tables\definitions\GameMode.cs" />
     <Compile Include="Tables\definitions\GameOver.cs" />
     <Compile Include="Tables\definitions\Gender.cs" />
     <Compile Include="Tables\definitions\GoldDayoneStashDiff.cs" />
