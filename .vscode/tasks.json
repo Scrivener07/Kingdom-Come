@@ -40,7 +40,7 @@
 			"command": "start Scripts\\Kaitai.Compile.bat",
 			"args": [
 				"E:\\Lab\\Warhorse\\Kingdom-Come\\Kaitai\\definitions",
-				"E:\\Lab\\Warhorse\\Kingdom-Come\\Source\\KCD.Kaitai\\Tables\\definitions"
+				"E:\\Lab\\Warhorse\\Kingdom-Come\\Source\\KCD.Kaitai\\Tables"
 			],
 			"problemMatcher": [],
 			"group": {
