@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Windows.Forms;
+using KCD.Library.Tables;
 
 namespace KCD.Studio
 {
@@ -16,6 +17,8 @@ namespace KCD.Studio
 		{
 			Configure(arguments);
 			Trace.WriteLine(string.Format("Using folder {0}.", Folder));
+
+			Definition.Initialize();
 
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);

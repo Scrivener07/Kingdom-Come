@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="KaitaiStruct.Runtime.CSharp, Version=0.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\KaitaiStruct.Runtime.CSharp.0.7.0\lib\net45\KaitaiStruct.Runtime.CSharp.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.IO.Compression" />
@@ -46,40 +49,58 @@
   <ItemGroup>
     <Compile Include="Mods\Manifest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Prototype\Database.cs" />
+    <Compile Include="Prototype\Definition.cs" />
+    <Compile Include="Prototype\entities\Achievement.cs" />
+    <Compile Include="Prototype\entities\Achievement_Rule.cs" />
+    <Compile Include="Prototype\entities\Character_Beard.cs" />
+    <Compile Include="Prototype\entities\Character_Body.cs" />
+    <Compile Include="Prototype\entities\Character_Hair.cs" />
+    <Compile Include="Prototype\entities\Character_Head.cs" />
+    <Compile Include="Prototype\entities\DLC.cs" />
+    <Compile Include="Prototype\entities\Editor_Object.cs" />
+    <Compile Include="Prototype\entities\Editor_Object_Binding.cs" />
+    <Compile Include="Prototype\entities\Faction.cs" />
+    <Compile Include="Prototype\entities\Game_Mode.cs" />
+    <Compile Include="Prototype\entities\Perk.cs" />
+    <Compile Include="Prototype\entities\POI_Type.cs" />
+    <Compile Include="Prototype\entities\POI_Type2Perk.cs" />
+    <Compile Include="Prototype\entities\Race.cs" />
+    <Compile Include="Prototype\entities\Random_Event.cs" />
+    <Compile Include="Prototype\entities\Random_Event_Option.cs" />
+    <Compile Include="Prototype\entities\Random_Event_Option_Set.cs" />
+    <Compile Include="Prototype\entities\Random_Event_Source_Type.cs" />
+    <Compile Include="Prototype\entities\Game_Over.cs" />
+    <Compile Include="Prototype\Row.cs" />
+    <Compile Include="Prototype\Format\Block.cs" />
+    <Compile Include="Prototype\Format\HeaderBlock.cs" />
+    <Compile Include="Prototype\Format\RowBlock.cs" />
+    <Compile Include="Prototype\Format\TextBlock.cs" />
+    <Compile Include="Prototype\Table.cs" />
+    <Compile Include="Tables\Adapters\rows\Row.cs" />
+    <Compile Include="Tables\Adapters\rows\RowCollection.cs" />
+    <Compile Include="Tables\Adapters\rows\RowCollectionPropertyDescriptor.cs" />
+    <Compile Include="Tables\Adapters\rows\RowConverter.cs" />
+    <Compile Include="Tables\Adapters\tables\Table.cs" />
+    <Compile Include="Tables\Adapters\tables\TableCollection.cs" />
+    <Compile Include="Tables\Adapters\tables\TableCollectionPropertyDescriptor.cs" />
+    <Compile Include="Tables\Adapters\tables\TableConverter.cs" />
     <Compile Include="Tables\Database.cs" />
     <Compile Include="Tables\Definition.cs" />
-    <Compile Include="Tables\entities\Achievement.cs" />
-    <Compile Include="Tables\entities\Achievement_Rule.cs" />
-    <Compile Include="Tables\entities\Character_Beard.cs" />
-    <Compile Include="Tables\entities\Character_Body.cs" />
-    <Compile Include="Tables\entities\Character_Hair.cs" />
-    <Compile Include="Tables\entities\Character_Head.cs" />
-    <Compile Include="Tables\entities\DLC.cs" />
-    <Compile Include="Tables\entities\Editor_Object.cs" />
-    <Compile Include="Tables\entities\Editor_Object_Binding.cs" />
-    <Compile Include="Tables\entities\Faction.cs" />
-    <Compile Include="Tables\entities\Game_Mode.cs" />
-    <Compile Include="Tables\entities\Perk.cs" />
-    <Compile Include="Tables\entities\POI_Type.cs" />
-    <Compile Include="Tables\entities\POI_Type2Perk.cs" />
-    <Compile Include="Tables\entities\Race.cs" />
-    <Compile Include="Tables\entities\Random_Event.cs" />
-    <Compile Include="Tables\entities\Random_Event_Option.cs" />
-    <Compile Include="Tables\entities\Random_Event_Option_Set.cs" />
-    <Compile Include="Tables\entities\Random_Event_Source_Type.cs" />
-    <Compile Include="Tables\entities\Game_Over.cs" />
-    <Compile Include="Tables\Row.cs" />
-    <Compile Include="Tables\Format\Block.cs" />
-    <Compile Include="Tables\Format\HeaderBlock.cs" />
-    <Compile Include="Tables\Format\RowBlock.cs" />
-    <Compile Include="Tables\Format\TextBlock.cs" />
-    <Compile Include="Tables\Table.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\KCD.Kaitai\KCD.Kaitai.csproj">
+      <Project>{3e3a6a94-9e0b-4d67-8af0-6693f0f1a056}</Project>
+      <Name>KCD.Kaitai</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Sharp\Sharp.csproj">
       <Project>{ed96bc0d-7897-4716-a714-ea07ac85725a}</Project>
       <Name>Sharp</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -2,11 +2,16 @@
 using System.ComponentModel;
 using System.Diagnostics;
 using System.IO;
+using Kaitai;
+using KCD.Library.Tables.Adapters;
 using Sharp;
 using Sharp.Reporting;
 
 namespace KCD.Library.Tables
 {
+	/// <summary>
+	/// A database is a collection of tables.
+	/// </summary>
 	public class Database
 	{
 		/// <summary>
@@ -15,35 +20,44 @@ namespace KCD.Library.Tables
 		public readonly string Folder;
 
 		/// <summary>
-		/// A collection of table files which are used for on disk storage.
+		/// The name of this database.
 		/// </summary>
-		/// <remarks>The "Data Store"</remarks>
-		private BindingList<Table> Tables { get; set; }
-
-		/// <summary>
-		/// A collection of table entities which exist as CLR objects.
-		/// </summary>
-		public BindingList<Row> Rows { get; private set; }
+		public readonly string Name;
 
 
-		public Database(string folder)
+		[Category("Database")]
+		[Description("The tables belonging to this database.")]
+		[TypeConverter(typeof(RowCollectionConverter))]
+		public TableCollection Tables { get; private set; }
+
+
+		[Category("Database")]
+		[Description("The entities belonging to this database.")]
+		public BindingList<KaitaiStruct> Entities { get; private set; }
+
+
+		public Database(string folder, string name = "")
 		{
 			if (!Directory.Exists(folder))
 			{
 				throw new DirectoryNotFoundException(string.Format("Could not find the `{0}` directory.", folder));
 			}
-			Folder = folder;
-			Definition.Initialize();
-			Tables = new BindingList<Table>();
-			Rows = new BindingList<Row>();
-			Trace.WriteLine("Created the database.\n\n");
+			else
+			{
+				Folder = folder;
+				if (string.IsNullOrWhiteSpace(name)) Guid.NewGuid().ToString();
+				else Name = name;
+				Tables = new TableCollection();
+				Entities = new BindingList<KaitaiStruct>();
+				if (!Definition.Initialized) { Definition.Initialize(); }
+				Trace.WriteLine(string.Format("Created database at '{0}'.", Folder));
+			}
 		}
 
 
 		public void Import()
 		{
-			//ImportDirectory(Folder);
-			ImportFile(Path.Combine(Folder, "rpg", "game_over.tbl"));
+			ImportDirectory(Folder);
 		}
 
 
@@ -64,33 +78,32 @@ namespace KCD.Library.Tables
 				Trace.WriteLine(exception.GetReport());
 			}
 
-			Trace.WriteLine(string.Format("Loaded {0} tables.", Tables.Count));
+			Trace.WriteLine(string.Format("Loaded {0} tables.", Entities.Count));
 			return success;
 		}
 
 
 		private bool ImportFile(string filepath)
 		{
-			if (File.Exists(filepath))
+			string fullpath = Path.GetFullPath(filepath);
+			if (File.Exists(fullpath))
 			{
-				Table table = new Table(this, filepath);
-				if (table.Read())
-				{
-					Tables.Add(table);
-					table.Print();
-					Trace.WriteLine(string.Format("Loaded `{0}` with descriptor type {1}.", filepath, table.Key));
-					return true;
-				}
-				else
-				{
-					Trace.WriteLine(string.Format("Failed to load `{0}`.", filepath));
-					return false;
-				}
+				Table table = new Table(this, fullpath);
+				Tables.Add(table);
+				Entities.Add(table.Raw);
+				return true;
 			}
 			else
 			{
-				throw new FileNotFoundException(filepath);
+				Trace.WriteLine(string.Format("The file {0} does not exist.", fullpath));
+				return false;
 			}
+		}
+
+
+		public override string ToString()
+		{
+			return Name;
 		}
 
 

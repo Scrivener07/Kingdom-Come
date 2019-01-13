@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
-using KCD.Kaitai.Tables;
+using KCD.Library.Prototype;
 using Sharp.Reporting;
 
 namespace KCD
