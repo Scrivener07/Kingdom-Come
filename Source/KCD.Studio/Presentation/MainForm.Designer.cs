@@ -1,6 +1,6 @@
-﻿namespace KCD.Studio
+﻿namespace KCD.Studio.Presentation
 {
-	partial class Form1
+	partial class MainForm
 	{
 		/// <summary>
 		/// Required designer variable.
@@ -36,17 +36,17 @@
 			this.propertyGrid1.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.propertyGrid1.Location = new System.Drawing.Point(0, 0);
 			this.propertyGrid1.Name = "propertyGrid1";
-			this.propertyGrid1.Size = new System.Drawing.Size(800, 450);
+			this.propertyGrid1.Size = new System.Drawing.Size(784, 562);
 			this.propertyGrid1.TabIndex = 0;
 			// 
-			// Form1
+			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.ClientSize = new System.Drawing.Size(784, 562);
 			this.Controls.Add(this.propertyGrid1);
-			this.Name = "Form1";
-			this.Text = "Form1";
+			this.Name = "MainForm";
+			this.Text = "Studio";
 			this.Load += new System.EventHandler(this.OnLoad);
 			this.ResumeLayout(false);
 

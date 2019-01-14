@@ -1,20 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
-using System.Reflection;
 using Kaitai;
+using Sharp.ComponentModel;
 
 namespace KCD.Library.Tables.Adapters
 {
 	[TypeConverter(typeof(RowConverter))]
-	public class Row
+	public class Row : ObjectComponent<Table>
 	{
-		/// <summary>
-		/// The table which owns this row.
-		/// </summary>
-		private readonly Table Owner;
-
 		/// <summary>
 		/// The Kaitai row object.
 		/// </summary>
@@ -22,9 +16,10 @@ namespace KCD.Library.Tables.Adapters
 
 
 		/// <summary>
-		/// The column properties of this row.
+		/// This rows's column collection.
 		/// </summary>
-		public List<PropertyInfo> Columns { get; set; }
+		[TypeConverter(typeof(ColumnCollectionConverter))]
+		public ColumnCollection Columns { get; private set; }
 
 
 		// TODO: The following properties are temporary. This was a lazy shortcut to hookup type converters.
@@ -39,10 +34,10 @@ namespace KCD.Library.Tables.Adapters
 		public string OwnerKey { get { return Owner.Key; } }
 
 		[Category("Column")]
-		public string OwnerDatabase { get { return Owner.Owner.Name; } }
+		public string OwnerDatabase { get { return "Test Test 1 2 3"; } }
 
 
-		public Row(Table table, KaitaiStruct raw)
+		public Row(Table table, KaitaiStruct raw) : base(table)
 		{
 			if (table == null)
 			{
@@ -54,9 +49,8 @@ namespace KCD.Library.Tables.Adapters
 			}
 			else
 			{
-				Owner = table;
 				Raw = raw;
-				Columns = new List<PropertyInfo>();
+				Columns = new ColumnCollection();
 				GetColumns();
 			}
 		}
@@ -77,7 +71,7 @@ namespace KCD.Library.Tables.Adapters
 				)
 				{
 					var value = property.GetValue(Raw);
-					Columns.Add(property);
+					Columns.Add(new Column(this, property));
 					Trace.WriteLine(string.Format("{1}:{0}={2}", property.Name, property.PropertyType.Name, value));
 				}
 				else

@@ -2,6 +2,7 @@
 using System.Diagnostics;
 using System.Windows.Forms;
 using KCD.Library.Tables;
+using KCD.Studio.Presentation;
 
 namespace KCD.Studio
 {
@@ -22,7 +23,7 @@ namespace KCD.Studio
 
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new Form1());
+			Application.Run(new MainForm());
 		}
 
 

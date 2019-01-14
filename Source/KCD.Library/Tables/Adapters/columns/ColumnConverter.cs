@@ -4,27 +4,27 @@ using System.Globalization;
 
 namespace KCD.Library.Tables.Adapters
 {
-	internal class TableConverter : ExpandableObjectConverter
+	internal class ColumnConverter : ExpandableObjectConverter
 	{
 		public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type type)
 		{
-			if (type == typeof(string) && value is Table)
+			if (type == typeof(string) && value is Column)
 			{
-				Table table = (Table)value;
-				return table.FileName;
+				Column column = (Column)value;
+				return string.Format("Contains ? entries.");
 			}
 			return base.ConvertTo(context, culture, value, type);
 		}
 	}
 
 
-	internal class TableCollectionConverter : ExpandableObjectConverter
+	internal class ColumnCollectionConverter : ExpandableObjectConverter
 	{
 		public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type type)
 		{
-			if (type == typeof(string) && value is TableCollection)
+			if (type == typeof(string) && value is ColumnCollection)
 			{
-				return "Database's table data";
+				return "Row's column data";
 			}
 			return base.ConvertTo(context, culture, value, type);
 		}

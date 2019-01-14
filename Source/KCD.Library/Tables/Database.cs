@@ -5,6 +5,7 @@ using System.IO;
 using Kaitai;
 using KCD.Library.Tables.Adapters;
 using Sharp;
+using Sharp.ComponentModel;
 using Sharp.Reporting;
 
 namespace KCD.Library.Tables
@@ -12,7 +13,7 @@ namespace KCD.Library.Tables
 	/// <summary>
 	/// A database is a collection of tables.
 	/// </summary>
-	public class Database
+	public class Database : ObjectComponent<DataContext>
 	{
 		/// <summary>
 		/// The games vanilla data table directory.
@@ -27,16 +28,17 @@ namespace KCD.Library.Tables
 
 		[Category("Database")]
 		[Description("The tables belonging to this database.")]
-		[TypeConverter(typeof(RowCollectionConverter))]
+		[TypeConverter(typeof(TableCollectionConverter))]
 		public TableCollection Tables { get; private set; }
 
 
+		[Browsable(false)]
 		[Category("Database")]
 		[Description("The entities belonging to this database.")]
 		public BindingList<KaitaiStruct> Entities { get; private set; }
 
 
-		public Database(string folder, string name = "")
+		public Database(DataContext context, string folder, string name = "") : base(context)
 		{
 			if (!Directory.Exists(folder))
 			{

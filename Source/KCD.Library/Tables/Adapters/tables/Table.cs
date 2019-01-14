@@ -4,17 +4,13 @@ using System.ComponentModel;
 using System.IO;
 using System.Reflection;
 using Kaitai;
+using Sharp.ComponentModel;
 
 namespace KCD.Library.Tables.Adapters
 {
 	[TypeConverter(typeof(TableConverter))]
-	public class Table
+	public class Table : ObjectComponent<Database>
 	{
-		/// <summary>
-		/// The database which is responsible for loading this table.
-		/// </summary>
-		public readonly Database Owner;
-
 		/// <summary>
 		/// The key used to lookup this table definition.
 		/// </summary>
@@ -71,19 +67,14 @@ namespace KCD.Library.Tables.Adapters
 		/// </summary>
 		/// <param name="database">The database that owns this table.</param>
 		/// <param name="fullpath">The file name of this table.</param>
-		public Table(Database database, string fullpath)
+		public Table(Database database, string fullpath) : base(database)
 		{
-			if (database == null)
-			{
-				throw new ArgumentNullException("database", "A table requires an owning database which cannot be null.");
-			}
-			else if (!File.Exists(fullpath))
+			if (!File.Exists(fullpath))
 			{
 				throw new FileNotFoundException(string.Format("The file '{0}' does not exist. ", fullpath), fullpath);
 			}
 			else
 			{
-				Owner = database;
 				Info = new FileInfo(fullpath);
 				Rows = new RowCollection();
 
